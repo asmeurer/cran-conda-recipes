@@ -14,13 +14,13 @@ build:
 requirements:
   build:
     - readline
-    - system
+    - system    [linux]
     - tk
     - zlib
     - gmp
     - gsl
-    - cairo
-    - freeglut
+    - cairo     [linux]
+    - freeglut  [linux]
     - freetype
     - imaging
     - jpeg
@@ -34,13 +34,13 @@ requirements:
 
   run:
     - readline
-    - system
+    - system    [linux]
     - tk
     - zlib
     - gmp
     - gsl
-    - cairo
-    - freeglut
+    - cairo     [linux]
+    - freeglut  [linux]
     - freetype
     - imaging
     - jpeg
