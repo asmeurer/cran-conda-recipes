@@ -9,6 +9,10 @@ source:
 build:
   number: 0
 
+requirements:
+  build:
+    - chrpath
+
 about:
   home: http://www.gnu.org/software/gsl/
   license: GPL 3
