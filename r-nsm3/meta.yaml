@@ -1,0 +1,61 @@
+package:
+  name: r-nsm3
+  version: 1.1
+
+source:
+  fn: NSM3_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/NSM3_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-combinat
+    - r-partitions
+    - r-agricolae
+    - r-ash
+    - r-binom
+    - r-bsda
+    - r-coin
+    - r-epitools
+    - r-fancova
+    - r-gtools
+    - r-hmisc
+    - r-kmci
+    - r-metafor
+    - r-nortest
+    - r-np
+    - r-quantreg
+    - r-rfit
+    - r-semipar
+    - r-suppdists
+    - r-waveslim
+  run:
+    - r
+    - r-combinat
+    - r-partitions
+    - r-agricolae
+    - r-ash
+    - r-binom
+    - r-bsda
+    - r-coin
+    - r-epitools
+    - r-fancova
+    - r-gtools
+    - r-hmisc
+    - r-kmci
+    - r-metafor
+    - r-nortest
+    - r-np
+    - r-quantreg
+    - r-rfit
+    - r-semipar
+    - r-suppdists
+    - r-waveslim
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-propclust
+  version: 1.4.2
+
+source:
+  fn: PropClust_1.4-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/PropClust_1.4-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flashclust
+    - r-dynamictreecut
+  run:
+    - r
+    - r-flashclust
+    - r-dynamictreecut
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

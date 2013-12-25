@@ -1,0 +1,19 @@
+package:
+  name: r-rngwell19937
+  version: 0.5.4
+
+source:
+  fn: rngwell19937_0.5-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rngwell19937_0.5-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

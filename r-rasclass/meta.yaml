@@ -1,0 +1,27 @@
+package:
+  name: r-rasclass
+  version: 0.2.1
+
+source:
+  fn: rasclass_0.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/rasclass_0.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-rsnns
+    - r-e1071
+    - r-randomforest
+  run:
+    - r-car
+    - r-rsnns
+    - r-e1071
+    - r-randomforest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

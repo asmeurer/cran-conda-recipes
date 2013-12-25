@@ -1,0 +1,27 @@
+package:
+  name: r-vines
+  version: 1.0.8
+
+source:
+  fn: vines_1.0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/vines_1.0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-copula
+    - r-adgoftest
+    - r-cubature
+    - r-tsp
+  run:
+    - r-copula
+    - r-adgoftest
+    - r-cubature
+    - r-tsp
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

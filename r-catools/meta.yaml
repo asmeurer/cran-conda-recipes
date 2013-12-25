@@ -1,0 +1,23 @@
+package:
+  name: r-catools
+  version: 1.16
+
+source:
+  fn: caTools_1.16.tar.gz
+  url: http://cran.r-project.org/src/contrib/caTools_1.16.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bitops
+  run:
+    - r
+    - r-bitops
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

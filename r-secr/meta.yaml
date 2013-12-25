@@ -1,0 +1,25 @@
+package:
+  name: r-secr
+  version: 2.7.0
+
+source:
+  fn: secr_2.7.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/secr_2.7.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-abind
+    - r-sp
+  run:
+    - r
+    - r-abind
+    - r-sp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

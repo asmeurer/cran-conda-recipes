@@ -1,0 +1,23 @@
+package:
+  name: r-matrixstats
+  version: 0.8.12
+
+source:
+  fn: matrixStats_0.8.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/matrixStats_0.8.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rmethodss3
+  run:
+    - r
+    - r-rmethodss3
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

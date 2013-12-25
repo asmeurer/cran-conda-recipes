@@ -1,0 +1,23 @@
+package:
+  name: r-ff
+  version: 2.2.12
+
+source:
+  fn: ff_2.2-12.tar.gz
+  url: http://cran.r-project.org/src/contrib/ff_2.2-12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bit
+  run:
+    - r
+    - r-bit
+
+about:
+  license: GPL-2 | file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,19 @@
+package:
+  name: r-bbmm
+  version: 3.0
+
+source:
+  fn: BBMM_3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/BBMM_3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GNU General Public License
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

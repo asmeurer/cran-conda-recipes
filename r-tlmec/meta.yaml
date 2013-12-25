@@ -1,0 +1,23 @@
+package:
+  name: r-tlmec
+  version: 0.0.2
+
+source:
+  fn: tlmec_0.0-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/tlmec_0.0-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+  run:
+    - r
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 3.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

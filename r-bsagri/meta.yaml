@@ -1,0 +1,29 @@
+package:
+  name: r-bsagri
+  version: 0.1.8
+
+source:
+  fn: BSagri_0.1-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/BSagri_0.1-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gamlss
+    - r-multcomp
+    - r-mcpan
+    - r-mvtnorm
+    - r-mratios
+  run:
+    - r-gamlss
+    - r-multcomp
+    - r-mcpan
+    - r-mvtnorm
+    - r-mratios
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

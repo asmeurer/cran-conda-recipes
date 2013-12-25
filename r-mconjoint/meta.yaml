@@ -1,0 +1,19 @@
+package:
+  name: r-mconjoint
+  version: 0.1
+
+source:
+  fn: MConjoint_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/MConjoint_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

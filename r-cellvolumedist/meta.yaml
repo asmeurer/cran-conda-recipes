@@ -1,0 +1,23 @@
+package:
+  name: r-cellvolumedist
+  version: 1.3
+
+source:
+  fn: cellVolumeDist_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/cellVolumeDist_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-minpacklm
+    - r-gplots
+  run:
+    - r-minpacklm
+    - r-gplots
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

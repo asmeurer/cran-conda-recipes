@@ -1,0 +1,25 @@
+package:
+  name: r-rsap
+  version: 0.9
+
+source:
+  fn: RSAP_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/RSAP_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-yaml
+    - r-reshape
+  run:
+    - r
+    - r-yaml
+    - r-reshape
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

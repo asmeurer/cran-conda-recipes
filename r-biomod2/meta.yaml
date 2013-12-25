@@ -1,0 +1,35 @@
+package:
+  name: r-biomod2
+  version: 3.1.25
+
+source:
+  fn: biomod2_3.1-25.tar.gz
+  url: http://cran.r-project.org/src/contrib/biomod2_3.1-25.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sp
+    - r-raster
+    - r-abind
+    - r-rastervis
+    - r-proc
+    - r-gbm
+    - r-mda
+    - r-randomforest
+  run:
+    - r-sp
+    - r-raster
+    - r-abind
+    - r-rastervis
+    - r-proc
+    - r-gbm
+    - r-mda
+    - r-randomforest
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

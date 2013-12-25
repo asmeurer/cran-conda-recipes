@@ -1,0 +1,29 @@
+package:
+  name: r-mcspatial
+  version: 2.0
+
+source:
+  fn: McSpatial_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/McSpatial_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-locfit
+    - r-maptools
+    - r-quantreg
+    - r-rann
+    - r-sparsem
+  run:
+    - r-locfit
+    - r-maptools
+    - r-quantreg
+    - r-rann
+    - r-sparsem
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

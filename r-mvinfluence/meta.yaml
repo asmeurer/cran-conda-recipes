@@ -1,0 +1,23 @@
+package:
+  name: r-mvinfluence
+  version: 0.6
+
+source:
+  fn: mvinfluence_0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/mvinfluence_0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-heplots
+  run:
+    - r-car
+    - r-heplots
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

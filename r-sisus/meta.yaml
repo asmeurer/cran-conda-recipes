@@ -1,0 +1,55 @@
+package:
+  name: r-sisus
+  version: 0.09.011
+
+source:
+  fn: sisus_0.09-011.tar.gz
+  url: http://cran.r-project.org/src/contrib/sisus_0.09-011.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotate
+    - r-ash
+    - r-biobase
+    - r-coda
+    - r-ellipse
+    - r-gclus
+    - r-gdata
+    - r-geneplotter
+    - r-gplots
+    - r-gtools
+    - r-hdrcde
+    - r-moments
+    - r-mvtnorm
+    - r-polyapost
+    - r-rcdd
+    - r-rcolorbrewer
+    - r-sm
+  run:
+    - r
+    - r-annotate
+    - r-ash
+    - r-biobase
+    - r-coda
+    - r-ellipse
+    - r-gclus
+    - r-gdata
+    - r-geneplotter
+    - r-gplots
+    - r-gtools
+    - r-hdrcde
+    - r-moments
+    - r-mvtnorm
+    - r-polyapost
+    - r-rcdd
+    - r-rcolorbrewer
+    - r-sm
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

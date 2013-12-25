@@ -1,0 +1,23 @@
+package:
+  name: r-sendplot
+  version: 4.0.0
+
+source:
+  fn: sendplot_4.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/sendplot_4.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rtiff
+  run:
+    - r
+    - r-rtiff
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

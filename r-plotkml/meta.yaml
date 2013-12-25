@@ -1,0 +1,59 @@
+package:
+  name: r-plotkml
+  version: 0.4.0
+
+source:
+  fn: plotKML_0.4-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/plotKML_0.4-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-sp
+    - r-raster
+    - r-rgdal
+    - r-spacetime
+    - r-colorspace
+    - r-plotrix
+    - r-dismo
+    - r-aqp
+    - r-pixmap
+    - r-plyr
+    - r-stringr
+    - r-colorramps
+    - r-scales
+    - r-gstat
+    - r-zoo
+    - r-xts
+    - r-rcolorbrewer
+    - r-rsaga
+  run:
+    - r
+    - r-xml
+    - r-sp
+    - r-raster
+    - r-rgdal
+    - r-spacetime
+    - r-colorspace
+    - r-plotrix
+    - r-dismo
+    - r-aqp
+    - r-pixmap
+    - r-plyr
+    - r-stringr
+    - r-colorramps
+    - r-scales
+    - r-gstat
+    - r-zoo
+    - r-xts
+    - r-rcolorbrewer
+    - r-rsaga
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

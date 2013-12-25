@@ -1,0 +1,23 @@
+package:
+  name: r-logistf
+  version: 1.21
+
+source:
+  fn: logistf_1.21.tar.gz
+  url: http://cran.r-project.org/src/contrib/logistf_1.21.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mice
+  run:
+    - r
+    - r-mice
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

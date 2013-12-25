@@ -1,0 +1,27 @@
+package:
+  name: r-mturkr
+  version: 0.3.5
+
+source:
+  fn: MTurkR_0.3.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/MTurkR_0.3.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-bitops
+    - r-rcurl
+    - r-digest
+    - r-xml
+  run:
+    - r-bitops
+    - r-rcurl
+    - r-digest
+    - r-xml
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

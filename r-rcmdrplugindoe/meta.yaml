@@ -1,0 +1,31 @@
+package:
+  name: r-rcmdrplugindoe
+  version: 0.12.2
+
+source:
+  fn: RcmdrPlugin.DoE_0.12-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcmdrPlugin.DoE_0.12-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-doebase
+    - r-frf2
+    - r-doewrapper
+    - r-relimp
+    - r-rcmdr
+  run:
+    - r
+    - r-doebase
+    - r-frf2
+    - r-doewrapper
+    - r-relimp
+    - r-rcmdr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

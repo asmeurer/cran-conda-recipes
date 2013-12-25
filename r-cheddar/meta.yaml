@@ -1,0 +1,19 @@
+package:
+  name: r-cheddar
+  version: 0.1.624
+
+source:
+  fn: cheddar_0.1-624.tar.gz
+  url: http://cran.r-project.org/src/contrib/cheddar_0.1-624.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: BSD 3-clause License
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

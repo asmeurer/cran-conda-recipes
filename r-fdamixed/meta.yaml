@@ -1,0 +1,25 @@
+package:
+  name: r-fdamixed
+  version: 0.2
+
+source:
+  fn: fdaMixed_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/fdaMixed_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-formula
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-formula
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

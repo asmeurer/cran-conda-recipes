@@ -1,0 +1,35 @@
+package:
+  name: r-georob
+  version: 0.1.1
+
+source:
+  fn: georob_0.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/georob_0.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-constrainedkriging
+    - r-lmtest
+    - r-nleqslv
+    - r-quantreg
+    - r-randomfields
+    - r-robustbase
+  run:
+    - r
+    - r-sp
+    - r-constrainedkriging
+    - r-lmtest
+    - r-nleqslv
+    - r-quantreg
+    - r-randomfields
+    - r-robustbase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

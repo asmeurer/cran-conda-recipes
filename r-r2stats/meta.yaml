@@ -1,0 +1,33 @@
+package:
+  name: r-r2stats
+  version: 0.68.32
+
+source:
+  fn: R2STATS_0.68-32.tar.gz
+  url: http://cran.r-project.org/src/contrib/R2STATS_0.68-32.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-proto
+    - r-lme4
+    - r-cairodevice
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+    - r-rgtk2extras
+  run:
+    - r
+    - r-proto
+    - r-lme4
+    - r-cairodevice
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+    - r-rgtk2extras
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

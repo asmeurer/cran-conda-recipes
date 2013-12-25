@@ -1,0 +1,29 @@
+package:
+  name: r-cagui
+  version: 0.1.4
+
+source:
+  fn: caGUI_0.1-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/caGUI_0.1-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgl
+    - r-ca
+    - r-tcltk2
+    - r-rodbc
+  run:
+    - r
+    - r-rgl
+    - r-ca
+    - r-tcltk2
+    - r-rodbc
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

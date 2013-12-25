@@ -1,0 +1,29 @@
+package:
+  name: r-phylotools
+  version: 0.1.2
+
+source:
+  fn: phylotools_0.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/phylotools_0.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-seqrflp
+    - r-ape
+    - r-picante
+    - r-spaa
+    - r-fields
+  run:
+    - r-seqrflp
+    - r-ape
+    - r-picante
+    - r-spaa
+    - r-fields
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

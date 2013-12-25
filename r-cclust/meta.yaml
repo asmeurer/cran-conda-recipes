@@ -1,0 +1,19 @@
+package:
+  name: r-cclust
+  version: 0.6.17
+
+source:
+  fn: cclust_0.6-17.tar.gz
+  url: http://cran.r-project.org/src/contrib/cclust_0.6-17.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

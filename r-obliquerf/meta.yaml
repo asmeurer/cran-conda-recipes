@@ -1,0 +1,29 @@
+package:
+  name: r-obliquerf
+  version: 0.3
+
+source:
+  fn: obliqueRF_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/obliqueRF_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rocr
+    - r-pls
+    - r-mda
+    - r-e1071
+  run:
+    - r
+    - r-rocr
+    - r-pls
+    - r-mda
+    - r-e1071
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-reports
+  version: 0.1.2
+
+source:
+  fn: reports_0.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/reports_0.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-knitr
+    - r-knitcitations
+  run:
+    - r
+    - r-knitr
+    - r-knitcitations
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

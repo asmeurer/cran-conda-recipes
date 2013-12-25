@@ -1,0 +1,25 @@
+package:
+  name: r-b2z
+  version: 1.4
+
+source:
+  fn: B2Z_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/B2Z_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-numderiv
+    - r-coda
+    - r-mvtnorm
+  run:
+    - r-numderiv
+    - r-coda
+    - r-mvtnorm
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

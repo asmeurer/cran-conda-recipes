@@ -1,0 +1,21 @@
+package:
+  name: r-htmlutils
+  version: 0.1.5
+
+source:
+  fn: HTMLUtils_0.1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/HTMLUtils_0.1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-r2html
+  run:
+    - r-r2html
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

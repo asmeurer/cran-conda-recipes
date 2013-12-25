@@ -1,0 +1,29 @@
+package:
+  name: r-stampp
+  version: 1.1
+
+source:
+  fn: StAMPP_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/StAMPP_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-doparallel
+    - r-foreach
+    - r-adegenet
+    - r-pegas
+  run:
+    - r
+    - r-doparallel
+    - r-foreach
+    - r-adegenet
+    - r-pegas
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

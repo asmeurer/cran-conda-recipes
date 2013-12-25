@@ -1,0 +1,25 @@
+package:
+  name: r-paleotree
+  version: 1.8.2
+
+source:
+  fn: paleotree_1.8.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/paleotree_1.8.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-phangorn
+  run:
+    - r
+    - r-ape
+    - r-phangorn
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

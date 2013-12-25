@@ -1,0 +1,23 @@
+package:
+  name: r-gamlsstr
+  version: 4.2.6
+
+source:
+  fn: gamlss.tr_4.2-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/gamlss.tr_4.2-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gamlss
+  run:
+    - r
+    - r-gamlss
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

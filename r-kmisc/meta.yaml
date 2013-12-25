@@ -1,0 +1,27 @@
+package:
+  name: r-kmisc
+  version: 0.5.0
+
+source:
+  fn: Kmisc_0.5.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/Kmisc_0.5.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-datatable
+    - r-knitr
+    - r-markdown
+  run:
+    - r-rcpp
+    - r-datatable
+    - r-knitr
+    - r-markdown
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

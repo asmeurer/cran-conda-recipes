@@ -1,0 +1,23 @@
+package:
+  name: r-sasxport
+  version: 1.3.6
+
+source:
+  fn: SASxport_1.3.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/SASxport_1.3.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chron
+  run:
+    - r
+    - r-chron
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

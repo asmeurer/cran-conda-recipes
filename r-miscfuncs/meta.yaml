@@ -1,0 +1,23 @@
+package:
+  name: r-miscfuncs
+  version: 1.2.4
+
+source:
+  fn: miscFuncs_1.2-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/miscFuncs_1.2-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-roxygen2
+    - r-mvtnorm
+  run:
+    - r-roxygen2
+    - r-mvtnorm
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,39 @@
+package:
+  name: r-rplos
+  version: 0.3.6
+
+source:
+  fn: rplos_0.3.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/rplos_0.3.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-rcurl
+    - r-rjsonio
+    - r-xml
+    - r-plyr
+    - r-stringr
+    - r-googlevis
+    - r-httr
+    - r-lubridate
+    - r-reshape2
+  run:
+    - r-ggplot2
+    - r-rcurl
+    - r-rjsonio
+    - r-xml
+    - r-plyr
+    - r-stringr
+    - r-googlevis
+    - r-httr
+    - r-lubridate
+    - r-reshape2
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

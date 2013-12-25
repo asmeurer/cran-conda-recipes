@@ -1,0 +1,35 @@
+package:
+  name: r-wppexplorer
+  version: 1.2.0
+
+source:
+  fn: wppExplorer_1.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/wppExplorer_1.2-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-shiny
+    - r-plyr
+    - r-reshape2
+    - r-googlevis
+    - r-wpp2012
+    - r-hmisc
+    - r-ggplot2
+  run:
+    - r
+    - r-shiny
+    - r-plyr
+    - r-reshape2
+    - r-googlevis
+    - r-wpp2012
+    - r-hmisc
+    - r-ggplot2
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

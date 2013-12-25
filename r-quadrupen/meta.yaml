@@ -1,0 +1,29 @@
+package:
+  name: r-quadrupen
+  version: 0.2.3
+
+source:
+  fn: quadrupen_0.2-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/quadrupen_0.2-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-reshape2
+    - r-scales
+  run:
+    - r-ggplot2
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-reshape2
+    - r-scales
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

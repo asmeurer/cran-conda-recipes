@@ -1,0 +1,39 @@
+package:
+  name: r-spikeslabgam
+  version: 1.1.6
+
+source:
+  fn: spikeSlabGAM_1.1-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/spikeSlabGAM_1.1-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-r2winbugs
+    - r-reshape
+    - r-scales
+    - r-akima
+    - r-gridextra
+    - r-mcmcpack
+    - r-coda
+    - r-mvtnorm
+  run:
+    - r
+    - r-ggplot2
+    - r-r2winbugs
+    - r-reshape
+    - r-scales
+    - r-akima
+    - r-gridextra
+    - r-mcmcpack
+    - r-coda
+    - r-mvtnorm
+
+about:
+  license: CC BY-NC-SA 3.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

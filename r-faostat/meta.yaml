@@ -1,0 +1,35 @@
+package:
+  name: r-faostat
+  version: 1.4
+
+source:
+  fn: FAOSTAT_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/FAOSTAT_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjsonio
+    - r-plyr
+    - r-reshape2
+    - r-datatable
+    - r-classint
+    - r-ggplot2
+    - r-labeling
+    - r-scales
+  run:
+    - r-rjsonio
+    - r-plyr
+    - r-reshape2
+    - r-datatable
+    - r-classint
+    - r-ggplot2
+    - r-labeling
+    - r-scales
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

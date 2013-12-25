@@ -1,0 +1,25 @@
+package:
+  name: r-cepp
+  version: 1.0
+
+source:
+  fn: cepp_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/cepp_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-trust
+    - r-randtoolbox
+  run:
+    - r
+    - r-trust
+    - r-randtoolbox
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

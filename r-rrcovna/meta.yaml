@@ -1,0 +1,25 @@
+package:
+  name: r-rrcovna
+  version: 0.4.4
+
+source:
+  fn: rrcovNA_0.4-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rrcovNA_0.4-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rrcov
+    - r-robustbase
+    - r-norm
+  run:
+    - r-rrcov
+    - r-robustbase
+    - r-norm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

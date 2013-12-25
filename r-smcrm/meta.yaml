@@ -1,0 +1,19 @@
+package:
+  name: r-smcrm
+  version: 0.0.3
+
+source:
+  fn: SMCRM_0.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/SMCRM_0.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

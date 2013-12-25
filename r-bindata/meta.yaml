@@ -1,0 +1,25 @@
+package:
+  name: r-bindata
+  version: 0.9.19
+
+source:
+  fn: bindata_0.9-19.tar.gz
+  url: http://cran.r-project.org/src/contrib/bindata_0.9-19.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-e1071
+    - r-mvtnorm
+  run:
+    - r
+    - r-e1071
+    - r-mvtnorm
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-supportces
+  version: 0.3.0
+
+source:
+  fn: support.CEs_0.3-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/support.CEs_0.3-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-doebase
+    - r-simex
+  run:
+    - r-doebase
+    - r-simex
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

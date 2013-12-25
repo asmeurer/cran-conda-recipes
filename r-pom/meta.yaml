@@ -1,0 +1,21 @@
+package:
+  name: r-pom
+  version: 1.1
+
+source:
+  fn: pom_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/pom_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-matrixcalc
+  run:
+    - r-matrixcalc
+
+about:
+  license: GNU General Public License
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

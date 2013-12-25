@@ -1,0 +1,25 @@
+package:
+  name: r-grc
+  version: 0.4.1
+
+source:
+  fn: gRc_0.4-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/gRc_0.4-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-grbase
+    - r-graph
+    - r-rgraphviz
+  run:
+    - r-grbase
+    - r-graph
+    - r-rgraphviz
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

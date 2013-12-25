@@ -1,0 +1,23 @@
+package:
+  name: r-contrast
+  version: 0.19
+
+source:
+  fn: contrast_0.19.tar.gz
+  url: http://cran.r-project.org/src/contrib/contrast_0.19.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rms
+  run:
+    - r
+    - r-rms
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

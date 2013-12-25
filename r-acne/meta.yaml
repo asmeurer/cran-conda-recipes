@@ -1,0 +1,33 @@
+package:
+  name: r-acne
+  version: 0.7.0
+
+source:
+  fn: ACNE_0.7.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/ACNE_0.7.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-aromaaffymetrix
+    - r-rmethodss3
+    - r-roo
+    - r-rutils
+    - r-matrixstats
+    - r-rfilesets
+  run:
+    - r
+    - r-aromaaffymetrix
+    - r-rmethodss3
+    - r-roo
+    - r-rutils
+    - r-matrixstats
+    - r-rfilesets
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

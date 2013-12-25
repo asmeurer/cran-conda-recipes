@@ -1,0 +1,29 @@
+package:
+  name: r-fit4nm
+  version: 3.3.3
+
+source:
+  fn: fit4NM_3.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/fit4NM_3.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gwidgets
+    - r-tkrplot
+    - r-rgtk2
+    - r-gwidgetsrgtk2
+    - r-cairodevice
+  run:
+    - r-gwidgets
+    - r-tkrplot
+    - r-rgtk2
+    - r-gwidgetsrgtk2
+    - r-cairodevice
+
+about:
+  license: LGPL-2.1
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

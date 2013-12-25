@@ -1,0 +1,37 @@
+package:
+  name: r-aromacn
+  version: 1.5.0
+
+source:
+  fn: aroma.cn_1.5.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/aroma.cn_1.5.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rutils
+    - r-aromacore
+    - r-rmethodss3
+    - r-roo
+    - r-rfilesets
+    - r-rcache
+    - r-matrixstats
+    - r-pscbs
+  run:
+    - r
+    - r-rutils
+    - r-aromacore
+    - r-rmethodss3
+    - r-roo
+    - r-rfilesets
+    - r-rcache
+    - r-matrixstats
+    - r-pscbs
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

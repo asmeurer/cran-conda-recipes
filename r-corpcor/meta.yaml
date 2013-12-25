@@ -1,0 +1,21 @@
+package:
+  name: r-corpcor
+  version: 1.6.6
+
+source:
+  fn: corpcor_1.6.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/corpcor_1.6.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

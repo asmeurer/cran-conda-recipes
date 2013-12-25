@@ -1,0 +1,29 @@
+package:
+  name: r-hyperdirichlet
+  version: 1.4.9
+
+source:
+  fn: hyperdirichlet_1.4-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/hyperdirichlet_1.4-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-aylmer
+    - r-abind
+    - r-mvtnorm
+    - r-cubature
+  run:
+    - r
+    - r-aylmer
+    - r-abind
+    - r-mvtnorm
+    - r-cubature
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

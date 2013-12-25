@@ -1,0 +1,31 @@
+package:
+  name: r-bayesthresh
+  version: 2.0.1
+
+source:
+  fn: Bayesthresh_2.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Bayesthresh_2.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lme4
+    - r-vgam
+    - r-mvtnorm
+    - r-matrixcalc
+    - r-coda
+  run:
+    - r
+    - r-lme4
+    - r-vgam
+    - r-mvtnorm
+    - r-matrixcalc
+    - r-coda
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

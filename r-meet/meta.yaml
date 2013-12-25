@@ -1,0 +1,31 @@
+package:
+  name: r-meet
+  version: 5.1.1
+
+source:
+  fn: MEET_5.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/MEET_5.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-seqinr
+    - r-pcamethods
+    - r-rocr
+    - r-hmisc
+    - r-seqlogo
+  run:
+    - r
+    - r-seqinr
+    - r-pcamethods
+    - r-rocr
+    - r-hmisc
+    - r-seqlogo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-rglpk
+  version: 0.5.2
+
+source:
+  fn: Rglpk_0.5-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rglpk_0.5-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-slam
+  run:
+    - r-slam
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

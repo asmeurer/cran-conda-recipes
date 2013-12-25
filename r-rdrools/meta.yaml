@@ -1,0 +1,29 @@
+package:
+  name: r-rdrools
+  version: 0.0.2
+
+source:
+  fn: Rdrools_0.0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rdrools_0.0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-rdroolsjars
+    - r-rjava
+    - r-rdroolsjars
+  run:
+    - r
+    - r-rjava
+    - r-rdroolsjars
+    - r-rjava
+    - r-rdroolsjars
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

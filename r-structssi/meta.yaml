@@ -1,0 +1,31 @@
+package:
+  name: r-structssi
+  version: 1.0.5
+
+source:
+  fn: structSSI_1.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/structSSI_1.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-multtest
+    - r-igraph
+    - r-rgraphviz
+    - r-rcolorbrewer
+    - r-classint
+    - r-graph
+  run:
+    - r-multtest
+    - r-igraph
+    - r-rgraphviz
+    - r-rcolorbrewer
+    - r-classint
+    - r-graph
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

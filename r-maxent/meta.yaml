@@ -1,0 +1,27 @@
+package:
+  name: r-maxent
+  version: 1.3.3.1
+
+source:
+  fn: maxent_1.3.3.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/maxent_1.3.3.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sparsem
+    - r-tm
+    - r-rcpp
+  run:
+    - r
+    - r-sparsem
+    - r-tm
+    - r-rcpp
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

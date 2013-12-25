@@ -1,0 +1,25 @@
+package:
+  name: r-lim
+  version: 1.4.4
+
+source:
+  fn: LIM_1.4.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/LIM_1.4.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limsolve
+    - r-diagram
+  run:
+    - r
+    - r-limsolve
+    - r-diagram
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

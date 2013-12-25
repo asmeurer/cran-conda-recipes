@@ -1,0 +1,21 @@
+package:
+  name: r-p3statemsm
+  version: 1.3
+
+source:
+  fn: p3state.msm_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/p3state.msm_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

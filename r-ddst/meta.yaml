@@ -1,0 +1,25 @@
+package:
+  name: r-ddst
+  version: 1.03
+
+source:
+  fn: ddst_1.03.tar.gz
+  url: http://cran.r-project.org/src/contrib/ddst_1.03.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-orthopolynom
+    - r-evd
+  run:
+    - r
+    - r-orthopolynom
+    - r-evd
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

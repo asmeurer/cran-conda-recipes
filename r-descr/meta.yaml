@@ -1,0 +1,21 @@
+package:
+  name: r-descr
+  version: 1.0.2
+
+source:
+  fn: descr_1.0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/descr_1.0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-xtable
+  run:
+    - r-xtable
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

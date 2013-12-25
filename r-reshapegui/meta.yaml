@@ -1,0 +1,27 @@
+package:
+  name: r-reshapegui
+  version: 0.1.0
+
+source:
+  fn: reshapeGUI_0.1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/reshapeGUI_0.1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-reshape2
+    - r-plyr
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+  run:
+    - r-reshape2
+    - r-plyr
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

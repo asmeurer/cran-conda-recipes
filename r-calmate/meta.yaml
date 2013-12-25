@@ -1,0 +1,33 @@
+package:
+  name: r-calmate
+  version: 0.11.0
+
+source:
+  fn: calmate_0.11.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/calmate_0.11.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rutils
+    - r-aromacore
+    - r-rmethodss3
+    - r-roo
+    - r-matrixstats
+    - r-rfilesets
+  run:
+    - r
+    - r-rutils
+    - r-aromacore
+    - r-rmethodss3
+    - r-roo
+    - r-matrixstats
+    - r-rfilesets
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

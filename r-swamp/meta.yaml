@@ -1,0 +1,25 @@
+package:
+  name: r-swamp
+  version: 1.2.3
+
+source:
+  fn: swamp_1.2.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/swamp_1.2.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-impute
+    - r-amap
+    - r-gplots
+  run:
+    - r-impute
+    - r-amap
+    - r-gplots
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

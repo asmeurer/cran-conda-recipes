@@ -1,0 +1,23 @@
+package:
+  name: r-fbranks
+  version: 2.0
+
+source:
+  fn: fbRanks_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/fbRanks_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-igraph
+    - r-stringr
+  run:
+    - r-igraph
+    - r-stringr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

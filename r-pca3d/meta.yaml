@@ -1,0 +1,21 @@
+package:
+  name: r-pca3d
+  version: 0.2
+
+source:
+  fn: pca3d_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/pca3d_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rgl
+  run:
+    - r-rgl
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

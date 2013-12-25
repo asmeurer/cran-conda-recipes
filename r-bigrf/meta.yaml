@@ -1,0 +1,27 @@
+package:
+  name: r-bigrf
+  version: 0.1.6
+
+source:
+  fn: bigrf_0.1-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/bigrf_0.1-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bigmemory
+    - r-bh
+    - r-foreach
+  run:
+    - r
+    - r-bigmemory
+    - r-bh
+    - r-foreach
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

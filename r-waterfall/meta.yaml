@@ -1,0 +1,21 @@
+package:
+  name: r-waterfall
+  version: 0.9.9.20121030
+
+source:
+  fn: waterfall_0.9.9.20121030.tar.gz
+  url: http://cran.r-project.org/src/contrib/waterfall_0.9.9.20121030.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

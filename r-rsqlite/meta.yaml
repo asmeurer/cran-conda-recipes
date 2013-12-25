@@ -1,0 +1,25 @@
+package:
+  name: r-rsqlite
+  version: 0.11.4
+
+source:
+  fn: RSQLite_0.11.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/RSQLite_0.11.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-dbi
+    - r-dbi
+  run:
+    - r
+    - r-dbi
+    - r-dbi
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

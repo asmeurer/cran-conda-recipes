@@ -1,0 +1,27 @@
+package:
+  name: r-grim
+  version: 0.1.17
+
+source:
+  fn: gRim_0.1-17.tar.gz
+  url: http://cran.r-project.org/src/contrib/gRim_0.1-17.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-grbase
+    - r-grain
+    - r-igraph
+  run:
+    - r
+    - r-grbase
+    - r-grain
+    - r-igraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

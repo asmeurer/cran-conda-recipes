@@ -1,0 +1,25 @@
+package:
+  name: r-mvn
+  version: 1.0
+
+source:
+  fn: MVN_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/MVN_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-nortest
+    - r-moments
+  run:
+    - r
+    - r-nortest
+    - r-moments
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

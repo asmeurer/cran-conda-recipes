@@ -1,0 +1,23 @@
+package:
+  name: r-phyclust
+  version: 0.1.15
+
+source:
+  fn: phyclust_0.1-15.tar.gz
+  url: http://cran.r-project.org/src/contrib/phyclust_0.1-15.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+  run:
+    - r
+    - r-ape
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-runjags
+  version: 1.2.0.7
+
+source:
+  fn: runjags_1.2.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/runjags_1.2.0-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coda
+  run:
+    - r
+    - r-coda
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-hisemi
+  version: 1.0.319
+
+source:
+  fn: hisemi_1.0-319.tar.gz
+  url: http://cran.r-project.org/src/contrib/hisemi_1.0-319.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iso
+    - r-fda
+  run:
+    - r
+    - r-iso
+    - r-fda
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-mrmre
+  version: 2.0.4
+
+source:
+  fn: mRMRe_2.0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/mRMRe_2.0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-igraph
+  run:
+    - r-igraph
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

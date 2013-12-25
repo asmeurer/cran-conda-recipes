@@ -1,0 +1,33 @@
+package:
+  name: r-seqgrapher
+  version: 0.4.8.3
+
+source:
+  fn: SeqGrapheR_0.4.8.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/SeqGrapheR_0.4.8.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-igraph
+    - r-rggobi
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+    - r-cairodevice
+  run:
+    - r
+    - r-biostrings
+    - r-igraph
+    - r-rggobi
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+    - r-cairodevice
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

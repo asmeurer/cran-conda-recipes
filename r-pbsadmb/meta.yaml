@@ -1,0 +1,23 @@
+package:
+  name: r-pbsadmb
+  version: 0.66.87
+
+source:
+  fn: PBSadmb_0.66.87.tar.gz
+  url: http://cran.r-project.org/src/contrib/PBSadmb_0.66.87.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pbsmodelling
+  run:
+    - r
+    - r-pbsmodelling
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-imputeyn
+  version: 1.1
+
+source:
+  fn: imputeYn_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/imputeYn_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-quadprog
+    - r-emplik
+    - r-mvtnorm
+  run:
+    - r-quadprog
+    - r-emplik
+    - r-mvtnorm
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

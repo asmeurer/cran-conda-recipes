@@ -1,0 +1,23 @@
+package:
+  name: r-rsolnp
+  version: 1.14
+
+source:
+  fn: Rsolnp_1.14.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rsolnp_1.14.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-truncnorm
+  run:
+    - r
+    - r-truncnorm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

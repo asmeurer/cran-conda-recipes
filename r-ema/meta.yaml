@@ -1,0 +1,39 @@
+package:
+  name: r-ema
+  version: 1.4.3
+
+source:
+  fn: EMA_1.4.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/EMA_1.4.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-siggenes
+    - r-affy
+    - r-multtest
+    - r-xtable
+    - r-gcrma
+    - r-heatmapplus
+    - r-biomart
+    - r-gsa
+    - r-factominer
+  run:
+    - r
+    - r-siggenes
+    - r-affy
+    - r-multtest
+    - r-xtable
+    - r-gcrma
+    - r-heatmapplus
+    - r-biomart
+    - r-gsa
+    - r-factominer
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,31 @@
+package:
+  name: r-konlp
+  version: 0.76.9
+
+source:
+  fn: KoNLP_0.76.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/KoNLP_0.76.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-stringr
+    - r-hash
+    - r-tau
+    - r-sejong
+  run:
+    - r
+    - r-rjava
+    - r-stringr
+    - r-hash
+    - r-tau
+    - r-sejong
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

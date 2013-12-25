@@ -1,0 +1,27 @@
+package:
+  name: r-masterbayes
+  version: 2.50.2
+
+source:
+  fn: MasterBayes_2.50.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/MasterBayes_2.50.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-genetics
+    - r-gtools
+    - r-kinship2
+  run:
+    - r-coda
+    - r-genetics
+    - r-gtools
+    - r-kinship2
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

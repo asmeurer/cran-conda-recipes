@@ -1,0 +1,23 @@
+package:
+  name: r-g1dbn
+  version: 3.1.1
+
+source:
+  fn: G1DBN_3.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/G1DBN_3.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+  run:
+    - r
+    - r-igraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

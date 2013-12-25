@@ -1,0 +1,19 @@
+package:
+  name: r-rankhazard
+  version: 0.8.1
+
+source:
+  fn: rankhazard_0.8-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/rankhazard_0.8-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

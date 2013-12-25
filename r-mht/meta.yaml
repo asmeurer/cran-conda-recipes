@@ -1,0 +1,21 @@
+package:
+  name: r-mht
+  version: 2.122
+
+source:
+  fn: mht_2.122.tar.gz
+  url: http://cran.r-project.org/src/contrib/mht_2.122.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-glmnet
+  run:
+    - r-glmnet
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

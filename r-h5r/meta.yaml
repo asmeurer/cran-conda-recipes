@@ -1,0 +1,21 @@
+package:
+  name: r-h5r
+  version: 1.4.7
+
+source:
+  fn: h5r_1.4.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/h5r_1.4.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

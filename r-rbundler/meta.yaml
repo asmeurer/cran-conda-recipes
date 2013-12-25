@@ -1,0 +1,23 @@
+package:
+  name: r-rbundler
+  version: 0.3.4
+
+source:
+  fn: rbundler_0.3.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rbundler_0.3.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-devtools
+  run:
+    - r
+    - r-devtools
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

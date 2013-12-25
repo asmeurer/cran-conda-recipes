@@ -1,0 +1,23 @@
+package:
+  name: r-maeswrap
+  version: 1.4.11
+
+source:
+  fn: Maeswrap_1.4.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/Maeswrap_1.4.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rgl
+    - r-geometry
+  run:
+    - r-rgl
+    - r-geometry
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

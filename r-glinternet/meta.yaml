@@ -1,0 +1,19 @@
+package:
+  name: r-glinternet
+  version: 0.9.0
+
+source:
+  fn: glinternet_0.9.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/glinternet_0.9.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

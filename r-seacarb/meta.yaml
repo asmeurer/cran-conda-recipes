@@ -1,0 +1,19 @@
+package:
+  name: r-seacarb
+  version: 2.4.10
+
+source:
+  fn: seacarb_2.4.10.tar.gz
+  url: http://cran.r-project.org/src/contrib/seacarb_2.4.10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

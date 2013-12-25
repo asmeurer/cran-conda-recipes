@@ -1,0 +1,21 @@
+package:
+  name: r-lahman
+  version: 2.0.3
+
+source:
+  fn: Lahman_2.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/Lahman_2.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-gamboostlss
+  version: 1.0.3
+
+source:
+  fn: gamboostLSS_1.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/gamboostLSS_1.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mboost
+  run:
+    - r
+    - r-mboost
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

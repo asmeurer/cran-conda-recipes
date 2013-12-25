@@ -1,0 +1,29 @@
+package:
+  name: r-rriskdistributions
+  version: 1.8
+
+source:
+  fn: rriskDistributions_1.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/rriskDistributions_1.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mc2d
+    - r-eha
+    - r-msm
+    - r-tkrplot
+  run:
+    - r
+    - r-mc2d
+    - r-eha
+    - r-msm
+    - r-tkrplot
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

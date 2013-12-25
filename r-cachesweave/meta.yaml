@@ -1,0 +1,27 @@
+package:
+  name: r-cachesweave
+  version: 0.6.1
+
+source:
+  fn: cacheSweave_0.6-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/cacheSweave_0.6-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-filehash
+    - r-stashr
+    - r-digest
+  run:
+    - r
+    - r-filehash
+    - r-stashr
+    - r-digest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-timeordered
+  version: 0.9.3
+
+source:
+  fn: timeordered_0.9.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/timeordered_0.9.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-igraph
+    - r-plyr
+  run:
+    - r-igraph
+    - r-plyr
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

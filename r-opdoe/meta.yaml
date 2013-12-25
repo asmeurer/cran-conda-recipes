@@ -1,0 +1,29 @@
+package:
+  name: r-opdoe
+  version: 1.0.7
+
+source:
+  fn: OPDOE_1.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/OPDOE_1.0-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-orthopolynom
+    - r-confdesign
+    - r-mvtnorm
+    - r-gmp
+    - r-crossdes
+  run:
+    - r-orthopolynom
+    - r-confdesign
+    - r-mvtnorm
+    - r-gmp
+    - r-crossdes
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

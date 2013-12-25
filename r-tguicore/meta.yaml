@@ -1,0 +1,21 @@
+package:
+  name: r-tguicore
+  version: 0.9.15
+
+source:
+  fn: TGUICore_0.9.15.tar.gz
+  url: http://cran.r-project.org/src/contrib/TGUICore_0.9.15.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tkrplot
+  run:
+    - r-tkrplot
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

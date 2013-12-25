@@ -1,0 +1,25 @@
+package:
+  name: r-rcarto
+  version: 0.8
+
+source:
+  fn: rCarto_0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/rCarto_0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcolorbrewer
+    - r-maptools
+    - r-classint
+  run:
+    - r-rcolorbrewer
+    - r-maptools
+    - r-classint
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

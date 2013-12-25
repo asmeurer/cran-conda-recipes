@@ -1,0 +1,29 @@
+package:
+  name: r-exomedepth
+  version: 0.9.8
+
+source:
+  fn: ExomeDepth_0.9.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/ExomeDepth_0.9.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-aod
+    - r-vgam
+    - r-genomicranges
+    - r-rsamtools
+  run:
+    - r
+    - r-aod
+    - r-vgam
+    - r-genomicranges
+    - r-rsamtools
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

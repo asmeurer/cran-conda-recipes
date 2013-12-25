@@ -1,0 +1,33 @@
+package:
+  name: r-rastervis
+  version: 0.24
+
+source:
+  fn: rasterVis_0.24.tar.gz
+  url: http://cran.r-project.org/src/contrib/rasterVis_0.24.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-raster
+    - r-latticeextra
+    - r-hexbin
+    - r-sp
+    - r-zoo
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-raster
+    - r-latticeextra
+    - r-hexbin
+    - r-sp
+    - r-zoo
+    - r-rcolorbrewer
+
+about:
+  license: GPL-3 | file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

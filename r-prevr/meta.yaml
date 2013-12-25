@@ -1,0 +1,31 @@
+package:
+  name: r-prevr
+  version: 2.8
+
+source:
+  fn: prevR_2.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/prevR_2.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-gstat
+    - r-genkern
+    - r-rgdal
+    - r-fields
+  run:
+    - r
+    - r-sp
+    - r-gstat
+    - r-genkern
+    - r-rgdal
+    - r-fields
+
+about:
+  license: CeCILL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

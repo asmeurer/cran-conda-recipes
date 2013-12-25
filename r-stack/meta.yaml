@@ -1,0 +1,23 @@
+package:
+  name: r-stack
+  version: 1.0.1
+
+source:
+  fn: Stack_1.0-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Stack_1.0-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r-stringr
+  run:
+    - r-plyr
+    - r-stringr
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

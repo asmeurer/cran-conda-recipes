@@ -1,0 +1,23 @@
+package:
+  name: r-rca
+  version: 1.4.5
+
+source:
+  fn: RCA_1.4.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/RCA_1.4.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-igraph
+    - r
+  run:
+    - r-igraph
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

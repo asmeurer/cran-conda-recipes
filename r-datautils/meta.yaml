@@ -1,0 +1,27 @@
+package:
+  name: r-datautils
+  version: 0.1.4
+
+source:
+  fn: datautils_0.1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/datautils_0.1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-deldir
+    - r-gplots
+    - r-gtools
+  run:
+    - r
+    - r-deldir
+    - r-gplots
+    - r-gtools
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-limsolve
+  version: 1.5.5
+
+source:
+  fn: limSolve_1.5.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/limSolve_1.5.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quadprog
+    - r-lpsolve
+  run:
+    - r
+    - r-quadprog
+    - r-lpsolve
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

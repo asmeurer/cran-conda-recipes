@@ -1,0 +1,21 @@
+package:
+  name: r-selectmeta
+  version: 1.0.5
+
+source:
+  fn: selectMeta_1.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/selectMeta_1.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-deoptim
+  run:
+    - r-deoptim
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

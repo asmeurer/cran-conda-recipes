@@ -1,0 +1,31 @@
+package:
+  name: r-betareg
+  version: 3.0.4
+
+source:
+  fn: betareg_3.0-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/betareg_3.0-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-formula
+    - r-flexmix
+    - r-lmtest
+    - r-modeltools
+    - r-sandwich
+  run:
+    - r
+    - r-formula
+    - r-flexmix
+    - r-lmtest
+    - r-modeltools
+    - r-sandwich
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

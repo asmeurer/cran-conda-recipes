@@ -1,0 +1,25 @@
+package:
+  name: r-switchnpreg
+  version: 0.8.0
+
+source:
+  fn: switchnpreg_0.8-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/switchnpreg_0.8-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fda
+    - r-expm
+    - r-hiddenmarkov
+  run:
+    - r-fda
+    - r-expm
+    - r-hiddenmarkov
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-mixtools
+  version: 1.0.0
+
+source:
+  fn: mixtools_1.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/mixtools_1.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-segmented
+  run:
+    - r
+    - r-segmented
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-multiord
+  version: 2.0
+
+source:
+  fn: MultiOrd_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/MultiOrd_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+    - r-corpcor
+    - r-psych
+  run:
+    - r-mvtnorm
+    - r-corpcor
+    - r-psych
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

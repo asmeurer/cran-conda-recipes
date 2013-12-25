@@ -1,0 +1,31 @@
+package:
+  name: r-treebase
+  version: 0.0.6
+
+source:
+  fn: treebase_0.0-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/treebase_0.0-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-xml
+    - r-rcurl
+    - r-reshape2
+    - r-datatable
+  run:
+    - r
+    - r-ape
+    - r-xml
+    - r-rcurl
+    - r-reshape2
+    - r-datatable
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

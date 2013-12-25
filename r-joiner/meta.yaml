@@ -1,0 +1,25 @@
+package:
+  name: r-joiner
+  version: 1.0.3
+
+source:
+  fn: joineR_1.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/joineR_1.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-statmod
+    - r-gdata
+  run:
+    - r
+    - r-statmod
+    - r-gdata
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

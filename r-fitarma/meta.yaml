@@ -1,0 +1,23 @@
+package:
+  name: r-fitarma
+  version: 1.6
+
+source:
+  fn: FitARMA_1.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/FitARMA_1.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fitar
+  run:
+    - r
+    - r-fitar
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

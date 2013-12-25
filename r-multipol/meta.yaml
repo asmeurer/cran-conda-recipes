@@ -1,0 +1,21 @@
+package:
+  name: r-multipol
+  version: 1.0.6
+
+source:
+  fn: multipol_1.0-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/multipol_1.0-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-abind
+  run:
+    - r-abind
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

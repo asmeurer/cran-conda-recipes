@@ -1,0 +1,31 @@
+package:
+  name: r-treemap
+  version: 2.1.1
+
+source:
+  fn: treemap_2.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/treemap_2.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-colorspace
+    - r-datatable
+    - r-gridbase
+    - r-igraph
+    - r-rcolorbrewer
+    - r-shiny
+  run:
+    - r-colorspace
+    - r-datatable
+    - r-gridbase
+    - r-igraph
+    - r-rcolorbrewer
+    - r-shiny
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

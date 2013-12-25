@@ -1,0 +1,25 @@
+package:
+  name: r-domc
+  version: 1.3.2
+
+source:
+  fn: doMC_1.3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/doMC_1.3.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-foreach
+    - r-iterators
+  run:
+    - r
+    - r-foreach
+    - r-iterators
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

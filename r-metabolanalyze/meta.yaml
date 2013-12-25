@@ -1,0 +1,29 @@
+package:
+  name: r-metabolanalyze
+  version: 1.3
+
+source:
+  fn: MetabolAnalyze_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/MetabolAnalyze_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mclust
+    - r-mvtnorm
+    - r-ellipse
+    - r-gtools
+    - r-gplots
+  run:
+    - r-mclust
+    - r-mvtnorm
+    - r-ellipse
+    - r-gtools
+    - r-gplots
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

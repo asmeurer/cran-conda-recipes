@@ -1,0 +1,23 @@
+package:
+  name: r-dvn
+  version: 0.3.3
+
+source:
+  fn: dvn_0.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/dvn_0.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcurl
+    - r-xml
+  run:
+    - r-rcurl
+    - r-xml
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

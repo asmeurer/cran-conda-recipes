@@ -1,0 +1,35 @@
+package:
+  name: r-lordif
+  version: 0.2.2
+
+source:
+  fn: lordif_0.2-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/lordif_0.2-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-msm
+    - r-mvtnorm
+    - r-polycor
+    - r-sfsmisc
+    - r-ltm
+    - r-hmisc
+    - r-rms
+  run:
+    - r
+    - r-msm
+    - r-mvtnorm
+    - r-polycor
+    - r-sfsmisc
+    - r-ltm
+    - r-hmisc
+    - r-rms
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

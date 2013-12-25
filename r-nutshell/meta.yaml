@@ -1,0 +1,25 @@
+package:
+  name: r-nutshell
+  version: 2.0
+
+source:
+  fn: nutshell_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/nutshell_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-nutshellbbdb
+    - r-nutshellaudioscrobbler
+  run:
+    - r
+    - r-nutshellbbdb
+    - r-nutshellaudioscrobbler
+
+about:
+  license: CC BY-NC-ND 3.0 US
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

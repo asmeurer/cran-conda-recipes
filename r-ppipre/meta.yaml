@@ -1,0 +1,27 @@
+package:
+  name: r-ppipre
+  version: 1.5
+
+source:
+  fn: ppiPre_1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/ppiPre_1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-igraph
+    - r-e1071
+  run:
+    - r
+    - r-annotationdbi
+    - r-igraph
+    - r-e1071
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

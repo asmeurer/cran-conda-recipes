@@ -1,0 +1,23 @@
+package:
+  name: r-dri
+  version: 1.1
+
+source:
+  fn: DRI_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/DRI_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-impute
+    - r-cghflasso
+  run:
+    - r-impute
+    - r-cghflasso
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

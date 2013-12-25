@@ -1,0 +1,27 @@
+package:
+  name: r-sampleselection
+  version: 0.7.2
+
+source:
+  fn: sampleSelection_0.7-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/sampleSelection_0.7-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-maxlik
+    - r-systemfit
+    - r-misctools
+  run:
+    - r
+    - r-maxlik
+    - r-systemfit
+    - r-misctools
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

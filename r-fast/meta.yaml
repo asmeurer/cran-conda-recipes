@@ -1,0 +1,21 @@
+package:
+  name: r-fast
+  version: 0.63
+
+source:
+  fn: fast_0.63.tar.gz
+  url: http://cran.r-project.org/src/contrib/fast_0.63.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-zoo
+  run:
+    - r-zoo
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

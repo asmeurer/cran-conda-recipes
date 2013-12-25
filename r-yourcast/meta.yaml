@@ -1,0 +1,27 @@
+package:
+  name: r-yourcast
+  version: 1.6
+
+source:
+  fn: YourCast_1.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/YourCast_1.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-reshape2
+    - r-gridextra
+  run:
+    - r
+    - r-ggplot2
+    - r-reshape2
+    - r-gridextra
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

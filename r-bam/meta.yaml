@@ -1,0 +1,27 @@
+package:
+  name: r-bam
+  version: 0.99
+
+source:
+  fn: BaM_0.99.tar.gz
+  url: http://cran.r-project.org/src/contrib/BaM_0.99.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bayesm
+    - r-coda
+    - r-mice
+  run:
+    - r
+    - r-bayesm
+    - r-coda
+    - r-mice
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

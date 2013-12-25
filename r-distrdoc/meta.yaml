@@ -1,0 +1,39 @@
+package:
+  name: r-distrdoc
+  version: 2.5
+
+source:
+  fn: distrDoc_2.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/distrDoc_2.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-distr
+    - r-distrex
+    - r-distrsim
+    - r-distrtest
+    - r-distrteach
+    - r-randvar
+    - r-distrmod
+    - r-sweavelistingutils
+    - r-startupmsg
+  run:
+    - r
+    - r-distr
+    - r-distrex
+    - r-distrsim
+    - r-distrtest
+    - r-distrteach
+    - r-randvar
+    - r-distrmod
+    - r-sweavelistingutils
+    - r-startupmsg
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

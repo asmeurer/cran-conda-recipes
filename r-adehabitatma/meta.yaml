@@ -1,0 +1,23 @@
+package:
+  name: r-adehabitatma
+  version: 0.3.8
+
+source:
+  fn: adehabitatMA_0.3.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/adehabitatMA_0.3.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+  run:
+    - r
+    - r-sp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

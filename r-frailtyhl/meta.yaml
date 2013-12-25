@@ -1,0 +1,23 @@
+package:
+  name: r-frailtyhl
+  version: 1.1
+
+source:
+  fn: frailtyHL_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/frailtyHL_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-numderiv
+  run:
+    - r
+    - r-numderiv
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

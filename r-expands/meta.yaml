@@ -1,0 +1,31 @@
+package:
+  name: r-expands
+  version: 1.3
+
+source:
+  fn: expands_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/expands_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-flexmix
+    - r-matlab
+    - r-mclust
+    - r-moments
+  run:
+    - r
+    - r-rjava
+    - r-flexmix
+    - r-matlab
+    - r-mclust
+    - r-moments
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

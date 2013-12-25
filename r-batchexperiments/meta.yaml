@@ -1,0 +1,31 @@
+package:
+  name: r-batchexperiments
+  version: 1.0.968
+
+source:
+  fn: BatchExperiments_1.0-968.tar.gz
+  url: http://cran.r-project.org/src/contrib/BatchExperiments_1.0-968.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-batchjobs
+    - r-bbmisc
+    - r-dbi
+    - r-rsqlite
+    - r-plyr
+  run:
+    - r
+    - r-batchjobs
+    - r-bbmisc
+    - r-dbi
+    - r-rsqlite
+    - r-plyr
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

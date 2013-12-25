@@ -1,0 +1,27 @@
+package:
+  name: r-dominance
+  version: 0.9.11
+
+source:
+  fn: Dominance_0.9.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/Dominance_0.9.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-chron
+    - r-gdata
+  run:
+    - r
+    - r-igraph
+    - r-chron
+    - r-gdata
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

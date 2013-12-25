@@ -1,0 +1,37 @@
+package:
+  name: r-sdisc
+  version: 1.24
+
+source:
+  fn: SDisc_1.24.tar.gz
+  url: http://cran.r-project.org/src/contrib/SDisc_1.24.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mclust
+    - r-rcolorbrewer
+    - r-abind
+    - r-xtable
+    - r-digest
+    - r-e1071
+    - r-snow
+    - r-sparsem
+  run:
+    - r
+    - r-mclust
+    - r-rcolorbrewer
+    - r-abind
+    - r-xtable
+    - r-digest
+    - r-e1071
+    - r-snow
+    - r-sparsem
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

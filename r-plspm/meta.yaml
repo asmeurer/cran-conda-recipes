@@ -1,0 +1,29 @@
+package:
+  name: r-plspm
+  version: 0.4.1
+
+source:
+  fn: plspm_0.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/plspm_0.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-amap
+    - r-diagram
+    - r-tester
+    - r-turner
+  run:
+    - r
+    - r-amap
+    - r-diagram
+    - r-tester
+    - r-turner
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

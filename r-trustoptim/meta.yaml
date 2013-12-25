@@ -1,0 +1,25 @@
+package:
+  name: r-trustoptim
+  version: 0.8.3
+
+source:
+  fn: trustOptim_0.8.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/trustOptim_0.8.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-rcppeigen
+  run:
+    - r
+    - r-rcpp
+    - r-rcppeigen
+
+about:
+  license: MPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

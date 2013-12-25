@@ -1,0 +1,33 @@
+package:
+  name: r-trimatch
+  version: 0.9.1
+
+source:
+  fn: TriMatch_0.9.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TriMatch_0.9.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-scales
+    - r-reshape2
+    - r-ez
+    - r
+    - r-psych
+    - r-psagraphics
+  run:
+    - r-ggplot2
+    - r-scales
+    - r-reshape2
+    - r-ez
+    - r
+    - r-psych
+    - r-psagraphics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

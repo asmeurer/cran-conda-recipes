@@ -1,0 +1,19 @@
+package:
+  name: r-dgof
+  version: 1.2
+
+source:
+  fn: dgof_1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/dgof_1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

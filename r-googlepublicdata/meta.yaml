@@ -1,0 +1,25 @@
+package:
+  name: r-googlepublicdata
+  version: 0.12.05
+
+source:
+  fn: googlePublicData_0.12.05.tar.gz
+  url: http://cran.r-project.org/src/contrib/googlePublicData_0.12.05.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-xlconnect
+  run:
+    - r
+    - r-xml
+    - r-xlconnect
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

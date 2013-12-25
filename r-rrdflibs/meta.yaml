@@ -1,0 +1,23 @@
+package:
+  name: r-rrdflibs
+  version: 1.3.0
+
+source:
+  fn: rrdflibs_1.3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/rrdflibs_1.3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+  run:
+    - r
+    - r-rjava
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-marelac
+  version: 2.1.2
+
+source:
+  fn: marelac_2.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/marelac_2.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-shape
+    - r-seacarb
+  run:
+    - r
+    - r-shape
+    - r-seacarb
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

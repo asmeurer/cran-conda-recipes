@@ -1,0 +1,31 @@
+package:
+  name: r-multicon
+  version: 1.0
+
+source:
+  fn: multicon_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/multicon_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-psych
+    - r-abind
+    - r-foreach
+    - r-mvtnorm
+    - r-sciplot
+  run:
+    - r
+    - r-psych
+    - r-abind
+    - r-foreach
+    - r-mvtnorm
+    - r-sciplot
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

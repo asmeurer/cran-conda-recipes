@@ -1,0 +1,25 @@
+package:
+  name: r-sequenza
+  version: 1.0.3
+
+source:
+  fn: sequenza_1.0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/sequenza_1.0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-copynumber
+    - r-squash
+  run:
+    - r
+    - r-copynumber
+    - r-squash
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

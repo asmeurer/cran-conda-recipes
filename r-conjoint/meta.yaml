@@ -1,0 +1,23 @@
+package:
+  name: r-conjoint
+  version: 1.39
+
+source:
+  fn: conjoint_1.39.tar.gz
+  url: http://cran.r-project.org/src/contrib/conjoint_1.39.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-algdesign
+    - r-clustersim
+  run:
+    - r-algdesign
+    - r-clustersim
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,35 @@
+package:
+  name: r-nonparaeff
+  version: 0.5.8
+
+source:
+  fn: nonparaeff_0.5-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/nonparaeff_0.5-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lpsolve
+    - r-gdata
+    - r-hmisc
+    - r-rms
+    - r-geometry
+    - r-psych
+    - r-pwt
+  run:
+    - r
+    - r-lpsolve
+    - r-gdata
+    - r-hmisc
+    - r-rms
+    - r-geometry
+    - r-psych
+    - r-pwt
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

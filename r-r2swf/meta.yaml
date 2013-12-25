@@ -1,0 +1,19 @@
+package:
+  name: r-r2swf
+  version: 0.7.1
+
+source:
+  fn: R2SWF_0.7-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/R2SWF_0.7-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-zendeskr
+  version: 0.3
+
+source:
+  fn: zendeskR_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/zendeskR_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcurl
+    - r-rjson
+  run:
+    - r-rcurl
+    - r-rjson
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

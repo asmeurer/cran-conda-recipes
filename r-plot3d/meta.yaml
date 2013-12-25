@@ -1,0 +1,23 @@
+package:
+  name: r-plot3d
+  version: 1.0
+
+source:
+  fn: plot3D_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/plot3D_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-misc3d
+  run:
+    - r
+    - r-misc3d
+
+about:
+  license: GPL (>= 3.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

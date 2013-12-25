@@ -1,0 +1,21 @@
+package:
+  name: r-kza
+  version: 3.0.0
+
+source:
+  fn: kza_3.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/kza_3.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-polynom
+  run:
+    - r-polynom
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

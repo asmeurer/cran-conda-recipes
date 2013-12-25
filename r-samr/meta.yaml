@@ -1,0 +1,23 @@
+package:
+  name: r-samr
+  version: 2.0
+
+source:
+  fn: samr_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/samr_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-impute
+    - r-matrixstats
+  run:
+    - r-impute
+    - r-matrixstats
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

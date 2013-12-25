@@ -1,0 +1,29 @@
+package:
+  name: r-rdd
+  version: 0.56
+
+source:
+  fn: rdd_0.56.tar.gz
+  url: http://cran.r-project.org/src/contrib/rdd_0.56.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sandwich
+    - r-lmtest
+    - r-aer
+    - r-formula
+  run:
+    - r
+    - r-sandwich
+    - r-lmtest
+    - r-aer
+    - r-formula
+
+about:
+  license: Apache License (== 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

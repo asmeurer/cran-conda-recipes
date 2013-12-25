@@ -1,0 +1,25 @@
+package:
+  name: r-rcppclassicexamples
+  version: 0.1.1
+
+source:
+  fn: RcppClassicExamples_0.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcppClassicExamples_0.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-rcppclassic
+  run:
+    - r
+    - r-rcpp
+    - r-rcppclassic
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

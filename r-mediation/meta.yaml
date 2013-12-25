@@ -1,0 +1,25 @@
+package:
+  name: r-mediation
+  version: 4.4
+
+source:
+  fn: mediation_4.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/mediation_4.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lpsolve
+    - r-sandwich
+  run:
+    - r
+    - r-lpsolve
+    - r-sandwich
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

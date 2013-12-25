@@ -1,0 +1,21 @@
+package:
+  name: r-kernsmooth
+  version: 2.23.10
+
+source:
+  fn: KernSmooth_2.23-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/KernSmooth_2.23-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-locits
+  version: 1.4
+
+source:
+  fn: locits_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/locits_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-wavethresh
+    - r-igraph
+  run:
+    - r
+    - r-wavethresh
+    - r-igraph
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

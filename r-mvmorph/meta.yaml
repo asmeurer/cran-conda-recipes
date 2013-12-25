@@ -1,0 +1,29 @@
+package:
+  name: r-mvmorph
+  version: 1.0
+
+source:
+  fn: mvMORPH_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/mvMORPH_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-phytools
+    - r-ape
+    - r-corpcor
+    - r-subplex
+  run:
+    - r
+    - r-phytools
+    - r-ape
+    - r-corpcor
+    - r-subplex
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

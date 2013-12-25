@@ -1,0 +1,37 @@
+package:
+  name: r-stream
+  version: 0.1.1
+
+source:
+  fn: stream_0.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/stream_0.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-proxy
+    - r-birch
+    - r-hash
+    - r-clue
+    - r-clustergeneration
+    - r-animation
+    - r-mlbench
+  run:
+    - r
+    - r-rjava
+    - r-proxy
+    - r-birch
+    - r-hash
+    - r-clue
+    - r-clustergeneration
+    - r-animation
+    - r-mlbench
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

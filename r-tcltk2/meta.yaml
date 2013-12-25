@@ -1,0 +1,21 @@
+package:
+  name: r-tcltk2
+  version: 1.2.9
+
+source:
+  fn: tcltk2_1.2-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/tcltk2_1.2-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL-3 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-rexpokit
+  version: 0.24.1
+
+source:
+  fn: rexpokit_0.24.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/rexpokit_0.24.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sparsem
+    - r-rcpp
+  run:
+    - r-sparsem
+    - r-rcpp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

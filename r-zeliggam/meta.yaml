@@ -1,0 +1,21 @@
+package:
+  name: r-zeliggam
+  version: 0.7.1
+
+source:
+  fn: ZeligGAM_0.7-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/ZeligGAM_0.7-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-zelig
+  run:
+    - r-zelig
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

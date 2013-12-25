@@ -1,0 +1,21 @@
+package:
+  name: r-missforest
+  version: 1.3.1
+
+source:
+  fn: missForest_1.3-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/missForest_1.3-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-randomforest
+  run:
+    - r-randomforest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

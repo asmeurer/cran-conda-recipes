@@ -1,0 +1,25 @@
+package:
+  name: r-caper
+  version: 0.5.2
+
+source:
+  fn: caper_0.5.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/caper_0.5.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-mvtnorm
+  run:
+    - r
+    - r-ape
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

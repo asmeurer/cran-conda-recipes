@@ -1,0 +1,25 @@
+package:
+  name: r-bvs
+  version: 4.12.1
+
+source:
+  fn: BVS_4.12.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/BVS_4.12.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-msm
+    - r-haplostats
+    - r
+  run:
+    - r-msm
+    - r-haplostats
+    - r
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

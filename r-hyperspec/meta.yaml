@@ -1,0 +1,23 @@
+package:
+  name: r-hyperspec
+  version: 0.98.20120923
+
+source:
+  fn: hyperSpec_0.98-20120923.tar.gz
+  url: http://cran.r-project.org/src/contrib/hyperSpec_0.98-20120923.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+  run:
+    - r
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

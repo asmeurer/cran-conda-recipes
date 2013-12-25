@@ -1,0 +1,33 @@
+package:
+  name: r-afex
+  version: 0.7.90
+
+source:
+  fn: afex_0.7-90.tar.gz
+  url: http://cran.r-project.org/src/contrib/afex_0.7-90.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coin
+    - r-car
+    - r-lme4
+    - r-pbkrtest
+    - r-reshape2
+    - r-stringr
+  run:
+    - r
+    - r-coin
+    - r-car
+    - r-lme4
+    - r-pbkrtest
+    - r-reshape2
+    - r-stringr
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

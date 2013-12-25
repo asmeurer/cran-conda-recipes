@@ -1,0 +1,27 @@
+package:
+  name: r-bayestfr
+  version: 4.0.3
+
+source:
+  fn: bayesTFR_4.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/bayesTFR_4.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-coda
+    - r-wpp2012
+  run:
+    - r
+    - r-mvtnorm
+    - r-coda
+    - r-wpp2012
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

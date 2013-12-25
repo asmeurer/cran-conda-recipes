@@ -1,0 +1,27 @@
+package:
+  name: r-phenmod
+  version: 1.2.3
+
+source:
+  fn: phenmod_1.2-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/phenmod_1.2-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gstat
+    - r-rcolorbrewer
+    - r-pheno
+  run:
+    - r
+    - r-gstat
+    - r-rcolorbrewer
+    - r-pheno
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

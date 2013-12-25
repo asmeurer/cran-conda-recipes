@@ -1,0 +1,39 @@
+package:
+  name: r-zooimage
+  version: 3.0.3
+
+source:
+  fn: zooimage_3.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/zooimage_3.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-svmisc
+    - r-svdialogs
+    - r-mlearning
+    - r-filehash
+    - r-jpeg
+    - r-png
+    - r-ipred
+    - r-e1071
+    - r-tree
+  run:
+    - r
+    - r-svmisc
+    - r-svdialogs
+    - r-mlearning
+    - r-filehash
+    - r-jpeg
+    - r-png
+    - r-ipred
+    - r-e1071
+    - r-tree
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

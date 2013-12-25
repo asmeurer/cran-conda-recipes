@@ -1,0 +1,25 @@
+package:
+  name: r-bpca
+  version: 1.2.2
+
+source:
+  fn: bpca_1.2-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/bpca_1.2-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-scatterplot3d
+    - r-rgl
+  run:
+    - r
+    - r-scatterplot3d
+    - r-rgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

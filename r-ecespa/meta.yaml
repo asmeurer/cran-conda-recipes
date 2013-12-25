@@ -1,0 +1,23 @@
+package:
+  name: r-ecespa
+  version: 1.1.7
+
+source:
+  fn: ecespa_1.1-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/ecespa_1.1-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-splancs
+    - r-spatstat
+  run:
+    - r-splancs
+    - r-spatstat
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

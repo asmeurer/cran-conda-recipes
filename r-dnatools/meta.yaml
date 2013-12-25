@@ -1,0 +1,25 @@
+package:
+  name: r-dnatools
+  version: 0.1.8
+
+source:
+  fn: DNAtools_0.1-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/DNAtools_0.1-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsolnp
+    - r-multicool
+  run:
+    - r
+    - r-rsolnp
+    - r-multicool
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

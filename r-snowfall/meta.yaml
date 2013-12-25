@@ -1,0 +1,21 @@
+package:
+  name: r-snowfall
+  version: 1.84.6
+
+source:
+  fn: snowfall_1.84-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/snowfall_1.84-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-snow
+  run:
+    - r-snow
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

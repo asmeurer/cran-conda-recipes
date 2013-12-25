@@ -1,0 +1,25 @@
+package:
+  name: r-kernsmoothirt
+  version: 6.0
+
+source:
+  fn: KernSmoothIRT_6.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/KernSmoothIRT_6.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-plotrix
+    - r-rgl
+  run:
+    - r-rcpp
+    - r-plotrix
+    - r-rgl
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

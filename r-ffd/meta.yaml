@@ -1,0 +1,25 @@
+package:
+  name: r-ffd
+  version: 1.0.2
+
+source:
+  fn: FFD_1.0-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/FFD_1.0-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tkrplot
+    - r-r2html
+  run:
+    - r
+    - r-tkrplot
+    - r-r2html
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

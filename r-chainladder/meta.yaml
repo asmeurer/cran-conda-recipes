@@ -1,0 +1,31 @@
+package:
+  name: r-chainladder
+  version: 0.1.7
+
+source:
+  fn: ChainLadder_0.1.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/ChainLadder_0.1.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-systemfit
+    - r-actuar
+    - r-hmisc
+    - r-statmod
+    - r-reshape2
+    - r-tweedie
+  run:
+    - r-systemfit
+    - r-actuar
+    - r-hmisc
+    - r-statmod
+    - r-reshape2
+    - r-tweedie
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

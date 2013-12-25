@@ -1,0 +1,23 @@
+package:
+  name: r-flexclust
+  version: 1.3.4
+
+source:
+  fn: flexclust_1.3-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/flexclust_1.3-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-modeltools
+  run:
+    - r
+    - r-modeltools
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

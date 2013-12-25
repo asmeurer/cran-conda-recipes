@@ -1,0 +1,27 @@
+package:
+  name: r-distrrmetrics
+  version: 2.5
+
+source:
+  fn: distrRmetrics_2.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/distrRmetrics_2.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-distr
+    - r-fbasics
+    - r-fgarch
+  run:
+    - r
+    - r-distr
+    - r-fbasics
+    - r-fgarch
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

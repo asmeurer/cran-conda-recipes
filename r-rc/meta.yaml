@@ -1,0 +1,23 @@
+package:
+  name: r-rc
+  version: 1.0.2.13
+
+source:
+  fn: RC_1.0.2.13.tar.gz
+  url: http://cran.r-project.org/src/contrib/RC_1.0.2.13.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-igraph
+    - r-bitops
+  run:
+    - r-igraph
+    - r-bitops
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

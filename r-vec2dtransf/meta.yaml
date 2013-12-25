@@ -1,0 +1,21 @@
+package:
+  name: r-vec2dtransf
+  version: 1.0
+
+source:
+  fn: vec2dtransf_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/vec2dtransf_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sp
+  run:
+    - r-sp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

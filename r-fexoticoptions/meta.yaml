@@ -1,0 +1,29 @@
+package:
+  name: r-fexoticoptions
+  version: 2152.78
+
+source:
+  fn: fExoticOptions_2152.78.tar.gz
+  url: http://cran.r-project.org/src/contrib/fExoticOptions_2152.78.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-foptions
+  run:
+    - r
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-foptions
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

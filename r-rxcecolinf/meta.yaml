@@ -1,0 +1,23 @@
+package:
+  name: r-rxcecolinf
+  version: 0.1.3
+
+source:
+  fn: RxCEcolInf_0.1-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/RxCEcolInf_0.1-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mcmcpack
+    - r-mvtnorm
+  run:
+    - r-mcmcpack
+    - r-mvtnorm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

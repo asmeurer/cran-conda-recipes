@@ -1,0 +1,37 @@
+package:
+  name: r-vim
+  version: 4.0.0
+
+source:
+  fn: VIM_4.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/VIM_4.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-colorspace
+    - r-car
+    - r-robustbase
+    - r-sp
+    - r-vcd
+    - r-e1071
+    - r-rcpp
+    - r-glmnet
+  run:
+    - r
+    - r-colorspace
+    - r-car
+    - r-robustbase
+    - r-sp
+    - r-vcd
+    - r-e1071
+    - r-rcpp
+    - r-glmnet
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

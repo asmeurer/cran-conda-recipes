@@ -1,0 +1,23 @@
+package:
+  name: r-mseasytkgui
+  version: 5.3.3
+
+source:
+  fn: MSeasyTkGUI_5.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/MSeasyTkGUI_5.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mseasy
+  run:
+    - r
+    - r-mseasy
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

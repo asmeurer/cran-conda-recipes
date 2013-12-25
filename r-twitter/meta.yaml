@@ -1,0 +1,27 @@
+package:
+  name: r-twitter
+  version: 1.1.7
+
+source:
+  fn: twitteR_1.1.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/twitteR_1.1.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-roauth
+    - r-rcurl
+    - r-rjson
+  run:
+    - r
+    - r-roauth
+    - r-rcurl
+    - r-rjson
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

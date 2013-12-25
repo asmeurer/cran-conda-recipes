@@ -1,0 +1,49 @@
+package:
+  name: r-rmawgen
+  version: 1.2.5.5
+
+source:
+  fn: RMAWGEN_1.2.5.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/RMAWGEN_1.2.5.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chron
+    - r-date
+    - r-vars
+    - r-strucchange
+    - r-urca
+    - r-lmtest
+    - r-sandwich
+    - r-chron
+    - r-date
+    - r-vars
+    - r-strucchange
+    - r-urca
+    - r-lmtest
+    - r-sandwich
+  run:
+    - r
+    - r-chron
+    - r-date
+    - r-vars
+    - r-strucchange
+    - r-urca
+    - r-lmtest
+    - r-sandwich
+    - r-chron
+    - r-date
+    - r-vars
+    - r-strucchange
+    - r-urca
+    - r-lmtest
+    - r-sandwich
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,35 @@
+package:
+  name: r-drsmooth
+  version: 1.0
+
+source:
+  fn: drsmooth_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/drsmooth_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+    - r-clinfun
+    - r-multcomp
+    - r-pgirmess
+    - r-dtk
+    - r-segmented
+    - r-mvtnorm
+  run:
+    - r
+    - r-car
+    - r-clinfun
+    - r-multcomp
+    - r-pgirmess
+    - r-dtk
+    - r-segmented
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

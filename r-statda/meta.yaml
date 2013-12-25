@@ -1,0 +1,35 @@
+package:
+  name: r-statda
+  version: 1.6.7
+
+source:
+  fn: StatDA_1.6.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/StatDA_1.6.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-geor
+    - r-sgeostat
+    - r-e1071
+    - r-mba
+    - r-rgl
+    - r-robustbase
+    - r-xtable
+  run:
+    - r
+    - r-geor
+    - r-sgeostat
+    - r-e1071
+    - r-mba
+    - r-rgl
+    - r-robustbase
+    - r-xtable
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

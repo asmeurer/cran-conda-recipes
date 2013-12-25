@@ -1,0 +1,23 @@
+package:
+  name: r-mpinet
+  version: 1.0
+
+source:
+  fn: MPINet_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/MPINet_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biasedurn
+  run:
+    - r
+    - r-biasedurn
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-texreg
+  version: 1.30
+
+source:
+  fn: texreg_1.30.tar.gz
+  url: http://cran.r-project.org/src/contrib/texreg_1.30.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

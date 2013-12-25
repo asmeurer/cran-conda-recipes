@@ -1,0 +1,33 @@
+package:
+  name: r-tsfa
+  version: 2012.4.1
+
+source:
+  fn: tsfa_2012.4-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/tsfa_2012.4-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gparotation
+    - r-setrng
+    - r-tframe
+    - r-tfplot
+    - r-dse
+    - r-evalest
+  run:
+    - r
+    - r-gparotation
+    - r-setrng
+    - r-tframe
+    - r-tfplot
+    - r-dse
+    - r-evalest
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

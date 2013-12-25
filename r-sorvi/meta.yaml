@@ -1,0 +1,55 @@
+package:
+  name: r-sorvi
+  version: 0.4.05
+
+source:
+  fn: sorvi_0.4.05.tar.gz
+  url: http://cran.r-project.org/src/contrib/sorvi_0.4.05.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pxr
+    - r-rcurl
+    - r-rjson
+    - r-sp
+    - r-spdep
+    - r-rcolorbrewer
+    - r-rgooglemaps
+    - r-xml
+    - r-gdata
+    - r-ggplot2
+    - r-maptools
+    - r-plyr
+    - r-png
+    - r-reshape
+    - r-reshape2
+    - r-rgdal
+    - r-rgl
+  run:
+    - r
+    - r-pxr
+    - r-rcurl
+    - r-rjson
+    - r-sp
+    - r-spdep
+    - r-rcolorbrewer
+    - r-rgooglemaps
+    - r-xml
+    - r-gdata
+    - r-ggplot2
+    - r-maptools
+    - r-plyr
+    - r-png
+    - r-reshape
+    - r-reshape2
+    - r-rgdal
+    - r-rgl
+
+about:
+  license: BSD_2_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

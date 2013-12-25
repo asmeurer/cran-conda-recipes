@@ -1,0 +1,27 @@
+package:
+  name: r-rinat
+  version: 0.1.0
+
+source:
+  fn: rinat_0.1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/rinat_0.1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-httr
+    - r-plyr
+    - r-ggplot2
+    - r-maps
+  run:
+    - r-httr
+    - r-plyr
+    - r-ggplot2
+    - r-maps
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

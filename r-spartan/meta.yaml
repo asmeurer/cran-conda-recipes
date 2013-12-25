@@ -1,0 +1,19 @@
+package:
+  name: r-spartan
+  version: 1.2.1
+
+source:
+  fn: spartan_1.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/spartan_1.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

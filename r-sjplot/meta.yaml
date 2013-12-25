@@ -1,0 +1,31 @@
+package:
+  name: r-sjplot
+  version: 0.8
+
+source:
+  fn: sjPlot_0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/sjPlot_0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-car
+    - r-lmtest
+    - r-plyr
+    - r-reshape2
+    - r-scales
+  run:
+    - r-ggplot2
+    - r-car
+    - r-lmtest
+    - r-plyr
+    - r-reshape2
+    - r-scales
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

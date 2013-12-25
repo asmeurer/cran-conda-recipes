@@ -1,0 +1,31 @@
+package:
+  name: r-describedisplay
+  version: 0.2.4
+
+source:
+  fn: DescribeDisplay_0.2.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/DescribeDisplay_0.2.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-proto
+    - r-reshape2
+    - r-ggplot2
+    - r-plyr
+    - r-scales
+    - r-ggally
+  run:
+    - r-proto
+    - r-reshape2
+    - r-ggplot2
+    - r-plyr
+    - r-scales
+    - r-ggally
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

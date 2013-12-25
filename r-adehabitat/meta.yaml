@@ -1,0 +1,27 @@
+package:
+  name: r-adehabitat
+  version: 1.8.12
+
+source:
+  fn: adehabitat_1.8.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/adehabitat_1.8.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ade4
+    - r-tkrplot
+    - r-shapefiles
+  run:
+    - r
+    - r-ade4
+    - r-tkrplot
+    - r-shapefiles
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-migui
+  version: 0.00.09
+
+source:
+  fn: migui_0.00-09.tar.gz
+  url: http://cran.r-project.org/src/contrib/migui_0.00-09.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tkrplot
+    - r-mi
+  run:
+    - r-tkrplot
+    - r-mi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

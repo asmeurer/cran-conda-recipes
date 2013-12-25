@@ -1,0 +1,27 @@
+package:
+  name: r-factominer
+  version: 1.25
+
+source:
+  fn: FactoMineR_1.25.tar.gz
+  url: http://cran.r-project.org/src/contrib/FactoMineR_1.25.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-ellipse
+    - r-scatterplot3d
+    - r-leaps
+  run:
+    - r-car
+    - r-ellipse
+    - r-scatterplot3d
+    - r-leaps
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

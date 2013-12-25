@@ -1,0 +1,21 @@
+package:
+  name: r-npde
+  version: 2.0
+
+source:
+  fn: npde_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/npde_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mclust
+  run:
+    - r-mclust
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

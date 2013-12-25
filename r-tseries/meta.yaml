@@ -1,0 +1,25 @@
+package:
+  name: r-tseries
+  version: 0.10.32
+
+source:
+  fn: tseries_0.10-32.tar.gz
+  url: http://cran.r-project.org/src/contrib/tseries_0.10-32.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quadprog
+    - r-zoo
+  run:
+    - r
+    - r-quadprog
+    - r-zoo
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

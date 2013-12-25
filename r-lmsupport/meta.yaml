@@ -1,0 +1,27 @@
+package:
+  name: r-lmsupport
+  version: 1.07.1
+
+source:
+  fn: lmSupport_1.07.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/lmSupport_1.07.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-psych
+    - r-gplots
+    - r-gvlma
+  run:
+    - r-car
+    - r-psych
+    - r-gplots
+    - r-gvlma
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

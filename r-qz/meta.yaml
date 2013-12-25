@@ -1,0 +1,21 @@
+package:
+  name: r-qz
+  version: 0.1.4
+
+source:
+  fn: QZ_0.1-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/QZ_0.1-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Mozilla Public License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

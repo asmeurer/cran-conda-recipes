@@ -1,0 +1,27 @@
+package:
+  name: r-pairwiseci
+  version: 0.1.22
+
+source:
+  fn: pairwiseCI_0.1-22.tar.gz
+  url: http://cran.r-project.org/src/contrib/pairwiseCI_0.1-22.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mcpan
+    - r-coin
+    - r-mratios
+    - r-binmto
+  run:
+    - r-mcpan
+    - r-coin
+    - r-mratios
+    - r-binmto
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

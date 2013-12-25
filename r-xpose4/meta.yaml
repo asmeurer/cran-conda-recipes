@@ -1,0 +1,29 @@
+package:
+  name: r-xpose4
+  version: 4.4.1
+
+source:
+  fn: xpose4_4.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/xpose4_4.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xpose4data
+    - r-xpose4generic
+    - r-xpose4specific
+    - r-xpose4classic
+  run:
+    - r
+    - r-xpose4data
+    - r-xpose4generic
+    - r-xpose4specific
+    - r-xpose4classic
+
+about:
+  license: LGPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

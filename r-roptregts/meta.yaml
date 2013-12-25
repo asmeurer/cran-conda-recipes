@@ -1,0 +1,29 @@
+package:
+  name: r-roptregts
+  version: 0.9.1
+
+source:
+  fn: ROptRegTS_0.9.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/ROptRegTS_0.9.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-roptestold
+    - r-randvar
+    - r-distr
+    - r-distrex
+  run:
+    - r
+    - r-roptestold
+    - r-randvar
+    - r-distr
+    - r-distrex
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

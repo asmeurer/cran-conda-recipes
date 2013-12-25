@@ -1,0 +1,27 @@
+package:
+  name: r-sirad
+  version: 2.0.7
+
+source:
+  fn: sirad_2.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/sirad_2.0-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-zoo
+    - r-ncdf
+    - r-rnetcdf
+    - r-raster
+  run:
+    - r-zoo
+    - r-ncdf
+    - r-rnetcdf
+    - r-raster
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

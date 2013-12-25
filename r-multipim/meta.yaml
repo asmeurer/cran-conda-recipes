@@ -1,0 +1,25 @@
+package:
+  name: r-multipim
+  version: 1.3.1
+
+source:
+  fn: multiPIM_1.3-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/multiPIM_1.3-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lars
+    - r-penalized
+    - r-polspline
+  run:
+    - r-lars
+    - r-penalized
+    - r-polspline
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

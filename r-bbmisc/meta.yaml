@@ -1,0 +1,19 @@
+package:
+  name: r-bbmisc
+  version: 1.4
+
+source:
+  fn: BBmisc_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/BBmisc_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: BSD_3_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

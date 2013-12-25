@@ -1,0 +1,21 @@
+package:
+  name: r-mvnmle
+  version: 0.1.11
+
+source:
+  fn: mvnmle_0.1-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/mvnmle_0.1-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

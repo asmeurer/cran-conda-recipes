@@ -1,0 +1,23 @@
+package:
+  name: r-truncsp
+  version: 1.2.1
+
+source:
+  fn: truncSP_1.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/truncSP_1.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-truncreg
+  run:
+    - r
+    - r-truncreg
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

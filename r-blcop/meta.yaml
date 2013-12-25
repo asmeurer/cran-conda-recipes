@@ -1,0 +1,21 @@
+package:
+  name: r-blcop
+  version: 0.2.6
+
+source:
+  fn: BLCOP_0.2.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/BLCOP_0.2.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-quadprog
+  run:
+    - r-quadprog
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

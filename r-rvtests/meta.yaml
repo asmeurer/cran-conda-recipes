@@ -1,0 +1,27 @@
+package:
+  name: r-rvtests
+  version: 1.2
+
+source:
+  fn: RVtests_1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/RVtests_1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-glmnet
+    - r-spls
+    - r-pls
+  run:
+    - r
+    - r-glmnet
+    - r-spls
+    - r-pls
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

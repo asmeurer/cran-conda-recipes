@@ -1,0 +1,23 @@
+package:
+  name: r-jop
+  version: 3.6
+
+source:
+  fn: JOP_3.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/JOP_3.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rsolnp
+    - r-dglm
+  run:
+    - r-rsolnp
+    - r-dglm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

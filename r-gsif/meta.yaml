@@ -1,0 +1,41 @@
+package:
+  name: r-gsif
+  version: 0.3.5
+
+source:
+  fn: GSIF_0.3-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/GSIF_0.3-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-rsaga
+    - r-dismo
+    - r-rgdal
+    - r-raster
+    - r-aqp
+    - r-plotkml
+    - r-gstat
+    - r-quantregforest
+    - r-randomforest
+  run:
+    - r
+    - r-sp
+    - r-rsaga
+    - r-dismo
+    - r-rgdal
+    - r-raster
+    - r-aqp
+    - r-plotkml
+    - r-gstat
+    - r-quantregforest
+    - r-randomforest
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-kml3d
+  version: 2.1.2
+
+source:
+  fn: kml3d_2.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/kml3d_2.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clv
+    - r-rgl
+    - r-misc3d
+    - r-longitudinaldata
+    - r-kml
+  run:
+    - r-clv
+    - r-rgl
+    - r-misc3d
+    - r-longitudinaldata
+    - r-kml
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

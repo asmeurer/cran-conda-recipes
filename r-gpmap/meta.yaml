@@ -1,0 +1,29 @@
+package:
+  name: r-gpmap
+  version: 0.1
+
+source:
+  fn: gpmap_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/gpmap_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-isotone
+    - r-plyr
+    - r-ggplot2
+    - r-foreach
+    - r-domc
+  run:
+    - r-isotone
+    - r-plyr
+    - r-ggplot2
+    - r-foreach
+    - r-domc
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

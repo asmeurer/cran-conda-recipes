@@ -1,0 +1,29 @@
+package:
+  name: r-rsig
+  version: 1.0
+
+source:
+  fn: rsig_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/rsig_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bbmisc
+    - r-glmnet
+    - r-superpc
+    - r-survcomp
+  run:
+    - r
+    - r-bbmisc
+    - r-glmnet
+    - r-superpc
+    - r-survcomp
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

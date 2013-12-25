@@ -1,0 +1,33 @@
+package:
+  name: r-pacose
+  version: 1.4
+
+source:
+  fn: pacose_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/pacose_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggm
+    - r-igraph
+    - r-ppls
+    - r-corpcor
+    - r-glmnet
+    - r-mvtnorm
+    - r-lcd
+  run:
+    - r-ggm
+    - r-igraph
+    - r-ppls
+    - r-corpcor
+    - r-glmnet
+    - r-mvtnorm
+    - r-lcd
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

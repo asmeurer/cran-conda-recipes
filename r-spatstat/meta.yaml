@@ -1,0 +1,29 @@
+package:
+  name: r-spatstat
+  version: 1.35.0
+
+source:
+  fn: spatstat_1.35-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/spatstat_1.35-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-deldir
+    - r-abind
+    - r-tensor
+    - r-polyclip
+  run:
+    - r
+    - r-deldir
+    - r-abind
+    - r-tensor
+    - r-polyclip
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

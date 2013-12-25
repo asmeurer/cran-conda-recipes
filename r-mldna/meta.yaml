@@ -1,0 +1,35 @@
+package:
+  name: r-mldna
+  version: 1.1
+
+source:
+  fn: mlDNA_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/mlDNA_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-snowfall
+    - r-igraph
+    - r-rsgcc
+    - r-e1071
+    - r-randomforest
+    - r-proc
+    - r-rocr
+  run:
+    - r
+    - r-snowfall
+    - r-igraph
+    - r-rsgcc
+    - r-e1071
+    - r-randomforest
+    - r-proc
+    - r-rocr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

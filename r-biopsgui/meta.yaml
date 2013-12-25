@@ -1,0 +1,25 @@
+package:
+  name: r-biopsgui
+  version: 0.1.2
+
+source:
+  fn: biOpsGUI_0.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/biOpsGUI_0.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgtk2
+    - r-biops
+  run:
+    - r
+    - r-rgtk2
+    - r-biops
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

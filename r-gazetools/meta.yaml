@@ -1,0 +1,45 @@
+package:
+  name: r-gazetools
+  version: 3.0
+
+source:
+  fn: gazetools_3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/gazetools_3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgeos
+    - r-maptools
+    - r-deldir
+    - r-sp
+    - r-modeest
+    - r-signal
+    - r-zoo
+    - r-rmisc
+    - r-reshape
+    - r-plyr
+    - r-spatstat
+    - r-ggplot2
+  run:
+    - r
+    - r-rgeos
+    - r-maptools
+    - r-deldir
+    - r-sp
+    - r-modeest
+    - r-signal
+    - r-zoo
+    - r-rmisc
+    - r-reshape
+    - r-plyr
+    - r-spatstat
+    - r-ggplot2
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

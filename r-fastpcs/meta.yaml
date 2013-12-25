@@ -1,0 +1,21 @@
+package:
+  name: r-fastpcs
+  version: 0.0.7
+
+source:
+  fn: FastPCS_0.0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/FastPCS_0.0.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-matrixstats
+  run:
+    - r-matrixstats
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-plink
+  version: 1.3.1
+
+source:
+  fn: plink_1.3-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/plink_1.3-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-statmod
+  run:
+    - r
+    - r-statmod
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

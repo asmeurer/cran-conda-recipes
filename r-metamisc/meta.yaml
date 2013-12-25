@@ -1,0 +1,29 @@
+package:
+  name: r-metamisc
+  version: 0.1.1
+
+source:
+  fn: metamisc_0.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/metamisc_0.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+    - r-ellipse
+    - r-bbmle
+    - r-rjags
+    - r-coda
+  run:
+    - r-mvtnorm
+    - r-ellipse
+    - r-bbmle
+    - r-rjags
+    - r-coda
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

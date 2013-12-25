@@ -1,0 +1,25 @@
+package:
+  name: r-gwidgetstcltk
+  version: 0.0.54
+
+source:
+  fn: gWidgetstcltk_0.0-54.tar.gz
+  url: http://cran.r-project.org/src/contrib/gWidgetstcltk_0.0-54.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gwidgets
+    - r-digest
+  run:
+    - r
+    - r-gwidgets
+    - r-digest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

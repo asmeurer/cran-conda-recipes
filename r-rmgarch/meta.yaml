@@ -1,0 +1,45 @@
+package:
+  name: r-rmgarch
+  version: 1.2.0
+
+source:
+  fn: rmgarch_1.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/rmgarch_1.2-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-rugarch
+    - r-rsolnp
+    - r-zoo
+    - r-xts
+    - r-bessel
+    - r-ff
+    - r-fftw
+    - r-shape
+    - r-kendall
+    - r-spd
+  run:
+    - r
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-rugarch
+    - r-rsolnp
+    - r-zoo
+    - r-xts
+    - r-bessel
+    - r-ff
+    - r-fftw
+    - r-shape
+    - r-kendall
+    - r-spd
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

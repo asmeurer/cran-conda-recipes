@@ -1,0 +1,35 @@
+package:
+  name: r-rbison
+  version: 0.2.4
+
+source:
+  fn: rbison_0.2.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rbison_0.2.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r-httr
+    - r-mapproj
+    - r-ggplot2
+    - r-gridextra
+    - r-maptools
+    - r-sp
+    - r-datatable
+  run:
+    - r-plyr
+    - r-httr
+    - r-mapproj
+    - r-ggplot2
+    - r-gridextra
+    - r-maptools
+    - r-sp
+    - r-datatable
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-diffdepprop
+  version: 0.1.9
+
+source:
+  fn: diffdepprop_0.1-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/diffdepprop_0.1-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gee
+    - r-rootsolve
+    - r-propcis
+  run:
+    - r-gee
+    - r-rootsolve
+    - r-propcis
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

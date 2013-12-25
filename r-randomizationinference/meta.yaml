@@ -1,0 +1,23 @@
+package:
+  name: r-randomizationinference
+  version: 1.0.1
+
+source:
+  fn: randomizationInference_1.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/randomizationInference_1.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-permute
+    - r-matrixstats
+  run:
+    - r-permute
+    - r-matrixstats
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

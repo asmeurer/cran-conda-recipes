@@ -1,0 +1,29 @@
+package:
+  name: r-mm
+  version: 1.6.2
+
+source:
+  fn: MM_1.6-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/MM_1.6-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-magic
+    - r-partitions
+    - r-emulator
+    - r-oarray
+  run:
+    - r
+    - r-magic
+    - r-partitions
+    - r-emulator
+    - r-oarray
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

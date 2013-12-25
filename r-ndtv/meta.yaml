@@ -1,0 +1,31 @@
+package:
+  name: r-ndtv
+  version: 0.4.0
+
+source:
+  fn: ndtv_0.4.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/ndtv_0.4.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-network
+    - r-networkdynamic
+    - r-animation
+    - r-sna
+    - r-statnetcommon
+  run:
+    - r
+    - r-network
+    - r-networkdynamic
+    - r-animation
+    - r-sna
+    - r-statnetcommon
+
+about:
+  license: GPL-3 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

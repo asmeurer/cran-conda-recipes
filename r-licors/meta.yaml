@@ -1,0 +1,33 @@
+package:
+  name: r-licors
+  version: 0.2.0
+
+source:
+  fn: LICORS_0.2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/LICORS_0.2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcolorbrewer
+    - r-mvtnorm
+    - r-zoo
+    - r-fnn
+    - r-fields
+    - r-locfit
+  run:
+    - r
+    - r-rcolorbrewer
+    - r-mvtnorm
+    - r-zoo
+    - r-fnn
+    - r-fields
+    - r-locfit
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

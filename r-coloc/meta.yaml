@@ -1,0 +1,23 @@
+package:
+  name: r-coloc
+  version: 2.3.1
+
+source:
+  fn: coloc_2.3-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/coloc_2.3-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-colorspace
+    - r-bma
+  run:
+    - r-colorspace
+    - r-bma
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

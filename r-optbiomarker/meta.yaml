@@ -1,0 +1,33 @@
+package:
+  name: r-optbiomarker
+  version: 1.0.27
+
+source:
+  fn: optBiomarker_1.0-27.tar.gz
+  url: http://cran.r-project.org/src/contrib/optBiomarker_1.0-27.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rpanel
+    - r-rgl
+    - r-randomforest
+    - r-e1071
+    - r-ipred
+    - r-msm
+  run:
+    - r
+    - r-rpanel
+    - r-rgl
+    - r-randomforest
+    - r-e1071
+    - r-ipred
+    - r-msm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

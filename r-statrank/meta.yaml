@@ -1,0 +1,21 @@
+package:
+  name: r-statrank
+  version: 0.0.2
+
+source:
+  fn: StatRank_0.0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/StatRank_0.0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-truncdist
+  run:
+    - r-truncdist
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

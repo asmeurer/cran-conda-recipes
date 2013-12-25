@@ -1,0 +1,25 @@
+package:
+  name: r-uscensus2010
+  version: 0.11
+
+source:
+  fn: UScensus2010_0.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/UScensus2010_0.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-maptools
+    - r-sp
+  run:
+    - r
+    - r-maptools
+    - r-sp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

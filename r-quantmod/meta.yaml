@@ -1,0 +1,27 @@
+package:
+  name: r-quantmod
+  version: 0.4.0
+
+source:
+  fn: quantmod_0.4-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/quantmod_0.4-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-defaults
+    - r-xts
+    - r-zoo
+    - r-ttr
+  run:
+    - r-defaults
+    - r-xts
+    - r-zoo
+    - r-ttr
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

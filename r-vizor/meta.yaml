@@ -1,0 +1,21 @@
+package:
+  name: r-vizor
+  version: 0.7.9
+
+source:
+  fn: VizOR_0.7-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/VizOR_0.7-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rms
+  run:
+    - r-rms
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

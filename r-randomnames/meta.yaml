@@ -1,0 +1,23 @@
+package:
+  name: r-randomnames
+  version: 0.0.6
+
+source:
+  fn: randomNames_0.0-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/randomNames_0.0-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-datatable
+  run:
+    - r
+    - r-datatable
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

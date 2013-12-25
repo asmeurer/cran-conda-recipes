@@ -1,0 +1,33 @@
+package:
+  name: r-wild1
+  version: 1.09
+
+source:
+  fn: wild1_1.09.tar.gz
+  url: http://cran.r-project.org/src/contrib/wild1_1.09.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chron
+    - r-sp
+    - r-maptools
+    - r-spatstat
+    - r-icsnp
+    - r-ks
+  run:
+    - r
+    - r-chron
+    - r-sp
+    - r-maptools
+    - r-spatstat
+    - r-icsnp
+    - r-ks
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

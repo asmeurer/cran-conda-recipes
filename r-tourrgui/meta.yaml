@@ -1,0 +1,31 @@
+package:
+  name: r-tourrgui
+  version: 0.4
+
+source:
+  fn: tourrGui_0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/tourrGui_0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tourr
+    - r-colorspace
+    - r-rgtk2
+    - r-gwidgets
+    - r-cairo
+  run:
+    - r
+    - r-tourr
+    - r-colorspace
+    - r-rgtk2
+    - r-gwidgets
+    - r-cairo
+
+about:
+  license: MIT | GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

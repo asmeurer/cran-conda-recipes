@@ -1,0 +1,25 @@
+package:
+  name: r-traitr
+  version: 0.13
+
+source:
+  fn: traitr_0.13.tar.gz
+  url: http://cran.r-project.org/src/contrib/traitr_0.13.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-digest
+    - r-proto
+    - r-gwidgets
+  run:
+    - r-digest
+    - r-proto
+    - r-gwidgets
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

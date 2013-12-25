@@ -1,0 +1,25 @@
+package:
+  name: r-solar
+  version: 0.37
+
+source:
+  fn: solaR_0.37.tar.gz
+  url: http://cran.r-project.org/src/contrib/solaR_0.37.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-latticeextra
+    - r-zoo
+  run:
+    - r
+    - r-latticeextra
+    - r-zoo
+
+about:
+  license: GPL-3 | file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

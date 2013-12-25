@@ -1,0 +1,23 @@
+package:
+  name: r-partitions
+  version: 1.9.15
+
+source:
+  fn: partitions_1.9-15.tar.gz
+  url: http://cran.r-project.org/src/contrib/partitions_1.9-15.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gmp
+    - r-polynom
+  run:
+    - r-gmp
+    - r-polynom
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

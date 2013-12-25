@@ -1,0 +1,23 @@
+package:
+  name: r-neurosim
+  version: 0.2.10
+
+source:
+  fn: neuRosim_0.2-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/neuRosim_0.2-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-desolve
+  run:
+    - r
+    - r-desolve
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

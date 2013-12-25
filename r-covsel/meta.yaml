@@ -1,0 +1,25 @@
+package:
+  name: r-covsel
+  version: 1.0
+
+source:
+  fn: CovSel_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/CovSel_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-dr
+    - r-np
+    - r-cubature
+  run:
+    - r-dr
+    - r-np
+    - r-cubature
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

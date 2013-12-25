@@ -1,0 +1,35 @@
+package:
+  name: r-sparktable
+  version: 0.9.6
+
+source:
+  fn: sparkTable_0.9.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/sparkTable_0.9.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-xtable
+    - r-cairo
+    - r-rglpk
+    - r-statmatch
+    - r-gridextra
+    - r-rgraphics
+    - r-ggplot2
+    - r-pixmap
+  run:
+    - r-xtable
+    - r-cairo
+    - r-rglpk
+    - r-statmatch
+    - r-gridextra
+    - r-rgraphics
+    - r-ggplot2
+    - r-pixmap
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

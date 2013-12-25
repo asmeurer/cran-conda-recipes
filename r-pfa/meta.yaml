@@ -1,0 +1,25 @@
+package:
+  name: r-pfa
+  version: 1.0
+
+source:
+  fn: pfa_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/pfa_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lars
+    - r-poet
+    - r-quantreg
+  run:
+    - r-lars
+    - r-poet
+    - r-quantreg
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

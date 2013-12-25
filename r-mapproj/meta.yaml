@@ -1,0 +1,21 @@
+package:
+  name: r-mapproj
+  version: 1.2.1
+
+source:
+  fn: mapproj_1.2-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/mapproj_1.2-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-maps
+  run:
+    - r-maps
+
+about:
+  license: Lucent Public License
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

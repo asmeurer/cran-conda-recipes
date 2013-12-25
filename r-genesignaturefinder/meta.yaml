@@ -1,0 +1,23 @@
+package:
+  name: r-genesignaturefinder
+  version: 2012.08.20
+
+source:
+  fn: geneSignatureFinder_2012.08.20.tar.gz
+  url: http://cran.r-project.org/src/contrib/geneSignatureFinder_2012.08.20.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gplots
+    - r-snow
+  run:
+    - r-gplots
+    - r-snow
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

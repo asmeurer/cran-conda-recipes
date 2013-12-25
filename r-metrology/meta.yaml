@@ -1,0 +1,23 @@
+package:
+  name: r-metrology
+  version: 0.9.16
+
+source:
+  fn: metRology_0.9-16.tar.gz
+  url: http://cran.r-project.org/src/contrib/metRology_0.9-16.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-numderiv
+  run:
+    - r
+    - r-numderiv
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

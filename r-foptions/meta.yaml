@@ -1,0 +1,25 @@
+package:
+  name: r-foptions
+  version: 3010.83
+
+source:
+  fn: fOptions_3010.83.tar.gz
+  url: http://cran.r-project.org/src/contrib/fOptions_3010.83.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+  run:
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

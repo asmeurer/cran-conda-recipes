@@ -1,0 +1,21 @@
+package:
+  name: r-sssimple
+  version: 0.6.2
+
+source:
+  fn: SSsimple_0.6.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/SSsimple_0.6.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+  run:
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

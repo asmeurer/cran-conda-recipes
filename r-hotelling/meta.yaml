@@ -1,0 +1,21 @@
+package:
+  name: r-hotelling
+  version: 1.0.2
+
+source:
+  fn: Hotelling_1.0-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/Hotelling_1.0-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-corpcor
+  run:
+    - r-corpcor
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

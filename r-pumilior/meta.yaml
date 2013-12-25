@@ -1,0 +1,23 @@
+package:
+  name: r-pumilior
+  version: 1.0
+
+source:
+  fn: pumilioR_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/pumilioR_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+  run:
+    - r
+    - r-xml
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

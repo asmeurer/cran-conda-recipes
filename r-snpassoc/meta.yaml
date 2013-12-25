@@ -1,0 +1,25 @@
+package:
+  name: r-snpassoc
+  version: 1.9.1
+
+source:
+  fn: SNPassoc_1.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/SNPassoc_1.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-haplostats
+    - r-mvtnorm
+  run:
+    - r
+    - r-haplostats
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

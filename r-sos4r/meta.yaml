@@ -1,0 +1,27 @@
+package:
+  name: r-sos4r
+  version: 0.2.11
+
+source:
+  fn: sos4R_0.2-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/sos4R_0.2-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-sp
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-sp
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

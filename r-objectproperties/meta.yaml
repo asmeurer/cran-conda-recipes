@@ -1,0 +1,25 @@
+package:
+  name: r-objectproperties
+  version: 0.6.5
+
+source:
+  fn: objectProperties_0.6.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/objectProperties_0.6.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-objectsignals
+    - r-objectsignals
+  run:
+    - r
+    - r-objectsignals
+    - r-objectsignals
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

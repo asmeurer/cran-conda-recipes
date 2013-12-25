@@ -1,0 +1,23 @@
+package:
+  name: r-lle
+  version: 1.1
+
+source:
+  fn: lle_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/lle_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-scatterplot3d
+    - r-snowfall
+  run:
+    - r-scatterplot3d
+    - r-snowfall
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

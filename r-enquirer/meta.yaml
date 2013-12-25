@@ -1,0 +1,25 @@
+package:
+  name: r-enquirer
+  version: 0.10
+
+source:
+  fn: EnQuireR_0.10.tar.gz
+  url: http://cran.r-project.org/src/contrib/EnQuireR_0.10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-factominer
+    - r-sensominer
+    - r-rcmdr
+  run:
+    - r-factominer
+    - r-sensominer
+    - r-rcmdr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

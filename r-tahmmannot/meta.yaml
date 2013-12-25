@@ -1,0 +1,23 @@
+package:
+  name: r-tahmmannot
+  version: 2.0
+
+source:
+  fn: TAHMMAnnot_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/TAHMMAnnot_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mnormt
+  run:
+    - r
+    - r-mnormt
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

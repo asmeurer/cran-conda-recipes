@@ -1,0 +1,21 @@
+package:
+  name: r-presiduals
+  version: 0.1.0
+
+source:
+  fn: PResiduals_0.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/PResiduals_0.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-formula
+  run:
+    - r-formula
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

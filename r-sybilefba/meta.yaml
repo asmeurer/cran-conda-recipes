@@ -1,0 +1,23 @@
+package:
+  name: r-sybilefba
+  version: 1.0.1
+
+source:
+  fn: sybilEFBA_1.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/sybilEFBA_1.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sybil
+  run:
+    - r
+    - r-sybil
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

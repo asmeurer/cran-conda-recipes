@@ -1,0 +1,25 @@
+package:
+  name: r-histogramtools
+  version: 0.3
+
+source:
+  fn: HistogramTools_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/HistogramTools_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-hmisc
+    - r-ash
+    - r-stringr
+  run:
+    - r-hmisc
+    - r-ash
+    - r-stringr
+
+about:
+  license: Apache License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

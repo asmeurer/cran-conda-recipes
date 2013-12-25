@@ -1,0 +1,23 @@
+package:
+  name: r-popgenome
+  version: 2.0
+
+source:
+  fn: PopGenome_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/PopGenome_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ff
+  run:
+    - r
+    - r-ff
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

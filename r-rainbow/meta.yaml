@@ -1,0 +1,29 @@
+package:
+  name: r-rainbow
+  version: 3.2
+
+source:
+  fn: rainbow_3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/rainbow_3.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pcapp
+    - r-hdrcde
+    - r-colorspace
+    - r-ks
+  run:
+    - r
+    - r-pcapp
+    - r-hdrcde
+    - r-colorspace
+    - r-ks
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-qlspack
+  version: 2.2
+
+source:
+  fn: qlspack_2.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/qlspack_2.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-geepack
+  run:
+    - r
+    - r-geepack
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

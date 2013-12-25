@@ -1,0 +1,19 @@
+package:
+  name: r-fastmatch
+  version: 1.0.4
+
+source:
+  fn: fastmatch_1.0-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/fastmatch_1.0-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

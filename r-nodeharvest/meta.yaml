@@ -1,0 +1,23 @@
+package:
+  name: r-nodeharvest
+  version: 0.6
+
+source:
+  fn: nodeHarvest_0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/nodeHarvest_0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-quadprog
+    - r-randomforest
+  run:
+    - r-quadprog
+    - r-randomforest
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

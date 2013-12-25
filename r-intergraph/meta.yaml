@@ -1,0 +1,23 @@
+package:
+  name: r-intergraph
+  version: 2.0.0
+
+source:
+  fn: intergraph_2.0-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/intergraph_2.0-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-network
+    - r-igraph
+  run:
+    - r-network
+    - r-igraph
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

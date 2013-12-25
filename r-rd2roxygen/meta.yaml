@@ -1,0 +1,23 @@
+package:
+  name: r-rd2roxygen
+  version: 1.4
+
+source:
+  fn: Rd2roxygen_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rd2roxygen_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-roxygen2
+    - r-formatr
+  run:
+    - r-roxygen2
+    - r-formatr
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

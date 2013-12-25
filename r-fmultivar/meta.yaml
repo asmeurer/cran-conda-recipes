@@ -1,0 +1,29 @@
+package:
+  name: r-fmultivar
+  version: 2152.77
+
+source:
+  fn: fMultivar_2152.77.tar.gz
+  url: http://cran.r-project.org/src/contrib/fMultivar_2152.77.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sn
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+  run:
+    - r
+    - r-sn
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

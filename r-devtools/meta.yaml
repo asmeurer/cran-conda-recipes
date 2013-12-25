@@ -1,0 +1,33 @@
+package:
+  name: r-devtools
+  version: 1.4.1
+
+source:
+  fn: devtools_1.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/devtools_1.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-httr
+    - r-rcurl
+    - r-memoise
+    - r-whisker
+    - r-evaluate
+    - r-digest
+  run:
+    - r
+    - r-httr
+    - r-rcurl
+    - r-memoise
+    - r-whisker
+    - r-evaluate
+    - r-digest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

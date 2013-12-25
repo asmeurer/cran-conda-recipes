@@ -1,0 +1,23 @@
+package:
+  name: r-orderbook
+  version: 1.03
+
+source:
+  fn: orderbook_1.03.tar.gz
+  url: http://cran.r-project.org/src/contrib/orderbook_1.03.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hash
+  run:
+    - r
+    - r-hash
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

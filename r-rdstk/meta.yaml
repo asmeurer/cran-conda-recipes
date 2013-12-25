@@ -1,0 +1,25 @@
+package:
+  name: r-rdstk
+  version: 1.1
+
+source:
+  fn: RDSTK_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/RDSTK_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r-rjson
+    - r-rcurl
+  run:
+    - r-plyr
+    - r-rjson
+    - r-rcurl
+
+about:
+  license: BSD_2_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

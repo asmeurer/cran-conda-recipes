@@ -1,0 +1,23 @@
+package:
+  name: r-adaptivesparsity
+  version: 1.3
+
+source:
+  fn: AdaptiveSparsity_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/AdaptiveSparsity_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+
+about:
+  license: LGPL (>= 3.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-geotopbricks
+  version: 1.3.5
+
+source:
+  fn: geotopbricks_1.3.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/geotopbricks_1.3.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-raster
+    - r-stringr
+    - r-zoo
+  run:
+    - r
+    - r-raster
+    - r-stringr
+    - r-zoo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,33 @@
+package:
+  name: r-geoxp
+  version: 1.6.2
+
+source:
+  fn: GeoXp_1.6.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/GeoXp_1.6.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quantreg
+    - r-rgl
+    - r-spdep
+    - r-rgeos
+    - r-robustbase
+    - r-splancs
+  run:
+    - r
+    - r-quantreg
+    - r-rgl
+    - r-spdep
+    - r-rgeos
+    - r-robustbase
+    - r-splancs
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-rcmdrpluginqual
+  version: 2.2.6
+
+source:
+  fn: RcmdrPlugin.qual_2.2.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcmdrPlugin.qual_2.2.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcmdr
+  run:
+    - r
+    - r-rcmdr
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

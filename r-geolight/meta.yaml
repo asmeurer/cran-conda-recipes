@@ -1,0 +1,25 @@
+package:
+  name: r-geolight
+  version: 1.03
+
+source:
+  fn: GeoLight_1.03.tar.gz
+  url: http://cran.r-project.org/src/contrib/GeoLight_1.03.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-maps
+    - r-changepoint
+  run:
+    - r
+    - r-maps
+    - r-changepoint
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

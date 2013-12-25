@@ -1,0 +1,33 @@
+package:
+  name: r-fassets
+  version: 3002.80
+
+source:
+  fn: fAssets_3002.80.tar.gz
+  url: http://cran.r-project.org/src/contrib/fAssets_3002.80.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-fcopulae
+    - r-sn
+    - r-robustbase
+  run:
+    - r
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-fcopulae
+    - r-sn
+    - r-robustbase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

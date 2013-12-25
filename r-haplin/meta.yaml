@@ -1,0 +1,25 @@
+package:
+  name: r-haplin
+  version: 5.3
+
+source:
+  fn: Haplin_5.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/Haplin_5.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-genabel
+    - r-databel
+    - r-filehash
+  run:
+    - r-genabel
+    - r-databel
+    - r-filehash
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

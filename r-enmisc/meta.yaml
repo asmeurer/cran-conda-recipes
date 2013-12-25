@@ -1,0 +1,25 @@
+package:
+  name: r-enmisc
+  version: 1.2.7
+
+source:
+  fn: ENmisc_1.2-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/ENmisc_1.2-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-hmisc
+    - r-vcd
+    - r-rcolorbrewer
+  run:
+    - r-hmisc
+    - r-vcd
+    - r-rcolorbrewer
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

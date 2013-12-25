@@ -1,0 +1,23 @@
+package:
+  name: r-randomfields
+  version: 3.0.5
+
+source:
+  fn: RandomFields_3.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/RandomFields_3.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+  run:
+    - r
+    - r-sp
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

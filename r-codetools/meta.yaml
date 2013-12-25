@@ -1,0 +1,21 @@
+package:
+  name: r-codetools
+  version: 0.2.8
+
+source:
+  fn: codetools_0.2-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/codetools_0.2-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-rsurvey
+  version: 0.7.9
+
+source:
+  fn: RSurvey_0.7-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/RSurvey_0.7-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-rgeos
+    - r-mba
+  run:
+    - r
+    - r-sp
+    - r-rgeos
+    - r-mba
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

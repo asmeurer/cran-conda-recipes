@@ -1,0 +1,23 @@
+package:
+  name: r-diagram
+  version: 1.6.1
+
+source:
+  fn: diagram_1.6.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/diagram_1.6.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-shape
+  run:
+    - r
+    - r-shape
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

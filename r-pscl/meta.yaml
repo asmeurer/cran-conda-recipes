@@ -1,0 +1,29 @@
+package:
+  name: r-pscl
+  version: 1.04.4
+
+source:
+  fn: pscl_1.04.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/pscl_1.04.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-coda
+    - r-gam
+    - r-vcd
+  run:
+    - r
+    - r-mvtnorm
+    - r-coda
+    - r-gam
+    - r-vcd
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

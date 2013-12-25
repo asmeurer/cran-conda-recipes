@@ -1,0 +1,19 @@
+package:
+  name: r-cocor
+  version: 1.0.0
+
+source:
+  fn: cocor_1.0-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/cocor_1.0-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

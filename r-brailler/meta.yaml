@@ -1,0 +1,25 @@
+package:
+  name: r-brailler
+  version: 0.8
+
+source:
+  fn: BrailleR_0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/BrailleR_0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-xtable
+    - r-moments
+    - r-nortest
+  run:
+    - r-xtable
+    - r-moments
+    - r-nortest
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

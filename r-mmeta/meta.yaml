@@ -1,0 +1,27 @@
+package:
+  name: r-mmeta
+  version: 2.0
+
+source:
+  fn: mmeta_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/mmeta_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-aod
+    - r-xtable
+    - r-hi
+  run:
+    - r
+    - r-aod
+    - r-xtable
+    - r-hi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

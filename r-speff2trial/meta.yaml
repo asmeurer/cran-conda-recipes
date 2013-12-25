@@ -1,0 +1,23 @@
+package:
+  name: r-speff2trial
+  version: 1.0.4
+
+source:
+  fn: speff2trial_1.0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/speff2trial_1.0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-leaps
+  run:
+    - r
+    - r-leaps
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

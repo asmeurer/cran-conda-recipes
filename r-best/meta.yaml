@@ -1,0 +1,21 @@
+package:
+  name: r-best
+  version: 0.2.0
+
+source:
+  fn: BEST_0.2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/BEST_0.2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjags
+  run:
+    - r-rjags
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

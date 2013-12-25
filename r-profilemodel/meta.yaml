@@ -1,0 +1,21 @@
+package:
+  name: r-profilemodel
+  version: 0.5.9
+
+source:
+  fn: profileModel_0.5-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/profileModel_0.5-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

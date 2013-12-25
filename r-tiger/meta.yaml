@@ -1,0 +1,31 @@
+package:
+  name: r-tiger
+  version: 0.2.3
+
+source:
+  fn: tiger_0.2.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/tiger_0.2.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-e1071
+    - r-hexbin
+    - r-qualv
+    - r-klar
+    - r-som
+  run:
+    - r
+    - r-e1071
+    - r-hexbin
+    - r-qualv
+    - r-klar
+    - r-som
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

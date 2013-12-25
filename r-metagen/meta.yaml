@@ -1,0 +1,23 @@
+package:
+  name: r-metagen
+  version: 0.1
+
+source:
+  fn: metagen_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/metagen_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r-bbmisc
+  run:
+    - r-plyr
+    - r-bbmisc
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

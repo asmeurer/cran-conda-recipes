@@ -1,0 +1,21 @@
+package:
+  name: r-fuzzyranktests
+  version: 0.3.5
+
+source:
+  fn: fuzzyRankTests_0.3-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/fuzzyRankTests_0.3-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

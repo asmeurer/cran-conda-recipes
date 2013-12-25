@@ -1,0 +1,23 @@
+package:
+  name: r-rlabkey
+  version: 2.1.123
+
+source:
+  fn: Rlabkey_2.1.123.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rlabkey_2.1.123.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcurl
+    - r-rjson
+  run:
+    - r-rcurl
+    - r-rjson
+
+about:
+  license: Apache License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

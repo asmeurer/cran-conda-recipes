@@ -1,0 +1,21 @@
+package:
+  name: r-concreg
+  version: 0.5
+
+source:
+  fn: concreg_0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/concreg_0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

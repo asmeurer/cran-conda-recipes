@@ -1,0 +1,25 @@
+package:
+  name: r-msir
+  version: 1.2
+
+source:
+  fn: msir_1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/msir_1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mclust
+    - r-rgl
+  run:
+    - r
+    - r-mclust
+    - r-rgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

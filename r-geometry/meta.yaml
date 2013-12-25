@@ -1,0 +1,23 @@
+package:
+  name: r-geometry
+  version: 0.3.3
+
+source:
+  fn: geometry_0.3-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/geometry_0.3-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-magic
+  run:
+    - r
+    - r-magic
+
+about:
+  license: GPL (>= 3) + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

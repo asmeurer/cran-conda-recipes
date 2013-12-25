@@ -1,0 +1,29 @@
+package:
+  name: r-foreca
+  version: 0.0.9
+
+source:
+  fn: ForeCA_0.0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/ForeCA_0.0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sapa
+    - r-astsa
+    - r-sapa
+    - r-rutils
+  run:
+    - r
+    - r-sapa
+    - r-astsa
+    - r-sapa
+    - r-rutils
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

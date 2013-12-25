@@ -1,0 +1,25 @@
+package:
+  name: r-gridgraphviz
+  version: 0.1
+
+source:
+  fn: gridGraphviz_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/gridGraphviz_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-rgraphviz
+  run:
+    - r
+    - r-graph
+    - r-rgraphviz
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

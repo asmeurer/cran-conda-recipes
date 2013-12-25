@@ -1,0 +1,23 @@
+package:
+  name: r-svsweave
+  version: 0.9.8
+
+source:
+  fn: svSweave_0.9-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/svSweave_0.9-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-knitr
+  run:
+    - r
+    - r-knitr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

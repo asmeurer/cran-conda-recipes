@@ -1,0 +1,23 @@
+package:
+  name: r-metaskat
+  version: 0.32
+
+source:
+  fn: MetaSKAT_0.32.tar.gz
+  url: http://cran.r-project.org/src/contrib/MetaSKAT_0.32.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-skat
+  run:
+    - r
+    - r-skat
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

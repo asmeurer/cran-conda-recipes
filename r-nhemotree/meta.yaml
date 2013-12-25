@@ -1,0 +1,25 @@
+package:
+  name: r-nhemotree
+  version: 1.0
+
+source:
+  fn: NHEMOtree_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/NHEMOtree_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-partykit
+    - r-emoa
+    - r-sets
+  run:
+    - r-partykit
+    - r-emoa
+    - r-sets
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

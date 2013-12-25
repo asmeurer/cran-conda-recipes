@@ -1,0 +1,29 @@
+package:
+  name: r-adehabitaths
+  version: 0.3.8
+
+source:
+  fn: adehabitatHS_0.3.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/adehabitatHS_0.3.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-ade4
+    - r-adehabitatma
+    - r-adehabitathr
+  run:
+    - r
+    - r-sp
+    - r-ade4
+    - r-adehabitatma
+    - r-adehabitathr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

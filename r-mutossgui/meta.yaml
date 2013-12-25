@@ -1,0 +1,33 @@
+package:
+  name: r-mutossgui
+  version: 0.1.8
+
+source:
+  fn: mutossGUI_0.1-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/mutossGUI_0.1-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-javagd
+    - r-commonjavajars
+    - r-plotrix
+    - r-mutoss
+    - r-multcomp
+  run:
+    - r
+    - r-rjava
+    - r-javagd
+    - r-commonjavajars
+    - r-plotrix
+    - r-mutoss
+    - r-multcomp
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

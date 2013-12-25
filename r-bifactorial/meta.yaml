@@ -1,0 +1,25 @@
+package:
+  name: r-bifactorial
+  version: 1.4.7
+
+source:
+  fn: bifactorial_1.4.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/bifactorial_1.4.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+    - r-multcomp
+    - r-rcpp
+  run:
+    - r-mvtnorm
+    - r-multcomp
+    - r-rcpp
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

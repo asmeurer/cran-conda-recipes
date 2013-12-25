@@ -1,0 +1,27 @@
+package:
+  name: r-dirichletreg
+  version: 0.4.0
+
+source:
+  fn: DirichletReg_0.4-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/DirichletReg_0.4-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-maxlik
+    - r-formula
+    - r-rgl
+  run:
+    - r
+    - r-maxlik
+    - r-formula
+    - r-rgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

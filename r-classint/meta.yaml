@@ -1,0 +1,23 @@
+package:
+  name: r-classint
+  version: 0.1.21
+
+source:
+  fn: classInt_0.1-21.tar.gz
+  url: http://cran.r-project.org/src/contrib/classInt_0.1-21.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-e1071
+  run:
+    - r
+    - r-e1071
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

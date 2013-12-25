@@ -1,0 +1,35 @@
+package:
+  name: r-robloxbioc
+  version: 0.9
+
+source:
+  fn: RobLoxBioC_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/RobLoxBioC_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-roblox
+    - r-affy
+    - r-biocgenerics
+    - r-biobase
+    - r-beadarray
+    - r-rcolorbrewer
+    - r-distr
+  run:
+    - r
+    - r-roblox
+    - r-affy
+    - r-biocgenerics
+    - r-biobase
+    - r-beadarray
+    - r-rcolorbrewer
+    - r-distr
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

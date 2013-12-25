@@ -1,0 +1,23 @@
+package:
+  name: r-genoplotr
+  version: 0.8.2
+
+source:
+  fn: genoPlotR_0.8.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/genoPlotR_0.8.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ade4
+  run:
+    - r
+    - r-ade4
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

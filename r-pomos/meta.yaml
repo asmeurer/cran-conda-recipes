@@ -1,0 +1,27 @@
+package:
+  name: r-pomos
+  version: 1.1.1
+
+source:
+  fn: PoMoS_1.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/PoMoS_1.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgtk2
+    - r-cairodevice
+    - r-igraph
+  run:
+    - r
+    - r-rgtk2
+    - r-cairodevice
+    - r-igraph
+
+about:
+  license: CeCILL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

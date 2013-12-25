@@ -1,0 +1,25 @@
+package:
+  name: r-bigml
+  version: 0.1.1
+
+source:
+  fn: bigml_0.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/bigml_0.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjsonio
+    - r-rcurl
+    - r-plyr
+  run:
+    - r-rjsonio
+    - r-rcurl
+    - r-plyr
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

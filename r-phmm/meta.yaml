@@ -1,0 +1,19 @@
+package:
+  name: r-phmm
+  version: 0.7.5
+
+source:
+  fn: phmm_0.7-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/phmm_0.7-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

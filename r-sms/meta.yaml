@@ -1,0 +1,23 @@
+package:
+  name: r-sms
+  version: 2.1
+
+source:
+  fn: sms_2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/sms_2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-doparallel
+    - r-foreach
+  run:
+    - r-doparallel
+    - r-foreach
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

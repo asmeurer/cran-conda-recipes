@@ -1,0 +1,23 @@
+package:
+  name: r-emulator
+  version: 1.2.13
+
+source:
+  fn: emulator_1.2-13.tar.gz
+  url: http://cran.r-project.org/src/contrib/emulator_1.2-13.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+  run:
+    - r
+    - r-mvtnorm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

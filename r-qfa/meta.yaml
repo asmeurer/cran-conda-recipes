@@ -1,0 +1,25 @@
+package:
+  name: r-qfa
+  version: 0.0.10
+
+source:
+  fn: qfa_0.0-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/qfa_0.0-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-deoptim
+  run:
+    - r
+    - r-sp
+    - r-deoptim
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

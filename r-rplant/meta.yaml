@@ -1,0 +1,29 @@
+package:
+  name: r-rplant
+  version: 2.7
+
+source:
+  fn: rPlant_2.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/rPlant_2.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjson
+    - r-rcurl
+    - r-seqinr
+    - r-knitcitations
+  run:
+    - r
+    - r-rjson
+    - r-rcurl
+    - r-seqinr
+    - r-knitcitations
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

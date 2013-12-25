@@ -1,0 +1,31 @@
+package:
+  name: r-demerelate
+  version: 0.8.1
+
+source:
+  fn: Demerelate_0.8-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Demerelate_0.8-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-formula
+    - r-fts
+    - r-sfsmisc
+    - r-vegan
+    - r-mlogit
+  run:
+    - r
+    - r-formula
+    - r-fts
+    - r-sfsmisc
+    - r-vegan
+    - r-mlogit
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

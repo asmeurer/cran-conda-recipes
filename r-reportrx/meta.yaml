@@ -1,0 +1,31 @@
+package:
+  name: r-reportrx
+  version: 1.0
+
+source:
+  fn: reportRx_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/reportRx_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-reshape
+    - r-xtable
+    - r-aod
+    - r-cmprsk
+    - r-geor
+    - r-stringr
+  run:
+    - r-reshape
+    - r-xtable
+    - r-aod
+    - r-cmprsk
+    - r-geor
+    - r-stringr
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

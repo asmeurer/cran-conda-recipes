@@ -1,0 +1,31 @@
+package:
+  name: r-opossom
+  version: 0.2.3
+
+source:
+  fn: oposSOM_0.2-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/oposSOM_0.2-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-som
+    - r-fastica
+    - r-pixmap
+    - r-igraph
+    - r-biomart
+  run:
+    - r
+    - r-som
+    - r-fastica
+    - r-pixmap
+    - r-igraph
+    - r-biomart
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

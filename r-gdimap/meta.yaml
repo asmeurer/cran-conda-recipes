@@ -1,0 +1,35 @@
+package:
+  name: r-gdimap
+  version: 0.1.1
+
+source:
+  fn: gdimap_0.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/gdimap_0.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-oronifti
+    - r-gsl
+    - r-movmf
+    - r-gridextra
+    - r-rgl
+    - r-colorspace
+    - r-geometry
+  run:
+    - r
+    - r-oronifti
+    - r-gsl
+    - r-movmf
+    - r-gridextra
+    - r-rgl
+    - r-colorspace
+    - r-geometry
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

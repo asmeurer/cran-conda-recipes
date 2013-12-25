@@ -1,0 +1,27 @@
+package:
+  name: r-r4ss
+  version: 1.20
+
+source:
+  fn: r4ss_1.20.tar.gz
+  url: http://cran.r-project.org/src/contrib/r4ss_1.20.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coda
+    - r-gtools
+    - r-maps
+  run:
+    - r
+    - r-coda
+    - r-gtools
+    - r-maps
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

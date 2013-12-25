@@ -1,0 +1,27 @@
+package:
+  name: r-lfstat
+  version: 0.3
+
+source:
+  fn: lfstat_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/lfstat_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lmom
+    - r-lmomrfa
+    - r-latticeextra
+  run:
+    - r
+    - r-lmom
+    - r-lmomrfa
+    - r-latticeextra
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

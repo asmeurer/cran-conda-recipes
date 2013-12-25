@@ -1,0 +1,23 @@
+package:
+  name: r-daagbio
+  version: 0.62
+
+source:
+  fn: DAAGbio_0.62.tar.gz
+  url: http://cran.r-project.org/src/contrib/DAAGbio_0.62.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+  run:
+    - r
+    - r-limma
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

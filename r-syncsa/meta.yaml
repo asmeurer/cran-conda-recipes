@@ -1,0 +1,23 @@
+package:
+  name: r-syncsa
+  version: 1.3.1
+
+source:
+  fn: SYNCSA_1.3.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/SYNCSA_1.3.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-vegan
+    - r-mice
+  run:
+    - r-vegan
+    - r-mice
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

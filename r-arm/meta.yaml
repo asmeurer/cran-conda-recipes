@@ -1,0 +1,27 @@
+package:
+  name: r-arm
+  version: 1.6.10
+
+source:
+  fn: arm_1.6-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/arm_1.6-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lme4
+    - r-abind
+    - r-coda
+  run:
+    - r
+    - r-lme4
+    - r-abind
+    - r-coda
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

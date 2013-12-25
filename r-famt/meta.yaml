@@ -1,0 +1,23 @@
+package:
+  name: r-famt
+  version: 2.5
+
+source:
+  fn: FAMT_2.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/FAMT_2.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mnormt
+    - r-impute
+  run:
+    - r-mnormt
+    - r-impute
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,33 @@
+package:
+  name: r-doewrapper
+  version: 0.8.9
+
+source:
+  fn: DoE.wrapper_0.8-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/DoE.wrapper_0.8-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-frf2
+    - r-doebase
+    - r-rsm
+    - r-lhs
+    - r-dicedesign
+    - r-algdesign
+  run:
+    - r
+    - r-frf2
+    - r-doebase
+    - r-rsm
+    - r-lhs
+    - r-dicedesign
+    - r-algdesign
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

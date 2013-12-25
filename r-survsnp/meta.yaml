@@ -1,0 +1,27 @@
+package:
+  name: r-survsnp
+  version: 0.21.7
+
+source:
+  fn: survSNP_0.21-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/survSNP_0.21-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-foreach
+    - r-xtable
+  run:
+    - r
+    - r-rcpp
+    - r-foreach
+    - r-xtable
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

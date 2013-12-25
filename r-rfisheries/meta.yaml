@@ -1,0 +1,29 @@
+package:
+  name: r-rfisheries
+  version: 0.0.6
+
+source:
+  fn: rfisheries_0.0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/rfisheries_0.0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-httr
+    - r-datatable
+    - r-assertthat
+    - r-ggplot2
+  run:
+    - r
+    - r-httr
+    - r-datatable
+    - r-assertthat
+    - r-ggplot2
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

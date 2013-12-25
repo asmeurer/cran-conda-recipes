@@ -1,0 +1,31 @@
+package:
+  name: r-varcomp
+  version: 0.1.317
+
+source:
+  fn: varComp_0.1-317.tar.gz
+  url: http://cran.r-project.org/src/contrib/varComp_0.1-317.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quadprog
+    - r-compquadform
+    - r-rlrsim
+    - r-spa3g
+    - r-mvtnorm
+  run:
+    - r
+    - r-quadprog
+    - r-compquadform
+    - r-rlrsim
+    - r-spa3g
+    - r-mvtnorm
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

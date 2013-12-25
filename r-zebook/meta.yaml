@@ -1,0 +1,25 @@
+package:
+  name: r-zebook
+  version: 0.5
+
+source:
+  fn: ZeBook_0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/ZeBook_0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-triangle
+    - r-desolve
+    - r
+  run:
+    - r-triangle
+    - r-desolve
+    - r
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

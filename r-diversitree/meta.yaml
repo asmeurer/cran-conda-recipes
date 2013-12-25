@@ -1,0 +1,29 @@
+package:
+  name: r-diversitree
+  version: 0.9.6
+
+source:
+  fn: diversitree_0.9-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/diversitree_0.9-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-desolve
+    - r-ape
+    - r-subplex
+    - r-rcpp
+  run:
+    - r
+    - r-desolve
+    - r-ape
+    - r-subplex
+    - r-rcpp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

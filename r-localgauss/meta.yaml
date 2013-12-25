@@ -1,0 +1,25 @@
+package:
+  name: r-localgauss
+  version: 0.32
+
+source:
+  fn: localgauss_0.32.tar.gz
+  url: http://cran.r-project.org/src/contrib/localgauss_0.32.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-foreach
+    - r-matrixstats
+  run:
+    - r-ggplot2
+    - r-foreach
+    - r-matrixstats
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

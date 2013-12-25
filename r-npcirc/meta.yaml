@@ -1,0 +1,33 @@
+package:
+  name: r-npcirc
+  version: 2.0.0
+
+source:
+  fn: NPCirc_2.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/NPCirc_2.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-circular
+    - r-misc3d
+    - r-movmf
+    - r-plotrix
+    - r-rgl
+    - r-shape
+  run:
+    - r
+    - r-circular
+    - r-misc3d
+    - r-movmf
+    - r-plotrix
+    - r-rgl
+    - r-shape
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

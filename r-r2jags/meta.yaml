@@ -1,0 +1,29 @@
+package:
+  name: r-r2jags
+  version: 0.03.11
+
+source:
+  fn: R2jags_0.03-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/R2jags_0.03-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjags
+    - r-abind
+    - r-coda
+    - r-r2winbugs
+  run:
+    - r
+    - r-rjags
+    - r-abind
+    - r-coda
+    - r-r2winbugs
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

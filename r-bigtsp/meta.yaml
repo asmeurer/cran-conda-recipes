@@ -1,0 +1,27 @@
+package:
+  name: r-bigtsp
+  version: 1.0
+
+source:
+  fn: BigTSP_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/BigTSP_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-glmnet
+    - r-tree
+    - r-randomforest
+    - r-gbm
+  run:
+    - r-glmnet
+    - r-tree
+    - r-randomforest
+    - r-gbm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

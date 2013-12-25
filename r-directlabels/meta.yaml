@@ -1,0 +1,21 @@
+package:
+  name: r-directlabels
+  version: 2013.6.15
+
+source:
+  fn: directlabels_2013.6.15.tar.gz
+  url: http://cran.r-project.org/src/contrib/directlabels_2013.6.15.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-quadprog
+  run:
+    - r-quadprog
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

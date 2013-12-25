@@ -1,0 +1,25 @@
+package:
+  name: r-geophys
+  version: 1.2.1
+
+source:
+  fn: geophys_1.2-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/geophys_1.2-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rpmg
+    - r-rfoc
+  run:
+    - r
+    - r-rpmg
+    - r-rfoc
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

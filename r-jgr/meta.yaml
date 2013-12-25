@@ -1,0 +1,27 @@
+package:
+  name: r-jgr
+  version: 1.7.16
+
+source:
+  fn: JGR_1.7-16.tar.gz
+  url: http://cran.r-project.org/src/contrib/JGR_1.7-16.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-javagd
+    - r-iplots
+  run:
+    - r
+    - r-rjava
+    - r-javagd
+    - r-iplots
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

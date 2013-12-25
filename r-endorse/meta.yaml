@@ -1,0 +1,21 @@
+package:
+  name: r-endorse
+  version: 1.4.0
+
+source:
+  fn: endorse_1.4.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/endorse_1.4.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+  run:
+    - r-coda
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

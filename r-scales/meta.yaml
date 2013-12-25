@@ -1,0 +1,33 @@
+package:
+  name: r-scales
+  version: 0.2.3
+
+source:
+  fn: scales_0.2.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/scales_0.2.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcolorbrewer
+    - r-stringr
+    - r-dichromat
+    - r-munsell
+    - r-plyr
+    - r-labeling
+  run:
+    - r
+    - r-rcolorbrewer
+    - r-stringr
+    - r-dichromat
+    - r-munsell
+    - r-plyr
+    - r-labeling
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

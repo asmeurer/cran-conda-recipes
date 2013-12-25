@@ -1,0 +1,31 @@
+package:
+  name: r-mets
+  version: 0.2.6
+
+source:
+  fn: mets_0.2.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/mets_0.2.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-timereg
+    - r-lava
+    - r-numderiv
+    - r-rcpp
+    - r-rcpparmadillo
+  run:
+    - r
+    - r-timereg
+    - r-lava
+    - r-numderiv
+    - r-rcpp
+    - r-rcpparmadillo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

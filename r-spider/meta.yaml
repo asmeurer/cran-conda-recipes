@@ -1,0 +1,25 @@
+package:
+  name: r-spider
+  version: 1.2.0
+
+source:
+  fn: spider_1.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/spider_1.2-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-pegas
+  run:
+    - r
+    - r-ape
+    - r-pegas
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,45 @@
+package:
+  name: r-taxize
+  version: 0.1.5
+
+source:
+  fn: taxize_0.1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/taxize_0.1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-stringr
+    - r-plyr
+    - r-httr
+    - r-rjsonio
+    - r-foreach
+    - r-ape
+    - r-taxonstand
+    - r-reshape2
+    - r-datatable
+    - r-reshape
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-stringr
+    - r-plyr
+    - r-httr
+    - r-rjsonio
+    - r-foreach
+    - r-ape
+    - r-taxonstand
+    - r-reshape2
+    - r-datatable
+    - r-reshape
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,31 @@
+package:
+  name: r-copula
+  version: 0.999.7
+
+source:
+  fn: copula_0.999-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/copula_0.999-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gsl
+    - r-adgoftest
+    - r-stabledist
+    - r-mvtnorm
+    - r-pspline
+  run:
+    - r
+    - r-gsl
+    - r-adgoftest
+    - r-stabledist
+    - r-mvtnorm
+    - r-pspline
+
+about:
+  license: GPL (>= 3) | file LICENCE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

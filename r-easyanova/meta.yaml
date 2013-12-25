@@ -1,0 +1,23 @@
+package:
+  name: r-easyanova
+  version: 3.0
+
+source:
+  fn: easyanova_3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/easyanova_3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+  run:
+    - r
+    - r-car
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

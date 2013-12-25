@@ -1,0 +1,23 @@
+package:
+  name: r-dyn
+  version: 0.2.9
+
+source:
+  fn: dyn_0.2-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/dyn_0.2-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-zoo
+  run:
+    - r
+    - r-zoo
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

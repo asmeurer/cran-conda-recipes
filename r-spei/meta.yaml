@@ -1,0 +1,21 @@
+package:
+  name: r-spei
+  version: 1.6
+
+source:
+  fn: SPEI_1.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/SPEI_1.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lmomco
+  run:
+    - r-lmomco
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

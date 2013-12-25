@@ -1,0 +1,21 @@
+package:
+  name: r-optextras
+  version: 2013.10.27
+
+source:
+  fn: optextras_2013-10.27.tar.gz
+  url: http://cran.r-project.org/src/contrib/optextras_2013-10.27.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-numderiv
+  run:
+    - r-numderiv
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

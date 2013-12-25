@@ -1,0 +1,25 @@
+package:
+  name: r-diflasso
+  version: 1.0
+
+source:
+  fn: DIFlasso_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/DIFlasso_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-grplasso
+    - r-penalized
+    - r-micecon
+  run:
+    - r-grplasso
+    - r-penalized
+    - r-micecon
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

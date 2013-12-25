@@ -1,0 +1,25 @@
+package:
+  name: r-rampath
+  version: 0.3.7
+
+source:
+  fn: RAMpath_0.3.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/RAMpath_0.3.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lavaan
+    - r-ellipse
+  run:
+    - r
+    - r-lavaan
+    - r-ellipse
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

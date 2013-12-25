@@ -1,0 +1,29 @@
+package:
+  name: r-openair
+  version: 0.9.0
+
+source:
+  fn: openair_0.9-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/openair_0.9-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+    - r-reshape2
+    - r-latticeextra
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-plyr
+    - r-reshape2
+    - r-latticeextra
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-lessr
+  version: 2.9.7
+
+source:
+  fn: lessR_2.9.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/lessR_2.9.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+    - r-leaps
+    - r-mbess
+    - r-gdata
+  run:
+    - r
+    - r-car
+    - r-leaps
+    - r-mbess
+    - r-gdata
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

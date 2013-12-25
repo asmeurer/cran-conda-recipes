@@ -1,0 +1,23 @@
+package:
+  name: r-mcmcpack
+  version: 1.3.3
+
+source:
+  fn: MCMCpack_1.3-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/MCMCpack_1.3-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coda
+  run:
+    - r
+    - r-coda
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

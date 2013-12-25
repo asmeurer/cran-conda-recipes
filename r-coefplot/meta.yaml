@@ -1,0 +1,31 @@
+package:
+  name: r-coefplot
+  version: 1.2.0
+
+source:
+  fn: coefplot_1.2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/coefplot_1.2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-plyr
+    - r-reshape2
+    - r-useful
+    - r-scales
+    - r-proto
+  run:
+    - r-ggplot2
+    - r-plyr
+    - r-reshape2
+    - r-useful
+    - r-scales
+    - r-proto
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

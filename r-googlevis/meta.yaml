@@ -1,0 +1,23 @@
+package:
+  name: r-googlevis
+  version: 0.4.7
+
+source:
+  fn: googleVis_0.4.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/googleVis_0.4.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjsonio
+  run:
+    - r
+    - r-rjsonio
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

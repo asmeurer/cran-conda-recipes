@@ -1,0 +1,21 @@
+package:
+  name: r-bizdays
+  version: 0.1.3
+
+source:
+  fn: bizdays_0.1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/bizdays_0.1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

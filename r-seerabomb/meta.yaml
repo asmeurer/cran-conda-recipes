@@ -1,0 +1,23 @@
+package:
+  name: r-seerabomb
+  version: 2013.4.3
+
+source:
+  fn: SEERaBomb_2013.4.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/SEERaBomb_2013.4.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rsqlite
+    - r-laf
+  run:
+    - r-rsqlite
+    - r-laf
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

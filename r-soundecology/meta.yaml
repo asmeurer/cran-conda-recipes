@@ -1,0 +1,33 @@
+package:
+  name: r-soundecology
+  version: 1.1
+
+source:
+  fn: soundecology_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/soundecology_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tuner
+    - r-seewave
+    - r-pracma
+    - r-oce
+    - r-ineq
+    - r-vegan
+  run:
+    - r
+    - r-tuner
+    - r-seewave
+    - r-pracma
+    - r-oce
+    - r-ineq
+    - r-vegan
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

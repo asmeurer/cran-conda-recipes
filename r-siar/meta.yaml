@@ -1,0 +1,29 @@
+package:
+  name: r-siar
+  version: 4.2
+
+source:
+  fn: siar_4.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/siar_4.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-hdrcde
+    - r-coda
+    - r-bayesm
+    - r-mnormt
+    - r-spatstat
+  run:
+    - r-hdrcde
+    - r-coda
+    - r-bayesm
+    - r-mnormt
+    - r-spatstat
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

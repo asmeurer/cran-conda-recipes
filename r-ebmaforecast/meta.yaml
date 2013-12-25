@@ -1,0 +1,29 @@
+package:
+  name: r-ebmaforecast
+  version: 0.42
+
+source:
+  fn: EBMAforecast_0.42.tar.gz
+  url: http://cran.r-project.org/src/contrib/EBMAforecast_0.42.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-separationplot
+    - r-ensemblebma
+    - r-plyr
+    - r-hmisc
+    - r-abind
+  run:
+    - r-separationplot
+    - r-ensemblebma
+    - r-plyr
+    - r-hmisc
+    - r-abind
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

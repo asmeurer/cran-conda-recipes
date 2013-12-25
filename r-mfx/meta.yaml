@@ -1,0 +1,23 @@
+package:
+  name: r-mfx
+  version: 1.0
+
+source:
+  fn: mfx_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/mfx_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sandwich
+    - r-lmtest
+  run:
+    - r-sandwich
+    - r-lmtest
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

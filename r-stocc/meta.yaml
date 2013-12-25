@@ -1,0 +1,25 @@
+package:
+  name: r-stocc
+  version: 1.0.7
+
+source:
+  fn: stocc_1.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/stocc_1.0-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-truncnorm
+    - r-coda
+    - r-fields
+  run:
+    - r-truncnorm
+    - r-coda
+    - r-fields
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

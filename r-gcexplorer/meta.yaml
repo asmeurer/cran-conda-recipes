@@ -1,0 +1,29 @@
+package:
+  name: r-gcexplorer
+  version: 0.9.4
+
+source:
+  fn: gcExplorer_0.9-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/gcExplorer_0.9-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flexclust
+    - r-rgraphviz
+    - r-flexclust
+    - r-modeltools
+  run:
+    - r
+    - r-flexclust
+    - r-rgraphviz
+    - r-flexclust
+    - r-modeltools
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

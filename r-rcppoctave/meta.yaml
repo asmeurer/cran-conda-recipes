@@ -1,0 +1,29 @@
+package:
+  name: r-rcppoctave
+  version: 0.11.3
+
+source:
+  fn: RcppOctave_0.11.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcppOctave_0.11.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-pkgmaker
+    - r-digest
+    - r-stringr
+  run:
+    - r
+    - r-rcpp
+    - r-pkgmaker
+    - r-digest
+    - r-stringr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

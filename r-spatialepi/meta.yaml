@@ -1,0 +1,33 @@
+package:
+  name: r-spatialepi
+  version: 1.1
+
+source:
+  fn: SpatialEpi_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/SpatialEpi_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sp
+    - r-maps
+    - r-maptools
+    - r-shapefiles
+    - r-spdep
+    - r-gtools
+    - r-rgeos
+  run:
+    - r-sp
+    - r-maps
+    - r-maptools
+    - r-shapefiles
+    - r-spdep
+    - r-gtools
+    - r-rgeos
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

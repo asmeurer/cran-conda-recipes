@@ -1,0 +1,23 @@
+package:
+  name: r-timeseries
+  version: 3010.97
+
+source:
+  fn: timeSeries_3010.97.tar.gz
+  url: http://cran.r-project.org/src/contrib/timeSeries_3010.97.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-timedate
+  run:
+    - r
+    - r-timedate
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

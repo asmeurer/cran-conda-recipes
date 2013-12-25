@@ -1,0 +1,31 @@
+package:
+  name: r-tam
+  version: 0.99.7
+
+source:
+  fn: TAM_0.99-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/TAM_0.99-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-tensor
+    - r-sfsmisc
+    - r-gparotation
+    - r-psych
+  run:
+    - r
+    - r-mvtnorm
+    - r-tensor
+    - r-sfsmisc
+    - r-gparotation
+    - r-psych
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

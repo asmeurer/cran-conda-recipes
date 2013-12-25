@@ -1,0 +1,25 @@
+package:
+  name: r-bgeva
+  version: 0.2
+
+source:
+  fn: bgeva_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/bgeva_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-magic
+    - r-trust
+  run:
+    - r
+    - r-magic
+    - r-trust
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

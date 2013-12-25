@@ -1,0 +1,25 @@
+package:
+  name: r-phasetype
+  version: 0.1.3
+
+source:
+  fn: PhaseType_0.1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/PhaseType_0.1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-ggplot2
+    - r-reshape
+  run:
+    - r-coda
+    - r-ggplot2
+    - r-reshape
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

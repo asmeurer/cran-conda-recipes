@@ -1,0 +1,29 @@
+package:
+  name: r-qrm
+  version: 0.4.9
+
+source:
+  fn: QRM_0.4-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/QRM_0.4-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gsl
+    - r-mvtnorm
+    - r-numderiv
+    - r-timeseries
+  run:
+    - r
+    - r-gsl
+    - r-mvtnorm
+    - r-numderiv
+    - r-timeseries
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

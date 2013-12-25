@@ -1,0 +1,25 @@
+package:
+  name: r-rgp
+  version: 0.3.4
+
+source:
+  fn: rgp_0.3-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rgp_0.3-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-emoa
+    - r-rrules
+  run:
+    - r
+    - r-emoa
+    - r-rrules
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

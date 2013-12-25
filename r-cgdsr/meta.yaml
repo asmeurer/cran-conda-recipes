@@ -1,0 +1,25 @@
+package:
+  name: r-cgdsr
+  version: 1.1.30
+
+source:
+  fn: cgdsr_1.1.30.tar.gz
+  url: http://cran.r-project.org/src/contrib/cgdsr_1.1.30.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-roo
+    - r-rmethodss3
+  run:
+    - r
+    - r-roo
+    - r-rmethodss3
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

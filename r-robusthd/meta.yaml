@@ -1,0 +1,33 @@
+package:
+  name: r-robusthd
+  version: 0.4.0
+
+source:
+  fn: robustHD_0.4.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/robustHD_0.4.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-perry
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-pcapp
+    - r-robustbase
+  run:
+    - r
+    - r-ggplot2
+    - r-perry
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-pcapp
+    - r-robustbase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

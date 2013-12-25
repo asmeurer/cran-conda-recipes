@@ -1,0 +1,27 @@
+package:
+  name: r-bestglm
+  version: 0.33
+
+source:
+  fn: bestglm_0.33.tar.gz
+  url: http://cran.r-project.org/src/contrib/bestglm_0.33.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-leaps
+    - r-lars
+    - r-elemstatlearn
+  run:
+    - r
+    - r-leaps
+    - r-lars
+    - r-elemstatlearn
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

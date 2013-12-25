@@ -1,0 +1,21 @@
+package:
+  name: r-jgl
+  version: 2.3
+
+source:
+  fn: JGL_2.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/JGL_2.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-igraph
+  run:
+    - r-igraph
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

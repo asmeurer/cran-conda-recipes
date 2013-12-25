@@ -1,0 +1,25 @@
+package:
+  name: r-gdelttools
+  version: 1.0.1
+
+source:
+  fn: GDELTtools_1.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/GDELTtools_1.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+    - r-timewarp
+  run:
+    - r
+    - r-plyr
+    - r-timewarp
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

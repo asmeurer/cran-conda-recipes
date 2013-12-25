@@ -1,0 +1,33 @@
+package:
+  name: r-ggtern
+  version: 1.0.1.3
+
+source:
+  fn: ggtern_1.0.1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/ggtern_1.0.1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-plyr
+    - r-gtable
+    - r-scales
+    - r-reshape2
+    - r-proto
+    - r-sp
+  run:
+    - r-ggplot2
+    - r-plyr
+    - r-gtable
+    - r-scales
+    - r-reshape2
+    - r-proto
+    - r-sp
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

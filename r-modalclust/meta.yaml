@@ -1,0 +1,25 @@
+package:
+  name: r-modalclust
+  version: 0.4
+
+source:
+  fn: Modalclust_0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/Modalclust_0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-zoo
+  run:
+    - r
+    - r-mvtnorm
+    - r-zoo
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

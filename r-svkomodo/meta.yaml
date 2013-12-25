@@ -1,0 +1,23 @@
+package:
+  name: r-svkomodo
+  version: 0.9.59
+
+source:
+  fn: svKomodo_0.9-59.tar.gz
+  url: http://cran.r-project.org/src/contrib/svKomodo_0.9-59.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-svmisc
+  run:
+    - r
+    - r-svmisc
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

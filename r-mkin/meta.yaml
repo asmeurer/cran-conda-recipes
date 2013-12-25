@@ -1,0 +1,25 @@
+package:
+  name: r-mkin
+  version: 0.9.24
+
+source:
+  fn: mkin_0.9-24.tar.gz
+  url: http://cran.r-project.org/src/contrib/mkin_0.9-24.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fme
+    - r-desolve
+    - r-minpacklm
+  run:
+    - r-fme
+    - r-desolve
+    - r-minpacklm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

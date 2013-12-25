@@ -1,0 +1,25 @@
+package:
+  name: r-ojanp
+  version: 0.9.6
+
+source:
+  fn: OjaNP_0.9-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/OjaNP_0.9-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ics
+    - r-icsnp
+  run:
+    - r
+    - r-ics
+    - r-icsnp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

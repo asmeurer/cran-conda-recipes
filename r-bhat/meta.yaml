@@ -1,0 +1,19 @@
+package:
+  name: r-bhat
+  version: 0.9.10
+
+source:
+  fn: Bhat_0.9-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/Bhat_0.9-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

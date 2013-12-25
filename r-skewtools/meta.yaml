@@ -1,0 +1,23 @@
+package:
+  name: r-skewtools
+  version: 0.1.1
+
+source:
+  fn: skewtools_0.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/skewtools_0.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sn
+  run:
+    - r
+    - r-sn
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

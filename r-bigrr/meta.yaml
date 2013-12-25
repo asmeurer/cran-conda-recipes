@@ -1,0 +1,25 @@
+package:
+  name: r-bigrr
+  version: 1.3.8
+
+source:
+  fn: bigRR_1.3-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/bigRR_1.3-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hglm
+    - r-databel
+  run:
+    - r
+    - r-hglm
+    - r-databel
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-stepp
+  version: 2.3.2
+
+source:
+  fn: stepp_2.3-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/stepp_2.3-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-cmprsk
+  run:
+    - r-cmprsk
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

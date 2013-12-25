@@ -1,0 +1,23 @@
+package:
+  name: r-classifly
+  version: 0.3
+
+source:
+  fn: classifly_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/classifly_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-e1071
+    - r-reshape
+  run:
+    - r-e1071
+    - r-reshape
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

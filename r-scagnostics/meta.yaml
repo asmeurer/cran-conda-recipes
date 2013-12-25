@@ -1,0 +1,21 @@
+package:
+  name: r-scagnostics
+  version: 0.2.4
+
+source:
+  fn: scagnostics_0.2-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/scagnostics_0.2-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjava
+  run:
+    - r-rjava
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

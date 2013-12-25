@@ -1,0 +1,25 @@
+package:
+  name: r-sparseltseigen
+  version: 0.2.0
+
+source:
+  fn: sparseLTSEigen_0.2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/sparseLTSEigen_0.2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-robusthd
+    - r-rcpp
+    - r-rcppeigen
+  run:
+    - r-robusthd
+    - r-rcpp
+    - r-rcppeigen
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

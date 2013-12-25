@@ -1,0 +1,23 @@
+package:
+  name: r-robrex
+  version: 0.9
+
+source:
+  fn: RobRex_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/RobRex_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-roptregts
+  run:
+    - r
+    - r-roptregts
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

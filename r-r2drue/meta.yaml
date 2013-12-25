@@ -1,0 +1,25 @@
+package:
+  name: r-r2drue
+  version: 1.0.4
+
+source:
+  fn: r2dRue_1.0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/r2dRue_1.0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rgdal
+    - r-sp
+    - r-matrixstats
+  run:
+    - r-rgdal
+    - r-sp
+    - r-matrixstats
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

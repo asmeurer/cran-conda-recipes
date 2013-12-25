@@ -1,0 +1,25 @@
+package:
+  name: r-stam
+  version: 0.0.1
+
+source:
+  fn: stam_0.0-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/stam_0.0-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-np
+    - r-sp
+  run:
+    - r
+    - r-np
+    - r-sp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

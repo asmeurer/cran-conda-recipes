@@ -1,0 +1,25 @@
+package:
+  name: r-grid2polygons
+  version: 0.1.4
+
+source:
+  fn: Grid2Polygons_0.1-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/Grid2Polygons_0.1-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-rgeos
+  run:
+    - r
+    - r-sp
+    - r-rgeos
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

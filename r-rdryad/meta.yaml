@@ -1,0 +1,35 @@
+package:
+  name: r-rdryad
+  version: 0.1.1
+
+source:
+  fn: rdryad_0.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/rdryad_0.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-xml
+    - r-rcurl
+    - r-oaiharvester
+    - r-ape
+    - r-gdata
+    - r-plyr
+    - r-stringr
+    - r-rjsonio
+  run:
+    - r-xml
+    - r-rcurl
+    - r-oaiharvester
+    - r-ape
+    - r-gdata
+    - r-plyr
+    - r-stringr
+    - r-rjsonio
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

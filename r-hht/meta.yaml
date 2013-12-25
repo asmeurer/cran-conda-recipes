@@ -1,0 +1,25 @@
+package:
+  name: r-hht
+  version: 2.0.0
+
+source:
+  fn: hht_2.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/hht_2.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-emd
+    - r-fields
+  run:
+    - r
+    - r-emd
+    - r-fields
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

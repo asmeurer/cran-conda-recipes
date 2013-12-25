@@ -1,0 +1,33 @@
+package:
+  name: r-growcurves
+  version: 0.2.3.5
+
+source:
+  fn: growcurves_0.2.3.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/growcurves_0.2.3.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-reshape2
+    - r-scales
+    - r-ggplot2
+    - r-formula
+    - r-testthat
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-reshape2
+    - r-scales
+    - r-ggplot2
+    - r-formula
+    - r-testthat
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-s4vd
+  version: 1.0
+
+source:
+  fn: s4vd_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/s4vd_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-biclust
+  run:
+    - r-biclust
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

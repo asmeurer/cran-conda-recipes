@@ -1,0 +1,21 @@
+package:
+  name: r-pspline
+  version: 1.0.16
+
+source:
+  fn: pspline_1.0-16.tar.gz
+  url: http://cran.r-project.org/src/contrib/pspline_1.0-16.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

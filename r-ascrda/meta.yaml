@@ -1,0 +1,29 @@
+package:
+  name: r-ascrda
+  version: 1.15
+
+source:
+  fn: ascrda_1.15.tar.gz
+  url: http://cran.r-project.org/src/contrib/ascrda_1.15.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rda
+    - r-sfsmisc
+    - r-e1071
+    - r-pamr
+  run:
+    - r
+    - r-rda
+    - r-sfsmisc
+    - r-e1071
+    - r-pamr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

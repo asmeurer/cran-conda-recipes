@@ -1,0 +1,21 @@
+package:
+  name: r-getr
+  version: 0.1
+
+source:
+  fn: GetR_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/GetR_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-party
+  run:
+    - r-party
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-laser
+  version: 2.4.1
+
+source:
+  fn: laser_2.4-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/laser_2.4-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-geiger
+  run:
+    - r
+    - r-ape
+    - r-geiger
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-vegan
+  version: 2.0.10
+
+source:
+  fn: vegan_2.0-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/vegan_2.0-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-permute
+    - r
+  run:
+    - r-permute
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

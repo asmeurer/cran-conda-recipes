@@ -1,0 +1,29 @@
+package:
+  name: r-pencopula
+  version: 0.3.4
+
+source:
+  fn: pencopula_0.3.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/pencopula_0.3.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fda
+    - r-quadprog
+    - r-spam
+    - r-latticeextra
+  run:
+    - r
+    - r-fda
+    - r-quadprog
+    - r-spam
+    - r-latticeextra
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

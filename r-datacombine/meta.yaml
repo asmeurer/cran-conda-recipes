@@ -1,0 +1,25 @@
+package:
+  name: r-datacombine
+  version: 0.1.11
+
+source:
+  fn: DataCombine_0.1.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/DataCombine_0.1.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-datatable
+    - r-plyr
+  run:
+    - r
+    - r-datatable
+    - r-plyr
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

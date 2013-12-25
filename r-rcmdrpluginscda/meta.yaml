@@ -1,0 +1,27 @@
+package:
+  name: r-rcmdrpluginscda
+  version: 0.2
+
+source:
+  fn: RcmdrPlugin.SCDA_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcmdrPlugin.SCDA_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-scva
+    - r-scrt
+    - r-scma
+    - r-rcmdr
+  run:
+    - r-scva
+    - r-scrt
+    - r-scma
+    - r-rcmdr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

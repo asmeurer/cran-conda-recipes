@@ -1,0 +1,19 @@
+package:
+  name: r-mistral
+  version: 1.0.1
+
+source:
+  fn: mistral_1.0-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/mistral_1.0-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: CeCILL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

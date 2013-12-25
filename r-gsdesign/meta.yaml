@@ -1,0 +1,29 @@
+package:
+  name: r-gsdesign
+  version: 2.8.7
+
+source:
+  fn: gsDesign_2.8-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/gsDesign_2.8-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-xtable
+    - r-stringr
+    - r-runit
+    - r-plyr
+  run:
+    - r-ggplot2
+    - r-xtable
+    - r-stringr
+    - r-runit
+    - r-plyr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-xlsxjars
+  version: 0.5.0
+
+source:
+  fn: xlsxjars_0.5.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/xlsxjars_0.5.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjava
+    - r-rjava
+  run:
+    - r-rjava
+    - r-rjava
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

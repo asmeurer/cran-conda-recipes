@@ -1,0 +1,23 @@
+package:
+  name: r-fracprolif
+  version: 1.0.5
+
+source:
+  fn: fracprolif_1.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/fracprolif_1.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-emg
+    - r-numderiv
+  run:
+    - r-emg
+    - r-numderiv
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

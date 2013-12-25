@@ -1,0 +1,23 @@
+package:
+  name: r-ora
+  version: 2.0.0
+
+source:
+  fn: ora_2.0-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/ora_2.0-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-dbi
+    - r-roracle
+  run:
+    - r-dbi
+    - r-roracle
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

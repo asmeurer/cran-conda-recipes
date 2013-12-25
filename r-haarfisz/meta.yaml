@@ -1,0 +1,23 @@
+package:
+  name: r-haarfisz
+  version: 4.5
+
+source:
+  fn: haarfisz_4.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/haarfisz_4.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-wavethresh
+  run:
+    - r
+    - r-wavethresh
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

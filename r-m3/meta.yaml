@@ -1,0 +1,27 @@
+package:
+  name: r-m3
+  version: 0.3
+
+source:
+  fn: M3_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/M3_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ncdf4
+    - r-rgdal
+    - r-maps
+    - r-mapdata
+  run:
+    - r-ncdf4
+    - r-rgdal
+    - r-maps
+    - r-mapdata
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

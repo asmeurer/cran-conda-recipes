@@ -1,0 +1,33 @@
+package:
+  name: r-forecast
+  version: 4.8
+
+source:
+  fn: forecast_4.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/forecast_4.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tseries
+    - r-fracdiff
+    - r-zoo
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-colorspace
+  run:
+    - r
+    - r-tseries
+    - r-fracdiff
+    - r-zoo
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-colorspace
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

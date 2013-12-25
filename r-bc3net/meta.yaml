@@ -1,0 +1,27 @@
+package:
+  name: r-bc3net
+  version: 1.0.2
+
+source:
+  fn: bc3net_1.0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/bc3net_1.0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-c3net
+    - r-infotheo
+    - r-igraph
+  run:
+    - r
+    - r-c3net
+    - r-infotheo
+    - r-igraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-portfoliosim
+  version: 0.2.7
+
+source:
+  fn: portfolioSim_0.2-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/portfolioSim_0.2-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-portfolio
+  run:
+    - r
+    - r-portfolio
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

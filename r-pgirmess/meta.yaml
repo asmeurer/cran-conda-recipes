@@ -1,0 +1,27 @@
+package:
+  name: r-pgirmess
+  version: 1.5.8
+
+source:
+  fn: pgirmess_1.5.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/pgirmess_1.5.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rgdal
+    - r-sp
+    - r-spdep
+    - r-splancs
+  run:
+    - r-rgdal
+    - r-sp
+    - r-spdep
+    - r-splancs
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

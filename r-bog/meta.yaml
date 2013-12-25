@@ -1,0 +1,25 @@
+package:
+  name: r-bog
+  version: 1.1
+
+source:
+  fn: BOG_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/BOG_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hash
+    - r-dime
+  run:
+    - r
+    - r-hash
+    - r-dime
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,33 @@
+package:
+  name: r-hierarchicalds
+  version: 2.01
+
+source:
+  fn: hierarchicalDS_2.01.tar.gz
+  url: http://cran.r-project.org/src/contrib/hierarchicalDS_2.01.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-truncnorm
+    - r-mvtnorm
+    - r-coda
+    - r-spsurvey
+    - r-mcmcpack
+    - r-xtable
+    - r-mc2d
+  run:
+    - r-truncnorm
+    - r-mvtnorm
+    - r-coda
+    - r-spsurvey
+    - r-mcmcpack
+    - r-xtable
+    - r-mc2d
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

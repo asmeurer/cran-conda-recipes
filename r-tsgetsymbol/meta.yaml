@@ -1,0 +1,33 @@
+package:
+  name: r-tsgetsymbol
+  version: 2013.9.1
+
+source:
+  fn: TSgetSymbol_2013.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSgetSymbol_2013.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tsdbi
+    - r-quantmod
+    - r-dbi
+    - r-zoo
+    - r-tframe
+    - r-tframeplus
+  run:
+    - r
+    - r-tsdbi
+    - r-quantmod
+    - r-dbi
+    - r-zoo
+    - r-tframe
+    - r-tframeplus
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

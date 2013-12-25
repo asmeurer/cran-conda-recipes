@@ -1,0 +1,27 @@
+package:
+  name: r-phenology
+  version: 3.55
+
+source:
+  fn: phenology_3.55.tar.gz
+  url: http://cran.r-project.org/src/contrib/phenology_3.55.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fields
+    - r-zoo
+    - r-coda
+    - r
+  run:
+    - r-fields
+    - r-zoo
+    - r-coda
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

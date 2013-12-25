@@ -1,0 +1,23 @@
+package:
+  name: r-splustimeseries
+  version: 1.5.0.73
+
+source:
+  fn: splusTimeSeries_1.5.0-73.tar.gz
+  url: http://cran.r-project.org/src/contrib/splusTimeSeries_1.5.0-73.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-splustimedate
+    - r
+  run:
+    - r-splustimedate
+    - r
+
+about:
+  license: BSD_3_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

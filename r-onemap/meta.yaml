@@ -1,0 +1,23 @@
+package:
+  name: r-onemap
+  version: 2.0.4
+
+source:
+  fn: onemap_2.0-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/onemap_2.0-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tkrplot
+    - r
+  run:
+    - r-tkrplot
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

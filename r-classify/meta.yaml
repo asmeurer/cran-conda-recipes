@@ -1,0 +1,31 @@
+package:
+  name: r-classify
+  version: 1.1
+
+source:
+  fn: classify_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/classify_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-plyr
+    - r-ggplot2
+    - r-r2winbugs
+    - r-reshape2
+    - r-r2jags
+  run:
+    - r-rcpp
+    - r-plyr
+    - r-ggplot2
+    - r-r2winbugs
+    - r-reshape2
+    - r-r2jags
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

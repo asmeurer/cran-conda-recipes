@@ -1,0 +1,23 @@
+package:
+  name: r-glmnetcr
+  version: 1.0.1
+
+source:
+  fn: glmnetcr_1.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/glmnetcr_1.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-glmnet
+  run:
+    - r
+    - r-glmnet
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

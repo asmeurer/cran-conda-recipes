@@ -1,0 +1,25 @@
+package:
+  name: r-longitudinaldata
+  version: 2.1.2
+
+source:
+  fn: longitudinalData_2.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/longitudinalData_2.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clv
+    - r-rgl
+    - r-misc3d
+  run:
+    - r-clv
+    - r-rgl
+    - r-misc3d
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

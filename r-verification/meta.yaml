@@ -1,0 +1,27 @@
+package:
+  name: r-verification
+  version: 1.36
+
+source:
+  fn: verification_1.36.tar.gz
+  url: http://cran.r-project.org/src/contrib/verification_1.36.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-waveslim
+    - r-fields
+    - r-circstats
+  run:
+    - r
+    - r-waveslim
+    - r-fields
+    - r-circstats
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-bfa
+  version: 0.3
+
+source:
+  fn: bfa_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/bfa_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-reshape
+    - r-coda
+    - r-coda
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-reshape
+    - r-coda
+    - r-coda
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

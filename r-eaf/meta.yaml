@@ -1,0 +1,23 @@
+package:
+  name: r-eaf
+  version: 1.05
+
+source:
+  fn: eaf_1.05.tar.gz
+  url: http://cran.r-project.org/src/contrib/eaf_1.05.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-modeltools
+  run:
+    - r
+    - r-modeltools
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

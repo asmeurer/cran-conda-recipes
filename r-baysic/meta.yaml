@@ -1,0 +1,27 @@
+package:
+  name: r-baysic
+  version: 1.0
+
+source:
+  fn: BaySIC_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/BaySIC_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjags
+    - r-fields
+    - r-poibin
+  run:
+    - r
+    - r-rjags
+    - r-fields
+    - r-poibin
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

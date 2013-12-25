@@ -1,0 +1,19 @@
+package:
+  name: r-amore
+  version: 0.2.14
+
+source:
+  fn: AMORE_0.2-14.tar.gz
+  url: http://cran.r-project.org/src/contrib/AMORE_0.2-14.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

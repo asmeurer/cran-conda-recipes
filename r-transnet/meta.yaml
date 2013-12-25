@@ -1,0 +1,25 @@
+package:
+  name: r-transnet
+  version: 0.1
+
+source:
+  fn: transnet_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/transnet_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjava
+    - r-plyr
+    - r-reshape2
+  run:
+    - r-rjava
+    - r-plyr
+    - r-reshape2
+
+about:
+  license: GPL (>= 3.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

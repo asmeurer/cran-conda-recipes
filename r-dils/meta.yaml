@@ -1,0 +1,25 @@
+package:
+  name: r-dils
+  version: 0.8.1
+
+source:
+  fn: dils_0.8.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/dils_0.8.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-rcpp
+  run:
+    - r
+    - r-igraph
+    - r-rcpp
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

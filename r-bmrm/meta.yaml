@@ -1,0 +1,23 @@
+package:
+  name: r-bmrm
+  version: 1.6
+
+source:
+  fn: bmrm_1.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/bmrm_1.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clpapi
+    - r-kernlab
+  run:
+    - r-clpapi
+    - r-kernlab
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

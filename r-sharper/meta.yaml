@@ -1,0 +1,23 @@
+package:
+  name: r-sharper
+  version: 0.1310
+
+source:
+  fn: SharpeR_0.1310.tar.gz
+  url: http://cran.r-project.org/src/contrib/SharpeR_0.1310.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xtable
+  run:
+    - r
+    - r-xtable
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

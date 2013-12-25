@@ -1,0 +1,29 @@
+package:
+  name: r-semiparsamplesel
+  version: 1.0
+
+source:
+  fn: SemiParSampleSel_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/SemiParSampleSel_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-magic
+    - r-trust
+    - r-mvtnorm
+    - r-copula
+  run:
+    - r
+    - r-magic
+    - r-trust
+    - r-mvtnorm
+    - r-copula
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

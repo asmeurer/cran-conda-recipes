@@ -1,0 +1,25 @@
+package:
+  name: r-mcprofile
+  version: 0.1.7
+
+source:
+  fn: mcprofile_0.1-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/mcprofile_0.1-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-quadprog
+    - r-ggplot2
+    - r-mvtnorm
+  run:
+    - r-quadprog
+    - r-ggplot2
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-sss
+  version: 0.0.11
+
+source:
+  fn: sss_0.0-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/sss_0.0-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+    - r-xml
+  run:
+    - r
+    - r-plyr
+    - r-xml
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

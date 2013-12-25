@@ -1,0 +1,31 @@
+package:
+  name: r-party
+  version: 1.0.11
+
+source:
+  fn: party_1.0-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/party_1.0-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-zoo
+    - r-sandwich
+    - r-strucchange
+    - r-modeltools
+    - r-coin
+  run:
+    - r
+    - r-zoo
+    - r-sandwich
+    - r-strucchange
+    - r-modeltools
+    - r-coin
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

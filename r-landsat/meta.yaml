@@ -1,0 +1,27 @@
+package:
+  name: r-landsat
+  version: 1.0.8
+
+source:
+  fn: landsat_1.0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/landsat_1.0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgdal
+    - r-sp
+    - r-lmodel2
+  run:
+    - r
+    - r-rgdal
+    - r-sp
+    - r-lmodel2
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

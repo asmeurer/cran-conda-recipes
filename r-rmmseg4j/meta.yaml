@@ -1,0 +1,21 @@
+package:
+  name: r-rmmseg4j
+  version: 0.2.0
+
+source:
+  fn: rmmseg4j_0.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/rmmseg4j_0.2-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjava
+  run:
+    - r-rjava
+
+about:
+  license: Apache License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

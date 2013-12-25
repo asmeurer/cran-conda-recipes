@@ -1,0 +1,25 @@
+package:
+  name: r-fields
+  version: 6.9.1
+
+source:
+  fn: fields_6.9.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/fields_6.9.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-spam
+    - r-maps
+  run:
+    - r
+    - r-spam
+    - r-maps
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

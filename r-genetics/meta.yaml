@@ -1,0 +1,27 @@
+package:
+  name: r-genetics
+  version: 1.3.8.1
+
+source:
+  fn: genetics_1.3.8.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/genetics_1.3.8.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-combinat
+    - r-gdata
+    - r-gtools
+    - r-mvtnorm
+  run:
+    - r-combinat
+    - r-gdata
+    - r-gtools
+    - r-mvtnorm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

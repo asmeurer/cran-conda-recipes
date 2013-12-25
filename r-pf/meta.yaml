@@ -1,0 +1,25 @@
+package:
+  name: r-pf
+  version: 9.5
+
+source:
+  fn: PF_9.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/PF_9.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-xtable
+    - r-rcolorbrewer
+    - r-gdata
+  run:
+    - r-xtable
+    - r-rcolorbrewer
+    - r-gdata
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

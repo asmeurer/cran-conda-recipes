@@ -1,0 +1,31 @@
+package:
+  name: r-likert
+  version: 1.1
+
+source:
+  fn: likert_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/likert_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-gridextra
+    - r-xtable
+    - r-reshape
+    - r-psych
+  run:
+    - r
+    - r-ggplot2
+    - r-gridextra
+    - r-xtable
+    - r-reshape
+    - r-psych
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

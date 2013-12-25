@@ -1,0 +1,27 @@
+package:
+  name: r-tinposition
+  version: 0.13.6
+
+source:
+  fn: TInPosition_0.13.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/TInPosition_0.13.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-prettygraphs
+    - r-texposition
+    - r-exposition
+    - r-inposition
+  run:
+    - r-prettygraphs
+    - r-texposition
+    - r-exposition
+    - r-inposition
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

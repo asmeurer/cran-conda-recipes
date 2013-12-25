@@ -1,0 +1,21 @@
+package:
+  name: r-grapher
+  version: 1.9.82
+
+source:
+  fn: GrapheR_1.9-82.tar.gz
+  url: http://cran.r-project.org/src/contrib/GrapheR_1.9-82.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

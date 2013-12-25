@@ -1,0 +1,23 @@
+package:
+  name: r-svdialogs
+  version: 0.9.54
+
+source:
+  fn: svDialogs_0.9-54.tar.gz
+  url: http://cran.r-project.org/src/contrib/svDialogs_0.9-54.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-svgui
+  run:
+    - r
+    - r-svgui
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

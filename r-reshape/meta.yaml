@@ -1,0 +1,23 @@
+package:
+  name: r-reshape
+  version: 0.8.4
+
+source:
+  fn: reshape_0.8.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/reshape_0.8.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+  run:
+    - r
+    - r-plyr
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

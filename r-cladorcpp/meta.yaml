@@ -1,0 +1,23 @@
+package:
+  name: r-cladorcpp
+  version: 0.14.2
+
+source:
+  fn: cladoRcpp_0.14.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/cladoRcpp_0.14.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

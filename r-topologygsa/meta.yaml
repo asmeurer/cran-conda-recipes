@@ -1,0 +1,25 @@
+package:
+  name: r-topologygsa
+  version: 1.4.2
+
+source:
+  fn: topologyGSA_1.4.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/topologyGSA_1.4.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-grbase
+    - r-qpgraph
+    - r-fields
+  run:
+    - r-grbase
+    - r-qpgraph
+    - r-fields
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

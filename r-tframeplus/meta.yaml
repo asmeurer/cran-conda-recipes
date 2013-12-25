@@ -1,0 +1,25 @@
+package:
+  name: r-tframeplus
+  version: 2013.9.1
+
+source:
+  fn: tframePlus_2013.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/tframePlus_2013.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tframe
+    - r-timeseries
+  run:
+    - r
+    - r-tframe
+    - r-timeseries
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

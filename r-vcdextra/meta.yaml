@@ -1,0 +1,25 @@
+package:
+  name: r-vcdextra
+  version: 0.5.11
+
+source:
+  fn: vcdExtra_0.5-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/vcdExtra_0.5-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-vcd
+    - r-gnm
+  run:
+    - r
+    - r-vcd
+    - r-gnm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

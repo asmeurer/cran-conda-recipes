@@ -1,0 +1,35 @@
+package:
+  name: r-pitchrx
+  version: 0.7
+
+source:
+  fn: pitchRx_0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/pitchRx_0.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-ggplot2
+    - r-rgl
+    - r-hexbin
+    - r-lubridate
+    - r-stringr
+    - r-plyr
+  run:
+    - r
+    - r-xml
+    - r-ggplot2
+    - r-rgl
+    - r-hexbin
+    - r-lubridate
+    - r-stringr
+    - r-plyr
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

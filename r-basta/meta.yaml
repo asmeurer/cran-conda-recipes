@@ -1,0 +1,23 @@
+package:
+  name: r-basta
+  version: 1.9
+
+source:
+  fn: BaSTA_1.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/BaSTA_1.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-msm
+  run:
+    - r
+    - r-msm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

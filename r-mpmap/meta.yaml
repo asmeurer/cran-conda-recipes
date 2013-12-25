@@ -1,0 +1,27 @@
+package:
+  name: r-mpmap
+  version: 1.14
+
+source:
+  fn: mpMap_1.14.tar.gz
+  url: http://cran.r-project.org/src/contrib/mpMap_1.14.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gdata
+    - r-seriation
+    - r-qtl
+    - r-wgaim
+  run:
+    - r-gdata
+    - r-seriation
+    - r-qtl
+    - r-wgaim
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

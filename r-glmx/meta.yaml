@@ -1,0 +1,27 @@
+package:
+  name: r-glmx
+  version: 0.1.0
+
+source:
+  fn: glmx_0.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/glmx_0.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-formula
+    - r-lmtest
+    - r-sandwich
+  run:
+    - r
+    - r-formula
+    - r-lmtest
+    - r-sandwich
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-simcomp
+  version: 1.7.0
+
+source:
+  fn: SimComp_1.7.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/SimComp_1.7.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-multcomp
+    - r-mratios
+  run:
+    - r
+    - r-mvtnorm
+    - r-multcomp
+    - r-mratios
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

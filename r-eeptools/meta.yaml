@@ -1,0 +1,33 @@
+package:
+  name: r-eeptools
+  version: 0.3
+
+source:
+  fn: eeptools_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/eeptools_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-stringr
+    - r-maptools
+    - r-arm
+    - r-datatable
+    - r-memisc
+  run:
+    - r
+    - r-ggplot2
+    - r-stringr
+    - r-maptools
+    - r-arm
+    - r-datatable
+    - r-memisc
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-smdc
+  version: 0.0.2
+
+source:
+  fn: smdc_0.0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/smdc_0.0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-proxy
+    - r-tm
+  run:
+    - r-proxy
+    - r-tm
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

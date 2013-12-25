@@ -1,0 +1,19 @@
+package:
+  name: r-gsa
+  version: 1.03
+
+source:
+  fn: GSA_1.03.tar.gz
+  url: http://cran.r-project.org/src/contrib/GSA_1.03.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

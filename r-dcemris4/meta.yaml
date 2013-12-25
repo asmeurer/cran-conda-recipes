@@ -1,0 +1,23 @@
+package:
+  name: r-dcemris4
+  version: 0.50
+
+source:
+  fn: dcemriS4_0.50.tar.gz
+  url: http://cran.r-project.org/src/contrib/dcemriS4_0.50.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-oronifti
+  run:
+    - r
+    - r-oronifti
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

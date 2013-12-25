@@ -1,0 +1,23 @@
+package:
+  name: r-nfactors
+  version: 2.3.3
+
+source:
+  fn: nFactors_2.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/nFactors_2.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-psych
+  run:
+    - r
+    - r-psych
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

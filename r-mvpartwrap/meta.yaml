@@ -1,0 +1,31 @@
+package:
+  name: r-mvpartwrap
+  version: 0.1.9.2
+
+source:
+  fn: MVPARTwrap_0.1-9.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/MVPARTwrap_0.1-9.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvpart
+    - r-hmisc
+    - r-labdsv
+    - r-vegan
+    - r-fbasics
+    - r-ade4
+  run:
+    - r-mvpart
+    - r-hmisc
+    - r-labdsv
+    - r-vegan
+    - r-fbasics
+    - r-ade4
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-mombf
+  version: 1.5.4
+
+source:
+  fn: mombf_1.5.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/mombf_1.5.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-ncvreg
+    - r-actuar
+  run:
+    - r
+    - r-mvtnorm
+    - r-ncvreg
+    - r-actuar
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

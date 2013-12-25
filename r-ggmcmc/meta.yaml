@@ -1,0 +1,25 @@
+package:
+  name: r-ggmcmc
+  version: 0.5.1
+
+source:
+  fn: ggmcmc_0.5.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/ggmcmc_0.5.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r-reshape2
+    - r-ggplot2
+  run:
+    - r-plyr
+    - r-reshape2
+    - r-ggplot2
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

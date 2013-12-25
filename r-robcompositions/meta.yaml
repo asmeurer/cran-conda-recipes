@@ -1,0 +1,29 @@
+package:
+  name: r-robcompositions
+  version: 1.6.4
+
+source:
+  fn: robCompositions_1.6.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/robCompositions_1.6.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-robustbase
+    - r-rrcov
+    - r-car
+    - r-pls
+  run:
+    - r
+    - r-robustbase
+    - r-rrcov
+    - r-car
+    - r-pls
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

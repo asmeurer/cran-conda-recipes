@@ -1,0 +1,31 @@
+package:
+  name: r-penalizedsvm
+  version: 1.1
+
+source:
+  fn: penalizedSVM_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/penalizedSVM_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-e1071
+    - r-corpcor
+    - r-statmod
+    - r-tgp
+    - r-mlegp
+    - r-lhs
+  run:
+    - r-e1071
+    - r-corpcor
+    - r-statmod
+    - r-tgp
+    - r-mlegp
+    - r-lhs
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

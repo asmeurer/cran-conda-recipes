@@ -1,0 +1,41 @@
+package:
+  name: r-muma
+  version: 1.4
+
+source:
+  fn: muma_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/muma_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-pdist
+    - r-pls
+    - r-gplots
+    - r-mvtnorm
+    - r-robustbase
+    - r-gtools
+    - r-bitops
+    - r-catools
+    - r-pcapp
+    - r-rrcov
+  run:
+    - r-car
+    - r-pdist
+    - r-pls
+    - r-gplots
+    - r-mvtnorm
+    - r-robustbase
+    - r-gtools
+    - r-bitops
+    - r-catools
+    - r-pcapp
+    - r-rrcov
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

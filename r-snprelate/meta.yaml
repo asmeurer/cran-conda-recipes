@@ -1,0 +1,23 @@
+package:
+  name: r-snprelate
+  version: 0.9.19
+
+source:
+  fn: SNPRelate_0.9.19.tar.gz
+  url: http://cran.r-project.org/src/contrib/SNPRelate_0.9.19.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gdsfmt
+  run:
+    - r
+    - r-gdsfmt
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

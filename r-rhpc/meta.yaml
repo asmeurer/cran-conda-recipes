@@ -1,0 +1,21 @@
+package:
+  name: r-rhpc
+  version: 0.13.343.05
+
+source:
+  fn: Rhpc_0.13-343.05.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rhpc_0.13-343.05.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

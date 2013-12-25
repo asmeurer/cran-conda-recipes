@@ -1,0 +1,39 @@
+package:
+  name: r-deducer
+  version: 0.7.6.1
+
+source:
+  fn: Deducer_0.7-6.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Deducer_0.7-6.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-ggplot2
+    - r-scales
+    - r-jgr
+    - r-car
+    - r-multcomp
+    - r-effects
+    - r-plyr
+    - r-e1071
+  run:
+    - r
+    - r-rjava
+    - r-ggplot2
+    - r-scales
+    - r-jgr
+    - r-car
+    - r-multcomp
+    - r-effects
+    - r-plyr
+    - r-e1071
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

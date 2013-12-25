@@ -1,0 +1,27 @@
+package:
+  name: r-pawl
+  version: 0.5
+
+source:
+  fn: PAWL_0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/PAWL_0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+    - r-foreach
+    - r-reshape
+    - r-ggplot2
+  run:
+    - r-mvtnorm
+    - r-foreach
+    - r-reshape
+    - r-ggplot2
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

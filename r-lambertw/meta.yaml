@@ -1,0 +1,27 @@
+package:
+  name: r-lambertw
+  version: 0.2.9.9
+
+source:
+  fn: LambertW_0.2.9.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/LambertW_0.2.9.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-moments
+    - r-gsl
+    - r-nortest
+    - r-maxlik
+  run:
+    - r-moments
+    - r-gsl
+    - r-nortest
+    - r-maxlik
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

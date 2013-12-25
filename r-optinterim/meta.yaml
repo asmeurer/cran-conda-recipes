@@ -1,0 +1,25 @@
+package:
+  name: r-optinterim
+  version: 3.0.1
+
+source:
+  fn: OptInterim_3.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/OptInterim_3.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+    - r-clinfun
+    - r
+  run:
+    - r-mvtnorm
+    - r-clinfun
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

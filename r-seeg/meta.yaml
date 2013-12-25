@@ -1,0 +1,25 @@
+package:
+  name: r-seeg
+  version: 1.0
+
+source:
+  fn: seeg_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/seeg_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-spatstat
+    - r-sgeostat
+  run:
+    - r-car
+    - r-spatstat
+    - r-sgeostat
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

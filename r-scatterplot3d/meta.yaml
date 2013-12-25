@@ -1,0 +1,21 @@
+package:
+  name: r-scatterplot3d
+  version: 0.3.34
+
+source:
+  fn: scatterplot3d_0.3-34.tar.gz
+  url: http://cran.r-project.org/src/contrib/scatterplot3d_0.3-34.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

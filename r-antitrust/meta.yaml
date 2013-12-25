@@ -1,0 +1,25 @@
+package:
+  name: r-antitrust
+  version: 0.9
+
+source:
+  fn: antitrust_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/antitrust_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-nleqslv
+    - r-numderiv
+  run:
+    - r
+    - r-nleqslv
+    - r-numderiv
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

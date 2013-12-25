@@ -1,0 +1,25 @@
+package:
+  name: r-tsdbi
+  version: 2013.9.1
+
+source:
+  fn: TSdbi_2013.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSdbi_2013.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-dbi
+    - r-tframe
+  run:
+    - r
+    - r-dbi
+    - r-tframe
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

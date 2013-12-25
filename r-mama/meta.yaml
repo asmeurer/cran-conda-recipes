@@ -1,0 +1,41 @@
+package:
+  name: r-mama
+  version: 2.2.1
+
+source:
+  fn: MAMA_2.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/MAMA_2.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genefilter
+    - r-metama
+    - r-xtable
+    - r-multtest
+    - r-gtools
+    - r-genemeta
+    - r-mergemaid
+    - r-genemeta
+    - r-xtable
+    - r-metaarray
+  run:
+    - r
+    - r-genefilter
+    - r-metama
+    - r-xtable
+    - r-multtest
+    - r-gtools
+    - r-genemeta
+    - r-mergemaid
+    - r-genemeta
+    - r-xtable
+    - r-metaarray
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

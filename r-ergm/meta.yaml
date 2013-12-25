@@ -1,0 +1,29 @@
+package:
+  name: r-ergm
+  version: 3.1.1
+
+source:
+  fn: ergm_3.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/ergm_3.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-statnetcommon
+    - r-network
+    - r-robustbase
+    - r-coda
+    - r-trust
+  run:
+    - r-statnetcommon
+    - r-network
+    - r-robustbase
+    - r-coda
+    - r-trust
+
+about:
+  license: GPL-3 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

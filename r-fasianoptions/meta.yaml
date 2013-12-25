@@ -1,0 +1,29 @@
+package:
+  name: r-fasianoptions
+  version: 3010.79
+
+source:
+  fn: fAsianOptions_3010.79.tar.gz
+  url: http://cran.r-project.org/src/contrib/fAsianOptions_3010.79.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-foptions
+  run:
+    - r
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-foptions
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

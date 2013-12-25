@@ -1,0 +1,23 @@
+package:
+  name: r-jjcorr
+  version: 0.01
+
+source:
+  fn: JJcorr_0.01.tar.gz
+  url: http://cran.r-project.org/src/contrib/JJcorr_0.01.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fcopulae
+    - r-mvtnorm
+  run:
+    - r-fcopulae
+    - r-mvtnorm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

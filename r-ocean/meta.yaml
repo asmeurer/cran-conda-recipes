@@ -1,0 +1,25 @@
+package:
+  name: r-ocean
+  version: 0.1.0
+
+source:
+  fn: ocean_0.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/ocean_0.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ncdf
+    - r-proj4
+  run:
+    - r
+    - r-ncdf
+    - r-proj4
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

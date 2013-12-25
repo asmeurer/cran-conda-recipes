@@ -1,0 +1,41 @@
+package:
+  name: r-geiger
+  version: 1.99.3.1
+
+source:
+  fn: geiger_1.99-3.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/geiger_1.99-3.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-mvtnorm
+    - r-msm
+    - r-subplex
+    - r-desolve
+    - r-colorspace
+    - r-digest
+    - r-rcpp
+    - r-coda
+    - r-ncbit
+  run:
+    - r
+    - r-ape
+    - r-mvtnorm
+    - r-msm
+    - r-subplex
+    - r-desolve
+    - r-colorspace
+    - r-digest
+    - r-rcpp
+    - r-coda
+    - r-ncbit
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

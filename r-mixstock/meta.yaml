@@ -1,0 +1,25 @@
+package:
+  name: r-mixstock
+  version: 0.9.5.1
+
+source:
+  fn: mixstock_0.9.5.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/mixstock_0.9.5.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-plotrix
+    - r-abind
+  run:
+    - r-coda
+    - r-plotrix
+    - r-abind
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

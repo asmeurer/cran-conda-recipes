@@ -1,0 +1,23 @@
+package:
+  name: r-mexposition
+  version: 2.0.3
+
+source:
+  fn: MExPosition_2.0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/MExPosition_2.0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-prettygraphs
+    - r-exposition
+  run:
+    - r-prettygraphs
+    - r-exposition
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

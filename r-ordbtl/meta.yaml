@@ -1,0 +1,25 @@
+package:
+  name: r-ordbtl
+  version: 0.7
+
+source:
+  fn: ordBTL_0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/ordBTL_0.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-caret
+    - r-vgam
+    - r-wikibooks
+  run:
+    - r-caret
+    - r-vgam
+    - r-wikibooks
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,45 @@
+package:
+  name: r-lgcp
+  version: 1.3.2
+
+source:
+  fn: lgcp_1.3-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/lgcp_1.3-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-spatstat
+    - r-sp
+    - r-randomfields
+    - r-iterators
+    - r-ncdf
+    - r-rgl
+    - r-rpanel
+    - r-fields
+    - r-maptools
+    - r-raster
+    - r-rgeos
+    - r-spatstat
+  run:
+    - r
+    - r-spatstat
+    - r-sp
+    - r-randomfields
+    - r-iterators
+    - r-ncdf
+    - r-rgl
+    - r-rpanel
+    - r-fields
+    - r-maptools
+    - r-raster
+    - r-rgeos
+    - r-spatstat
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

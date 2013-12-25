@@ -1,0 +1,25 @@
+package:
+  name: r-cprob
+  version: 1.2.1
+
+source:
+  fn: Cprob_1.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Cprob_1.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-prodlim
+    - r-tpr
+    - r-geepack
+  run:
+    - r-prodlim
+    - r-tpr
+    - r-geepack
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

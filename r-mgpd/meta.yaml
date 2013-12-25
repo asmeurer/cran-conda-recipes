@@ -1,0 +1,29 @@
+package:
+  name: r-mgpd
+  version: 1.99
+
+source:
+  fn: mgpd_1.99.tar.gz
+  url: http://cran.r-project.org/src/contrib/mgpd_1.99.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-evd
+    - r-numderiv
+    - r-corpcor
+    - r-fields
+  run:
+    - r
+    - r-evd
+    - r-numderiv
+    - r-corpcor
+    - r-fields
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

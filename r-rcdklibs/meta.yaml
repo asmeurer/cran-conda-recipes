@@ -1,0 +1,23 @@
+package:
+  name: r-rcdklibs
+  version: 1.5.4
+
+source:
+  fn: rcdklibs_1.5.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rcdklibs_1.5.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+  run:
+    - r
+    - r-rjava
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

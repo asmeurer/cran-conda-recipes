@@ -1,0 +1,31 @@
+package:
+  name: r-decctools
+  version: 0.1.3
+
+source:
+  fn: decctools_0.1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/decctools_0.1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-xlconnect
+    - r-stringr
+    - r-xml
+    - r-reshape2
+    - r-rcurl
+    - r-plyr
+  run:
+    - r-xlconnect
+    - r-stringr
+    - r-xml
+    - r-reshape2
+    - r-rcurl
+    - r-plyr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

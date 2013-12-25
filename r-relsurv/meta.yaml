@@ -1,0 +1,21 @@
+package:
+  name: r-relsurv
+  version: 2.0.4
+
+source:
+  fn: relsurv_2.0-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/relsurv_2.0-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-date
+  run:
+    - r-date
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

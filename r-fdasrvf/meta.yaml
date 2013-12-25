@@ -1,0 +1,29 @@
+package:
+  name: r-fdasrvf
+  version: 1.4.1
+
+source:
+  fn: fdasrvf_1.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/fdasrvf_1.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-foreach
+    - r-mvtnorm
+    - r-matrixcalc
+    - r-numderiv
+  run:
+    - r
+    - r-foreach
+    - r-mvtnorm
+    - r-matrixcalc
+    - r-numderiv
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

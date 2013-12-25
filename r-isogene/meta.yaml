@@ -1,0 +1,31 @@
+package:
+  name: r-isogene
+  version: 1.0.22
+
+source:
+  fn: IsoGene_1.0-22.tar.gz
+  url: http://cran.r-project.org/src/contrib/IsoGene_1.0-22.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iso
+    - r-xtable
+    - r-biobase
+    - r-affy
+    - r-ff
+  run:
+    - r
+    - r-iso
+    - r-xtable
+    - r-biobase
+    - r-affy
+    - r-ff
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

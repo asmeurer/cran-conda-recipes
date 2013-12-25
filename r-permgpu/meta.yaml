@@ -1,0 +1,27 @@
+package:
+  name: r-permgpu
+  version: 0.14.3
+
+source:
+  fn: permGPU_0.14.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/permGPU_0.14.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-runit
+    - r-foreach
+  run:
+    - r
+    - r-biobase
+    - r-runit
+    - r-foreach
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

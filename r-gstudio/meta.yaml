@@ -1,0 +1,33 @@
+package:
+  name: r-gstudio
+  version: 1.0
+
+source:
+  fn: gstudio_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/gstudio_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-ggmap
+    - r-popgraph
+    - r-raster
+    - r-reshape2
+    - r-igraph
+  run:
+    - r
+    - r-ggplot2
+    - r-ggmap
+    - r-popgraph
+    - r-raster
+    - r-reshape2
+    - r-igraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

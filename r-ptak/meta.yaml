@@ -1,0 +1,21 @@
+package:
+  name: r-ptak
+  version: 1.2.6
+
+source:
+  fn: PTAk_1.2-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/PTAk_1.2-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tensor
+  run:
+    - r-tensor
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

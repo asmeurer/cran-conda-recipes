@@ -1,0 +1,23 @@
+package:
+  name: r-pbimisc
+  version: 0.999
+
+source:
+  fn: PBImisc_0.999.tar.gz
+  url: http://cran.r-project.org/src/contrib/PBImisc_0.999.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lme4
+  run:
+    - r
+    - r-lme4
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

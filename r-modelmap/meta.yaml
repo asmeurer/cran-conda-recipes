@@ -1,0 +1,33 @@
+package:
+  name: r-modelmap
+  version: 2.3.4
+
+source:
+  fn: ModelMap_2.3.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/ModelMap_2.3.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-randomforest
+    - r-presenceabsence
+    - r-rgdal
+    - r-fields
+    - r-raster
+    - r-gbm
+  run:
+    - r
+    - r-randomforest
+    - r-presenceabsence
+    - r-rgdal
+    - r-fields
+    - r-raster
+    - r-gbm
+
+about:
+  license: Unlimited
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

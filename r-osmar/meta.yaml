@@ -1,0 +1,27 @@
+package:
+  name: r-osmar
+  version: 1.1.7
+
+source:
+  fn: osmar_1.1-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/osmar_1.1-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-geosphere
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-geosphere
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-pavo
+  version: 0.5.1
+
+source:
+  fn: pavo_0.5-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/pavo_0.5-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rgl
+    - r-rcdd
+    - r-mapproj
+    - r-geometry
+  run:
+    - r-rgl
+    - r-rcdd
+    - r-mapproj
+    - r-geometry
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

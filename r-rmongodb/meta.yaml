@@ -1,0 +1,23 @@
+package:
+  name: r-rmongodb
+  version: 1.3.3
+
+source:
+  fn: rmongodb_1.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/rmongodb_1.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjsonio
+  run:
+    - r
+    - r-rjsonio
+
+about:
+  license: Apache License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

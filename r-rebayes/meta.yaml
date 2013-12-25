@@ -1,0 +1,25 @@
+package:
+  name: r-rebayes
+  version: 0.40
+
+source:
+  fn: REBayes_0.40.tar.gz
+  url: http://cran.r-project.org/src/contrib/REBayes_0.40.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rmosek
+    - r-sparsem
+  run:
+    - r
+    - r-rmosek
+    - r-sparsem
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

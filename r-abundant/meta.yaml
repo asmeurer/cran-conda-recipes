@@ -1,0 +1,23 @@
+package:
+  name: r-abundant
+  version: 1.0
+
+source:
+  fn: abundant_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/abundant_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quic
+  run:
+    - r
+    - r-quic
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

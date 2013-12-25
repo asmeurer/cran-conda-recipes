@@ -1,0 +1,25 @@
+package:
+  name: r-rlastfm
+  version: 0.1.5
+
+source:
+  fn: RLastFM_0.1-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/RLastFM_0.1-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

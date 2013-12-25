@@ -1,0 +1,27 @@
+package:
+  name: r-grain
+  version: 1.2.2
+
+source:
+  fn: gRain_1.2-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/gRain_1.2-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-grbase
+    - r-graph
+    - r-igraph
+  run:
+    - r
+    - r-grbase
+    - r-graph
+    - r-igraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

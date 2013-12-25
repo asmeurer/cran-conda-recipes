@@ -1,0 +1,37 @@
+package:
+  name: r-bfast
+  version: 1.4.4
+
+source:
+  fn: bfast_1.4.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/bfast_1.4.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-strucchange
+    - r-forecast
+    - r-zoo
+    - r-raster
+    - r-sp
+    - r-strucchange
+    - r-zoo
+    - r-raster
+  run:
+    - r
+    - r-strucchange
+    - r-forecast
+    - r-zoo
+    - r-raster
+    - r-sp
+    - r-strucchange
+    - r-zoo
+    - r-raster
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

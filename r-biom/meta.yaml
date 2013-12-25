@@ -1,0 +1,25 @@
+package:
+  name: r-biom
+  version: 0.3.11
+
+source:
+  fn: biom_0.3.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/biom_0.3.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+    - r-rjsonio
+  run:
+    - r
+    - r-plyr
+    - r-rjsonio
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

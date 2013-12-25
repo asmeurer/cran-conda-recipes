@@ -1,0 +1,35 @@
+package:
+  name: r-ez
+  version: 4.2.2
+
+source:
+  fn: ez_4.2-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/ez_4.2-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+    - r-ggplot2
+    - r-lme4
+    - r-plyr
+    - r-reshape2
+    - r-scales
+    - r-stringr
+  run:
+    - r
+    - r-car
+    - r-ggplot2
+    - r-lme4
+    - r-plyr
+    - r-reshape2
+    - r-scales
+    - r-stringr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

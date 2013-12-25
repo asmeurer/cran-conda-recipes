@@ -1,0 +1,23 @@
+package:
+  name: r-goft
+  version: 1.0
+
+source:
+  fn: goft_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/goft_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gpdtest
+    - r-mvshapirotest
+  run:
+    - r-gpdtest
+    - r-mvshapirotest
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

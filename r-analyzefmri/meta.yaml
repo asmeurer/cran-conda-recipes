@@ -1,0 +1,23 @@
+package:
+  name: r-analyzefmri
+  version: 1.1.16
+
+source:
+  fn: AnalyzeFMRI_1.1-16.tar.gz
+  url: http://cran.r-project.org/src/contrib/AnalyzeFMRI_1.1-16.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rmatlab
+    - r-fastica
+  run:
+    - r-rmatlab
+    - r-fastica
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

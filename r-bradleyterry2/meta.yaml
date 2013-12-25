@@ -1,0 +1,29 @@
+package:
+  name: r-bradleyterry2
+  version: 1.0.4
+
+source:
+  fn: BradleyTerry2_1.0-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/BradleyTerry2_1.0-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lme4
+    - r-brglm
+    - r-gnm
+    - r-gtools
+  run:
+    - r
+    - r-lme4
+    - r-brglm
+    - r-gnm
+    - r-gtools
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

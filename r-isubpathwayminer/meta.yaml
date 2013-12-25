@@ -1,0 +1,29 @@
+package:
+  name: r-isubpathwayminer
+  version: 3.0
+
+source:
+  fn: iSubpathwayMiner_3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/iSubpathwayMiner_3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-rbgl
+    - r-igraph
+    - r-xml
+  run:
+    - r
+    - r-graph
+    - r-rbgl
+    - r-igraph
+    - r-xml
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

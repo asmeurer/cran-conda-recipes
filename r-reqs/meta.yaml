@@ -1,0 +1,21 @@
+package:
+  name: r-reqs
+  version: 0.8.12
+
+source:
+  fn: REQS_0.8-12.tar.gz
+  url: http://cran.r-project.org/src/contrib/REQS_0.8-12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gtools
+  run:
+    - r-gtools
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

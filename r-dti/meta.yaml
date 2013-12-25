@@ -1,0 +1,33 @@
+package:
+  name: r-dti
+  version: 1.1.7
+
+source:
+  fn: dti_1.1-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/dti_1.1-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-awsmethods
+    - r-oronifti
+    - r-orodicom
+    - r-adimpro
+    - r-gsl
+    - r-rgl
+  run:
+    - r
+    - r-awsmethods
+    - r-oronifti
+    - r-orodicom
+    - r-adimpro
+    - r-gsl
+    - r-rgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-oce
+  version: 0.9.12
+
+source:
+  fn: oce_0.9-12.tar.gz
+  url: http://cran.r-project.org/src/contrib/oce_0.9-12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mapproj
+  run:
+    - r
+    - r-mapproj
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

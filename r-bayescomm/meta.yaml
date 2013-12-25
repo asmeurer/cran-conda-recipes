@@ -1,0 +1,25 @@
+package:
+  name: r-bayescomm
+  version: 0.1.0
+
+source:
+  fn: BayesComm_0.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/BayesComm_0.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-coda
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-coda
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

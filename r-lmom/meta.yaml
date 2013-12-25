@@ -1,0 +1,19 @@
+package:
+  name: r-lmom
+  version: 2.1
+
+source:
+  fn: lmom_2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/lmom_2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: Common Public License Version 1.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

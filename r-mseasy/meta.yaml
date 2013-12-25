@@ -1,0 +1,29 @@
+package:
+  name: r-mseasy
+  version: 5.3.3
+
+source:
+  fn: MSeasy_5.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/MSeasy_5.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-amap
+    - r-clvalid
+    - r-fpc
+    - r-mzr
+    - r-xcms
+  run:
+    - r-amap
+    - r-clvalid
+    - r-fpc
+    - r-mzr
+    - r-xcms
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-griddebug
+  version: 0.4.0
+
+source:
+  fn: gridDebug_0.4-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/gridDebug_0.4-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gridgraphviz
+    - r-gridsvg
+  run:
+    - r
+    - r-gridgraphviz
+    - r-gridsvg
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

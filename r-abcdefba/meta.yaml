@@ -1,0 +1,27 @@
+package:
+  name: r-abcdefba
+  version: 0.4
+
+source:
+  fn: abcdeFBA_0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/abcdeFBA_0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rglpk
+    - r-rgl
+    - r-corrplot
+    - r
+  run:
+    - r-rglpk
+    - r-rgl
+    - r-corrplot
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

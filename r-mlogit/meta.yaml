@@ -1,0 +1,31 @@
+package:
+  name: r-mlogit
+  version: 0.2.3
+
+source:
+  fn: mlogit_0.2-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/mlogit_0.2-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-formula
+    - r-statmod
+    - r-lmtest
+    - r-maxlik
+    - r-zoo
+  run:
+    - r
+    - r-formula
+    - r-statmod
+    - r-lmtest
+    - r-maxlik
+    - r-zoo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

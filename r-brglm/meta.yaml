@@ -1,0 +1,23 @@
+package:
+  name: r-brglm
+  version: 0.5.9
+
+source:
+  fn: brglm_0.5-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/brglm_0.5-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-profilemodel
+  run:
+    - r
+    - r-profilemodel
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

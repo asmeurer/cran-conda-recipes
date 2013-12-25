@@ -1,0 +1,41 @@
+package:
+  name: r-rtexttools
+  version: 1.4.1
+
+source:
+  fn: RTextTools_1.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/RTextTools_1.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sparsem
+    - r-randomforest
+    - r-tree
+    - r-tm
+    - r-e1071
+    - r-ipred
+    - r-catools
+    - r-maxent
+    - r-glmnet
+    - r-tau
+  run:
+    - r
+    - r-sparsem
+    - r-randomforest
+    - r-tree
+    - r-tm
+    - r-e1071
+    - r-ipred
+    - r-catools
+    - r-maxent
+    - r-glmnet
+    - r-tau
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

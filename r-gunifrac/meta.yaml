@@ -1,0 +1,23 @@
+package:
+  name: r-gunifrac
+  version: 1.0
+
+source:
+  fn: GUniFrac_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/GUniFrac_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-vegan
+    - r-ape
+  run:
+    - r-vegan
+    - r-ape
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

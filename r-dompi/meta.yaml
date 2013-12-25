@@ -1,0 +1,27 @@
+package:
+  name: r-dompi
+  version: 0.2
+
+source:
+  fn: doMPI_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/doMPI_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-foreach
+    - r-iterators
+    - r-rmpi
+  run:
+    - r
+    - r-foreach
+    - r-iterators
+    - r-rmpi
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

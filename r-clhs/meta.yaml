@@ -1,0 +1,33 @@
+package:
+  name: r-clhs
+  version: 0.5.1
+
+source:
+  fn: clhs_0.5-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/clhs_0.5-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-sp
+    - r-raster
+    - r-reshape2
+    - r-plyr
+    - r-scales
+  run:
+    - r
+    - r-ggplot2
+    - r-sp
+    - r-raster
+    - r-reshape2
+    - r-plyr
+    - r-scales
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

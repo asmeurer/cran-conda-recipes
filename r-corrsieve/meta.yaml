@@ -1,0 +1,19 @@
+package:
+  name: r-corrsieve
+  version: 1.6.8
+
+source:
+  fn: corrsieve_1.6-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/corrsieve_1.6-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

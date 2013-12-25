@@ -1,0 +1,29 @@
+package:
+  name: r-constrainedkriging
+  version: 0.2.2
+
+source:
+  fn: constrainedKriging_0.2.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/constrainedKriging_0.2.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-spatialcovariance
+    - r-rgeos
+    - r-randomfields
+  run:
+    - r
+    - r-sp
+    - r-spatialcovariance
+    - r-rgeos
+    - r-randomfields
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

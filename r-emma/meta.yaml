@@ -1,0 +1,25 @@
+package:
+  name: r-emma
+  version: 0.1.0
+
+source:
+  fn: emma_0.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/emma_0.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-earth
+    - r-clustersim
+  run:
+    - r
+    - r-earth
+    - r-clustersim
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

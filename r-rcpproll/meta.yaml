@@ -1,0 +1,25 @@
+package:
+  name: r-rcpproll
+  version: 0.1.0
+
+source:
+  fn: RcppRoll_0.1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcppRoll_0.1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-rcpparmadillo
+  run:
+    - r
+    - r-rcpp
+    - r-rcpparmadillo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

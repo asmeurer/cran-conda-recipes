@@ -1,0 +1,25 @@
+package:
+  name: r-fimport
+  version: 3000.82
+
+source:
+  fn: fImport_3000.82.tar.gz
+  url: http://cran.r-project.org/src/contrib/fImport_3000.82.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-timedate
+    - r-timeseries
+  run:
+    - r
+    - r-timedate
+    - r-timeseries
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

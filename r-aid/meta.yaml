@@ -1,0 +1,23 @@
+package:
+  name: r-aid
+  version: 1.3
+
+source:
+  fn: AID_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/AID_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tseries
+    - r-nortest
+  run:
+    - r-tseries
+    - r-nortest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

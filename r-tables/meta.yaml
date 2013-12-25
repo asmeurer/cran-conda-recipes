@@ -1,0 +1,23 @@
+package:
+  name: r-tables
+  version: 0.7.64
+
+source:
+  fn: tables_0.7.64.tar.gz
+  url: http://cran.r-project.org/src/contrib/tables_0.7.64.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hmisc
+  run:
+    - r
+    - r-hmisc
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

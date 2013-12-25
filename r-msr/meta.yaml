@@ -1,0 +1,31 @@
+package:
+  name: r-msr
+  version: 0.4.1
+
+source:
+  fn: msr_0.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/msr_0.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-glmnet
+    - r-e1071
+    - r-rgl
+    - r-rcolorbrewer
+    - r-colorspace
+  run:
+    - r
+    - r-glmnet
+    - r-e1071
+    - r-rgl
+    - r-rcolorbrewer
+    - r-colorspace
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

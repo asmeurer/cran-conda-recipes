@@ -1,0 +1,21 @@
+package:
+  name: r-scidb
+  version: 1.1.0
+
+source:
+  fn: scidb_1.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/scidb_1.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-iterators
+  run:
+    - r-iterators
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

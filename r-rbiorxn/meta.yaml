@@ -1,0 +1,29 @@
+package:
+  name: r-rbiorxn
+  version: 1.0
+
+source:
+  fn: RbioRXN_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/RbioRXN_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gdata
+    - r-chnosz
+    - r-hash
+    - r-domc
+  run:
+    - r
+    - r-gdata
+    - r-chnosz
+    - r-hash
+    - r-domc
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

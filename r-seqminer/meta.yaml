@@ -1,0 +1,21 @@
+package:
+  name: r-seqminer
+  version: 2.0
+
+source:
+  fn: seqminer_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/seqminer_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-stringr
+  run:
+    - r-stringr
+
+about:
+  license: GPL | file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

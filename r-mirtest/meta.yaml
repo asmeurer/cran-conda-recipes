@@ -1,0 +1,29 @@
+package:
+  name: r-mirtest
+  version: 1.5
+
+source:
+  fn: miRtest_1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/miRtest_1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-globaltest
+    - r-globalancova
+    - r-limma
+    - r-repeatedhighdim
+    - r-corpcor
+  run:
+    - r-globaltest
+    - r-globalancova
+    - r-limma
+    - r-repeatedhighdim
+    - r-corpcor
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

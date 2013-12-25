@@ -1,0 +1,53 @@
+package:
+  name: r-popgenreport
+  version: 1.6.6
+
+source:
+  fn: PopGenReport_1.6.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/PopGenReport_1.6.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-adegenet
+    - r-mmod
+    - r-knitr
+    - r-rgooglemaps
+    - r-gap
+    - r-calibrate
+    - r-xtable
+    - r-plyr
+    - r-dismo
+    - r-reshape
+    - r-ggplot2
+    - r-rutils
+    - r-ade4
+    - r-pegas
+    - r-genetics
+    - r-rgdal
+  run:
+    - r
+    - r-adegenet
+    - r-mmod
+    - r-knitr
+    - r-rgooglemaps
+    - r-gap
+    - r-calibrate
+    - r-xtable
+    - r-plyr
+    - r-dismo
+    - r-reshape
+    - r-ggplot2
+    - r-rutils
+    - r-ade4
+    - r-pegas
+    - r-genetics
+    - r-rgdal
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

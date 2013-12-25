@@ -1,0 +1,19 @@
+package:
+  name: r-lgs
+  version: 0.91
+
+source:
+  fn: LGS_0.91.tar.gz
+  url: http://cran.r-project.org/src/contrib/LGS_0.91.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

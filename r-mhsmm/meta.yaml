@@ -1,0 +1,21 @@
+package:
+  name: r-mhsmm
+  version: 0.4.11
+
+source:
+  fn: mhsmm_0.4.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/mhsmm_0.4.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mvtnorm
+  run:
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

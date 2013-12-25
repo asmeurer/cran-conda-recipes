@@ -1,0 +1,23 @@
+package:
+  name: r-spaceext
+  version: 1.0
+
+source:
+  fn: spaceExt_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/spaceExt_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-limsolve
+    - r-glasso
+  run:
+    - r-limsolve
+    - r-glasso
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

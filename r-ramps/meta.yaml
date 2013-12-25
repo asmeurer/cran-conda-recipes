@@ -1,0 +1,25 @@
+package:
+  name: r-ramps
+  version: 0.6.12
+
+source:
+  fn: ramps_0.6-12.tar.gz
+  url: http://cran.r-project.org/src/contrib/ramps_0.6-12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-maps
+    - r-fields
+  run:
+    - r-coda
+    - r-maps
+    - r-fields
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

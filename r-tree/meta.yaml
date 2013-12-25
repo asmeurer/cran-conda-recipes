@@ -1,0 +1,21 @@
+package:
+  name: r-tree
+  version: 1.0.34
+
+source:
+  fn: tree_1.0-34.tar.gz
+  url: http://cran.r-project.org/src/contrib/tree_1.0-34.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-rfoc
+  version: 3.2
+
+source:
+  fn: RFOC_3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/RFOC_3.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-geomap
+    - r-rpmg
+    - r-rseis
+    - r-splancs
+  run:
+    - r
+    - r-geomap
+    - r-rpmg
+    - r-rseis
+    - r-splancs
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

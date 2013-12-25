@@ -1,0 +1,27 @@
+package:
+  name: r-gregmisc
+  version: 2.1.5
+
+source:
+  fn: gregmisc_2.1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/gregmisc_2.1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gdata
+    - r-gmodels
+    - r-gplots
+    - r-gtools
+  run:
+    - r-gdata
+    - r-gmodels
+    - r-gplots
+    - r-gtools
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

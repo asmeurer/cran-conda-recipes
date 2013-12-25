@@ -1,0 +1,53 @@
+package:
+  name: r-chemospec
+  version: 1.61.3
+
+source:
+  fn: ChemoSpec_1.61-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/ChemoSpec_1.61-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pls
+    - r-amap
+    - r-chemometrics
+    - r-robustbase
+    - r-rcolorbrewer
+    - r-plyr
+    - r-pcapp
+    - r-mvtnorm
+    - r-mvoutlier
+    - r-rgl
+    - r-rutils
+    - r-mclust
+    - r-baseline
+    - r-idpmisc
+    - r-gsubfn
+    - r-seriation
+  run:
+    - r
+    - r-pls
+    - r-amap
+    - r-chemometrics
+    - r-robustbase
+    - r-rcolorbrewer
+    - r-plyr
+    - r-pcapp
+    - r-mvtnorm
+    - r-mvoutlier
+    - r-rgl
+    - r-rutils
+    - r-mclust
+    - r-baseline
+    - r-idpmisc
+    - r-gsubfn
+    - r-seriation
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-deseasonalize
+  version: 1.35
+
+source:
+  fn: deseasonalize_1.35.tar.gz
+  url: http://cran.r-project.org/src/contrib/deseasonalize_1.35.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fitar
+  run:
+    - r
+    - r-fitar
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

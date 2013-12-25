@@ -1,0 +1,21 @@
+package:
+  name: r-exact2x2
+  version: 1.1.1.0
+
+source:
+  fn: exact2x2_1.1-1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/exact2x2_1.1-1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-exactci
+  run:
+    - r-exactci
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

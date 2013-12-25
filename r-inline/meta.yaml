@@ -1,0 +1,21 @@
+package:
+  name: r-inline
+  version: 0.3.13
+
+source:
+  fn: inline_0.3.13.tar.gz
+  url: http://cran.r-project.org/src/contrib/inline_0.3.13.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-ncal
+  version: 13.12.01
+
+source:
+  fn: nCal_13.12-01.tar.gz
+  url: http://cran.r-project.org/src/contrib/nCal_13.12-01.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-drc
+    - r-gdata
+    - r-gwidgets
+    - r-xtable
+  run:
+    - r
+    - r-drc
+    - r-gdata
+    - r-gwidgets
+    - r-xtable
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

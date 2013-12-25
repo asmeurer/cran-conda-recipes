@@ -1,0 +1,23 @@
+package:
+  name: r-vsurf
+  version: 0.8
+
+source:
+  fn: VSURF_0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/VSURF_0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-randomforest
+    - r-doparallel
+  run:
+    - r-randomforest
+    - r-doparallel
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

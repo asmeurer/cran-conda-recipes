@@ -1,0 +1,23 @@
+package:
+  name: r-distributionutils
+  version: 0.5.1
+
+source:
+  fn: DistributionUtils_0.5-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/DistributionUtils_0.5-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-runit
+  run:
+    - r
+    - r-runit
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

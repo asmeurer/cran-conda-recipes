@@ -1,0 +1,23 @@
+package:
+  name: r-dendser
+  version: 1.0.1
+
+source:
+  fn: DendSer_1.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/DendSer_1.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gclus
+    - r-seriation
+  run:
+    - r-gclus
+    - r-seriation
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

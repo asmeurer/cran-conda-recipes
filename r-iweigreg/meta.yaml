@@ -1,0 +1,23 @@
+package:
+  name: r-iweigreg
+  version: 1.0
+
+source:
+  fn: iWeigReg_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/iWeigReg_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-trust
+  run:
+    - r
+    - r-trust
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

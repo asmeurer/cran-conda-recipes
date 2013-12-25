@@ -1,0 +1,19 @@
+package:
+  name: r-date
+  version: 1.2.33
+
+source:
+  fn: date_1.2-33.tar.gz
+  url: http://cran.r-project.org/src/contrib/date_1.2-33.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

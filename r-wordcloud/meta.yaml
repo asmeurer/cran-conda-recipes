@@ -1,0 +1,25 @@
+package:
+  name: r-wordcloud
+  version: 2.4
+
+source:
+  fn: wordcloud_2.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/wordcloud_2.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcolorbrewer
+    - r-slam
+  run:
+    - r-rcpp
+    - r-rcolorbrewer
+    - r-slam
+
+about:
+  license: LGPL-2.1
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

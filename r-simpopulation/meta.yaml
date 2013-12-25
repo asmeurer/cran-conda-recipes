@@ -1,0 +1,25 @@
+package:
+  name: r-simpopulation
+  version: 0.4.1
+
+source:
+  fn: simPopulation_0.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/simPopulation_0.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pot
+    - r-vcd
+  run:
+    - r
+    - r-pot
+    - r-vcd
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-tsphere
+  version: 1.0
+
+source:
+  fn: Tsphere_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/Tsphere_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-glasso
+    - r-rms
+  run:
+    - r-glasso
+    - r-rms
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

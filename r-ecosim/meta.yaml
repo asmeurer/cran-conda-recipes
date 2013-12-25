@@ -1,0 +1,23 @@
+package:
+  name: r-ecosim
+  version: 1.01
+
+source:
+  fn: ecosim_1.01.tar.gz
+  url: http://cran.r-project.org/src/contrib/ecosim_1.01.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-desolve
+    - r-stoichcalc
+  run:
+    - r-desolve
+    - r-stoichcalc
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-jade
+  version: 1.9.91
+
+source:
+  fn: JADE_1.9-91.tar.gz
+  url: http://cran.r-project.org/src/contrib/JADE_1.9-91.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clue
+  run:
+    - r-clue
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

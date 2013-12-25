@@ -1,0 +1,25 @@
+package:
+  name: r-guerry
+  version: 1.5.0
+
+source:
+  fn: Guerry_1.5-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/Guerry_1.5-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sp
+    - r-shapefiles
+  run:
+    - r
+    - r-sp
+    - r-shapefiles
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

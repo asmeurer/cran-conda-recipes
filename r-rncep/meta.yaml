@@ -1,0 +1,33 @@
+package:
+  name: r-rncep
+  version: 1.0.6
+
+source:
+  fn: RNCEP_1.0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/RNCEP_1.0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-abind
+    - r-maps
+    - r-fields
+    - r-tgp
+    - r-fossil
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-abind
+    - r-maps
+    - r-fields
+    - r-tgp
+    - r-fossil
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

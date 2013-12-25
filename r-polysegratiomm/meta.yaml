@@ -1,0 +1,27 @@
+package:
+  name: r-polysegratiomm
+  version: 0.6.2
+
+source:
+  fn: polySegratioMM_0.6-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/polySegratioMM_0.6-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-polysegratio
+    - r-coda
+    - r-gtools
+  run:
+    - r
+    - r-polysegratio
+    - r-coda
+    - r-gtools
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-gwrr
+  version: 0.2.1
+
+source:
+  fn: gwrr_0.2-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/gwrr_0.2-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fields
+    - r-lars
+  run:
+    - r-fields
+    - r-lars
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

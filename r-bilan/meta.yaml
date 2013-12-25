@@ -1,0 +1,21 @@
+package:
+  name: r-bilan
+  version: 2013.12
+
+source:
+  fn: bilan_2013.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/bilan_2013.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+  run:
+    - r-rcpp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

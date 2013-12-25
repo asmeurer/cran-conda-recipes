@@ -1,0 +1,21 @@
+package:
+  name: r-mallet
+  version: 1.0
+
+source:
+  fn: mallet_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/mallet_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjava
+  run:
+    - r-rjava
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

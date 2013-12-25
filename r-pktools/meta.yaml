@@ -1,0 +1,23 @@
+package:
+  name: r-pktools
+  version: 1.5.0
+
+source:
+  fn: PKtools_1.5-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/PKtools_1.5-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-r2html
+    - r-xtable
+  run:
+    - r-r2html
+    - r-xtable
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

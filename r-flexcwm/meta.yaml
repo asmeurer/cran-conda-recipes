@@ -1,0 +1,33 @@
+package:
+  name: r-flexcwm
+  version: 1.1
+
+source:
+  fn: flexCWM_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/flexCWM_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-numderiv
+    - r-mnormt
+    - r-mclust
+    - r-ellipse
+    - r-mixture
+    - r-flury
+  run:
+    - r
+    - r-numderiv
+    - r-mnormt
+    - r-mclust
+    - r-ellipse
+    - r-mixture
+    - r-flury
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

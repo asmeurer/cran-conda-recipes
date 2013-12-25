@@ -1,0 +1,33 @@
+package:
+  name: r-tsfame
+  version: 2013.8.2
+
+source:
+  fn: TSfame_2013.8-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSfame_2013.8-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-fame
+    - r-tis
+  run:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-fame
+    - r-tis
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

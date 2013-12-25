@@ -1,0 +1,21 @@
+package:
+  name: r-rgammagamma
+  version: 1.0.12
+
+source:
+  fn: rGammaGamma_1.0.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/rGammaGamma_1.0.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gsl
+  run:
+    - r-gsl
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

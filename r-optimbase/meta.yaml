@@ -1,0 +1,19 @@
+package:
+  name: r-optimbase
+  version: 1.0.7
+
+source:
+  fn: optimbase_1.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/optimbase_1.0-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: CeCILL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

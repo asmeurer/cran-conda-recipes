@@ -1,0 +1,27 @@
+package:
+  name: r-psgp
+  version: 0.3.4
+
+source:
+  fn: psgp_0.3-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/psgp_0.3-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-intamap
+    - r-rcpparmadillo
+    - r-automap
+    - r-gstat
+  run:
+    - r-intamap
+    - r-rcpparmadillo
+    - r-automap
+    - r-gstat
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,21 @@
+package:
+  name: r-crrstep
+  version: 2013.02.12
+
+source:
+  fn: crrstep_2013-02.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/crrstep_2013-02.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-cmprsk
+  run:
+    - r-cmprsk
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

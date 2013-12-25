@@ -1,0 +1,21 @@
+package:
+  name: r-binseqtest
+  version: 0.3
+
+source:
+  fn: binseqtest_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/binseqtest_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clinfun
+  run:
+    - r-clinfun
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

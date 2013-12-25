@@ -1,0 +1,23 @@
+package:
+  name: r-dice
+  version: 1.1
+
+source:
+  fn: dice_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/dice_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gtools
+  run:
+    - r
+    - r-gtools
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

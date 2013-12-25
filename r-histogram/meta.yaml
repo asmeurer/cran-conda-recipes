@@ -1,0 +1,19 @@
+package:
+  name: r-histogram
+  version: 0.0.23
+
+source:
+  fn: histogram_0.0-23.tar.gz
+  url: http://cran.r-project.org/src/contrib/histogram_0.0-23.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

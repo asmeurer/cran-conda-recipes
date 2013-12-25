@@ -1,0 +1,25 @@
+package:
+  name: r-multgee
+  version: 1.4
+
+source:
+  fn: multgee_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/multgee_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gnm
+    - r-vgam
+  run:
+    - r
+    - r-gnm
+    - r-vgam
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

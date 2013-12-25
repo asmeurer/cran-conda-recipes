@@ -1,0 +1,31 @@
+package:
+  name: r-ezsim
+  version: 0.5.3
+
+source:
+  fn: ezsim_0.5.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/ezsim_0.5.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-foreach
+    - r-ggplot2
+    - r-reshape
+    - r-plyr
+    - r-jmisc
+    - r-digest
+  run:
+    - r-foreach
+    - r-ggplot2
+    - r-reshape
+    - r-plyr
+    - r-jmisc
+    - r-digest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

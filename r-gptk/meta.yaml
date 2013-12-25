@@ -1,0 +1,23 @@
+package:
+  name: r-gptk
+  version: 1.07
+
+source:
+  fn: gptk_1.07.tar.gz
+  url: http://cran.r-project.org/src/contrib/gptk_1.07.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fields
+  run:
+    - r
+    - r-fields
+
+about:
+  license: BSD_2_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,39 @@
+package:
+  name: r-ttainterfacetrendanalysis
+  version: 1.5
+
+source:
+  fn: TTAinterfaceTrendAnalysis_1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/TTAinterfaceTrendAnalysis_1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hmisc
+    - r-pastecs
+    - r-reshape
+    - r-wq
+    - r-e1071
+    - r-timeseries
+    - r-fbasics
+    - r-relimp
+    - r-multcomp
+  run:
+    - r
+    - r-hmisc
+    - r-pastecs
+    - r-reshape
+    - r-wq
+    - r-e1071
+    - r-timeseries
+    - r-fbasics
+    - r-relimp
+    - r-multcomp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

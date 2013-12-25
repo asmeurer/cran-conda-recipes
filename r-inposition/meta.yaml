@@ -1,0 +1,23 @@
+package:
+  name: r-inposition
+  version: 0.12.7
+
+source:
+  fn: InPosition_0.12.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/InPosition_0.12.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-prettygraphs
+    - r-exposition
+  run:
+    - r-prettygraphs
+    - r-exposition
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

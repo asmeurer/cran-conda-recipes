@@ -1,0 +1,27 @@
+package:
+  name: r-ddd
+  version: 2.4
+
+source:
+  fn: DDD_2.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/DDD_2.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-desolve
+    - r-ape
+    - r-ade4
+  run:
+    - r
+    - r-desolve
+    - r-ape
+    - r-ade4
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

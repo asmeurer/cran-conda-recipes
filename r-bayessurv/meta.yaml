@@ -1,0 +1,25 @@
+package:
+  name: r-bayessurv
+  version: 2.1.1
+
+source:
+  fn: bayesSurv_2.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/bayesSurv_2.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coda
+    - r-smoothsurv
+  run:
+    - r
+    - r-coda
+    - r-smoothsurv
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

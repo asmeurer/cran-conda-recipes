@@ -1,0 +1,29 @@
+package:
+  name: r-findit
+  version: 0.3
+
+source:
+  fn: FindIt_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/FindIt_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-glmnet
+    - r-lars
+    - r-glmnet
+    - r-lars
+  run:
+    - r
+    - r-glmnet
+    - r-lars
+    - r-glmnet
+    - r-lars
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

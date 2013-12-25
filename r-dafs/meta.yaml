@@ -1,0 +1,21 @@
+package:
+  name: r-dafs
+  version: 1.0.37
+
+source:
+  fn: dafs_1.0-37.tar.gz
+  url: http://cran.r-project.org/src/contrib/dafs_1.0-37.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-s20x
+  run:
+    - r-s20x
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

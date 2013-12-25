@@ -1,0 +1,23 @@
+package:
+  name: r-kml
+  version: 2.1.2
+
+source:
+  fn: kml_2.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/kml_2.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clv
+    - r-longitudinaldata
+  run:
+    - r-clv
+    - r-longitudinaldata
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

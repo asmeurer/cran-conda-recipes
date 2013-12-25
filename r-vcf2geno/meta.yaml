@@ -1,0 +1,19 @@
+package:
+  name: r-vcf2geno
+  version: 2.0
+
+source:
+  fn: vcf2geno_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/vcf2geno_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

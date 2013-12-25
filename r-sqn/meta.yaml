@@ -1,0 +1,25 @@
+package:
+  name: r-sqn
+  version: 1.0.5
+
+source:
+  fn: SQN_1.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/SQN_1.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mclust
+    - r-nor1mix
+  run:
+    - r
+    - r-mclust
+    - r-nor1mix
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

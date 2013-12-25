@@ -1,0 +1,25 @@
+package:
+  name: r-rknots
+  version: 1.2.1
+
+source:
+  fn: Rknots_1.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rknots_1.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgl
+    - r-rsympy
+  run:
+    - r
+    - r-rgl
+    - r-rsympy
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

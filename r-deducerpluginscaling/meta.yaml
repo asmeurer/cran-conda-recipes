@@ -1,0 +1,31 @@
+package:
+  name: r-deducerpluginscaling
+  version: 0.1.0
+
+source:
+  fn: DeducerPlugInScaling_0.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/DeducerPlugInScaling_0.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-deducer
+    - r-psych
+    - r-gparotation
+    - r-mvnormtest
+    - r-irr
+    - r-klar
+  run:
+    - r-deducer
+    - r-psych
+    - r-gparotation
+    - r-mvnormtest
+    - r-irr
+    - r-klar
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

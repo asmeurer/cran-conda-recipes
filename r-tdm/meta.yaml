@@ -1,0 +1,27 @@
+package:
+  name: r-tdm
+  version: 3.0.1
+
+source:
+  fn: tdm_3.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/tdm_3.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjags
+    - r-coda
+    - r-png
+  run:
+    - r
+    - r-rjags
+    - r-coda
+    - r-png
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

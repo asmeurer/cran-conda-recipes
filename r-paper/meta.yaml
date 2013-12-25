@@ -1,0 +1,25 @@
+package:
+  name: r-paper
+  version: 0.4.0
+
+source:
+  fn: papeR_0.4-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/papeR_0.4-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-lme4
+    - r-gmodels
+  run:
+    - r-car
+    - r-lme4
+    - r-gmodels
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-funitroots
+  version: 3010.78
+
+source:
+  fn: fUnitRoots_3010.78.tar.gz
+  url: http://cran.r-project.org/src/contrib/fUnitRoots_3010.78.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-urca
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+  run:
+    - r
+    - r-urca
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

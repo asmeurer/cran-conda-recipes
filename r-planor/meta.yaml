@@ -1,0 +1,25 @@
+package:
+  name: r-planor
+  version: 0.1.10
+
+source:
+  fn: planor_0.1-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/planor_0.1-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-confdesign
+    - r-biganalytics
+    - r-bigmemory
+  run:
+    - r-confdesign
+    - r-biganalytics
+    - r-bigmemory
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

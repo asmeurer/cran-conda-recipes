@@ -1,0 +1,27 @@
+package:
+  name: r-distr
+  version: 2.5.2
+
+source:
+  fn: distr_2.5.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/distr_2.5.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-startupmsg
+    - r-sfsmisc
+    - r-sweavelistingutils
+  run:
+    - r
+    - r-startupmsg
+    - r-sfsmisc
+    - r-sweavelistingutils
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

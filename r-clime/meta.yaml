@@ -1,0 +1,21 @@
+package:
+  name: r-clime
+  version: 0.4.1
+
+source:
+  fn: clime_0.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/clime_0.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lpsolve
+  run:
+    - r-lpsolve
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

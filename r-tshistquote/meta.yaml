@@ -1,0 +1,33 @@
+package:
+  name: r-tshistquote
+  version: 2013.9.1
+
+source:
+  fn: TShistQuote_2013.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TShistQuote_2013.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-zoo
+    - r-tseries
+  run:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-zoo
+    - r-tseries
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

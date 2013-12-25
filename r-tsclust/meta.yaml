@@ -1,0 +1,29 @@
+package:
+  name: r-tsclust
+  version: 1.1
+
+source:
+  fn: TSclust_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSclust_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-locpol
+    - r-dtw
+    - r-longitudinaldata
+    - r-wmtsa
+  run:
+    - r
+    - r-locpol
+    - r-dtw
+    - r-longitudinaldata
+    - r-wmtsa
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

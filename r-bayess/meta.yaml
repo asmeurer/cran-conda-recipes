@@ -1,0 +1,25 @@
+package:
+  name: r-bayess
+  version: 1.4
+
+source:
+  fn: bayess_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/bayess_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mnormt
+    - r-gplots
+    - r-combinat
+  run:
+    - r-mnormt
+    - r-gplots
+    - r-combinat
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

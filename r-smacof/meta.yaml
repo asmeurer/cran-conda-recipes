@@ -1,0 +1,31 @@
+package:
+  name: r-smacof
+  version: 1.2.3
+
+source:
+  fn: smacof_1.2-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/smacof_1.2-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-polynom
+    - r-rgl
+    - r-scatterplot3d
+    - r-hmisc
+    - r-colorspace
+  run:
+    - r
+    - r-polynom
+    - r-rgl
+    - r-scatterplot3d
+    - r-hmisc
+    - r-colorspace
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

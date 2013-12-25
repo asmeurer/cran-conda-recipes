@@ -1,0 +1,35 @@
+package:
+  name: r-opm
+  version: 1.0.24
+
+source:
+  fn: opm_1.0.24.tar.gz
+  url: http://cran.r-project.org/src/contrib/opm_1.0.24.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hwriter
+    - r-plotrix
+    - r-ckmeans1ddp
+    - r-pkgutils
+    - r-yaml
+    - r-grofit
+    - r-rjson
+  run:
+    - r
+    - r-hwriter
+    - r-plotrix
+    - r-ckmeans1ddp
+    - r-pkgutils
+    - r-yaml
+    - r-grofit
+    - r-rjson
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

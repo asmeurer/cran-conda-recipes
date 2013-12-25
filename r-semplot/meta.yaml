@@ -1,0 +1,41 @@
+package:
+  name: r-semplot
+  version: 0.3.3
+
+source:
+  fn: semPlot_0.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/semPlot_0.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-qgraph
+    - r-lavaan
+    - r-sem
+    - r-plyr
+    - r-xml
+    - r-igraph
+    - r-lisreltor
+    - r-rockchalk
+    - r-colorspace
+    - r-corpcor
+  run:
+    - r
+    - r-qgraph
+    - r-lavaan
+    - r-sem
+    - r-plyr
+    - r-xml
+    - r-igraph
+    - r-lisreltor
+    - r-rockchalk
+    - r-colorspace
+    - r-corpcor
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

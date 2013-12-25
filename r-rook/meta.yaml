@@ -1,0 +1,23 @@
+package:
+  name: r-rook
+  version: 1.0.9
+
+source:
+  fn: Rook_1.0-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rook_1.0-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-brew
+  run:
+    - r
+    - r-brew
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

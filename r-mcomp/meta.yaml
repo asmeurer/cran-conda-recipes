@@ -1,0 +1,25 @@
+package:
+  name: r-mcomp
+  version: 2.05
+
+source:
+  fn: Mcomp_2.05.tar.gz
+  url: http://cran.r-project.org/src/contrib/Mcomp_2.05.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tseries
+    - r-forecast
+  run:
+    - r
+    - r-tseries
+    - r-forecast
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-rncbi
+  version: 0.9.1
+
+source:
+  fn: RNCBI_0.9.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/RNCBI_0.9.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-xml
+    - r-rncbieutilslibs
+    - r-rncbiaxis2libs
+  run:
+    - r
+    - r-rjava
+    - r-xml
+    - r-rncbieutilslibs
+    - r-rncbiaxis2libs
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

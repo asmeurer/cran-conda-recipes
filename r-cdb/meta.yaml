@@ -1,0 +1,21 @@
+package:
+  name: r-cdb
+  version: 0.0.1
+
+source:
+  fn: cdb_0.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/cdb_0.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-bitops
+  run:
+    - r-bitops
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

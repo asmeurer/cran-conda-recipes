@@ -1,0 +1,19 @@
+package:
+  name: r-testit
+  version: 0.3
+
+source:
+  fn: testit_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/testit_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

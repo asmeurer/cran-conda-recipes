@@ -1,0 +1,27 @@
+package:
+  name: r-mcda
+  version: 0.0.3
+
+source:
+  fn: MCDA_0.0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/MCDA_0.0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rglpk
+    - r-kendall
+    - r-glpkapi
+  run:
+    - r
+    - r-rglpk
+    - r-kendall
+    - r-glpkapi
+
+about:
+  license: CeCILL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

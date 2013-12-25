@@ -1,0 +1,23 @@
+package:
+  name: r-picante
+  version: 1.6.1
+
+source:
+  fn: picante_1.6-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/picante_1.6-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ape
+    - r-vegan
+  run:
+    - r-ape
+    - r-vegan
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

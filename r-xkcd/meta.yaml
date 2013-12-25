@@ -1,0 +1,25 @@
+package:
+  name: r-xkcd
+  version: 0.0.1
+
+source:
+  fn: xkcd_0.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/xkcd_0.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-hmisc
+    - r-extrafont
+    - r-ggplot2
+  run:
+    - r-hmisc
+    - r-extrafont
+    - r-ggplot2
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

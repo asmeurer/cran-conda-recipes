@@ -1,0 +1,39 @@
+package:
+  name: r-sdcmicro
+  version: 4.1.0
+
+source:
+  fn: sdcMicro_4.1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/sdcMicro_4.1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-brew
+    - r-knitr
+    - r-datatable
+    - r-xtable
+    - r-car
+    - r-robustbase
+    - r-e1071
+    - r-rcpp
+    - r-sets
+  run:
+    - r
+    - r-brew
+    - r-knitr
+    - r-datatable
+    - r-xtable
+    - r-car
+    - r-robustbase
+    - r-e1071
+    - r-rcpp
+    - r-sets
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

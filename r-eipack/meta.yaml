@@ -1,0 +1,25 @@
+package:
+  name: r-eipack
+  version: 0.1.7
+
+source:
+  fn: eiPack_0.1-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/eiPack_0.1-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coda
+    - r-msm
+  run:
+    - r
+    - r-coda
+    - r-msm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

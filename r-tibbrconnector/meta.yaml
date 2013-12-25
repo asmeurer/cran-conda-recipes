@@ -1,0 +1,23 @@
+package:
+  name: r-tibbrconnector
+  version: 1.5.0.71
+
+source:
+  fn: tibbrConnector_1.5.0-71.tar.gz
+  url: http://cran.r-project.org/src/contrib/tibbrConnector_1.5.0-71.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcurl
+    - r-rjson
+  run:
+    - r-rcurl
+    - r-rjson
+
+about:
+  license: BSD_3_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

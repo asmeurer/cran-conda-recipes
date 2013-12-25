@@ -1,0 +1,31 @@
+package:
+  name: r-tsxls
+  version: 2013.8.2
+
+source:
+  fn: TSxls_2013.8-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSxls_2013.8-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-gdata
+  run:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-gdata
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

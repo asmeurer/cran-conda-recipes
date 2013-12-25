@@ -1,0 +1,23 @@
+package:
+  name: r-mederrrank
+  version: 0.0.7
+
+source:
+  fn: mederrRank_0.0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/mederrRank_0.0.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-bb
+    - r-numderiv
+  run:
+    - r-bb
+    - r-numderiv
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

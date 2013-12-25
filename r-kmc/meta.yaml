@@ -1,0 +1,27 @@
+package:
+  name: r-kmc
+  version: 0.1.2
+
+source:
+  fn: kmc_0.1-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/kmc_0.1-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rootsolve
+    - r-emplik
+    - r-rcpp
+  run:
+    - r
+    - r-rootsolve
+    - r-emplik
+    - r-rcpp
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

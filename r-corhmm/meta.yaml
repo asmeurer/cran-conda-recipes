@@ -1,0 +1,33 @@
+package:
+  name: r-corhmm
+  version: 1.12
+
+source:
+  fn: corHMM_1.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/corHMM_1.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ape
+    - r-nloptr
+    - r-expm
+    - r-numderiv
+    - r-corpcor
+    - r-phangorn
+    - r-rgenoud
+  run:
+    - r-ape
+    - r-nloptr
+    - r-expm
+    - r-numderiv
+    - r-corpcor
+    - r-phangorn
+    - r-rgenoud
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

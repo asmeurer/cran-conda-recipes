@@ -1,0 +1,25 @@
+package:
+  name: r-maxstat
+  version: 0.7.18
+
+source:
+  fn: maxstat_0.7-18.tar.gz
+  url: http://cran.r-project.org/src/contrib/maxstat_0.7-18.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-exactranktests
+    - r-mvtnorm
+  run:
+    - r
+    - r-exactranktests
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

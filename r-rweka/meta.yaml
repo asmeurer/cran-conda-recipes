@@ -1,0 +1,25 @@
+package:
+  name: r-rweka
+  version: 0.4.21
+
+source:
+  fn: RWeka_0.4-21.tar.gz
+  url: http://cran.r-project.org/src/contrib/RWeka_0.4-21.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rwekajars
+    - r-rjava
+  run:
+    - r
+    - r-rwekajars
+    - r-rjava
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,19 @@
+package:
+  name: r-oarray
+  version: 1.4.5
+
+source:
+  fn: Oarray_1.4-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/Oarray_1.4-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

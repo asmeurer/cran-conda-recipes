@@ -1,0 +1,21 @@
+package:
+  name: r-rstorm
+  version: 0.902
+
+source:
+  fn: RStorm_0.902.tar.gz
+  url: http://cran.r-project.org/src/contrib/RStorm_0.902.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+  run:
+    - r-plyr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

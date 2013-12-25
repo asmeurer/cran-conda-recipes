@@ -1,0 +1,25 @@
+package:
+  name: r-sparsenet
+  version: 1.1
+
+source:
+  fn: sparsenet_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/sparsenet_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-glmnet
+    - r-shape
+    - r-abind
+  run:
+    - r-glmnet
+    - r-shape
+    - r-abind
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

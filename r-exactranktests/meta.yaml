@@ -1,0 +1,21 @@
+package:
+  name: r-exactranktests
+  version: 0.8.27
+
+source:
+  fn: exactRankTests_0.8-27.tar.gz
+  url: http://cran.r-project.org/src/contrib/exactRankTests_0.8-27.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

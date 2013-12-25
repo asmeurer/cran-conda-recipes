@@ -1,0 +1,33 @@
+package:
+  name: r-roblox
+  version: 0.9
+
+source:
+  fn: RobLox_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/RobLox_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-distrmod
+    - r-robastbase
+    - r-rcolorbrewer
+    - r-biobase
+    - r-randvar
+    - r-distr
+  run:
+    - r
+    - r-distrmod
+    - r-robastbase
+    - r-rcolorbrewer
+    - r-biobase
+    - r-randvar
+    - r-distr
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

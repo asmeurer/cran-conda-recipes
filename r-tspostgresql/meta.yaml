@@ -1,0 +1,33 @@
+package:
+  name: r-tspostgresql
+  version: 2013.9.1
+
+source:
+  fn: TSPostgreSQL_2013.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSPostgreSQL_2013.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tsdbi
+    - r-rpostgresql
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-tssql
+  run:
+    - r
+    - r-tsdbi
+    - r-rpostgresql
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-tssql
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

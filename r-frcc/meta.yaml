@@ -1,0 +1,25 @@
+package:
+  name: r-frcc
+  version: 1.0
+
+source:
+  fn: FRCC_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/FRCC_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ccp
+    - r-calibrate
+    - r-corpcor
+  run:
+    - r-ccp
+    - r-calibrate
+    - r-corpcor
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

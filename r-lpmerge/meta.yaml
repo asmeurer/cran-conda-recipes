@@ -1,0 +1,21 @@
+package:
+  name: r-lpmerge
+  version: 1.4
+
+source:
+  fn: LPmerge_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/LPmerge_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rglpk
+  run:
+    - r-rglpk
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

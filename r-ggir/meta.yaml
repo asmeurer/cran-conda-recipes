@@ -1,0 +1,25 @@
+package:
+  name: r-ggir
+  version: 1.0.00
+
+source:
+  fn: GGIR_1.0-00.tar.gz
+  url: http://cran.r-project.org/src/contrib/GGIR_1.0-00.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-genearead
+    - r-matlab
+    - r
+  run:
+    - r-genearead
+    - r-matlab
+    - r
+
+about:
+  license: LGPL (>= 2.0, < 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

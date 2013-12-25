@@ -1,0 +1,25 @@
+package:
+  name: r-ggebiplotgui
+  version: 1.0.6
+
+source:
+  fn: GGEBiplotGUI_1.0-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/GGEBiplotGUI_1.0-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgl
+    - r-tkrplot
+  run:
+    - r
+    - r-rgl
+    - r-tkrplot
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

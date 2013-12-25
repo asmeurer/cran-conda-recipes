@@ -1,0 +1,25 @@
+package:
+  name: r-covtest
+  version: 1.02
+
+source:
+  fn: covTest_1.02.tar.gz
+  url: http://cran.r-project.org/src/contrib/covTest_1.02.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lars
+    - r-glmnet
+    - r-glmpath
+  run:
+    - r-lars
+    - r-glmnet
+    - r-glmpath
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-proc
+  version: 1.5.4
+
+source:
+  fn: pROC_1.5.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/pROC_1.5.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r
+  run:
+    - r-plyr
+    - r
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

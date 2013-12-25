@@ -1,0 +1,23 @@
+package:
+  name: r-sn
+  version: 0.4.18
+
+source:
+  fn: sn_0.4-18.tar.gz
+  url: http://cran.r-project.org/src/contrib/sn_0.4-18.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mnormt
+  run:
+    - r
+    - r-mnormt
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

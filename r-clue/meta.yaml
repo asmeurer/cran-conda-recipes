@@ -1,0 +1,21 @@
+package:
+  name: r-clue
+  version: 0.3.47
+
+source:
+  fn: clue_0.3-47.tar.gz
+  url: http://cran.r-project.org/src/contrib/clue_0.3-47.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

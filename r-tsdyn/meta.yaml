@@ -1,0 +1,33 @@
+package:
+  name: r-tsdyn
+  version: 0.9.32
+
+source:
+  fn: tsDyn_0.9-32.tar.gz
+  url: http://cran.r-project.org/src/contrib/tsDyn_0.9-32.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mnormt
+    - r-tserieschaos
+    - r-tseries
+    - r-vars
+    - r-urca
+    - r-forecast
+    - r-foreach
+  run:
+    - r-mnormt
+    - r-tserieschaos
+    - r-tseries
+    - r-vars
+    - r-urca
+    - r-forecast
+    - r-foreach
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

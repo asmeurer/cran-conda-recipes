@@ -1,0 +1,21 @@
+package:
+  name: r-softclassval
+  version: 1.0.20130317
+
+source:
+  fn: softclassval_1.0-20130317.tar.gz
+  url: http://cran.r-project.org/src/contrib/softclassval_1.0-20130317.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-arrayhelpers
+  run:
+    - r-arrayhelpers
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

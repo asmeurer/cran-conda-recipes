@@ -1,0 +1,35 @@
+package:
+  name: r-diffeq
+  version: 1.0
+
+source:
+  fn: diffEq_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/diffEq_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-desolve
+    - r-rootsolve
+    - r-bvpsolve
+    - r-reactran
+    - r-diagram
+    - r-detestset
+    - r-scatterplot3d
+  run:
+    - r
+    - r-desolve
+    - r-rootsolve
+    - r-bvpsolve
+    - r-reactran
+    - r-diagram
+    - r-detestset
+    - r-scatterplot3d
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

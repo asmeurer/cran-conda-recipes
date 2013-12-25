@@ -1,0 +1,21 @@
+package:
+  name: r-mixer
+  version: 1.7
+
+source:
+  fn: mixer_1.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/mixer_1.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

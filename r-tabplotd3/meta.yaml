@@ -1,0 +1,29 @@
+package:
+  name: r-tabplotd3
+  version: 0.3.3
+
+source:
+  fn: tabplotd3_0.3.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/tabplotd3_0.3.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tabplot
+    - r-httpuv
+    - r-rook
+    - r-brew
+    - r-rjsonio
+  run:
+    - r-tabplot
+    - r-httpuv
+    - r-rook
+    - r-brew
+    - r-rjsonio
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

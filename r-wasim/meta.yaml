@@ -1,0 +1,27 @@
+package:
+  name: r-wasim
+  version: 1.1.2
+
+source:
+  fn: wasim_1.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/wasim_1.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-qualv
+    - r-tiger
+    - r-fast
+  run:
+    - r
+    - r-qualv
+    - r-tiger
+    - r-fast
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

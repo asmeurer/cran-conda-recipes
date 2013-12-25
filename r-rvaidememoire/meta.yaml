@@ -1,0 +1,29 @@
+package:
+  name: r-rvaidememoire
+  version: 0.9.29.2
+
+source:
+  fn: RVAideMemoire_0.9-29-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/RVAideMemoire_0.9-29-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ade4
+    - r-car
+    - r-lme4
+    - r-mixomics
+    - r-statmod
+  run:
+    - r-ade4
+    - r-car
+    - r-lme4
+    - r-mixomics
+    - r-statmod
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

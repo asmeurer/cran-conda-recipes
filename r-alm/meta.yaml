@@ -1,0 +1,37 @@
+package:
+  name: r-alm
+  version: 0.1.1
+
+source:
+  fn: alm_0.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/alm_0.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ggplot2
+    - r-rcurl
+    - r-rjsonio
+    - r-plyr
+    - r-stringr
+    - r-reshape
+    - r-reshape2
+    - r-httr
+    - r-lubridate
+  run:
+    - r-ggplot2
+    - r-rcurl
+    - r-rjsonio
+    - r-plyr
+    - r-stringr
+    - r-reshape
+    - r-reshape2
+    - r-httr
+    - r-lubridate
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

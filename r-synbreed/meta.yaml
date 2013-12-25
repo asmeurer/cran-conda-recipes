@@ -1,0 +1,37 @@
+package:
+  name: r-synbreed
+  version: 0.9.7
+
+source:
+  fn: synbreed_0.9-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/synbreed_0.9-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-doby
+    - r-blr
+    - r-regress
+    - r-abind
+    - r-igraph
+    - r-ldheatmap
+    - r-qtl
+    - r-synbreeddata
+  run:
+    - r
+    - r-doby
+    - r-blr
+    - r-regress
+    - r-abind
+    - r-igraph
+    - r-ldheatmap
+    - r-qtl
+    - r-synbreeddata
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

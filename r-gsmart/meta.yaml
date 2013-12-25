@@ -1,0 +1,33 @@
+package:
+  name: r-gsmart
+  version: 1.0
+
+source:
+  fn: gsmaRt_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/gsmaRt_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-geoquery
+    - r-r2html
+    - r-qvalue
+    - r-rgl
+    - r-scatterplot3d
+    - r-xtable
+    - r-limma
+  run:
+    - r-geoquery
+    - r-r2html
+    - r-qvalue
+    - r-rgl
+    - r-scatterplot3d
+    - r-xtable
+    - r-limma
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-ccapp
+  version: 0.3.0
+
+source:
+  fn: ccaPP_0.3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/ccaPP_0.3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-pcapp
+    - r-robustbase
+    - r-rcpparmadillo
+  run:
+    - r-rcpp
+    - r-pcapp
+    - r-robustbase
+    - r-rcpparmadillo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

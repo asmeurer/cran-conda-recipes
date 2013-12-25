@@ -1,0 +1,19 @@
+package:
+  name: r-bh
+  version: 1.51.0.3
+
+source:
+  fn: BH_1.51.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/BH_1.51.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: BSL-1.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

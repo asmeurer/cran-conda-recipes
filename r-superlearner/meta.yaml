@@ -1,0 +1,23 @@
+package:
+  name: r-superlearner
+  version: 2.0.10
+
+source:
+  fn: SuperLearner_2.0-10.tar.gz
+  url: http://cran.r-project.org/src/contrib/SuperLearner_2.0-10.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-nnls
+  run:
+    - r
+    - r-nnls
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-qcagui
+  version: 1.9.6
+
+source:
+  fn: QCAGUI_1.9-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/QCAGUI_1.9-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-abind
+    - r-qca
+  run:
+    - r
+    - r-abind
+    - r-qca
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

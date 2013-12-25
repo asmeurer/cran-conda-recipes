@@ -1,0 +1,25 @@
+package:
+  name: r-fossil
+  version: 0.3.7
+
+source:
+  fn: fossil_0.3.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/fossil_0.3.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sp
+    - r-maps
+    - r-shapefiles
+  run:
+    - r-sp
+    - r-maps
+    - r-shapefiles
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

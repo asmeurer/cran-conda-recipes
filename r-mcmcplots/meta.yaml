@@ -1,0 +1,27 @@
+package:
+  name: r-mcmcplots
+  version: 0.4.1
+
+source:
+  fn: mcmcplots_0.4.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/mcmcplots_0.4.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-sfsmisc
+    - r-colorspace
+    - r-denstrip
+  run:
+    - r-coda
+    - r-sfsmisc
+    - r-colorspace
+    - r-denstrip
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

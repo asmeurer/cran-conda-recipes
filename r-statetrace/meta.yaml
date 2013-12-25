@@ -1,0 +1,23 @@
+package:
+  name: r-statetrace
+  version: 1.0.4
+
+source:
+  fn: StateTrace_1.0-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/StateTrace_1.0-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-fgui
+  run:
+    - r-coda
+    - r-fgui
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

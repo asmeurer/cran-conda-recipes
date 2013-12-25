@@ -1,0 +1,23 @@
+package:
+  name: r-skmeans
+  version: 0.2.4
+
+source:
+  fn: skmeans_0.2-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/skmeans_0.2-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-slam
+    - r-clue
+  run:
+    - r-slam
+    - r-clue
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

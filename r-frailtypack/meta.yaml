@@ -1,0 +1,23 @@
+package:
+  name: r-frailtypack
+  version: 2.5
+
+source:
+  fn: frailtypack_2.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/frailtypack_2.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-survc1
+  run:
+    - r
+    - r-survc1
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

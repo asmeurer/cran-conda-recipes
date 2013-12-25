@@ -1,0 +1,27 @@
+package:
+  name: r-untb
+  version: 1.7.2
+
+source:
+  fn: untb_1.7-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/untb_1.7-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-brobdingnag
+    - r-partitions
+    - r-polynom
+  run:
+    - r
+    - r-brobdingnag
+    - r-partitions
+    - r-polynom
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

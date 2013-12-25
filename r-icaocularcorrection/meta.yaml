@@ -1,0 +1,21 @@
+package:
+  name: r-icaocularcorrection
+  version: 3.0.0
+
+source:
+  fn: icaOcularCorrection_3.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/icaOcularCorrection_3.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fastica
+  run:
+    - r-fastica
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

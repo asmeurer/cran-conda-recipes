@@ -1,0 +1,19 @@
+package:
+  name: r-reemtree
+  version: 0.90.3
+
+source:
+  fn: REEMtree_0.90.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/REEMtree_0.90.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

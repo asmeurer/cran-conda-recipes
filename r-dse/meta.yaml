@@ -1,0 +1,27 @@
+package:
+  name: r-dse
+  version: 2013.3.2
+
+source:
+  fn: dse_2013.3-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/dse_2013.3-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tframe
+    - r-setrng
+    - r-tfplot
+  run:
+    - r
+    - r-tframe
+    - r-setrng
+    - r-tfplot
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

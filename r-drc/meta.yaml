@@ -1,0 +1,29 @@
+package:
+  name: r-drc
+  version: 2.3.96
+
+source:
+  fn: drc_2.3-96.tar.gz
+  url: http://cran.r-project.org/src/contrib/drc_2.3-96.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+    - r-gtools
+    - r-magic
+    - r-plotrix
+  run:
+    - r
+    - r-car
+    - r-gtools
+    - r-magic
+    - r-plotrix
+
+about:
+  license: GPL-2 | file LICENCE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

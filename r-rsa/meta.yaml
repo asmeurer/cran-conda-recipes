@@ -1,0 +1,31 @@
+package:
+  name: r-rsa
+  version: 0.8
+
+source:
+  fn: RSA_0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/RSA_0.8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lavaan
+    - r-ggplot2
+    - r-gridextra
+    - r-plyr
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-lavaan
+    - r-ggplot2
+    - r-gridextra
+    - r-plyr
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

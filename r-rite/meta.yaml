@@ -1,0 +1,21 @@
+package:
+  name: r-rite
+  version: 0.2
+
+source:
+  fn: rite_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/rite_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tcltk2
+  run:
+    - r-tcltk2
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

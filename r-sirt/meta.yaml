@@ -1,0 +1,43 @@
+package:
+  name: r-sirt
+  version: 0.40.9
+
+source:
+  fn: sirt_0.40-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/sirt_0.40-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-coda
+    - r-mvtnorm
+    - r-gregmisc
+    - r-sfsmisc
+    - r-tam
+    - r-cdm
+    - r-combinat
+    - r-icinfer
+    - r-sm
+    - r-psych
+    - r-pbivnorm
+  run:
+    - r
+    - r-coda
+    - r-mvtnorm
+    - r-gregmisc
+    - r-sfsmisc
+    - r-tam
+    - r-cdm
+    - r-combinat
+    - r-icinfer
+    - r-sm
+    - r-psych
+    - r-pbivnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

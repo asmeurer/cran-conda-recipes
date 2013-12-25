@@ -1,0 +1,29 @@
+package:
+  name: r-msbvar
+  version: 0.7.2
+
+source:
+  fn: MSBVAR_0.7-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/MSBVAR_0.7-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xtable
+    - r-coda
+    - r-bit
+    - r-mvtnorm
+  run:
+    - r
+    - r-xtable
+    - r-coda
+    - r-bit
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

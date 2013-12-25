@@ -1,0 +1,27 @@
+package:
+  name: r-recommenderlab
+  version: 0.1.3
+
+source:
+  fn: recommenderlab_0.1-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/recommenderlab_0.1-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-registry
+    - r-arules
+    - r-proxy
+  run:
+    - r
+    - r-registry
+    - r-arules
+    - r-proxy
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

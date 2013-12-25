@@ -1,0 +1,37 @@
+package:
+  name: r-wethepeople
+  version: 0.6.1
+
+source:
+  fn: wethepeople_0.6.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/wethepeople_0.6.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjson
+    - r-ggplot2
+    - r-plyr
+    - r-reshape
+    - r-tm
+    - r-wordcloud
+    - r-rcolorbrewer
+    - r-rcurl
+  run:
+    - r
+    - r-rjson
+    - r-ggplot2
+    - r-plyr
+    - r-reshape
+    - r-tm
+    - r-wordcloud
+    - r-rcolorbrewer
+    - r-rcurl
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

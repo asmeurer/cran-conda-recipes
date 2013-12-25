@@ -1,0 +1,27 @@
+package:
+  name: r-irefr
+  version: 1.13
+
+source:
+  fn: iRefR_1.13.tar.gz
+  url: http://cran.r-project.org/src/contrib/iRefR_1.13.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-graph
+    - r-rbgl
+  run:
+    - r
+    - r-igraph
+    - r-graph
+    - r-rbgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

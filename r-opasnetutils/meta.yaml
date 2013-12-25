@@ -1,0 +1,33 @@
+package:
+  name: r-opasnetutils
+  version: 1.0.0
+
+source:
+  fn: OpasnetUtils_1.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/OpasnetUtils_1.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjson
+    - r-rcurl
+    - r-reshape2
+    - r-triangle
+    - r-httprequest
+    - r-digest
+    - r-xtable
+  run:
+    - r-rjson
+    - r-rcurl
+    - r-reshape2
+    - r-triangle
+    - r-httprequest
+    - r-digest
+    - r-xtable
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-tkrgl
+  version: 0.7
+
+source:
+  fn: tkrgl_0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/tkrgl_0.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgl
+  run:
+    - r
+    - r-rgl
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

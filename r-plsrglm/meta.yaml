@@ -1,0 +1,25 @@
+package:
+  name: r-plsrglm
+  version: 0.8.2
+
+source:
+  fn: plsRglm_0.8.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/plsRglm_0.8.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvtnorm
+    - r-bipartite
+  run:
+    - r
+    - r-mvtnorm
+    - r-bipartite
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-maclinical
+  version: 1.0.5
+
+source:
+  fn: MAclinical_1.0-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/MAclinical_1.0-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-party
+    - r-plsgenomics
+    - r-st
+    - r-e1071
+  run:
+    - r
+    - r-party
+    - r-plsgenomics
+    - r-st
+    - r-e1071
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-netmeta
+  version: 0.3.1
+
+source:
+  fn: netmeta_0.3-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/netmeta_0.3-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-meta
+  run:
+    - r
+    - r-meta
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

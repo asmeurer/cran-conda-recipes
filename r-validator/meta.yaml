@@ -1,0 +1,27 @@
+package:
+  name: r-validator
+  version: 1.0
+
+source:
+  fn: validator_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/validator_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-clv
+    - r-clvalid
+    - r-flexclust
+    - r-mlbench
+  run:
+    - r-clv
+    - r-clvalid
+    - r-flexclust
+    - r-mlbench
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

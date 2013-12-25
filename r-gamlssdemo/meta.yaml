@@ -1,0 +1,29 @@
+package:
+  name: r-gamlssdemo
+  version: 4.1.0
+
+source:
+  fn: gamlss.demo_4.1-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/gamlss.demo_4.1-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rpanel
+    - r-gamlss
+    - r-gamlsstr
+    - r-gamlssutil
+  run:
+    - r
+    - r-rpanel
+    - r-gamlss
+    - r-gamlsstr
+    - r-gamlssutil
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

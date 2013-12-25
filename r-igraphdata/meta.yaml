@@ -1,0 +1,21 @@
+package:
+  name: r-igraphdata
+  version: 0.1.1
+
+source:
+  fn: igraphdata_0.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/igraphdata_0.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: CC BY-SA 2.0 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

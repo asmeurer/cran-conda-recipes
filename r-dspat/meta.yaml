@@ -1,0 +1,27 @@
+package:
+  name: r-dspat
+  version: 0.1.5
+
+source:
+  fn: DSpat_0.1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/DSpat_0.1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-spatstat
+    - r-randomfields
+    - r-rgeos
+  run:
+    - r
+    - r-spatstat
+    - r-randomfields
+    - r-rgeos
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-rseed
+  version: 0.1.31
+
+source:
+  fn: RSeed_0.1.31.tar.gz
+  url: http://cran.r-project.org/src/contrib/RSeed_0.1.31.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sybil
+    - r-rbgl
+    - r-graph
+  run:
+    - r
+    - r-sybil
+    - r-rbgl
+    - r-graph
+
+about:
+  license: GNU General Public License
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

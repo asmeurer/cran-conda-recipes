@@ -1,0 +1,25 @@
+package:
+  name: r-upclass
+  version: 1.0
+
+source:
+  fn: upclass_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/upclass_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mclust
+    - r-classifly
+    - r-gclus
+  run:
+    - r-mclust
+    - r-classifly
+    - r-gclus
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

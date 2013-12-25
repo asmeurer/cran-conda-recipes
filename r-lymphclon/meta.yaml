@@ -1,0 +1,27 @@
+package:
+  name: r-lymphclon
+  version: 1.2.3
+
+source:
+  fn: lymphclon_1.2.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/lymphclon_1.2.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-vgam
+    - r-expm
+    - r-corpcor
+  run:
+    - r
+    - r-vgam
+    - r-expm
+    - r-corpcor
+
+about:
+  license: LGPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

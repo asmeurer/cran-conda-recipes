@@ -1,0 +1,25 @@
+package:
+  name: r-cvtools
+  version: 0.3.2
+
+source:
+  fn: cvTools_0.3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/cvTools_0.3.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-robustbase
+    - r-robustbase
+  run:
+    - r
+    - r-robustbase
+    - r-robustbase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

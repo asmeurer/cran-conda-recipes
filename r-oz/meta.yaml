@@ -1,0 +1,19 @@
+package:
+  name: r-oz
+  version: 1.0.19
+
+source:
+  fn: oz_1.0-19.tar.gz
+  url: http://cran.r-project.org/src/contrib/oz_1.0-19.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

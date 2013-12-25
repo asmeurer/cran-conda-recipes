@@ -1,0 +1,21 @@
+package:
+  name: r-ncbit
+  version: 2013.03.29
+
+source:
+  fn: ncbit_2013.03.29.tar.gz
+  url: http://cran.r-project.org/src/contrib/ncbit_2013.03.29.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-hysteresis
+  version: 2.0
+
+source:
+  fn: hysteresis_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/hysteresis_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-msm
+    - r-nlrwr
+  run:
+    - r-car
+    - r-msm
+    - r-nlrwr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

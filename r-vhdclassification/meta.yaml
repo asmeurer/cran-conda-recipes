@@ -1,0 +1,21 @@
+package:
+  name: r-vhdclassification
+  version: 0.3
+
+source:
+  fn: VHDClassification_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/VHDClassification_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-e1071
+  run:
+    - r-e1071
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

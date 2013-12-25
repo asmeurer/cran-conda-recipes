@@ -1,0 +1,25 @@
+package:
+  name: r-diceoptim
+  version: 1.4
+
+source:
+  fn: DiceOptim_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/DiceOptim_1.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-dicekriging
+    - r-rgenoud
+    - r-lhs
+  run:
+    - r-dicekriging
+    - r-rgenoud
+    - r-lhs
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-rseis
+  version: 3.2.5
+
+source:
+  fn: RSEIS_3.2-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/RSEIS_3.2-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rpmg
+    - r-rwave
+  run:
+    - r
+    - r-rpmg
+    - r-rwave
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

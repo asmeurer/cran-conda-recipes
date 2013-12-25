@@ -1,0 +1,25 @@
+package:
+  name: r-metacor
+  version: 1.0.2
+
+source:
+  fn: metacor_1.0-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/metacor_1.0-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rmeta
+    - r-gsl
+  run:
+    - r
+    - r-rmeta
+    - r-gsl
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

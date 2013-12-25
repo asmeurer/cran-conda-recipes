@@ -1,0 +1,31 @@
+package:
+  name: r-robsdat
+  version: 13.09.1
+
+source:
+  fn: RObsDat_13.09-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/RObsDat_13.09-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xts
+    - r-zoo
+    - r-dbi
+    - r-vwr
+    - r-e1071
+  run:
+    - r
+    - r-xts
+    - r-zoo
+    - r-dbi
+    - r-vwr
+    - r-e1071
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

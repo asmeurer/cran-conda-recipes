@@ -1,0 +1,27 @@
+package:
+  name: r-fd
+  version: 1.0.11
+
+source:
+  fn: FD_1.0-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/FD_1.0-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ade4
+    - r-ape
+    - r-geometry
+    - r-vegan
+  run:
+    - r-ade4
+    - r-ape
+    - r-geometry
+    - r-vegan
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

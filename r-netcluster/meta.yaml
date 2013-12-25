@@ -1,0 +1,21 @@
+package:
+  name: r-netcluster
+  version: 0.2
+
+source:
+  fn: NetCluster_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/NetCluster_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sna
+  run:
+    - r-sna
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

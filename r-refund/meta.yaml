@@ -1,0 +1,37 @@
+package:
+  name: r-refund
+  version: 0.1.9
+
+source:
+  fn: refund_0.1-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/refund_0.1-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fda
+    - r-glmnet
+    - r-magic
+    - r-wavethresh
+    - r-gamm4
+    - r-matrixstats
+    - r-lme4
+    - r-rlrsim
+  run:
+    - r
+    - r-fda
+    - r-glmnet
+    - r-magic
+    - r-wavethresh
+    - r-gamm4
+    - r-matrixstats
+    - r-lme4
+    - r-rlrsim
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

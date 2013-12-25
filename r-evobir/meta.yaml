@@ -1,0 +1,29 @@
+package:
+  name: r-evobir
+  version: 1.0
+
+source:
+  fn: evobiR_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/evobiR_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-seqinr
+    - r-ape
+    - r-stringr
+    - r-geiger
+    - r-taxize
+  run:
+    - r-seqinr
+    - r-ape
+    - r-stringr
+    - r-geiger
+    - r-taxize
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

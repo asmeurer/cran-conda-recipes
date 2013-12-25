@@ -1,0 +1,35 @@
+package:
+  name: r-rquake
+  version: 2.1.1
+
+source:
+  fn: Rquake_2.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rquake_2.1-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rpmg
+    - r-rseis
+    - r-geomap
+    - r-mba
+    - r-rfoc
+    - r-minpacklm
+    - r-rgl
+  run:
+    - r
+    - r-rpmg
+    - r-rseis
+    - r-geomap
+    - r-mba
+    - r-rfoc
+    - r-minpacklm
+    - r-rgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

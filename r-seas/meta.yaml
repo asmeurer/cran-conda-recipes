@@ -1,0 +1,21 @@
+package:
+  name: r-seas
+  version: 0.4.2
+
+source:
+  fn: seas_0.4-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/seas_0.4-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

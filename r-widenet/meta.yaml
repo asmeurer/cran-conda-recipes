@@ -1,0 +1,23 @@
+package:
+  name: r-widenet
+  version: 0.1.2
+
+source:
+  fn: widenet_0.1-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/widenet_0.1-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-glmnet
+    - r-relaxnet
+  run:
+    - r-glmnet
+    - r-relaxnet
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

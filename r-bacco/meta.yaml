@@ -1,0 +1,25 @@
+package:
+  name: r-bacco
+  version: 2.0.9
+
+source:
+  fn: BACCO_2.0-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/BACCO_2.0-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-emulator
+    - r-calibrator
+    - r-approximator
+  run:
+    - r-emulator
+    - r-calibrator
+    - r-approximator
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

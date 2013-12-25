@@ -1,0 +1,27 @@
+package:
+  name: r-fbati
+  version: 0.7.3
+
+source:
+  fn: fbati_0.7-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/fbati_0.7-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-pbatr
+    - r-fgui
+    - r-rootsolve
+    - r-fgui
+  run:
+    - r-pbatr
+    - r-fgui
+    - r-rootsolve
+    - r-fgui
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

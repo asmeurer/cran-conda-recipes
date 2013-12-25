@@ -1,0 +1,21 @@
+package:
+  name: r-spamm
+  version: 1.0
+
+source:
+  fn: spaMM_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/spaMM_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lpsolveapi
+  run:
+    - r-lpsolveapi
+
+about:
+  license: CeCILL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

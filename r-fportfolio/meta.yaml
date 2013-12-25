@@ -1,0 +1,35 @@
+package:
+  name: r-fportfolio
+  version: 2130.80
+
+source:
+  fn: fPortfolio_2130.80.tar.gz
+  url: http://cran.r-project.org/src/contrib/fPortfolio_2130.80.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-robustbase
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-fassets
+    - r-quadprog
+    - r-rglpk
+  run:
+    - r
+    - r-robustbase
+    - r-timedate
+    - r-timeseries
+    - r-fbasics
+    - r-fassets
+    - r-quadprog
+    - r-rglpk
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-migclim
+  version: 1.6
+
+source:
+  fn: MigClim_1.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/MigClim_1.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sdmtools
+    - r-raster
+  run:
+    - r-sdmtools
+    - r-raster
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-dsm
+  version: 2.1.3
+
+source:
+  fn: dsm_2.1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/dsm_2.1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-mrds
+  run:
+    - r
+    - r-ggplot2
+    - r-mrds
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

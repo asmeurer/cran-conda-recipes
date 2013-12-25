@@ -1,0 +1,33 @@
+package:
+  name: r-mpoly
+  version: 0.0.3
+
+source:
+  fn: mpoly_0.0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/mpoly_0.0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-stringr
+    - r-rsympy
+    - r-rjython
+    - r-rjava
+    - r-rjson
+    - r-partitions
+    - r-plyr
+  run:
+    - r-stringr
+    - r-rsympy
+    - r-rjython
+    - r-rjava
+    - r-rjson
+    - r-partitions
+    - r-plyr
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

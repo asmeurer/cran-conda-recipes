@@ -1,0 +1,27 @@
+package:
+  name: r-remm
+  version: 1.0.7
+
+source:
+  fn: rEMM_1.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/rEMM_1.0-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-proxy
+    - r-clustergeneration
+    - r-igraph
+  run:
+    - r
+    - r-proxy
+    - r-clustergeneration
+    - r-igraph
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

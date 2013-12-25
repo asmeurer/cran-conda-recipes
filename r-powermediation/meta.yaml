@@ -1,0 +1,21 @@
+package:
+  name: r-powermediation
+  version: 0.1.7
+
+source:
+  fn: powerMediation_0.1.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/powerMediation_0.1.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

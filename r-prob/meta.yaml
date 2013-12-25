@@ -1,0 +1,27 @@
+package:
+  name: r-prob
+  version: 0.9.5
+
+source:
+  fn: prob_0.9-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/prob_0.9-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-combinat
+    - r-fasianoptions
+    - r-hypergeo
+    - r-vgam
+  run:
+    - r-combinat
+    - r-fasianoptions
+    - r-hypergeo
+    - r-vgam
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

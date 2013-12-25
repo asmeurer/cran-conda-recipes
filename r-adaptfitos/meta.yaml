@@ -1,0 +1,21 @@
+package:
+  name: r-adaptfitos
+  version: 0.45
+
+source:
+  fn: AdaptFitOS_0.45.tar.gz
+  url: http://cran.r-project.org/src/contrib/AdaptFitOS_0.45.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-semipar
+  run:
+    - r-semipar
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

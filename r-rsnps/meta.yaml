@@ -1,0 +1,31 @@
+package:
+  name: r-rsnps
+  version: 0.0.5
+
+source:
+  fn: rsnps_0.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/rsnps_0.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjsonio
+    - r-plyr
+    - r-stringr
+    - r-httr
+    - r-rcurl
+    - r-xml
+  run:
+    - r-rjsonio
+    - r-plyr
+    - r-stringr
+    - r-httr
+    - r-rcurl
+    - r-xml
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

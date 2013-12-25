@@ -1,0 +1,27 @@
+package:
+  name: r-mleur
+  version: 1.0.6
+
+source:
+  fn: mleur_1.0-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/mleur_1.0-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-urca
+    - r-stabledist
+    - r-fgarch
+  run:
+    - r
+    - r-urca
+    - r-stabledist
+    - r-fgarch
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

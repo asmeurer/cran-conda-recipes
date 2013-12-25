@@ -1,0 +1,31 @@
+package:
+  name: r-rvertnet
+  version: 0.0.5
+
+source:
+  fn: rvertnet_0.0-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/rvertnet_0.0-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcurl
+    - r-plyr
+    - r-rjsonio
+    - r-httr
+    - r-ggplot2
+    - r-maps
+  run:
+    - r-rcurl
+    - r-plyr
+    - r-rjsonio
+    - r-httr
+    - r-ggplot2
+    - r-maps
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

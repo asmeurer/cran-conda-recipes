@@ -1,0 +1,23 @@
+package:
+  name: r-sparsehessianfd
+  version: 0.1.1
+
+source:
+  fn: sparseHessianFD_0.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/sparseHessianFD_0.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcppeigen
+  run:
+    - r-rcpp
+    - r-rcppeigen
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

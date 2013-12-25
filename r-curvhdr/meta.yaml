@@ -1,0 +1,35 @@
+package:
+  name: r-curvhdr
+  version: 1.0.3
+
+source:
+  fn: curvHDR_1.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/curvHDR_1.0-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-feature
+    - r-flowcore
+    - r-geometry
+    - r-hdrcde
+    - r-ks
+    - r-misc3d
+    - r-ptinpoly
+    - r-rgl
+  run:
+    - r-feature
+    - r-flowcore
+    - r-geometry
+    - r-hdrcde
+    - r-ks
+    - r-misc3d
+    - r-ptinpoly
+    - r-rgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

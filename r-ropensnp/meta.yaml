@@ -1,0 +1,27 @@
+package:
+  name: r-ropensnp
+  version: 0.0.3
+
+source:
+  fn: ropensnp_0.0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/ropensnp_0.0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rjsonio
+    - r-plyr
+    - r-stringr
+    - r-httr
+  run:
+    - r-rjsonio
+    - r-plyr
+    - r-stringr
+    - r-httr
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

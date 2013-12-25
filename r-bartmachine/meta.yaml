@@ -1,0 +1,29 @@
+package:
+  name: r-bartmachine
+  version: 1.0.1
+
+source:
+  fn: bartMachine_1.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/bartMachine_1.0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-car
+    - r-randomforest
+    - r-missforest
+  run:
+    - r
+    - r-rjava
+    - r-car
+    - r-randomforest
+    - r-missforest
+
+about:
+  license: MIT + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

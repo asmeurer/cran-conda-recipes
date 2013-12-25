@@ -1,0 +1,29 @@
+package:
+  name: r-hypervolume
+  version: 0.9.9.4
+
+source:
+  fn: hypervolume_0.9.9.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/hypervolume_0.9.9.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rgl
+    - r-raster
+    - r-maps
+    - r
+  run:
+    - r-rcpp
+    - r-rgl
+    - r-raster
+    - r-maps
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

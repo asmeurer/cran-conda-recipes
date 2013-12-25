@@ -1,0 +1,27 @@
+package:
+  name: r-yhatr
+  version: 0.6
+
+source:
+  fn: yhatr_0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/yhatr_0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-httr
+    - r-rjson
+    - r-plyr
+  run:
+    - r
+    - r-httr
+    - r-rjson
+    - r-plyr
+
+about:
+  license: FreeBSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-pathdiagram
+  version: 0.1.9
+
+source:
+  fn: pathdiagram_0.1.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/pathdiagram_0.1.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-shape
+  run:
+    - r
+    - r-shape
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

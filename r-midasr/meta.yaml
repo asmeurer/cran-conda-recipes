@@ -1,0 +1,25 @@
+package:
+  name: r-midasr
+  version: 0.1
+
+source:
+  fn: midasr_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/midasr_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sandwich
+    - r-numderiv
+  run:
+    - r
+    - r-sandwich
+    - r-numderiv
+
+about:
+  license: MIT + file LICENCE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

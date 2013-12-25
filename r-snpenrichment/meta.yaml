@@ -1,0 +1,23 @@
+package:
+  name: r-snpenrichment
+  version: 1.2.3
+
+source:
+  fn: snpEnrichment_1.2-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/snpEnrichment_1.2-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-snpstats
+  run:
+    - r
+    - r-snpstats
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

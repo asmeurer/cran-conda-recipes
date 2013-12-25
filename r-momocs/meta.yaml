@@ -1,0 +1,33 @@
+package:
+  name: r-momocs
+  version: 0.2.04
+
+source:
+  fn: Momocs_0.2-04.tar.gz
+  url: http://cran.r-project.org/src/contrib/Momocs_0.2-04.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sp
+    - r-jpeg
+    - r-ade4
+    - r-spdep
+    - r-shapes
+    - r-ape
+    - r
+  run:
+    - r-sp
+    - r-jpeg
+    - r-ade4
+    - r-spdep
+    - r-shapes
+    - r-ape
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

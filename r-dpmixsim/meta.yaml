@@ -1,0 +1,23 @@
+package:
+  name: r-dpmixsim
+  version: 0.0.8
+
+source:
+  fn: dpmixsim_0.0-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/dpmixsim_0.0-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-oronifti
+  run:
+    - r
+    - r-oronifti
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

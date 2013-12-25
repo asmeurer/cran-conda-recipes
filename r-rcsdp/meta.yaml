@@ -1,0 +1,19 @@
+package:
+  name: r-rcsdp
+  version: 0.1.52
+
+source:
+  fn: Rcsdp_0.1.52.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rcsdp_0.1.52.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: CPL-1.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

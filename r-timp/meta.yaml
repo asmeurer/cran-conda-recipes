@@ -1,0 +1,37 @@
+package:
+  name: r-timp
+  version: 1.10.3
+
+source:
+  fn: TIMP_1.10.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/TIMP_1.10.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fields
+    - r-vcd
+    - r-gplots
+    - r-colorspace
+    - r-gclus
+    - r-nnls
+    - r-desolve
+    - r-minpacklm
+  run:
+    - r
+    - r-fields
+    - r-vcd
+    - r-gplots
+    - r-colorspace
+    - r-gclus
+    - r-nnls
+    - r-desolve
+    - r-minpacklm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

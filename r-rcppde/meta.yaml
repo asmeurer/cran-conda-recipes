@@ -1,0 +1,23 @@
+package:
+  name: r-rcppde
+  version: 0.1.2
+
+source:
+  fn: RcppDE_0.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcppDE_0.1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

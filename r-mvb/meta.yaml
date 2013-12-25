@@ -1,0 +1,23 @@
+package:
+  name: r-mvb
+  version: 1.1
+
+source:
+  fn: MVB_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/MVB_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-rcpparmadillo
+  run:
+    - r-rcpp
+    - r-rcpparmadillo
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

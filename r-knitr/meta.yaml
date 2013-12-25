@@ -1,0 +1,33 @@
+package:
+  name: r-knitr
+  version: 1.5
+
+source:
+  fn: knitr_1.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/knitr_1.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-evaluate
+    - r-digest
+    - r-formatr
+    - r-highr
+    - r-markdown
+    - r-stringr
+  run:
+    - r
+    - r-evaluate
+    - r-digest
+    - r-formatr
+    - r-highr
+    - r-markdown
+    - r-stringr
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

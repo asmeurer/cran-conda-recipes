@@ -1,0 +1,21 @@
+package:
+  name: r-statmod
+  version: 1.4.18
+
+source:
+  fn: statmod_1.4.18.tar.gz
+  url: http://cran.r-project.org/src/contrib/statmod_1.4.18.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

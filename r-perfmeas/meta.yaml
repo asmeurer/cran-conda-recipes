@@ -1,0 +1,25 @@
+package:
+  name: r-perfmeas
+  version: 1.1
+
+source:
+  fn: PerfMeas_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/PerfMeas_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-limma
+    - r-graph
+    - r-rbgl
+  run:
+    - r-limma
+    - r-graph
+    - r-rbgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

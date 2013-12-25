@@ -1,0 +1,29 @@
+package:
+  name: r-gb2
+  version: 1.1
+
+source:
+  fn: GB2_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/GB2_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-cubature
+    - r-hypergeo
+    - r-laeken
+    - r-numderiv
+  run:
+    - r
+    - r-cubature
+    - r-hypergeo
+    - r-laeken
+    - r-numderiv
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

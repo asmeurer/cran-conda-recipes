@@ -1,0 +1,47 @@
+package:
+  name: r-bootfs
+  version: 1.4.2
+
+source:
+  fn: bootfs_1.4.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/bootfs_1.4.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-proc
+    - r-igraph
+    - r-rocr
+    - r-gbm
+    - r-colorramps
+    - r-gplots
+    - r-gtools
+    - r-pamr
+    - r-randomforest
+    - r-boruta
+    - r-caret
+    - r-tgp
+    - r-mlegp
+    - r-penalizedsvm
+  run:
+    - r-proc
+    - r-igraph
+    - r-rocr
+    - r-gbm
+    - r-colorramps
+    - r-gplots
+    - r-gtools
+    - r-pamr
+    - r-randomforest
+    - r-boruta
+    - r-caret
+    - r-tgp
+    - r-mlegp
+    - r-penalizedsvm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

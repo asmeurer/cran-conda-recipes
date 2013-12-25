@@ -1,0 +1,25 @@
+package:
+  name: r-hbstm
+  version: 1.0
+
+source:
+  fn: HBSTM_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/HBSTM_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-msm
+    - r-fbasics
+    - r-maps
+  run:
+    - r-msm
+    - r-fbasics
+    - r-maps
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

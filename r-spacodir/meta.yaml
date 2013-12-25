@@ -1,0 +1,25 @@
+package:
+  name: r-spacodir
+  version: 0.13.0115
+
+source:
+  fn: spacodiR_0.13.0115.tar.gz
+  url: http://cran.r-project.org/src/contrib/spacodiR_0.13.0115.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-picante
+    - r-colorspace
+    - r-rcpp
+  run:
+    - r-picante
+    - r-colorspace
+    - r-rcpp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

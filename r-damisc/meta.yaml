@@ -1,0 +1,31 @@
+package:
+  name: r-damisc
+  version: 1.2
+
+source:
+  fn: DAMisc_1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/DAMisc_1.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-car
+    - r-effects
+    - r-sm
+    - r-pscl
+    - r-gdata
+    - r-xtable
+  run:
+    - r-car
+    - r-effects
+    - r-sm
+    - r-pscl
+    - r-gdata
+    - r-xtable
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

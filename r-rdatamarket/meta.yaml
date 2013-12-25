@@ -1,0 +1,27 @@
+package:
+  name: r-rdatamarket
+  version: 0.6.4
+
+source:
+  fn: rdatamarket_0.6.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/rdatamarket_0.6.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-zoo
+    - r-rcurl
+    - r-rjsonio
+  run:
+    - r
+    - r-zoo
+    - r-rcurl
+    - r-rjsonio
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

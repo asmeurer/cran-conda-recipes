@@ -1,0 +1,23 @@
+package:
+  name: r-networksis
+  version: 2.1.2
+
+source:
+  fn: networksis_2.1-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/networksis_2.1-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-ergm
+    - r-network
+  run:
+    - r-ergm
+    - r-network
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

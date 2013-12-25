@@ -1,0 +1,21 @@
+package:
+  name: r-rngwell
+  version: 0.10.2
+
+source:
+  fn: rngWELL_0.10-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/rngWELL_0.10-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: BSD_2_clause + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-mplusautomation
+  version: 0.6.2
+
+source:
+  fn: MplusAutomation_0.6-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/MplusAutomation_0.6-2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-plyr
+    - r-gsubfn
+    - r-coda
+    - r-xtable
+  run:
+    - r-plyr
+    - r-gsubfn
+    - r-coda
+    - r-xtable
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

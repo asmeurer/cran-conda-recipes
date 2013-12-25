@@ -1,0 +1,25 @@
+package:
+  name: r-cbps
+  version: 0.7
+
+source:
+  fn: CBPS_0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/CBPS_0.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-matchit
+    - r-numderiv
+  run:
+    - r
+    - r-matchit
+    - r-numderiv
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

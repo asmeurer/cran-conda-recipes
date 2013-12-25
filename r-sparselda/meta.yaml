@@ -1,0 +1,27 @@
+package:
+  name: r-sparselda
+  version: 0.1.6
+
+source:
+  fn: sparseLDA_0.1-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/sparseLDA_0.1-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-lars
+    - r-elasticnet
+    - r-mda
+    - r
+  run:
+    - r-lars
+    - r-elasticnet
+    - r-mda
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

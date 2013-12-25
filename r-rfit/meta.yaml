@@ -1,0 +1,21 @@
+package:
+  name: r-rfit
+  version: 0.17
+
+source:
+  fn: Rfit_0.17.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rfit_0.17.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-quantreg
+  run:
+    - r-quantreg
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-jmbayes
+  version: 0.4.1
+
+source:
+  fn: JMbayes_0.4-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/JMbayes_0.4-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjags
+    - r-coda
+  run:
+    - r
+    - r-rjags
+    - r-coda
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

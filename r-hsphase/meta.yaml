@@ -1,0 +1,29 @@
+package:
+  name: r-hsphase
+  version: 1.2.4
+
+source:
+  fn: hsphase_1.2.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/hsphase_1.2.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gtools
+    - r-snowfall
+    - r-rcpp
+    - r-rcpparmadillo
+    - r
+  run:
+    - r-gtools
+    - r-snowfall
+    - r-rcpp
+    - r-rcpparmadillo
+    - r
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-pcovr
+  version: 2.1
+
+source:
+  fn: PCovR_2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/PCovR_2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gparotation
+    - r-threeway
+  run:
+    - r-gparotation
+    - r-threeway
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

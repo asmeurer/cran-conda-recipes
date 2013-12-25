@@ -1,0 +1,21 @@
+package:
+  name: r-akima
+  version: 0.5.11
+
+source:
+  fn: akima_0.5-11.tar.gz
+  url: http://cran.r-project.org/src/contrib/akima_0.5-11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: ACM | file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

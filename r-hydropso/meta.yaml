@@ -1,0 +1,27 @@
+package:
+  name: r-hydropso
+  version: 0.3.3
+
+source:
+  fn: hydroPSO_0.3-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/hydroPSO_0.3-3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hmisc
+    - r-sp
+    - r-zoo
+  run:
+    - r
+    - r-hmisc
+    - r-sp
+    - r-zoo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,31 @@
+package:
+  name: r-phangorn
+  version: 1.99.5
+
+source:
+  fn: phangorn_1.99-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/phangorn_1.99-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ape
+    - r-rgl
+    - r-quadprog
+    - r-igraph
+    - r-fastmatch
+  run:
+    - r
+    - r-ape
+    - r-rgl
+    - r-quadprog
+    - r-igraph
+    - r-fastmatch
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

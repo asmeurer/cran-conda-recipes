@@ -1,0 +1,31 @@
+package:
+  name: r-kriginv
+  version: 1.3
+
+source:
+  fn: KrigInv_1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/KrigInv_1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-dicekriging
+    - r-rgenoud
+    - r-lhs
+    - r-pbivnorm
+    - r-randtoolbox
+    - r-diceview
+  run:
+    - r-dicekriging
+    - r-rgenoud
+    - r-lhs
+    - r-pbivnorm
+    - r-randtoolbox
+    - r-diceview
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

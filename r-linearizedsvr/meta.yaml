@@ -1,0 +1,27 @@
+package:
+  name: r-linearizedsvr
+  version: 1.0
+
+source:
+  fn: LinearizedSVR_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/LinearizedSVR_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-kernlab
+    - r-liblinear
+    - r-expectreg
+    - r-testthat
+  run:
+    - r-kernlab
+    - r-liblinear
+    - r-expectreg
+    - r-testthat
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

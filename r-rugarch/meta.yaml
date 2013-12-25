@@ -1,0 +1,39 @@
+package:
+  name: r-rugarch
+  version: 1.2.9
+
+source:
+  fn: rugarch_1.2-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/rugarch_1.2-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsolnp
+    - r-nloptr
+    - r-ks
+    - r-numderiv
+    - r-spd
+    - r-xts
+    - r-zoo
+    - r-chron
+    - r-skewhyperbolic
+  run:
+    - r
+    - r-rsolnp
+    - r-nloptr
+    - r-ks
+    - r-numderiv
+    - r-spd
+    - r-xts
+    - r-zoo
+    - r-chron
+    - r-skewhyperbolic
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,25 @@
+package:
+  name: r-bayescount
+  version: 0.9.9.1
+
+source:
+  fn: bayescount_0.9.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/bayescount_0.9.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-runjags
+    - r-coda
+  run:
+    - r
+    - r-runjags
+    - r-coda
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

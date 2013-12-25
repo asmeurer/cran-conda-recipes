@@ -1,0 +1,19 @@
+package:
+  name: r-atmray
+  version: 1.31
+
+source:
+  fn: AtmRay_1.31.tar.gz
+  url: http://cran.r-project.org/src/contrib/AtmRay_1.31.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

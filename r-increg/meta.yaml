@@ -1,0 +1,23 @@
+package:
+  name: r-increg
+  version: 1.0
+
+source:
+  fn: incReg_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/incReg_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+  run:
+    - r
+    - r-car
+
+about:
+  license: LGPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

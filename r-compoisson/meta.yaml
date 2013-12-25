@@ -1,0 +1,19 @@
+package:
+  name: r-compoisson
+  version: 0.3
+
+source:
+  fn: compoisson_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/compoisson_0.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,27 @@
+package:
+  name: r-easystab
+  version: 1.0
+
+source:
+  fn: easystab_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/easystab_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fields
+    - r-plotrix
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-fields
+    - r-plotrix
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

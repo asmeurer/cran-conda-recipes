@@ -1,0 +1,25 @@
+package:
+  name: r-isotoper
+  version: 0.4.7
+
+source:
+  fn: IsotopeR_0.4.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/IsotopeR_0.4.7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-coda
+    - r-fgui
+    - r-runjags
+  run:
+    - r-coda
+    - r-fgui
+    - r-runjags
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

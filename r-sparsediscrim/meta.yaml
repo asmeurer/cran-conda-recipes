@@ -1,0 +1,25 @@
+package:
+  name: r-sparsediscrim
+  version: 0.1.0
+
+source:
+  fn: sparsediscrim_0.1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/sparsediscrim_0.1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-corpcor
+    - r-bdsmatrix
+    - r-mvtnorm
+  run:
+    - r-corpcor
+    - r-bdsmatrix
+    - r-mvtnorm
+
+about:
+  license: MIT
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

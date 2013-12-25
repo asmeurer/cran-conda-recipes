@@ -1,0 +1,37 @@
+package:
+  name: r-missingdatagui
+  version: 0.1.5
+
+source:
+  fn: MissingDataGUI_0.1-5.tar.gz
+  url: http://cran.r-project.org/src/contrib/MissingDataGUI_0.1-5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-gwidgetsrgtk2
+    - r-hmisc
+    - r-norm
+    - r-ggally
+    - r-ggplot2
+    - r-cairodevice
+    - r-plyr
+    - r-reshape2
+    - r-reshape
+  run:
+    - r-gwidgetsrgtk2
+    - r-hmisc
+    - r-norm
+    - r-ggally
+    - r-ggplot2
+    - r-cairodevice
+    - r-plyr
+    - r-reshape2
+    - r-reshape
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

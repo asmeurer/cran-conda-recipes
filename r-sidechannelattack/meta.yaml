@@ -1,0 +1,29 @@
+package:
+  name: r-sidechannelattack
+  version: 1.0.6
+
+source:
+  fn: sideChannelAttack_1.0-6.tar.gz
+  url: http://cran.r-project.org/src/contrib/sideChannelAttack_1.0-6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-corpcor
+    - r-mmap
+    - r-ade4
+    - r-infotheo
+  run:
+    - r
+    - r-corpcor
+    - r-mmap
+    - r-ade4
+    - r-infotheo
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,41 @@
+package:
+  name: r-rsgcc
+  version: 1.0.6
+
+source:
+  fn: rsgcc_1.0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/rsgcc_1.0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biwt
+    - r-cairodevice
+    - r-fbasics
+    - r-gplots
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+    - r-minerva
+    - r-parmigene
+    - r-stringr
+    - r-snowfall
+  run:
+    - r
+    - r-biwt
+    - r-cairodevice
+    - r-fbasics
+    - r-gplots
+    - r-gwidgets
+    - r-gwidgetsrgtk2
+    - r-minerva
+    - r-parmigene
+    - r-stringr
+    - r-snowfall
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

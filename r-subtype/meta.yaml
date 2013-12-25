@@ -1,0 +1,23 @@
+package:
+  name: r-subtype
+  version: 1.0
+
+source:
+  fn: subtype_1.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/subtype_1.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-penalized
+    - r-rocr
+  run:
+    - r-penalized
+    - r-rocr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

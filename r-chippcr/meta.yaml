@@ -1,0 +1,27 @@
+package:
+  name: r-chippcr
+  version: 0.0.5
+
+source:
+  fn: chipPCR_0.0.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/chipPCR_0.0.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-outliers
+    - r-robustbase
+    - r-signal
+  run:
+    - r
+    - r-outliers
+    - r-robustbase
+    - r-signal
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-pseudo
+  version: 1.1
+
+source:
+  fn: pseudo_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/pseudo_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-kmsurv
+    - r-geepack
+  run:
+    - r-kmsurv
+    - r-geepack
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

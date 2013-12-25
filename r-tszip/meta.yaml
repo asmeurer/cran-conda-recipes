@@ -1,0 +1,31 @@
+package:
+  name: r-tszip
+  version: 2013.9.1
+
+source:
+  fn: TSzip_2013.9-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/TSzip_2013.9-1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-gdata
+  run:
+    - r
+    - r-tsdbi
+    - r-dbi
+    - r-tframe
+    - r-tframeplus
+    - r-gdata
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

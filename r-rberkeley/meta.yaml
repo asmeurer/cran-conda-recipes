@@ -1,0 +1,19 @@
+package:
+  name: r-rberkeley
+  version: 0.7.4
+
+source:
+  fn: RBerkeley_0.7-4.tar.gz
+  url: http://cran.r-project.org/src/contrib/RBerkeley_0.7-4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+  run:
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

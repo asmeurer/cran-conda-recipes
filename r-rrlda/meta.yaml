@@ -1,0 +1,27 @@
+package:
+  name: r-rrlda
+  version: 1.1
+
+source:
+  fn: rrlda_1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/rrlda_1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-pcapp
+    - r-mvoutlier
+    - r-glasso
+    - r-matrixcalc
+  run:
+    - r-pcapp
+    - r-mvoutlier
+    - r-glasso
+    - r-matrixcalc
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

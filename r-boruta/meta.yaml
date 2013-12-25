@@ -1,0 +1,25 @@
+package:
+  name: r-boruta
+  version: 3.0.0
+
+source:
+  fn: Boruta_3.0.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/Boruta_3.0.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-randomforest
+    - r-rferns
+  run:
+    - r
+    - r-randomforest
+    - r-rferns
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

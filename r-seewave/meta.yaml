@@ -1,0 +1,23 @@
+package:
+  name: r-seewave
+  version: 1.7.2
+
+source:
+  fn: seewave_1.7.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/seewave_1.7.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fftw
+    - r-tuner
+  run:
+    - r-fftw
+    - r-tuner
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

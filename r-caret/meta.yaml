@@ -1,0 +1,27 @@
+package:
+  name: r-caret
+  version: 5.17.7
+
+source:
+  fn: caret_5.17-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/caret_5.17-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-foreach
+    - r-plyr
+    - r-reshape2
+  run:
+    - r
+    - r-foreach
+    - r-plyr
+    - r-reshape2
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-rysgran
+  version: 2.0
+
+source:
+  fn: rysgran_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/rysgran_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-soiltexture
+  run:
+    - r
+    - r-soiltexture
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

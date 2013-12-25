@@ -1,0 +1,23 @@
+package:
+  name: r-pbatr
+  version: 2.2.9
+
+source:
+  fn: pbatR_2.2-9.tar.gz
+  url: http://cran.r-project.org/src/contrib/pbatR_2.2-9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rootsolve
+  run:
+    - r
+    - r-rootsolve
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

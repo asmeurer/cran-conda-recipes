@@ -1,0 +1,21 @@
+package:
+  name: r-vioplot
+  version: 0.2
+
+source:
+  fn: vioplot_0.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/vioplot_0.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-sm
+  run:
+    - r-sm
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

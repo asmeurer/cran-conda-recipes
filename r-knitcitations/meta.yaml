@@ -1,0 +1,33 @@
+package:
+  name: r-knitcitations
+  version: 0.4.7
+
+source:
+  fn: knitcitations_0.4-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/knitcitations_0.4-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-knitr
+    - r-bibtex
+    - r-xtable
+    - r-rcurl
+    - r-xml
+    - r-httr
+  run:
+    - r
+    - r-knitr
+    - r-bibtex
+    - r-xtable
+    - r-rcurl
+    - r-xml
+    - r-httr
+
+about:
+  license: CC0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

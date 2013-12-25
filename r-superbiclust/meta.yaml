@@ -1,0 +1,23 @@
+package:
+  name: r-superbiclust
+  version: 0.1
+
+source:
+  fn: superbiclust_0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/superbiclust_0.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-biclust
+    - r-fabia
+  run:
+    - r-biclust
+    - r-fabia
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

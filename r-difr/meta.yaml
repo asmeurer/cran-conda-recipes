@@ -1,0 +1,25 @@
+package:
+  name: r-difr
+  version: 4.5
+
+source:
+  fn: difR_4.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/difR_4.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lme4
+    - r-ltm
+  run:
+    - r
+    - r-lme4
+    - r-ltm
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

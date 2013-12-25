@@ -1,0 +1,31 @@
+package:
+  name: r-ggsubplot
+  version: 0.3.2
+
+source:
+  fn: ggsubplot_0.3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/ggsubplot_0.3.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-plyr
+    - r-proto
+    - r-scales
+    - r-stringr
+  run:
+    - r
+    - r-ggplot2
+    - r-plyr
+    - r-proto
+    - r-scales
+    - r-stringr
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

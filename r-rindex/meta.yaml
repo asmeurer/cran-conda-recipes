@@ -1,0 +1,23 @@
+package:
+  name: r-rindex
+  version: 0.12
+
+source:
+  fn: rindex_0.12.tar.gz
+  url: http://cran.r-project.org/src/contrib/rindex_0.12.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-regtest
+  run:
+    - r
+    - r-regtest
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

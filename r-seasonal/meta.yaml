@@ -1,0 +1,21 @@
+package:
+  name: r-seasonal
+  version: 0.20.2
+
+source:
+  fn: seasonal_0.20.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/seasonal_0.20.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-stringr
+  run:
+    - r-stringr
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

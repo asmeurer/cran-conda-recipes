@@ -1,0 +1,27 @@
+package:
+  name: r-reol
+  version: 1.53
+
+source:
+  fn: Reol_1.53.tar.gz
+  url: http://cran.r-project.org/src/contrib/Reol_1.53.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-ape
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-ape
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

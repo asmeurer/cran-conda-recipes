@@ -1,0 +1,25 @@
+package:
+  name: r-nlts
+  version: 0.2.0
+
+source:
+  fn: nlts_0.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/nlts_0.2-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-locfit
+    - r-acepack
+  run:
+    - r
+    - r-locfit
+    - r-acepack
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

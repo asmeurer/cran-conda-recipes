@@ -1,0 +1,27 @@
+package:
+  name: r-rrsp
+  version: 0.9.28
+
+source:
+  fn: R.rsp_0.9.28.tar.gz
+  url: http://cran.r-project.org/src/contrib/R.rsp_0.9.28.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-roo
+    - r-rmethodss3
+    - r-rutils
+  run:
+    - r
+    - r-roo
+    - r-rmethodss3
+    - r-rutils
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

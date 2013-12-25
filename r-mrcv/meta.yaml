@@ -1,0 +1,23 @@
+package:
+  name: r-mrcv
+  version: 0.2.0
+
+source:
+  fn: MRCV_0.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/MRCV_0.2-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-tables
+    - r
+  run:
+    - r-tables
+    - r
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

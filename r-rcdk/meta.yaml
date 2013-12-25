@@ -1,0 +1,29 @@
+package:
+  name: r-rcdk
+  version: 3.2.3.2
+
+source:
+  fn: rcdk_3.2.3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/rcdk_3.2.3.2.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-fingerprint
+    - r-rjava
+    - r-rcdklibs
+    - r-png
+    - r-iterators
+  run:
+    - r-fingerprint
+    - r-rjava
+    - r-rcdklibs
+    - r-png
+    - r-iterators
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

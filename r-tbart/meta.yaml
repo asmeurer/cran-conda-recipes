@@ -1,0 +1,23 @@
+package:
+  name: r-tbart
+  version: 0.9
+
+source:
+  fn: tbart_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/tbart_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-rcpp
+    - r-sp
+  run:
+    - r-rcpp
+    - r-sp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

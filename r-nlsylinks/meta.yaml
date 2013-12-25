@@ -1,0 +1,23 @@
+package:
+  name: r-nlsylinks
+  version: 1.302
+
+source:
+  fn: NlsyLinks_1.302.tar.gz
+  url: http://cran.r-project.org/src/contrib/NlsyLinks_1.302.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lavaan
+  run:
+    - r
+    - r-lavaan
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

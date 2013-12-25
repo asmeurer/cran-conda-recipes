@@ -1,0 +1,25 @@
+package:
+  name: r-roauth
+  version: 0.9.3
+
+source:
+  fn: ROAuth_0.9.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/ROAuth_0.9.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-digest
+  run:
+    - r
+    - r-rcurl
+    - r-digest
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,23 @@
+package:
+  name: r-nparcomp
+  version: 2.0
+
+source:
+  fn: nparcomp_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/nparcomp_2.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-multcomp
+    - r-mvtnorm
+  run:
+    - r-multcomp
+    - r-mvtnorm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

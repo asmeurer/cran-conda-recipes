@@ -1,0 +1,23 @@
+package:
+  name: r-tnet
+  version: 3.0.11
+
+source:
+  fn: tnet_3.0.11.tar.gz
+  url: http://cran.r-project.org/src/contrib/tnet_3.0.11.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+  run:
+    - r
+    - r-igraph
+
+about:
+  license: CC BY-NC 3.0 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
