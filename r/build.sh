@@ -10,14 +10,17 @@ export LDFLAGS="-L$PREFIX/lib -lgfortran"
 export LAPACK_LDFLAGS="-L$PREFIX/lib -lgfortran"
 export PKG_CPPFLAGS="-I$PREFIX/include"
 export PKG_LDFLAGS="-L$PREFIX/lib -lgfortran"
-export JDK_HOME=/usr/java/default
-export JAVA_HOME=$JDK_HOME/jre
-export JAVA_CPPFLAGS="-I$JDK_HOME/include -I$JDK_HOME/include/linux"
-export JAVA_LD_LIBRARY_PATH=${JAVA_HOME}/lib/amd64/server
 export TCL_CONFIG=$PREFIX/lib/tclConfig.sh
 export TK_CONFIG=$PREFIX/lib/tkConfig.sh
 export TCL_LIBRARY=$PREFIX/lib/tcl8.5
 export TK_LIBRARY=$PREFIX/lib/tk8.5
+
+if [ -n "$JDK_HOME" -a -n "$JAVA_HOME" ]; then
+    export JAVA_CPPFLAGS="-I$JDK_HOME/include -I$JDK_HOME/include/linux"
+    export JAVA_LD_LIBRARY_PATH=${JAVA_HOME}/lib/amd64/server
+else
+    echo warning: JDK_HOME and JAVA_HOME not set
+fi
 
 ./configure --with-x                        \
             --with-pic                      \
