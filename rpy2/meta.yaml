@@ -1,0 +1,22 @@
+package:
+  name: rpy2
+  version: 2.3.8
+
+source:
+  fn: rpy2-2.3.8.tar.gz
+  url: https://pypi.python.org/packages/source/r/rpy2/rpy2-2.3.8.tar.gz
+
+requirements:
+  build:
+    - r
+    - python
+
+  run:
+    - r
+    - python
+
+about:
+  home: http://rpy.sourceforge.net/index.html
+  license: MPL 1.1
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
