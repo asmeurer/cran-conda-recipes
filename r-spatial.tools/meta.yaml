@@ -1,0 +1,35 @@
+package:
+  name: r-spatial.tools
+  version: 1.2.1
+
+source:
+  fn: spatial.tools_1.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/spatial.tools_1.2.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-iterators
+    - r-foreach
+    - r-rgdal
+    - r-raster
+    - r
+    - r-mmap
+    - r-abind
+    - r-doparallel
+  run:
+    - r-iterators
+    - r-foreach
+    - r-rgdal
+    - r-raster
+    - r
+    - r-mmap
+    - r-abind
+    - r-doparallel
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
