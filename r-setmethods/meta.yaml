@@ -13,11 +13,9 @@ requirements:
   build:
     - r-betareg
     - r
-    - r-betareg
   run:
     - r-betareg
     - r
-    - r-betareg
 
 about:
   license: GPL-2

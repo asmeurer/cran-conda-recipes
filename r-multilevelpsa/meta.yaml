@@ -18,7 +18,6 @@ requirements:
     - r-proto
     - r-xtable
     - r
-    - r-xtable
   run:
     - r-ggplot2
     - r-plyr
@@ -27,7 +26,6 @@ requirements:
     - r-proto
     - r-xtable
     - r
-    - r-xtable
 
 about:
   license: GPL (>= 2)

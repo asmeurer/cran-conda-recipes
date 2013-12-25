@@ -1,33 +1,25 @@
 package:
   name: r-spatialtools
-  version: 1.2.1
+  version: 0.5.4
 
 source:
-  fn: spatial.tools_1.2.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/spatial.tools_1.2.1.tar.gz
+  fn: SpatialTools_0.5.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/SpatialTools_0.5.4.tar.gz
 
 build:
   number: 0
 
 requirements:
   build:
-    - r-iterators
-    - r-foreach
-    - r-rgdal
-    - r-raster
     - r
-    - r-mmap
-    - r-abind
-    - r-doparallel
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-spbayes
   run:
-    - r-iterators
-    - r-foreach
-    - r-rgdal
-    - r-raster
     - r
-    - r-mmap
-    - r-abind
-    - r-doparallel
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-spbayes
 
 about:
   license: GPL (>= 2)

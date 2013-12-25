@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/robust_0.4-15.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,13 +15,11 @@ requirements:
     - r-fitmodels
     - r-robustbase
     - r-rrcov
-    - r-robustbase
   run:
     - r
     - r-fitmodels
     - r-robustbase
     - r-rrcov
-    - r-robustbase
 
 about:
   license: GPL

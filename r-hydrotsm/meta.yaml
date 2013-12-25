@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/hydroTSM_0.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -18,8 +18,6 @@ requirements:
     - r-gstat
     - r-automap
     - r-sp
-    - r-zoo
-    - r-xts
   run:
     - r
     - r-zoo
@@ -28,8 +26,6 @@ requirements:
     - r-gstat
     - r-automap
     - r-sp
-    - r-zoo
-    - r-xts
 
 about:
   license: GPL (>= 2)

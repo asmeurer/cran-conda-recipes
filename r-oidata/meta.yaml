@@ -14,14 +14,10 @@ requirements:
     - r-rcurl
     - r-maps
     - r
-    - r-rcurl
-    - r-maps
   run:
     - r-rcurl
     - r-maps
     - r
-    - r-rcurl
-    - r-maps
 
 about:
   license: GPL-2 | GPL-3

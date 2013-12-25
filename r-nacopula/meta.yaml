@@ -7,14 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/nacopula_0.8-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r-copula
-    - r-copula
   run:
-    - r-copula
     - r-copula
 
 about:

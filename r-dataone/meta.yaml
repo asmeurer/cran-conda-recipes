@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/dataone_1.0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,15 +15,11 @@ requirements:
     - r-rjava
     - r-xml
     - r-dataonelibs
-    - r-rjava
-    - r-xml
   run:
     - r
     - r-rjava
     - r-xml
     - r-dataonelibs
-    - r-rjava
-    - r-xml
 
 about:
   license: Apache License 2.0

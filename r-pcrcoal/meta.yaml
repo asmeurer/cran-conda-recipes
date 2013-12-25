@@ -15,14 +15,10 @@ requirements:
     - r-ape
     - r-ggplot2
     - r-phylosim
-    - r-ape
-    - r-phylosim
   run:
     - r
     - r-ape
     - r-ggplot2
-    - r-phylosim
-    - r-ape
     - r-phylosim
 
 about:

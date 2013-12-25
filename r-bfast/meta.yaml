@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/bfast_1.4.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -17,9 +17,6 @@ requirements:
     - r-zoo
     - r-raster
     - r-sp
-    - r-strucchange
-    - r-zoo
-    - r-raster
   run:
     - r
     - r-strucchange
@@ -27,9 +24,6 @@ requirements:
     - r-zoo
     - r-raster
     - r-sp
-    - r-strucchange
-    - r-zoo
-    - r-raster
 
 about:
   license: GPL (>= 2)
