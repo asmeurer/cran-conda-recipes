@@ -15,6 +15,8 @@ export TK_CONFIG=$PREFIX/lib/tkConfig.sh
 export TCL_LIBRARY=$PREFIX/lib/tcl8.5
 export TK_LIBRARY=$PREFIX/lib/tk8.5
 
+# There's probably a much better way to do this.
+. ${RECIPE_DIR}/java.rc
 if [ -n "$JDK_HOME" -a -n "$JAVA_HOME" ]; then
     export JAVA_CPPFLAGS="-I$JDK_HOME/include -I$JDK_HOME/include/linux"
     export JAVA_LD_LIBRARY_PATH=${JAVA_HOME}/lib/amd64/server
