@@ -1,0 +1,14 @@
+package:
+  name: gmp
+  version: 5.1.2
+
+source:
+  fn: gmp-5.1.2.tar.bz2
+  url: https://ftp.gnu.org/gnu/gmp/gmp-5.1.2.tar.bz2
+
+build:
+  number: 2
+
+about:
+  home: http://gmplib.org/
+  license: GPL 3
