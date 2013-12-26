@@ -37398,6 +37398,436 @@ MD5sum: a9951a0d6bb1b099980f2fe69d9e03e5
 NeedsCompilation: yes
 Path: 3.1.0/Other
 
+Package: Aspell
+Site: omegahat
+Version: 0.2-0
+Depends: methods
+License: GPL
+NeedsCompilation: yes
+MD5sum: 92f9e6deb40b9b11475bbaaa7f6bf904
+
+Package: CGIwithR
+Site: omegahat
+Version: 0.73-0
+Suggests: GDD
+License: GPL (>= 2)
+NeedsCompilation: no
+MD5sum: 50b1f48209c9e66909c7afb3a4b8af5e
+
+Package: CodeDepends
+Site: omegahat
+Version: 0.2-1
+Depends: methods
+Imports: codetools, XML
+Suggests: graph, Rgraphviz
+License: GPL
+NeedsCompilation: no
+MD5sum: e2ec3505f9db1a96919a72f07673a2d8
+
+Package: Combinations
+Site: omegahat
+Version: 0.2-1
+Depends: methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: 035c0b4c8943dfbfe86259f63ac3b460
+
+Package: FastCSVSample
+Site: omegahat
+Version: 0.1-0
+License: BSD
+NeedsCompilation: yes
+MD5sum: e9573b2961090a6b6b089012183249f7
+
+Package: GeoIP
+Site: omegahat
+Version: 0.1-0
+Depends: RAutoGenRunTime
+Imports: Rffi, methods, utils
+License: LGPL
+NeedsCompilation: yes
+MD5sum: 4bcfb7747d951ddc7d0b339a9fb288c2
+
+Package: R2GoogleMaps
+Site: omegahat
+Version: 0.2-0
+Depends: XML
+Imports: methods, RJSONIO
+License: BSD
+NeedsCompilation: no
+MD5sum: 750f9abb4788fe92460a849d81f6376f
+
+Package: RAmazonDBREST
+Site: omegahat
+Version: 0.1-1
+Imports: XML, RCurl
+License: BSD
+NeedsCompilation: no
+MD5sum: 5dcc055f10d8ba4217de14854e511dcc
+
+Package: RAmazonS3
+Site: omegahat
+Version: 0.1-5
+Imports: RCurl, XML, methods, digest
+License: BSD
+NeedsCompilation: no
+MD5sum: 69b32dd8a4c324a0ebe66fb962f049cc
+
+Package: RAutoGenRunTime
+Site: omegahat
+Version: 0.3-0
+Depends: bitops, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: 8fa7739e166eacf7f7c05636f7778369
+
+Package: RCIndex
+Site: omegahat
+Version: 0.1-0
+Depends: R (>= 2.7.0), methods
+License: GPL-2
+NeedsCompilation: yes
+MD5sum: 32321a3db41949e47b038e5fea8689ea
+
+Package: Rcompression
+Site: omegahat
+Version: 0.94-0
+Depends: methods, R (>= 1.0.0)
+License: zlib License
+NeedsCompilation: yes
+MD5sum: 2676a370744ce426baf4909f09f9086a
+
+Package: RCSS
+Site: omegahat
+Version: 0.2-0
+Imports: methods
+License: GPL
+NeedsCompilation: yes
+MD5sum: 7d638d9b8aa49a8bb486bcf5e2d7e74e
+
+Package: RCUDA
+Site: omegahat
+Version: 0.4-0
+Depends: methods
+Imports: RAutoGenRunTime, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: b8d8060df481f4e301457ccf2b49db7d
+
+Package: RCurl
+Site: omegahat
+Version: 1.95-4
+Depends: R (>= 2.7.0), methods, bitops
+Imports: methods
+Suggests: Rcompression, XML
+License: BSD
+NeedsCompilation: yes
+MD5sum: b31c0bb0a6e78aa6a31dc85cef826293
+
+Package: RD3Device
+Site: omegahat
+Version: 0.1-0
+Depends: R (>= 2.7.0), methods, RAutoGenRunTime, RGraphicsDevice
+Imports: RAutoGenRunTime, RJSONIO, XML
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 38ff140afe3869950d11b184feec7ebb
+
+Package: RDCOMClient
+Site: omegahat
+Version: 0.93-0
+License: GPL-2
+NeedsCompilation: yes
+MD5sum: c2ee71f737aeae0a03d7a82f1876cce4
+
+Package: REuPathDB
+Site: omegahat
+Version: 1.0-0
+Depends: XML, RJSONIO, RCurl, WADL
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 7a07b9b21d367474fda9ef9a93bd2ae1
+
+Package: RExcelXML
+Site: omegahat
+Version: 0.5-0
+Depends: ROOXML
+Imports: XML, Rcompression, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: e47c33b0a32a1ce7241e590677f907c3
+
+Package: Rffi
+Site: omegahat
+Version: 0.3-0
+Depends: methods, RAutoGenRunTime
+Imports: methods, utils,
+License: BSD
+NeedsCompilation: yes
+MD5sum: 4abf4a9a428feec573b36c6dbf44d91b
+
+Package: Rflickr
+Site: omegahat
+Version: 0.2-1
+Depends: RCurl, XML, digest
+Suggests: RJSONIO
+License: BSD
+NeedsCompilation: no
+MD5sum: 11b13085b23012e9a13d3f42d85d71fb
+
+Package: RGCCTranslationUnit
+Site: omegahat
+Version: 0.6-0
+Depends: methods
+Imports: bitops, Combinations, RAutoGenRunTime (>= 0.2-0)
+Suggests: bitops, Combinations, graph
+Enhances: RSPerl, graph
+License: GPL
+NeedsCompilation: yes
+MD5sum: 3104ecf243eeac4959bb96809c1bbc1e
+
+Package: RGCCTUFFI
+Site: omegahat
+Version: 0.2-0
+Depends: methods, RGCCTranslationUnit, Rffi
+Imports: methods, utils
+Suggests: RAutoGenRunTime
+License: BSD
+NeedsCompilation: no
+MD5sum: 815676c765eb966d9819138d43c980f6
+
+Package: RGoogleDocs
+Site: omegahat
+Version: 0.7-0
+Depends: methods
+Imports: RCurl, XML
+License: BSD
+NeedsCompilation: no
+MD5sum: 8d31d139f1b14c7356f98e04fbf1be6f
+
+Package: RGoogleStorage
+Site: omegahat
+Version: 0.1-0
+Imports: RCurl, XML, RJSONIO, methods
+License: BSD
+NeedsCompilation: no
+MD5sum: 733a6c10297bb3983a61d683df75cb0c
+
+Package: RGoogleTrends
+Site: omegahat
+Version: 0.2-1
+Imports: RCurl, RSQLite, DBI
+License: BSD
+NeedsCompilation: no
+MD5sum: 997ca2bc169f566e4b3bf9aa3133c6ef
+
+Package: RGraphicsDevice
+Site: omegahat
+Version: 0.5-0
+Depends: methods, RAutoGenRunTime
+Imports: RAutoGenRunTime
+License: GPL-2
+NeedsCompilation: yes
+MD5sum: 22bf5f96e0405cadfb5e58a4c746e331
+
+Package: RHTMLForms
+Site: omegahat
+Version: 0.6-0
+Depends: methods
+Imports: RCurl (> 1.3-0), XML
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 116718fb949b55784caac8dc86d64dfa
+
+Package: RJSONIO
+Site: omegahat
+Version: 1.1-0
+Depends: methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: 5cc37ff1e330c067c8f6a41db37eaa71
+
+Package: RKML
+Site: omegahat
+Version: 0.8-1
+Depends: XML, methods
+Imports: graphics
+Suggests: Rcompression
+License: BSD
+NeedsCompilation: no
+MD5sum: 855ad3a0ff751a11d88a4e2b1fd16681
+
+Package: RKMLDevice
+Site: omegahat
+Version: 0.1-0
+Imports: RGraphicsDevice, RKML (>= 0.4-0), XML
+License: BSD
+NeedsCompilation: no
+MD5sum: d5b52e89e9b6376749a46dffaeb6297a
+
+Package: Rlibstemmer
+Site: omegahat
+Version: 0.2-1
+License: BSD
+NeedsCompilation: yes
+MD5sum: cf5875196f26e2ae042a09c00ff45d1a
+
+Package: Rnvvm
+Site: omegahat
+Version: 0.1-0
+Depends: methods
+Imports: RAutoGenRunTime, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: fdb55022798a83b198efd648b788ae32
+
+Package: RNYTimes
+Site: omegahat
+Version: 0.1-1
+Depends: methods
+Imports: XML, RJSONIO, RCurl
+License: BSD
+NeedsCompilation: no
+MD5sum: 6a2807c5faf18f027600b643b056382b
+
+Package: ROOXML
+Site: omegahat
+Version: 0.3-0
+Depends: methods
+Imports: XML, Rcompression
+Enhances: rimage
+License: BSD
+NeedsCompilation: no
+MD5sum: e8ea6e8d911ce9c2752cb0a9b92fa73c
+
+Package: ROpenOffice
+Site: omegahat
+Version: 0.4-1
+Depends: Rcompression, XML, methods
+License: BSD
+NeedsCompilation: no
+MD5sum: 00e31f864cb2f93de92983286a0b2e0b
+
+Package: Rstem
+Site: omegahat
+Version: 0.4-1
+License: BSD
+NeedsCompilation: yes
+MD5sum: 889cd107b32a266f146b92daecff1101
+
+Package: RTidyHTML
+Site: omegahat
+Version: 0.2-1
+License: BSD
+NeedsCompilation: yes
+MD5sum: 71489171b8e953b466764e72aa1d7811
+
+Package: RUbigraph
+Site: omegahat
+Version: 0.1-1
+Depends: R (>= 2.7.0), methods, RCurl, XMLRPC
+License: BSD
+NeedsCompilation: no
+MD5sum: 312b2d456e1b6ad429a79a1fe49196a1
+
+Package: RWordPress
+Site: omegahat
+Version: 0.2-3
+Imports: XMLRPC, methods
+License: BSD
+NeedsCompilation: no
+MD5sum: 94445ef75cb6ba2e834f3cbb84e65305
+
+Package: SpiderMonkey
+Site: omegahat
+Version: 0.2-0
+Depends: RAutoGenRunTime, bitops
+Imports: Rffi
+License: Mozilla Public License
+NeedsCompilation: yes
+MD5sum: f8694731de772ce61dac45aaab4fabe7
+
+Package: SSOAP
+Site: omegahat
+Version: 0.9-1
+Depends: R (>= 1.5.0), methods
+Imports: XML, RCurl, XMLSchema
+License: GPL-2
+NeedsCompilation: no
+MD5sum: f5febba0cf71b7b8f1bede232982c45f
+
+Package: SVGAnnotation
+Site: omegahat
+Version: 0.93-1
+Depends: grDevices, methods, XML
+Suggests: RJSONIO
+License: BSD
+NeedsCompilation: no
+MD5sum: d730b05b7ca7105bca9308e4770bc09c
+
+Package: SWinTypeLibs
+Site: omegahat
+Version: 0.5-0
+Depends: RDCOMClient
+License: GPL
+NeedsCompilation: yes
+MD5sum: b5bf5cda54180552391e075d58f279fc
+
+Package: Sxslt
+Site: omegahat
+Version: 0.91-1
+Depends: R (>= 1.3.0), methods
+Imports: XML, methods
+License: GPL | BSD
+NeedsCompilation: yes
+MD5sum: af6599363619546ed501d5116f85d7d1
+
+Package: WADL
+Site: omegahat
+Version: 0.2-0
+Depends: RCurl, methods
+Imports: XML
+Suggests: RJSONIO
+License: GPL-2
+NeedsCompilation: no
+MD5sum: b5244d3d9a69db114cdb699a29364b08
+
+Package: XML
+Site: omegahat
+Version: 3.98-1
+Depends: R (>= 1.2.0), methods, utils
+Imports: methods
+Suggests: bitops, RCurl
+License: BSD
+NeedsCompilation: yes
+MD5sum: 9e3882fa882ce6335ec1365a43fb58e3
+
+Package: XMLRPC
+Site: omegahat
+Version: 0.3-0
+Imports: methods, RCurl, XML
+License: BSD
+NeedsCompilation: no
+MD5sum: 91df53f13c782ab2ea4642bb309ee0f6
+
+Package: XMLSchema
+Site: omegahat
+Version: 0.7-2
+Depends: R (>= 1.5.0), methods, XML
+Imports: RCurl, codetools
+Suggests: RCurl
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 080c2fb4e502ad04e8c1dec4cbcb32b8
+
+Package: Zillow
+Site: omegahat
+Version: 0.1-1
+Depends: XML, RCurl
+License: BSD
+NeedsCompilation: no
+MD5sum: 01a232a07b0e879ef1c3cfd3e255a56b
+
 Package: a4
 Site: bioconductor
 Version: 1.10.0
@@ -44430,3 +44860,6212 @@ Version: 1.8.0
 License: Artistic-2.0 + file LICENSE
 MD5sum: 699d7d5bc95ba1da70d5776f2f98089d
 NeedsCompilation: yes
+
+Package: adme16cod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 5919217fbf4756f600e2ffe5a609ab3c
+NeedsCompilation: no
+
+Package: ag.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.At.tair.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0f410617f2bfe6e1f2a2fd13cef1ba84
+NeedsCompilation: no
+
+Package: agcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 7ee3097ddd95a77437731edb699ad4e6
+NeedsCompilation: no
+
+Package: agprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: cee2651447cf5f523c16d2a1e01ee17d
+NeedsCompilation: no
+
+Package: anopheles.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.7.0)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: ea53ea4ba70e9e8d0ac1be86cf7f1602
+NeedsCompilation: no
+
+Package: arabidopsis.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.15)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 0c688e5bdbe472e294807240c19e2473
+NeedsCompilation: no
+
+Package: ath1121501.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.At.tair.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f43914f47b734878f6b5b97df065c433
+NeedsCompilation: no
+
+Package: ath1121501cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: bd3871ffab053d93259ca0b502a0e6b6
+NeedsCompilation: no
+
+Package: ath1121501probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 13b2b137a69b425bc49755b198b4bf1b
+NeedsCompilation: no
+
+Package: barley1cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 24159f32e84cfd897f7405bf985df63d
+NeedsCompilation: no
+
+Package: barley1probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 19d55d98488650d1d492b4a70ae94745
+NeedsCompilation: no
+
+Package: bovine.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Bt.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9e02338afc2ac1cab2a14ea1ecc173fe
+NeedsCompilation: no
+
+Package: bovine.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: a45b88800edb1ff4c87cbc1db12db12e
+NeedsCompilation: no
+
+Package: bovinecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: d9d83394cdf8798f271d7a75e65bd163
+NeedsCompilation: no
+
+Package: bovineprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 293e75386690504a649054456ece7f4e
+NeedsCompilation: no
+
+Package: BSgenome.Alyrata.JGI.v1
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: BSgenome (>= 1.19.5)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 2119e78ebb1957fd55ab186b167e0995
+NeedsCompilation: no
+
+Package: BSgenome.Amellifera.BeeBase.assembly4
+Site: bioconductor_annotation
+Version: 1.3.16
+Depends: BSgenome (>= 1.14.0)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: a251a76a3a3595e107c02b2b5e725a3f
+NeedsCompilation: no
+
+Package: BSgenome.Amellifera.UCSC.apiMel2
+Site: bioconductor_annotation
+Version: 1.3.16
+Depends: BSgenome (>= 1.14.0)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 602f3837e45eab113cda83afd605b1e3
+NeedsCompilation: no
+
+Package: BSgenome.Athaliana.TAIR.04232008
+Site: bioconductor_annotation
+Version: 1.3.18
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 8c6e451a824acbaa2c2f19f9d086968b
+NeedsCompilation: no
+
+Package: BSgenome.Athaliana.TAIR.TAIR9
+Site: bioconductor_annotation
+Version: 1.3.18
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 01cb331b6961ce62aa212b576d0cbf94
+NeedsCompilation: no
+
+Package: BSgenome.Btaurus.UCSC.bosTau3
+Site: bioconductor_annotation
+Version: 1.3.16
+Depends: BSgenome (>= 1.14.0)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 8662b972fa64a331f48f8028a5d2f864
+NeedsCompilation: no
+
+Package: BSgenome.Btaurus.UCSC.bosTau4
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 69d7d589dbea0a98b0618d821a30862d
+NeedsCompilation: no
+
+Package: BSgenome.Btaurus.UCSC.bosTau6
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.27.1)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 315e0449962b839129ae3420458179bd
+NeedsCompilation: no
+
+Package: BSgenome.Celegans.UCSC.ce10
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 898d8d317c43bf24444cc7e3397e9c4d
+NeedsCompilation: no
+
+Package: BSgenome.Celegans.UCSC.ce2
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: fbd1f7633633da7c69ac2bfc2adc4fa3
+NeedsCompilation: no
+
+Package: BSgenome.Celegans.UCSC.ce6
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: b74c0fc0f413a09d5b706f57c6d7f9b6
+NeedsCompilation: no
+
+Package: BSgenome.Cfamiliaris.UCSC.canFam2
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 58f9035bfde1b6f756ba782102b56b20
+NeedsCompilation: no
+
+Package: BSgenome.Cfamiliaris.UCSC.canFam3
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.3)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 90bff72e6e7bcf95fcfaf6c717b067f8
+NeedsCompilation: no
+
+Package: BSgenome.Dmelanogaster.UCSC.dm2
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 41a91323a5d8d6abf92384374a7b80af
+NeedsCompilation: no
+
+Package: BSgenome.Dmelanogaster.UCSC.dm3
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 5edc810440f85997fb46c24630927630
+NeedsCompilation: no
+
+Package: BSgenome.Drerio.UCSC.danRer5
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: f65fa91690bd5f6acc0cf22ffcd6afdd
+NeedsCompilation: no
+
+Package: BSgenome.Drerio.UCSC.danRer6
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 214a9847413cb244041880d31c041880
+NeedsCompilation: no
+
+Package: BSgenome.Drerio.UCSC.danRer7
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 54376c155adefeeaafc84cf4460705c4
+NeedsCompilation: no
+
+Package: BSgenome.Ecoli.NCBI.20080805
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 4d161519c43130cd916583d5f68982e8
+NeedsCompilation: no
+
+Package: BSgenome.Gaculeatus.UCSC.gasAcu1
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.3)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: ed2891744a1227769b3d42dbcbfc0921
+NeedsCompilation: no
+
+Package: BSgenome.Ggallus.UCSC.galGal3
+Site: bioconductor_annotation
+Version: 1.3.18
+Depends: BSgenome (>= 1.25.1)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 4dbf13f8a570c66cf01fd2dbc0062bf8
+NeedsCompilation: no
+
+Package: BSgenome.Ggallus.UCSC.galGal4
+Site: bioconductor_annotation
+Version: 1.3.18
+Depends: BSgenome (>= 1.25.1)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 5713916fe37b799bf8d79f9db16f5cea
+NeedsCompilation: no
+
+Package: BSgenome.Hsapiens.UCSC.hg17
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: ff49feb14ecf95799b6e9bce9a9d50e3
+NeedsCompilation: no
+
+Package: BSgenome.Hsapiens.UCSC.hg18
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 878c8dc5b3829a2138755ab0711ebd3c
+NeedsCompilation: no
+
+Package: BSgenome.Hsapiens.UCSC.hg19
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: d8cc70ba24b9c320ca45c3dc56f5f9b2
+NeedsCompilation: no
+
+Package: BSgenome.Mmulatta.UCSC.rheMac2
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.23.5)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 4a62e6373012f192c6f9a7eda53632c6
+NeedsCompilation: no
+
+Package: BSgenome.Mmulatta.UCSC.rheMac3
+Site: bioconductor_annotation
+Version: 1.3.20
+Depends: BSgenome (>= 1.30.0)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: c8f568d7acd548eed07a7eb6df08fdc0
+NeedsCompilation: no
+
+Package: BSgenome.Mmusculus.UCSC.mm10
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 53a5d03e297f81d81f5850cc71cc5b5d
+NeedsCompilation: no
+
+Package: BSgenome.Mmusculus.UCSC.mm8
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 41e081be6e3fc231f459c84d69b0ce95
+NeedsCompilation: no
+
+Package: BSgenome.Mmusculus.UCSC.mm9
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: b8e66972ec7899afe6ac314af9c894bb
+NeedsCompilation: no
+
+Package: BSgenome.Osativa.MSU.MSU7
+Site: bioconductor_annotation
+Version: 0.99.1
+Depends: BSgenome (>= 1.28.0)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 459fe50be785d06ab680565aacca1c57
+NeedsCompilation: no
+
+Package: BSgenome.Ptroglodytes.UCSC.panTro2
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 445d269c3c06f06258640b000522903d
+NeedsCompilation: no
+
+Package: BSgenome.Ptroglodytes.UCSC.panTro3
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.25.1)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 8d9fa02efb627dbdb5e4c1ee1ba919fa
+NeedsCompilation: no
+
+Package: BSgenome.Rnorvegicus.UCSC.rn4
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 541d4004a6a1e6085a73bd23ebbbe2b0
+NeedsCompilation: no
+
+Package: BSgenome.Rnorvegicus.UCSC.rn5
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.25.1)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 38f358dabe810fe2d19d486c3c239b3c
+NeedsCompilation: no
+
+Package: BSgenome.Scerevisiae.UCSC.sacCer1
+Site: bioconductor_annotation
+Version: 1.3.17
+Depends: BSgenome (>= 1.19.2)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 5bdbcd34307f5bcbd5c2a7a1350319f1
+NeedsCompilation: no
+
+Package: BSgenome.Scerevisiae.UCSC.sacCer2
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 2ddd27f31e0da595c2eff73efca07328
+NeedsCompilation: no
+
+Package: BSgenome.Scerevisiae.UCSC.sacCer3
+Site: bioconductor_annotation
+Version: 1.3.19
+Depends: BSgenome (>= 1.25.4)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 39b556568c87df61fa3b98d3e699b76d
+NeedsCompilation: no
+
+Package: BSgenome.Tgondii.ToxoDB.7.0
+Site: bioconductor_annotation
+Version: 0.99.0
+Depends: BSgenome (>= 1.21.3)
+Imports: BSgenome
+License: GPL-3
+MD5sum: 8f204871f73f8d1c5194f3748e28878e
+NeedsCompilation: no
+
+Package: bsubtiliscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: db1315a0cb8e721b2907ab8918770dce
+NeedsCompilation: no
+
+Package: bsubtilisprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 2e869a4fda1fec5dd3015adf537cb931
+NeedsCompilation: no
+
+Package: canine.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Cf.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: e094d018f543ba60b9dd511f83702275
+NeedsCompilation: no
+
+Package: canine.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: ff073547b02c7ed766ee5f109d48bcf4
+NeedsCompilation: no
+
+Package: canine2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Cf.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 4ff7b3f91c57d7fe3f04dda7494458d7
+NeedsCompilation: no
+
+Package: canine2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ad7026c315cf6ccc03d9a8b6e6615b5b
+NeedsCompilation: no
+
+Package: canine2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: b479332870c851f6a49c051c898bdd4d
+NeedsCompilation: no
+
+Package: caninecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 8852a4eacb8c464cc962d081e99e5f56
+NeedsCompilation: no
+
+Package: canineprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 84c5dce2098eb58afb183cae2a14a3c3
+NeedsCompilation: no
+
+Package: celegans.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Ce.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: b533b5035f09e57a7bb39a31ee46174c
+NeedsCompilation: no
+
+Package: celeganscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a2b6eae0342e5b514ca3587ede233c38
+NeedsCompilation: no
+
+Package: celegansprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 1198b2cd785d579e1e93b8a1be065e19
+NeedsCompilation: no
+
+Package: chicken.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Gg.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2a8b4d36560f47f7bade63a721fffee0
+NeedsCompilation: no
+
+Package: chicken.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 4da51554835e222cfd8a7bf251fb451a
+NeedsCompilation: no
+
+Package: chickencdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: df3ab30884e132784c76295b9abd89b3
+NeedsCompilation: no
+
+Package: chickenprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 9c8cccfd36c5886fa4ef28c0ccc50d6f
+NeedsCompilation: no
+
+Package: chimp.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.7.0)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: a2ffdcf0630de3438edab8d77f92dfbb
+NeedsCompilation: no
+
+Package: citruscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 8694d11d614e97e9a3060d0b473c9fe7
+NeedsCompilation: no
+
+Package: citrusprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 4548f2df80d4ca53cd3e00910315e4ff
+NeedsCompilation: no
+
+Package: cMAP
+Site: bioconductor_annotation
+Version: 1.15.1
+Depends: R(>= 2.4.0)
+License: LGPL
+MD5sum: dbf8df4d4540151936884e1c5d747bcf
+NeedsCompilation: no
+
+Package: cottoncdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 7e7560c938ab97ee7c752a9e7e0085e3
+NeedsCompilation: no
+
+Package: cottonprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 5f073864b84a2c7355661039e1799d54
+NeedsCompilation: no
+
+Package: cyp450cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 46da3baba38b7bcb023ac5abe4bea910
+NeedsCompilation: no
+
+Package: DO.db
+Site: bioconductor_annotation
+Version: 2.7
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.9.7)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 6274b0127a7ea46f11623240c169496e
+NeedsCompilation: no
+
+Package: drosgenome1.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Dm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c93fe24e6979e09993e167fc2e062497
+NeedsCompilation: no
+
+Package: drosgenome1cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 522d7f12086ba8e854c234b0051751b1
+NeedsCompilation: no
+
+Package: drosgenome1probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 9dc95adceb01ecc541bc79374af47d52
+NeedsCompilation: no
+
+Package: drosophila2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Dm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1371bf0ec5c2e76259ed9baddfee8c29
+NeedsCompilation: no
+
+Package: drosophila2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 60f75c123dff3850841e2ebed9403ea7
+NeedsCompilation: no
+
+Package: drosophila2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 0296d9aa1fab3c0bc8e79ba09cd3ac9a
+NeedsCompilation: no
+
+Package: ecoli2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.EcK12.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 14cb701897de2812ad17604fd1d4c9d3
+NeedsCompilation: no
+
+Package: ecoli2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: bdfac90695bbdf6885be3570c2164f88
+NeedsCompilation: no
+
+Package: ecoli2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: c85752cda5d751f3c9f1cba17494373c
+NeedsCompilation: no
+
+Package: ecoliasv2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: bfe51275c33860cf0f2d3fec1afd37cf
+NeedsCompilation: no
+
+Package: ecoliasv2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 0315c251266777b8b720c2e8d9abc23a
+NeedsCompilation: no
+
+Package: ecolicdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 0b58e26f6edd5b86779dd11e93d0df2a
+NeedsCompilation: no
+
+Package: ecoliK12.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: eeff77af274a79248066dbd1680302c2
+NeedsCompilation: no
+
+Package: ecoliprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: f66b8c9896d6b179e760bb065475958e
+NeedsCompilation: no
+
+Package: ecoliSakai.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 64813f804d470df837ad00873608a4db
+NeedsCompilation: no
+
+Package: FDb.FANTOM4.promoters.hg19
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: GenomicFeatures (>= 1.7.22), Biostrings
+Imports: GenomicFeatures, AnnotationDbi
+Suggests: BSgenome.Hsapiens.UCSC.hg19, rtracklayer, matrixStats
+License: Artistic-2.0
+MD5sum: 99a610eb895470e3d945acc5cfb3ebe6
+NeedsCompilation: no
+
+Package: FDb.InfiniumMethylation.hg18
+Site: bioconductor_annotation
+Version: 2.0.9
+Depends: GenomicFeatures (>= 1.7.22), Biostrings, AnnotationDbi, BSgenome.Hsapiens.UCSC.hg18
+Imports: GenomicFeatures, AnnotationDbi, rtracklayer
+Suggests: TxDb.Hsapiens.UCSC.hg18.knownGene
+License: Artistic-2.0
+MD5sum: 3e64db6dcdd9f682b9e3d332f4a30bc0
+NeedsCompilation: no
+
+Package: FDb.InfiniumMethylation.hg19
+Site: bioconductor_annotation
+Version: 2.0.10
+Depends: GenomicFeatures (>= 1.7.22), Biostrings, AnnotationDbi, BSgenome.Hsapiens.UCSC.hg19
+Imports: GenomicFeatures, AnnotationDbi, rtracklayer
+Suggests: TxDb.Hsapiens.UCSC.hg19.knownGene, FDb.UCSC.snp135common.hg19
+License: Artistic-2.0
+MD5sum: 3531ab212080eba6e954e2b9c942bbb4
+NeedsCompilation: no
+
+Package: FDb.UCSC.snp135common.hg19
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: GenomicFeatures (>= 1.7.22)
+Imports: GenomicFeatures, AnnotationDbi
+Suggests: BSgenome.Hsapiens.UCSC.hg19, SNPlocs.Hsapiens.dbSNP.20111119
+License: Artistic-2.0
+MD5sum: 0cdca5fa595bb69464016ceb97635f78
+NeedsCompilation: no
+
+Package: FDb.UCSC.snp137common.hg19
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: GenomicFeatures (>= 1.7.22)
+Imports: GenomicFeatures, AnnotationDbi
+Suggests: BSgenome.Hsapiens.UCSC.hg19
+License: Artistic-2.0
+MD5sum: dac83f2d2f9ea9f033e50beac5c44838
+NeedsCompilation: no
+
+Package: FDb.UCSC.tRNAs
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: GenomicFeatures (>= 1.9.39)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 06e2cda88e71cbb804522725156fcab4
+NeedsCompilation: no
+
+Package: fly.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.15)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: a72779881b6390a6691437c9a5f2037f
+NeedsCompilation: no
+
+Package: gahgu133a.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: f3c376e088afd2d2d0dda0025ad4934d
+NeedsCompilation: no
+
+Package: gahgu133acdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: 65922523066cac11c9a235b3180a12b0
+NeedsCompilation: no
+
+Package: gahgu133aprobe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: e52eabbb4e0f100fb992a9179b92de77
+NeedsCompilation: no
+
+Package: gahgu133b.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 92455171c7a8db30dab78dd0f93ca743
+NeedsCompilation: no
+
+Package: gahgu133bcdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: b95f790fa649fb44d573d57c8dbc3890
+NeedsCompilation: no
+
+Package: gahgu133bprobe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: cdc2f6a25651027c7efe4c4cea0eb291
+NeedsCompilation: no
+
+Package: gahgu133plus2.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 24b5856437fcb668ab06dacb4515ffb5
+NeedsCompilation: no
+
+Package: gahgu133plus2cdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: 4710ff0482c1d32a88e5cfefddcba7c0
+NeedsCompilation: no
+
+Package: gahgu133plus2probe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: 4b15803062c9e6240ef29df32a03a97d
+NeedsCompilation: no
+
+Package: gahgu95av2.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 64d4103fa273fb2b83550c80c0fe5257
+NeedsCompilation: no
+
+Package: gahgu95av2cdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: f8f9df146b4cd192eff447c2800c7ac6
+NeedsCompilation: no
+
+Package: gahgu95av2probe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: 8d96bdcc614deeda8bcef7ff7bf79aa0
+NeedsCompilation: no
+
+Package: gahgu95b.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 8f37e5896f06d7a2b916f25f1f862e7d
+NeedsCompilation: no
+
+Package: gahgu95bcdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: 302a65d7038ce25a41cbf75eb0871bf6
+NeedsCompilation: no
+
+Package: gahgu95bprobe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: e28b297a093ab95da7310025f0c5150b
+NeedsCompilation: no
+
+Package: gahgu95c.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: f31d4b7deeee6568fa766cff0cfec705
+NeedsCompilation: no
+
+Package: gahgu95ccdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: 02c3866bcb86d944a93a7d48e63e1184
+NeedsCompilation: no
+
+Package: gahgu95cprobe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: d565392c2e6da462c83b5af0bd71281d
+NeedsCompilation: no
+
+Package: gahgu95d.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 254574d0fb2979ddf002231e7ae53677
+NeedsCompilation: no
+
+Package: gahgu95dcdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: be6f79bb7f4200f4f7cc103801720adc
+NeedsCompilation: no
+
+Package: gahgu95dprobe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: 1bae3c19a69429d8a345d31ba6a8fa91
+NeedsCompilation: no
+
+Package: gahgu95e.db
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.5.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 9b3e944678de78188bf7bff18684e92f
+NeedsCompilation: no
+
+Package: gahgu95ecdf
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: utils
+License: LGPL
+MD5sum: 7f70f7bf61c7075ef49875792aa83bc6
+NeedsCompilation: no
+
+Package: gahgu95eprobe
+Site: bioconductor_annotation
+Version: 2.2.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.2.2)
+License: LGPL
+MD5sum: 6f839a3c6db65e220dd8d3d7289a754d
+NeedsCompilation: no
+
+Package: genomewidesnp5Crlmm
+Site: bioconductor_annotation
+Version: 1.0.6
+Imports: utils
+License: Artistic-2.0
+MD5sum: cc24140cd17758b8e09f4fe6c931526a
+NeedsCompilation: no
+
+Package: genomewidesnp6Crlmm
+Site: bioconductor_annotation
+Version: 1.0.7
+Imports: utils
+License: Artistic-2.0
+MD5sum: 13dd5aef3d814524896f2f3013beb78b
+NeedsCompilation: no
+
+Package: GGHumanMethCancerPanelv1.db
+Site: bioconductor_annotation
+Version: 1.4.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.11.9), org.Hs.eg.db (>= 2.4.5)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: e8f4a37182b175fb33dd54f8093e6f52
+NeedsCompilation: no
+
+Package: GO.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 5429c641ae326f75894ccfff9105dd21
+NeedsCompilation: no
+
+Package: gp53cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: f735b0b6142d900fa1c1dd039fca9ba9
+NeedsCompilation: no
+
+Package: h10kcod.db
+Site: bioconductor_annotation
+Version: 2.16.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.21.13), org.Hs.eg.db (>= 2.9.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1ebb689019c51159f94d0e58d40fcab2
+NeedsCompilation: no
+
+Package: h20kcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9cad5123f0ca2eb111631d6a7f79aad6
+NeedsCompilation: no
+
+Package: hapmap370k
+Site: bioconductor_annotation
+Version: 1.0.1
+Suggests: crlmm
+License: GPL
+MD5sum: 569556341a45da799372aaf1012be72e
+NeedsCompilation: no
+
+Package: hcg110.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: dadb7bc6dfce33a7099a9164239667e4
+NeedsCompilation: no
+
+Package: hcg110cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ba6614b226884dbe4c48c436dc9b90a1
+NeedsCompilation: no
+
+Package: hcg110probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: dfe9adce4993ce4794f5c0e8a8083168
+NeedsCompilation: no
+
+Package: hgfocus.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: bd5a312ec325b19ba8c456c8a8a03b6c
+NeedsCompilation: no
+
+Package: hgfocuscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b2b7021a3b41dfdb12b71f33ca6329c8
+NeedsCompilation: no
+
+Package: hgfocusprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: e5310989cf94c7abc6226381b4db9089
+NeedsCompilation: no
+
+Package: hgu133a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0b30a34dc9d0d53edc952a41dd04c302
+NeedsCompilation: no
+
+Package: hgu133a2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: bfd1374b50ec2429db3bebf1e3d26c64
+NeedsCompilation: no
+
+Package: hgu133a2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a266c817a0bd0099d3ade3f6e6a9ae54
+NeedsCompilation: no
+
+Package: hgu133a2frmavecs
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: f1ff01d2d65a36082d94502f46c149f4
+NeedsCompilation: no
+
+Package: hgu133a2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 716630ff17e9f21c69bcf86582ef2140
+NeedsCompilation: no
+
+Package: hgu133acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 83558169c5b1cbf7f280e5c6ec8de3df
+NeedsCompilation: no
+
+Package: hgu133afrmavecs
+Site: bioconductor_annotation
+Version: 1.3.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: dff035d7e3a4f7db36a8486ce988834c
+NeedsCompilation: no
+
+Package: hgu133aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: e0335befb703f6bc4384b72f697a227d
+NeedsCompilation: no
+
+Package: hgu133atagcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: fe82c67c0212fa2e85c7d51fe208039d
+NeedsCompilation: no
+
+Package: hgu133atagprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 297722fef767046320f9f11bce245c22
+NeedsCompilation: no
+
+Package: hgu133b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 355fbba723065f0e4e3fb000153f0cc2
+NeedsCompilation: no
+
+Package: hgu133bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 39851b5102a371b87ca5b3ea149db5f1
+NeedsCompilation: no
+
+Package: hgu133bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 3cb592a291546af694e995ec87167f27
+NeedsCompilation: no
+
+Package: hgu133plus2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 627c7b2654dda121ed4ee9fc90663c81
+NeedsCompilation: no
+
+Package: hgu133plus2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b9c03bd49fcb1220210e8fe0152cdfdf
+NeedsCompilation: no
+
+Package: hgu133plus2frmavecs
+Site: bioconductor_annotation
+Version: 1.3.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: 043f2d16c7b26b8740ad4fd86c73d847
+NeedsCompilation: no
+
+Package: hgu133plus2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: dba73dcf15cc3a8f5066fbb5b9d0c568
+NeedsCompilation: no
+
+Package: hgu219.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9322e9ce959daa879a6136a20bc4cfea
+NeedsCompilation: no
+
+Package: hgu219cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: af72c7405937ef0fd37d7a5f139c1e33
+NeedsCompilation: no
+
+Package: hgu219probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 8ab870655ac2f3f0cec5766ec61f3abf
+NeedsCompilation: no
+
+Package: hgu95a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 80408663836fe0a39a89f5acd7dd3c3a
+NeedsCompilation: no
+
+Package: hgu95acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 54ebb631f9382a5957fb2ca7a6860b92
+NeedsCompilation: no
+
+Package: hgu95aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 187b12cc16204801af31ff3a43d5aafd
+NeedsCompilation: no
+
+Package: hgu95av2
+Site: bioconductor_annotation
+Version: 2.2.0
+Depends: R (>= 2.4.0)
+License: Artistic-2.0
+MD5sum: b92585c0f43e91bd1abd234b9465a6a7
+NeedsCompilation: no
+
+Package: hgu95av2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3534b616842c834c3e715cbb0dbd9934
+NeedsCompilation: no
+
+Package: hgu95av2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b9fc0840345f4372a4a3a11268f49e5e
+NeedsCompilation: no
+
+Package: hgu95av2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: eb4c614234b58f7e2a618b0f72f2d416
+NeedsCompilation: no
+
+Package: hgu95b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1b5fa311017f3d59295ec9a34535bd1e
+NeedsCompilation: no
+
+Package: hgu95bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 49bb67334dac12194ad5cfa4d017262f
+NeedsCompilation: no
+
+Package: hgu95bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: bdd0c966d102e70c26fbe4670a90f15b
+NeedsCompilation: no
+
+Package: hgu95c.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 219a48834f1c1788c5752956d3888f01
+NeedsCompilation: no
+
+Package: hgu95ccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: f200d8abfe099a5c4f4aed518a06014b
+NeedsCompilation: no
+
+Package: hgu95cprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 0da960bb37f1ea465c938d43fecb44e3
+NeedsCompilation: no
+
+Package: hgu95d.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2cc11e3e9a13dbe34320fe6e49e28cf4
+NeedsCompilation: no
+
+Package: hgu95dcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: d29211971182e44b85527b9a123d55db
+NeedsCompilation: no
+
+Package: hgu95dprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 9747aa7cc953ce2f2413cdf3e7fce8ac
+NeedsCompilation: no
+
+Package: hgu95e.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 096d28cb490ec5994af0b01b43df5bfc
+NeedsCompilation: no
+
+Package: hgu95ecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 6919c30982c450f8a38d4f1719ea7553
+NeedsCompilation: no
+
+Package: hgu95eprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: e121aa37a36d5199e12371a75ab37997
+NeedsCompilation: no
+
+Package: hguatlas13k.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0dc276155395be012aa1a3d7a5301266
+NeedsCompilation: no
+
+Package: hgubeta7.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7e6b20f370e7f5f5d0cd19a6efe2c565
+NeedsCompilation: no
+
+Package: hguDKFZ31.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 39ed40bb6ad13b0d043975082343fb38
+NeedsCompilation: no
+
+Package: hgug4100a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7be9310c495e5bec7c965c185a222440
+NeedsCompilation: no
+
+Package: hgug4101a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 8842cee483107d64e6dd4aa670c886b8
+NeedsCompilation: no
+
+Package: hgug4110b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 4fc39e078ace55c0f0ec9ea280307208
+NeedsCompilation: no
+
+Package: hgug4111a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: a1029ddf203e15466ed379e436a3d3ee
+NeedsCompilation: no
+
+Package: hgug4112a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 97537753c4f4bd7660b8e94b99f5b65c
+NeedsCompilation: no
+
+Package: hgug4845a.db
+Site: bioconductor_annotation
+Version: 0.0.3
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.17.27), org.Hs.eg.db (>= 2.7.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 46133d7bcb6d8c24c026304e8ddd150d
+NeedsCompilation: no
+
+Package: hguqiagenv3.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: a14e0d6a05f60691caf9f75576b7cece
+NeedsCompilation: no
+
+Package: hi16cod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1c47264a3fae861fe189a2332360457b
+NeedsCompilation: no
+
+Package: hivprtplus2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a1c3d2e8d511d7be4f72a86794cce7a6
+NeedsCompilation: no
+
+Package: hom.At.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 20fd2fd7bdb53e07837a5e1ada7c7e12
+NeedsCompilation: no
+
+Package: hom.Ce.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 9e6c34a9725790c9f87115ef2c51177b
+NeedsCompilation: no
+
+Package: hom.Dm.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: ba80a059cc22efe78808f9708ea6f286
+NeedsCompilation: no
+
+Package: hom.Dr.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 590bec7f6b7deec275d20e7d368ca218
+NeedsCompilation: no
+
+Package: hom.Hs.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 0aed775424ed95b31f0648390e150901
+NeedsCompilation: no
+
+Package: hom.Mm.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: ce03a94507810ef4b04b8636326bfdbc
+NeedsCompilation: no
+
+Package: hom.Rn.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: c3c727d2912a5780c347ea5d8ae70b61
+NeedsCompilation: no
+
+Package: hom.Sc.inp.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 5374b842a93fca05dd5336451c69e97b
+NeedsCompilation: no
+
+Package: Homo.sapiens
+Site: bioconductor_annotation
+Version: 1.1.2
+Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db, org.Hs.eg.db, TxDb.Hsapiens.UCSC.hg19.knownGene
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: e88ea8aa92a918e8229b47c413742bdc
+NeedsCompilation: no
+
+Package: hs25kresogen.db
+Site: bioconductor_annotation
+Version: 2.5.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.13.19), org.Hs.eg.db (>= 2.5.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: a3800d072ce0e5f6f5d8299538b99cca
+NeedsCompilation: no
+
+Package: Hs6UG171.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ee13c405a958bbd92bd7e7c32ec18a70
+NeedsCompilation: no
+
+Package: HsAgilentDesign026652.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0756596cbcef61cfc5adaf43582a675a
+NeedsCompilation: no
+
+Package: hthgu133a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 33478f8c427325bbbbd56ca760760837
+NeedsCompilation: no
+
+Package: hthgu133acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 21861a3b403af593175e1e34ea2db179
+NeedsCompilation: no
+
+Package: hthgu133afrmavecs
+Site: bioconductor_annotation
+Version: 1.1.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: fa3bb57e0672c5841862aee66c18aede
+NeedsCompilation: no
+
+Package: hthgu133aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: d7e353af258fc6c2fe3c60756e2d521f
+NeedsCompilation: no
+
+Package: hthgu133b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: cc0caa03bddf1a27b207eb425294130c
+NeedsCompilation: no
+
+Package: hthgu133bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b361923c475cce58ba1733e9fd99cebc
+NeedsCompilation: no
+
+Package: hthgu133bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 4cc5e329bd9a3768175b7144ad2cc8ac
+NeedsCompilation: no
+
+Package: hthgu133pluspmcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ac8421d186247b3a5c606a9156e58aa6
+NeedsCompilation: no
+
+Package: hthgu133pluspmprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: cb8c8bb3a9decbecf97365b3d879af8b
+NeedsCompilation: no
+
+Package: htmg430acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 79fffad7bbfac7b8c963460476cd7a2e
+NeedsCompilation: no
+
+Package: htmg430aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: f8dd0a4838e0863aa73d1b7ede68dbc5
+NeedsCompilation: no
+
+Package: htmg430bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: d590e74c459ae1d0d6e7cf2f49874312
+NeedsCompilation: no
+
+Package: htmg430bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 8ef4c7f1e8187a6f83763fa0264da85a
+NeedsCompilation: no
+
+Package: htmg430pmcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 37bae3c373aa084508660b34683ec0d3
+NeedsCompilation: no
+
+Package: htmg430pmprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 819d5e377ab35d836fa3d73fe85bd0a6
+NeedsCompilation: no
+
+Package: htrat230pmcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 15835f45cd014330d47f0017d1195965
+NeedsCompilation: no
+
+Package: htrat230pmprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: b8a037ad47e5b5afb2bf5ecf87d17cdb
+NeedsCompilation: no
+
+Package: htratfocuscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 11bfd527b67c9ba373a3dc38f6b4926d
+NeedsCompilation: no
+
+Package: htratfocusprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 105b2546fbc64a2306db510217374c9b
+NeedsCompilation: no
+
+Package: hu35ksuba.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: a238c6ce42803952ffa002cb908b7d1d
+NeedsCompilation: no
+
+Package: hu35ksubacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 63d655c1bf3e301cacf5f0e01b038d82
+NeedsCompilation: no
+
+Package: hu35ksubaprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 4fc3242065dd4fede7f8c9d05cbdf872
+NeedsCompilation: no
+
+Package: hu35ksubb.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2cd5d15a767b6c9f2eab8b5d787e71b0
+NeedsCompilation: no
+
+Package: hu35ksubbcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 1227b4997db16ae9fff61cf0a5a138fa
+NeedsCompilation: no
+
+Package: hu35ksubbprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 1b0a90a8a39acbcfbde4ace021e6ca6f
+NeedsCompilation: no
+
+Package: hu35ksubc.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 431bdb9fcc8f744ec493676db2bc22dc
+NeedsCompilation: no
+
+Package: hu35ksubccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: d970d4e917be305fecf3d72dfa3673f2
+NeedsCompilation: no
+
+Package: hu35ksubcprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: ef48add94c3d0722d528de664bddc9cf
+NeedsCompilation: no
+
+Package: hu35ksubd.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 76607be24332e309ce5b8fb7ecd455bd
+NeedsCompilation: no
+
+Package: hu35ksubdcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: e572235b4fac8ee5f160539b8c4f6497
+NeedsCompilation: no
+
+Package: hu35ksubdprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: a82d6f271c61b51c0c7e53d9ee527512
+NeedsCompilation: no
+
+Package: hu6800.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 5e4bdc6f6cae8c49c2b5a083020b991a
+NeedsCompilation: no
+
+Package: hu6800cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 16b23cb7fda6fe76bfb5700e2a2c89eb
+NeedsCompilation: no
+
+Package: hu6800probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: f8a248f053a4e888936cf4e79eb28084
+NeedsCompilation: no
+
+Package: hu6800subacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 2ecc04012ca99cfe0780881bae9622a1
+NeedsCompilation: no
+
+Package: hu6800subbcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 37a4d3a08eb2fc01d317ed3d07f27e28
+NeedsCompilation: no
+
+Package: hu6800subccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: eb68a2ba5c463987cf0c999b981b2ae9
+NeedsCompilation: no
+
+Package: hu6800subdcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 9fd92c2d9adc0453fd32baa8a2c48255
+NeedsCompilation: no
+
+Package: huex.1.0.st.v2frmavecs
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: 237f0b89ef5c159cb7df2f85e8817f31
+NeedsCompilation: no
+
+Package: HuExExonProbesetLocation
+Site: bioconductor_annotation
+Version: 1.0.5
+Depends: R (>= 1.6), AnnotationDbi (>= 1.1.10)
+License: LGPL
+MD5sum: 5b26080f9ee98307d566d954bf53afde
+NeedsCompilation: no
+
+Package: HuExExonProbesetLocationHg18
+Site: bioconductor_annotation
+Version: 0.0.2
+Depends: R (>= 1.6), AnnotationDbi (>= 1.8.0)
+License: LGPL
+MD5sum: bb00b7f5e4db2b04dca5951aa6bd073e
+NeedsCompilation: no
+
+Package: HuExExonProbesetLocationHg19
+Site: bioconductor_annotation
+Version: 0.0.3
+Depends: R (>= 1.6), AnnotationDbi (>= 1.11.8)
+License: LGPL
+MD5sum: 1a3843c95c82dc71a043d902961ba33a
+NeedsCompilation: no
+
+Package: hugene.1.0.st.v1frmavecs
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: 94eda2bdc4dec8007ae9fb04290e0086
+NeedsCompilation: no
+
+Package: hugene10stprobeset.db
+Site: bioconductor_annotation
+Version: 8.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Hs.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 3dc3efa342b3d0209e87c92ce2266a0f
+NeedsCompilation: no
+
+Package: hugene10sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 8.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Hs.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 0912770ecdce59ff8cd7e6116e5f2f3c
+NeedsCompilation: no
+
+Package: hugene10stv1cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 748f5e64c2f115e780b453c3ab6fde48
+NeedsCompilation: no
+
+Package: hugene10stv1probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 9c89b878645f2ac8e7cdc9659c032e8d
+NeedsCompilation: no
+
+Package: hugene11stprobeset.db
+Site: bioconductor_annotation
+Version: 4.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Hs.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: f5d12bdb6e4dec92c519e7efbe36e7dc
+NeedsCompilation: no
+
+Package: hugene11sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 4.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Hs.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 7ea0b1bcce324cb6232977ff0182394b
+NeedsCompilation: no
+
+Package: hugene20stprobeset.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: e4e0305688f6dd516da00f6d978a3345
+NeedsCompilation: no
+
+Package: hugene20sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 8a9550739f2f806d44eba239e83e7947
+NeedsCompilation: no
+
+Package: hugene21stprobeset.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 91ebef2c41a75d3213bdff03b377c469
+NeedsCompilation: no
+
+Package: hugene21sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c9a30b36e65a3f8dc21ff0388da94b8f
+NeedsCompilation: no
+
+Package: human.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.15)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 1589f39aa3a54f651e17992e61df992e
+NeedsCompilation: no
+
+Package: human1mduov3bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.4
+Imports: utils
+License: Artistic-2.0
+MD5sum: 0ff9f1e8bcc6348d6777bbb982ae0325
+NeedsCompilation: no
+
+Package: human1mv1cCrlmm
+Site: bioconductor_annotation
+Version: 1.0.3
+Imports: utils
+License: Artistic-2.0
+MD5sum: b9f638c7b0ede50cb070f1bae85eb4dc
+NeedsCompilation: no
+
+Package: human370quadv3cCrlmm
+Site: bioconductor_annotation
+Version: 1.0.3
+Imports: utils
+License: Artistic-2.0
+MD5sum: 33c3ccc3793ed95647418b746a5177f9
+NeedsCompilation: no
+
+Package: human370v1cCrlmm
+Site: bioconductor_annotation
+Version: 1.0.2
+Imports: utils
+License: Artistic-2.0
+MD5sum: 9ec4192f533faee2b14484de02548075
+NeedsCompilation: no
+
+Package: human550v3bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.4
+Imports: utils
+License: Artistic-2.0
+MD5sum: 20e6b008fab5e1084354c87ad50d18a8
+NeedsCompilation: no
+
+Package: human610quadv1bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.3
+Imports: utils
+License: Artistic-2.0
+MD5sum: 609cf09410774e084ee6a3286652bb1a
+NeedsCompilation: no
+
+Package: human650v3aCrlmm
+Site: bioconductor_annotation
+Version: 1.0.3
+Imports: utils
+License: Artistic-2.0
+MD5sum: 4b0de367ccc0f7499dcffe21ef1893c2
+NeedsCompilation: no
+
+Package: human660quadv1aCrlmm
+Site: bioconductor_annotation
+Version: 1.0.3
+Imports: utils
+License: Artistic-2.0
+MD5sum: 5fd2d94a462e150c888f13c5c0975c36
+NeedsCompilation: no
+
+Package: humanCHRLOC
+Site: bioconductor_annotation
+Version: 2.1.6
+Depends: R(>= 2.7.0)
+License: Artistic-2.0
+MD5sum: 113450c0822000c9b4e8a0141cf4b819
+NeedsCompilation: no
+
+Package: humancytosnp12v2p1hCrlmm
+Site: bioconductor_annotation
+Version: 1.0.1
+Imports: utils
+License: Artistic-2.0
+MD5sum: edf80245ddb28afb9fbaa6668187bf3a
+NeedsCompilation: no
+
+Package: humanomni1quadv1bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.3
+Imports: utils
+License: Artistic-2.0
+MD5sum: e81b2603f37d4cda3f28cd69a7296a23
+NeedsCompilation: no
+
+Package: humanomni25quadv1bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.2
+Imports: utils
+License: Artistic-2.0
+MD5sum: 2ee1fa7bf712d7f81a167079c975d49f
+NeedsCompilation: no
+
+Package: humanomni5quadv1bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.0
+Imports: utils
+License: Artistic-2.0
+MD5sum: 3ac4d6867c3d5590a6308d6edff0912b
+NeedsCompilation: no
+
+Package: humanomniexpress12v1bCrlmm
+Site: bioconductor_annotation
+Version: 1.0.1
+Imports: utils
+License: Artistic-2.0
+MD5sum: abdb730fc230db669e588e024ee7624b
+NeedsCompilation: no
+
+Package: HuO22.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c1e7a4a6f7673cc1a4358cdce16f291b
+NeedsCompilation: no
+
+Package: hwgcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: b575c0cf5301e6e6f7e55069f675e852
+NeedsCompilation: no
+
+Package: IlluminaHumanMethylation27k.db
+Site: bioconductor_annotation
+Version: 1.4.7
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.11.9), org.Hs.eg.db (>= 2.4.5)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 1fb862875c3ce9745de95824e6b2d714
+NeedsCompilation: no
+
+Package: IlluminaHumanMethylation27kmanifest
+Site: bioconductor_annotation
+Version: 0.4.0
+Depends: R (>= 2.13.0), minfi
+License: Artistic-2.0
+MD5sum: c4cdda637dccf85f193342c7262b02a6
+NeedsCompilation: no
+
+Package: IlluminaHumanMethylation450k.db
+Site: bioconductor_annotation
+Version: 2.0.7
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.12.0), org.Hs.eg.db (>= 2.4.6)
+Imports: methods, AnnotationDbi
+Suggests: annotate, methylumi
+License: Artistic-2.0
+MD5sum: 672c95fa7584ab04140f2eaf833d2513
+NeedsCompilation: no
+
+Package: IlluminaHumanMethylation450kanno.ilmn12.hg19
+Site: bioconductor_annotation
+Version: 0.2.1
+Depends: R (>= 2.10.0), minfi
+License: Artistic-2.0
+MD5sum: 44440967c20414c0c29d60d0bf779ee3
+NeedsCompilation: no
+
+Package: IlluminaHumanMethylation450kmanifest
+Site: bioconductor_annotation
+Version: 0.4.0
+Depends: R (>= 2.13.0), minfi
+License: Artistic-2.0
+MD5sum: 664d1f5a3892974334faa26757269509
+NeedsCompilation: no
+
+Package: IlluminaHumanMethylation450kprobe
+Site: bioconductor_annotation
+Version: 2.0.6
+Depends: R (>= 2.10), AnnotationDbi (>= 1.13.18)
+License: LGPL
+MD5sum: 84c31861fcbaddbf2a9c500b8d8d767d
+NeedsCompilation: no
+
+Package: illuminaHumanv1.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f1a266bbeca793b34179c6fd335db26f
+NeedsCompilation: no
+
+Package: illuminaHumanv2.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: b5353e0d09b6fd5220804434f9d1c0b3
+NeedsCompilation: no
+
+Package: illuminaHumanv2BeadID.db
+Site: bioconductor_annotation
+Version: 1.8.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.11.8), org.Hs.eg.db (>= 2.4.5)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: b5a2b2deaa9a9b245a141043e7bc5270
+NeedsCompilation: no
+
+Package: illuminaHumanv3.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f433d52248ce2bf8d522f7cc0c6c10b7
+NeedsCompilation: no
+
+Package: illuminaHumanv4.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3806b0e6a1a67c7e66bdd9cbcfeb56e9
+NeedsCompilation: no
+
+Package: illuminaHumanWGDASLv3.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3340019dd182c4917df3bc7dda4c5e32
+NeedsCompilation: no
+
+Package: illuminaHumanWGDASLv4.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: e12e2e41ebff535a3cbcfc166e40a73f
+NeedsCompilation: no
+
+Package: illuminaMousev1.db
+Site: bioconductor_annotation
+Version: 1.18.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.21.14), org.Mm.eg.db (>= 2.9.0)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1ee4e4e1d13dcea37a91464991800a6d
+NeedsCompilation: no
+
+Package: illuminaMousev1p1.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0ce14c35e7ac030ee28d28dd2ab19d85
+NeedsCompilation: no
+
+Package: illuminaMousev2.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 97d6936ef964c6b58868dd298c45b8fc
+NeedsCompilation: no
+
+Package: illuminaRatv1.db
+Site: bioconductor_annotation
+Version: 1.20.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi, AnnotationForge
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f14b26c3c9dcd52baaef6a196141cbb5
+NeedsCompilation: no
+
+Package: indac.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Dm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 8194e557df62f226cf52cdf2bf24d8f6
+NeedsCompilation: no
+
+Package: JazaeriMetaData.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 410d9ecf6ea9a77f69839d81e4e4b87f
+NeedsCompilation: no
+
+Package: KEGG.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: file LICENSE
+License_restricts_use: yes
+MD5sum: 9f30aaf9a1e0ac767f3393b61018a0db
+NeedsCompilation: no
+
+Package: LAPOINTE.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ef4c5c1ee23b45101d03a6c67012ac07
+NeedsCompilation: no
+
+Package: lumiHumanAll.db
+Site: bioconductor_annotation
+Version: 1.22.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ce7e219b50833ceab203f0bbfb11d917
+NeedsCompilation: no
+
+Package: lumiHumanIDMapping
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.7.0), lumi (>= 1.7.14), methods, AnnotationDbi (>= 1.13.13)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: e8d781acfd5d8732861b3ecba9e4edcf
+NeedsCompilation: no
+
+Package: lumiMouseAll.db
+Site: bioconductor_annotation
+Version: 1.22.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 6f12330377aaddc83bfa9c37477b999e
+NeedsCompilation: no
+
+Package: lumiMouseIDMapping
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.7.0), lumi (>= 1.7.14), methods, AnnotationDbi (>= 1.13.13)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 305aba80ebf6ef4c26899302ea9e50e8
+NeedsCompilation: no
+
+Package: lumiRatAll.db
+Site: bioconductor_annotation
+Version: 1.22.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 65027624574d5e33f18b0a54a54f4be9
+NeedsCompilation: no
+
+Package: lumiRatIDMapping
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.7.0), lumi (>= 1.7.14), methods, AnnotationDbi (>= 1.13.13)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 1122fc25e3fff62678bed36f9d7b5709
+NeedsCompilation: no
+
+Package: m10kcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3682fc892cde45de932cfb1f2f97ef89
+NeedsCompilation: no
+
+Package: m20kcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c506d8c9abee6d4e927f85b9e334a7a6
+NeedsCompilation: no
+
+Package: maizecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 684881339c855695b880984dd1410ec1
+NeedsCompilation: no
+
+Package: maizeprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: fa069b2dbf2571f9a065beafb9e6cf62
+NeedsCompilation: no
+
+Package: malaria.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: acbae101f3e745f7bfb7dca28d3c0c65
+NeedsCompilation: no
+
+Package: medicagocdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a809b09bfcd9276f47403698a0d8bf15
+NeedsCompilation: no
+
+Package: medicagoprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 58eb2bbe2549bf621b3dc3edcf600094
+NeedsCompilation: no
+
+Package: mgu74a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 67e6215e76bee3cb5caefc46b4f408cc
+NeedsCompilation: no
+
+Package: mgu74acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 98aa3af3e5c539d6a77b2409ebe03507
+NeedsCompilation: no
+
+Package: mgu74aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 240fa784dd5942364a9a65d2916d46ef
+NeedsCompilation: no
+
+Package: mgu74av2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f98176cc90513223107ed584b8420859
+NeedsCompilation: no
+
+Package: mgu74av2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 7d377ba1117022926d49eb4a6f0362e3
+NeedsCompilation: no
+
+Package: mgu74av2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: d72b89c6bfb18ab478e27d41630994a9
+NeedsCompilation: no
+
+Package: mgu74b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f878ebf4e9ce36f9cc395c2f6d1a3a6f
+NeedsCompilation: no
+
+Package: mgu74bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 332e77a18ab2e89b66f06d7a52173322
+NeedsCompilation: no
+
+Package: mgu74bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 11dbd7eb8a08ee720af9b54e88b18e97
+NeedsCompilation: no
+
+Package: mgu74bv2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1faaf9f4f7ab1702baf286802fff59a1
+NeedsCompilation: no
+
+Package: mgu74bv2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ab7b724e47f270986ff885404730d647
+NeedsCompilation: no
+
+Package: mgu74bv2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 032c9ad4e8c37986f737714d0b36a19a
+NeedsCompilation: no
+
+Package: mgu74c.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 42428b69c6746aa3ea3f5f786de520b1
+NeedsCompilation: no
+
+Package: mgu74ccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: bc101ec93ee0ba347253b79421a34e23
+NeedsCompilation: no
+
+Package: mgu74cprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 119274274a67b4a87cd6ffebdd271f33
+NeedsCompilation: no
+
+Package: mgu74cv2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3147f671ec721d255a4e57db1db82714
+NeedsCompilation: no
+
+Package: mgu74cv2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 9bb936dae7ceac33546758e93f156922
+NeedsCompilation: no
+
+Package: mgu74cv2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 98755d2e99ad0c52e2e53523e282826f
+NeedsCompilation: no
+
+Package: mguatlas5k.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c51d17d47b79184cdc6f722f29f43bc7
+NeedsCompilation: no
+
+Package: mgug4104a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9b295ebbb2d52d2f5bef44ee80aa0f30
+NeedsCompilation: no
+
+Package: mgug4120a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: cb75af5b95c6d3851a0ed7a78af23d77
+NeedsCompilation: no
+
+Package: mgug4121a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f3aaad7b0587067dfb2d965844775d86
+NeedsCompilation: no
+
+Package: mgug4122a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 680182019cbfa7d0050083176415f3fb
+NeedsCompilation: no
+
+Package: mi16cod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 250603accb3c24e70206aa969cdd27b6
+NeedsCompilation: no
+
+Package: mirbase.db
+Site: bioconductor_annotation
+Version: 1.2.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.22.5)
+Imports: methods, AnnotationDbi
+License: file LICENSE
+MD5sum: 316bc12cee8c2dd9240b7fc30cd1619e
+NeedsCompilation: no
+
+Package: mirna102xgaincdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 0f0646a6d7b2956d1162ae1562958ffb
+NeedsCompilation: no
+
+Package: mirna10cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 91e3180402acd4fb13cfe5954bb5f6cd
+NeedsCompilation: no
+
+Package: mirna10probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: d7543dbf41859c225a801d31707b03e9
+NeedsCompilation: no
+
+Package: mirna20cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: fbcaaab1ca62d8038c0e872440da4315
+NeedsCompilation: no
+
+Package: mm24kresogen.db
+Site: bioconductor_annotation
+Version: 2.5.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.13.19), org.Mm.eg.db (>= 2.5.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 437f5d4bc225ee500af1ecc2d4da472b
+NeedsCompilation: no
+
+Package: MmAgilentDesign026655.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c3ac2c787d70ea4f3d724ee91e58ffd5
+NeedsCompilation: no
+
+Package: moe430a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: bb42e221b38046a072f9e3316eb70622
+NeedsCompilation: no
+
+Package: moe430acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 21daf6587f260eb6f611d7e26fa95798
+NeedsCompilation: no
+
+Package: moe430aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 85c5cbf8fd4a9031d49d8e1102e07229
+NeedsCompilation: no
+
+Package: moe430b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 60cb1c1a6a2795b192b44dec583eec08
+NeedsCompilation: no
+
+Package: moe430bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b1f06fef64b4c9d8fa07302f049f0827
+NeedsCompilation: no
+
+Package: moe430bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 2429715164be6295d2354914766759dc
+NeedsCompilation: no
+
+Package: MoExExonProbesetLocation
+Site: bioconductor_annotation
+Version: 1.0.5
+Depends: R (>= 1.6), AnnotationDbi (>= 1.1.10)
+License: LGPL
+MD5sum: 83372d710f638c42306c658e3d1608ac
+NeedsCompilation: no
+
+Package: mogene.1.0.st.v1frmavecs
+Site: bioconductor_annotation
+Version: 1.0.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: f3449893d0dcfd7dab2f88a792aab9e6
+NeedsCompilation: no
+
+Package: mogene10stprobeset.db
+Site: bioconductor_annotation
+Version: 8.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Mm.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: f414496b8af3f9ba422ec7ba711a4339
+NeedsCompilation: no
+
+Package: mogene10sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 8.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Mm.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: f5b714d1ec9042d00f3520922efecacd
+NeedsCompilation: no
+
+Package: mogene10stv1cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: acc541be1d1f99f0a39537aa0123c838
+NeedsCompilation: no
+
+Package: mogene10stv1probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 7221305188b31463817b4488b6286abb
+NeedsCompilation: no
+
+Package: mogene11stprobeset.db
+Site: bioconductor_annotation
+Version: 4.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Mm.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 5986f05f84a33865ad4d42fc603f248a
+NeedsCompilation: no
+
+Package: mogene11sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 4.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Mm.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: e53a1cbc07d6e399293a627717605a9a
+NeedsCompilation: no
+
+Package: mogene20stprobeset.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: bd7d936cc1fc1caf35bd245e17602e65
+NeedsCompilation: no
+
+Package: mogene20sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9cc456129f272929f425f7ee35947e79
+NeedsCompilation: no
+
+Package: mogene21stprobeset.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f3cb566b75c0059b8b9d520e0f18d90c
+NeedsCompilation: no
+
+Package: mogene21sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 96f07724e3c46a67583ab1718a2c3d8a
+NeedsCompilation: no
+
+Package: mouse.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.15)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: e04bd326bed29ae7bb379688fe3a2bdb
+NeedsCompilation: no
+
+Package: mouse4302.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 216d837d98f52c9cb126b1c49b901b5a
+NeedsCompilation: no
+
+Package: mouse4302cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 711f796fbdf4b88f65eec217b311fe4a
+NeedsCompilation: no
+
+Package: mouse4302frmavecs
+Site: bioconductor_annotation
+Version: 1.3.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: 10f5ef08a4d5a38f576497b1047aba9e
+NeedsCompilation: no
+
+Package: mouse4302probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 6c235d1c8776327f54367056063fe472
+NeedsCompilation: no
+
+Package: mouse430a2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 525c3d0b22fa87f95e8c71d523590bd7
+NeedsCompilation: no
+
+Package: mouse430a2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 8eb77fa2c90f932d7d30bc2d4e78ef99
+NeedsCompilation: no
+
+Package: mouse430a2frmavecs
+Site: bioconductor_annotation
+Version: 1.1.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: f9326b209e29100766beceb6ba03e07e
+NeedsCompilation: no
+
+Package: mouse430a2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: c80e92e4b02250267aaec4097c6ff20b
+NeedsCompilation: no
+
+Package: mouseCHRLOC
+Site: bioconductor_annotation
+Version: 2.1.6
+Depends: R(>= 2.7.0)
+License: Artistic-2.0
+MD5sum: 0b81d7391e628cc355af4de3c5585a5f
+NeedsCompilation: no
+
+Package: mpedbarray.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: a8bd1b25bd6e7fa755aed260ac1914ca
+NeedsCompilation: no
+
+Package: mu11ksuba.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: cd2f282fc3b307857a75a4402e103a90
+NeedsCompilation: no
+
+Package: mu11ksubacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ecd868c158ce46072d70b89a40ee291c
+NeedsCompilation: no
+
+Package: mu11ksubaprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 0f039e016249dae44e9c06f53041673a
+NeedsCompilation: no
+
+Package: mu11ksubb.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7344bf1e1fc2f1230ae404d7eddda99f
+NeedsCompilation: no
+
+Package: mu11ksubbcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: e957ce0592e91922015b9060f1046df0
+NeedsCompilation: no
+
+Package: mu11ksubbprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 7a318acb9bd3d0ef7b1b88376a3ef134
+NeedsCompilation: no
+
+Package: Mu15v1.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 787943da70290db4f002d8433980ee43
+NeedsCompilation: no
+
+Package: mu19ksuba.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3c426982fecaef66f3caf28765b48b2e
+NeedsCompilation: no
+
+Package: mu19ksubacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: af057a791095a7b8e8ac7ced180de1be
+NeedsCompilation: no
+
+Package: mu19ksubb.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 4a74bd03c7a16cd052e6225981201cd5
+NeedsCompilation: no
+
+Package: mu19ksubbcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 69bcf6cc2e6108827395048c5f7d14ec
+NeedsCompilation: no
+
+Package: mu19ksubc.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 778691ed21fa3be24745e547714e8bc9
+NeedsCompilation: no
+
+Package: mu19ksubccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ae11bdb3a5c72a4539b97a6d73d79e4e
+NeedsCompilation: no
+
+Package: Mu22v3.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Mm.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: e6151d13c40fc516ddfd0ed6a2550a6f
+NeedsCompilation: no
+
+Package: mu6500subacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: afb4fdef3461ba26576c1bee4aa4544c
+NeedsCompilation: no
+
+Package: mu6500subbcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: c69b2eba8d163c549224a83215018167
+NeedsCompilation: no
+
+Package: mu6500subccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: dc7154c65f86ebfe0fc80cd141a362da
+NeedsCompilation: no
+
+Package: mu6500subdcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 0eb9f944c964f48355db12fe12beb5a4
+NeedsCompilation: no
+
+Package: Mus.musculus
+Site: bioconductor_annotation
+Version: 1.1.2
+Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db, org.Mm.eg.db, TxDb.Mmusculus.UCSC.mm10.knownGene
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 6d8397bab1d5b7cd5b6534de88a9a763
+NeedsCompilation: no
+
+Package: mwgcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ea57a4cddabf1b2cb8e33727a2d02c50
+NeedsCompilation: no
+
+Package: Norway981.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: c2e79f773e659896a658006024a12b18
+NeedsCompilation: no
+
+Package: nugohs1a520180.db
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: dc23e15f5c3709e581a13df9f4804cb3
+NeedsCompilation: no
+
+Package: nugohs1a520180cdf
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: utils
+License: LGPL
+MD5sum: ecc8287544da8b526f0871a09732b6e5
+NeedsCompilation: no
+
+Package: nugohs1a520180probe
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.26)
+License: LGPL
+MD5sum: 2f87b50ed648c268717a9ead4c60205b
+NeedsCompilation: no
+
+Package: nugomm1a520177.db
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Mm.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: caeaa062c27c4c3a7df3d6a2dfd9fad1
+NeedsCompilation: no
+
+Package: nugomm1a520177cdf
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: utils
+License: LGPL
+MD5sum: 47fecd40248f4b617a7936dfb2414033
+NeedsCompilation: no
+
+Package: nugomm1a520177probe
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.26)
+License: LGPL
+MD5sum: ea5b59a4d463a817b2dce2a8ec79ea42
+NeedsCompilation: no
+
+Package: oligoData
+Site: bioconductor_annotation
+Version: 1.8.0
+Depends: R (>= 2.15.0), oligo
+Suggests: pd.hg.u95av2, pd.huex.1.0.st.v2, pd.mapping50k.xba240, pd.hg18.60mer.expr, pd.2006.07.18.hg18.refseq.promoter, pd.hugene.1.0.st.v1
+License: LGPL (>= 2)
+MD5sum: 9625cfd4b31bb575c4029a0632a7ee12
+NeedsCompilation: no
+
+Package: OperonHumanV3.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1d90b088d7166b3914e7c4826eef0abb
+NeedsCompilation: no
+
+Package: org.Ag.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 8feaf8118bdea7f6c1ca190de878b571
+NeedsCompilation: no
+
+Package: org.At.tair.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 168fc0839c2e8fcf7f27f092b089715a
+NeedsCompilation: no
+
+Package: org.Bt.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2e61bfe29291e983bbebdd84a83a65ab
+NeedsCompilation: no
+
+Package: org.Ce.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f0c632deb7b00035300cce938fd89fbe
+NeedsCompilation: no
+
+Package: org.Cf.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 043c08baa6adc06bdcf617e84e734675
+NeedsCompilation: no
+
+Package: org.Dm.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2603e57bb5ab88df6bf0ab70cf4d0929
+NeedsCompilation: no
+
+Package: org.Dr.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7d9e8f07303e7c933fa51ef55f1fd56a
+NeedsCompilation: no
+
+Package: org.EcK12.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 19fa0afcf178678231e0654a63885f84
+NeedsCompilation: no
+
+Package: org.EcSakai.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 830971770e53f6f2315286488c87fe10
+NeedsCompilation: no
+
+Package: org.Gg.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ba4b5e68ec4c42fbec4332ec2744a87b
+NeedsCompilation: no
+
+Package: org.Hs.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: aae92ab4dc66629fd30571ab15bb6dda
+NeedsCompilation: no
+
+Package: org.Hs.ipi.db
+Site: bioconductor_annotation
+Version: 1.3.0
+Depends: R(>= 2.12.0) , methods, AnnotationDbi (>= 1.3.12), PAnnBuilder (>= 1.3.0)
+Imports: methods, AnnotationDbi, PAnnBuilder
+License: Artistic-2.0
+MD5sum: 787cc8c4512e1e07c2ef0812024438ca
+NeedsCompilation: no
+
+Package: org.Mm.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2a0b81d0a4d4d46f5be14978f39651d3
+NeedsCompilation: no
+
+Package: org.Mmu.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0fedbb88277022b4d4dc7bafd1ed828f
+NeedsCompilation: no
+
+Package: org.Pf.plasmo.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ce0ec0e18756bfd466ee860168e46845
+NeedsCompilation: no
+
+Package: org.Pt.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3dd81ebc04dbb1ed2db7a1703f94d052
+NeedsCompilation: no
+
+Package: org.Rn.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 89b17bb470550060830d5148390f3dc6
+NeedsCompilation: no
+
+Package: org.Sc.sgd.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 1ce2a6cced579a2722d0bd92f50e6f8f
+NeedsCompilation: no
+
+Package: org.Sco.eg.db
+Site: bioconductor_annotation
+Version: 2.4.2
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.9.7)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 21d66935277a2853080721e267612cf5
+NeedsCompilation: no
+
+Package: org.Ss.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: eb776a9bcb1e0dac0f49c43971dfc187
+NeedsCompilation: no
+
+Package: org.Tgondii.eg.db
+Site: bioconductor_annotation
+Version: 1.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.16.11)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 8b20ad76ae2005f5311889cfbc0d0531
+NeedsCompilation: no
+
+Package: org.Xl.eg.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 49f1584263a2045652655a68630a963b
+NeedsCompilation: no
+
+Package: paeg1acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 9e4df147e0f9383fa02de11328aa7160
+NeedsCompilation: no
+
+Package: paeg1aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 47c18e8df4da251b4c7d5d56722d4ba3
+NeedsCompilation: no
+
+Package: PANTHER.db
+Site: bioconductor_annotation
+Version: 0.99.3
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.21.19),RSQLite,utils
+Imports: methods,AnnotationDbi,RSQLite
+Suggests: RUnit
+License: Artistic-2.0
+MD5sum: 380fadc7f4161cde5b7d55126f216d27
+NeedsCompilation: no
+
+Package: PartheenMetaData.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ef12610471337be23b8f85b752c34251
+NeedsCompilation: no
+
+Package: pd.081229.hg18.promoter.medip.hx1
+Site: bioconductor_annotation
+Version: 0.99.3
+Depends: R (>= 2.11.0), methods, RSQLite (>= 0.7-1), oligoClasses (>= 1.9.30), oligo (>= 1.11.18), DBI
+Imports: Biostrings (>= 2.13.50), IRanges (>= 1.3.89)
+License: Artistic-2.0
+MD5sum: 9ea6a0643b0e39abf9b1166c257f542f
+NeedsCompilation: no
+
+Package: pd.2006.07.18.hg18.refseq.promoter
+Site: bioconductor_annotation
+Version: 1.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 31977ad4958b99913ffcbe5493f7806d
+NeedsCompilation: no
+
+Package: pd.2006.07.18.mm8.refseq.promoter
+Site: bioconductor_annotation
+Version: 0.99.2
+Depends: R (>= 2.11.0), methods, RSQLite (>= 0.7-1), oligoClasses (>= 1.9.30), oligo (>= 1.11.18), DBI
+Imports: Biostrings (>= 2.13.50), IRanges (>= 1.3.89)
+License: Artistic-2.0
+MD5sum: 3f87eaddc7e988ee9e7a5cbdb9311b69
+NeedsCompilation: no
+
+Package: pd.2006.10.31.rn34.refseq.promoter
+Site: bioconductor_annotation
+Version: 0.99.2
+Depends: R (>= 2.11.0), methods, RSQLite (>= 0.7-1), oligoClasses (>= 1.9.30), oligo (>= 1.11.18), DBI
+Imports: Biostrings (>= 2.13.50), IRanges (>= 1.3.89)
+License: Artistic-2.0
+MD5sum: 61d7b8d4c463558764684923fae54cd3
+NeedsCompilation: no
+
+Package: pd.ag
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: ad0a0b204afad93a9c5ae32bfd858d66
+NeedsCompilation: no
+
+Package: pd.aragene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: c3fb2bb96b6c7fa81a164e2982ab4b55
+NeedsCompilation: no
+
+Package: pd.aragene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 5cd13895d00811ab711a7328b0c50a0b
+NeedsCompilation: no
+
+Package: pd.ath1.121501
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 85f7024ae91f802f8284e2a5e37131de
+NeedsCompilation: no
+
+Package: pd.barley1
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 5b8826c3d9fa0e5711001f8f66d70ee6
+NeedsCompilation: no
+
+Package: pd.bovgene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 511e9367b32a2cf4aed6ca30f0c332f9
+NeedsCompilation: no
+
+Package: pd.bovgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8156097f6a9930cf51729cf0fbaf9e2c
+NeedsCompilation: no
+
+Package: pd.bovine
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 97b3fc0d26c6f402aba5b359159bfe00
+NeedsCompilation: no
+
+Package: pd.bsubtilis
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 064db00b67b8dde68226adc2c18e8ee7
+NeedsCompilation: no
+
+Package: pd.cangene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 9f9bf8398156c6defcbce20155f50d33
+NeedsCompilation: no
+
+Package: pd.cangene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 1baa1e2047bee7fdd5a196b5a95237dd
+NeedsCompilation: no
+
+Package: pd.canine
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 642fcaa05c523f4c6a105df64fc4d3ec
+NeedsCompilation: no
+
+Package: pd.canine.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: b80dc88f5ec749bf573c115d0ab09def
+NeedsCompilation: no
+
+Package: pd.celegans
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 6322623992ba30d7615b062f2b014b15
+NeedsCompilation: no
+
+Package: pd.charm.hg18.example
+Site: bioconductor_annotation
+Version: 0.99.3
+Depends: R (>= 2.11.0), methods, RSQLite (>= 0.7-1), oligoClasses (>= 1.9.30), oligo (>= 1.11.18), DBI
+Imports: Biostrings (>= 2.29.2), IRanges (>= 1.19.5)
+License: Artistic-2.0
+MD5sum: 4cbff85ee5c46e999b63de35729bb361
+NeedsCompilation: no
+
+Package: pd.chicken
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 3d62eaca628241101cf1d71393e8b655
+NeedsCompilation: no
+
+Package: pd.citrus
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 6452922b28d6cd0566f144275ee1e061
+NeedsCompilation: no
+
+Package: pd.cotton
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: d90abf5eed4da0b7ab93b33a30f7b14b
+NeedsCompilation: no
+
+Package: pd.cyngene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 02fe2e59b79d24ed23cfbd3526761b86
+NeedsCompilation: no
+
+Package: pd.cyngene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e53e95009e587d7ebf78654179c33795
+NeedsCompilation: no
+
+Package: pd.cyrgene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: b46fe8ac4967daf6690ae01420b6c9be
+NeedsCompilation: no
+
+Package: pd.cyrgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8998e505b55ee37216a247cecd33eaa9
+NeedsCompilation: no
+
+Package: pd.cytogenetics.array
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e0a6bcdcc393c0f862a34149ed324d61
+NeedsCompilation: no
+
+Package: pd.drosgenome1
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 852f2d93323f62486d4bcbd891d9b582
+NeedsCompilation: no
+
+Package: pd.drosophila.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: ab87d25de1b6fa83441231c20f1ee85e
+NeedsCompilation: no
+
+Package: pd.e.coli.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 6e17ff7082b6617c8c2cab96d367e7fb
+NeedsCompilation: no
+
+Package: pd.ecoli
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 52c7bc0f4dded823151990d4f44a86b4
+NeedsCompilation: no
+
+Package: pd.ecoli.asv2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: ee1f2eec9cf32a496baff0ebd250342a
+NeedsCompilation: no
+
+Package: pd.equgene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 4cf94218539a645a881424e1fd38c848
+NeedsCompilation: no
+
+Package: pd.equgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 0c760647a0a96890736c461148a209a9
+NeedsCompilation: no
+
+Package: pd.feinberg.hg18.me.hx1
+Site: bioconductor_annotation
+Version: 0.99.2
+Depends: R (>= 2.11.0), methods, RSQLite (>= 0.7-1), oligoClasses (>= 1.9.30), oligo (>= 1.11.18), DBI
+Imports: Biostrings (>= 2.13.50), IRanges (>= 1.3.89)
+License: Artistic-2.0
+MD5sum: 18bc87b47ff18b1619eb52c295ff2895
+NeedsCompilation: no
+
+Package: pd.feinberg.mm8.me.hx1
+Site: bioconductor_annotation
+Version: 0.99.2
+Depends: R (>= 2.11.0), methods, RSQLite (>= 0.7-1), oligoClasses (>= 1.9.30), oligo (>= 1.11.18), DBI
+Imports: Biostrings (>= 2.13.50), IRanges (>= 1.3.89)
+License: Artistic-2.0
+MD5sum: de79832e48f5dd82dffc627c0cd0111c
+NeedsCompilation: no
+
+Package: pd.felgene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 435c65efae3f55ad552c558b2a4b9719
+NeedsCompilation: no
+
+Package: pd.felgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 64791d798ccef8422e888df1edba48f9
+NeedsCompilation: no
+
+Package: pd.genomewidesnp.5
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a76a76a81f07605dcda301c91ed97f78
+NeedsCompilation: no
+
+Package: pd.genomewidesnp.6
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 798486059bc6352202077c11604bcaa6
+NeedsCompilation: no
+
+Package: pd.hc.g110
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: b565b7a2f4bef6edd58be4d324f2ec7a
+NeedsCompilation: no
+
+Package: pd.hg.focus
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 2dccae13a7f046a47f2951421e42f6a8
+NeedsCompilation: no
+
+Package: pd.hg.u133.plus.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 587eb95028b576ea98ea466369117c45
+NeedsCompilation: no
+
+Package: pd.hg.u133a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 66c52d5d46e0955e35e535956523fae7
+NeedsCompilation: no
+
+Package: pd.hg.u133a.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e402873e186b0b0065c528380379d424
+NeedsCompilation: no
+
+Package: pd.hg.u133a.tag
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 0864fad09f92270d0cf92c545993ea3b
+NeedsCompilation: no
+
+Package: pd.hg.u133b
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: fbb04c83df4051384d32aa0e609deb1f
+NeedsCompilation: no
+
+Package: pd.hg.u219
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 08a8894dc3687fb6927a6798bdfb2a9d
+NeedsCompilation: no
+
+Package: pd.hg.u95a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a0d146f50f8c9c77e46ff23988c7612f
+NeedsCompilation: no
+
+Package: pd.hg.u95av2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 0bab062be51c22ebf2ede5b9cecebad3
+NeedsCompilation: no
+
+Package: pd.hg.u95b
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 73af087df9a0cefc33b4aed08083b15b
+NeedsCompilation: no
+
+Package: pd.hg.u95c
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e98dabffccd2a021d12d6a6583f486dc
+NeedsCompilation: no
+
+Package: pd.hg.u95d
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 7eb2a843ac08bff9f773fa8c69aa5ea4
+NeedsCompilation: no
+
+Package: pd.hg.u95e
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 53d6c36a9fba19d84e64a43b0ad4e65a
+NeedsCompilation: no
+
+Package: pd.hg18.60mer.expr
+Site: bioconductor_annotation
+Version: 3.4.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: eb4515a6ddd6a42c8a4492a4f2f49db9
+NeedsCompilation: no
+
+Package: pd.ht.hg.u133.plus.pm
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 81b2313f7e33d54c515e115be5b6197f
+NeedsCompilation: no
+
+Package: pd.ht.hg.u133a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 6e549939a647def30824723f897382a5
+NeedsCompilation: no
+
+Package: pd.ht.mg.430a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: ab24b4356e01adf4d8dd97f781ab61aa
+NeedsCompilation: no
+
+Package: pd.hu6800
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a438741b51a83796b53b2eee59dec7b9
+NeedsCompilation: no
+
+Package: pd.huex.1.0.st.v2
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8388f9c0e24550590e32fc166ddd341f
+NeedsCompilation: no
+
+Package: pd.hugene.1.0.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 37f730edfbfd861440c4fa39d948341e
+NeedsCompilation: no
+
+Package: pd.hugene.1.1.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: d154d8f8f2e26f699d318ecfd19e0b80
+NeedsCompilation: no
+
+Package: pd.hugene.2.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 3018b6fb1f015de610bc7a878ed98a61
+NeedsCompilation: no
+
+Package: pd.hugene.2.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e644276d0ad130ed011d70f71db84da4
+NeedsCompilation: no
+
+Package: pd.maize
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 17d67aa80486422f6b4ba12c8e781296
+NeedsCompilation: no
+
+Package: pd.mapping250k.nsp
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a3823aff7d3bf9480dd4e8c7cad91294
+NeedsCompilation: no
+
+Package: pd.mapping250k.sty
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: c821d5ac22c0767e210375e90094afbc
+NeedsCompilation: no
+
+Package: pd.mapping50k.hind240
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a700383d07a7065d54a5d6d51b0ad676
+NeedsCompilation: no
+
+Package: pd.mapping50k.xba240
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 068c9d6647f67ffea9c8374f395b2bb6
+NeedsCompilation: no
+
+Package: pd.medicago
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: be2cfc589f21fef5cd9d6061d7ed4007
+NeedsCompilation: no
+
+Package: pd.mg.u74a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 695d885715596d7942c9acd6f22e81e7
+NeedsCompilation: no
+
+Package: pd.mg.u74av2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 3c29856a666347340cff01c101bb65c1
+NeedsCompilation: no
+
+Package: pd.mg.u74b
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e0e37bbd15b0b8d76fb30569362960cf
+NeedsCompilation: no
+
+Package: pd.mg.u74bv2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 383717c629c6fd6944c1c0bb6c3a213b
+NeedsCompilation: no
+
+Package: pd.mg.u74c
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 7354af5f1c744e8df2fffad1913fe34e
+NeedsCompilation: no
+
+Package: pd.mg.u74cv2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 7305f2d42579470182ce85a08e060eb8
+NeedsCompilation: no
+
+Package: pd.mirna.1.0
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 56857dde5442e9f3d175b3b2fa33f78c
+NeedsCompilation: no
+
+Package: pd.mirna.2.0
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: fad3fb82a84802b584c706d30e4584e4
+NeedsCompilation: no
+
+Package: pd.mirna.3.0
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a1ec98c17fdbd3a668c35880a8f8e0ef
+NeedsCompilation: no
+
+Package: pd.mirna.3.1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e6bc8734a5d59d77f69b49b837e8ca9f
+NeedsCompilation: no
+
+Package: pd.moe430a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 2c5846fe63aac40af6e8b0e4f0f78b8a
+NeedsCompilation: no
+
+Package: pd.moe430b
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a4bc64b07b24bb94e0f06d0693aa7627
+NeedsCompilation: no
+
+Package: pd.moex.1.0.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 473d0ebea7e797d8560ab110b72a3b8a
+NeedsCompilation: no
+
+Package: pd.mogene.1.0.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8fd3d3b050443c29ee70a45b2e9b7e59
+NeedsCompilation: no
+
+Package: pd.mogene.1.1.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: ec7f7f62fa0cfc85a9e94cd1d4f97e54
+NeedsCompilation: no
+
+Package: pd.mogene.2.0.st
+Site: bioconductor_annotation
+Version: 2.12.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 1df9283d2a6dc3b52059d84443981501
+NeedsCompilation: no
+
+Package: pd.mogene.2.1.st
+Site: bioconductor_annotation
+Version: 2.12.1
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: fb182a140c6475f24f9c2b6a00b7d96f
+NeedsCompilation: no
+
+Package: pd.mouse430.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 41f76da7c99880c8e24974e0bb1e9b9e
+NeedsCompilation: no
+
+Package: pd.mouse430a.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 1130a760f91d4b253834edb0d2867771
+NeedsCompilation: no
+
+Package: pd.mu11ksuba
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: f9fa41d16e5feb2e82e85aa6e4ef91dd
+NeedsCompilation: no
+
+Package: pd.mu11ksubb
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8a4fa42427a1840c0503d010a8892a39
+NeedsCompilation: no
+
+Package: pd.ovigene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 7aab7c68ae624edce2b8cb9ee9abfab8
+NeedsCompilation: no
+
+Package: pd.ovigene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: f89df53a9e48b3a499c9a35a63b973e4
+NeedsCompilation: no
+
+Package: pd.pae.g1a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: b85085ca2c98a0db2a225695cae23a50
+NeedsCompilation: no
+
+Package: pd.plasmodium.anopheles
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 6172346faeb8f8ee7b1ac09fddc7a22e
+NeedsCompilation: no
+
+Package: pd.poplar
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 44996e5b624d354c93b86a8a50f94c20
+NeedsCompilation: no
+
+Package: pd.porcine
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 5b794f3aceeea3e8d0ad28d37f803ec5
+NeedsCompilation: no
+
+Package: pd.porgene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 0d2367a5cdb09febb984617696bc8880
+NeedsCompilation: no
+
+Package: pd.porgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: dbb149725e83b9bfecedea299af80b67
+NeedsCompilation: no
+
+Package: pd.rae230a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 89772a78de8f3099036e4c9f65787824
+NeedsCompilation: no
+
+Package: pd.rae230b
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 17f565e6e645db1a513811c47fa2e060
+NeedsCompilation: no
+
+Package: pd.raex.1.0.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 08e1f76f5a6cde5f06d7502324659fd5
+NeedsCompilation: no
+
+Package: pd.ragene.1.0.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 40d0c0a747bf0c566feb54883aed75c0
+NeedsCompilation: no
+
+Package: pd.ragene.1.1.st.v1
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a1403d4168ae03bbd33fa198f8ab195c
+NeedsCompilation: no
+
+Package: pd.ragene.2.0.st
+Site: bioconductor_annotation
+Version: 2.12.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 9876cf4740e56c192c007d516685613a
+NeedsCompilation: no
+
+Package: pd.ragene.2.1.st
+Site: bioconductor_annotation
+Version: 2.12.1
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: af2ef4e66d2b8d784b1df6a5c39d2efb
+NeedsCompilation: no
+
+Package: pd.rat230.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 2864f12948400063afe860781898e0c2
+NeedsCompilation: no
+
+Package: pd.rcngene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8dc2591ade8bcbe23bfaaae7edd6d430
+NeedsCompilation: no
+
+Package: pd.rg.u34a
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 7a5e4af2ea773c5f42ea40536d08b301
+NeedsCompilation: no
+
+Package: pd.rg.u34b
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 23b6bc4124506b14aeea54554f9ee3b4
+NeedsCompilation: no
+
+Package: pd.rg.u34c
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 6fe0fc2bf7dfc0b8ae45ae039e40d1e0
+NeedsCompilation: no
+
+Package: pd.rhegene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a8d71bc1d5858f8df334754bb4131c04
+NeedsCompilation: no
+
+Package: pd.rhegene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 88893a64c0cbbfd35995601dcc13a688
+NeedsCompilation: no
+
+Package: pd.rhesus
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 0b6378ed7e1fb28b6489560039a29544
+NeedsCompilation: no
+
+Package: pd.rice
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: aceb41cb2940bb6f3163382290d207b7
+NeedsCompilation: no
+
+Package: pd.rjpgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 676d24092b0805684779ced780f73e4f
+NeedsCompilation: no
+
+Package: pd.rn.u34
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 56b662e1f38addd70e589132fdc47745
+NeedsCompilation: no
+
+Package: pd.s.aureus
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 854ff1240b99ceba73c16ab1b70f5911
+NeedsCompilation: no
+
+Package: pd.soybean
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: dfd7de85e0a2f5b2214e37b81b392373
+NeedsCompilation: no
+
+Package: pd.soygene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: c26c33bcbad514baa3a856db735b26f6
+NeedsCompilation: no
+
+Package: pd.sugar.cane
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: edd2df3d15d63bdd2305e993eb16f5a0
+NeedsCompilation: no
+
+Package: pd.tomato
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 2099699199e8eaea587424b0f4001d68
+NeedsCompilation: no
+
+Package: pd.u133.x3p
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: d26707a6099623f7f8e00eaa09e7d5ae
+NeedsCompilation: no
+
+Package: pd.vitis.vinifera
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8a509b68a038ff1724bbe571653f52ef
+NeedsCompilation: no
+
+Package: pd.wheat
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 8dea5866750d4ab5d6ae3b51d4148641
+NeedsCompilation: no
+
+Package: pd.x.laevis.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 9198d6cfdc92b28f6833fab85c645a4a
+NeedsCompilation: no
+
+Package: pd.x.tropicalis
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 08b36c7357673316a7ffacf0a626bebf
+NeedsCompilation: no
+
+Package: pd.xenopus.laevis
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: cc164fb5c206c6b369302480b8a4a01c
+NeedsCompilation: no
+
+Package: pd.yeast.2
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 935dda24e9838f8c7a9d896536ed9bab
+NeedsCompilation: no
+
+Package: pd.yg.s98
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: e9a37fdc2e4ae33bfa7a7f29ab5bbc69
+NeedsCompilation: no
+
+Package: pd.zebgene.1.0.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 921466b00364367527eb3e5299b298c9
+NeedsCompilation: no
+
+Package: pd.zebgene.1.1.st
+Site: bioconductor_annotation
+Version: 3.8.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: 3525bacf864101c7cb1875a34bd5a26d
+NeedsCompilation: no
+
+Package: pd.zebrafish
+Site: bioconductor_annotation
+Version: 1.10.0
+Depends: R (>= 2.15.0), methods, RSQLite (>= 0.11.1), oligoClasses (>= 1.19.41), oligo (>= 1.21.5), DBI
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.43)
+License: Artistic-2.0
+MD5sum: a7a0b2d4a578f3594cf4f868d6f285f9
+NeedsCompilation: no
+
+Package: pedbarrayv10.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 902b35fc496754f9f28453b80d93c6b3
+NeedsCompilation: no
+
+Package: pedbarrayv9.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: dbf5030081e1079304e41403037b119e
+NeedsCompilation: no
+
+Package: PFAM.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 08e0a8c5ea494f9567e8f6ec163280b3
+NeedsCompilation: no
+
+Package: pig.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 08eb0b39409b2ea0494a3bd011b6c2f8
+NeedsCompilation: no
+
+Package: plasmodiumanophelescdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 1fb66ea57d9d10ab831796ec546837ea
+NeedsCompilation: no
+
+Package: plasmodiumanophelesprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 62ad6b6f98dba77d5f08249ba19da5b1
+NeedsCompilation: no
+
+Package: POCRCannotation.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7e6cb0dd8ab3e5683a451d66632cf468
+NeedsCompilation: no
+
+Package: PolyPhen.Hsapiens.dbSNP131
+Site: bioconductor_annotation
+Version: 1.0.2
+Depends: VariantAnnotation, RSQLite (>= 0.11.0)
+Imports: AnnotationDbi
+License: Artistic-2.0
+MD5sum: 763e9cd4afd97b36f7e659f5454ef61f
+NeedsCompilation: no
+
+Package: poplarcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 853e17998da21e06f66eec5c0fbf5fbb
+NeedsCompilation: no
+
+Package: poplarprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 9e49de6e92055d725f8487cade3154ba
+NeedsCompilation: no
+
+Package: porcine.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Ss.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 91eb07bc113adf6eaa0e99568951a1bb
+NeedsCompilation: no
+
+Package: porcinecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: f0029375e6422e5d4bb38ce4fd74f1a2
+NeedsCompilation: no
+
+Package: porcineprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 6010c21dbf8561a26979b370d7c47920
+NeedsCompilation: no
+
+Package: primeviewcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ae3830bb18d0463af181dcbfe6f4ca61
+NeedsCompilation: no
+
+Package: primeviewprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: b1271b0a0d0526384a05e3ef94793366
+NeedsCompilation: no
+
+Package: r10kcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7abf3a87451c68d6cffc26b32be93215
+NeedsCompilation: no
+
+Package: rae230a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: f1231118f20fabef44896641832a7c5e
+NeedsCompilation: no
+
+Package: rae230acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 1817152d3119226f96096297fb79e4b7
+NeedsCompilation: no
+
+Package: rae230aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 68f5551fbc85b5158d1ae1f47a600503
+NeedsCompilation: no
+
+Package: rae230b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ed25f43624f51c48019ae0632c8a0a64
+NeedsCompilation: no
+
+Package: rae230bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 5ae1a427070f78ccb785a4b130eae2a3
+NeedsCompilation: no
+
+Package: rae230bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 53924adcce162e21b94bf70676666989
+NeedsCompilation: no
+
+Package: RaExExonProbesetLocation
+Site: bioconductor_annotation
+Version: 1.0.5
+Depends: R (>= 1.6), AnnotationDbi (>= 1.1.10)
+License: LGPL
+MD5sum: 08564d3e0d5ea1628db19b9ee2aef40a
+NeedsCompilation: no
+
+Package: ragene10stprobeset.db
+Site: bioconductor_annotation
+Version: 7.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Rn.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: a416bf1d71b21ffcbe57474886e093d6
+NeedsCompilation: no
+
+Package: ragene10sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 7.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Rn.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 3a1b9484080554bf114b1075cac40928
+NeedsCompilation: no
+
+Package: ragene10stv1cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: d475ecd68ab86eb615bf75bf478ad801
+NeedsCompilation: no
+
+Package: ragene10stv1probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 7d457754bcce6f3da61cc23a0202d7e6
+NeedsCompilation: no
+
+Package: ragene11stprobeset.db
+Site: bioconductor_annotation
+Version: 4.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Rn.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 7086e31a4a620853be018a12c6f9f6cf
+NeedsCompilation: no
+
+Package: ragene11sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 4.0.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.15.34), org.Rn.eg.db (>= 2.6.3)
+Imports: methods, AnnotationDbi
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 74816aa167cd59a012ba997ee6408c53
+NeedsCompilation: no
+
+Package: ragene20stprobeset.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 03022e289e6e58561f999bafc94c9802
+NeedsCompilation: no
+
+Package: ragene20sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 30350f10beb8b12bd06770ad740450a0
+NeedsCompilation: no
+
+Package: ragene21stprobeset.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 7520d7f9ef9f76472fe56c49d34e904d
+NeedsCompilation: no
+
+Package: ragene21sttranscriptcluster.db
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.27), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2233fe8059b92a4dcdfaf2042c577be8
+NeedsCompilation: no
+
+Package: rat.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.15)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: dde60f61ed0f64d047d0b22ed2735f7d
+NeedsCompilation: no
+
+Package: rat2302.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ddeff1f70279be98a81493e764fcdcf1
+NeedsCompilation: no
+
+Package: rat2302cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ae518a1f673c395ea09417aacb5d5435
+NeedsCompilation: no
+
+Package: rat2302probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: fe447e8c01d0e51899f5ae0e08eda923
+NeedsCompilation: no
+
+Package: ratCHRLOC
+Site: bioconductor_annotation
+Version: 2.1.6
+Depends: R(>= 2.7.0)
+License: Artistic-2.0
+MD5sum: 6fecff4821a5a47e3bd38a2ff78173d5
+NeedsCompilation: no
+
+Package: rattoxfxcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 59926b10eb573d7cc9823f739e7fd64f
+NeedsCompilation: no
+
+Package: rattoxfxprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: b39409bcae6fdd4171fc2cde062bd75b
+NeedsCompilation: no
+
+Package: Rattus.norvegicus
+Site: bioconductor_annotation
+Version: 1.1.2
+Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db, org.Rn.eg.db, TxDb.Rnorvegicus.UCSC.rn5.refGene
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: ae84624b858b862e73a66ae1a1b9540b
+NeedsCompilation: no
+
+Package: reactome.db
+Site: bioconductor_annotation
+Version: 1.46.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.11.8)
+Imports: methods, AnnotationDbi
+License: CC BY 3.0
+MD5sum: ebeeb52275f6c35c2b25ba70192aea81
+NeedsCompilation: no
+
+Package: rgu34a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: ddc82d3aacff192f7317399f38337e2b
+NeedsCompilation: no
+
+Package: rgu34acdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 87c8cec0ad0ee868e31910d36762f575
+NeedsCompilation: no
+
+Package: rgu34aprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 79a40c9bb51913ac0773a1f4f0076fae
+NeedsCompilation: no
+
+Package: rgu34b.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: e3c0cdc2222633837f52e9c1ecb7b896
+NeedsCompilation: no
+
+Package: rgu34bcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 031ac23d9e29644fcfef8398ce8a069b
+NeedsCompilation: no
+
+Package: rgu34bprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 5a7d101aafcd3029676d09104be56aaa
+NeedsCompilation: no
+
+Package: rgu34c.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 282c62bd533737fe9df79b59142ccd16
+NeedsCompilation: no
+
+Package: rgu34ccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a4c97715ba6f6f7e838d1ce0bad1db59
+NeedsCompilation: no
+
+Package: rgu34cprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 7ec13605cbde29170e9a477132e6d6d7
+NeedsCompilation: no
+
+Package: rguatlas4k.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 755574e97fe4f4ac400a60467a7b1b1e
+NeedsCompilation: no
+
+Package: rgug4105a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 21ac2d5bd52f868894b764ac54686eeb
+NeedsCompilation: no
+
+Package: rgug4130a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: d3712174d1a49ae5d04c4b010d2a1ca9
+NeedsCompilation: no
+
+Package: rgug4131a.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: b46c13258a299b384062adbe0bb6072b
+NeedsCompilation: no
+
+Package: rhesus.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.7.0)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 2d92856ba7c87838c8fe6b716387800e
+NeedsCompilation: no
+
+Package: rhesuscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 54d654024ff41d0d1268add1d3e7c303
+NeedsCompilation: no
+
+Package: rhesusprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: ce5c1331c565382653c0b6a3cd34ad17
+NeedsCompilation: no
+
+Package: ri16cod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9aae7eb7eaa260272c199c2db6212983
+NeedsCompilation: no
+
+Package: ricecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: f5ee1d4fd455af0ad7fda2162077e0c6
+NeedsCompilation: no
+
+Package: riceprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 8ab4d10eadb108a16a596c75b060be91
+NeedsCompilation: no
+
+Package: RmiR.Hs.miRNA
+Site: bioconductor_annotation
+Version: 1.0.7
+Depends: R (>= 2.7.0)
+Imports: AnnotationDbi
+Suggests: methods, hgug4112a.db
+License: Artistic-2.0
+MD5sum: 4aedac188382447d9907d2617aa2e8e6
+NeedsCompilation: no
+
+Package: RmiR.hsa
+Site: bioconductor_annotation
+Version: 1.0.5
+Depends: R (>= 2.7.0)
+Imports: AnnotationDbi
+Suggests: methods, hgug4112a.db
+License: Artistic-2.0
+MD5sum: f22a18d1a34d12f8fc4ba3daaf1379fd
+NeedsCompilation: no
+
+Package: RnAgilentDesign028282.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 2ac84d78fae806f1cf5b32b2e8677f3b
+NeedsCompilation: no
+
+Package: rnu34.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 715d9f8850b4601919da127f332fffa2
+NeedsCompilation: no
+
+Package: rnu34cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 1d128ca2f91e0ce0106cf6ad8d478760
+NeedsCompilation: no
+
+Package: rnu34probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 54e1bb9e3f89e055ff56b325f187d6be
+NeedsCompilation: no
+
+Package: Roberts2005Annotation.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 3950ebfea9447f651cae75c05cbeff0d
+NeedsCompilation: no
+
+Package: rtu34.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Rn.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 0d684274001c0af35d46b1189a7daeef
+NeedsCompilation: no
+
+Package: rtu34cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ec286f5d58d07c91d509467d8717c802
+NeedsCompilation: no
+
+Package: rtu34probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 6b47bdef6ca1a70bad4e383eb8ef9e98
+NeedsCompilation: no
+
+Package: rwgcod.db
+Site: bioconductor_annotation
+Version: 2.17.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25), org.Rn.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 08f9e2dbb28bb1b45167db9621237e46
+NeedsCompilation: no
+
+Package: saureuscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a783fad796f45365b2317ce4b8682a2a
+NeedsCompilation: no
+
+Package: saureusprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: cd858a20100f226331e00a47ff13426d
+NeedsCompilation: no
+
+Package: seqnames.db
+Site: bioconductor_annotation
+Version: 1.0.1
+Depends: R (>= 2.15.0), methods, AnnotationDbi (>= 1.19.4)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: dee48e4f7dae2e7051edb0273f17d42c
+NeedsCompilation: no
+
+Package: SHDZ.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: fda2cd353bc37b65de7f31d3cd3af13b
+NeedsCompilation: no
+
+Package: SIFT.Hsapiens.dbSNP132
+Site: bioconductor_annotation
+Version: 1.0.2
+Depends: VariantAnnotation, RSQLite (>= 0.11.0)
+Imports: AnnotationDbi
+License: Artistic-2.0
+MD5sum: c374f0bf4c99357cfe99e0b192c00d75
+NeedsCompilation: no
+
+Package: SNPlocs.Hsapiens.dbSNP.20090506
+Site: bioconductor_annotation
+Version: 0.99.8
+Depends: R (>= 2.10), IRanges, GenomicRanges, BSgenome (>= 1.25.6)
+Imports: methods, utils, IRanges, GenomicRanges, BSgenome
+Suggests: Biostrings, BSgenome.Hsapiens.UCSC.hg18 (>= 1.3.19)
+License: Artistic-2.0
+MD5sum: 46669d54d387efee823874b6cf122f94
+NeedsCompilation: no
+
+Package: SNPlocs.Hsapiens.dbSNP.20100427
+Site: bioconductor_annotation
+Version: 0.99.6
+Depends: R (>= 2.10), IRanges, GenomicRanges
+Imports: methods, IRanges, GenomicRanges
+Suggests: Biostrings, BSgenome (>= 1.16.1), BSgenome.Hsapiens.UCSC.hg19
+License: Artistic-2.0
+MD5sum: 8d9fe0843a7d66ec945861944eb14e93
+NeedsCompilation: no
+
+Package: SNPlocs.Hsapiens.dbSNP.20101109
+Site: bioconductor_annotation
+Version: 0.99.6
+Depends: R (>= 2.10), IRanges, GenomicRanges
+Imports: methods, IRanges, GenomicRanges
+Suggests: Biostrings, BSgenome (>= 1.16.1), BSgenome.Hsapiens.UCSC.hg19
+License: Artistic-2.0
+MD5sum: 5f3c0b9ba05f4bd0ce206d2e45a1863a
+NeedsCompilation: no
+
+Package: SNPlocs.Hsapiens.dbSNP.20110815
+Site: bioconductor_annotation
+Version: 0.99.6
+Depends: R (>= 2.10), IRanges, GenomicRanges
+Imports: methods, IRanges, GenomicRanges
+Suggests: Biostrings, BSgenome (>= 1.16.1), BSgenome.Hsapiens.UCSC.hg19
+License: Artistic-2.0
+MD5sum: c8da339bcd83d1fb2ead4b11c3adac53
+NeedsCompilation: no
+
+Package: SNPlocs.Hsapiens.dbSNP.20111119
+Site: bioconductor_annotation
+Version: 0.99.6
+Depends: R (>= 2.10), IRanges, GenomicRanges
+Imports: methods, IRanges, GenomicRanges
+Suggests: Biostrings, BSgenome (>= 1.16.1), BSgenome.Hsapiens.UCSC.hg19
+License: Artistic-2.0
+MD5sum: 6c638368fa925b471d1eebbb1e62c616
+NeedsCompilation: no
+
+Package: SNPlocs.Hsapiens.dbSNP.20120608
+Site: bioconductor_annotation
+Version: 0.99.9
+Depends: R (>= 2.10), IRanges, GenomicRanges, BSgenome (>= 1.25.6)
+Imports: methods, utils, IRanges, GenomicRanges, BSgenome
+Suggests: Biostrings, BSgenome.Hsapiens.UCSC.hg19 (>= 1.3.19)
+License: Artistic-2.0
+MD5sum: f6d9a914f4a984e783a0d281ecc597e1
+NeedsCompilation: no
+
+Package: soybeancdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 1e41073c84fa854f50164b3557311e1d
+NeedsCompilation: no
+
+Package: soybeanprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 6addc1bcf61d796581bdfada4630952a
+NeedsCompilation: no
+
+Package: sugarcanecdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: c0deec69508138e783cf5e1126ae3e56
+NeedsCompilation: no
+
+Package: sugarcaneprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: e7bc06d3a349b9e6d2887270d114c00b
+NeedsCompilation: no
+
+Package: targetscan.Hs.eg.db
+Site: bioconductor_annotation
+Version: 0.6.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.18.3)
+Imports: methods, AnnotationDbi
+License: file LICENSE
+License_restricts_use: no
+MD5sum: d10569315400f6c1b95ad2688632b6de
+NeedsCompilation: no
+
+Package: targetscan.Mm.eg.db
+Site: bioconductor_annotation
+Version: 0.6.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.18.3)
+Imports: methods, AnnotationDbi
+License: file LICENSE
+License_restricts_use: no
+MD5sum: 1830815c9d1383739f1ff152da0508c5
+NeedsCompilation: no
+
+Package: test1cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 66a8a450bff7586108eb8c24d70921d8
+NeedsCompilation: no
+
+Package: test2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: c3fd3f567f3d3d4c8809e4e638335dda
+NeedsCompilation: no
+
+Package: test3cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 67617abf70ce2fa19e9c03f2201b5ec6
+NeedsCompilation: no
+
+Package: test3probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 696303e88f3c50ecc86f09cddae7cdb1
+NeedsCompilation: no
+
+Package: tomatocdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 421b9dd87d2a86e134172cb4973617ee
+NeedsCompilation: no
+
+Package: tomatoprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 168bfdc2936f2e55f66e99e78e1da004
+NeedsCompilation: no
+
+Package: TxDb.Athaliana.BioMart.plantsmart10
+Site: bioconductor_annotation
+Version: 2.6.2
+Depends: GenomicFeatures (>= 1.5.27)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 3a0e2451d90de453ed6d3a2dc7a0d97f
+NeedsCompilation: no
+
+Package: TxDb.Athaliana.BioMart.plantsmart12
+Site: bioconductor_annotation
+Version: 2.7.1
+Depends: GenomicFeatures (>= 1.7.30)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: c84c4d2fff8d56b38eb7e5bb3f4b49d7
+NeedsCompilation: no
+
+Package: TxDb.Athaliana.BioMart.plantsmart14
+Site: bioconductor_annotation
+Version: 2.8.0
+Depends: GenomicFeatures (>= 1.9.39)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 998b97732ba8f716d85f2533aa7ed71d
+NeedsCompilation: no
+
+Package: TxDb.Athaliana.BioMart.plantsmart16
+Site: bioconductor_annotation
+Version: 2.9.0
+Depends: GenomicFeatures (>= 1.11.14)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: c6bb735cf94d0b3995a6d6b7ef04f38c
+NeedsCompilation: no
+
+Package: TxDb.Athaliana.BioMart.plantsmart19
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 8376e7b34d58843e9dccdf48b8d39ee7
+NeedsCompilation: no
+
+Package: TxDb.Celegans.UCSC.ce6.ensGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: a11cffb59f300fab813cecd4c4b79bb7
+NeedsCompilation: no
+
+Package: TxDb.Dmelanogaster.UCSC.dm3.ensGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: fae4b661ac998c32512715e91ffb0f7e
+NeedsCompilation: no
+
+Package: TxDb.Hsapiens.UCSC.hg18.knownGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 5bc079b70a69c43db8fef95c098841a6
+NeedsCompilation: no
+
+Package: TxDb.Hsapiens.UCSC.hg19.knownGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 72e7e881eaf990225e48f068de8d794f
+NeedsCompilation: no
+
+Package: TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 7e5d3b690b34d20316f9849cd71add6e
+NeedsCompilation: no
+
+Package: TxDb.Mmusculus.UCSC.mm10.ensGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 758998afbf6ae50bc97055d7ca809f29
+NeedsCompilation: no
+
+Package: TxDb.Mmusculus.UCSC.mm10.knownGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 8ede808d0527c0998a7cb1cade60bc65
+NeedsCompilation: no
+
+Package: TxDb.Mmusculus.UCSC.mm9.knownGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 634d3f363f96f65337a2c02c9581293c
+NeedsCompilation: no
+
+Package: TxDb.Rnorvegicus.UCSC.rn4.ensGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 5ae8867c16276a08b6edff71400dae6d
+NeedsCompilation: no
+
+Package: TxDb.Rnorvegicus.UCSC.rn5.refGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 76be65d17dfe91cbc5591f13864ae7a0
+NeedsCompilation: no
+
+Package: TxDb.Scerevisiae.UCSC.sacCer2.sgdGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 235cdec7f8a972abf2ff9effc5f6ec87
+NeedsCompilation: no
+
+Package: TxDb.Scerevisiae.UCSC.sacCer3.sgdGene
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: GenomicFeatures (>= 1.13.40)
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 8dc3373c0e84bda16026adc7554573c2
+NeedsCompilation: no
+
+Package: u133aaofav2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 290beb74e6b08a72f821c95289e4181e
+NeedsCompilation: no
+
+Package: u133x3p.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Hs.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 9491cbfb49e501af489d063357831ea3
+NeedsCompilation: no
+
+Package: u133x3pcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: ac287c0ae4c2a6a7029c3e5cebaeceea
+NeedsCompilation: no
+
+Package: u133x3pprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: cbdb2da501c10965f59725c775e182b1
+NeedsCompilation: no
+
+Package: vitisviniferacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 0418ae6ef3bf6da4aac94c95a97b7af8
+NeedsCompilation: no
+
+Package: vitisviniferaprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 5b975af064dea3df0016732e2e87b204
+NeedsCompilation: no
+
+Package: wheatcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 2e9f7f8713f11bef68b01859f9815faa
+NeedsCompilation: no
+
+Package: wheatprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 1710407c2efb250d0283bba2d64df0cf
+NeedsCompilation: no
+
+Package: worm.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: e8886c631fc43fcc2f0e7793a9fd814e
+NeedsCompilation: no
+
+Package: xenopus.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.7.0)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: a04cb2a71d47f91cb164eda447864bc7
+NeedsCompilation: no
+
+Package: xenopuslaeviscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 8053545b3a6e827bd1d592384a4623fe
+NeedsCompilation: no
+
+Package: xenopuslaevisprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: f0ef9bc8b3c32d2a241972a088ad1f1d
+NeedsCompilation: no
+
+Package: xlaevis.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Xl.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 4df3b4d02778563130a1d4ec3f4fb4c1
+NeedsCompilation: no
+
+Package: xlaevis2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: cc930dadb855cfaef77cc2eda3a73031
+NeedsCompilation: no
+
+Package: xlaevis2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: d5a641caac55a5824506801112abd2d9
+NeedsCompilation: no
+
+Package: xtropicaliscdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 35fc58159179f341b57e26a23d5ef411
+NeedsCompilation: no
+
+Package: xtropicalisprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: c101c651cd2d1017fc2ec7eb83623c8f
+NeedsCompilation: no
+
+Package: ye6100subacdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b880b1c79f5a4b4e824dfb99b803248a
+NeedsCompilation: no
+
+Package: ye6100subbcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 8ca3646ae5db30511a8aff44f1f4faa5
+NeedsCompilation: no
+
+Package: ye6100subccdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: a08b94c1fab2265f5c0ce7169d25f812
+NeedsCompilation: no
+
+Package: ye6100subdcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: 12fbd9cbddd0dd5ae41eae7c54cd0767
+NeedsCompilation: no
+
+Package: yeast.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.15)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 37867f7d4cf8c454ea6f2acbc08bd88b
+NeedsCompilation: no
+
+Package: yeast2.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Sc.sgd.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: b0d63c3127b36954c1b059803af10680
+NeedsCompilation: no
+
+Package: yeast2cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: da6bc01a10c5a31058f51da77efbbed5
+NeedsCompilation: no
+
+Package: yeast2probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 139f76623764558e704566f40eff983c
+NeedsCompilation: no
+
+Package: ygs98.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Sc.sgd.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: d0f733b11c00741c71dba26745e4feb9
+NeedsCompilation: no
+
+Package: ygs98cdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: b88c0bd59177aa1d1038f6167e9e4b24
+NeedsCompilation: no
+
+Package: ygs98frmavecs
+Site: bioconductor_annotation
+Version: 1.1.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: a3b5bd475a6d82f6c136a9e4c564586f
+NeedsCompilation: no
+
+Package: ygs98probe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: ab6d1a203cba4d236945041cbdb527f2
+NeedsCompilation: no
+
+Package: zebrafish.db
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.24), org.Dr.eg.db (>= 2.10.0)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: bfe11c63e8a0f73094a67eeddae422e2
+NeedsCompilation: no
+
+Package: zebrafish.db0
+Site: bioconductor_annotation
+Version: 2.10.1
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.1.28)
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 8f0281ab03993aa02ce172a217905618
+NeedsCompilation: no
+
+Package: zebrafishcdf
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: utils
+License: LGPL
+MD5sum: fab81c5be225afe4fd1adba4d901475b
+NeedsCompilation: no
+
+Package: zebrafishprobe
+Site: bioconductor_annotation
+Version: 2.13.0
+Depends: R (>= 1.6), AnnotationDbi (>= 1.3.27)
+License: LGPL
+MD5sum: 7186a171f2fba60ec660ce3333bf6ece
+NeedsCompilation: no
