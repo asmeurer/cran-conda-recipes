@@ -1,0 +1,34 @@
+package:
+  name: r-pd.mg.u74c
+  version: 1.10.0
+
+source:
+  fn: pd.mg.u74c_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mg.u74c_1.10.0.tar.gz
+    - 7354af5f1c744e8df2fffad1913fe34e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

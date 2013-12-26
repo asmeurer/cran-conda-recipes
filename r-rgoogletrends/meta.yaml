@@ -1,0 +1,28 @@
+package:
+  name: r-rgoogletrends
+  version: 0.2.1
+
+source:
+  fn: RGoogleTrends_0.2-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RGoogleTrends_0.2-1.tar.gz
+    - 997ca2bc169f566e4b3bf9aa3133c6ef
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-rsqlite
+    - r-dbi
+  run:
+    - r
+    - r-rcurl
+    - r-rsqlite
+    - r-dbi
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

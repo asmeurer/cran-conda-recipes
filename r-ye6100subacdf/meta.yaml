@@ -1,0 +1,22 @@
+package:
+  name: r-ye6100subacdf
+  version: 2.13.0
+
+source:
+  fn: ye6100subacdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ye6100subacdf_2.13.0.tar.gz
+    - b880b1c79f5a4b4e824dfb99b803248a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

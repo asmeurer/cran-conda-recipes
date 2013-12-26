@@ -1,0 +1,24 @@
+package:
+  name: r-hu35ksubdprobe
+  version: 2.13.0
+
+source:
+  fn: hu35ksubdprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu35ksubdprobe_2.13.0.tar.gz
+    - a82d6f271c61b51c0c7e53d9ee527512
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

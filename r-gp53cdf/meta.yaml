@@ -1,0 +1,22 @@
+package:
+  name: r-gp53cdf
+  version: 2.13.0
+
+source:
+  fn: gp53cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gp53cdf_2.13.0.tar.gz
+    - f735b0b6142d900fa1c1dd039fca9ba9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

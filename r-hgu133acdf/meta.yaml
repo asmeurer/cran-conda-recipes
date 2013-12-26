@@ -1,0 +1,22 @@
+package:
+  name: r-hgu133acdf
+  version: 2.13.0
+
+source:
+  fn: hgu133acdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133acdf_2.13.0.tar.gz
+    - 83558169c5b1cbf7f280e5c6ec8de3df
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

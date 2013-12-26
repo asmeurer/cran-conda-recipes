@@ -1,0 +1,24 @@
+package:
+  name: r-moe430aprobe
+  version: 2.13.0
+
+source:
+  fn: moe430aprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/moe430aprobe_2.13.0.tar.gz
+    - 85c5cbf8fd4a9031d49d8e1102e07229
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

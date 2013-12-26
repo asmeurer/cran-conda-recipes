@@ -1,0 +1,24 @@
+package:
+  name: r-gahgu95b.db
+  version: 2.2.0
+
+source:
+  fn: gahgu95b.db_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95b.db_2.2.0.tar.gz
+    - 8f37e5896f06d7a2b916f25f1f862e7d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

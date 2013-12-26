@@ -1,0 +1,24 @@
+package:
+  name: r-test3probe
+  version: 2.13.0
+
+source:
+  fn: test3probe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/test3probe_2.13.0.tar.gz
+    - 696303e88f3c50ecc86f09cddae7cdb1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

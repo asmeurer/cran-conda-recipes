@@ -1,0 +1,24 @@
+package:
+  name: r-wheatprobe
+  version: 2.13.0
+
+source:
+  fn: wheatprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/wheatprobe_2.13.0.tar.gz
+    - 1710407c2efb250d0283bba2d64df0cf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

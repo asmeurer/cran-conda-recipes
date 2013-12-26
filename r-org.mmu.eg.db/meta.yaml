@@ -1,0 +1,24 @@
+package:
+  name: r-org.mmu.eg.db
+  version: 2.10.1
+
+source:
+  fn: org.Mmu.eg.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Mmu.eg.db_2.10.1.tar.gz
+    - 0fedbb88277022b4d4dc7bafd1ed828f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

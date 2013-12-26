@@ -1,0 +1,22 @@
+package:
+  name: r-mu11ksubacdf
+  version: 2.13.0
+
+source:
+  fn: mu11ksubacdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu11ksubacdf_2.13.0.tar.gz
+    - ecd868c158ce46072d70b89a40ee291c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

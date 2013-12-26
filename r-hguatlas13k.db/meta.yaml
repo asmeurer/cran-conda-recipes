@@ -1,0 +1,26 @@
+package:
+  name: r-hguatlas13k.db
+  version: 2.10.1
+
+source:
+  fn: hguatlas13k.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hguatlas13k.db_2.10.1.tar.gz
+    - 0dc276155395be012aa1a3d7a5301266
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,28 @@
+package:
+  name: r-ramazons3
+  version: 0.1.5
+
+source:
+  fn: RAmazonS3_0.1-5.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RAmazonS3_0.1-5.tar.gz
+    - 69b32dd8a4c324a0ebe66fb962f049cc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-xml
+    - r-digest
+  run:
+    - r
+    - r-rcurl
+    - r-xml
+    - r-digest
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

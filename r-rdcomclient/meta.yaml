@@ -1,0 +1,22 @@
+package:
+  name: r-rdcomclient
+  version: 0.93.0
+
+source:
+  fn: RDCOMClient_0.93-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RDCOMClient_0.93-0.tar.gz
+    - c2ee71f737aeae0a03d7a82f1876cce4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

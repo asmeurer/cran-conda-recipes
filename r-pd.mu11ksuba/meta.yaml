@@ -1,0 +1,34 @@
+package:
+  name: r-pd.mu11ksuba
+  version: 1.10.0
+
+source:
+  fn: pd.mu11ksuba_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mu11ksuba_1.10.0.tar.gz
+    - f9fa41d16e5feb2e82e85aa6e4ef91dd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

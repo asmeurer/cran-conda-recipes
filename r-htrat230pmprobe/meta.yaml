@@ -1,0 +1,24 @@
+package:
+  name: r-htrat230pmprobe
+  version: 2.13.0
+
+source:
+  fn: htrat230pmprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htrat230pmprobe_2.13.0.tar.gz
+    - b8a037ad47e5b5afb2bf5ecf87d17cdb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

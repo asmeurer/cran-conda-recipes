@@ -1,0 +1,26 @@
+package:
+  name: r-hwgcod.db
+  version: 2.17.0
+
+source:
+  fn: hwgcod.db_2.17.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hwgcod.db_2.17.0.tar.gz
+    - b575c0cf5301e6e6f7e55069f675e852
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

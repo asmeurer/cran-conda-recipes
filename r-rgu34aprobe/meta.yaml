@@ -1,0 +1,24 @@
+package:
+  name: r-rgu34aprobe
+  version: 2.13.0
+
+source:
+  fn: rgu34aprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rgu34aprobe_2.13.0.tar.gz
+    - 79a40c9bb51913ac0773a1f4f0076fae
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

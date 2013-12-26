@@ -1,0 +1,34 @@
+package:
+  name: r-pd.citrus
+  version: 1.10.0
+
+source:
+  fn: pd.citrus_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.citrus_1.10.0.tar.gz
+    - 6452922b28d6cd0566f144275ee1e061
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

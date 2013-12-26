@@ -1,0 +1,24 @@
+package:
+  name: r-rautogenruntime
+  version: 0.3.0
+
+source:
+  fn: RAutoGenRunTime_0.3-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RAutoGenRunTime_0.3-0.tar.gz
+    - 8fa7739e166eacf7f7c05636f7778369
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bitops
+  run:
+    - r
+    - r-bitops
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

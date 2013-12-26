@@ -1,0 +1,24 @@
+package:
+  name: r-rmir.hsa
+  version: 1.0.5
+
+source:
+  fn: RmiR.hsa_1.0.5.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/RmiR.hsa_1.0.5.tar.gz
+    - f22a18d1a34d12f8fc4ba3daaf1379fd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

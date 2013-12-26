@@ -1,0 +1,22 @@
+package:
+  name: r-rattoxfxcdf
+  version: 2.13.0
+
+source:
+  fn: rattoxfxcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rattoxfxcdf_2.13.0.tar.gz
+    - 59926b10eb573d7cc9823f739e7fd64f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

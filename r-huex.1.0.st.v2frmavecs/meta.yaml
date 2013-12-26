@@ -1,0 +1,22 @@
+package:
+  name: r-huex.1.0.st.v2frmavecs
+  version: 1.0.0
+
+source:
+  fn: huex.1.0.st.v2frmavecs_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/huex.1.0.st.v2frmavecs_1.0.0.tar.gz
+    - 237f0b89ef5c159cb7df2f85e8817f31
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

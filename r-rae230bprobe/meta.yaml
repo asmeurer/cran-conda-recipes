@@ -1,0 +1,24 @@
+package:
+  name: r-rae230bprobe
+  version: 2.13.0
+
+source:
+  fn: rae230bprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rae230bprobe_2.13.0.tar.gz
+    - 53924adcce162e21b94bf70676666989
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

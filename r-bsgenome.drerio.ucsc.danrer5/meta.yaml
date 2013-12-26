@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.drerio.ucsc.danrer5
+  version: 1.3.17
+
+source:
+  fn: BSgenome.Drerio.UCSC.danRer5_1.3.17.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Drerio.UCSC.danRer5_1.3.17.tar.gz
+    - f65fa91690bd5f6acc0cf22ffcd6afdd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

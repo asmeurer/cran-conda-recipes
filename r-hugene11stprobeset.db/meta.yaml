@@ -1,0 +1,26 @@
+package:
+  name: r-hugene11stprobeset.db
+  version: 4.0.1
+
+source:
+  fn: hugene11stprobeset.db_4.0.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene11stprobeset.db_4.0.1.tar.gz
+    - f5d12bdb6e4dec92c519e7efbe36e7dc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,34 @@
+package:
+  name: r-pd.drosgenome1
+  version: 1.10.0
+
+source:
+  fn: pd.drosgenome1_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.drosgenome1_1.10.0.tar.gz
+    - 852f2d93323f62486d4bcbd891d9b582
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

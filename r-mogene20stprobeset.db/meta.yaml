@@ -1,0 +1,26 @@
+package:
+  name: r-mogene20stprobeset.db
+  version: 2.13.0
+
+source:
+  fn: mogene20stprobeset.db_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene20stprobeset.db_2.13.0.tar.gz
+    - bd7d936cc1fc1caf35bd245e17602e65
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

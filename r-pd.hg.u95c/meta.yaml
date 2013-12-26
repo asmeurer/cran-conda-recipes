@@ -1,0 +1,34 @@
+package:
+  name: r-pd.hg.u95c
+  version: 1.10.0
+
+source:
+  fn: pd.hg.u95c_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hg.u95c_1.10.0.tar.gz
+    - e98dabffccd2a021d12d6a6583f486dc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

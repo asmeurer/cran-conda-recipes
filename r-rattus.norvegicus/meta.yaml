@@ -1,0 +1,34 @@
+package:
+  name: r-rattus.norvegicus
+  version: 1.1.2
+
+source:
+  fn: Rattus.norvegicus_1.1.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Rattus.norvegicus_1.1.2.tar.gz
+    - ae84624b858b862e73a66ae1a1b9540b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-organismdbi
+    - r-genomicfeatures
+    - r-go.db
+    - r-org.rn.eg.db
+    - r-txdb.rnorvegicus.ucsc.rn5.refgene
+  run:
+    - r
+    - r-annotationdbi
+    - r-organismdbi
+    - r-genomicfeatures
+    - r-go.db
+    - r-org.rn.eg.db
+    - r-txdb.rnorvegicus.ucsc.rn5.refgene
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

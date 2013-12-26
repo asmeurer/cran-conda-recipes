@@ -1,0 +1,32 @@
+package:
+  name: r-fdb.infiniummethylation.hg18
+  version: 2.0.9
+
+source:
+  fn: FDb.InfiniumMethylation.hg18_2.0.9.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/FDb.InfiniumMethylation.hg18_2.0.9.tar.gz
+    - 3e64db6dcdd9f682b9e3d332f4a30bc0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicfeatures
+    - r-biostrings
+    - r-annotationdbi
+    - r-bsgenome.hsapiens.ucsc.hg18
+    - r-rtracklayer
+  run:
+    - r
+    - r-genomicfeatures
+    - r-biostrings
+    - r-annotationdbi
+    - r-bsgenome.hsapiens.ucsc.hg18
+    - r-rtracklayer
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

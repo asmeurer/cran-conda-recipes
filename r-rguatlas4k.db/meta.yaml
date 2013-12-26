@@ -1,0 +1,26 @@
+package:
+  name: r-rguatlas4k.db
+  version: 2.10.1
+
+source:
+  fn: rguatlas4k.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rguatlas4k.db_2.10.1.tar.gz
+    - 755574e97fe4f4ac400a60467a7b1b1e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

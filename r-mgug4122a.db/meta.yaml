@@ -1,0 +1,26 @@
+package:
+  name: r-mgug4122a.db
+  version: 2.10.1
+
+source:
+  fn: mgug4122a.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgug4122a.db_2.10.1.tar.gz
+    - 680182019cbfa7d0050083176415f3fb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

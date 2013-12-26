@@ -1,0 +1,22 @@
+package:
+  name: r-cmap
+  version: 1.15.1
+
+source:
+  fn: cMAP_1.15.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/cMAP_1.15.1.tar.gz
+    - dbf8df4d4540151936884e1c5d747bcf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

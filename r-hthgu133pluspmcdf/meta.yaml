@@ -1,0 +1,22 @@
+package:
+  name: r-hthgu133pluspmcdf
+  version: 2.13.0
+
+source:
+  fn: hthgu133pluspmcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hthgu133pluspmcdf_2.13.0.tar.gz
+    - ac8421d186247b3a5c606a9156e58aa6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

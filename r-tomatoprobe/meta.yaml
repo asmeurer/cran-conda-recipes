@@ -1,0 +1,24 @@
+package:
+  name: r-tomatoprobe
+  version: 2.13.0
+
+source:
+  fn: tomatoprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/tomatoprobe_2.13.0.tar.gz
+    - 168bfdc2936f2e55f66e99e78e1da004
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

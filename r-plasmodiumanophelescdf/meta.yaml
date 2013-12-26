@@ -1,0 +1,22 @@
+package:
+  name: r-plasmodiumanophelescdf
+  version: 2.13.0
+
+source:
+  fn: plasmodiumanophelescdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/plasmodiumanophelescdf_2.13.0.tar.gz
+    - 1fb66ea57d9d10ab831796ec546837ea
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

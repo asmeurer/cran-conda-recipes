@@ -1,0 +1,26 @@
+package:
+  name: r-xmlrpc
+  version: 0.3.0
+
+source:
+  fn: XMLRPC_0.3-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/XMLRPC_0.3-0.tar.gz
+    - 91df53f13c782ab2ea4642bb309ee0f6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-xml
+  run:
+    - r
+    - r-rcurl
+    - r-xml
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

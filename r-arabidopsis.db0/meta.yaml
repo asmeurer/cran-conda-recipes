@@ -1,0 +1,24 @@
+package:
+  name: r-arabidopsis.db0
+  version: 2.10.1
+
+source:
+  fn: arabidopsis.db0_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/arabidopsis.db0_2.10.1.tar.gz
+    - 0c688e5bdbe472e294807240c19e2473
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

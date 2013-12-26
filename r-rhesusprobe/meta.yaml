@@ -1,0 +1,24 @@
+package:
+  name: r-rhesusprobe
+  version: 2.13.0
+
+source:
+  fn: rhesusprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rhesusprobe_2.13.0.tar.gz
+    - ce5c1331c565382653c0b6a3cd34ad17
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

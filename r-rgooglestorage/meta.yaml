@@ -1,0 +1,28 @@
+package:
+  name: r-rgooglestorage
+  version: 0.1.0
+
+source:
+  fn: RGoogleStorage_0.1-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RGoogleStorage_0.1-0.tar.gz
+    - 733a6c10297bb3983a61d683df75cb0c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-xml
+    - r-rjsonio
+  run:
+    - r
+    - r-rcurl
+    - r-xml
+    - r-rjsonio
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

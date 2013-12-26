@@ -1,0 +1,24 @@
+package:
+  name: r-moexexonprobesetlocation
+  version: 1.0.5
+
+source:
+  fn: MoExExonProbesetLocation_1.0.5.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/MoExExonProbesetLocation_1.0.5.tar.gz
+    - 83372d710f638c42306c658e3d1608ac
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

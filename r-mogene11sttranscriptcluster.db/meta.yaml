@@ -1,0 +1,26 @@
+package:
+  name: r-mogene11sttranscriptcluster.db
+  version: 4.0.1
+
+source:
+  fn: mogene11sttranscriptcluster.db_4.0.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene11sttranscriptcluster.db_4.0.1.tar.gz
+    - e53a1cbc07d6e399293a627717605a9a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

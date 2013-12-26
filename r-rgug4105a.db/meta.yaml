@@ -1,0 +1,26 @@
+package:
+  name: r-rgug4105a.db
+  version: 2.10.1
+
+source:
+  fn: rgug4105a.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rgug4105a.db_2.10.1.tar.gz
+    - 21ac2d5bd52f868894b764ac54686eeb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

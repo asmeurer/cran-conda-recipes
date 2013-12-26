@@ -1,0 +1,26 @@
+package:
+  name: r-illuminahumanmethylation27k.db
+  version: 1.4.7
+
+source:
+  fn: IlluminaHumanMethylation27k.db_1.4.7.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/IlluminaHumanMethylation27k.db_1.4.7.tar.gz
+    - 1fb862875c3ce9745de95824e6b2d714
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

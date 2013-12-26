@@ -1,0 +1,24 @@
+package:
+  name: r-nugohs1a520180probe
+  version: 2.8.0
+
+source:
+  fn: nugohs1a520180probe_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugohs1a520180probe_2.8.0.tar.gz
+    - 2f87b50ed648c268717a9ead4c60205b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

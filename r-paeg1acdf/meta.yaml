@@ -1,0 +1,22 @@
+package:
+  name: r-paeg1acdf
+  version: 2.13.0
+
+source:
+  fn: paeg1acdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/paeg1acdf_2.13.0.tar.gz
+    - 9e4df147e0f9383fa02de11328aa7160
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.rnorvegicus.ucsc.rn4
+  version: 1.3.17
+
+source:
+  fn: BSgenome.Rnorvegicus.UCSC.rn4_1.3.17.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Rnorvegicus.UCSC.rn4_1.3.17.tar.gz
+    - 541d4004a6a1e6085a73bd23ebbbe2b0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-canine2probe
+  version: 2.13.0
+
+source:
+  fn: canine2probe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/canine2probe_2.13.0.tar.gz
+    - b479332870c851f6a49c051c898bdd4d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

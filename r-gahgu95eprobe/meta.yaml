@@ -1,0 +1,24 @@
+package:
+  name: r-gahgu95eprobe
+  version: 2.2.1
+
+source:
+  fn: gahgu95eprobe_2.2.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95eprobe_2.2.1.tar.gz
+    - 6f839a3c6db65e220dd8d3d7289a754d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-test2cdf
+  version: 2.13.0
+
+source:
+  fn: test2cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/test2cdf_2.13.0.tar.gz
+    - c3fd3f567f3d3d4c8809e4e638335dda
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

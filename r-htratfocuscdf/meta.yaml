@@ -1,0 +1,22 @@
+package:
+  name: r-htratfocuscdf
+  version: 2.13.0
+
+source:
+  fn: htratfocuscdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htratfocuscdf_2.13.0.tar.gz
+    - 11bfd527b67c9ba373a3dc38f6b4926d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

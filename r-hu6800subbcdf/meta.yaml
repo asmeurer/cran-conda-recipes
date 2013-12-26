@@ -1,0 +1,22 @@
+package:
+  name: r-hu6800subbcdf
+  version: 2.13.0
+
+source:
+  fn: hu6800subbcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu6800subbcdf_2.13.0.tar.gz
+    - 37a4d3a08eb2fc01d317ed3d07f27e28
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

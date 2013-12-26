@@ -1,0 +1,22 @@
+package:
+  name: r-mirna20cdf
+  version: 2.13.0
+
+source:
+  fn: mirna20cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirna20cdf_2.13.0.tar.gz
+    - fbcaaab1ca62d8038c0e872440da4315
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

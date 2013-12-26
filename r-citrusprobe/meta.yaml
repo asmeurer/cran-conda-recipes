@@ -1,0 +1,24 @@
+package:
+  name: r-citrusprobe
+  version: 2.13.0
+
+source:
+  fn: citrusprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/citrusprobe_2.13.0.tar.gz
+    - 4548f2df80d4ca53cd3e00910315e4ff
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

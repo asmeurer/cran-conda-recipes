@@ -1,0 +1,34 @@
+package:
+  name: r-pd.bsubtilis
+  version: 1.10.0
+
+source:
+  fn: pd.bsubtilis_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.bsubtilis_1.10.0.tar.gz
+    - 064db00b67b8dde68226adc2c18e8ee7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

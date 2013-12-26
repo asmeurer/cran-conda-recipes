@@ -1,0 +1,24 @@
+package:
+  name: r-hgu95eprobe
+  version: 2.13.0
+
+source:
+  fn: hgu95eprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95eprobe_2.13.0.tar.gz
+    - e121aa37a36d5199e12371a75ab37997
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-org.sc.sgd.db
+  version: 2.10.1
+
+source:
+  fn: org.Sc.sgd.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Sc.sgd.db_2.10.1.tar.gz
+    - 1ce2a6cced579a2722d0bd92f50e6f8f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

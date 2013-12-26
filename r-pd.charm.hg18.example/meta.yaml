@@ -1,0 +1,34 @@
+package:
+  name: r-pd.charm.hg18.example
+  version: 0.99.3
+
+source:
+  fn: pd.charm.hg18.example_0.99.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.charm.hg18.example_0.99.3.tar.gz
+    - 4cbff85ee5c46e999b63de35729bb361
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

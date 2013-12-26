@@ -1,0 +1,22 @@
+package:
+  name: r-rgu34acdf
+  version: 2.13.0
+
+source:
+  fn: rgu34acdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rgu34acdf_2.13.0.tar.gz
+    - 87c8cec0ad0ee868e31910d36762f575
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

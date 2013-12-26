@@ -1,0 +1,24 @@
+package:
+  name: r-huexexonprobesetlocationhg18
+  version: 0.0.2
+
+source:
+  fn: HuExExonProbesetLocationHg18_0.0.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/HuExExonProbesetLocationHg18_0.0.2.tar.gz
+    - bb00b7f5e4db2b04dca5951aa6bd073e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

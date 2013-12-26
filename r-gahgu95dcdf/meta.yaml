@@ -1,0 +1,22 @@
+package:
+  name: r-gahgu95dcdf
+  version: 2.2.1
+
+source:
+  fn: gahgu95dcdf_2.2.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95dcdf_2.2.1.tar.gz
+    - be6f79bb7f4200f4f7cc103801720adc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

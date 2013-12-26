@@ -1,0 +1,24 @@
+package:
+  name: r-targetscan.hs.eg.db
+  version: 0.6.1
+
+source:
+  fn: targetscan.Hs.eg.db_0.6.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/targetscan.Hs.eg.db_0.6.1.tar.gz
+    - d10569315400f6c1b95ad2688632b6de
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

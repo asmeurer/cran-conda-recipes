@@ -1,0 +1,22 @@
+package:
+  name: r-celeganscdf
+  version: 2.13.0
+
+source:
+  fn: celeganscdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/celeganscdf_2.13.0.tar.gz
+    - a2b6eae0342e5b514ca3587ede233c38
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-aspell
+  version: 0.2.0
+
+source:
+  fn: Aspell_0.2-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/Aspell_0.2-0.tar.gz
+    - 92f9e6deb40b9b11475bbaaa7f6bf904
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

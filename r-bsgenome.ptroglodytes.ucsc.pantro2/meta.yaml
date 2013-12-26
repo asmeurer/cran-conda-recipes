@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.ptroglodytes.ucsc.pantro2
+  version: 1.3.17
+
+source:
+  fn: BSgenome.Ptroglodytes.UCSC.panTro2_1.3.17.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Ptroglodytes.UCSC.panTro2_1.3.17.tar.gz
+    - 445d269c3c06f06258640b000522903d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,26 @@
+package:
+  name: r-txdb.rnorvegicus.ucsc.rn4.ensgene
+  version: 2.10.1
+
+source:
+  fn: TxDb.Rnorvegicus.UCSC.rn4.ensGene_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn4.ensGene_2.10.1.tar.gz
+    - 5ae8867c16276a08b6edff71400dae6d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicfeatures
+    - r-annotationdbi
+  run:
+    - r
+    - r-genomicfeatures
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

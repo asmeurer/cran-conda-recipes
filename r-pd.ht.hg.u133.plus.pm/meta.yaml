@@ -1,0 +1,34 @@
+package:
+  name: r-pd.ht.hg.u133.plus.pm
+  version: 1.10.0
+
+source:
+  fn: pd.ht.hg.u133.plus.pm_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ht.hg.u133.plus.pm_1.10.0.tar.gz
+    - 81b2313f7e33d54c515e115be5b6197f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

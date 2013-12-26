@@ -1,0 +1,28 @@
+package:
+  name: r-sift.hsapiens.dbsnp132
+  version: 1.0.2
+
+source:
+  fn: SIFT.Hsapiens.dbSNP132_1.0.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/SIFT.Hsapiens.dbSNP132_1.0.2.tar.gz
+    - c374f0bf4c99357cfe99e0b192c00d75
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-variantannotation
+    - r-rsqlite
+    - r-annotationdbi
+  run:
+    - r
+    - r-variantannotation
+    - r-rsqlite
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

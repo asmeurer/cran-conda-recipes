@@ -1,0 +1,24 @@
+package:
+  name: r-pfam.db
+  version: 2.10.1
+
+source:
+  fn: PFAM.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/PFAM.db_2.10.1.tar.gz
+    - 08e0a8c5ea494f9567e8f6ec163280b3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-gahgu133acdf
+  version: 2.2.1
+
+source:
+  fn: gahgu133acdf_2.2.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu133acdf_2.2.1.tar.gz
+    - 65922523066cac11c9a235b3180a12b0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-rkml
+  version: 0.8.1
+
+source:
+  fn: RKML_0.8-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RKML_0.8-1.tar.gz
+    - 855ad3a0ff751a11d88a4e2b1fd16681
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+  run:
+    - r
+    - r-xml
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

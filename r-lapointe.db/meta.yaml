@@ -1,0 +1,26 @@
+package:
+  name: r-lapointe.db
+  version: 2.10.1
+
+source:
+  fn: LAPOINTE.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/LAPOINTE.db_2.10.1.tar.gz
+    - ef4c5c1ee23b45101d03a6c67012ac07
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

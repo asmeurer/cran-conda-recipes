@@ -1,0 +1,24 @@
+package:
+  name: r-hthgu133aprobe
+  version: 2.13.0
+
+source:
+  fn: hthgu133aprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hthgu133aprobe_2.13.0.tar.gz
+    - d7e353af258fc6c2fe3c60756e2d521f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

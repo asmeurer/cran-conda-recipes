@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.mmusculus.ucsc.mm8
+  version: 1.3.17
+
+source:
+  fn: BSgenome.Mmusculus.UCSC.mm8_1.3.17.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm8_1.3.17.tar.gz
+    - 41e081be6e3fc231f459c84d69b0ce95
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

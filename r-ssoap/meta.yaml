@@ -1,0 +1,28 @@
+package:
+  name: r-ssoap
+  version: 0.9.1
+
+source:
+  fn: SSOAP_0.9-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/SSOAP_0.9-1.tar.gz
+    - f5febba0cf71b7b8f1bede232982c45f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-xmlschema
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-xmlschema
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,28 @@
+package:
+  name: r-snplocs.hsapiens.dbsnp.20090506
+  version: 0.99.8
+
+source:
+  fn: SNPlocs.Hsapiens.dbSNP.20090506_0.99.8.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP.20090506_0.99.8.tar.gz
+    - 46669d54d387efee823874b6cf122f94
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-bsgenome
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

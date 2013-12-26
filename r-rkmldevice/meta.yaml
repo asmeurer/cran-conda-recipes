@@ -1,0 +1,28 @@
+package:
+  name: r-rkmldevice
+  version: 0.1.0
+
+source:
+  fn: RKMLDevice_0.1-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RKMLDevice_0.1-0.tar.gz
+    - d5b52e89e9b6376749a46dffaeb6297a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgraphicsdevice
+    - r-rkml
+    - r-xml
+  run:
+    - r
+    - r-rgraphicsdevice
+    - r-rkml
+    - r-xml
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

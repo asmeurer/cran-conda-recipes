@@ -1,0 +1,22 @@
+package:
+  name: r-u133aaofav2cdf
+  version: 2.13.0
+
+source:
+  fn: u133aaofav2cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/u133aaofav2cdf_2.13.0.tar.gz
+    - 290beb74e6b08a72f821c95289e4181e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-rae230aprobe
+  version: 2.13.0
+
+source:
+  fn: rae230aprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rae230aprobe_2.13.0.tar.gz
+    - 68f5551fbc85b5158d1ae1f47a600503
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-htrat230pmcdf
+  version: 2.13.0
+
+source:
+  fn: htrat230pmcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htrat230pmcdf_2.13.0.tar.gz
+    - 15835f45cd014330d47f0017d1195965
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

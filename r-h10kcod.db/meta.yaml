@@ -1,0 +1,26 @@
+package:
+  name: r-h10kcod.db
+  version: 2.16.0
+
+source:
+  fn: h10kcod.db_2.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/h10kcod.db_2.16.0.tar.gz
+    - 1ebb689019c51159f94d0e58d40fcab2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

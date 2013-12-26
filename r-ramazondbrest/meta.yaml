@@ -1,0 +1,26 @@
+package:
+  name: r-ramazondbrest
+  version: 0.1.1
+
+source:
+  fn: RAmazonDBREST_0.1-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RAmazonDBREST_0.1-1.tar.gz
+    - 5dcc055f10d8ba4217de14854e511dcc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

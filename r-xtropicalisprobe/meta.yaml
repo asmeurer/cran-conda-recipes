@@ -1,0 +1,24 @@
+package:
+  name: r-xtropicalisprobe
+  version: 2.13.0
+
+source:
+  fn: xtropicalisprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xtropicalisprobe_2.13.0.tar.gz
+    - c101c651cd2d1017fc2ec7eb83623c8f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

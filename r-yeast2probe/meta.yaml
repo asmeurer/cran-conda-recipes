@@ -1,0 +1,24 @@
+package:
+  name: r-yeast2probe
+  version: 2.13.0
+
+source:
+  fn: yeast2probe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/yeast2probe_2.13.0.tar.gz
+    - 139f76623764558e704566f40eff983c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

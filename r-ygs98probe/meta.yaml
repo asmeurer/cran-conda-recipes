@@ -1,0 +1,24 @@
+package:
+  name: r-ygs98probe
+  version: 2.13.0
+
+source:
+  fn: ygs98probe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ygs98probe_2.13.0.tar.gz
+    - ab6d1a203cba4d236945041cbdb527f2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

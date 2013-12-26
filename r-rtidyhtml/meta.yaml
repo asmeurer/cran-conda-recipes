@@ -1,0 +1,22 @@
+package:
+  name: r-rtidyhtml
+  version: 0.2.1
+
+source:
+  fn: RTidyHTML_0.2-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RTidyHTML_0.2-1.tar.gz
+    - 71489171b8e953b466764e72aa1d7811
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,34 @@
+package:
+  name: r-pd.rcngene.1.1.st
+  version: 3.8.0
+
+source:
+  fn: pd.rcngene.1.1.st_3.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rcngene.1.1.st_3.8.0.tar.gz
+    - 8dc2591ade8bcbe23bfaaae7edd6d430
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

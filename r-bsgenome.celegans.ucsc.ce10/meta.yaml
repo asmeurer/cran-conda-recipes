@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.celegans.ucsc.ce10
+  version: 1.3.19
+
+source:
+  fn: BSgenome.Celegans.UCSC.ce10_1.3.19.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce10_1.3.19.tar.gz
+    - 898d8d317c43bf24444cc7e3397e9c4d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

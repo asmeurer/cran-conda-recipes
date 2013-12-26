@@ -1,0 +1,22 @@
+package:
+  name: r-hu35ksubbcdf
+  version: 2.13.0
+
+source:
+  fn: hu35ksubbcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu35ksubbcdf_2.13.0.tar.gz
+    - 1227b4997db16ae9fff61cf0a5a138fa
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-canine.db0
+  version: 2.10.1
+
+source:
+  fn: canine.db0_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/canine.db0_2.10.1.tar.gz
+    - ff073547b02c7ed766ee5f109d48bcf4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

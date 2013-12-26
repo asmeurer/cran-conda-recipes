@@ -1,0 +1,22 @@
+package:
+  name: r-humanomni5quadv1bcrlmm
+  version: 1.0.0
+
+source:
+  fn: humanomni5quadv1bCrlmm_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/humanomni5quadv1bCrlmm_1.0.0.tar.gz
+    - 3ac4d6867c3d5590a6308d6edff0912b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

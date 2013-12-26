@@ -1,0 +1,28 @@
+package:
+  name: r-polyphen.hsapiens.dbsnp131
+  version: 1.0.2
+
+source:
+  fn: PolyPhen.Hsapiens.dbSNP131_1.0.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/PolyPhen.Hsapiens.dbSNP131_1.0.2.tar.gz
+    - 763e9cd4afd97b36f7e659f5454ef61f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-variantannotation
+    - r-rsqlite
+    - r-annotationdbi
+  run:
+    - r
+    - r-variantannotation
+    - r-rsqlite
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

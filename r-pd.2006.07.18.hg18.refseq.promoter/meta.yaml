@@ -1,0 +1,34 @@
+package:
+  name: r-pd.2006.07.18.hg18.refseq.promoter
+  version: 1.8.0
+
+source:
+  fn: pd.2006.07.18.hg18.refseq.promoter_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.2006.07.18.hg18.refseq.promoter_1.8.0.tar.gz
+    - 31977ad4958b99913ffcbe5493f7806d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

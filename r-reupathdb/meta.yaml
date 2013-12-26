@@ -1,0 +1,30 @@
+package:
+  name: r-reupathdb
+  version: 1.0.0
+
+source:
+  fn: REuPathDB_1.0-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/REuPathDB_1.0-0.tar.gz
+    - 7a07b9b21d367474fda9ef9a93bd2ae1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rjsonio
+    - r-rcurl
+    - r-wadl
+  run:
+    - r
+    - r-xml
+    - r-rjsonio
+    - r-rcurl
+    - r-wadl
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

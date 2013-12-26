@@ -1,0 +1,22 @@
+package:
+  name: r-nugohs1a520180cdf
+  version: 2.8.0
+
+source:
+  fn: nugohs1a520180cdf_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugohs1a520180cdf_2.8.0.tar.gz
+    - ecc8287544da8b526f0871a09732b6e5
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

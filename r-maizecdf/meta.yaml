@@ -1,0 +1,22 @@
+package:
+  name: r-maizecdf
+  version: 2.13.0
+
+source:
+  fn: maizecdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/maizecdf_2.13.0.tar.gz
+    - 684881339c855695b880984dd1410ec1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

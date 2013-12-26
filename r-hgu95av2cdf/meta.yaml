@@ -1,0 +1,22 @@
+package:
+  name: r-hgu95av2cdf
+  version: 2.13.0
+
+source:
+  fn: hgu95av2cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95av2cdf_2.13.0.tar.gz
+    - b9fc0840345f4372a4a3a11268f49e5e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

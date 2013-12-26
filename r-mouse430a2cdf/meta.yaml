@@ -1,0 +1,22 @@
+package:
+  name: r-mouse430a2cdf
+  version: 2.13.0
+
+source:
+  fn: mouse430a2cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse430a2cdf_2.13.0.tar.gz
+    - 8eb77fa2c90f932d7d30bc2d4e78ef99
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-xtropicaliscdf
+  version: 2.13.0
+
+source:
+  fn: xtropicaliscdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xtropicaliscdf_2.13.0.tar.gz
+    - 35fc58159179f341b57e26a23d5ef411
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-hom.dr.inp.db
+  version: 2.10.1
+
+source:
+  fn: hom.Dr.inp.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hom.Dr.inp.db_2.10.1.tar.gz
+    - 590bec7f6b7deec275d20e7d368ca218
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

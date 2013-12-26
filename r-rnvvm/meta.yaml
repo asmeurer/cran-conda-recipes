@@ -1,0 +1,24 @@
+package:
+  name: r-rnvvm
+  version: 0.1.0
+
+source:
+  fn: Rnvvm_0.1-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/Rnvvm_0.1-0.tar.gz
+    - fdb55022798a83b198efd648b788ae32
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rautogenruntime
+  run:
+    - r
+    - r-rautogenruntime
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

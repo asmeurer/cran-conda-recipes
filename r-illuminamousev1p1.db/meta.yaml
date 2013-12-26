@@ -1,0 +1,28 @@
+package:
+  name: r-illuminamousev1p1.db
+  version: 1.20.0
+
+source:
+  fn: illuminaMousev1p1.db_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/illuminaMousev1p1.db_1.20.0.tar.gz
+    - 0ce14c35e7ac030ee28d28dd2ab19d85
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+    - r-annotationforge
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+    - r-annotationforge
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

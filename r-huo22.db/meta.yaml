@@ -1,0 +1,26 @@
+package:
+  name: r-huo22.db
+  version: 2.10.1
+
+source:
+  fn: HuO22.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/HuO22.db_2.10.1.tar.gz
+    - c1e7a4a6f7673cc1a4358cdce16f291b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

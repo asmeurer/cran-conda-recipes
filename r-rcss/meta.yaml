@@ -1,0 +1,22 @@
+package:
+  name: r-rcss
+  version: 0.2.0
+
+source:
+  fn: RCSS_0.2-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RCSS_0.2-0.tar.gz
+    - 7d638d9b8aa49a8bb486bcf5e2d7e74e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

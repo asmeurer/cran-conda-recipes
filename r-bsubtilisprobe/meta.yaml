@@ -1,0 +1,24 @@
+package:
+  name: r-bsubtilisprobe
+  version: 2.13.0
+
+source:
+  fn: bsubtilisprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bsubtilisprobe_2.13.0.tar.gz
+    - 2e869a4fda1fec5dd3015adf537cb931
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

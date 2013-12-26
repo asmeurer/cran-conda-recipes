@@ -1,0 +1,24 @@
+package:
+  name: r-org.at.tair.db
+  version: 2.10.1
+
+source:
+  fn: org.At.tair.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.At.tair.db_2.10.1.tar.gz
+    - 168fc0839c2e8fcf7f27f092b089715a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

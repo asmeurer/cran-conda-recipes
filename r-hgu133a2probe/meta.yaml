@@ -1,0 +1,24 @@
+package:
+  name: r-hgu133a2probe
+  version: 2.13.0
+
+source:
+  fn: hgu133a2probe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133a2probe_2.13.0.tar.gz
+    - 716630ff17e9f21c69bcf86582ef2140
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

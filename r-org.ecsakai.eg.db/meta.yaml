@@ -1,0 +1,24 @@
+package:
+  name: r-org.ecsakai.eg.db
+  version: 2.10.1
+
+source:
+  fn: org.EcSakai.eg.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.EcSakai.eg.db_2.10.1.tar.gz
+    - 830971770e53f6f2315286488c87fe10
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

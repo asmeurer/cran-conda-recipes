@@ -1,0 +1,22 @@
+package:
+  name: r-human550v3bcrlmm
+  version: 1.0.4
+
+source:
+  fn: human550v3bCrlmm_1.0.4.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human550v3bCrlmm_1.0.4.tar.gz
+    - 20e6b008fab5e1084354c87ad50d18a8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

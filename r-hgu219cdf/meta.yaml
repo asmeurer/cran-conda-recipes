@@ -1,0 +1,22 @@
+package:
+  name: r-hgu219cdf
+  version: 2.13.0
+
+source:
+  fn: hgu219cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu219cdf_2.13.0.tar.gz
+    - af72c7405937ef0fd37d7a5f139c1e33
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

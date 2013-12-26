@@ -1,0 +1,24 @@
+package:
+  name: r-kegg.db
+  version: 2.10.1
+
+source:
+  fn: KEGG.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/KEGG.db_2.10.1.tar.gz
+    - 9f30aaf9a1e0ac767f3393b61018a0db
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

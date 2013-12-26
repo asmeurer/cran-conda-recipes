@@ -1,0 +1,22 @@
+package:
+  name: r-medicagocdf
+  version: 2.13.0
+
+source:
+  fn: medicagocdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/medicagocdf_2.13.0.tar.gz
+    - a809b09bfcd9276f47403698a0d8bf15
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

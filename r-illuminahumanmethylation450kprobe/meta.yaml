@@ -1,0 +1,24 @@
+package:
+  name: r-illuminahumanmethylation450kprobe
+  version: 2.0.6
+
+source:
+  fn: IlluminaHumanMethylation450kprobe_2.0.6.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/IlluminaHumanMethylation450kprobe_2.0.6.tar.gz
+    - 84c31861fcbaddbf2a9c500b8d8d767d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.scerevisiae.ucsc.saccer3
+  version: 1.3.19
+
+source:
+  fn: BSgenome.Scerevisiae.UCSC.sacCer3_1.3.19.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer3_1.3.19.tar.gz
+    - 39b556568c87df61fa3b98d3e699b76d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

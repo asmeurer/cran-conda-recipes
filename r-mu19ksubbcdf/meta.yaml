@@ -1,0 +1,22 @@
+package:
+  name: r-mu19ksubbcdf
+  version: 2.13.0
+
+source:
+  fn: mu19ksubbcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu19ksubbcdf_2.13.0.tar.gz
+    - 69bcf6cc2e6108827395048c5f7d14ec
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

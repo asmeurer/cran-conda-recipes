@@ -1,0 +1,26 @@
+package:
+  name: r-ragene10sttranscriptcluster.db
+  version: 7.0.1
+
+source:
+  fn: ragene10sttranscriptcluster.db_7.0.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene10sttranscriptcluster.db_7.0.1.tar.gz
+    - 3a1b9484080554bf114b1075cac40928
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,34 @@
+package:
+  name: r-pd.feinberg.mm8.me.hx1
+  version: 0.99.2
+
+source:
+  fn: pd.feinberg.mm8.me.hx1_0.99.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.feinberg.mm8.me.hx1_0.99.2.tar.gz
+    - de79832e48f5dd82dffc627c0cd0111c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

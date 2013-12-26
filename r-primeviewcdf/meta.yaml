@@ -1,0 +1,22 @@
+package:
+  name: r-primeviewcdf
+  version: 2.13.0
+
+source:
+  fn: primeviewcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/primeviewcdf_2.13.0.tar.gz
+    - ae3830bb18d0463af181dcbfe6f4ca61
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

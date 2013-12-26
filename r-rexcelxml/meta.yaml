@@ -1,0 +1,28 @@
+package:
+  name: r-rexcelxml
+  version: 0.5.0
+
+source:
+  fn: RExcelXML_0.5-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RExcelXML_0.5-0.tar.gz
+    - e47c33b0a32a1ce7241e590677f907c3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rooxml
+    - r-xml
+    - r-rcompression
+  run:
+    - r
+    - r-rooxml
+    - r-xml
+    - r-rcompression
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

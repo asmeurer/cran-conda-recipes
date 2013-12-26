@@ -1,0 +1,24 @@
+package:
+  name: r-rwordpress
+  version: 0.2.3
+
+source:
+  fn: RWordPress_0.2-3.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RWordPress_0.2-3.tar.gz
+    - 94445ef75cb6ba2e834f3cbb84e65305
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xmlrpc
+  run:
+    - r
+    - r-xmlrpc
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

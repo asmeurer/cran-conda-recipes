@@ -1,0 +1,24 @@
+package:
+  name: r-mirbase.db
+  version: 1.2.0
+
+source:
+  fn: mirbase.db_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirbase.db_1.2.0.tar.gz
+    - 316bc12cee8c2dd9240b7fc30cd1619e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

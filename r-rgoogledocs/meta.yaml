@@ -1,0 +1,26 @@
+package:
+  name: r-rgoogledocs
+  version: 0.7.0
+
+source:
+  fn: RGoogleDocs_0.7-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RGoogleDocs_0.7-0.tar.gz
+    - 8d31d139f1b14c7356f98e04fbf1be6f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-xml
+  run:
+    - r
+    - r-rcurl
+    - r-xml
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

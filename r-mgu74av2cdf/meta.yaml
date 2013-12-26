@@ -1,0 +1,22 @@
+package:
+  name: r-mgu74av2cdf
+  version: 2.13.0
+
+source:
+  fn: mgu74av2cdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgu74av2cdf_2.13.0.tar.gz
+    - 7d377ba1117022926d49eb4a6f0362e3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

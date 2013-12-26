@@ -1,0 +1,26 @@
+package:
+  name: r-mogene10sttranscriptcluster.db
+  version: 8.0.1
+
+source:
+  fn: mogene10sttranscriptcluster.db_8.0.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene10sttranscriptcluster.db_8.0.1.tar.gz
+    - f5b714d1ec9042d00f3520922efecacd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.mm.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-bovineprobe
+  version: 2.13.0
+
+source:
+  fn: bovineprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bovineprobe_2.13.0.tar.gz
+    - 293e75386690504a649054456ece7f4e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

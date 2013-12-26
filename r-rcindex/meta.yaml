@@ -1,0 +1,22 @@
+package:
+  name: r-rcindex
+  version: 0.1.0
+
+source:
+  fn: RCIndex_0.1-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RCIndex_0.1-0.tar.gz
+    - 32321a3db41949e47b038e5fea8689ea
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

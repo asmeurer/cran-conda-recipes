@@ -1,0 +1,24 @@
+package:
+  name: r-u133x3pprobe
+  version: 2.13.0
+
+source:
+  fn: u133x3pprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/u133x3pprobe_2.13.0.tar.gz
+    - cbdb2da501c10965f59725c775e182b1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

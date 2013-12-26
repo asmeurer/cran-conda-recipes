@@ -1,0 +1,22 @@
+package:
+  name: r-mouse4302frmavecs
+  version: 1.3.0
+
+source:
+  fn: mouse4302frmavecs_1.3.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse4302frmavecs_1.3.0.tar.gz
+    - 10f5ef08a4d5a38f576497b1047aba9e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

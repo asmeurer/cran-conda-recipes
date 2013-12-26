@@ -1,0 +1,34 @@
+package:
+  name: r-pd.ht.mg.430a
+  version: 1.10.0
+
+source:
+  fn: pd.ht.mg.430a_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ht.mg.430a_1.10.0.tar.gz
+    - ab24b4356e01adf4d8dd97f781ab61aa
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-rsqlite
+    - r-oligoclasses
+    - r-oligo
+    - r-dbi
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-org.ag.eg.db
+  version: 2.10.1
+
+source:
+  fn: org.Ag.eg.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Ag.eg.db_2.10.1.tar.gz
+    - 8feaf8118bdea7f6c1ca190de878b571
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

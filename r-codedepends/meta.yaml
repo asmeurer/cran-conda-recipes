@@ -1,0 +1,24 @@
+package:
+  name: r-codedepends
+  version: 0.2.1
+
+source:
+  fn: CodeDepends_0.2-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/CodeDepends_0.2-1.tar.gz
+    - e2ec3505f9db1a96919a72f07673a2d8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+  run:
+    - r
+    - r-xml
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.osativa.msu.msu7
+  version: 0.99.1
+
+source:
+  fn: BSgenome.Osativa.MSU.MSU7_0.99.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Osativa.MSU.MSU7_0.99.1.tar.gz
+    - 459fe50be785d06ab680565aacca1c57
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

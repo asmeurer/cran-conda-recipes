@@ -1,0 +1,22 @@
+package:
+  name: r-human660quadv1acrlmm
+  version: 1.0.3
+
+source:
+  fn: human660quadv1aCrlmm_1.0.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human660quadv1aCrlmm_1.0.3.tar.gz
+    - 5fd2d94a462e150c888f13c5c0975c36
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

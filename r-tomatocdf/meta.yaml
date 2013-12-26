@@ -1,0 +1,22 @@
+package:
+  name: r-tomatocdf
+  version: 2.13.0
+
+source:
+  fn: tomatocdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/tomatocdf_2.13.0.tar.gz
+    - 421b9dd87d2a86e134172cb4973617ee
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

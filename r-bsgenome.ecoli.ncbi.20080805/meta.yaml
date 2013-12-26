@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.ecoli.ncbi.20080805
+  version: 1.3.17
+
+source:
+  fn: BSgenome.Ecoli.NCBI.20080805_1.3.17.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Ecoli.NCBI.20080805_1.3.17.tar.gz
+    - 4d161519c43130cd916583d5f68982e8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

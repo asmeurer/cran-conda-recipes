@@ -1,0 +1,22 @@
+package:
+  name: r-citruscdf
+  version: 2.13.0
+
+source:
+  fn: citruscdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/citruscdf_2.13.0.tar.gz
+    - 8694d11d614e97e9a3060d0b473c9fe7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

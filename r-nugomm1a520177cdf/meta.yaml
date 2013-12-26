@@ -1,0 +1,22 @@
+package:
+  name: r-nugomm1a520177cdf
+  version: 2.8.0
+
+source:
+  fn: nugomm1a520177cdf_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugomm1a520177cdf_2.8.0.tar.gz
+    - 47fecd40248f4b617a7936dfb2414033
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

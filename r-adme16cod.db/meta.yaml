@@ -1,0 +1,26 @@
+package:
+  name: r-adme16cod.db
+  version: 2.17.0
+
+source:
+  fn: adme16cod.db_2.17.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/adme16cod.db_2.17.0.tar.gz
+    - 5919217fbf4756f600e2ffe5a609ab3c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.rn.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

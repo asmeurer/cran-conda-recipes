@@ -1,0 +1,22 @@
+package:
+  name: r-ricecdf
+  version: 2.13.0
+
+source:
+  fn: ricecdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ricecdf_2.13.0.tar.gz
+    - f5ee1d4fd455af0ad7fda2162077e0c6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

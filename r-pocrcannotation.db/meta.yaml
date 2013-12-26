@@ -1,0 +1,26 @@
+package:
+  name: r-pocrcannotation.db
+  version: 2.10.1
+
+source:
+  fn: POCRCannotation.db_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/POCRCannotation.db_2.10.1.tar.gz
+    - 7e6cb0dd8ab3e5683a451d66632cf468
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-org.hs.eg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

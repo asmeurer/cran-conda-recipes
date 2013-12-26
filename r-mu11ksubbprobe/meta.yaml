@@ -1,0 +1,24 @@
+package:
+  name: r-mu11ksubbprobe
+  version: 2.13.0
+
+source:
+  fn: mu11ksubbprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu11ksubbprobe_2.13.0.tar.gz
+    - 7a318acb9bd3d0ef7b1b88376a3ef134
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

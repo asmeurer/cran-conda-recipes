@@ -1,0 +1,24 @@
+package:
+  name: r-bsgenome.tgondii.toxodb.7.0
+  version: 0.99.0
+
+source:
+  fn: BSgenome.Tgondii.ToxoDB.7.0_0.99.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Tgondii.ToxoDB.7.0_0.99.0.tar.gz
+    - 8f204871f73f8d1c5194f3748e28878e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+  run:
+    - r
+    - r-bsgenome
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

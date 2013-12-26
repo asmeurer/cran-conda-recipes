@@ -1,0 +1,22 @@
+package:
+  name: r-human610quadv1bcrlmm
+  version: 1.0.3
+
+source:
+  fn: human610quadv1bCrlmm_1.0.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human610quadv1bCrlmm_1.0.3.tar.gz
+    - 609cf09410774e084ee6a3286652bb1a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

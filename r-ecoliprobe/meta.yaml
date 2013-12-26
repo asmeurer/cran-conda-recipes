@@ -1,0 +1,24 @@
+package:
+  name: r-ecoliprobe
+  version: 2.13.0
+
+source:
+  fn: ecoliprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoliprobe_2.13.0.tar.gz
+    - f66b8c9896d6b179e760bb065475958e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

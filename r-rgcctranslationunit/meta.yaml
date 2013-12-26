@@ -1,0 +1,28 @@
+package:
+  name: r-rgcctranslationunit
+  version: 0.6.0
+
+source:
+  fn: RGCCTranslationUnit_0.6-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RGCCTranslationUnit_0.6-0.tar.gz
+    - 3104ecf243eeac4959bb96809c1bbc1e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bitops
+    - r-combinations
+    - r-rautogenruntime
+  run:
+    - r
+    - r-bitops
+    - r-combinations
+    - r-rautogenruntime
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

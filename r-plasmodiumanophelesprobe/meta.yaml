@@ -1,0 +1,24 @@
+package:
+  name: r-plasmodiumanophelesprobe
+  version: 2.13.0
+
+source:
+  fn: plasmodiumanophelesprobe_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/plasmodiumanophelesprobe_2.13.0.tar.gz
+    - 62ad6b6f98dba77d5f08249ba19da5b1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

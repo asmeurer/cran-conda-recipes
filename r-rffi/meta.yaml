@@ -1,0 +1,24 @@
+package:
+  name: r-rffi
+  version: 0.3.0
+
+source:
+  fn: Rffi_0.3-0.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/Rffi_0.3-0.tar.gz
+    - 4abf4a9a428feec573b36c6dbf44d91b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rautogenruntime
+  run:
+    - r
+    - r-rautogenruntime
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

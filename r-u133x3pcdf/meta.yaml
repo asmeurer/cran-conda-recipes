@@ -1,0 +1,22 @@
+package:
+  name: r-u133x3pcdf
+  version: 2.13.0
+
+source:
+  fn: u133x3pcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/u133x3pcdf_2.13.0.tar.gz
+    - ac287c0ae4c2a6a7029c3e5cebaeceea
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

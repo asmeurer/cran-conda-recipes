@@ -1,0 +1,22 @@
+package:
+  name: r-mirna102xgaincdf
+  version: 2.13.0
+
+source:
+  fn: mirna102xgaincdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirna102xgaincdf_2.13.0.tar.gz
+    - 0f0646a6d7b2956d1162ae1562958ffb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

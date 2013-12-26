@@ -1,0 +1,24 @@
+package:
+  name: r-anopheles.db0
+  version: 2.10.1
+
+source:
+  fn: anopheles.db0_2.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/anopheles.db0_2.10.1.tar.gz
+    - ea53ea4ba70e9e8d0ac1be86cf7f1602
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

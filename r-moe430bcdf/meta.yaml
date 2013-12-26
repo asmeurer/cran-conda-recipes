@@ -1,0 +1,22 @@
+package:
+  name: r-moe430bcdf
+  version: 2.13.0
+
+source:
+  fn: moe430bcdf_2.13.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/moe430bcdf_2.13.0.tar.gz
+    - b1f06fef64b4c9d8fa07302f049f0827
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

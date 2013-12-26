@@ -1,0 +1,28 @@
+package:
+  name: r-rnytimes
+  version: 0.1.1
+
+source:
+  fn: RNYTimes_0.1-1.tar.gz
+  url: http://www.omegahat.org/R/src/contrib/RNYTimes_0.1-1.tar.gz
+    - 6a2807c5faf18f027600b643b056382b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rjsonio
+    - r-rcurl
+  run:
+    - r
+    - r-xml
+    - r-rjsonio
+    - r-rcurl
+
+about:
+  license: BSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
