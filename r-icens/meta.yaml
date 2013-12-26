@@ -1,0 +1,25 @@
+# Manually crafted recipe due to Icens being removed from CRAN and only made
+# available from Bioconductor:
+#   http://cran.r-project.org/web/packages/Icens/index.html
+package:
+  name: r-icens
+  version: 1.34.0
+
+source:
+  fn: Icens_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Icens_1.34.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  home: http://www.bioconductor.org/packages/release/bioc/html/Icens.html
+  license: Artistic 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
