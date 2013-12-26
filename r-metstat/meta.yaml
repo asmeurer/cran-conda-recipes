@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-abind
     - r-pls
   run:
+    - r
     - r-abind
     - r-pls
 

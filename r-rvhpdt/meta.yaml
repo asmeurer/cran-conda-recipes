@@ -11,11 +11,11 @@ build:
 
 requirements:
   build:
-    - r-gregmisc
     - r
+    - r-gregmisc
   run:
-    - r-gregmisc
     - r
+    - r-gregmisc
 
 about:
   license: GPL (>= 2)

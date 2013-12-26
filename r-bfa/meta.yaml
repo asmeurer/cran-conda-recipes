@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-reshape
     - r-coda
   run:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-reshape

@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/MissingDataGUI_0.1-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gwidgetsrgtk2
     - r-hmisc
     - r-norm
@@ -21,6 +22,7 @@ requirements:
     - r-reshape2
     - r-reshape
   run:
+    - r
     - r-gwidgetsrgtk2
     - r-hmisc
     - r-norm

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-numderiv
     - r-gtools
   run:
+    - r
     - r-numderiv
     - r-gtools
 

@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/Rglpk_0.5-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-slam
   run:
+    - r
     - r-slam
 
 about:

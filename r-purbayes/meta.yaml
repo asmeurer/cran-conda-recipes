@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjags
   run:
+    - r
     - r-rjags
 
 about:

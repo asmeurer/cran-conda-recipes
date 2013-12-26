@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-mnormt
     - r-gplots
     - r-combinat
   run:
+    - r
     - r-mnormt
     - r-gplots
     - r-combinat

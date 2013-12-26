@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjsonio
   run:
+    - r
     - r-rjsonio
 
 about:

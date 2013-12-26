@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjson
     - r-httr
   run:
+    - r
     - r-rjson
     - r-httr
 

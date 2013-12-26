@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-xts
   run:
+    - r
     - r-xts
 
 about:

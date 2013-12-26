@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-gtools
     - r-rcolorbrewer
     - r-colorramps
     - r-schoolmath
     - r-ellipse
   run:
+    - r
     - r-gtools
     - r-rcolorbrewer
     - r-colorramps

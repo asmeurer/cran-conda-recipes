@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/sensR_1.3-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-multcomp
     - r-numderiv
   run:
+    - r
     - r-multcomp
     - r-numderiv
 

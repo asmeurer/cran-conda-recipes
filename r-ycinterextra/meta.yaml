@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-mcglobaloptim
   run:
+    - r
     - r-mcglobaloptim
 
 about:

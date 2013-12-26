@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/hybridEnsemble_0.1.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-randomforest
     - r-kernelfactory
     - r-ada
@@ -29,6 +30,7 @@ requirements:
     - r-tabusearch
     - r-glmnet
   run:
+    - r
     - r-randomforest
     - r-kernelfactory
     - r-ada

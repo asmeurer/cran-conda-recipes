@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-remmap
   run:
+    - r
     - r-remmap
 
 about:

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-xtable
     - r-rcolorbrewer
     - r-gdata
     - r-independencetests
   run:
+    - r
     - r-xtable
     - r-rcolorbrewer
     - r-gdata

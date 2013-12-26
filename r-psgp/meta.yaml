@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/psgp_0.3-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-intamap
     - r-rcpparmadillo
     - r-automap
     - r-gstat
   run:
+    - r
     - r-intamap
     - r-rcpparmadillo
     - r-automap

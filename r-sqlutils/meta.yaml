@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/sqlutils_1.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-roxygen2
     - r-stringr
     - r-dbi
   run:
+    - r
     - r-roxygen2
     - r-stringr
     - r-dbi

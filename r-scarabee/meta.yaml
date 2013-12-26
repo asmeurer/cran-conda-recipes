@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/scaRabee_1.1-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-neldermead
     - r-optimsimplex
     - r-optimbase
     - r-desolve
   run:
+    - r
     - r-neldermead
     - r-optimsimplex
     - r-optimbase

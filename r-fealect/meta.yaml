@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-lars
     - r-rms
   run:
+    - r
     - r-lars
     - r-rms
 

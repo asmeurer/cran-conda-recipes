@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/PKtools_1.5-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-r2html
     - r-xtable
   run:
+    - r
     - r-r2html
     - r-xtable
 

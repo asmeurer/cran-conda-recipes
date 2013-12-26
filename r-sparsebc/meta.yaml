@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-glasso
   run:
+    - r
     - r-glasso
 
 about:

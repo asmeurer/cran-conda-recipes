@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/ROracle_1.1-10.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-dbi
   run:
+    - r
     - r-dbi
 
 about:

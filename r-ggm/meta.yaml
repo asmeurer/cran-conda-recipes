@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/ggm_1.995-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-graph
     - r-igraph
     - r-rbgl
   run:
+    - r
     - r-graph
     - r-igraph
     - r-rbgl

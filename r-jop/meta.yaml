@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rsolnp
     - r-dglm
   run:
+    - r
     - r-rsolnp
     - r-dglm
 

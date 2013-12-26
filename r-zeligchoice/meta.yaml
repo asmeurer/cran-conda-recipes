@@ -7,16 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/ZeligChoice_0.8-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-zelig
     - r
+    - r-zelig
     - r-vgam
   run:
-    - r-zelig
     - r
+    - r-zelig
     - r-vgam
 
 about:

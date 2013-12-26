@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/LambertW_0.2.9.9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-moments
     - r-gsl
     - r-nortest
     - r-maxlik
   run:
+    - r
     - r-moments
     - r-gsl
     - r-nortest

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-scrime
     - r-epi
   run:
+    - r
     - r-scrime
     - r-epi
 

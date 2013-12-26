@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/RcmdrPlugin.doBy_0.1-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcmdr
     - r-doby
   run:
+    - r
     - r-rcmdr
     - r-doby
 

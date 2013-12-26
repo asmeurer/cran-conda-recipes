@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-memisc
     - r-hmisc
   run:
+    - r
     - r-memisc
     - r-hmisc
 

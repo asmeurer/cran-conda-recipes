@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/RHRV_3.0.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-tkrplot
     - r-waveslim
   run:
+    - r
     - r-tkrplot
     - r-waveslim
 

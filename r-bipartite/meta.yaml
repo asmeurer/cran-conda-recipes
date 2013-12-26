@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-vegan
     - r-sna
     - r-fields
     - r-igraph
     - r-permute
   run:
+    - r
     - r-vegan
     - r-sna
     - r-fields

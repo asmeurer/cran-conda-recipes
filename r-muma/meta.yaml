@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-car
     - r-pdist
     - r-pls
@@ -23,6 +24,7 @@ requirements:
     - r-pcapp
     - r-rrcov
   run:
+    - r
     - r-car
     - r-pdist
     - r-pls

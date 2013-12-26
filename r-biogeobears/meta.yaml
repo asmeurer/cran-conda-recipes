@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/BioGeoBEARS_0.2.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rexpokit
     - r-cladorcpp
     - r-ape
@@ -21,6 +22,7 @@ requirements:
     - r-plotrix
     - r-gdata
   run:
+    - r
     - r-rexpokit
     - r-cladorcpp
     - r-ape

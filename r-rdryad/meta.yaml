@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/rdryad_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-xml
     - r-rcurl
     - r-oaiharvester
@@ -20,6 +21,7 @@ requirements:
     - r-stringr
     - r-rjsonio
   run:
+    - r
     - r-xml
     - r-rcurl
     - r-oaiharvester

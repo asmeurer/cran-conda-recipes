@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/ropensnp_0.0.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rjsonio
     - r-plyr
     - r-stringr
     - r-httr
   run:
+    - r
     - r-rjsonio
     - r-plyr
     - r-stringr

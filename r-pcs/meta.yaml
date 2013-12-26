@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-statmod
     - r-multtest
   run:
+    - r
     - r-statmod
     - r-multtest
 

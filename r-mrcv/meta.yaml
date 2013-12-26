@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/MRCV_0.2-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-tables
     - r
+    - r-tables
   run:
-    - r-tables
     - r
+    - r-tables
 
 about:
   license: GPL (>= 3)

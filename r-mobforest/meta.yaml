@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-party
     - r-modeltools
   run:
+    - r
     - r-party
     - r-modeltools
 

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-msm
     - r-bit
   run:
+    - r
     - r-msm
     - r-bit
 

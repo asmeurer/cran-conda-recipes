@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/cwm_0.0.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-matlab
     - r-vegan
   run:
+    - r
     - r-matlab
     - r-vegan
 

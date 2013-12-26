@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-scatterplot3d
   run:
+    - r
     - r-scatterplot3d
 
 about:

@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/HTMLUtils_0.1.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-r2html
   run:
+    - r
     - r-r2html
 
 about:

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/lmbc_0.9.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mseq
     - r-lars
   run:
+    - r
     - r-mseq
     - r-lars
 

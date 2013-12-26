@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/ggtern_1.0.1.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-plyr
     - r-gtable
@@ -19,6 +20,7 @@ requirements:
     - r-proto
     - r-sp
   run:
+    - r
     - r-ggplot2
     - r-plyr
     - r-gtable

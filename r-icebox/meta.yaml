@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-sfsmisc
   run:
+    - r
     - r-sfsmisc
 
 about:

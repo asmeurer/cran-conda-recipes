@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/MSeasy_5.3.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-amap
     - r-clvalid
     - r-fpc
     - r-mzr
     - r-xcms
   run:
+    - r
     - r-amap
     - r-clvalid
     - r-fpc

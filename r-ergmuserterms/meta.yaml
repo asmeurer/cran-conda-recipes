@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/ergm.userterms_3.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-network
     - r-ergm
     - r-statnetcommon
   run:
+    - r
     - r-network
     - r-ergm
     - r-statnetcommon

@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/Quandl_2.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-rjsonio
     - r-zoo
     - r-xts
   run:
+    - r
     - r-rcurl
     - r-rjsonio
     - r-zoo

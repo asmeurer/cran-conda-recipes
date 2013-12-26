@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-xml
     - r-rcurl
     - r-plyr
     - r-gdata
   run:
+    - r
     - r-xml
     - r-rcurl
     - r-plyr

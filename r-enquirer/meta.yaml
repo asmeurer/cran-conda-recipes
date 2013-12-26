@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-factominer
     - r-sensominer
     - r-rcmdr
   run:
+    - r
     - r-factominer
     - r-sensominer
     - r-rcmdr

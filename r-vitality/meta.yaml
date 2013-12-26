@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-imis
   run:
+    - r
     - r-imis
 
 about:

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjsonio
     - r-rcurl
   run:
+    - r
     - r-rjsonio
     - r-rcurl
 

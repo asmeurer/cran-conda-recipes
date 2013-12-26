@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/InPosition_0.12.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-prettygraphs
     - r-exposition
   run:
+    - r
     - r-prettygraphs
     - r-exposition
 

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-quadprog
     - r-quantreg
     - r-vgam
   run:
+    - r
     - r-quadprog
     - r-quantreg
     - r-vgam

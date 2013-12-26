@@ -11,7 +11,9 @@ build:
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: Artistic License 2.0

@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/OptInterim_3.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-clinfun
-    - r
   run:
+    - r
     - r-mvtnorm
     - r-clinfun
-    - r
 
 about:
   license: GPL (>= 2)

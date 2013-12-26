@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/ENmisc_1.2-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-hmisc
     - r-vcd
     - r-rcolorbrewer
   run:
+    - r
     - r-hmisc
     - r-vcd
     - r-rcolorbrewer

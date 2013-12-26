@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-corpcor
     - r-genord
   run:
+    - r
     - r-mvtnorm
     - r-corpcor
     - r-genord

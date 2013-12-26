@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-spatstat
   run:
+    - r
     - r-spatstat
 
 about:

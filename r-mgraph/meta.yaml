@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rgdal
   run:
+    - r
     - r-rgdal
 
 about:

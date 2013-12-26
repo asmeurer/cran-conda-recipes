@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-ggm
     - r-igraph
     - r-ppls
@@ -19,6 +20,7 @@ requirements:
     - r-mvtnorm
     - r-lcd
   run:
+    - r
     - r-ggm
     - r-igraph
     - r-ppls

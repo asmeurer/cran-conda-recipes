@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-plotrix
     - r-rgl
   run:
+    - r
     - r-rcpp
     - r-plotrix
     - r-rgl

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-partykit
     - r-emoa
     - r-sets
   run:
+    - r
     - r-partykit
     - r-emoa
     - r-sets

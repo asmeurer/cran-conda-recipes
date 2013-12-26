@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-maxlik
   run:
+    - r
     - r-maxlik
 
 about:

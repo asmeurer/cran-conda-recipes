@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/MVPARTwrap_0.1-9.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mvpart
     - r-hmisc
     - r-labdsv
@@ -18,6 +19,7 @@ requirements:
     - r-fbasics
     - r-ade4
   run:
+    - r
     - r-mvpart
     - r-hmisc
     - r-labdsv

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-roxygen2
     - r-formatr
   run:
+    - r
     - r-roxygen2
     - r-formatr
 

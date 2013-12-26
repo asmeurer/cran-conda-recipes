@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-timedate
     - r-timeseries
     - r-fbasics
   run:
+    - r
     - r-timedate
     - r-timeseries
     - r-fbasics

@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-combinat
   run:
+    - r
     - r-combinat
 
 about:

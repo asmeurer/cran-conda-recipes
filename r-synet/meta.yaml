@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-tkrplot
   run:
+    - r
     - r-tkrplot
 
 about:

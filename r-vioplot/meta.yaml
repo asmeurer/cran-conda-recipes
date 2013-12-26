@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-sm
   run:
+    - r
     - r-sm
 
 about:

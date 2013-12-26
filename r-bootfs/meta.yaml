@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/bootfs_1.4.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-proc
     - r-igraph
     - r-rocr
@@ -26,6 +27,7 @@ requirements:
     - r-mlegp
     - r-penalizedsvm
   run:
+    - r
     - r-proc
     - r-igraph
     - r-rocr

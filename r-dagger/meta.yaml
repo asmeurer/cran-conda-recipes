@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rglpk
     - r-quadprog
   run:
+    - r
     - r-rglpk
     - r-quadprog
 

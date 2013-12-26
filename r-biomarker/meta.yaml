@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-igraph
     - r-hmisc
   run:
+    - r
     - r-igraph
     - r-hmisc
 

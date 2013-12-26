@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-plyr
     - r-rjson
     - r-rcurl
   run:
+    - r
     - r-plyr
     - r-rjson
     - r-rcurl

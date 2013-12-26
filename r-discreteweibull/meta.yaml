@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rsolnp
   run:
+    - r
     - r-rsolnp
 
 about:

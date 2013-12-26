@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-coda
     - r-actuar
   run:
+    - r
     - r-coda
     - r-actuar
 

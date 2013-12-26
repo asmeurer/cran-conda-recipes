@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-isotone
   run:
+    - r
     - r-isotone
 
 about:

@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/BVS_4.12.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-msm
     - r-haplostats
-    - r
   run:
+    - r
     - r-msm
     - r-haplostats
-    - r
 
 about:
   license: Unlimited

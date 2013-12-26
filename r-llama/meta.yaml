@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-plyr
     - r-foreach
   run:
+    - r
     - r-plyr
     - r-foreach
 

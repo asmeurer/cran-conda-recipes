@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-mnormt
     - r-impute
   run:
+    - r
     - r-mnormt
     - r-impute
 

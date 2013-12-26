@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/robustfa_1.0-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-rrcov
     - r
+    - r-rrcov
   run:
-    - r-rrcov
     - r
+    - r-rrcov
 
 about:
   license: GPL (>= 2)

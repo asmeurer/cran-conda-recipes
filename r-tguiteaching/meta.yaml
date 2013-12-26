@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/TGUITeaching_0.9.14.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-tguicore
     - r-tkrplot
     - r-car
   run:
+    - r
     - r-tguicore
     - r-tkrplot
     - r-car

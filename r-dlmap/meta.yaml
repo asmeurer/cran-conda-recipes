@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-qtl
     - r-ibdreg
     - r-wgaim
   run:
+    - r
     - r-qtl
     - r-ibdreg
     - r-wgaim

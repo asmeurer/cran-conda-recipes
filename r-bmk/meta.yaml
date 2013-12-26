@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-coda
     - r-plyr
     - r-functional
   run:
+    - r
     - r-coda
     - r-plyr
     - r-functional

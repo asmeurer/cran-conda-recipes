@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjson
     - r-bit
     - r-hash
   run:
+    - r
     - r-rjson
     - r-bit
     - r-hash

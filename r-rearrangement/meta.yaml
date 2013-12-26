@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-quantreg
   run:
+    - r
     - r-quantreg
 
 about:

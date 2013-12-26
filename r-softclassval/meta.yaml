@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/softclassval_1.0-20130317.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-arrayhelpers
   run:
+    - r
     - r-arrayhelpers
 
 about:

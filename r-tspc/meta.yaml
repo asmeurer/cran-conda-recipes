@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-superpc
   run:
+    - r
     - r-superpc
 
 about:

@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-dfcrm
   run:
+    - r
     - r-dfcrm
 
 about:

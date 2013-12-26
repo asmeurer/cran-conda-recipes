@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-truncnorm
   run:
+    - r
     - r-mvtnorm
     - r-truncnorm
 

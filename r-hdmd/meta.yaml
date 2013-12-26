@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-psych
   run:
+    - r
     - r-psych
 
 about:

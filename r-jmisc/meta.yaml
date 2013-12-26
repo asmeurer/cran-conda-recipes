@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-testthat
   run:
+    - r
     - r-testthat
 
 about:

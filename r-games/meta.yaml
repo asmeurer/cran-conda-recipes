@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/games_1.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-formula
     - r-maxlik
     - r-stringr
   run:
+    - r
     - r-formula
     - r-maxlik
     - r-stringr

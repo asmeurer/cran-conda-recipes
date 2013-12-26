@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/ZeligMultilevel_0.7-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-zelig
     - r-lme4
   run:
+    - r
     - r-zelig
     - r-lme4
 

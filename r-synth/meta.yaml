@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/Synth_1.1-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-kernlab
     - r-optimx
   run:
+    - r
     - r-kernlab
     - r-optimx
 

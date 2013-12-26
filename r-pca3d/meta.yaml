@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rgl
   run:
+    - r
     - r-rgl
 
 about:

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-tensora
     - r-coda
     - r-ape
     - r-corpcor
   run:
+    - r
     - r-tensora
     - r-coda
     - r-ape

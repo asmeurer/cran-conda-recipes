@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/TGUICore_0.9.15.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-tkrplot
   run:
+    - r
     - r-tkrplot
 
 about:

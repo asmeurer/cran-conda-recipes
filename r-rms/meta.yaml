@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/rms_4.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-hmisc
     - r-sparsem
   run:
+    - r
     - r-hmisc
     - r-sparsem
 

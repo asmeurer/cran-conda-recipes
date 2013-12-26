@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcmdr
     - r-depthtools
   run:
+    - r
     - r-rcmdr
     - r-depthtools
 

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-e1071
     - r-somemtp
     - r-cherry
   run:
+    - r
     - r-e1071
     - r-somemtp
     - r-cherry

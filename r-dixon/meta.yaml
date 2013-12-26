@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/dixon_0.0-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-splancs
     - r-spatstat
   run:
+    - r
     - r-splancs
     - r-spatstat
 

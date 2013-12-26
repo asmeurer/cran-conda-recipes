@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-spatialextremes
     - r-combinat
   run:
+    - r
     - r-spatialextremes
     - r-combinat
 

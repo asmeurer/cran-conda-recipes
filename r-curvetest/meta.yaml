@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-locfit
     - r-roo
     - r-rmethodss3
   run:
+    - r
     - r-locfit
     - r-roo
     - r-rmethodss3

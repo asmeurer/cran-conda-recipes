@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/vegan_2.0-10.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-permute
     - r
+    - r-permute
   run:
-    - r-permute
     - r
+    - r-permute
 
 about:
   license: GPL-2

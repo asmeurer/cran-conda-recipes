@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-fcopulae
     - r-mvtnorm
   run:
+    - r
     - r-fcopulae
     - r-mvtnorm
 

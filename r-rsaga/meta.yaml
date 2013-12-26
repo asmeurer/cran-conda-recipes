@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/RSAGA_0.93-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gstat
     - r-shapefiles
     - r-plyr
   run:
+    - r
     - r-gstat
     - r-shapefiles
     - r-plyr

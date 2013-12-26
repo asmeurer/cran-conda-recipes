@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-sampleselection
     - r-robustbase
     - r-mvtnorm
   run:
+    - r
     - r-sampleselection
     - r-robustbase
     - r-mvtnorm

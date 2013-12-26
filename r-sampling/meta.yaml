@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-lpsolve
   run:
+    - r
     - r-lpsolve
 
 about:

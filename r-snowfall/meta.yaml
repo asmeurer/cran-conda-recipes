@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/snowfall_1.84-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-snow
   run:
+    - r
     - r-snow
 
 about:

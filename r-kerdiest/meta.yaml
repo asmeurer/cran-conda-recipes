@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-date
     - r-chron
     - r-evir
   run:
+    - r
     - r-date
     - r-chron
     - r-evir

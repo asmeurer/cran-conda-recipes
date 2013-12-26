@@ -11,21 +11,21 @@ build:
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-plyr
     - r-psych
     - r-reshape
     - r-proto
     - r-xtable
-    - r
   run:
+    - r
     - r-ggplot2
     - r-plyr
     - r-psych
     - r-reshape
     - r-proto
     - r-xtable
-    - r
 
 about:
   license: GPL (>= 2)

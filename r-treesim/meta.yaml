@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/TreeSim_1.9.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ape
     - r-geiger
   run:
+    - r
     - r-ape
     - r-geiger
 

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-pixmap
     - r-tkrplot
     - r-rpanel
   run:
+    - r
     - r-pixmap
     - r-tkrplot
     - r-rpanel

@@ -11,15 +11,15 @@ build:
 
 requirements:
   build:
+    - r
     - r-imputeyn
     - r-glmnet
     - r-lars
-    - r
   run:
+    - r
     - r-imputeyn
     - r-glmnet
     - r-lars
-    - r
 
 about:
   license: GPL-2

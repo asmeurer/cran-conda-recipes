@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-xtable
     - r-rcolorbrewer
     - r-gdata
   run:
+    - r
     - r-xtable
     - r-rcolorbrewer
     - r-gdata

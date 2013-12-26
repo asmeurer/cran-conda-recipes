@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/RCALI_0.2-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-splancs
   run:
+    - r
     - r-splancs
 
 about:

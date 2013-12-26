@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/raster_2.1-66.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-sp
     - r
+    - r-sp
   run:
-    - r-sp
     - r
+    - r-sp
 
 about:
   license: GPL (>= 3)

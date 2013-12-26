@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-date
     - r-sp
     - r-sfsmisc
     - r-raster
     - r-rgdal
   run:
+    - r
     - r-date
     - r-sp
     - r-sfsmisc

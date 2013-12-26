@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/metamisc_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-ellipse
     - r-bbmle
     - r-rjags
     - r-coda
   run:
+    - r
     - r-mvtnorm
     - r-ellipse
     - r-bbmle

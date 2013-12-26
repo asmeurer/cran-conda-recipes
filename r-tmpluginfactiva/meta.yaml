@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-tm
     - r-xml
   run:
+    - r
     - r-tm
     - r-xml
 

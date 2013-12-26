@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/BSagri_0.1-8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gamlss
     - r-multcomp
     - r-mcpan
     - r-mvtnorm
     - r-mratios
   run:
+    - r
     - r-gamlss
     - r-multcomp
     - r-mcpan

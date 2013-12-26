@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-rutils
   run:
+    - r
     - r-ape
     - r-rutils
 

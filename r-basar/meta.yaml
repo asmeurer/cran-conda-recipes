@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-polynom
     - r-orthopolynom
   run:
+    - r
     - r-polynom
     - r-orthopolynom
 

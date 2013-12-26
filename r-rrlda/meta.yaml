@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-pcapp
     - r-mvoutlier
     - r-glasso
     - r-matrixcalc
   run:
+    - r
     - r-pcapp
     - r-mvoutlier
     - r-glasso

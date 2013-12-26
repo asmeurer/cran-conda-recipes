@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-zoo
     - r-chron
     - r-maptools
   run:
+    - r
     - r-zoo
     - r-chron
     - r-maptools

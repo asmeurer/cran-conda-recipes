@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-quadprog
     - r-maps
     - r-maptools
     - r-mapdata
     - r-dichromat
   run:
+    - r
     - r-quadprog
     - r-maps
     - r-maptools

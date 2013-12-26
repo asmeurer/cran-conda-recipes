@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/dynsurv_0.1-8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-plyr
     - r-reshape
     - r-ggplot2
     - r-nleqslv
   run:
+    - r
     - r-plyr
     - r-reshape
     - r-ggplot2

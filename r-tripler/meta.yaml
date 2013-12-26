@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/TripleR_1.2.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-reshape
     - r-plyr
   run:
+    - r
     - r-reshape
     - r-plyr
 

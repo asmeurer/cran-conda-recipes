@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-wmtsa
   run:
+    - r
     - r-wmtsa
 
 about:

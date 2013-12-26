@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-foreach
     - r-rcolorbrewer
   run:
+    - r
     - r-foreach
     - r-rcolorbrewer
 

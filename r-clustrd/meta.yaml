@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/clustrd_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-corpcor
     - r-e1071
     - r-ggplot2
     - r-irlba
   run:
+    - r
     - r-corpcor
     - r-e1071
     - r-ggplot2

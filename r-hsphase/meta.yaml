@@ -7,21 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/hsphase_1.2.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gtools
     - r-snowfall
     - r-rcpp
     - r-rcpparmadillo
-    - r
   run:
+    - r
     - r-gtools
     - r-snowfall
     - r-rcpp
     - r-rcpparmadillo
-    - r
 
 about:
   license: GPL (>= 3)

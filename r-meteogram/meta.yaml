@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-radiosonde
   run:
+    - r
     - r-ggplot2
     - r-radiosonde
 

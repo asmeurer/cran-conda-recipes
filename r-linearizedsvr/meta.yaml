@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-kernlab
     - r-liblinear
     - r-expectreg
     - r-testthat
   run:
+    - r
     - r-kernlab
     - r-liblinear
     - r-expectreg

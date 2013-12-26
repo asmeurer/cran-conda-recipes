@@ -11,11 +11,11 @@ build:
 
 requirements:
   build:
-    - r-ggplot2
     - r
+    - r-ggplot2
   run:
-    - r-ggplot2
     - r
+    - r-ggplot2
 
 about:
   license: GPL (>= 2)

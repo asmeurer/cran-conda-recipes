@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/phyloclim_0.9-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ape
     - r-raster
   run:
+    - r
     - r-ape
     - r-raster
 

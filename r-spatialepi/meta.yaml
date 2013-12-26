@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-sp
     - r-maps
     - r-maptools
@@ -19,6 +20,7 @@ requirements:
     - r-gtools
     - r-rgeos
   run:
+    - r
     - r-sp
     - r-maps
     - r-maptools

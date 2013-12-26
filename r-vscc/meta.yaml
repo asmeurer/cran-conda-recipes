@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-teigen
     - r-mclust
   run:
+    - r
     - r-teigen
     - r-mclust
 

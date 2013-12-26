@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/sinartra_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mutatr
     - r-stringr
     - r-brew
     - r-rjson
     - r-evaluate
   run:
+    - r
     - r-mutatr
     - r-stringr
     - r-brew

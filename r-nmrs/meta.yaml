@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rwave
     - r-fticrms
     - r-tkrplot
   run:
+    - r
     - r-rwave
     - r-fticrms
     - r-tkrplot

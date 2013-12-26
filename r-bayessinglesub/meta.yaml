@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/BayesSingleSub_0.6.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-coda
     - r-mvtnorm
     - r-mcmcpack
   run:
+    - r
     - r-coda
     - r-mvtnorm
     - r-mcmcpack

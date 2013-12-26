@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-lars
     - r-poet
     - r-quantreg
   run:
+    - r
     - r-lars
     - r-poet
     - r-quantreg

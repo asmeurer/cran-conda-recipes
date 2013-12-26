@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-corpcor
   run:
+    - r
     - r-corpcor
 
 about:

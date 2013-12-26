@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-tseries
     - r-nortest
   run:
+    - r
     - r-tseries
     - r-nortest
 

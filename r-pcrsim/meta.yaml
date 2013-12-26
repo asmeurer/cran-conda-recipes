@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/pcrsim_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-datatable
     - r-gwidgets
     - r-rgtk2
     - r-strvalidator
   run:
+    - r
     - r-ggplot2
     - r-datatable
     - r-gwidgets

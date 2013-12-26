@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-formula
   run:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-formula

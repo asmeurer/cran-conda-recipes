@@ -11,13 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-lars
     - r-rgraphviz
-    - r
   run:
+    - r
     - r-lars
     - r-rgraphviz
-    - r
 
 about:
   license: GPL (>= 2)

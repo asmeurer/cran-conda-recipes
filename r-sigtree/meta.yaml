@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-phylobase
     - r-phyext
     - r-rcolorbrewer
     - r-phyloseq
   run:
+    - r
     - r-ape
     - r-phylobase
     - r-phyext

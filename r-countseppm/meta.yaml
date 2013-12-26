@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-formula
   run:
+    - r
     - r-formula
 
 about:

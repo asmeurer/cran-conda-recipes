@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/nlt_2.1-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ebayesthresh
     - r-adlift
   run:
+    - r
     - r-ebayesthresh
     - r-adlift
 

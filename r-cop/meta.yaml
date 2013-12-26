@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/COP_1.0-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-dr
   run:
+    - r
     - r-dr
 
 about:

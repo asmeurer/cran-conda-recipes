@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-genabel
     - r-databel
     - r-filehash
   run:
+    - r
     - r-genabel
     - r-databel
     - r-filehash

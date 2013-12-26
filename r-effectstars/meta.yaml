@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-vgam
   run:
+    - r
     - r-vgam
 
 about:

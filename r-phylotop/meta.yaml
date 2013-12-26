@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-phylobase
   run:
+    - r
     - r-ape
     - r-phylobase
 

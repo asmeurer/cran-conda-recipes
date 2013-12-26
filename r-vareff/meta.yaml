@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-mcmc
   run:
+    - r
     - r-mcmc
 
 about:

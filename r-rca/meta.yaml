@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/RCA_1.4.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-igraph
     - r
+    - r-igraph
   run:
-    - r-igraph
     - r
+    - r-igraph
 
 about:
   license: GPL (>= 2)

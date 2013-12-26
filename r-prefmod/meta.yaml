@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/prefmod_0.8-31.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gnm
     - r-colorspace
   run:
+    - r
     - r-gnm
     - r-colorspace
 

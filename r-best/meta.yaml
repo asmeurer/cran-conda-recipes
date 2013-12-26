@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/BEST_0.2.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rjags
   run:
+    - r
     - r-rjags
 
 about:

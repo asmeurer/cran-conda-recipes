@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/coxme_2.2-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-bdsmatrix
     - r
+    - r-bdsmatrix
   run:
-    - r-bdsmatrix
     - r
+    - r-bdsmatrix
 
 about:
   license: LGPL-2

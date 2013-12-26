@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/ergm.count_3.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-statnetcommon
     - r-ergm
     - r-network
   run:
+    - r
     - r-statnetcommon
     - r-ergm
     - r-network

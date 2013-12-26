@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-digest
     - r-proto
     - r-gwidgets
   run:
+    - r
     - r-digest
     - r-proto
     - r-gwidgets

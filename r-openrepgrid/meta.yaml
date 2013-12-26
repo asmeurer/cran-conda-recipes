@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/OpenRepGrid_0.1.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-colorspace
     - r-plyr
     - r-abind
@@ -21,6 +22,7 @@ requirements:
     - r-xlsx
     - r-pvclust
   run:
+    - r
     - r-colorspace
     - r-plyr
     - r-abind

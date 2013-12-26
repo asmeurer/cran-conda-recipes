@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-doparallel
     - r-foreach
   run:
+    - r
     - r-doparallel
     - r-foreach
 

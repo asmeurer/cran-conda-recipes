@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-ergm
     - r-network
     - r-coda
     - r-mvtnorm
   run:
+    - r
     - r-ergm
     - r-network
     - r-coda

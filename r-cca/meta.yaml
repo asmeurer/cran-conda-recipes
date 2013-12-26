@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-fda
     - r-fields
   run:
+    - r
     - r-fda
     - r-fields
 

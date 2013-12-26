@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-grplasso
     - r-penalized
     - r-micecon
   run:
+    - r
     - r-grplasso
     - r-penalized
     - r-micecon

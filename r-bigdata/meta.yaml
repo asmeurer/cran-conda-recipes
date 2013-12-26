@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-glmnet
   run:
+    - r
     - r-glmnet
 
 about:

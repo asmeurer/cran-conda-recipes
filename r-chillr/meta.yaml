@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-pls
     - r-kendall
     - r-spam
     - r-fields
   run:
+    - r
     - r-pls
     - r-kendall
     - r-spam

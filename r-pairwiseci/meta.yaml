@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/pairwiseCI_0.1-22.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mcpan
     - r-coin
     - r-mratios
     - r-binmto
   run:
+    - r
     - r-mcpan
     - r-coin
     - r-mratios

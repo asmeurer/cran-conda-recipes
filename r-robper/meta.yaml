@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-robustbase
     - r-quantreg
     - r-bb
     - r-rgenoud
   run:
+    - r
     - r-robustbase
     - r-quantreg
     - r-bb

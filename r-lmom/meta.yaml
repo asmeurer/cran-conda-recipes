@@ -11,7 +11,9 @@ build:
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: Common Public License Version 1.0

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-network
     - r-sna
   run:
+    - r
     - r-network
     - r-sna
 

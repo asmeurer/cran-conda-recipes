@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-graph
     - r-rbgl
     - r-mvtnorm
   run:
+    - r
     - r-graph
     - r-rbgl
     - r-mvtnorm

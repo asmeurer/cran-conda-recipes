@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-geor
   run:
+    - r
     - r-geor
 
 about:

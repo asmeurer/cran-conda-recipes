@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-snpstats
   run:
+    - r
     - r-snpstats
 
 about:

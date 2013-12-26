@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/RJDBC_0.2-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-dbi
     - r-rjava
-    - r
   run:
+    - r
     - r-dbi
     - r-rjava
-    - r
 
 about:
   license: GPL-2

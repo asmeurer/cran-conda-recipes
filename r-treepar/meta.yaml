@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-subplex
     - r-treesim
     - r-desolve
   run:
+    - r
     - r-ape
     - r-subplex
     - r-treesim

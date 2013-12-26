@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/gitter_1.0.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-jpeg
     - r-logging
     - r-pet
     - r-ggplot2
     - r-ebimage
   run:
+    - r
     - r-jpeg
     - r-logging
     - r-pet

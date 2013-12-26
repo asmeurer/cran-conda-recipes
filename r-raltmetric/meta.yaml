@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-plyr
     - r-rcurl
     - r-reshape2
@@ -18,6 +19,7 @@ requirements:
     - r-ggplot2
     - r-rjsonio
   run:
+    - r
     - r-plyr
     - r-rcurl
     - r-reshape2

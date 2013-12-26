@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-dr
     - r-np
     - r-cubature
   run:
+    - r
     - r-dr
     - r-np
     - r-cubature

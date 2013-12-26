@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-car
     - r-gplots
   run:
+    - r
     - r-car
     - r-gplots
 

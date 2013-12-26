@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-rjsonio
     - r-functional
     - r-lisp
   run:
+    - r
     - r-rcurl
     - r-rjsonio
     - r-functional

@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-sqldf
   run:
+    - r
     - r-sqldf
 
 about:

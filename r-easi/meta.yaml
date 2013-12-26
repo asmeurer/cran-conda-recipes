@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-systemfit
     - r-micecon
   run:
+    - r
     - r-systemfit
     - r-micecon
 

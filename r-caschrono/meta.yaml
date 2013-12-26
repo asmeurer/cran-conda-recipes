@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-forecast
     - r-hmisc
     - r-its
     - r-timeseries
   run:
+    - r
     - r-forecast
     - r-hmisc
     - r-its

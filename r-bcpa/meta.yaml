@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-intervals
     - r-plyr
   run:
+    - r
     - r-rcpp
     - r-intervals
     - r-plyr

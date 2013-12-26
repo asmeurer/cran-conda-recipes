@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-penalized
     - r-rocr
   run:
+    - r
     - r-penalized
     - r-rocr
 

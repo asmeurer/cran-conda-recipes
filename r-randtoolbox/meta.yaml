@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rngwell
   run:
+    - r
     - r-rngwell
 
 about:

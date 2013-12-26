@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/sparkTable_0.9.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-xtable
     - r-cairo
     - r-rglpk
@@ -20,6 +21,7 @@ requirements:
     - r-ggplot2
     - r-pixmap
   run:
+    - r
     - r-xtable
     - r-cairo
     - r-rglpk

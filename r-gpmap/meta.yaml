@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-isotone
     - r-plyr
     - r-ggplot2
     - r-foreach
     - r-domc
   run:
+    - r
     - r-isotone
     - r-plyr
     - r-ggplot2

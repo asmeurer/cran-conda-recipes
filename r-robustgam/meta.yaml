@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/robustgam_0.1.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-robustbase
   run:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-robustbase

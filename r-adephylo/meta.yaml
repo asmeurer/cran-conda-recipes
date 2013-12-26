@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/adephylo_1.1-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ade4
     - r-phylobase
     - r-ape
     - r-adegenet
   run:
+    - r
     - r-ade4
     - r-phylobase
     - r-ape

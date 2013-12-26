@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-hmisc
   run:
+    - r
     - r-hmisc
 
 about:

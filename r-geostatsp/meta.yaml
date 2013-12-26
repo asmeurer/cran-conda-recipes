@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/geostatsp_0.8.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-raster
     - r-sp
-    - r
   run:
+    - r
     - r-raster
     - r-sp
-    - r
 
 about:
   license: GPL

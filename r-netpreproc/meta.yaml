@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-graph
   run:
+    - r
     - r-graph
 
 about:

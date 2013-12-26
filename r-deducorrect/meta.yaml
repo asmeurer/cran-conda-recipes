@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/deducorrect_1.3-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-editrules
   run:
+    - r
     - r-editrules
 
 about:

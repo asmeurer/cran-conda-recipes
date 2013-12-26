@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/pavo_0.5-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgl
     - r-rcdd
     - r-mapproj
     - r-geometry
   run:
+    - r
     - r-rgl
     - r-rcdd
     - r-mapproj

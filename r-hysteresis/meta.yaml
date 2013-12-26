@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-car
     - r-msm
     - r-nlrwr
   run:
+    - r
     - r-car
     - r-msm
     - r-nlrwr

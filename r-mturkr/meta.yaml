@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/MTurkR_0.3.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-bitops
     - r-rcurl
     - r-digest
     - r-xml
   run:
+    - r
     - r-bitops
     - r-rcurl
     - r-digest

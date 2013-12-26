@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-quantreg
     - r-stringr
     - r-magic
   run:
+    - r
     - r-quantreg
     - r-stringr
     - r-magic

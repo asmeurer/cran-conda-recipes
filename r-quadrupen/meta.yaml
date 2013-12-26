@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/quadrupen_0.2-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-rcpp
     - r-rcpparmadillo
     - r-reshape2
     - r-scales
   run:
+    - r
     - r-ggplot2
     - r-rcpp
     - r-rcpparmadillo

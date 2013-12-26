@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/gWidgets2RGtk2_1.0-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-memoise
     - r-rgtk2
     - r-gwidgets2
   run:
+    - r
     - r-memoise
     - r-rgtk2
     - r-gwidgets2

@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-seqinr
     - r-ape
     - r-stringr
     - r-geiger
     - r-taxize
   run:
+    - r
     - r-seqinr
     - r-ape
     - r-stringr

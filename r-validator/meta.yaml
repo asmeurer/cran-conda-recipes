@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-clv
     - r-clvalid
     - r-flexclust
     - r-mlbench
   run:
+    - r
     - r-clv
     - r-clvalid
     - r-flexclust

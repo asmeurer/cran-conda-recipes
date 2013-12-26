@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-numderiv
   run:
+    - r
     - r-mvtnorm
     - r-numderiv
 

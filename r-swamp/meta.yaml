@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/swamp_1.2.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-impute
     - r-amap
     - r-gplots
   run:
+    - r
     - r-impute
     - r-amap
     - r-gplots

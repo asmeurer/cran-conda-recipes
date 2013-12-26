@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-fpc
     - r-gplots
   run:
+    - r
     - r-fpc
     - r-gplots
 

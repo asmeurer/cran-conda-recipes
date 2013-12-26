@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/ROI_0.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-registry
     - r-slam
   run:
+    - r
     - r-registry
     - r-slam
 

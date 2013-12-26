@@ -7,21 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/move_1.1.441.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-sp
     - r-raster
     - r-rgdal
     - r-geosphere
-    - r
   run:
+    - r
     - r-sp
     - r-raster
     - r-rgdal
     - r-geosphere
-    - r
 
 about:
   license: GPL (>= 3)

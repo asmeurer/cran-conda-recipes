@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-formula
     - r-expm
     - r-rocr
     - r-ggplot2
     - r-stringr
   run:
+    - r
     - r-formula
     - r-expm
     - r-rocr

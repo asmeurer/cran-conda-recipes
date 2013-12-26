@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/NBPSeq_0.1.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-qvalue
     - r
+    - r-qvalue
   run:
-    - r-qvalue
     - r
+    - r-qvalue
 
 about:
   license: GPL-2

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/divagis_1.0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgdal
     - r-sp
   run:
+    - r
     - r-rgdal
     - r-sp
 

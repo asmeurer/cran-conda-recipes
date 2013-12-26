@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rocr
   run:
+    - r
     - r-rocr
 
 about:

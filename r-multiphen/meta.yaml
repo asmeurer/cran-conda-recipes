@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/MultiPhen_1.0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-abind
     - r-epitools
     - r-meta
   run:
+    - r
     - r-abind
     - r-epitools
     - r-meta

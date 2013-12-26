@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcmdr
     - r-seeg
     - r-spatstat
     - r-sgeostat
   run:
+    - r
     - r-rcmdr
     - r-seeg
     - r-spatstat

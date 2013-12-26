@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/alm_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-rcurl
     - r-rjsonio
@@ -21,6 +22,7 @@ requirements:
     - r-httr
     - r-lubridate
   run:
+    - r
     - r-ggplot2
     - r-rcurl
     - r-rjsonio

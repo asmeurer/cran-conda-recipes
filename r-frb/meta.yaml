@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-corpcor
     - r-rrcov
   run:
+    - r
     - r-corpcor
     - r-rrcov
 

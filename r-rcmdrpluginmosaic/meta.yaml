@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/RcmdrPlugin.mosaic_1.0-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-enmisc
     - r-vcd
     - r-hmisc
     - r-rcmdr
   run:
+    - r
     - r-enmisc
     - r-vcd
     - r-hmisc

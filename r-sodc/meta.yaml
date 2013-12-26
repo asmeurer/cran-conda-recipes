@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-magic
     - r-ppls
     - r-psych
   run:
+    - r
     - r-magic
     - r-ppls
     - r-psych

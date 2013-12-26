@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/polywog_0.3-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-glmnet
     - r-ncvreg
     - r-formula
@@ -20,6 +21,7 @@ requirements:
     - r-car
     - r-matrixstats
   run:
+    - r
     - r-glmnet
     - r-ncvreg
     - r-formula

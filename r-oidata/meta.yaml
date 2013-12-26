@@ -11,13 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-maps
-    - r
   run:
+    - r
     - r-rcurl
     - r-maps
-    - r
 
 about:
   license: GPL-2 | GPL-3

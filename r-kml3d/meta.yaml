@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/kml3d_2.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-clv
     - r-rgl
     - r-misc3d
     - r-longitudinaldata
     - r-kml
   run:
+    - r
     - r-clv
     - r-rgl
     - r-misc3d

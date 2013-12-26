@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/SEL_1.0-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-quadprog
   run:
+    - r
     - r-quadprog
 
 about:

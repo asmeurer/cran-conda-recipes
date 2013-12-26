@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/FD_1.0-11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ade4
     - r-ape
     - r-geometry
     - r-vegan
   run:
+    - r
     - r-ade4
     - r-ape
     - r-geometry

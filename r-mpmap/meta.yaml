@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-gdata
     - r-seriation
     - r-qtl
     - r-wgaim
   run:
+    - r
     - r-gdata
     - r-seriation
     - r-qtl

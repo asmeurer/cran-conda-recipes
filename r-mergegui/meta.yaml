@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/MergeGUI_0.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gwidgetsrgtk2
     - r-ggplot2
     - r-cairodevice
   run:
+    - r
     - r-gwidgetsrgtk2
     - r-ggplot2
     - r-cairodevice

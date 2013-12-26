@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-orloca
     - r-orlocaes
     - r-rcmdr
   run:
+    - r
     - r-orloca
     - r-orlocaes
     - r-rcmdr

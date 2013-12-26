@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-gridextra
     - r-igraph
     - r-scales
     - r-reshape2
   run:
+    - r
     - r-ggplot2
     - r-gridextra
     - r-igraph

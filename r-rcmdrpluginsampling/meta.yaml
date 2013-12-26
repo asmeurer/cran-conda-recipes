@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-lpsolve
     - r-sampling
     - r-rcmdr
   run:
+    - r
     - r-lpsolve
     - r-sampling
     - r-rcmdr

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-numderiv
     - r-statmod
     - r-lmenbbayes
   run:
+    - r
     - r-numderiv
     - r-statmod
     - r-lmenbbayes

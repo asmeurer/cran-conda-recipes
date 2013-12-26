@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/blockTools_0.5-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gtools
   run:
+    - r
     - r-gtools
 
 about:

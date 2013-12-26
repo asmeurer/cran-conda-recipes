@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-biclust
   run:
+    - r
     - r-biclust
 
 about:

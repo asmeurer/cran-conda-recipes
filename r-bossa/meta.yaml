@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-soda
   run:
+    - r
     - r-ape
     - r-soda
 

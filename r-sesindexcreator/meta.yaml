@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/SesIndexCreatoR_1.0-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-factominer
     - r
+    - r-factominer
   run:
-    - r-factominer
     - r
+    - r-factominer
 
 about:
   license: GPL-2 | GPL-3

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-scva
     - r-scrt
     - r-scma
     - r-rcmdr
   run:
+    - r
     - r-scva
     - r-scrt
     - r-scma

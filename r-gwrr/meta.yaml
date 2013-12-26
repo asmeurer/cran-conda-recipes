@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/gwrr_0.2-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-fields
     - r-lars
   run:
+    - r
     - r-fields
     - r-lars
 

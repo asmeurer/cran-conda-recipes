@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-factominer
   run:
+    - r
     - r-factominer
 
 about:

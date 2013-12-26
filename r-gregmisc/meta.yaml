@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/gregmisc_2.1.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gdata
     - r-gmodels
     - r-gplots
     - r-gtools
   run:
+    - r
     - r-gdata
     - r-gmodels
     - r-gplots

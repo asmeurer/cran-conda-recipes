@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/biomod2_3.1-25.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-sp
     - r-raster
     - r-abind
@@ -20,6 +21,7 @@ requirements:
     - r-mda
     - r-randomforest
   run:
+    - r
     - r-sp
     - r-raster
     - r-abind

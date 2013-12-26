@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-pamr
   run:
+    - r
     - r-pamr
 
 about:

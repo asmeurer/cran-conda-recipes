@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/phylotools_0.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-seqrflp
     - r-ape
     - r-picante
     - r-spaa
     - r-fields
   run:
+    - r
     - r-seqrflp
     - r-ape
     - r-picante

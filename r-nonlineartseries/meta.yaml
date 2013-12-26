@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rgl
     - r-tseries
     - r-tsa
   run:
+    - r
     - r-rgl
     - r-tseries
     - r-tsa

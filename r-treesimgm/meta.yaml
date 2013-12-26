@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-treesim
   run:
+    - r
     - r-treesim
 
 about:

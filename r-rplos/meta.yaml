@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/rplos_0.3.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-rcurl
     - r-rjsonio
@@ -22,6 +23,7 @@ requirements:
     - r-lubridate
     - r-reshape2
   run:
+    - r
     - r-ggplot2
     - r-rcurl
     - r-rjsonio

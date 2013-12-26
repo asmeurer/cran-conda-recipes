@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-aplpack
     - r-vcd
   run:
+    - r
     - r-aplpack
     - r-vcd
 

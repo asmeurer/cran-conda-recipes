@@ -7,21 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/mapmisc_0.9.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-sp
     - r-raster
-    - r
     - r-geonames
     - r-rcolorbrewer
     - r-rgdal
     - r-classint
   run:
+    - r
     - r-sp
     - r-raster
-    - r
     - r-geonames
     - r-rcolorbrewer
     - r-rgdal

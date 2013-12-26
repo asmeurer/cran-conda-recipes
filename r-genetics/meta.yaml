@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/genetics_1.3.8.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-combinat
     - r-gdata
     - r-gtools
     - r-mvtnorm
   run:
+    - r
     - r-combinat
     - r-gdata
     - r-gtools

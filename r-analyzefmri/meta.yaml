@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/AnalyzeFMRI_1.1-16.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rmatlab
     - r-fastica
   run:
+    - r
     - r-rmatlab
     - r-fastica
 

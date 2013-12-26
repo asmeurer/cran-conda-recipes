@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcolorbrewer
   run:
+    - r
     - r-rcolorbrewer
 
 about:

@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/anacor_1.0-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgl
     - r-scatterplot3d
     - r-fda
     - r-colorspace
     - r-car
   run:
+    - r
     - r-rgl
     - r-scatterplot3d
     - r-fda

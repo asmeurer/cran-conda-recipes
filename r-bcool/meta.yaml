@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-seqinr
     - r-mcmcglmm
     - r-dompi
   run:
+    - r
     - r-ape
     - r-seqinr
     - r-mcmcglmm

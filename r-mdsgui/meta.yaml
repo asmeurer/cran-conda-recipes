@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/MDSGUI_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcolorbrewer
     - r-scatterplot3d
     - r-tcltk2
@@ -19,6 +20,7 @@ requirements:
     - r-rgl
     - r-smacof
   run:
+    - r
     - r-rcolorbrewer
     - r-scatterplot3d
     - r-tcltk2

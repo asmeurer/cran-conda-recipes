@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-lpsolve
     - r-combinat
   run:
+    - r
     - r-lpsolve
     - r-combinat
 

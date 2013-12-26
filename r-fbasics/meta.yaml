@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-timedate
     - r-timeseries
     - r-stabledist
     - r-gss
   run:
+    - r
     - r-timedate
     - r-timeseries
     - r-stabledist

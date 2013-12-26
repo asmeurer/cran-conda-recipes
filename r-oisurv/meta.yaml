@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-kmsurv
   run:
+    - r
     - r-kmsurv
 
 about:

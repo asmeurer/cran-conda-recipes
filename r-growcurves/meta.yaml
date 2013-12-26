@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/growcurves_0.2.3.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-reshape2
@@ -19,6 +20,7 @@ requirements:
     - r-formula
     - r-testthat
   run:
+    - r
     - r-rcpp
     - r-rcpparmadillo
     - r-reshape2

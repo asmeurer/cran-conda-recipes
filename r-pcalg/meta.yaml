@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/pcalg_1.1-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-abind
     - r-sfsmisc
     - r-graph
@@ -20,6 +21,7 @@ requirements:
     - r-robustbase
     - r-vcd
   run:
+    - r
     - r-abind
     - r-sfsmisc
     - r-graph

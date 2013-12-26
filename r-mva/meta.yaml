@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/MVA_1.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-hsaur2
   run:
+    - r
     - r-hsaur2
 
 about:

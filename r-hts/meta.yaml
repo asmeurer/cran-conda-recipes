@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-forecast
     - r-sparsem
   run:
+    - r
     - r-forecast
     - r-sparsem
 

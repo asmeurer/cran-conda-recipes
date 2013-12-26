@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-snowfall
     - r-rlecuyer
     - r-spdep
   run:
+    - r
     - r-snowfall
     - r-rlecuyer
     - r-spdep

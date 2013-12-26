@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/symbolicDA_0.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-clustersim
     - r-xml
     - r-rgl
@@ -18,6 +19,7 @@ requirements:
     - r-e1071
     - r-ade4
   run:
+    - r
     - r-clustersim
     - r-xml
     - r-rgl

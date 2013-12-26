@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/relSim_0.1-47.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-dnatools
   run:
+    - r
     - r-dnatools
 
 about:

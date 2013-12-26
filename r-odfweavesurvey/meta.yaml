@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-odfweave
     - r-survey
   run:
+    - r
     - r-odfweave
     - r-survey
 

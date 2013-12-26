@@ -11,17 +11,17 @@ build:
 
 requirements:
   build:
+    - r
     - r-maptools
     - r-sp
     - r-rgeos
     - r-presenceabsence
-    - r
   run:
+    - r
     - r-maptools
     - r-sp
     - r-rgeos
     - r-presenceabsence
-    - r
 
 about:
   license: GPL (>= 2)

@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/rcdk_3.2.3.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-fingerprint
     - r-rjava
     - r-rcdklibs
     - r-png
     - r-iterators
   run:
+    - r
     - r-fingerprint
     - r-rjava
     - r-rcdklibs

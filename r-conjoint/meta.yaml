@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-algdesign
     - r-clustersim
   run:
+    - r
     - r-algdesign
     - r-clustersim
 

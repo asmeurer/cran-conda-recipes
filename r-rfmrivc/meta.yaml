@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/RfmriVC_1.0.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-rniftilib
   run:
+    - r
     - r-mvtnorm
     - r-rniftilib
 

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-mlbench
     - r-caret
   run:
+    - r
     - r-mlbench
     - r-caret
 

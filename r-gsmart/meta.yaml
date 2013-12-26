@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-geoquery
     - r-r2html
     - r-qvalue
@@ -19,6 +20,7 @@ requirements:
     - r-xtable
     - r-limma
   run:
+    - r
     - r-geoquery
     - r-r2html
     - r-qvalue

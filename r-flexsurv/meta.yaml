@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-muhaz
     - r-mvtnorm
   run:
+    - r
     - r-muhaz
     - r-mvtnorm
 

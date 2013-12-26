@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/tsDyn_0.9-32.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mnormt
     - r-tserieschaos
     - r-tseries
@@ -19,6 +20,7 @@ requirements:
     - r-forecast
     - r-foreach
   run:
+    - r
     - r-mnormt
     - r-tserieschaos
     - r-tseries

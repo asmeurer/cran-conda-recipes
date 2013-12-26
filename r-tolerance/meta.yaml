@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/tolerance_0.5.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgl
   run:
+    - r
     - r-rgl
 
 about:

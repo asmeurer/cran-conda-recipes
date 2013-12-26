@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/Rlabkey_2.1.123.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-rjson
   run:
+    - r
     - r-rcurl
     - r-rjson
 

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/peptider_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-discreterv
     - r-plyr
   run:
+    - r
     - r-discreterv
     - r-plyr
 

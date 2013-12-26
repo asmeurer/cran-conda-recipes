@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-mlogit
     - r-polca
   run:
+    - r
     - r-mlogit
     - r-polca
 

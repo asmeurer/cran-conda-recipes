@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-gplots
   run:
+    - r
     - r-gplots
 
 about:

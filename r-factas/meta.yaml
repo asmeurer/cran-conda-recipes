@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-plotrix
     - r-factominer
   run:
+    - r
     - r-plotrix
     - r-factominer
 

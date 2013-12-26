@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-mcmcpack
     - r-mvtnorm
   run:
+    - r
     - r-mcmcpack
     - r-mvtnorm
 

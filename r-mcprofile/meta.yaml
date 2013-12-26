@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/mcprofile_0.1-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-quadprog
     - r-ggplot2
     - r-mvtnorm
   run:
+    - r
     - r-quadprog
     - r-ggplot2
     - r-mvtnorm

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-hdrcde
     - r-coda
     - r-ellipse
     - r-svdialogs
   run:
+    - r
     - r-hdrcde
     - r-coda
     - r-ellipse

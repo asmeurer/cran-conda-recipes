@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/directlabels_2013.6.15.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-quadprog
   run:
+    - r
     - r-quadprog
 
 about:

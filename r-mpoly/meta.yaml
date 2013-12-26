@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/mpoly_0.0.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-stringr
     - r-rsympy
     - r-rjython
@@ -19,6 +20,7 @@ requirements:
     - r-partitions
     - r-plyr
   run:
+    - r
     - r-stringr
     - r-rsympy
     - r-rjython

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-vcd
     - r-colorspace
     - r-barcode
     - r-gpairs
   run:
+    - r
     - r-vcd
     - r-colorspace
     - r-barcode

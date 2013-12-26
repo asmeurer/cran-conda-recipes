@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/ChainLadder_0.1.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-systemfit
     - r-actuar
     - r-hmisc
@@ -18,6 +19,7 @@ requirements:
     - r-reshape2
     - r-tweedie
   run:
+    - r
     - r-systemfit
     - r-actuar
     - r-hmisc

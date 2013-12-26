@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-icens
     - r-interval
     - r-mlecens
     - r-kmsurv
   run:
+    - r
     - r-icens
     - r-interval
     - r-mlecens

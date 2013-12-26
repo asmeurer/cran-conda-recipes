@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-car
     - r-ellipse
     - r-scatterplot3d
     - r-leaps
   run:
+    - r
     - r-car
     - r-ellipse
     - r-scatterplot3d

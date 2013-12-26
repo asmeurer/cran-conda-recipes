@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-coda
     - r-phangorn
   run:
+    - r
     - r-ape
     - r-coda
     - r-phangorn

@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/MetaDE_1.0.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-impute
     - r-biobase
     - r-combinat
   run:
+    - r
     - r-impute
     - r-biobase
     - r-combinat

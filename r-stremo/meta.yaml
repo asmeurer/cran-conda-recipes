@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-lavaan
     - r-numderiv
   run:
+    - r
     - r-lavaan
     - r-numderiv
 

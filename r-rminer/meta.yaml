@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/rminer_1.3.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-kknn
     - r-kernlab
     - r-plotrix
   run:
+    - r
     - r-kknn
     - r-kernlab
     - r-plotrix

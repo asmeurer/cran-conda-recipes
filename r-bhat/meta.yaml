@@ -7,11 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/Bhat_0.9-10.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: GPL (>= 2)

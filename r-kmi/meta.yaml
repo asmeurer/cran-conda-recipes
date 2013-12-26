@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-mitools
   run:
+    - r
     - r-mitools
 
 about:

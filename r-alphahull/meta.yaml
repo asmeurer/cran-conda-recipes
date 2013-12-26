@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-tripack
     - r-sgeostat
     - r-splancs
   run:
+    - r
     - r-tripack
     - r-sgeostat
     - r-splancs

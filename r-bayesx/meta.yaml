@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/BayesX_0.2-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-shapefiles
     - r-sp
     - r-maptools
     - r-colorspace
     - r-coda
   run:
+    - r
     - r-shapefiles
     - r-sp
     - r-maptools

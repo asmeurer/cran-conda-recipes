@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/fit4NM_3.3.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gwidgets
     - r-tkrplot
     - r-rgtk2
     - r-gwidgetsrgtk2
     - r-cairodevice
   run:
+    - r
     - r-gwidgets
     - r-tkrplot
     - r-rgtk2

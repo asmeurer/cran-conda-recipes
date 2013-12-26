@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/taRifx.geo_1.0.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-tarifx
     - r-sp
     - r-plyr
     - r-reshape2
   run:
+    - r
     - r-tarifx
     - r-sp
     - r-plyr

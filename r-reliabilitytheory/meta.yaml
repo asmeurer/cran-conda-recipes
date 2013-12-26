@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/ReliabilityTheory_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-igraph
     - r-sfsmisc
     - r-combinat
@@ -20,6 +21,7 @@ requirements:
     - r-actuar
     - r-hi
   run:
+    - r
     - r-igraph
     - r-sfsmisc
     - r-combinat

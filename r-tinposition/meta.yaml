@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/TInPosition_0.13.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-prettygraphs
     - r-texposition
     - r-exposition
     - r-inposition
   run:
+    - r
     - r-prettygraphs
     - r-texposition
     - r-exposition

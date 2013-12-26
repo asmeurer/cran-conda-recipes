@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/onemap_2.0-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-tkrplot
     - r
+    - r-tkrplot
   run:
-    - r-tkrplot
     - r
+    - r-tkrplot
 
 about:
   license: GPL-3

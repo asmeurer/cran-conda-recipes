@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/survIDINRI_1.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-survc1
   run:
+    - r
     - r-survc1
 
 about:

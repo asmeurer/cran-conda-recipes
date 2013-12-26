@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/topologyGSA_1.4.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-grbase
     - r-qpgraph
     - r-fields
   run:
+    - r
     - r-grbase
     - r-qpgraph
     - r-fields

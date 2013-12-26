@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/SSsimple_0.6.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mvtnorm
   run:
+    - r
     - r-mvtnorm
 
 about:

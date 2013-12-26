@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/RcmdrPlugin.doex_0.2.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcmdr
     - r-multcomp
   run:
+    - r
     - r-rcmdr
     - r-multcomp
 

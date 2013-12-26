@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/splusTimeSeries_1.5.0-73.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-splustimedate
     - r
+    - r-splustimedate
   run:
-    - r-splustimedate
     - r
+    - r-splustimedate
 
 about:
   license: BSD_3_clause + file LICENSE

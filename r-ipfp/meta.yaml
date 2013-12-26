@@ -11,7 +11,9 @@ build:
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: Apache License (== 2.0)

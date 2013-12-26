@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-limma
     - r-graph
     - r-rbgl
   run:
+    - r
     - r-limma
     - r-graph
     - r-rbgl

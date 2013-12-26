@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-quadprog
   run:
+    - r
     - r-quadprog
 
 about:

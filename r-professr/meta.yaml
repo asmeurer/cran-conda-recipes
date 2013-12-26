@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rpmg
   run:
+    - r
     - r-rpmg
 
 about:

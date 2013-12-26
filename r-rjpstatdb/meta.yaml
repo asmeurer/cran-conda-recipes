@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-xml
   run:
+    - r
     - r-rcurl
     - r-xml
 

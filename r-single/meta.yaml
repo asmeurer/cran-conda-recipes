@@ -11,15 +11,15 @@ build:
 
 requirements:
   build:
+    - r
     - r-flsa
     - r-igraph
     - r-dse
-    - r
   run:
+    - r
     - r-flsa
     - r-igraph
     - r-dse
-    - r
 
 about:
   license: GPL-2

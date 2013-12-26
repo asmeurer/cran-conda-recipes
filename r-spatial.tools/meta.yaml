@@ -7,24 +7,24 @@ source:
   url: http://cran.r-project.org/src/contrib/spatial.tools_1.2.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-iterators
     - r-foreach
     - r-rgdal
     - r-raster
-    - r
     - r-mmap
     - r-abind
     - r-doparallel
   run:
+    - r
     - r-iterators
     - r-foreach
     - r-rgdal
     - r-raster
-    - r
     - r-mmap
     - r-abind
     - r-doparallel

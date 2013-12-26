@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcdd
   run:
+    - r
     - r-rcdd
 
 about:

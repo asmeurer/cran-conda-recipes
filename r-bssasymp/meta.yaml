@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/BSSasymp_1.0-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-fica
     - r-jade
   run:
+    - r
     - r-fica
     - r-jade
 

@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-e1071
     - r-reshape
   run:
+    - r
     - r-e1071
     - r-reshape
 

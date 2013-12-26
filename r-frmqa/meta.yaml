@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/frmqa_0.1-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-partitions
     - r-rmpfr
   run:
+    - r
     - r-partitions
     - r-rmpfr
 

@@ -11,13 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpparmadillo
     - r-rcpp
-    - r
   run:
+    - r
     - r-rcpparmadillo
     - r-rcpp
-    - r
 
 about:
   license: GPL (>= 2)

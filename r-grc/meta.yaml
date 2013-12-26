@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/gRc_0.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-grbase
     - r-graph
     - r-rgraphviz
   run:
+    - r
     - r-grbase
     - r-graph
     - r-rgraphviz

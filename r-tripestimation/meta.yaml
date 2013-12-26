@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/tripEstimation_0.0-41.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgdal
     - r-sp
     - r-zoo
   run:
+    - r
     - r-rgdal
     - r-sp
     - r-zoo

@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/IsotopeR_0.4.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-coda
     - r-fgui
     - r-runjags
   run:
+    - r
     - r-coda
     - r-fgui
     - r-runjags

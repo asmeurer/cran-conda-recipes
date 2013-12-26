@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-gdata
     - r-shapes
     - r-e1071
     - r-pcamethods
     - r-misctools
   run:
+    - r
     - r-gdata
     - r-shapes
     - r-e1071

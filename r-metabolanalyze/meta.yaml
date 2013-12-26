@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-mclust
     - r-mvtnorm
     - r-ellipse
     - r-gtools
     - r-gplots
   run:
+    - r
     - r-mclust
     - r-mvtnorm
     - r-ellipse

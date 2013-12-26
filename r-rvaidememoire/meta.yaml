@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/RVAideMemoire_0.9-29-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ade4
     - r-car
     - r-lme4
     - r-mixomics
     - r-statmod
   run:
+    - r
     - r-ade4
     - r-car
     - r-lme4

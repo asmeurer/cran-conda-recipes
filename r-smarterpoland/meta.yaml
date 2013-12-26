@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-reshape
     - r-rjson
   run:
+    - r
     - r-reshape
     - r-rjson
 

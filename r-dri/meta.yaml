@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-impute
     - r-cghflasso
   run:
+    - r
     - r-impute
     - r-cghflasso
 

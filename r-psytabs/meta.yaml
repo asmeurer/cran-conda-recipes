@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-psych
     - r-plyr
     - r-rtf
@@ -19,6 +20,7 @@ requirements:
     - r-lavaan
     - r-semtools
   run:
+    - r
     - r-psych
     - r-plyr
     - r-rtf

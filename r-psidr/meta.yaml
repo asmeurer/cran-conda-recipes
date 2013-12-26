@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-datatable
     - r-rcurl
     - r-sascii
   run:
+    - r
     - r-datatable
     - r-rcurl
     - r-sascii

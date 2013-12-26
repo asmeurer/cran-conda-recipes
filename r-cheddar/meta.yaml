@@ -7,11 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/cheddar_0.1-624.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: BSD 3-clause License

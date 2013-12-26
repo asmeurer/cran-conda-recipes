@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjsonio
     - r-plyr
     - r-reshape2
@@ -20,6 +21,7 @@ requirements:
     - r-labeling
     - r-scales
   run:
+    - r
     - r-rjsonio
     - r-plyr
     - r-reshape2

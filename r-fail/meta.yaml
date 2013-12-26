@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-bbmisc
   run:
+    - r
     - r-bbmisc
 
 about:

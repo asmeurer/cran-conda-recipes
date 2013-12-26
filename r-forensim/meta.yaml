@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-tcltk2
     - r-tkrplot
   run:
+    - r
     - r-tcltk2
     - r-tkrplot
 

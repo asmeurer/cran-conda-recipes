@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-kmsurv
     - r-geepack
   run:
+    - r
     - r-kmsurv
     - r-geepack
 

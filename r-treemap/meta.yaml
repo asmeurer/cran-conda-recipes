@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/treemap_2.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-colorspace
     - r-datatable
     - r-gridbase
@@ -18,6 +19,7 @@ requirements:
     - r-rcolorbrewer
     - r-shiny
   run:
+    - r
     - r-colorspace
     - r-datatable
     - r-gridbase

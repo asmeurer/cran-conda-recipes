@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-simex
     - r-sm
   run:
+    - r
     - r-simex
     - r-sm
 

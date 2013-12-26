@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rdcomclient
   run:
+    - r
     - r-rdcomclient
 
 about:

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-compquadform
     - r-numderiv
     - r-vcf2geno
   run:
+    - r
     - r-compquadform
     - r-numderiv
     - r-vcf2geno

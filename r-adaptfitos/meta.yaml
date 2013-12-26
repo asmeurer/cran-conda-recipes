@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-semipar
   run:
+    - r
     - r-semipar
 
 about:

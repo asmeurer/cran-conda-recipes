@@ -11,17 +11,17 @@ build:
 
 requirements:
   build:
+    - r
     - r-bayesm
     - r-learnbayes
     - r-suppdists
     - r-mvtnorm
-    - r
   run:
+    - r
     - r-bayesm
     - r-learnbayes
     - r-suppdists
     - r-mvtnorm
-    - r
 
 about:
   license: GPL (>= 2)

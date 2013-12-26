@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-nortest
     - r-mvnormtest
   run:
+    - r
     - r-nortest
     - r-mvnormtest
 

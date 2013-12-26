@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-reshape
     - r-xtable
     - r-aod
@@ -18,6 +19,7 @@ requirements:
     - r-geor
     - r-stringr
   run:
+    - r
     - r-reshape
     - r-xtable
     - r-aod

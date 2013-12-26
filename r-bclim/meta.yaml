@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-mclust
     - r-hdrcde
     - r-statmod
   run:
+    - r
     - r-mclust
     - r-hdrcde
     - r-statmod

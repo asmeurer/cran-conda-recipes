@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-car
     - r-spatstat
     - r-sgeostat
   run:
+    - r
     - r-car
     - r-spatstat
     - r-sgeostat

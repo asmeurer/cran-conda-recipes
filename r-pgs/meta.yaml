@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/pgs_0.4-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gsl
     - r-r2cuba
   run:
+    - r
     - r-gsl
     - r-r2cuba
 

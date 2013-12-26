@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/seewave_1.7.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-fftw
     - r-tuner
   run:
+    - r
     - r-fftw
     - r-tuner
 

@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-separationplot
     - r-ensemblebma
     - r-plyr
     - r-hmisc
     - r-abind
   run:
+    - r
     - r-separationplot
     - r-ensemblebma
     - r-plyr

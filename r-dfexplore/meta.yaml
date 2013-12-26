@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-ggplot2
   run:
+    - r
     - r-ggplot2
 
 about:

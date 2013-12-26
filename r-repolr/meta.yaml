@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-gee
   run:
+    - r
     - r-gee
 
 about:

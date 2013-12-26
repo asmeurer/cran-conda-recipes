@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/NeatMap_0.3.6.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-rgl
   run:
+    - r
     - r-ggplot2
     - r-rgl
 

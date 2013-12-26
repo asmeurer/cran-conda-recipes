@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/iBUGS_0.1.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-r2winbugs
     - r-gwidgetsrgtk2
   run:
+    - r
     - r-r2winbugs
     - r-gwidgetsrgtk2
 

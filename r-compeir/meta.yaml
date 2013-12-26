@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-etm
   run:
+    - r
     - r-etm
 
 about:

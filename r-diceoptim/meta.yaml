@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-dicekriging
     - r-rgenoud
     - r-lhs
   run:
+    - r
     - r-dicekriging
     - r-rgenoud
     - r-lhs

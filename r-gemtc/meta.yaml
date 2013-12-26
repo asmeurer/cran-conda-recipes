@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/gemtc_0.5-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-coda
     - r-igraph
     - r-meta
     - r-xml
   run:
+    - r
     - r-coda
     - r-igraph
     - r-meta

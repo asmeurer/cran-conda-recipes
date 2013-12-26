@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-tcltk2
   run:
+    - r
     - r-tcltk2
 
 about:

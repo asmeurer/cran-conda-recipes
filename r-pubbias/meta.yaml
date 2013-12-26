@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rmeta
     - r-rutils
   run:
+    - r
     - r-rmeta
     - r-rutils
 

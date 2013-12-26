@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-statmod
   run:
+    - r
     - r-statmod
 
 about:

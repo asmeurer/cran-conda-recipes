@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-globaltest
     - r-globalancova
     - r-limma
     - r-repeatedhighdim
     - r-corpcor
   run:
+    - r
     - r-globaltest
     - r-globalancova
     - r-limma

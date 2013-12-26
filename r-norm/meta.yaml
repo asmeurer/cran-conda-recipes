@@ -7,11 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/norm_1.0-9.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: file LICENSE

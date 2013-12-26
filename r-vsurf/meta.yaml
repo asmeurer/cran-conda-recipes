@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-randomforest
     - r-doparallel
   run:
+    - r
     - r-randomforest
     - r-doparallel
 

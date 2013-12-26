@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/rtop_0.3-44.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-sp
     - r-gstat
   run:
+    - r
     - r-sp
     - r-gstat
 

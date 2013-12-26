@@ -7,11 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/rbugs_0.5-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: GPL (>= 3.0)

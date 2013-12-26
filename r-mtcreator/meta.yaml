@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-affy
   run:
+    - r
     - r-affy
 
 about:

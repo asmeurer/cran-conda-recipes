@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-limsolve
     - r-glasso
   run:
+    - r
     - r-limsolve
     - r-glasso
 

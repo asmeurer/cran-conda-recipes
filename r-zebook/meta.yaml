@@ -11,13 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-triangle
     - r-desolve
-    - r
   run:
+    - r
     - r-triangle
     - r-desolve
-    - r
 
 about:
   license: LGPL-3

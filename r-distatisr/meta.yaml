@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-prettygraphs
     - r-car
   run:
+    - r
     - r-prettygraphs
     - r-car
 

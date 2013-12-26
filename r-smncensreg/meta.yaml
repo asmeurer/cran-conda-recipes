@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-performanceanalytics
   run:
+    - r
     - r-performanceanalytics
 
 about:

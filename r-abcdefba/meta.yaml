@@ -11,15 +11,15 @@ build:
 
 requirements:
   build:
+    - r
     - r-rglpk
     - r-rgl
     - r-corrplot
-    - r
   run:
+    - r
     - r-rglpk
     - r-rgl
     - r-corrplot
-    - r
 
 about:
   license: GPL-2

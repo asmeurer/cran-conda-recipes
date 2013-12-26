@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-slc
     - r-rcmdr
   run:
+    - r
     - r-slc
     - r-rcmdr
 

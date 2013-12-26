@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-partitions
     - r-vgam
     - r-ape
@@ -18,6 +19,7 @@ requirements:
     - r-geiger
     - r-gtools
   run:
+    - r
     - r-partitions
     - r-vgam
     - r-ape

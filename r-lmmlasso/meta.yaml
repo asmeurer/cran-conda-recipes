@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/lmmlasso_0.1-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-emulator
     - r-misctools
     - r-penalized
   run:
+    - r
     - r-emulator
     - r-misctools
     - r-penalized

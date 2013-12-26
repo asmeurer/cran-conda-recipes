@@ -7,19 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/OpenStreetMap_0.3.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
+    - r
     - r-rjava
     - r-raster
     - r-rgdal
-    - r
   run:
+    - r
     - r-rjava
     - r-raster
     - r-rgdal
-    - r
 
 about:
   license: GPL-2 | file LICENCE

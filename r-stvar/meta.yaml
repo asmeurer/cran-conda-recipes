@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-mcmcpack
     - r-numderiv
     - r-car
     - r-fmultivar
     - r-moments
   run:
+    - r
     - r-mcmcpack
     - r-numderiv
     - r-car

@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/surv2sampleComp_1.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-plotrix
     - r-flexsurv
     - r-survc1
   run:
+    - r
     - r-plotrix
     - r-flexsurv
     - r-survc1

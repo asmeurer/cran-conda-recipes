@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/support.CEs_0.3-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-doebase
     - r-simex
   run:
+    - r
     - r-doebase
     - r-simex
 

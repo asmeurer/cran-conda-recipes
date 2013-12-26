@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-biclust
     - r-fabia
   run:
+    - r
     - r-biclust
     - r-fabia
 

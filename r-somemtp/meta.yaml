@@ -7,11 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/someMTP_1.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: GPL (>= 2)

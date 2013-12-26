@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/Rcolombos_1.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-rjsonio
   run:
+    - r
     - r-rcurl
     - r-rjsonio
 

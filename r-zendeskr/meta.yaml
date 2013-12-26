@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-rjson
   run:
+    - r
     - r-rcurl
     - r-rjson
 

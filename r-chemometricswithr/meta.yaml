@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/ChemometricsWithR_0.1.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-chemometricswithrdata
     - r-pls
   run:
+    - r
     - r-chemometricswithrdata
     - r-pls
 

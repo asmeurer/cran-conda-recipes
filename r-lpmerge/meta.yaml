@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-rglpk
   run:
+    - r
     - r-rglpk
 
 about:

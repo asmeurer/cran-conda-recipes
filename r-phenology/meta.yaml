@@ -11,15 +11,15 @@ build:
 
 requirements:
   build:
+    - r
     - r-fields
     - r-zoo
     - r-coda
-    - r
   run:
+    - r
     - r-fields
     - r-zoo
     - r-coda
-    - r
 
 about:
   license: GPL-2

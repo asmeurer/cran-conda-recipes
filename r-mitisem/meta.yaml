@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-mvtnorm
   run:
+    - r
     - r-mvtnorm
 
 about:

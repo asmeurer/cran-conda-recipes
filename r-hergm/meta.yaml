@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/hergm_1.3-11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ergm
   run:
+    - r
     - r-ergm
 
 about:

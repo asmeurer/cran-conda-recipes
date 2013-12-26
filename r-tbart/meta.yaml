@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-sp
   run:
+    - r
     - r-rcpp
     - r-sp
 

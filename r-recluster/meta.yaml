@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-vegan
     - r-ape
     - r-picante
     - r-phangorn
     - r-phytools
   run:
+    - r
     - r-vegan
     - r-ape
     - r-picante

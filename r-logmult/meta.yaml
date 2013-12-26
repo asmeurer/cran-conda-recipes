@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-gnm
     - r-qvcalc
   run:
+    - r
     - r-gnm
     - r-qvcalc
 

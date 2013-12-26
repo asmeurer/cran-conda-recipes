@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-boa
     - r-semipar
   run:
+    - r
     - r-boa
     - r-semipar
 

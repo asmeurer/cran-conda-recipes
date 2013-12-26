@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/iterLap_1.1-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-quadprog
     - r-randtoolbox
-    - r
   run:
+    - r
     - r-quadprog
     - r-randtoolbox
-    - r
 
 about:
   license: GPL

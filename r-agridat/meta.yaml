@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-reshape2
   run:
+    - r
     - r-reshape2
 
 about:

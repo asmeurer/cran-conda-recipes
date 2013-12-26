@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-snowfall
   run:
+    - r
     - r-snowfall
 
 about:

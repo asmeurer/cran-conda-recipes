@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-robcompositions
     - r-compositions
     - r-mvoutlier
     - r-robustbase
     - r-rgtk2
   run:
+    - r
     - r-robcompositions
     - r-compositions
     - r-mvoutlier

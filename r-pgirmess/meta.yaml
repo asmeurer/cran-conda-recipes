@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/pgirmess_1.5.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgdal
     - r-sp
     - r-spdep
     - r-splancs
   run:
+    - r
     - r-rgdal
     - r-sp
     - r-spdep

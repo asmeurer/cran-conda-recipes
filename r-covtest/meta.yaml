@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-lars
     - r-glmnet
     - r-glmpath
   run:
+    - r
     - r-lars
     - r-glmnet
     - r-glmpath

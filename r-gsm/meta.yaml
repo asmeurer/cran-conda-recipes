@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-gtools
   run:
+    - r
     - r-gtools
 
 about:

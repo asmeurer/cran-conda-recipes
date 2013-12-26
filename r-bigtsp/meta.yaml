@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-glmnet
     - r-tree
     - r-randomforest
     - r-gbm
   run:
+    - r
     - r-glmnet
     - r-tree
     - r-randomforest

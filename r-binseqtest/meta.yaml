@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-clinfun
   run:
+    - r
     - r-clinfun
 
 about:

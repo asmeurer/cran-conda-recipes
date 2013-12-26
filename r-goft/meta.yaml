@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-gpdtest
     - r-mvshapirotest
   run:
+    - r
     - r-gpdtest
     - r-mvshapirotest
 

@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/diseasemapping_0.7.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-sp
     - r
+    - r-sp
   run:
-    - r-sp
     - r
+    - r-sp
 
 about:
   license: GPL

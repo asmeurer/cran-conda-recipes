@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-ltm
   run:
+    - r
     - r-ltm
 
 about:

@@ -7,21 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/hypervolume_0.9.9.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rgl
     - r-raster
     - r-maps
-    - r
   run:
+    - r
     - r-rcpp
     - r-rgl
     - r-raster
     - r-maps
-    - r
 
 about:
   license: GPL-3

@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-vegan
   run:
+    - r
     - r-vegan
 
 about:

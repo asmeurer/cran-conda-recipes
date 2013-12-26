@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/epade_0.3.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-plotrix
     - r
+    - r-plotrix
   run:
-    - r-plotrix
     - r
+    - r-plotrix
 
 about:
   license: GPL (>= 2)

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-randomforest
     - r-rweka
     - r-digest
   run:
+    - r
     - r-randomforest
     - r-rweka
     - r-digest

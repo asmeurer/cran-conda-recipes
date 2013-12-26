@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-multcomp
     - r-mvtnorm
   run:
+    - r
     - r-multcomp
     - r-mvtnorm
 

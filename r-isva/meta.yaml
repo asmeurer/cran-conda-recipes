@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-qvalue
     - r-fastica
   run:
+    - r
     - r-qvalue
     - r-fastica
 

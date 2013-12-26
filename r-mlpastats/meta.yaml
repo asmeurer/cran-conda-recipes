@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/MLPAstats_0.5-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-tkrplot
     - r-pixmap
   run:
+    - r
     - r-tkrplot
     - r-pixmap
 

@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/numConversion_0.2-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-rmpfr
     - r
+    - r-rmpfr
   run:
-    - r-rmpfr
     - r
+    - r-rmpfr
 
 about:
   license: GPL-3

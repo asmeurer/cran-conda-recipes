@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/latentnet_2.4.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-statnetcommon
     - r-network
     - r-coda
@@ -18,6 +19,7 @@ requirements:
     - r-mvtnorm
     - r-abind
   run:
+    - r
     - r-statnetcommon
     - r-network
     - r-coda

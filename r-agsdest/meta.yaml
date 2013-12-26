@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-ldbounds
   run:
+    - r
     - r-ldbounds
 
 about:

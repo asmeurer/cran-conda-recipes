@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-coda
     - r-mcmcpack
     - r-rcolorbrewer
   run:
+    - r
     - r-coda
     - r-mcmcpack
     - r-rcolorbrewer

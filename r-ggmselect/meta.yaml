@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/GGMselect_0.1-8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-lars
     - r-gtools
   run:
+    - r
     - r-mvtnorm
     - r-lars
     - r-gtools

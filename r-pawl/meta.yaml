@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-mvtnorm
     - r-foreach
     - r-reshape
     - r-ggplot2
   run:
+    - r
     - r-mvtnorm
     - r-foreach
     - r-reshape

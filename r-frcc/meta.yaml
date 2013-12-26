@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-ccp
     - r-calibrate
     - r-corpcor
   run:
+    - r
     - r-ccp
     - r-calibrate
     - r-corpcor

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-quadprog
     - r-emplik
     - r-mvtnorm
   run:
+    - r
     - r-quadprog
     - r-emplik
     - r-mvtnorm

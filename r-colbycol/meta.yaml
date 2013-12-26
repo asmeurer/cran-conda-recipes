@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjava
     - r-filehash
   run:
+    - r
     - r-rjava
     - r-filehash
 

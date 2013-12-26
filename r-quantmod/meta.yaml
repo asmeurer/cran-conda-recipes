@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/quantmod_0.4-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-defaults
     - r-xts
     - r-zoo
     - r-ttr
   run:
+    - r
     - r-defaults
     - r-xts
     - r-zoo

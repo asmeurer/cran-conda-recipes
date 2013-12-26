@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/intamapInteractive_1.1-10.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-intamap
     - r-spcosa
     - r-spatstat
     - r-automap
     - r-gstat
   run:
+    - r
     - r-intamap
     - r-spcosa
     - r-spatstat

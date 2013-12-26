@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/Rmpfr_0.5-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - r-gmp
     - r
+    - r-gmp
   run:
-    - r-gmp
     - r
+    - r-gmp
 
 about:
   license: GPL (>= 2)

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/miscFuncs_1.2-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-roxygen2
     - r-mvtnorm
   run:
+    - r
     - r-roxygen2
     - r-mvtnorm
 

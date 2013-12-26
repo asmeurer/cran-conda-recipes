@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/Cprob_1.2.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-prodlim
     - r-tpr
     - r-geepack
   run:
+    - r
     - r-prodlim
     - r-tpr
     - r-geepack

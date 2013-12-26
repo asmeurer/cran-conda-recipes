@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/rgam_0.6.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcpparmadillo
   run:
+    - r
     - r-rcpp
     - r-rcpparmadillo
 

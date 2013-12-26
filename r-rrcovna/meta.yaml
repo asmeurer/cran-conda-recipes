@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/rrcovNA_0.4-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rrcov
     - r-robustbase
     - r-norm
   run:
+    - r
     - r-rrcov
     - r-robustbase
     - r-norm

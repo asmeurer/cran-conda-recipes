@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/rgexf_0.13.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-xml
     - r-rook
     - r-igraph
   run:
+    - r
     - r-xml
     - r-rook
     - r-igraph

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcolorbrewer
     - r-slam
   run:
+    - r
     - r-rcpp
     - r-rcolorbrewer
     - r-slam

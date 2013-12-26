@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/RSQLite.extfuns_0.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rsqlite
   run:
+    - r
     - r-rsqlite
 
 about:

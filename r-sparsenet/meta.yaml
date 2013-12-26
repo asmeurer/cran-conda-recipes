@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-glmnet
     - r-shape
     - r-abind
   run:
+    - r
     - r-glmnet
     - r-shape
     - r-abind

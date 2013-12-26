@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-minpacklm
     - r-gplots
   run:
+    - r
     - r-minpacklm
     - r-gplots
 

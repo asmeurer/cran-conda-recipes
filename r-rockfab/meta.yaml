@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rgl
     - r-ebimage
   run:
+    - r
     - r-rgl
     - r-ebimage
 

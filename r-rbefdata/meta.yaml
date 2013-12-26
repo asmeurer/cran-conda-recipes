@@ -7,10 +7,11 @@ source:
   url: http://cran.r-project.org/src/contrib/rbefdata_0.3.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-xml
     - r-rcurl
     - r-rjson
@@ -18,6 +19,7 @@ requirements:
     - r-rtematres
     - r-rcolorbrewer
   run:
+    - r
     - r-xml
     - r-rcurl
     - r-rjson

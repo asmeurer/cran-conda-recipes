@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-ape
     - r-nloptr
     - r-expm
@@ -19,6 +20,7 @@ requirements:
     - r-phangorn
     - r-rgenoud
   run:
+    - r
     - r-ape
     - r-nloptr
     - r-expm

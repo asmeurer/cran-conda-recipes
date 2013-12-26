@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcurl
     - r-stringr
     - r-digest
   run:
+    - r
     - r-rcurl
     - r-stringr
     - r-digest

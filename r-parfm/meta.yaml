@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/parfm_2.5.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-eha
     - r-msm
-    - r
   run:
+    - r
     - r-eha
     - r-msm
-    - r
 
 about:
   license: GPL-2

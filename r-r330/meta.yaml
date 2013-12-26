@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-s20x
     - r-leaps
     - r-rgl
   run:
+    - r
     - r-s20x
     - r-leaps
     - r-rgl

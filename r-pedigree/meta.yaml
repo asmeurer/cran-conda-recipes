@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-haplosim
     - r-reshape
   run:
+    - r
     - r-haplosim
     - r-reshape
 

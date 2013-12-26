@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-imputeyn
   run:
+    - r
     - r-imputeyn
 
 about:

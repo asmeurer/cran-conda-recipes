@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/OPDOE_1.0-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-orthopolynom
     - r-confdesign
     - r-mvtnorm
     - r-gmp
     - r-crossdes
   run:
+    - r
     - r-orthopolynom
     - r-confdesign
     - r-mvtnorm

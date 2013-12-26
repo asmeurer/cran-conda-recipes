@@ -11,7 +11,9 @@ build:
 
 requirements:
   build:
+    - r
   run:
+    - r
 
 about:
   license: LGPL-2.1

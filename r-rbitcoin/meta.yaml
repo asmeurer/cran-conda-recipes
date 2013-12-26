@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjsonio
     - r-rcurl
     - r-digest
     - r-datatable
   run:
+    - r
     - r-rjsonio
     - r-rcurl
     - r-digest

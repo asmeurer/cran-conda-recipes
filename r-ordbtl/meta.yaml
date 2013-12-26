@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-caret
     - r-vgam
     - r-wikibooks
   run:
+    - r
     - r-caret
     - r-vgam
     - r-wikibooks

@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-hmisc
     - r-ash
     - r-stringr
   run:
+    - r
     - r-hmisc
     - r-ash
     - r-stringr

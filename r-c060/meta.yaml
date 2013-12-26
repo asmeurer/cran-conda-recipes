@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-glmnet
     - r-mlegp
     - r-tgp
     - r-peperr
     - r-penalizedsvm
   run:
+    - r
     - r-glmnet
     - r-mlegp
     - r-tgp

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-ncdf4
     - r-rgdal
     - r-maps
     - r-mapdata
   run:
+    - r
     - r-ncdf4
     - r-rgdal
     - r-maps

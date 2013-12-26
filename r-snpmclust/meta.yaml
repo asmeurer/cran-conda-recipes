@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-mclust
   run:
+    - r
     - r-mclust
 
 about:

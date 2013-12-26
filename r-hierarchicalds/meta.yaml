@@ -11,6 +11,7 @@ build:
 
 requirements:
   build:
+    - r
     - r-truncnorm
     - r-mvtnorm
     - r-coda
@@ -19,6 +20,7 @@ requirements:
     - r-xtable
     - r-mc2d
   run:
+    - r
     - r-truncnorm
     - r-mvtnorm
     - r-coda

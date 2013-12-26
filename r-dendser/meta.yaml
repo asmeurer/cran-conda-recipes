@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/DendSer_1.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-gclus
     - r-seriation
   run:
+    - r
     - r-gclus
     - r-seriation
 

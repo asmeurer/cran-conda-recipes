@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-locfit
     - r-maptools
     - r-quantreg
     - r-rann
     - r-sparsem
   run:
+    - r
     - r-locfit
     - r-maptools
     - r-quantreg

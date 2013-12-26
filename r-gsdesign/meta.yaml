@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/gsDesign_2.8-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-xtable
     - r-stringr
     - r-runit
     - r-plyr
   run:
+    - r
     - r-ggplot2
     - r-xtable
     - r-stringr

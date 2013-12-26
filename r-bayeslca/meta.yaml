@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-e1071
     - r-mcmcpack
     - r-fields
   run:
+    - r
     - r-e1071
     - r-mcmcpack
     - r-fields

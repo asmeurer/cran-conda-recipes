@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-stringr
     - r-car
   run:
+    - r
     - r-stringr
     - r-car
 

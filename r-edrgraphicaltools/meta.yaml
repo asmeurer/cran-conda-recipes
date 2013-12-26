@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rgl
     - r-mvtnorm
     - r-lasso2
   run:
+    - r
     - r-rgl
     - r-mvtnorm
     - r-lasso2

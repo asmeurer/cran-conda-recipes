@@ -7,25 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/Momocs_0.2-04.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-sp
     - r-jpeg
     - r-ade4
     - r-spdep
     - r-shapes
     - r-ape
-    - r
   run:
+    - r
     - r-sp
     - r-jpeg
     - r-ade4
     - r-spdep
     - r-shapes
     - r-ape
-    - r
 
 about:
   license: GPL (>= 2)

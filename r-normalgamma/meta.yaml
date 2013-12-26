@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-optimx
     - r-histogram
   run:
+    - r
     - r-optimx
     - r-histogram
 

@@ -11,11 +11,13 @@ build:
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-reshape2
     - r-scales
     - r-rcurl
   run:
+    - r
     - r-ggplot2
     - r-reshape2
     - r-scales

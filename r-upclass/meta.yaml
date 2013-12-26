@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-mclust
     - r-classifly
     - r-gclus
   run:
+    - r
     - r-mclust
     - r-classifly
     - r-gclus

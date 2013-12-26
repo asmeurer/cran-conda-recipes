@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/lmSupport_1.07.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-car
     - r-psych
     - r-gplots
     - r-gvlma
   run:
+    - r
     - r-car
     - r-psych
     - r-gplots

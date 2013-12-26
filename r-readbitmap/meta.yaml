@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/readbitmap_0.1-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-bmp
     - r-jpeg
     - r-png
   run:
+    - r
     - r-bmp
     - r-jpeg
     - r-png

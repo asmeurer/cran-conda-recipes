@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-rcpp
     - r-rcpparmadillo
   run:
+    - r
     - r-rcpp
     - r-rcpparmadillo
 

@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/CADFtest_0.3-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-dynlm
     - r-sandwich
     - r-tseries
     - r-urca
   run:
+    - r
     - r-dynlm
     - r-sandwich
     - r-tseries

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/widals_0.5.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-sssimple
     - r-snowfall
   run:
+    - r
     - r-sssimple
     - r-snowfall
 

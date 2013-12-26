@@ -7,23 +7,23 @@ source:
   url: http://cran.r-project.org/src/contrib/TriMatch_0.9.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-ggplot2
     - r-scales
     - r-reshape2
     - r-ez
-    - r
     - r-psych
     - r-psagraphics
   run:
+    - r
     - r-ggplot2
     - r-scales
     - r-reshape2
     - r-ez
-    - r
     - r-psych
     - r-psagraphics
 

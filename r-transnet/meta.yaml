@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-rjava
     - r-plyr
     - r-reshape2
   run:
+    - r
     - r-rjava
     - r-plyr
     - r-reshape2

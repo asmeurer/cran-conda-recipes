@@ -7,12 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/tmle_1.2.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-superlearner
   run:
+    - r
     - r-superlearner
 
 about:

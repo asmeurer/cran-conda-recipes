@@ -11,12 +11,14 @@ build:
 
 requirements:
   build:
+    - r
     - r-hdrcde
     - r-coda
     - r-bayesm
     - r-mnormt
     - r-spatstat
   run:
+    - r
     - r-hdrcde
     - r-coda
     - r-bayesm

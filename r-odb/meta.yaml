@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/ODB_1.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-dbi
     - r-rjdbc
   run:
+    - r
     - r-dbi
     - r-rjdbc
 

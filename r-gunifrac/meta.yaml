@@ -11,9 +11,11 @@ build:
 
 requirements:
   build:
+    - r
     - r-vegan
     - r-ape
   run:
+    - r
     - r-vegan
     - r-ape
 

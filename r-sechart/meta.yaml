@@ -11,8 +11,10 @@ build:
 
 requirements:
   build:
+    - r
     - r-jm
   run:
+    - r
     - r-jm
 
 about:

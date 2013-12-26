@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/mixstock_0.9.5.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-coda
     - r-plotrix
     - r-abind
   run:
+    - r
     - r-coda
     - r-plotrix
     - r-abind

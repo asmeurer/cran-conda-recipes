@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/Maeswrap_1.4.11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - r
     - r-rgl
     - r-geometry
   run:
+    - r
     - r-rgl
     - r-geometry
 

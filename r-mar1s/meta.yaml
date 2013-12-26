@@ -11,10 +11,12 @@ build:
 
 requirements:
   build:
+    - r
     - r-cmrutils
     - r-fda
     - r-zoo
   run:
+    - r
     - r-cmrutils
     - r-fda
     - r-zoo
