@@ -1,0 +1,380 @@
+Package: Aspell
+Version: 0.2-0
+Depends: methods
+License: GPL
+NeedsCompilation: yes
+MD5sum: 92f9e6deb40b9b11475bbaaa7f6bf904
+
+Package: CGIwithR
+Version: 0.73-0
+Suggests: GDD
+License: GPL (>= 2)
+NeedsCompilation: no
+MD5sum: 50b1f48209c9e66909c7afb3a4b8af5e
+
+Package: CodeDepends
+Version: 0.2-1
+Depends: methods
+Imports: codetools, XML
+Suggests: graph, Rgraphviz
+License: GPL
+NeedsCompilation: no
+MD5sum: e2ec3505f9db1a96919a72f07673a2d8
+
+Package: Combinations
+Version: 0.2-1
+Depends: methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: 035c0b4c8943dfbfe86259f63ac3b460
+
+Package: FastCSVSample
+Version: 0.1-0
+License: BSD
+NeedsCompilation: yes
+MD5sum: e9573b2961090a6b6b089012183249f7
+
+Package: GeoIP
+Version: 0.1-0
+Depends: RAutoGenRunTime
+Imports: Rffi, methods, utils
+License: LGPL
+NeedsCompilation: yes
+MD5sum: 4bcfb7747d951ddc7d0b339a9fb288c2
+
+Package: R2GoogleMaps
+Version: 0.2-0
+Depends: XML
+Imports: methods, RJSONIO
+License: BSD
+NeedsCompilation: no
+MD5sum: 750f9abb4788fe92460a849d81f6376f
+
+Package: RAmazonDBREST
+Version: 0.1-1
+Imports: XML, RCurl
+License: BSD
+NeedsCompilation: no
+MD5sum: 5dcc055f10d8ba4217de14854e511dcc
+
+Package: RAmazonS3
+Version: 0.1-5
+Imports: RCurl, XML, methods, digest
+License: BSD
+NeedsCompilation: no
+MD5sum: 69b32dd8a4c324a0ebe66fb962f049cc
+
+Package: RAutoGenRunTime
+Version: 0.3-0
+Depends: bitops, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: 8fa7739e166eacf7f7c05636f7778369
+
+Package: RCIndex
+Version: 0.1-0
+Depends: R (>= 2.7.0), methods
+License: GPL-2
+NeedsCompilation: yes
+MD5sum: 32321a3db41949e47b038e5fea8689ea
+
+Package: Rcompression
+Version: 0.94-0
+Depends: methods, R (>= 1.0.0)
+License: zlib License
+NeedsCompilation: yes
+MD5sum: 2676a370744ce426baf4909f09f9086a
+
+Package: RCSS
+Version: 0.2-0
+Imports: methods
+License: GPL
+NeedsCompilation: yes
+MD5sum: 7d638d9b8aa49a8bb486bcf5e2d7e74e
+
+Package: RCUDA
+Version: 0.4-0
+Depends: methods
+Imports: RAutoGenRunTime, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: b8d8060df481f4e301457ccf2b49db7d
+
+Package: RCurl
+Version: 1.95-4
+Depends: R (>= 2.7.0), methods, bitops
+Imports: methods
+Suggests: Rcompression, XML
+License: BSD
+NeedsCompilation: yes
+MD5sum: b31c0bb0a6e78aa6a31dc85cef826293
+
+Package: RD3Device
+Version: 0.1-0
+Depends: R (>= 2.7.0), methods, RAutoGenRunTime, RGraphicsDevice
+Imports: RAutoGenRunTime, RJSONIO, XML
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 38ff140afe3869950d11b184feec7ebb
+
+Package: RDCOMClient
+Version: 0.93-0
+License: GPL-2
+NeedsCompilation: yes
+MD5sum: c2ee71f737aeae0a03d7a82f1876cce4
+
+Package: REuPathDB
+Version: 1.0-0
+Depends: XML, RJSONIO, RCurl, WADL
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 7a07b9b21d367474fda9ef9a93bd2ae1
+
+Package: RExcelXML
+Version: 0.5-0
+Depends: ROOXML
+Imports: XML, Rcompression, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: e47c33b0a32a1ce7241e590677f907c3
+
+Package: Rffi
+Version: 0.3-0
+Depends: methods, RAutoGenRunTime
+Imports: methods, utils,
+License: BSD
+NeedsCompilation: yes
+MD5sum: 4abf4a9a428feec573b36c6dbf44d91b
+
+Package: Rflickr
+Version: 0.2-1
+Depends: RCurl, XML, digest
+Suggests: RJSONIO
+License: BSD
+NeedsCompilation: no
+MD5sum: 11b13085b23012e9a13d3f42d85d71fb
+
+Package: RGCCTranslationUnit
+Version: 0.6-0
+Depends: methods
+Imports: bitops, Combinations, RAutoGenRunTime (>= 0.2-0)
+Suggests: bitops, Combinations, graph
+Enhances: RSPerl, graph
+License: GPL
+NeedsCompilation: yes
+MD5sum: 3104ecf243eeac4959bb96809c1bbc1e
+
+Package: RGCCTUFFI
+Version: 0.2-0
+Depends: methods, RGCCTranslationUnit, Rffi
+Imports: methods, utils
+Suggests: RAutoGenRunTime
+License: BSD
+NeedsCompilation: no
+MD5sum: 815676c765eb966d9819138d43c980f6
+
+Package: RGoogleDocs
+Version: 0.7-0
+Depends: methods
+Imports: RCurl, XML
+License: BSD
+NeedsCompilation: no
+MD5sum: 8d31d139f1b14c7356f98e04fbf1be6f
+
+Package: RGoogleStorage
+Version: 0.1-0
+Imports: RCurl, XML, RJSONIO, methods
+License: BSD
+NeedsCompilation: no
+MD5sum: 733a6c10297bb3983a61d683df75cb0c
+
+Package: RGoogleTrends
+Version: 0.2-1
+Imports: RCurl, RSQLite, DBI
+License: BSD
+NeedsCompilation: no
+MD5sum: 997ca2bc169f566e4b3bf9aa3133c6ef
+
+Package: RGraphicsDevice
+Version: 0.5-0
+Depends: methods, RAutoGenRunTime
+Imports: RAutoGenRunTime
+License: GPL-2
+NeedsCompilation: yes
+MD5sum: 22bf5f96e0405cadfb5e58a4c746e331
+
+Package: RHTMLForms
+Version: 0.6-0
+Depends: methods
+Imports: RCurl (> 1.3-0), XML
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 116718fb949b55784caac8dc86d64dfa
+
+Package: RJSONIO
+Version: 1.1-0
+Depends: methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: 5cc37ff1e330c067c8f6a41db37eaa71
+
+Package: RKML
+Version: 0.8-1
+Depends: XML, methods
+Imports: graphics
+Suggests: Rcompression
+License: BSD
+NeedsCompilation: no
+MD5sum: 855ad3a0ff751a11d88a4e2b1fd16681
+
+Package: RKMLDevice
+Version: 0.1-0
+Imports: RGraphicsDevice, RKML (>= 0.4-0), XML
+License: BSD
+NeedsCompilation: no
+MD5sum: d5b52e89e9b6376749a46dffaeb6297a
+
+Package: Rlibstemmer
+Version: 0.2-1
+License: BSD
+NeedsCompilation: yes
+MD5sum: cf5875196f26e2ae042a09c00ff45d1a
+
+Package: Rnvvm
+Version: 0.1-0
+Depends: methods
+Imports: RAutoGenRunTime, methods
+License: BSD
+NeedsCompilation: yes
+MD5sum: fdb55022798a83b198efd648b788ae32
+
+Package: RNYTimes
+Version: 0.1-1
+Depends: methods
+Imports: XML, RJSONIO, RCurl
+License: BSD
+NeedsCompilation: no
+MD5sum: 6a2807c5faf18f027600b643b056382b
+
+Package: ROOXML
+Version: 0.3-0
+Depends: methods
+Imports: XML, Rcompression
+Enhances: rimage
+License: BSD
+NeedsCompilation: no
+MD5sum: e8ea6e8d911ce9c2752cb0a9b92fa73c
+
+Package: ROpenOffice
+Version: 0.4-1
+Depends: Rcompression, XML, methods
+License: BSD
+NeedsCompilation: no
+MD5sum: 00e31f864cb2f93de92983286a0b2e0b
+
+Package: Rstem
+Version: 0.4-1
+License: BSD
+NeedsCompilation: yes
+MD5sum: 889cd107b32a266f146b92daecff1101
+
+Package: RTidyHTML
+Version: 0.2-1
+License: BSD
+NeedsCompilation: yes
+MD5sum: 71489171b8e953b466764e72aa1d7811
+
+Package: RUbigraph
+Version: 0.1-1
+Depends: R (>= 2.7.0), methods, RCurl, XMLRPC
+License: BSD
+NeedsCompilation: no
+MD5sum: 312b2d456e1b6ad429a79a1fe49196a1
+
+Package: RWordPress
+Version: 0.2-3
+Imports: XMLRPC, methods
+License: BSD
+NeedsCompilation: no
+MD5sum: 94445ef75cb6ba2e834f3cbb84e65305
+
+Package: SpiderMonkey
+Version: 0.2-0
+Depends: RAutoGenRunTime, bitops
+Imports: Rffi
+License: Mozilla Public License
+NeedsCompilation: yes
+MD5sum: f8694731de772ce61dac45aaab4fabe7
+
+Package: SSOAP
+Version: 0.9-1
+Depends: R (>= 1.5.0), methods
+Imports: XML, RCurl, XMLSchema
+License: GPL-2
+NeedsCompilation: no
+MD5sum: f5febba0cf71b7b8f1bede232982c45f
+
+Package: SVGAnnotation
+Version: 0.93-1
+Depends: grDevices, methods, XML
+Suggests: RJSONIO
+License: BSD
+NeedsCompilation: no
+MD5sum: d730b05b7ca7105bca9308e4770bc09c
+
+Package: SWinTypeLibs
+Version: 0.5-0
+Depends: RDCOMClient
+License: GPL
+NeedsCompilation: yes
+MD5sum: b5bf5cda54180552391e075d58f279fc
+
+Package: Sxslt
+Version: 0.91-1
+Depends: R (>= 1.3.0), methods
+Imports: XML, methods
+License: GPL | BSD
+NeedsCompilation: yes
+MD5sum: af6599363619546ed501d5116f85d7d1
+
+Package: WADL
+Version: 0.2-0
+Depends: RCurl, methods
+Imports: XML
+Suggests: RJSONIO
+License: GPL-2
+NeedsCompilation: no
+MD5sum: b5244d3d9a69db114cdb699a29364b08
+
+Package: XML
+Version: 3.98-1
+Depends: R (>= 1.2.0), methods, utils
+Imports: methods
+Suggests: bitops, RCurl
+License: BSD
+NeedsCompilation: yes
+MD5sum: 9e3882fa882ce6335ec1365a43fb58e3
+
+Package: XMLRPC
+Version: 0.3-0
+Imports: methods, RCurl, XML
+License: BSD
+NeedsCompilation: no
+MD5sum: 91df53f13c782ab2ea4642bb309ee0f6
+
+Package: XMLSchema
+Version: 0.7-2
+Depends: R (>= 1.5.0), methods, XML
+Imports: RCurl, codetools
+Suggests: RCurl
+License: GPL-2
+NeedsCompilation: no
+MD5sum: 080c2fb4e502ad04e8c1dec4cbcb32b8
+
+Package: Zillow
+Version: 0.1-1
+Depends: XML, RCurl
+License: BSD
+NeedsCompilation: no
+MD5sum: 01a232a07b0e879ef1c3cfd3e255a56b
+
