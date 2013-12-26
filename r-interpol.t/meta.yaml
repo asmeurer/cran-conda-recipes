@@ -1,0 +1,25 @@
+package:
+  name: r-interpol.t
+  version: 2.1.1
+
+source:
+  fn: Interpol.T_2.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/Interpol.T_2.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-date
+    - r-chron
+  run:
+    - r
+    - r-date
+    - r-chron
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,37 @@
+package:
+  name: r-aroma.affymetrix
+  version: 2.11.1
+
+source:
+  fn: aroma.affymetrix_2.11.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/aroma.affymetrix_2.11.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-r.utils
+    - r-aroma.core
+    - r-r.methodss3
+    - r-r.oo
+    - r-r.cache
+    - r-r.filesets
+    - r-aroma.apd
+    - r-matrixstats
+  run:
+    - r
+    - r-r.utils
+    - r-aroma.core
+    - r-r.methodss3
+    - r-r.oo
+    - r-r.cache
+    - r-r.filesets
+    - r-aroma.apd
+    - r-matrixstats
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

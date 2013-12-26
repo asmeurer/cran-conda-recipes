@@ -23,7 +23,7 @@ requirements:
     - r-fancova
     - r-gtools
     - r-hmisc
-    - r-kmci
+    - r-km.ci
     - r-metafor
     - r-nortest
     - r-np
@@ -45,7 +45,7 @@ requirements:
     - r-fancova
     - r-gtools
     - r-hmisc
-    - r-kmci
+    - r-km.ci
     - r-metafor
     - r-nortest
     - r-np

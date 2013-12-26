@@ -12,16 +12,16 @@ build:
 requirements:
   build:
     - r
-    - r-rutils
-    - r-roo
-    - r-rmethodss3
+    - r-r.utils
+    - r-r.oo
+    - r-r.methodss3
     - r-abind
     - r-ncdf
   run:
     - r
-    - r-rutils
-    - r-roo
-    - r-rmethodss3
+    - r-r.utils
+    - r-r.oo
+    - r-r.methodss3
     - r-abind
     - r-ncdf
 

@@ -7,21 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/tawny_2.1.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-tawnytypes
-    - r-futilematrix
-    - r-futilelogger
+    - r-tawny.types
+    - r-futile.matrix
+    - r-futile.logger
     - r-performanceanalytics
     - r-quantmod
   run:
     - r
-    - r-tawnytypes
-    - r-futilematrix
-    - r-futilelogger
+    - r-tawny.types
+    - r-futile.matrix
+    - r-futile.logger
     - r-performanceanalytics
     - r-quantmod
 

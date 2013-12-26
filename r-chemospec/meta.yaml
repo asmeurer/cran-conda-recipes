@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/ChemoSpec_1.61-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -22,7 +22,7 @@ requirements:
     - r-mvtnorm
     - r-mvoutlier
     - r-rgl
-    - r-rutils
+    - r-r.utils
     - r-mclust
     - r-baseline
     - r-idpmisc
@@ -40,7 +40,7 @@ requirements:
     - r-mvtnorm
     - r-mvoutlier
     - r-rgl
-    - r-rutils
+    - r-r.utils
     - r-mclust
     - r-baseline
     - r-idpmisc

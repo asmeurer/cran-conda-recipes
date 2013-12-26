@@ -13,12 +13,12 @@ requirements:
   build:
     - r
     - r-annotationdbi
-    - r-hpodb
+    - r-hpo.db
     - r-igraph
   run:
     - r
     - r-annotationdbi
-    - r-hpodb
+    - r-hpo.db
     - r-igraph
 
 about:

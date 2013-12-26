@@ -7,19 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/rfisheries_0.0.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-httr
-    - r-datatable
+    - r-data.table
     - r-assertthat
     - r-ggplot2
   run:
     - r
     - r-httr
-    - r-datatable
+    - r-data.table
     - r-assertthat
     - r-ggplot2
 

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/TIMP_1.10.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,7 +19,7 @@ requirements:
     - r-gclus
     - r-nnls
     - r-desolve
-    - r-minpacklm
+    - r-minpack.lm
   run:
     - r
     - r-fields
@@ -29,7 +29,7 @@ requirements:
     - r-gclus
     - r-nnls
     - r-desolve
-    - r-minpacklm
+    - r-minpack.lm
 
 about:
   license: GPL (>= 2)

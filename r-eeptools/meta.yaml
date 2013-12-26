@@ -16,7 +16,7 @@ requirements:
     - r-stringr
     - r-maptools
     - r-arm
-    - r-datatable
+    - r-data.table
     - r-memisc
   run:
     - r
@@ -24,7 +24,7 @@ requirements:
     - r-stringr
     - r-maptools
     - r-arm
-    - r-datatable
+    - r-data.table
     - r-memisc
 
 about:

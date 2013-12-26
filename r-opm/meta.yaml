@@ -7,14 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/opm_1.0.24.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-hwriter
     - r-plotrix
-    - r-ckmeans1ddp
+    - r-ckmeans.1d.dp
     - r-pkgutils
     - r-yaml
     - r-grofit
@@ -23,7 +23,7 @@ requirements:
     - r
     - r-hwriter
     - r-plotrix
-    - r-ckmeans1ddp
+    - r-ckmeans.1d.dp
     - r-pkgutils
     - r-yaml
     - r-grofit

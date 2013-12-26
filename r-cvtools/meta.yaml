@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/cvTools_0.3.2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-robustbase
+    - r-robustbase
   run:
     - r
+    - r-robustbase
     - r-robustbase
 
 about:

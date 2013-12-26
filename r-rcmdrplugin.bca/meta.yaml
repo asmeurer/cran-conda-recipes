@@ -1,0 +1,27 @@
+package:
+  name: r-rcmdrplugin.bca
+  version: 0.9.7
+
+source:
+  fn: RcmdrPlugin.BCA_0.9-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcmdrPlugin.BCA_0.9-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bca
+    - r-car
+    - r-rcmdr
+  run:
+    - r
+    - r-bca
+    - r-car
+    - r-rcmdr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

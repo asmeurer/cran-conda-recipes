@@ -7,26 +7,26 @@ source:
   url: http://cran.r-project.org/src/contrib/NSA_0.0.32.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-rmethodss3
+    - r-r.methodss3
     - r-matrixstats
-    - r-roo
-    - r-rutils
-    - r-aromacore
-    - r-aromaaffymetrix
+    - r-r.oo
+    - r-r.utils
+    - r-aroma.core
+    - r-aroma.affymetrix
     - r-dnacopy
   run:
     - r
-    - r-rmethodss3
+    - r-r.methodss3
     - r-matrixstats
-    - r-roo
-    - r-rutils
-    - r-aromacore
-    - r-aromaaffymetrix
+    - r-r.oo
+    - r-r.utils
+    - r-aroma.core
+    - r-aroma.affymetrix
     - r-dnacopy
 
 about:

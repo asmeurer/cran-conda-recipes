@@ -7,25 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/ACNE_0.7.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-aromaaffymetrix
-    - r-rmethodss3
-    - r-roo
-    - r-rutils
+    - r-aroma.affymetrix
+    - r-r.methodss3
+    - r-r.oo
+    - r-r.utils
     - r-matrixstats
-    - r-rfilesets
+    - r-r.filesets
   run:
     - r
-    - r-aromaaffymetrix
-    - r-rmethodss3
-    - r-roo
-    - r-rutils
+    - r-aroma.affymetrix
+    - r-r.methodss3
+    - r-r.oo
+    - r-r.utils
     - r-matrixstats
-    - r-rfilesets
+    - r-r.filesets
 
 about:
   license: LGPL (>= 2.1)

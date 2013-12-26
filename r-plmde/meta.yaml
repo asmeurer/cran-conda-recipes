@@ -13,11 +13,11 @@ requirements:
   build:
     - r
     - r-limma
-    - r-roo
+    - r-r.oo
   run:
     - r
     - r-limma
-    - r-roo
+    - r-r.oo
 
 about:
   license: GPL (>= 2)

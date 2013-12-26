@@ -12,11 +12,11 @@ build:
 requirements:
   build:
     - r
-    - r-datatable
+    - r-data.table
     - r-ggplot2
   run:
     - r
-    - r-datatable
+    - r-data.table
     - r-ggplot2
 
 about:

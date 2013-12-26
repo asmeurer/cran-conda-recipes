@@ -1,0 +1,21 @@
+package:
+  name: r-minpack.lm
+  version: 1.1.8
+
+source:
+  fn: minpack.lm_1.1-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/minpack.lm_1.1-8.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/BiplotGUI_0.0-7.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-rgl
     - r-tcltk2
     - r-tkrplot
+    - r-colorspace
   run:
     - r
     - r-colorspace
@@ -24,6 +25,7 @@ requirements:
     - r-rgl
     - r-tcltk2
     - r-tkrplot
+    - r-colorspace
 
 about:
   license: GPL (>= 3)

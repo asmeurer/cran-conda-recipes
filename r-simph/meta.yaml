@@ -7,13 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/simPH_0.8.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-car
-    - r-datatable
+    - r-data.table
     - r-ggplot2
     - r-gridextra
     - r-msbvar
@@ -24,7 +24,7 @@ requirements:
   run:
     - r
     - r-car
-    - r-datatable
+    - r-data.table
     - r-ggplot2
     - r-gridextra
     - r-msbvar

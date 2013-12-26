@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/treebase_0.0-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,14 +16,14 @@ requirements:
     - r-xml
     - r-rcurl
     - r-reshape2
-    - r-datatable
+    - r-data.table
   run:
     - r
     - r-ape
     - r-xml
     - r-rcurl
     - r-reshape2
-    - r-datatable
+    - r-data.table
 
 about:
   license: CC0

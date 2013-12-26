@@ -1,0 +1,25 @@
+package:
+  name: r-lava.tobit
+  version: 0.4.7
+
+source:
+  fn: lava.tobit_0.4-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/lava.tobit_0.4-7.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lava
+    - r-mvtnorm
+  run:
+    - r
+    - r-lava
+    - r-mvtnorm
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

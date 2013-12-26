@@ -12,13 +12,13 @@ build:
 requirements:
   build:
     - r
-    - r-datatable
+    - r-data.table
     - r-plyr
     - r-caret
     - r-seqinr
   run:
     - r
-    - r-datatable
+    - r-data.table
     - r-plyr
     - r-caret
     - r-seqinr

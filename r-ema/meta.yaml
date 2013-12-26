@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/EMA_1.4.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -17,7 +17,7 @@ requirements:
     - r-multtest
     - r-xtable
     - r-gcrma
-    - r-heatmapplus
+    - r-heatmap.plus
     - r-biomart
     - r-gsa
     - r-factominer
@@ -28,7 +28,7 @@ requirements:
     - r-multtest
     - r-xtable
     - r-gcrma
-    - r-heatmapplus
+    - r-heatmap.plus
     - r-biomart
     - r-gsa
     - r-factominer

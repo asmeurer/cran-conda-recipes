@@ -1,0 +1,23 @@
+package:
+  name: r-futile.any
+  version: 1.3.0
+
+source:
+  fn: futile.any_1.3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/futile.any_1.3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lambda.r
+  run:
+    - r
+    - r-lambda.r
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

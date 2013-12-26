@@ -7,19 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/NPCD_1.0-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-bb
-    - r-roo
-    - r-rmethodss3
+    - r-r.oo
+    - r-r.methodss3
   run:
     - r
     - r-bb
-    - r-roo
-    - r-rmethodss3
+    - r-r.oo
+    - r-r.methodss3
 
 about:
   license: LGPL (>= 2.1)

@@ -7,19 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/mkin_0.9-24.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-fme
     - r-desolve
-    - r-minpacklm
+    - r-minpack.lm
   run:
     - r
     - r-fme
     - r-desolve
-    - r-minpacklm
+    - r-minpack.lm
 
 about:
   license: GPL

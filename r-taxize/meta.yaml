@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/taxize_0.1.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -22,7 +22,7 @@ requirements:
     - r-ape
     - r-taxonstand
     - r-reshape2
-    - r-datatable
+    - r-data.table
     - r-reshape
   run:
     - r
@@ -36,7 +36,7 @@ requirements:
     - r-ape
     - r-taxonstand
     - r-reshape2
-    - r-datatable
+    - r-data.table
     - r-reshape
 
 about:

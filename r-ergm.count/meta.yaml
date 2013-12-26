@@ -1,0 +1,27 @@
+package:
+  name: r-ergm.count
+  version: 3.1.1
+
+source:
+  fn: ergm.count_3.1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/ergm.count_3.1.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-statnet.common
+    - r-ergm
+    - r-network
+  run:
+    - r
+    - r-statnet.common
+    - r-ergm
+    - r-network
+
+about:
+  license: GPL-3 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

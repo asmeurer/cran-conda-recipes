@@ -7,12 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/tergm_3.1.2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
-    - r-statnetcommon
+    - r-statnet.common
     - r-ergm
     - r-network
     - r-networkdynamic
@@ -20,7 +20,7 @@ requirements:
     - r-coda
   run:
     - r
-    - r-statnetcommon
+    - r-statnet.common
     - r-ergm
     - r-network
     - r-networkdynamic

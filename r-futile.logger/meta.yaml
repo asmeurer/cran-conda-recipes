@@ -1,0 +1,25 @@
+package:
+  name: r-futile.logger
+  version: 1.3.5
+
+source:
+  fn: futile.logger_1.3.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/futile.logger_1.3.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lambda.r
+    - r-futile.options
+  run:
+    - r
+    - r-lambda.r
+    - r-futile.options
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

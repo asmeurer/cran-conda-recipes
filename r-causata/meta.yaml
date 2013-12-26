@@ -7,33 +7,33 @@ source:
   url: http://cran.r-project.org/src/contrib/Causata_4.2-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-xml
-    - r-rutils
+    - r-r.utils
     - r-rjson
     - r-rmysql
     - r-rcurl
     - r-stringr
     - r-yaml
     - r-foreach
-    - r-datatable
+    - r-data.table
     - r-glmnet
     - r-ggplot2
   run:
     - r
     - r-xml
-    - r-rutils
+    - r-r.utils
     - r-rjson
     - r-rmysql
     - r-rcurl
     - r-stringr
     - r-yaml
     - r-foreach
-    - r-datatable
+    - r-data.table
     - r-glmnet
     - r-ggplot2
 

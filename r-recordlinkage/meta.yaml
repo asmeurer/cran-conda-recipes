@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/RecordLinkage_0.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -17,7 +17,7 @@ requirements:
     - r-ipred
     - r-evd
     - r-rsqlite
-    - r-datatable
+    - r-data.table
     - r-ff
     - r-ffbase
   run:
@@ -27,7 +27,7 @@ requirements:
     - r-ipred
     - r-evd
     - r-rsqlite
-    - r-datatable
+    - r-data.table
     - r-ff
     - r-ffbase
 

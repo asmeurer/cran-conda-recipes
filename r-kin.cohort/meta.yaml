@@ -1,0 +1,21 @@
+package:
+  name: r-kin.cohort
+  version: 0.6
+
+source:
+  fn: kin.cohort_0.6.tar.gz
+  url: http://cran.r-project.org/src/contrib/kin.cohort_0.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

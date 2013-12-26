@@ -12,11 +12,11 @@ build:
 requirements:
   build:
     - r
-    - r-climdexpcic
+    - r-climdex.pcic
     - r-rmawgen
   run:
     - r
-    - r-climdexpcic
+    - r-climdex.pcic
     - r-rmawgen
 
 about:

@@ -15,14 +15,14 @@ requirements:
     - r-mcmc
     - r-coda
     - r-normalp
-    - r-rutils
+    - r-r.utils
     - r-bms
   run:
     - r
     - r-mcmc
     - r-coda
     - r-normalp
-    - r-rutils
+    - r-r.utils
     - r-bms
 
 about:

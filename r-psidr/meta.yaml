@@ -12,12 +12,12 @@ build:
 requirements:
   build:
     - r
-    - r-datatable
+    - r-data.table
     - r-rcurl
     - r-sascii
   run:
     - r
-    - r-datatable
+    - r-data.table
     - r-rcurl
     - r-sascii
 

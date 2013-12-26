@@ -7,19 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/ForeCA_0.0.9.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-sapa
     - r-astsa
-    - r-rutils
+    - r-sapa
+    - r-r.utils
   run:
     - r
     - r-sapa
     - r-astsa
-    - r-rutils
+    - r-sapa
+    - r-r.utils
 
 about:
   license: GPL (>= 2)

@@ -1,0 +1,25 @@
+package:
+  name: r-futile.paradigm
+  version: 2.0.4
+
+source:
+  fn: futile.paradigm_2.0.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/futile.paradigm_2.0.4.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-futile.options
+    - r-runit
+  run:
+    - r
+    - r-futile.options
+    - r-runit
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

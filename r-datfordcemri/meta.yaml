@@ -14,16 +14,16 @@ requirements:
     - r
     - r-xtable
     - r-akima
-    - r-roo
-    - r-rmethodss3
+    - r-r.oo
+    - r-r.methodss3
     - r-matlab
     - r-locfit
   run:
     - r
     - r-xtable
     - r-akima
-    - r-roo
-    - r-rmethodss3
+    - r-r.oo
+    - r-r.methodss3
     - r-matlab
     - r-locfit
 

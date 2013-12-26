@@ -12,12 +12,12 @@ build:
 requirements:
   build:
     - r
-    - r-minpacklm
+    - r-minpack.lm
     - r-sdd
     - r-tsa
   run:
     - r
-    - r-minpacklm
+    - r-minpack.lm
     - r-sdd
     - r-tsa
 

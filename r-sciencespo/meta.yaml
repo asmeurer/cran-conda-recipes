@@ -7,16 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/SciencesPo_0.3.8.27.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-datatable
+    - r-data.table
     - r-maptools
   run:
     - r
-    - r-datatable
+    - r-data.table
     - r-maptools
 
 about:

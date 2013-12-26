@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/sirt_0.40-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,7 +19,7 @@ requirements:
     - r-tam
     - r-cdm
     - r-combinat
-    - r-icinfer
+    - r-ic.infer
     - r-sm
     - r-psych
     - r-pbivnorm
@@ -32,7 +32,7 @@ requirements:
     - r-tam
     - r-cdm
     - r-combinat
-    - r-icinfer
+    - r-ic.infer
     - r-sm
     - r-psych
     - r-pbivnorm

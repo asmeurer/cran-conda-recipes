@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/SGP_1.1-0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,7 +15,7 @@ requirements:
     - r-sgpdata
     - r-cairo
     - r-colorspace
-    - r-datatable
+    - r-data.table
     - r-doparallel
     - r-foreach
     - r-gridbase
@@ -31,7 +31,7 @@ requirements:
     - r-sgpdata
     - r-cairo
     - r-colorspace
-    - r-datatable
+    - r-data.table
     - r-doparallel
     - r-foreach
     - r-gridbase

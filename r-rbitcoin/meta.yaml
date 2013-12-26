@@ -15,13 +15,13 @@ requirements:
     - r-rjsonio
     - r-rcurl
     - r-digest
-    - r-datatable
+    - r-data.table
   run:
     - r
     - r-rjsonio
     - r-rcurl
     - r-digest
-    - r-datatable
+    - r-data.table
 
 about:
   license: MIT + file LICENSE

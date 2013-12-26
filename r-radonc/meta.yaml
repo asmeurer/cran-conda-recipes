@@ -7,20 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/RadOnc_1.0.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rgl
     - r-geometry
-    - r-orodicom
+    - r-oro.dicom
     - r-ptinpoly
   run:
     - r
     - r-rgl
     - r-geometry
-    - r-orodicom
+    - r-oro.dicom
     - r-ptinpoly
 
 about:

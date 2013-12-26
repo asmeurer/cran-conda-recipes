@@ -13,11 +13,11 @@ requirements:
   build:
     - r
     - r-rmeta
-    - r-rutils
+    - r-r.utils
   run:
     - r
     - r-rmeta
-    - r-rutils
+    - r-r.utils
 
 about:
   license: GPL-3

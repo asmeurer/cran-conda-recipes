@@ -1,0 +1,37 @@
+package:
+  name: r-aroma.cn
+  version: 1.5.0
+
+source:
+  fn: aroma.cn_1.5.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/aroma.cn_1.5.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-r.utils
+    - r-aroma.core
+    - r-r.methodss3
+    - r-r.oo
+    - r-r.filesets
+    - r-r.cache
+    - r-matrixstats
+    - r-pscbs
+  run:
+    - r
+    - r-r.utils
+    - r-aroma.core
+    - r-r.methodss3
+    - r-r.oo
+    - r-r.filesets
+    - r-r.cache
+    - r-matrixstats
+    - r-pscbs
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

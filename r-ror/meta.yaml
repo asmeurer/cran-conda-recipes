@@ -14,13 +14,13 @@ requirements:
     - r
     - r-rjava
     - r-roi
-    - r-roipluginglpk
+    - r-roi.plugin.glpk
     - r-igraph
   run:
     - r
     - r-rjava
     - r-roi
-    - r-roipluginglpk
+    - r-roi.plugin.glpk
     - r-igraph
 
 about:

@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/gcExplorer_0.9-4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-flexclust
     - r-rgraphviz
+    - r-flexclust
     - r-modeltools
   run:
     - r
     - r-flexclust
     - r-rgraphviz
+    - r-flexclust
     - r-modeltools
 
 about:

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/sdcTable_0.10.3.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,14 +16,14 @@ requirements:
     - r-rcpp
     - r-rglpk
     - r-lpsolveapi
-    - r-datatable
+    - r-data.table
   run:
     - r
     - r-stringr
     - r-rcpp
     - r-rglpk
     - r-lpsolveapi
-    - r-datatable
+    - r-data.table
 
 about:
   license: GPL-2

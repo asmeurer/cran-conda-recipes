@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/RNiftyReg_1.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-reportr
-    - r-oronifti
+    - r-oro.nifti
   run:
     - r
     - r-reportr
-    - r-oronifti
+    - r-oro.nifti
 
 about:
   license: GPL-2

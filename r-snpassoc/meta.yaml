@@ -7,16 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/SNPassoc_1.9-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-haplostats
+    - r-haplo.stats
     - r-mvtnorm
   run:
     - r
-    - r-haplostats
+    - r-haplo.stats
     - r-mvtnorm
 
 about:

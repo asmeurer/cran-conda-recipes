@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/PopGenReport_1.6.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -23,7 +23,7 @@ requirements:
     - r-dismo
     - r-reshape
     - r-ggplot2
-    - r-rutils
+    - r-r.utils
     - r-ade4
     - r-pegas
     - r-genetics
@@ -41,7 +41,7 @@ requirements:
     - r-dismo
     - r-reshape
     - r-ggplot2
-    - r-rutils
+    - r-r.utils
     - r-ade4
     - r-pegas
     - r-genetics

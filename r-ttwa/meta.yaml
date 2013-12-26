@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/ttwa_0.8.5.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
-    - r-datatable
+    - r-data.table
   run:
     - r
-    - r-datatable
+    - r-data.table
 
 about:
   license: GPL (>= 2.0)

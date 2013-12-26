@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/RcppBDT_0.2.1.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
     - r-rcpp
+    - r-rcpp
   run:
     - r
+    - r-rcpp
     - r-rcpp
 
 about:

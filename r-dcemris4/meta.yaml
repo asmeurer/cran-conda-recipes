@@ -12,10 +12,10 @@ build:
 requirements:
   build:
     - r
-    - r-oronifti
+    - r-oro.nifti
   run:
     - r
-    - r-oronifti
+    - r-oro.nifti
 
 about:
   license: BSD

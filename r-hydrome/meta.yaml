@@ -12,10 +12,10 @@ build:
 requirements:
   build:
     - r
-    - r-minpacklm
+    - r-minpack.lm
   run:
     - r
-    - r-minpacklm
+    - r-minpack.lm
 
 about:
   license: GPL (>= 2)

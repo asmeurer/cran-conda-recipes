@@ -14,12 +14,12 @@ requirements:
     - r
     - r-bayesx
     - r-runuran
-    - r-formulatools
+    - r-formula.tools
   run:
     - r
     - r-bayesx
     - r-runuran
-    - r-formulatools
+    - r-formula.tools
 
 about:
   license: GPL (>= 2)

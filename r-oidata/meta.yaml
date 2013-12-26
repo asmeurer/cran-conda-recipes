@@ -14,8 +14,12 @@ requirements:
     - r
     - r-rcurl
     - r-maps
+    - r-rcurl
+    - r-maps
   run:
     - r
+    - r-rcurl
+    - r-maps
     - r-rcurl
     - r-maps
 

@@ -1,0 +1,27 @@
+package:
+  name: r-soil.spec
+  version: 2.1.3
+
+source:
+  fn: soil.spec_2.1.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/soil.spec_2.1.3.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-wavelets
+    - r-hexview
+    - r-pls
+  run:
+    - r
+    - r-wavelets
+    - r-hexview
+    - r-pls
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

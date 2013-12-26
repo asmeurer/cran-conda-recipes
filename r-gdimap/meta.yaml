@@ -7,12 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/gdimap_0.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-oronifti
+    - r-oro.nifti
     - r-gsl
     - r-movmf
     - r-gridextra
@@ -21,7 +21,7 @@ requirements:
     - r-geometry
   run:
     - r
-    - r-oronifti
+    - r-oro.nifti
     - r-gsl
     - r-movmf
     - r-gridextra

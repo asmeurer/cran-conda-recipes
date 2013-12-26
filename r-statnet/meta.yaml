@@ -7,28 +7,28 @@ source:
   url: http://cran.r-project.org/src/contrib/statnet_2013.11.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-statnetcommon
+    - r-statnet.common
     - r-network
     - r-ergm
     - r-sna
     - r-networkdynamic
     - r-tergm
-    - r-ergmcount
+    - r-ergm.count
     - r-latentnet
   run:
     - r
-    - r-statnetcommon
+    - r-statnet.common
     - r-network
     - r-ergm
     - r-sna
     - r-networkdynamic
     - r-tergm
-    - r-ergmcount
+    - r-ergm.count
     - r-latentnet
 
 about:

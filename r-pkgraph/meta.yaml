@@ -18,6 +18,8 @@ requirements:
     - r-rggobi
     - r-ggplot2
     - r-proto
+    - r-rgtk2
+    - r-gwidgetsrgtk2
   run:
     - r
     - r-rgtk2
@@ -26,6 +28,8 @@ requirements:
     - r-rggobi
     - r-ggplot2
     - r-proto
+    - r-rgtk2
+    - r-gwidgetsrgtk2
 
 about:
   license: GPL (>= 2)

@@ -13,11 +13,11 @@ requirements:
   build:
     - r
     - r-ape
-    - r-rutils
+    - r-r.utils
   run:
     - r
     - r-ape
-    - r-rutils
+    - r-r.utils
 
 about:
   license: GPL-2

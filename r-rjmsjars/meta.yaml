@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/Rjmsjars_0.0.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-rjava
+    - r-rjava
   run:
     - r
+    - r-rjava
     - r-rjava
 
 about:

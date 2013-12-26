@@ -7,25 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/calmate_0.11.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-rutils
-    - r-aromacore
-    - r-rmethodss3
-    - r-roo
+    - r-r.utils
+    - r-aroma.core
+    - r-r.methodss3
+    - r-r.oo
     - r-matrixstats
-    - r-rfilesets
+    - r-r.filesets
   run:
     - r
-    - r-rutils
-    - r-aromacore
-    - r-rmethodss3
-    - r-roo
+    - r-r.utils
+    - r-aroma.core
+    - r-r.methodss3
+    - r-r.oo
     - r-matrixstats
-    - r-rfilesets
+    - r-r.filesets
 
 about:
   license: LGPL (>= 2.1)

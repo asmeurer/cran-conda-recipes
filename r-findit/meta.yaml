@@ -14,8 +14,12 @@ requirements:
     - r
     - r-glmnet
     - r-lars
+    - r-glmnet
+    - r-lars
   run:
     - r
+    - r-glmnet
+    - r-lars
     - r-glmnet
     - r-lars
 

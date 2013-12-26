@@ -1,0 +1,31 @@
+package:
+  name: r-r.filesets
+  version: 2.3.0
+
+source:
+  fn: R.filesets_2.3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/R.filesets_2.3.0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-r.oo
+    - r-r.methodss3
+    - r-r.utils
+    - r-r.cache
+    - r-digest
+  run:
+    - r
+    - r-r.oo
+    - r-r.methodss3
+    - r-r.utils
+    - r-r.cache
+    - r-digest
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

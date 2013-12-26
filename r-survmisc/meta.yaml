@@ -12,9 +12,9 @@ build:
 requirements:
   build:
     - r
-    - r-kmci
+    - r-km.ci
     - r-ggplot2
-    - r-datatable
+    - r-data.table
     - r-gridextra
     - r-kmsurv
     - r-combinat
@@ -24,9 +24,9 @@ requirements:
     - r-gam
   run:
     - r
-    - r-kmci
+    - r-km.ci
     - r-ggplot2
-    - r-datatable
+    - r-data.table
     - r-gridextra
     - r-kmsurv
     - r-combinat

@@ -7,15 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/splitstackshape_1.2.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-datatable
+    - r-data.table
   run:
     - r
-    - r-datatable
+    - r-data.table
 
 about:
   license: GPL-3

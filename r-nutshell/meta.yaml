@@ -12,12 +12,12 @@ build:
 requirements:
   build:
     - r
-    - r-nutshellbbdb
-    - r-nutshellaudioscrobbler
+    - r-nutshell.bbdb
+    - r-nutshell.audioscrobbler
   run:
     - r
-    - r-nutshellbbdb
-    - r-nutshellaudioscrobbler
+    - r-nutshell.bbdb
+    - r-nutshell.audioscrobbler
 
 about:
   license: CC BY-NC-ND 3.0 US

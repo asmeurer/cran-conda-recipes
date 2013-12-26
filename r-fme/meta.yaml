@@ -14,13 +14,13 @@ requirements:
     - r
     - r-desolve
     - r-rootsolve
-    - r-minpacklm
+    - r-minpack.lm
     - r-coda
   run:
     - r
     - r-desolve
     - r-rootsolve
-    - r-minpacklm
+    - r-minpack.lm
     - r-coda
 
 about:

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/demi_1.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,14 +15,14 @@ requirements:
     - r-affy
     - r-affxparser
     - r-plyr
-    - r-rutils
+    - r-r.utils
     - r-oligo
   run:
     - r
     - r-affy
     - r-affxparser
     - r-plyr
-    - r-rutils
+    - r-r.utils
     - r-oligo
 
 about:

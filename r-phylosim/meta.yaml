@@ -7,23 +7,31 @@ source:
   url: http://cran.r-project.org/src/contrib/phylosim_2.0.3.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
-    - r-roo
+    - r-r.oo
     - r-ape
     - r-compoisson
     - r-ggplot2
-    - r-rmethodss3
+    - r-r.methodss3
+    - r-r.oo
+    - r-ape
+    - r-compoisson
+    - r-ggplot2
   run:
     - r
-    - r-roo
+    - r-r.oo
     - r-ape
     - r-compoisson
     - r-ggplot2
-    - r-rmethodss3
+    - r-r.methodss3
+    - r-r.oo
+    - r-ape
+    - r-compoisson
+    - r-ggplot2
 
 about:
   license: GPL (>= 3)

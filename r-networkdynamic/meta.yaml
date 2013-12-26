@@ -7,17 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/networkDynamic_0.5.2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-network
-    - r-statnetcommon
+    - r-statnet.common
   run:
     - r
     - r-network
-    - r-statnetcommon
+    - r-statnet.common
 
 about:
   license: GPL-3

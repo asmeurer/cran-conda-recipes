@@ -13,13 +13,13 @@ requirements:
   build:
     - r
     - r-locfit
-    - r-roo
-    - r-rmethodss3
+    - r-r.oo
+    - r-r.methodss3
   run:
     - r
     - r-locfit
-    - r-roo
-    - r-rmethodss3
+    - r-r.oo
+    - r-r.methodss3
 
 about:
   license: GPL-2

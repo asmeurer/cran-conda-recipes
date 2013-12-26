@@ -1,0 +1,33 @@
+package:
+  name: r-rcmdrplugin.epack
+  version: 1.2.5
+
+source:
+  fn: RcmdrPlugin.epack_1.2.5.tar.gz
+  url: http://cran.r-project.org/src/contrib/RcmdrPlugin.epack_1.2.5.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcmdr
+    - r-teachingdemos
+    - r-tseries
+    - r-abind
+    - r-xts
+    - r-forecast
+  run:
+    - r
+    - r-rcmdr
+    - r-teachingdemos
+    - r-tseries
+    - r-abind
+    - r-xts
+    - r-forecast
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
