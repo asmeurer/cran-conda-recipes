@@ -1,0 +1,40 @@
+package:
+  name: r-geneanswers
+  version: 2.4.0
+
+source:
+  fn: GeneAnswers_2.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneAnswers_2.4.0.tar.gz
+    - 3bfb5e0b4060305f97f5b88c0a098990
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-rcurl
+    - r-annotate
+    - r-biobase
+    - r-xml
+    - r-rsqlite
+    - r-heatplus
+    - r-rcolorbrewer
+    - r-rbgl
+  run:
+    - r
+    - r-igraph
+    - r-rcurl
+    - r-annotate
+    - r-biobase
+    - r-xml
+    - r-rsqlite
+    - r-heatplus
+    - r-rcolorbrewer
+    - r-rbgl
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

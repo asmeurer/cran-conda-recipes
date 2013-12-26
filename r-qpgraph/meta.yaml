@@ -1,0 +1,38 @@
+package:
+  name: r-qpgraph
+  version: 1.18.7
+
+source:
+  fn: qpgraph_1.18.7.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qpgraph_1.18.7.tar.gz
+    - f1f58d532c5e721ff84c699b3f1e2fe4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotate
+    - r-graph
+    - r-biobase
+    - r-ggbase
+    - r-annotationdbi
+    - r-mvtnorm
+    - r-qtl
+    - r-rgraphviz
+  run:
+    - r
+    - r-annotate
+    - r-graph
+    - r-biobase
+    - r-ggbase
+    - r-annotationdbi
+    - r-mvtnorm
+    - r-qtl
+    - r-rgraphviz
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

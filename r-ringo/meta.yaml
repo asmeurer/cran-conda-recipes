@@ -1,0 +1,34 @@
+package:
+  name: r-ringo
+  version: 1.26.1
+
+source:
+  fn: Ringo_1.26.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Ringo_1.26.1.tar.gz
+    - 4e73b8d528715f19067e89ad767a4b24
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-limma
+    - r-biocgenerics
+    - r-genefilter
+    - r-vsn
+  run:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-limma
+    - r-biocgenerics
+    - r-genefilter
+    - r-vsn
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

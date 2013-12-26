@@ -1,0 +1,36 @@
+package:
+  name: r-cellnoptr
+  version: 1.8.0
+
+source:
+  fn: CellNOptR_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CellNOptR_1.8.0.tar.gz
+    - 508490b35cc5323edd10f582b69d52f8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rbgl
+    - r-graph
+    - r-hash
+    - r-ggplot2
+    - r-rcurl
+    - r-rgraphviz
+    - r-xml
+  run:
+    - r
+    - r-rbgl
+    - r-graph
+    - r-hash
+    - r-ggplot2
+    - r-rcurl
+    - r-rgraphviz
+    - r-xml
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

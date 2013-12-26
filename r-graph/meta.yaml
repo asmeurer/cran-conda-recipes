@@ -1,0 +1,24 @@
+package:
+  name: r-graph
+  version: 1.40.1
+
+source:
+  fn: graph_1.40.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/graph_1.40.1.tar.gz
+    - f40d6577e1e6bc1209158722284c660f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+  run:
+    - r
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

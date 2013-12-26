@@ -1,0 +1,34 @@
+package:
+  name: r-genetclassifier
+  version: 1.2.0
+
+source:
+  fn: geNetClassifier_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/geNetClassifier_1.2.0.tar.gz
+    - 184da30130b507518aa087cee9acc58e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-ebarrays
+    - r-minet
+    - r-e1071
+    - r-ipred
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-ebarrays
+    - r-minet
+    - r-e1071
+    - r-ipred
+    - r-biocgenerics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

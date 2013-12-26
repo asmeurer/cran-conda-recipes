@@ -1,0 +1,40 @@
+package:
+  name: r-gcmap
+  version: 1.6.0
+
+source:
+  fn: gCMAP_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gCMAP_1.6.0.tar.gz
+    - dcb7111da0d9cddd04c8e5ca4018ccf1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gseabase
+    - r-limma
+    - r-biobase
+    - r-biocgenerics
+    - r-gsealm
+    - r-category
+    - r-annotate
+    - r-genefilter
+    - r-annotationdbi
+  run:
+    - r
+    - r-gseabase
+    - r-limma
+    - r-biobase
+    - r-biocgenerics
+    - r-gsealm
+    - r-category
+    - r-annotate
+    - r-genefilter
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

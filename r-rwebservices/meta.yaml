@@ -1,0 +1,28 @@
+package:
+  name: r-rwebservices
+  version: 1.26.0
+
+source:
+  fn: RWebServices_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RWebServices_1.26.0.tar.gz
+    - 0d419d17922883bf03a4633d1e7726fe
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sjava
+    - r-typeinfo
+    - r-rcurl
+  run:
+    - r
+    - r-sjava
+    - r-typeinfo
+    - r-rcurl
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

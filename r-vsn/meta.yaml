@@ -1,0 +1,28 @@
+package:
+  name: r-vsn
+  version: 3.30.0
+
+source:
+  fn: vsn_3.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/vsn_3.30.0.tar.gz
+    - 81388e1ba615aeac7566847a3bc5fc23
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-limma
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-limma
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

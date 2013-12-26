@@ -1,0 +1,28 @@
+package:
+  name: r-streamer
+  version: 1.8.0
+
+source:
+  fn: Streamer_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Streamer_1.8.0.tar.gz
+    - 35355b93788f4136d0906a3ea15e8df9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-rbgl
+    - r-biocgenerics
+  run:
+    - r
+    - r-graph
+    - r-rbgl
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

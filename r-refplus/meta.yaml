@@ -1,0 +1,30 @@
+package:
+  name: r-refplus
+  version: 1.32.0
+
+source:
+  fn: RefPlus_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RefPlus_1.32.0.tar.gz
+    - 6ff6efa78bbf88e84c346625c53db3a5
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-affyplm
+    - r-preprocesscore
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-affyplm
+    - r-preprocesscore
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

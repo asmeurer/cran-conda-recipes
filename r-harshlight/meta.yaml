@@ -1,0 +1,28 @@
+package:
+  name: r-harshlight
+  version: 1.34.0
+
+source:
+  fn: Harshlight_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Harshlight_1.34.0.tar.gz
+    - 2c3dfadca0557774f8d4eee7de8cb759
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-altcdfenvs
+    - r-biobase
+  run:
+    - r
+    - r-affy
+    - r-altcdfenvs
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

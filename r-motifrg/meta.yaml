@@ -1,0 +1,34 @@
+package:
+  name: r-motifrg
+  version: 1.6.0
+
+source:
+  fn: motifRG_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/motifRG_1.6.0.tar.gz
+    - c2514227e288dd7dc519b80c35b94a10
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-iranges
+    - r-seqlogo
+    - r-bsgenome
+    - r-xvector
+    - r-bsgenome.hsapiens.ucsc.hg19
+  run:
+    - r
+    - r-biostrings
+    - r-iranges
+    - r-seqlogo
+    - r-bsgenome
+    - r-xvector
+    - r-bsgenome.hsapiens.ucsc.hg19
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

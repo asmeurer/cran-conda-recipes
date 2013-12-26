@@ -1,0 +1,28 @@
+package:
+  name: r-biocparallel
+  version: 0.4.1
+
+source:
+  fn: BiocParallel_0.4.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiocParallel_0.4.1.tar.gz
+    - 11dfccf3754a20ebf4e5ccf9bdd6183f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-foreach
+    - r-batchjobs
+    - r-bbmisc
+  run:
+    - r
+    - r-foreach
+    - r-batchjobs
+    - r-bbmisc
+
+about:
+  license: GPL-2 | GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

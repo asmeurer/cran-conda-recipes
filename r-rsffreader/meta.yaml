@@ -1,0 +1,38 @@
+package:
+  name: r-rsffreader
+  version: 0.10.0
+
+source:
+  fn: rSFFreader_0.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rSFFreader_0.10.0.tar.gz
+    - 968b08a748bdc6095618128f62c8213a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-xvector
+    - r-biostrings
+    - r-genomicranges
+    - r-shortread
+    - r-xtable
+    - r-biobase
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-xvector
+    - r-biostrings
+    - r-genomicranges
+    - r-shortread
+    - r-xtable
+    - r-biobase
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

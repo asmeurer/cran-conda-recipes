@@ -1,0 +1,26 @@
+package:
+  name: r-asset
+  version: 1.0.0
+
+source:
+  fn: ASSET_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ASSET_1.0.0.tar.gz
+    - a79445ed489f7d285ba4a60402ac624e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-msm
+    - r-rmeta
+  run:
+    - r
+    - r-msm
+    - r-rmeta
+
+about:
+  license: GPL-2 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

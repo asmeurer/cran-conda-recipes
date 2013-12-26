@@ -1,0 +1,30 @@
+package:
+  name: r-rfpred
+  version: 1.0.0
+
+source:
+  fn: rfPred_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rfPred_1.0.0.tar.gz
+    - 85c34616afb0e444d42be57fd3cc322d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-data.table
+  run:
+    - r
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-data.table
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

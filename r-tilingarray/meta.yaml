@@ -1,0 +1,36 @@
+package:
+  name: r-tilingarray
+  version: 1.40.0
+
+source:
+  fn: tilingArray_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tilingArray_1.40.0.tar.gz
+    - 1bbf633782a484f8e6f62931ab98ee08
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-pixmap
+    - r-strucchange
+    - r-affy
+    - r-vsn
+    - r-genefilter
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-biobase
+    - r-pixmap
+    - r-strucchange
+    - r-affy
+    - r-vsn
+    - r-genefilter
+    - r-rcolorbrewer
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

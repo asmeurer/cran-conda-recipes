@@ -1,0 +1,32 @@
+package:
+  name: r-a4
+  version: 1.10.0
+
+source:
+  fn: a4_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4_1.10.0.tar.gz
+    - 8e0fe01bace928158aee2af99706c37f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-a4base
+    - r-a4preproc
+    - r-a4classif
+    - r-a4core
+    - r-a4reporting
+  run:
+    - r
+    - r-a4base
+    - r-a4preproc
+    - r-a4classif
+    - r-a4core
+    - r-a4reporting
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,28 @@
+package:
+  name: r-spktools
+  version: 1.18.0
+
+source:
+  fn: spkTools_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spkTools_1.18.0.tar.gz
+    - ee71c4777b1199e49a6eafb18ba6f23b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-gtools
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-biobase
+    - r-gtools
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

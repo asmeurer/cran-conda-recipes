@@ -1,0 +1,42 @@
+package:
+  name: r-cellhts2
+  version: 2.26.0
+
+source:
+  fn: cellHTS2_2.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cellHTS2_2.26.0.tar.gz
+    - 7ad26c35ef99ad04d84ed12d81ac6088
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcolorbrewer
+    - r-biobase
+    - r-genefilter
+    - r-splots
+    - r-vsn
+    - r-hwriter
+    - r-locfit
+    - r-prada
+    - r-gseabase
+    - r-category
+  run:
+    - r
+    - r-rcolorbrewer
+    - r-biobase
+    - r-genefilter
+    - r-splots
+    - r-vsn
+    - r-hwriter
+    - r-locfit
+    - r-prada
+    - r-gseabase
+    - r-category
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

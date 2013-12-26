@@ -1,0 +1,34 @@
+package:
+  name: r-seqgsea
+  version: 1.2.0
+
+source:
+  fn: SeqGSEA_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SeqGSEA_1.2.0.tar.gz
+    - 22953a614ab17e248fa9d3b51244248f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-deseq
+    - r-biomart
+    - r-foreach
+    - r-doparallel
+  run:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-deseq
+    - r-biomart
+    - r-foreach
+    - r-doparallel
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

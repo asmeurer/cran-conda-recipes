@@ -1,0 +1,32 @@
+package:
+  name: r-eximir
+  version: 2.4.0
+
+source:
+  fn: ExiMiR_2.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ExiMiR_2.4.0.tar.gz
+    - 094ca4267b1ba2de2aad085248709ea8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-limma
+    - r-affyio
+    - r-preprocesscore
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-limma
+    - r-affyio
+    - r-preprocesscore
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

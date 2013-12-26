@@ -1,0 +1,30 @@
+package:
+  name: r-msmstests
+  version: 1.0.0
+
+source:
+  fn: msmsTests_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/msmsTests_1.0.0.tar.gz
+    - 95f71129668b1935262aca447722a080
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-msnbase
+    - r-msmseda
+    - r-edger
+    - r-qvalue
+  run:
+    - r
+    - r-msnbase
+    - r-msmseda
+    - r-edger
+    - r-qvalue
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

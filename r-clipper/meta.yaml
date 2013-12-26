@@ -1,0 +1,38 @@
+package:
+  name: r-clipper
+  version: 1.2.1
+
+source:
+  fn: clipper_1.2.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clipper_1.2.1.tar.gz
+    - aad172328ae4d343c3fad26eabe796e4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-biobase
+    - r-igraph
+    - r-grbase
+    - r-qpgraph
+    - r-kegggraph
+    - r-corpcor
+    - r-rbgl
+  run:
+    - r
+    - r-graph
+    - r-biobase
+    - r-igraph
+    - r-grbase
+    - r-qpgraph
+    - r-kegggraph
+    - r-corpcor
+    - r-rbgl
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

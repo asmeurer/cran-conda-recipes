@@ -1,0 +1,44 @@
+package:
+  name: r-netresponse
+  version: 1.14.0
+
+source:
+  fn: netresponse_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/netresponse_1.14.0.tar.gz
+    - fa26e236769d33af3659c20f30b5cfe3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-dmt
+    - r-igraph
+    - r-infotheo
+    - r-ggplot2
+    - r-graph
+    - r-mclust
+    - r-minet
+    - r-qvalue
+    - r-rcolorbrewer
+    - r-reshape
+    - r-rgraphviz
+  run:
+    - r
+    - r-dmt
+    - r-igraph
+    - r-infotheo
+    - r-ggplot2
+    - r-graph
+    - r-mclust
+    - r-minet
+    - r-qvalue
+    - r-rcolorbrewer
+    - r-reshape
+    - r-rgraphviz
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

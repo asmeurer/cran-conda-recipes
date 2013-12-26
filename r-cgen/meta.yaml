@@ -1,0 +1,22 @@
+package:
+  name: r-cgen
+  version: 2.4.0
+
+source:
+  fn: CGEN_2.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGEN_2.4.0.tar.gz
+    - e79aa5dbb3d6aa9a11cceba56cb595a3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

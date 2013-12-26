@@ -1,0 +1,30 @@
+package:
+  name: r-procona
+  version: 1.0.0
+
+source:
+  fn: ProCoNA_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ProCoNA_1.0.0.tar.gz
+    - 56b5aaa709b43262f4dbe71c333612ee
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-wgcna
+    - r-msnbase
+    - r-biocgenerics
+    - r-gostats
+  run:
+    - r
+    - r-wgcna
+    - r-msnbase
+    - r-biocgenerics
+    - r-gostats
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

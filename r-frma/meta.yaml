@@ -1,0 +1,36 @@
+package:
+  name: r-frma
+  version: 1.14.0
+
+source:
+  fn: frma_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/frma_1.14.0.tar.gz
+    - 52fa2bf38c4590957f238d7a12400ffe
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-dbi
+    - r-affy
+    - r-oligo
+    - r-oligoclasses
+    - r-preprocesscore
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-dbi
+    - r-affy
+    - r-oligo
+    - r-oligoclasses
+    - r-preprocesscore
+    - r-biocgenerics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,44 @@
+package:
+  name: r-flowq
+  version: 1.22.0
+
+source:
+  fn: flowQ_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowQ_1.22.0.tar.gz
+    - 011eeefedd5ef5183ecda87441e2b083
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-outliers
+    - r-flowviz
+    - r-mvoutlier
+    - r-biodist
+    - r-parody
+    - r-rcolorbrewer
+    - r-latticeextra
+    - r-geneplotter
+    - r-flowcore
+    - r-iranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-outliers
+    - r-flowviz
+    - r-mvoutlier
+    - r-biodist
+    - r-parody
+    - r-rcolorbrewer
+    - r-latticeextra
+    - r-geneplotter
+    - r-flowcore
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

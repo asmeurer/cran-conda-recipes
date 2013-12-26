@@ -1,0 +1,28 @@
+package:
+  name: r-reqon
+  version: 1.8.0
+
+source:
+  fn: ReQON_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReQON_1.8.0.tar.gz
+    - 33c3e3273235b6dba9f25cce9029ec24
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsamtools
+    - r-seqbias
+    - r-rjava
+  run:
+    - r
+    - r-rsamtools
+    - r-seqbias
+    - r-rjava
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

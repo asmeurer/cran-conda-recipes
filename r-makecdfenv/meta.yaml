@@ -1,0 +1,30 @@
+package:
+  name: r-makecdfenv
+  version: 1.38.0
+
+source:
+  fn: makecdfenv_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/makecdfenv_1.38.0.tar.gz
+    - 3f2338fe3351eaa7d8a86faa5223de0c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affyio
+    - r-biobase
+    - r-affy
+    - r-zlibbioc
+  run:
+    - r
+    - r-affyio
+    - r-biobase
+    - r-affy
+    - r-zlibbioc
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

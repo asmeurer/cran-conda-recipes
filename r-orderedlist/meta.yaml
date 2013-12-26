@@ -1,0 +1,26 @@
+package:
+  name: r-orderedlist
+  version: 1.34.0
+
+source:
+  fn: OrderedList_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OrderedList_1.34.0.tar.gz
+    - 0d07778c07df98f919969fe8f12a258c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-twilight
+  run:
+    - r
+    - r-biobase
+    - r-twilight
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

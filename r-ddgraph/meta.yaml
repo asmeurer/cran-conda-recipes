@@ -1,0 +1,36 @@
+package:
+  name: r-ddgraph
+  version: 1.6.0
+
+source:
+  fn: ddgraph_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ddgraph_1.6.0.tar.gz
+    - 95f2464d716d3242ae3f5d52b87deb84
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-rcpp
+    - r-bnlearn
+    - r-gtools
+    - r-pcalg
+    - r-rcolorbrewer
+    - r-plotrix
+  run:
+    - r
+    - r-graph
+    - r-rcpp
+    - r-bnlearn
+    - r-gtools
+    - r-pcalg
+    - r-rcolorbrewer
+    - r-plotrix
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

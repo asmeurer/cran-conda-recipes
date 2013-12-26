@@ -1,0 +1,32 @@
+package:
+  name: r-cexor
+  version: 1.0.0
+
+source:
+  fn: CexoR_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CexoR_1.0.0.tar.gz
+    - 0098eb5b8172778d48a20186cd136903
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-rsamtools
+    - r-genomicranges
+    - r-rtracklayer
+    - r-idr
+  run:
+    - r
+    - r-iranges
+    - r-rsamtools
+    - r-genomicranges
+    - r-rtracklayer
+    - r-idr
+
+about:
+  license: Artistic-2.0 | GPL-2 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

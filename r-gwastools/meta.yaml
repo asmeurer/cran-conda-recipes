@@ -1,0 +1,42 @@
+package:
+  name: r-gwastools
+  version: 1.8.0
+
+source:
+  fn: GWASTools_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GWASTools_1.8.0.tar.gz
+    - 97179b12d515c562c09679b2b7929301
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-ncdf
+    - r-gdsfmt
+    - r-sandwich
+    - r-dbi
+    - r-rsqlite
+    - r-gwasexacthw
+    - r-dnacopy
+    - r-lmtest
+    - r-quantsmooth
+  run:
+    - r
+    - r-biobase
+    - r-ncdf
+    - r-gdsfmt
+    - r-sandwich
+    - r-dbi
+    - r-rsqlite
+    - r-gwasexacthw
+    - r-dnacopy
+    - r-lmtest
+    - r-quantsmooth
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

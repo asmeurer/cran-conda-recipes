@@ -1,0 +1,24 @@
+package:
+  name: r-rbioinf
+  version: 1.22.0
+
+source:
+  fn: RBioinf_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RBioinf_1.22.0.tar.gz
+    - 1f91e27b15865e1178ce4ba0593c1b30
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+  run:
+    - r
+    - r-graph
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

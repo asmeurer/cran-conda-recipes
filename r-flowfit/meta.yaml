@@ -1,0 +1,32 @@
+package:
+  name: r-flowfit
+  version: 1.0.0
+
+source:
+  fn: flowFit_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowFit_1.0.0.tar.gz
+    - ff1ab7c4faaf3da63cdd0fa7c58b16e9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowcore
+    - r-flowviz
+    - r-kza
+    - r-minpack.lm
+    - r-gplots
+  run:
+    - r
+    - r-flowcore
+    - r-flowviz
+    - r-kza
+    - r-minpack.lm
+    - r-gplots
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

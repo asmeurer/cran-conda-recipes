@@ -1,0 +1,38 @@
+package:
+  name: r-htsanalyzer
+  version: 2.14.0
+
+source:
+  fn: HTSanalyzeR_2.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HTSanalyzeR_2.14.0.tar.gz
+    - 0858952be67ee531b3bc3412dbd3c85f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-graph
+    - r-gseabase
+    - r-bionet
+    - r-cellhts2
+    - r-annotationdbi
+    - r-biomart
+    - r-rankprod
+  run:
+    - r
+    - r-igraph
+    - r-graph
+    - r-gseabase
+    - r-bionet
+    - r-cellhts2
+    - r-annotationdbi
+    - r-biomart
+    - r-rankprod
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

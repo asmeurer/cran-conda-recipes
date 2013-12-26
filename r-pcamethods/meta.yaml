@@ -1,0 +1,28 @@
+package:
+  name: r-pcamethods
+  version: 1.52.0
+
+source:
+  fn: pcaMethods_1.52.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pcaMethods_1.52.0.tar.gz
+    - 810f6f792d072fabee4dea65d8349ebc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcpp
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-rcpp
+    - r-biocgenerics
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

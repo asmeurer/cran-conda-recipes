@@ -1,0 +1,30 @@
+package:
+  name: r-agi4x44preprocess
+  version: 1.22.0
+
+source:
+  fn: Agi4x44PreProcess_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Agi4x44PreProcess_1.22.0.tar.gz
+    - b88b89f3902cb5aec94faac537d5f433
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-limma
+    - r-annotate
+    - r-genefilter
+  run:
+    - r
+    - r-biobase
+    - r-limma
+    - r-annotate
+    - r-genefilter
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

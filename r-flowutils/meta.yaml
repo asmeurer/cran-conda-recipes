@@ -1,0 +1,34 @@
+package:
+  name: r-flowutils
+  version: 1.22.0
+
+source:
+  fn: flowUtils_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowUtils_1.22.0.tar.gz
+    - 6c92e7880aec396ddeaa86a9cda6088c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowcore
+    - r-biobase
+    - r-graph
+    - r-runit
+    - r-xml
+    - r-flowviz
+  run:
+    - r
+    - r-flowcore
+    - r-biobase
+    - r-graph
+    - r-runit
+    - r-xml
+    - r-flowviz
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

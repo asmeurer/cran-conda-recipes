@@ -1,0 +1,26 @@
+package:
+  name: r-abarray
+  version: 1.30.0
+
+source:
+  fn: ABarray_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ABarray_1.30.0.tar.gz
+    - 7a7d391abafe914f7e9d1195b39a2b53
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-multtest
+  run:
+    - r
+    - r-biobase
+    - r-multtest
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

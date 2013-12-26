@@ -1,0 +1,24 @@
+package:
+  name: r-affyrnadegradation
+  version: 1.8.0
+
+source:
+  fn: AffyRNADegradation_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AffyRNADegradation_1.8.0.tar.gz
+    - 98744e1e95fcdde78a698b00dc7b3f36
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+  run:
+    - r
+    - r-affy
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

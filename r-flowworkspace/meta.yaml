@@ -1,0 +1,50 @@
+package:
+  name: r-flowworkspace
+  version: 3.8.0
+
+source:
+  fn: flowWorkspace_3.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowWorkspace_3.8.0.tar.gz
+    - 601a86462519db3b145c54aec260d4d7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-flowcore
+    - r-flowviz
+    - r-ncdfflow
+    - r-gridextra
+    - r-biobase
+    - r-biocgenerics
+    - r-graph
+    - r-rbgl
+    - r-xml
+    - r-idpmisc
+    - r-cairo
+    - r-hexbin
+    - r-rgraphviz
+  run:
+    - r
+    - r-rcpp
+    - r-flowcore
+    - r-flowviz
+    - r-ncdfflow
+    - r-gridextra
+    - r-biobase
+    - r-biocgenerics
+    - r-graph
+    - r-rbgl
+    - r-xml
+    - r-idpmisc
+    - r-cairo
+    - r-hexbin
+    - r-rgraphviz
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

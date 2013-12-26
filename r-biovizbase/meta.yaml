@@ -1,0 +1,42 @@
+package:
+  name: r-biovizbase
+  version: 1.10.7
+
+source:
+  fn: biovizBase_1.10.7.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biovizBase_1.10.7.tar.gz
+    - 7c6ae3c48125bb61653b8c941809e519
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-scales
+    - r-hmisc
+    - r-rcolorbrewer
+    - r-dichromat
+    - r-biocgenerics
+    - r-iranges
+    - r-genomicranges
+    - r-biostrings
+    - r-rsamtools
+    - r-genomicfeatures
+  run:
+    - r
+    - r-scales
+    - r-hmisc
+    - r-rcolorbrewer
+    - r-dichromat
+    - r-biocgenerics
+    - r-iranges
+    - r-genomicranges
+    - r-biostrings
+    - r-rsamtools
+    - r-genomicfeatures
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

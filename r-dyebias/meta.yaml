@@ -1,0 +1,26 @@
+package:
+  name: r-dyebias
+  version: 1.20.0
+
+source:
+  fn: dyebias_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/dyebias_1.20.0.tar.gz
+    - 732d40a4a4b9d2b51c738c3264ef9b5b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-marray
+    - r-biobase
+  run:
+    - r
+    - r-marray
+    - r-biobase
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

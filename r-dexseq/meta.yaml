@@ -1,0 +1,38 @@
+package:
+  name: r-dexseq
+  version: 1.8.0
+
+source:
+  fn: DEXSeq_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DEXSeq_1.8.0.tar.gz
+    - 5fea2268be4c83f033f8504722c11215
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-biomart
+    - r-hwriter
+    - r-stringr
+    - r-genomicranges
+    - r-rsamtools
+    - r-statmod
+  run:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-biomart
+    - r-hwriter
+    - r-stringr
+    - r-genomicranges
+    - r-rsamtools
+    - r-statmod
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

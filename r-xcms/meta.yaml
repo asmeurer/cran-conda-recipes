@@ -1,0 +1,28 @@
+package:
+  name: r-xcms
+  version: 1.38.0
+
+source:
+  fn: xcms_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/xcms_1.38.0.tar.gz
+    - 9dee773e2680ec32571ce2d3fd0b8766
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mzr
+    - r-biocgenerics
+    - r-biobase
+  run:
+    - r
+    - r-mzr
+    - r-biocgenerics
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

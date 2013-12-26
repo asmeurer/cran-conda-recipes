@@ -1,0 +1,22 @@
+package:
+  name: r-genocn
+  version: 1.14.0
+
+source:
+  fn: genoCN_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genoCN_1.14.0.tar.gz
+    - 9c3d242f05866785d24b8667476d85a6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

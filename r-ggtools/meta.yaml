@@ -1,0 +1,44 @@
+package:
+  name: r-ggtools
+  version: 4.10.0
+
+source:
+  fn: GGtools_4.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GGtools_4.10.0.tar.gz
+    - 64a7f7af6b00f8f680a748f97b10e055
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggbase
+    - r-iranges
+    - r-genomicranges
+    - r-rsamtools
+    - r-biocgenerics
+    - r-snpstats
+    - r-ff
+    - r-annotationdbi
+    - r-biobase
+    - r-bit
+    - r-variantannotation
+  run:
+    - r
+    - r-ggbase
+    - r-iranges
+    - r-genomicranges
+    - r-rsamtools
+    - r-biocgenerics
+    - r-snpstats
+    - r-ff
+    - r-annotationdbi
+    - r-biobase
+    - r-bit
+    - r-variantannotation
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

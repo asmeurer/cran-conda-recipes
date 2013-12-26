@@ -1,0 +1,32 @@
+package:
+  name: r-ncigraph
+  version: 1.10.0
+
+source:
+  fn: NCIgraph_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NCIgraph_1.10.0.tar.gz
+    - d253c2d988490447c01599451b112770
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-kegggraph
+    - r-rbgl
+    - r-rcytoscape
+    - r-r.methodss3
+  run:
+    - r
+    - r-graph
+    - r-kegggraph
+    - r-rbgl
+    - r-rcytoscape
+    - r-r.methodss3
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

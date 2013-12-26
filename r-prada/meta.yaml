@@ -1,0 +1,30 @@
+package:
+  name: r-prada
+  version: 1.38.0
+
+source:
+  fn: prada_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/prada_1.38.0.tar.gz
+    - 12f8c8ed73409c482b5647830cf4c396
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-rrcov
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-rrcov
+    - r-biocgenerics
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

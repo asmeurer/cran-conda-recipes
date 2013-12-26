@@ -1,0 +1,28 @@
+package:
+  name: r-cancermutationanalysis
+  version: 1.6.0
+
+source:
+  fn: CancerMutationAnalysis_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CancerMutationAnalysis_1.6.0.tar.gz
+    - 0937a66c58d7bb48a4165d2cd463e527
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-qvalue
+    - r-annotationdbi
+    - r-limma
+  run:
+    - r
+    - r-qvalue
+    - r-annotationdbi
+    - r-limma
+
+about:
+  license: GPL (>= 2) + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

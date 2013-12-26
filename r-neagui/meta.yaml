@@ -1,0 +1,24 @@
+package:
+  name: r-neagui
+  version: 1.0.0
+
+source:
+  fn: neaGUI_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/neaGUI_1.0.0.tar.gz
+    - bf2046ccb9ed95c82ce45bd9e0bfda88
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-hwriter
+  run:
+    - r
+    - r-hwriter
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

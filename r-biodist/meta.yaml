@@ -1,0 +1,24 @@
+package:
+  name: r-biodist
+  version: 1.34.0
+
+source:
+  fn: bioDist_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bioDist_1.34.0.tar.gz
+    - 7b44369e5bd739ca22c6c1d61e599f57
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-pgutils
+  version: 1.34.0
+
+source:
+  fn: pgUtils_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pgUtils_1.34.0.tar.gz
+    - dc60f8c385768c9317ad159a6c41e8d3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rpostgresql
+  run:
+    - r
+    - r-rpostgresql
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

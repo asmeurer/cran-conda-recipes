@@ -1,0 +1,30 @@
+package:
+  name: r-dasir
+  version: 1.2.0
+
+source:
+  fn: DASiR_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DASiR_1.2.0.tar.gz
+    - 5b37f574424d8358279bb87fd74dd063
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-xml
+    - r-biostrings
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-xml
+    - r-biostrings
+
+about:
+  license: LGPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

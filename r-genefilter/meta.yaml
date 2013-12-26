@@ -1,0 +1,28 @@
+package:
+  name: r-genefilter
+  version: 1.44.0
+
+source:
+  fn: genefilter_1.44.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genefilter_1.44.0.tar.gz
+    - 9b368a3942b705cc1547c2c36ddc23ee
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-annotate
+    - r-biobase
+  run:
+    - r
+    - r-annotationdbi
+    - r-annotate
+    - r-biobase
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

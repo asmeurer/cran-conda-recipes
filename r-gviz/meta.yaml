@@ -1,0 +1,52 @@
+package:
+  name: r-gviz
+  version: 1.6.0
+
+source:
+  fn: Gviz_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Gviz_1.6.0.tar.gz
+    - 0bcff07c6791c32fce881bc3991ff0f7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-xvector
+    - r-rtracklayer
+    - r-rcolorbrewer
+    - r-biomart
+    - r-genomicranges
+    - r-annotationdbi
+    - r-biobase
+    - r-biocgenerics
+    - r-genomicfeatures
+    - r-bsgenome
+    - r-biostrings
+    - r-biovizbase
+    - r-rsamtools
+    - r-latticeextra
+  run:
+    - r
+    - r-iranges
+    - r-xvector
+    - r-rtracklayer
+    - r-rcolorbrewer
+    - r-biomart
+    - r-genomicranges
+    - r-annotationdbi
+    - r-biobase
+    - r-biocgenerics
+    - r-genomicfeatures
+    - r-bsgenome
+    - r-biostrings
+    - r-biovizbase
+    - r-rsamtools
+    - r-latticeextra
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

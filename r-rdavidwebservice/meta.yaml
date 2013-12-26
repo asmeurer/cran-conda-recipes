@@ -1,0 +1,36 @@
+package:
+  name: r-rdavidwebservice
+  version: 1.0.0
+
+source:
+  fn: RDAVIDWebService_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RDAVIDWebService_1.0.0.tar.gz
+    - 2f9894b9d24894af186fe41ef542cfbc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-ggplot2
+    - r-go.db
+    - r-graph
+    - r-category
+    - r-gostats
+    - r-rbgl
+  run:
+    - r
+    - r-rjava
+    - r-ggplot2
+    - r-go.db
+    - r-graph
+    - r-category
+    - r-gostats
+    - r-rbgl
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-chopsticks
+  version: 1.26.1
+
+source:
+  fn: chopsticks_1.26.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chopsticks_1.26.1.tar.gz
+    - ff674f03ccb9cee326d5a01200f48955
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

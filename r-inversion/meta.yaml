@@ -1,0 +1,24 @@
+package:
+  name: r-inversion
+  version: 1.10.0
+
+source:
+  fn: inveRsion_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/inveRsion_1.10.0.tar.gz
+    - eb59b13526b732c6675f46216bc05a4d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-haplo.stats
+  run:
+    - r
+    - r-haplo.stats
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

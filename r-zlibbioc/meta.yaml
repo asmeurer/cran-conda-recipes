@@ -1,0 +1,22 @@
+package:
+  name: r-zlibbioc
+  version: 1.8.0
+
+source:
+  fn: zlibbioc_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/zlibbioc_1.8.0.tar.gz
+    - 699d7d5bc95ba1da70d5776f2f98089d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Artistic-2.0 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-rols
+  version: 1.4.0
+
+source:
+  fn: rols_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rols_1.4.0.tar.gz
+    - 0dcd1c65612ca93b65548b1f78befcb9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-xmlschema
+    - r-ssoap
+    - r-biobase
+  run:
+    - r
+    - r-xml
+    - r-xmlschema
+    - r-ssoap
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

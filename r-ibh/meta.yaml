@@ -1,0 +1,24 @@
+package:
+  name: r-ibh
+  version: 1.10.0
+
+source:
+  fn: ibh_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ibh_1.10.0.tar.gz
+    - 83daafab5527c484f586cff6193b7ce6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-simpintlists
+  run:
+    - r
+    - r-simpintlists
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

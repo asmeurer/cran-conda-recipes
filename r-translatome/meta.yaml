@@ -1,0 +1,48 @@
+package:
+  name: r-translatome
+  version: 1.0.0
+
+source:
+  fn: tRanslatome_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tRanslatome_1.0.0.tar.gz
+    - f07f27e99b9a64bd37ce32714380749e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-sigpathway
+    - r-samr
+    - r-anota
+    - r-deseq
+    - r-edger
+    - r-rankprod
+    - r-topgo
+    - r-org.hs.eg.db
+    - r-gosemsim
+    - r-heatplus
+    - r-gplots
+    - r-plotrix
+  run:
+    - r
+    - r-limma
+    - r-sigpathway
+    - r-samr
+    - r-anota
+    - r-deseq
+    - r-edger
+    - r-rankprod
+    - r-topgo
+    - r-org.hs.eg.db
+    - r-gosemsim
+    - r-heatplus
+    - r-gplots
+    - r-plotrix
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

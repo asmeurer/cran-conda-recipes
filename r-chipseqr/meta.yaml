@@ -1,0 +1,38 @@
+package:
+  name: r-chipseqr
+  version: 1.16.0
+
+source:
+  fn: ChIPseqR_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChIPseqR_1.16.0.tar.gz
+    - fdabf6c63c70aae4ed062dbe85557a05
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-shortread
+    - r-biostrings
+    - r-fbasics
+    - r-genomicranges
+    - r-hilbertvis
+    - r-iranges
+    - r-timsac
+  run:
+    - r
+    - r-biocgenerics
+    - r-shortread
+    - r-biostrings
+    - r-fbasics
+    - r-genomicranges
+    - r-hilbertvis
+    - r-iranges
+    - r-timsac
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

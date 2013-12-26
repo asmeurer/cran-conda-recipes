@@ -1,0 +1,32 @@
+package:
+  name: r-risa
+  version: 1.4.0
+
+source:
+  fn: Risa_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Risa_1.4.0.tar.gz
+    - 87ba278d300ee6a13737c504ce7e081f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcpp
+    - r-biocviews
+    - r-affy
+    - r-xcms
+  run:
+    - r
+    - r-biobase
+    - r-rcpp
+    - r-biocviews
+    - r-affy
+    - r-xcms
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

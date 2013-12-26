@@ -1,0 +1,22 @@
+package:
+  name: r-glad
+  version: 2.26.0
+
+source:
+  fn: GLAD_2.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GLAD_2.26.0.tar.gz
+    - 46d601622f6b03e752a4dd883e04cab6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

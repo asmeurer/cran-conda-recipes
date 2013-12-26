@@ -1,0 +1,40 @@
+package:
+  name: r-gmapr
+  version: 1.4.2
+
+source:
+  fn: gmapR_1.4.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gmapR_1.4.2.tar.gz
+    - 1f314845b5292b35d27dda4c81029f14
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-rsamtools
+    - r-rtracklayer
+    - r-genomicfeatures
+    - r-biostrings
+    - r-variantannotation
+    - r-biobase
+    - r-bsgenome
+  run:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-rsamtools
+    - r-rtracklayer
+    - r-genomicfeatures
+    - r-biostrings
+    - r-variantannotation
+    - r-biobase
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

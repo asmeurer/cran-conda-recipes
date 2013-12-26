@@ -1,0 +1,28 @@
+package:
+  name: r-lmgene
+  version: 2.18.0
+
+source:
+  fn: LMGene_2.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LMGene_2.18.0.tar.gz
+    - b2f7614c10a67a0ccf535bc41bb1eebd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-multtest
+    - r-affy
+  run:
+    - r
+    - r-biobase
+    - r-multtest
+    - r-affy
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

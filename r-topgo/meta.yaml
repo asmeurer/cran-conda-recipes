@@ -1,0 +1,32 @@
+package:
+  name: r-topgo
+  version: 2.14.0
+
+source:
+  fn: topGO_2.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/topGO_2.14.0.tar.gz
+    - b5e7fa20902b4755787dbd5f0ffde648
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-biobase
+    - r-go.db
+    - r-annotationdbi
+    - r-sparsem
+  run:
+    - r
+    - r-graph
+    - r-biobase
+    - r-go.db
+    - r-annotationdbi
+    - r-sparsem
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

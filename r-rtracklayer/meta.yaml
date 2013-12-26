@@ -1,0 +1,42 @@
+package:
+  name: r-rtracklayer
+  version: 1.22.0
+
+source:
+  fn: rtracklayer_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rtracklayer_1.22.0.tar.gz
+    - 1dad994b4779769e935902e9c8384959
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-xml
+    - r-biocgenerics
+    - r-iranges
+    - r-xvector
+    - r-biostrings
+    - r-bsgenome
+    - r-zlibbioc
+    - r-rcurl
+    - r-rsamtools
+  run:
+    - r
+    - r-genomicranges
+    - r-xml
+    - r-biocgenerics
+    - r-iranges
+    - r-xvector
+    - r-biostrings
+    - r-bsgenome
+    - r-zlibbioc
+    - r-rcurl
+    - r-rsamtools
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

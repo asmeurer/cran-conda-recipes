@@ -1,0 +1,24 @@
+package:
+  name: r-logitt
+  version: 1.20.0
+
+source:
+  fn: logitT_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/logitT_1.20.0.tar.gz
+    - 27926b7c6bb235d863d753c94d3bb713
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+  run:
+    - r
+    - r-affy
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

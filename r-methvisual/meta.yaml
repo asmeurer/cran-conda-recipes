@@ -1,0 +1,36 @@
+package:
+  name: r-methvisual
+  version: 1.14.0
+
+source:
+  fn: methVisual_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methVisual_1.14.0.tar.gz
+    - 676eec8464fd41f7c765b4724f0a020a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-plotrix
+    - r-gsubfn
+    - r-sqldf
+    - r-ca
+    - r-gridbase
+    - r-iranges
+  run:
+    - r
+    - r-biostrings
+    - r-plotrix
+    - r-gsubfn
+    - r-sqldf
+    - r-ca
+    - r-gridbase
+    - r-iranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

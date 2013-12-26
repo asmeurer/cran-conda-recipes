@@ -1,0 +1,28 @@
+package:
+  name: r-rtandem
+  version: 1.2.0
+
+source:
+  fn: rTANDEM_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rTANDEM_1.2.0.tar.gz
+    - dba7b5d5d0b683630c1803f22b16e4be
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcpp
+    - r-data.table
+  run:
+    - r
+    - r-xml
+    - r-rcpp
+    - r-data.table
+
+about:
+  license: Artistic-1.0 | file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,34 @@
+package:
+  name: r-tssi
+  version: 1.8.0
+
+source:
+  fn: TSSi_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TSSi_1.8.0.tar.gz
+    - 6d3b202bbaf1d554599abf1b6b55faf0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-hmisc
+    - r-minqa
+    - r-biobase
+    - r-plyr
+    - r-iranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-hmisc
+    - r-minqa
+    - r-biobase
+    - r-plyr
+    - r-iranges
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

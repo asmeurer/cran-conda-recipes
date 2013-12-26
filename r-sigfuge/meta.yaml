@@ -1,0 +1,32 @@
+package:
+  name: r-sigfuge
+  version: 1.0.0
+
+source:
+  fn: SigFuge_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SigFuge_1.0.0.tar.gz
+    - 1388911071008e6a5b32c8d3e8e350e9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-ggplot2
+    - r-matlab
+    - r-reshape
+    - r-sigclust
+  run:
+    - r
+    - r-genomicranges
+    - r-ggplot2
+    - r-matlab
+    - r-reshape
+    - r-sigclust
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

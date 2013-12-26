@@ -1,0 +1,24 @@
+package:
+  name: r-rbgl
+  version: 1.38.0
+
+source:
+  fn: RBGL_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RBGL_1.38.0.tar.gz
+    - f7d8dc8c3bede64e8d41d25b951f304e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+  run:
+    - r
+    - r-graph
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

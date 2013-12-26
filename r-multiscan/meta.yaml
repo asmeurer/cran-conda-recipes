@@ -1,0 +1,24 @@
+package:
+  name: r-multiscan
+  version: 1.22.0
+
+source:
+  fn: multiscan_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/multiscan_1.22.0.tar.gz
+    - e164516e5f9f095c721450f9c19934f1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,44 @@
+package:
+  name: r-minimumdistance
+  version: 1.6.0
+
+source:
+  fn: MinimumDistance_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MinimumDistance_1.6.0.tar.gz
+    - 0145be1e5b981bc936da3716f590dbcf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-dnacopy
+    - r-msm
+    - r-vanillaice
+    - r-ff
+    - r-biobase
+    - r-foreach
+    - r-oligoclasses
+    - r-genomicranges
+    - r-matrixstats
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-dnacopy
+    - r-msm
+    - r-vanillaice
+    - r-ff
+    - r-biobase
+    - r-foreach
+    - r-oligoclasses
+    - r-genomicranges
+    - r-matrixstats
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

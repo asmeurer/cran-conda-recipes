@@ -1,0 +1,24 @@
+package:
+  name: r-calib
+  version: 1.28.0
+
+source:
+  fn: CALIB_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CALIB_1.28.0.tar.gz
+    - 59f5921138731bd8510ac0b075c8aed9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+  run:
+    - r
+    - r-limma
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

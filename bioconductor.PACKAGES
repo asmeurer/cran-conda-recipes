@@ -1,0 +1,6862 @@
+Package: a4
+Version: 1.10.0
+Depends: a4Base, a4Preproc, a4Classif, a4Core, a4Reporting
+Suggests: MLP, nlcv, ALL, Cairo
+License: GPL-3
+MD5sum: 8e0fe01bace928158aee2af99706c37f
+NeedsCompilation: no
+
+Package: a4Base
+Version: 1.10.0
+Depends: methods, graphics, grid, Biobase, AnnotationDbi, annaffy, mpm,
+        genefilter, limma, multtest, glmnet, a4Preproc, a4Core, gplots
+Suggests: Cairo, ALL
+Enhances: gridSVG, JavaGD
+License: GPL-3
+MD5sum: 7e1aca3d33d425976b0f8d513f918877
+NeedsCompilation: no
+
+Package: a4Classif
+Version: 1.10.0
+Depends: methods, a4Core, a4Preproc, MLInterfaces, ROCR, pamr, glmnet,
+        varSelRF
+Imports: a4Core
+Suggests: ALL
+License: GPL-3
+MD5sum: cbbc0e46e3afa804456c60e150338dd7
+NeedsCompilation: no
+
+Package: a4Core
+Version: 1.10.0
+Depends: methods, Biobase, glmnet
+License: GPL-3
+MD5sum: c3f252531bd635542dfd02934d4d2e4e
+NeedsCompilation: no
+
+Package: a4Preproc
+Version: 1.10.0
+Depends: methods, AnnotationDbi
+Suggests: ALL, hgu95av2.db
+License: GPL-3
+MD5sum: def2defa0fd4597265f71bba17b0485e
+NeedsCompilation: no
+
+Package: a4Reporting
+Version: 1.10.0
+Depends: methods, annaffy
+Imports: xtable, utils
+License: GPL-3
+MD5sum: c07a49c5bf2bc4f5a51a4aa6d6dfaa2e
+NeedsCompilation: no
+
+Package: ABarray
+Version: 1.30.0
+Imports: Biobase, graphics, grDevices, methods, multtest, stats, tcltk,
+        utils
+Suggests: limma, LPE
+License: GPL
+MD5sum: 7a7d391abafe914f7e9d1195b39a2b53
+NeedsCompilation: no
+
+Package: aCGH
+Version: 1.40.0
+Depends: R (>= 2.10), cluster, survival, multtest
+Imports: Biobase, cluster, grDevices, graphics, methods, multtest,
+        stats, survival, splines, utils
+License: GPL-2
+MD5sum: b70eac05f243efb9674113aa27ca4de4
+NeedsCompilation: yes
+
+Package: ACME
+Version: 2.18.0
+Depends: R (>= 2.10), Biobase (>= 2.5.5), methods
+Imports: graphics, stats
+License: GPL (>= 2)
+MD5sum: 563bd7cc8482a13febca706882259597
+NeedsCompilation: yes
+
+Package: ADaCGH2
+Version: 2.2.0
+Depends: R (>= 2.15.0), parallel, ff
+Imports: bit, ffbase, DNAcopy, snapCGH, tilingArray, aCGH, GLAD,
+        waveslim, cluster
+Suggests: CGHregions, Cairo, limma
+Enhances: Rmpi
+License: GPL (>= 3)
+MD5sum: b100a5a714ec60a9e590cd8825992ab7
+NeedsCompilation: yes
+
+Package: adSplit
+Version: 1.32.0
+Depends: R (>= 2.1.0), methods (>= 2.1.0)
+Imports: AnnotationDbi, Biobase (>= 1.5.12), cluster (>= 1.9.1), GO.db
+        (>= 1.8.1), graphics, grDevices, KEGG.db (>= 1.8.1), methods,
+        multtest (>= 1.6.0), stats (>= 2.1.0)
+Suggests: golubEsets (>= 1.0), vsn (>= 1.5.0), hu6800.db (>= 1.8.1)
+License: GPL (>= 2)
+MD5sum: a7dd899b7e73d63211f2d731f60aac03
+NeedsCompilation: yes
+
+Package: affxparser
+Version: 1.34.0
+Depends: R (>= 2.6.0)
+Suggests: R.utils (>= 1.27.1), AffymetrixDataTestFiles
+License: LGPL (>= 2)
+MD5sum: dbcd64c4d496799d932af88b54eb3881
+NeedsCompilation: yes
+
+Package: affy
+Version: 1.40.0
+Depends: R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)
+Imports: affyio (>= 1.13.3), BiocInstaller, graphics, grDevices,
+        methods, preprocessCore, stats, utils, zlibbioc
+LinkingTo: preprocessCore
+Suggests: tkWidgets (>= 1.19.0), affydata, widgetTools
+License: LGPL (>= 2.0)
+MD5sum: b58ebcb0117b685130425e8840088845
+NeedsCompilation: yes
+
+Package: affycomp
+Version: 1.38.0
+Depends: R (>= 2.13.0), methods, Biobase (>= 2.3.3)
+Suggests: splines, affycompData
+License: GPL (>= 2)
+MD5sum: 7b30327b14a45597d497bba9deb87bdf
+NeedsCompilation: no
+
+Package: AffyCompatible
+Version: 1.22.0
+Depends: R (>= 2.7.0), XML (>= 2.8-1), RCurl (>= 0.8-1), methods
+Imports: Biostrings
+License: Artistic-2.0
+MD5sum: 06127e1b2d708320379b6c41ca8191d9
+NeedsCompilation: no
+
+Package: affyContam
+Version: 1.20.0
+Depends: R (>= 2.7.0), tools, methods, utils, Biobase, affy, affydata
+License: Artistic-2.0
+MD5sum: 2a67c36a39ba8d8c543bfa9a53947e2b
+NeedsCompilation: no
+
+Package: affycoretools
+Version: 1.34.0
+Depends: affy, Biobase, GO.db, KEGG.db
+Imports: biomaRt, limma, GOstats, annotate, annaffy, genefilter, gcrma,
+        splines, xtable, AnnotationDbi, lattice, gplots, R2HTML,
+        oligoClasses, ReportingTools, hwriter
+Suggests: affydata, hgfocuscdf, rgl
+License: Artistic-2.0
+MD5sum: c51eb71297beb36d41f3033bfd5edae2
+NeedsCompilation: no
+
+Package: AffyExpress
+Version: 1.28.0
+Depends: R (>= 2.10), affy (>= 1.23.4), limma
+Suggests: simpleaffy, R2HTML, affyPLM, hgu95av2cdf, hgu95av2, test3cdf,
+        genefilter, estrogen, annaffy, gcrma
+License: LGPL
+MD5sum: e14186e66d96022c14345ff0510efacf
+NeedsCompilation: no
+
+Package: affyILM
+Version: 1.14.0
+Depends: R (>= 2.10.0), methods, gcrma
+Imports: affxparser (>= 1.16.0), affy, graphics, methods, Biobase
+Suggests: AffymetrixDataTestFiles
+License: GPL-3
+MD5sum: 4413daa494796e5f9437d4bbcb2296db
+NeedsCompilation: no
+
+Package: affyio
+Version: 1.30.0
+Depends: R (>= 2.6.0)
+Imports: zlibbioc
+License: LGPL (>= 2)
+MD5sum: 5a26b715296921b05ab788e6af2a3e09
+NeedsCompilation: yes
+
+Package: affylmGUI
+Version: 1.36.0
+Depends: limma, tcltk, affy, BiocInstaller, affyio, affy, tkrplot,
+        affyPLM, R2HTML, xtable, gcrma, affyPLM, AnnotationDbi
+License: LGPL
+MD5sum: d025aa403478b32454184d231e2ebf9d
+NeedsCompilation: no
+
+Package: affyPara
+Version: 1.22.0
+Depends: R (>= 2.5.0), methods, affy (>= 1.20.0), snow (>= 0.2-3), vsn
+        (>= 3.6.0), aplpack (>= 1.1.1), affyio
+Suggests: affydata
+Enhances: affy
+License: GPL-3
+MD5sum: b085e2f55b92f3732835263bb5c6947a
+NeedsCompilation: no
+
+Package: affypdnn
+Version: 1.36.0
+Depends: R (>= 2.13.0), affy (>= 1.5)
+Suggests: affydata, hgu95av2probe
+License: LGPL
+MD5sum: d9d20dc844c04dc65c02945de1ebd7d1
+NeedsCompilation: no
+
+Package: affyPLM
+Version: 1.38.0
+Depends: R (>= 2.6.0), BiocGenerics (>= 0.3.2), affy (>= 1.11.0),
+        Biobase (>= 2.17.8), gcrma, stats, preprocessCore (>= 1.5.1)
+Imports: BiocGenerics, zlibbioc, graphics, grDevices, methods
+LinkingTo: preprocessCore
+Suggests: affydata, MASS
+License: GPL (>= 2)
+MD5sum: bffb6a94e493311a4cb0f9cc53b696e0
+NeedsCompilation: yes
+
+Package: affyQCReport
+Version: 1.40.0
+Depends: Biobase (>= 1.13.16), affy, lattice
+Imports: affy, affyPLM, Biobase, genefilter, graphics, grDevices,
+        lattice, RColorBrewer, simpleaffy, stats, utils, xtable
+Suggests: tkWidgets (>= 1.5.23), affydata (>= 1.4.1)
+License: LGPL (>= 2)
+MD5sum: 16440fb7fa5920fd36319a5af83eadc7
+NeedsCompilation: no
+
+Package: AffyRNADegradation
+Version: 1.8.0
+Depends: R (>= 2.9.0), methods, affy
+Suggests: AmpAffyExample
+License: GPL-2
+MD5sum: 98744e1e95fcdde78a698b00dc7b3f36
+NeedsCompilation: no
+
+Package: AffyTiling
+Version: 1.20.0
+Depends: R (>= 2.6)
+Imports: affxparser, affy (>= 1.16), stats, utils, preprocessCore
+License: GPL (>= 2)
+MD5sum: 5cbc7db056fbd052bb5487123ed99efb
+NeedsCompilation: yes
+
+Package: AGDEX
+Version: 1.10.0
+Depends: R (>= 2.10), Biobase, GSEABase
+Imports: stats
+License: GPL (>= 2)
+MD5sum: 9cbf08e9f8bf0fca48ac66f46f8f25a1
+NeedsCompilation: no
+
+Package: Agi4x44PreProcess
+Version: 1.22.0
+Depends: R (>= 2.10), Biobase, limma, annotate, genefilter
+Suggests: vsn, affycoretools, hgug4112a.db, GO.db, marray, gplots,
+        gtools, gdata
+License: GPL-3
+MD5sum: b88b89f3902cb5aec94faac537d5f433
+NeedsCompilation: no
+
+Package: agilp
+Version: 3.4.0
+Depends: R (>= 2.14.0)
+License: GPL-3
+MD5sum: 5f565f7534565ab5601f0f98f25863d0
+NeedsCompilation: no
+
+Package: AgiMicroRna
+Version: 2.12.0
+Depends: R (>= 2.10),methods,Biobase,limma,affy (>=
+        1.22),preprocessCore,affycoretools
+Imports: Biobase
+Suggests: geneplotter,marray,gplots,gtools,gdata,codelink
+License: GPL-3
+MD5sum: 0efc7867ed3f7a69945334eb1e2a1950
+NeedsCompilation: no
+
+Package: AllelicImbalance
+Version: 1.0.0
+Depends: GenomicRanges, R (>= 3.0.0)
+Imports: methods, BiocGenerics, Biostrings, IRanges, GenomicFeatures,
+        Rsamtools, AnnotationDbi
+Suggests: RUnit, org.Hs.eg.db,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,SNPlocs.Hsapiens.dbSNP.20120608
+License: GPL-3
+MD5sum: 0da57422c464231f6e39745cd54637f1
+NeedsCompilation: no
+
+Package: altcdfenvs
+Version: 2.24.0
+Depends: R (>= 2.7), methods, BiocGenerics (>= 0.1.0), Biobase (>=
+        2.15.1), affy, makecdfenv, Biostrings, hypergraph
+Suggests: plasmodiumanophelescdf, hgu95acdf, hgu133aprobe, hgu133a.db,
+        hgu133acdf, Rgraphviz, RColorBrewer
+License: GPL (>= 2)
+MD5sum: 7ca0c6dd18dc5cb9a347f9afdef36d8f
+NeedsCompilation: no
+
+Package: ampliQueso
+Version: 1.0.0
+Depends: R (>= 2.15.0), rnaSeqMap (>= 2.17.1), knitr, rgl, ggplot2,
+        gplots, parallel, doParallel, foreach,
+        VariantAnnotation,genefilter,statmod,xtable
+Imports: edgeR, DESeq, samr
+License: GPL-2
+MD5sum: 70ece150cf3f6ec43a459deb40741023
+NeedsCompilation: no
+
+Package: annaffy
+Version: 1.34.0
+Depends: R (>= 2.5.0), methods, Biobase, GO.db, KEGG.db
+Imports: AnnotationDbi (>= 0.1.15)
+Suggests: hgu95av2.db, multtest, tcltk
+License: LGPL
+MD5sum: 886859ce049d7b17b5c728b8016e8f20
+NeedsCompilation: no
+
+Package: annmap
+Version: 1.4.1
+Depends: R (>= 2.15.0), methods, GenomicRanges
+Imports: DBI, RMySQL (>= 0.6-0), digest, Biobase, grid, lattice,
+        Rsamtools, genefilter, IRanges, BiocGenerics
+Suggests: RUnit, rjson
+License: GPL-2
+MD5sum: faf01c8021d3b9cf5cbe007f1aa0745a
+NeedsCompilation: no
+
+Package: annotate
+Version: 1.40.0
+Depends: R (>= 2.10), AnnotationDbi (>= 0.1.15)
+Imports: Biobase, AnnotationDbi, DBI, xtable, graphics, utils, stats,
+        methods, XML (>= 0.92-2), BiocGenerics (>= 0.1.13)
+Suggests: Biobase, hgu95av2.db, genefilter, Biostrings (>= 2.25.10),
+        rae230a.db, rae230aprobe, tkWidgets, GO.db, org.Hs.eg.db, XML
+        (>= 0.92-2), org.Mm.eg.db, hom.Hs.inp.db, humanCHRLOC,
+        Rgraphviz, RUnit,
+License: Artistic-2.0
+MD5sum: 3bad7d1d9e213064f23c54d0b60eb82c
+NeedsCompilation: no
+
+Package: AnnotationDbi
+Version: 1.24.0
+Depends: R (>= 2.7.0), methods, utils, BiocGenerics (>= 0.5.4), Biobase
+        (>= 1.17.0)
+Imports: methods, utils, DBI, RSQLite, BiocGenerics, Biobase, IRanges
+Suggests: DBI (>= 0.2-4), RSQLite (>= 0.6-4), hgu95av2.db, GO.db,
+        org.Sc.sgd.db, org.At.tair.db, KEGG.db, RUnit,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, hom.Hs.inp.db, org.Hs.eg.db,
+        seqnames.db, reactome.db, AnnotationForge, graph,
+        org.TguttataTestingSubset.eg.db
+License: Artistic-2.0
+MD5sum: a51f84efd8fff2f48579189ebc67c508
+NeedsCompilation: no
+
+Package: AnnotationForge
+Version: 1.4.4
+Depends: R (>= 2.7.0), methods, utils, BiocGenerics (>= 0.1.13),
+        Biobase (>= 1.17.0), AnnotationDbi (>= 1.19.15), org.Hs.eg.db
+Imports: methods, utils, DBI, RSQLite, BiocGenerics, Biobase
+Suggests: DBI (>= 0.2-4), RSQLite (>= 0.6-4), XML, RCurl, hgu95av2.db,
+        human.db0, affy, Homo.sapiens, hom.Hs.inp.db, GO.db, BiocStyle,
+        knitr
+License: Artistic-2.0
+MD5sum: 89efc9d7879b9be9f8cc35d510d5d857
+NeedsCompilation: no
+
+Package: AnnotationFuncs
+Version: 1.12.0
+Depends: R (>= 2.7.0), AnnotationDbi
+Suggests: org.Bt.eg.db, GO.db, org.Hs.eg.db, hom.Hs.inp.db
+License: GPL-2
+MD5sum: 465b1d45ef938f5cf33d5158198e3178
+NeedsCompilation: no
+
+Package: AnnotationHub
+Version: 1.2.0
+Depends: IRanges
+Imports: methods, stats, utils, rjson, BiocGenerics, BiocInstaller (>=
+        1.11.0), AnnotationDbi, GenomicRanges
+Suggests: RUnit, RCurl, Rsamtools
+License: Artistic-2.0
+MD5sum: 6e56dec588def852037d7eba9172518b
+NeedsCompilation: no
+
+Package: annotationTools
+Version: 1.36.0
+Imports: Biobase, stats
+License: GPL
+MD5sum: d7788f08d7fadea94e50eed5bcbe5765
+NeedsCompilation: no
+
+Package: anota
+Version: 1.10.0
+Depends: qvalue
+Imports: multtest, qvalue
+License: GPL-3
+MD5sum: 04c67850100fdc069a05f0332d6fed89
+NeedsCompilation: no
+
+Package: antiProfiles
+Version: 1.2.0
+Depends: R (>= 3.0), matrixStats (>= 0.5), methods (>= 2.14),
+Suggests: antiProfilesData, RColorBrewer
+License: Artistic-2.0
+MD5sum: 3fa94f4c18927d10da9dae3e9d1113bc
+NeedsCompilation: no
+
+Package: apComplex
+Version: 2.28.0
+Depends: R (>= 2.10), graph, RBGL
+Imports: Rgraphviz, stats, org.Sc.sgd.db
+License: LGPL
+MD5sum: 8d8d43a6f30a51afe7cefd70fceb645b
+NeedsCompilation: no
+
+Package: aroma.light
+Version: 1.32.0
+Depends: R (>= 2.14.0), matrixStats (>= 0.8.12)
+Imports: R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.1)
+Suggests: R.utils (>= 1.27.1), princurve (>= 1.1-12)
+License: GPL (>= 2)
+MD5sum: 85f902743bdfa2c0d2d8bb4fec253f6a
+NeedsCompilation: no
+
+Package: ArrayExpress
+Version: 1.22.0
+Depends: R (>= 2.9.0), Biobase (>= 2.4.0)
+Imports: XML, affy, limma
+License: Artistic-2.0
+MD5sum: 83f79d7213cd14223cdcf34a474f7443
+NeedsCompilation: no
+
+Package: ArrayExpressHTS
+Version: 1.12.0
+Depends: sampling, Rsamtools (>= 1.3.32), snow
+Imports: Biobase, BiocGenerics, Biostrings, DESeq, GenomicRanges,
+        Hmisc, IRanges, R2HTML, RColorBrewer, Rsamtools, ShortRead,
+        XML, biomaRt, edgeR, grDevices, graphics, methods, rJava,
+        stats, svMisc, utils, sendmailR, bitops
+LinkingTo: Rsamtools
+License: Artistic License 2.0
+MD5sum: c11106babcfe7c206f16b338e3d2e50c
+NeedsCompilation: yes
+
+Package: arrayMvout
+Version: 1.20.0
+Depends: R (>= 2.6.0), tools, methods, utils, parody, Biobase, affy,
+        lumi
+Imports: simpleaffy, mdqc, affyContam,
+Suggests: MAQCsubset, mvoutData, lumiBarnes, affyPLM, affydata,
+        hgu133atagcdf
+License: Artistic-2.0
+MD5sum: e9d4466df31eea0f34ef6b2b70caac23
+NeedsCompilation: no
+
+Package: arrayQuality
+Version: 1.40.0
+Depends: R (>= 2.2.0)
+Imports: graphics, grDevices, grid, gridBase, hexbin, limma, marray,
+        methods, RColorBrewer, stats, utils
+Suggests: mclust, MEEBOdata, HEEBOdata
+License: LGPL
+MD5sum: e9686bbea5377e2ecb2da287a4e49cd5
+NeedsCompilation: no
+
+Package: arrayQualityMetrics
+Version: 3.18.0
+Imports: affy, affyPLM (>= 1.27.3), beadarray, Biobase, Cairo (>=
+        1.4-6), genefilter, graphics, grDevices, grid, Hmisc, hwriter,
+        lattice, latticeExtra, limma, methods, RColorBrewer, setRNG,
+        simpleaffy, stats, SVGAnnotation (>= 0.9-0), utils, vsn (>=
+        3.23.3), XML
+Suggests: ALLMLL, CCl4
+License: LGPL (>= 2)
+MD5sum: 63ce91940ff6b385e3b08e20011c9b77
+NeedsCompilation: no
+
+Package: ArrayTools
+Version: 1.22.0
+Depends: R (>= 2.7.0), affy (>= 1.23.4), Biobase (>= 2.5.5), methods
+Imports: affy, Biobase, graphics, grDevices, limma, methods, stats,
+        utils, xtable
+Suggests: simpleaffy, R2HTML, affydata, affyPLM, genefilter, annaffy,
+        gcrma, hugene10sttranscriptcluster.db
+License: LGPL (>= 2.0)
+MD5sum: 8072c494442f30d083d6a2b5feb656d1
+NeedsCompilation: no
+
+Package: ArrayTV
+Version: 1.0.0
+Depends: R (>= 2.14)
+Imports: foreach, DNAcopy, methods, oligoClasses (>= 1.21.3)
+Suggests: RColorBrewer, crlmm, ff,
+        BSgenome.Hsapiens.UCSC.hg18,BSgenome.Hsapiens.UCSC.hg19,
+        lattice, latticeExtra, RUnit, BiocGenerics
+Enhances: doMC, doSNOW, doParallel
+License: GPL (>= 2)
+MD5sum: 9a73631bda25a10458a6a505c647aab6
+NeedsCompilation: no
+
+Package: ARRmNormalization
+Version: 1.2.0
+Depends: R (>= 2.15.1), ARRmData
+License: Artistic-2.0
+MD5sum: a9406e9722336fba218eac07eac86604
+NeedsCompilation: no
+
+Package: ASEB
+Version: 1.6.0
+Depends: R (>= 2.8.0), methods
+Imports: graphics, methods, utils
+License: GPL (>= 3)
+MD5sum: 6673c4aa7d12b960a041b1f28e7093a0
+NeedsCompilation: yes
+
+Package: ASSET
+Version: 1.0.0
+Depends: MASS, msm, rmeta
+Suggests: RUnit, BiocGenerics
+License: GPL-2 + file LICENSE
+MD5sum: a79445ed489f7d285ba4a60402ac624e
+NeedsCompilation: no
+
+Package: attract
+Version: 1.14.0
+Depends: R (>= 2.10.0), AnnotationDbi, KEGG.db, limma, cluster,
+        GOstats, graphics, methods, stats
+Imports: Biobase, AnnotationDbi, KEGG.db, limma, cluster, GOstats,
+        graphics, methods, stats
+Suggests: illuminaHumanv1.db
+License: LGPL (>= 2.0)
+MD5sum: c08fe1b9295c5efc10519f3fee60d631
+NeedsCompilation: no
+
+Package: BAC
+Version: 1.22.0
+Depends: R (>= 2.10)
+License: Artistic-2.0
+MD5sum: dbfa07a603252c831f181e9c2c4ade5f
+NeedsCompilation: yes
+
+Package: BADER
+Version: 1.0.0
+Suggests: pasilla (>= 0.2.10)
+License: GPL-2
+MD5sum: 72ab95fbc804af05f41cb1fea0c6ccf4
+NeedsCompilation: yes
+
+Package: BAGS
+Version: 2.2.0
+Depends: R (>= 2.10), breastCancerVDX, Biobase
+License: Artistic-2.0
+MD5sum: 16e4fbb8e688ffa54863bf09ef2dff1c
+NeedsCompilation: yes
+
+Package: BaseSpaceR
+Version: 1.2.0
+Depends: R (>= 2.15.0), RCurl, RJSONIO
+Imports: methods
+Suggests: RUnit
+License: Apache License 2.0
+MD5sum: 4cd252dfb2a191f771eab32e7a41b0b0
+NeedsCompilation: no
+
+Package: BayesPeak
+Version: 1.14.0
+Depends: R (>= 2.14), IRanges
+Imports: IRanges, graphics
+License: GPL (>= 2)
+MD5sum: dff4f1be832052b7dd16338ba117b662
+NeedsCompilation: yes
+
+Package: baySeq
+Version: 1.16.0
+Depends: R (>= 2.3.0), methods, GenomicRanges
+Suggests: snow, edgeR
+License: GPL-3
+MD5sum: 7cdea501c8fae9944715ab921f596bc8
+NeedsCompilation: no
+
+Package: BCRANK
+Version: 1.24.0
+Depends: methods
+Imports: Biostrings
+Suggests: seqLogo
+License: GPL-2
+MD5sum: 1d0839ac8c451b4f788b0c83953765a1
+NeedsCompilation: yes
+
+Package: beadarray
+Version: 2.12.0
+Depends: R (>= 2.13.0), BiocGenerics (>= 0.3.2), Biobase (>= 2.17.8),
+        methods, ggplot2
+Imports: BeadDataPackR, limma, AnnotationDbi, stats4, BiocGenerics,
+        reshape2
+Suggests: lumi, vsn, affy, hwriter, beadarrayExampleData,
+        illuminaHumanv3.db, gridExtra
+License: GPL-2
+MD5sum: ac90632c43b62a917bfff988d81361a4
+NeedsCompilation: yes
+
+Package: beadarraySNP
+Version: 1.28.0
+Depends: methods, Biobase (>= 2.5.5), quantsmooth
+Suggests: aCGH, affy, limma, snapCGH, beadarray, DNAcopy
+License: GPL-2
+MD5sum: 307ef166f20f50e1e1fa7beea517101f
+NeedsCompilation: no
+
+Package: BeadDataPackR
+Version: 1.14.0
+License: GPL-2
+MD5sum: 5e2f32b87defbaf33c16e20ba0a5122d
+NeedsCompilation: yes
+
+Package: betr
+Version: 1.18.0
+Depends: R(>= 2.6.0)
+Imports: Biobase (>= 2.5.5), limma, mvtnorm, methods, stats
+Suggests: Biobase
+License: LGPL
+MD5sum: b6a9fb11171b9a6daa54eccb3153e6b8
+NeedsCompilation: no
+
+Package: bgafun
+Version: 1.24.1
+Depends: made4, seqinr,ade4
+License: Artistic-2.0
+MD5sum: 24f169475ec098c1cc8f0f03ac775239
+NeedsCompilation: no
+
+Package: BGmix
+Version: 1.22.0
+Depends: R (>= 2.3.1), KernSmooth
+License: GPL-2
+MD5sum: 665394cfa3d83d69f03aea0510e21384
+NeedsCompilation: yes
+
+Package: bgx
+Version: 1.28.0
+Depends: R (>= 2.0.1), Biobase, affy (>= 1.5.0), gcrma (>= 2.4.1)
+Suggests: affydata, hgu95av2cdf
+License: GPL-2
+MD5sum: 0eaf2459cdd4c2bc3660a7b6190844e5
+NeedsCompilation: yes
+
+Package: BHC
+Version: 1.14.0
+License: GPL-3
+MD5sum: f77f1a9fb82676cc20571436c240d2da
+NeedsCompilation: yes
+
+Package: BicARE
+Version: 1.20.0
+Depends: R (>= 1.8.0), Biobase (>= 2.5.5), multtest, GSEABase
+License: GPL-2
+MD5sum: e8449fa668030b3bc71ac10496795f96
+NeedsCompilation: yes
+
+Package: BiGGR
+Version: 1.0.0
+Depends: R (>= 2.14.0), rsbml, hyperdraw, LIM
+Imports: hypergraph
+License: file LICENSE
+MD5sum: 4fc3c900f11858b58d4fef0cc753c917
+NeedsCompilation: no
+
+Package: bigmemoryExtras
+Version: 1.6.0
+Depends: R (>= 2.12), bigmemory (>= 4.3)
+Imports: bigmemory, biganalytics, methods, BiocGenerics, Biobase
+Suggests: RUnit, BiocGenerics (>= 0.1.0)
+License: Artistic-2.0
+OS_type: unix
+MD5sum: c52c2537a5ea93596fc4ea2582737e3a
+NeedsCompilation: no
+
+Package: bioassayR
+Version: 1.0.0
+Depends: R (>= 3.0.1), DBI, RSQLite, methods
+Imports: XML
+Suggests: BiocStyle, RCurl, ape, ChemmineR
+License: Artistic-2.0
+MD5sum: 8db90aa8246cb56cde35311345883753
+NeedsCompilation: no
+
+Package: Biobase
+Version: 2.22.0
+Depends: R (>= 2.10), BiocGenerics (>= 0.3.2), utils
+Imports: methods, BiocGenerics
+Suggests: tools, tkWidgets, ALL, RUnit, golubEsets
+License: Artistic-2.0
+MD5sum: 97b4dd96418b87b47d62c955d54924b7
+NeedsCompilation: yes
+
+Package: BiocCaseStudies
+Version: 1.24.0
+Depends: tools, methods, utils, Biobase
+Suggests: affy (>= 1.17.3), affyPLM (>= 1.15.1), affyQCReport (>=
+        1.17.0), ALL (>= 1.4.3), annaffy (>= 1.11.1), annotate (>=
+        1.17.3), AnnotationDbi (>= 1.1.6), apComplex (>= 2.5.0),
+        Biobase (>= 1.17.5), bioDist (>= 1.11.3), biocGraph (>= 1.1.1),
+        biomaRt (>= 1.13.5), CCl4 (>= 1.0.6), CLL (>= 1.2.4), Category
+        (>= 2.5.0), class (>= 7.2-38), cluster (>= 1.11.9), convert (>=
+        1.15.0), gcrma (>= 2.11.1), genefilter (>= 1.17.6), geneplotter
+        (>= 1.17.2), GO.db (>= 2.0.2), GOstats (>= 2.5.0), graph (>=
+        1.17.4), GSEABase (>= 1.1.13), hgu133a.db (>= 2.0.2),
+        hgu95av2.db, hgu95av2cdf (>= 2.0.0), hgu95av2probe (>= 2.0.0),
+        hopach (>= 1.13.0), KEGG.db (>= 2.0.2), kohonen (>= 2.0.2),
+        lattice (>= 0.17.2), latticeExtra (>= 0.3-1), limma (>=
+        2.13.1), MASS (>= 7.2-38), MLInterfaces (>= 1.13.17), multtest
+        (>= 1.19.0), org.Hs.eg.db (>= 2.0.2), ppiStats (>= 1.5.4),
+        randomForest (>= 4.5-20), RBGL (>= 1.15.6), RColorBrewer (>=
+        1.0-2), Rgraphviz (>= 1.17.11), vsn (>= 3.4.0), weaver (>=
+        1.5.0), xtable (>= 1.5-2), yeastExpData (>= 0.9.11)
+License: Artistic-2.0
+MD5sum: 3db901e026036f42fd2873a49baa7e9a
+NeedsCompilation: no
+
+Package: BiocGenerics
+Version: 0.8.0
+Depends: methods, graphics, stats, parallel
+Imports: methods, graphics, stats, parallel
+Suggests: Biobase, IRanges, GenomicRanges, AnnotationDbi, oligoClasses,
+        oligo, affyPLM, flowClust, affy, RUnit, DESeq2
+License: Artistic-2.0
+MD5sum: 6a6c9276b28bc1839c605ac8809a4d3a
+NeedsCompilation: no
+
+Package: biocGraph
+Version: 1.24.0
+Depends: Rgraphviz, graph
+Imports: Rgraphviz, geneplotter, graph, BiocGenerics, methods
+Suggests: fibroEset, geneplotter, hgu95av2.db
+License: Artistic-2.0
+MD5sum: 73a6e1db237a32256d4c1504c3f943e4
+NeedsCompilation: no
+
+Package: BiocInstaller
+Version: 1.12.0
+Depends: R (>= 3.0.0)
+Suggests: RUnit, BiocGenerics
+License: Artistic-2.0
+MD5sum: cba065ade73c0605fa864e24a8dc4b1d
+NeedsCompilation: no
+
+Package: BiocParallel
+Version: 0.4.1
+Imports: methods, parallel, foreach, tools, BatchJobs, BBmisc
+Suggests: BiocGenerics, doParallel, RUnit
+License: GPL-2 | GPL-3
+MD5sum: 11dfccf3754a20ebf4e5ccf9bdd6183f
+NeedsCompilation: no
+
+Package: BiocStyle
+Version: 1.0.0
+License: Artistic-2.0
+MD5sum: 7589b4ccbd9c9c191ad38bbfd6973ec4
+NeedsCompilation: no
+
+Package: biocViews
+Version: 1.30.0
+Depends: R (>= 2.4.0)
+Imports: Biobase, graph (>= 1.9.26), methods, RBGL (>= 1.13.5), tools,
+        utils, XML, RCurl, RUnit, knitr
+Suggests: Biobase
+License: Artistic-2.0
+MD5sum: fbd3dd686aeaa7bef84cc9696379de06
+NeedsCompilation: no
+
+Package: bioDist
+Version: 1.34.0
+Depends: R (>= 2.0), methods, Biobase,KernSmooth
+Suggests: locfit
+License: Artistic-2.0
+MD5sum: 7b44369e5bd739ca22c6c1d61e599f57
+NeedsCompilation: no
+
+Package: biomaRt
+Version: 2.18.0
+Depends: methods
+Imports: utils, XML, RCurl
+Suggests: annotate
+License: Artistic-2.0
+MD5sum: 2692dafbad92824a549ed451d5fccabc
+NeedsCompilation: no
+
+Package: BioMVCClass
+Version: 1.30.0
+Depends: R (>= 2.1.0), methods, MVCClass, Biobase, graph, Rgraphviz
+License: LGPL
+MD5sum: 602bbc3699961f9d91cc759fdce173ba
+NeedsCompilation: no
+
+Package: biomvRCNS
+Version: 1.2.0
+Depends: IRanges, GenomicRanges, Gviz
+Imports: methods, mvtnorm
+Suggests: cluster, parallel, GenomicFeatures, dynamicTreeCut,
+        Rsamtools, TxDb.Hsapiens.UCSC.hg19.knownGene
+License: GPL (>= 2)
+MD5sum: cbe48661fc23c82ef6faca64a6278ad3
+NeedsCompilation: yes
+
+Package: BioNet
+Version: 1.22.0
+Depends: R (>= 2.10.0), Biobase, graph, RBGL
+Imports: igraph, AnnotationDbi
+Suggests: rgl, impute, DLBCL, genefilter, xtable, ALL, limma,
+        hgu95av2.db, XML
+License: GPL (>= 2)
+MD5sum: 523faf8fd432e1c6f7732b53e2834e1c
+NeedsCompilation: no
+
+Package: BioSeqClass
+Version: 1.20.0
+Depends: R (>= 2.10), scatterplot3d
+Imports: Biostrings, ipred, e1071, klaR, randomForest, class, tree,
+        nnet, rpart, party, foreign, Biobase, utils, stats, grDevices
+Suggests: scatterplot3d
+License: LGPL (>= 2.0)
+MD5sum: 9352fbae23c13a7241aa388973910d3b
+NeedsCompilation: no
+
+Package: Biostrings
+Version: 2.30.1
+Depends: R (>= 2.8.0), methods, BiocGenerics (>= 0.5.4), IRanges (>=
+        1.19.34), XVector (>= 0.1.3)
+Imports: graphics, methods, stats, utils, BiocGenerics, IRanges,
+        XVector
+LinkingTo: IRanges, XVector
+Suggests: BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>=
+        1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11),
+        BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe,
+        hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy,
+        affydata (>= 1.11.5), RUnit
+Enhances: Rmpi
+License: Artistic-2.0
+MD5sum: acf4d4047855f20096e751cf5fadbf5e
+NeedsCompilation: yes
+
+Package: biovizBase
+Version: 1.10.7
+Depends: R (>= 2.10), methods
+Imports: methods, grDevices, stats, scales, Hmisc, RColorBrewer,
+        dichromat, BiocGenerics, IRanges, GenomicRanges (>= 1.13.3),
+        Biostrings, Rsamtools (>= 1.13.1), GenomicFeatures
+Suggests: BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, BSgenome, rtracklayer
+License: Artistic-2.0
+MD5sum: 7c6ae3c48125bb61653b8c941809e519
+NeedsCompilation: yes
+
+Package: BiRewire
+Version: 1.2.2
+Depends: igraph
+Suggests: RUnit, BiocGenerics
+License: GPL-3
+MD5sum: 40309f383af4d5d69c46179d431a44a9
+NeedsCompilation: yes
+
+Package: birta
+Version: 1.6.0
+Depends: limma, MASS, R(>= 2.10), Biobase, methods
+License: GPL (>= 2)
+MD5sum: 51ffd86e934ac4c576428950de879607
+NeedsCompilation: yes
+
+Package: BiSeq
+Version: 1.2.3
+Depends: R (>= 2.15.2), methods, IRanges (>= 1.17.24), GenomicRanges,
+        Formula
+Imports: methods, BiocGenerics, Biobase, IRanges, GenomicRanges,
+        rtracklayer, parallel, betareg, lokern, Formula, globaltest
+License: LGPL-3
+MD5sum: 0093424d20d2a30bddb934fa5e032382
+NeedsCompilation: no
+
+Package: BitSeq
+Version: 1.6.1
+Depends: Rsamtools, zlibbioc
+Imports: IRanges
+LinkingTo: Rsamtools, zlibbioc
+Suggests: edgeR, DESeq
+License: Artistic-2.0 + file LICENSE
+MD5sum: a40900434d3c3d234682a29fbe532f8f
+NeedsCompilation: yes
+
+Package: BRAIN
+Version: 1.8.0
+Depends: R (>= 2.8.1), PolynomF, Biostrings, lattice
+License: GPL-2
+MD5sum: 8d90eb93569f446145972496d5450970
+NeedsCompilation: no
+
+Package: BrainStars
+Version: 1.6.0
+Depends: RCurl, Biobase, methods
+Imports: RJSONIO, Biobase
+License: Artistic-2.0
+MD5sum: 648da8c4f092fc9aa08fad90e3da2f91
+NeedsCompilation: no
+
+Package: bridge
+Version: 1.26.0
+Depends: R (>= 1.9.0), rama
+License: GPL (>= 2)
+MD5sum: 3307670492a5852c61ec41da3d162573
+NeedsCompilation: yes
+
+Package: BSgenome
+Version: 1.30.0
+Depends: R (>= 2.8.0), methods, BiocGenerics (>= 0.1.2), IRanges (>=
+        1.13.6), GenomicRanges (>= 1.11.46), Biostrings (>= 2.23.3)
+Suggests: RUnit, BSgenome.Celegans.UCSC.ce2 (>= 1.3.11),
+        BSgenome.Hsapiens.UCSC.hg19 (>= 1.3.11),
+        SNPlocs.Hsapiens.dbSNP.20100427, hgu95av2probe, Biobase
+License: Artistic-2.0
+MD5sum: 6ae0eaf797f1b64fc72f0be329fd3a0c
+NeedsCompilation: no
+
+Package: bsseq
+Version: 0.10.0
+Depends: R (>= 2.15), methods, BiocGenerics, IRanges, GenomicRanges,
+        parallel, matrixStats
+Imports: scales, stats, graphics, Biobase, locfit
+Suggests: RUnit, bsseqData
+License: Artistic-2.0
+MD5sum: bdbff8058544100d2a87b49673d1cf1a
+NeedsCompilation: no
+
+Package: BufferedMatrix
+Version: 1.26.0
+Depends: R (>= 2.6.0), methods
+License: LGPL (>= 2)
+MD5sum: 0c940a510f96f364413280e77d080298
+NeedsCompilation: yes
+
+Package: BufferedMatrixMethods
+Version: 1.26.0
+Depends: R (>= 2.6.0), BufferedMatrix (>= 1.3.0), methods
+LinkingTo: BufferedMatrix
+Suggests: affyio, affy
+License: GPL (>= 2)
+MD5sum: 7af6cd3667a779dd049db9926c90177c
+NeedsCompilation: yes
+
+Package: bumphunter
+Version: 1.2.0
+Depends: R (>= 2.10), IRanges, GenomicRanges, foreach, iterators,
+        methods, parallel, locfit
+Imports: matrixStats, limma, itertools, doRNG
+Suggests: RUnit, BiocGenerics, doParallel, org.Hs.eg.db,
+        TxDb.Hsapiens.UCSC.hg19.knownGene
+License: Artistic-2.0
+MD5sum: e4abf997b3a877753860a719b69cdd7e
+NeedsCompilation: no
+
+Package: BUS
+Version: 1.18.0
+Depends: R (>= 2.3.0), minet
+Imports: stats
+License: GPL-3
+MD5sum: bbbed27bfcd89ab5df3eccb53cadf824
+NeedsCompilation: yes
+
+Package: CAGEr
+Version: 1.4.1
+Depends: methods, R (>= 2.15.0), BSgenome, BSgenome.Mmusculus.UCSC.mm9
+Imports: Rsamtools, GenomicRanges, IRanges, data.table, beanplot,
+        rtracklayer, som, VGAM
+Suggests: BSgenome.Drerio.UCSC.danRer7, BSgenome.Hsapiens.UCSC.hg18,
+        FANTOM3and4CAGE
+Enhances: parallel
+License: GPL-3
+MD5sum: 6785df5778e0b633acbea8011f874807
+NeedsCompilation: no
+
+Package: CALIB
+Version: 1.28.0
+Depends: R (>= 2.10), limma, methods
+Imports: limma, methods, graphics, stats, utils
+License: LGPL
+MD5sum: 59f5921138731bd8510ac0b075c8aed9
+NeedsCompilation: yes
+
+Package: CAMERA
+Version: 1.18.0
+Depends: R (>= 2.1.0), methods, Biobase, xcms (>= 1.13.5), igraph
+Imports: methods, xcms, RBGL, graph, graphics, grDevices, stats, utils,
+        Hmisc, igraph
+Suggests: faahKO, RUnit, BiocGenerics
+Enhances: Rmpi, snow
+License: GPL (>= 2)
+MD5sum: f78029f0b0c4de88ec234bbc67b0acf3
+NeedsCompilation: yes
+
+Package: cancerclass
+Version: 1.6.0
+Depends: R (>= 2.14.0), Biobase, binom, methods, stats
+License: GPL-3
+MD5sum: d6c10065f6673b5c049cac5fae85f44a
+NeedsCompilation: yes
+
+Package: CancerMutationAnalysis
+Version: 1.6.0
+Depends: R (>= 2.10.0), qvalue
+Imports: AnnotationDbi, limma, methods, stats
+Suggests: KEGG.db
+License: GPL (>= 2) + file LICENSE
+MD5sum: 0937a66c58d7bb48a4165d2cd463e527
+NeedsCompilation: yes
+
+Package: casper
+Version: 1.4.0
+Depends: R (>= 2.14.1), Biobase, IRanges, methods, gtools,
+        GenomicRanges, Rsamtools, plyr, gaga
+Imports: VGAM, mgcv, GenomicFeatures, survival, sqldf
+Enhances: parallel
+License: GPL (>= 2)
+MD5sum: a820e172f60067cdc1aa9cc2fc81bff9
+NeedsCompilation: yes
+
+Package: Category
+Version: 2.28.0
+Depends: BiocGenerics, AnnotationDbi, Biobase, Matrix, GO.db, methods
+Imports: BiocGenerics, graph, methods, Biobase, AnnotationDbi, RBGL,
+        GSEABase (>= 1.19.3), genefilter, annotate (>= 1.15.6), stats,
+        utils
+Suggests: EBarrays, ALL, Rgraphviz, RColorBrewer, xtable (>= 1.4-6),
+        hgu95av2.db, KEGG.db, SNPchip, geneplotter, limma, lattice,
+        graph, Biobase, genefilter, methods, RUnit, org.Sc.sgd.db,
+        GOstats
+License: Artistic-2.0
+MD5sum: df3a4c6b3719932e0cbff905c4f3a8fc
+NeedsCompilation: no
+
+Package: categoryCompare
+Version: 1.6.0
+Depends: R (>= 2.10), Biobase, BiocGenerics
+Imports: AnnotationDbi, hwriter, GSEABase, Category, GOstats, annotate,
+        colorspace, graph, RCytoscape (>= 1.5.11)
+Suggests: methods, GO.db, KEGG.db, estrogen, org.Hs.eg.db, hgu95av2.db,
+        limma, affy, genefilter
+License: GPL-2
+MD5sum: aacd154c87262be23b26e79763e5491c
+NeedsCompilation: no
+
+Package: cellGrowth
+Version: 1.6.0
+Depends: R (>= 2.12.0), locfit (>= 1.5-4)
+Imports: lattice
+License: Artistic-2.0
+MD5sum: 30428c9e015c0dbe790c408e1fa348ee
+NeedsCompilation: no
+
+Package: cellHTS
+Version: 1.32.0
+Depends: R (>= 2.10), prada (>= 1.9.4), RColorBrewer, Biobase (>=
+        1.11.12), genefilter (>= 1.11.2)
+Suggests: Category, GO.db, vsn (>= 2.0.35)
+License: Artistic-2.0
+MD5sum: b1f6c895ed0c4d5012db68277ff61e18
+NeedsCompilation: no
+
+Package: cellHTS2
+Version: 2.26.0
+Depends: R (>= 2.10), RColorBrewer, Biobase, methods, genefilter,
+        splots, vsn, hwriter, locfit, grid
+Imports: prada, GSEABase, Category, stats4
+License: Artistic-2.0
+MD5sum: 7ad26c35ef99ad04d84ed12d81ac6088
+NeedsCompilation: no
+
+Package: CellNOptR
+Version: 1.8.0
+Depends: R (>= 2.15.0), RBGL, graph, methods, hash, ggplot2, RCurl,
+        Rgraphviz, XML
+Suggests: RUnit, BiocGenerics, igraph
+License: GPL-3
+MD5sum: 508490b35cc5323edd10f582b69d52f8
+NeedsCompilation: yes
+
+Package: CexoR
+Version: 1.0.0
+Depends: R (>= 2.10.0), IRanges
+Imports: Rsamtools, GenomicRanges, rtracklayer, idr
+Suggests: RUnit, BiocGenerics
+License: Artistic-2.0 | GPL-2 + file LICENSE
+MD5sum: 0098eb5b8172778d48a20186cd136903
+NeedsCompilation: no
+
+Package: CGEN
+Version: 2.4.0
+Depends: R (>= 2.10.1), survival
+Suggests: cluster
+License: GPL-2 + file LICENSE
+MD5sum: e79aa5dbb3d6aa9a11cceba56cb595a3
+NeedsCompilation: yes
+
+Package: CGHbase
+Version: 1.22.0
+Depends: R (>= 2.10), methods, Biobase (>= 2.5.5), marray
+License: GPL
+MD5sum: db7faf4abdc629090f7bb2e35cb8d080
+NeedsCompilation: no
+
+Package: CGHcall
+Version: 2.22.0
+Depends: R (>= 2.0.0), impute(>= 1.8.0), DNAcopy (>= 1.6.0), methods,
+        Biobase, CGHbase (>= 1.15.1), snowfall
+License: GPL
+MD5sum: 6c9412fc740312bf360d7975bd5d9be8
+NeedsCompilation: no
+
+Package: cghMCR
+Version: 1.20.0
+Depends: methods, DNAcopy, CNTools, limma
+Imports: BiocGenerics (>= 0.1.6), stats4
+License: LGPL
+MD5sum: bec51b25c5cc27a3dfca639437ed242e
+NeedsCompilation: no
+
+Package: CGHnormaliter
+Version: 1.16.0
+Depends: CGHcall (>= 2.17.0), CGHbase (>= 1.15.0)
+Imports: Biobase, CGHbase, CGHcall, methods, stats, utils
+License: GPL (>= 3)
+MD5sum: c9fe41c5d791c757b74fd378b7c28d88
+NeedsCompilation: no
+
+Package: CGHregions
+Version: 1.20.0
+Depends: R (>= 2.0.0), methods, Biobase, CGHbase
+License: GPL
+MD5sum: 2a723b2977234d5aadc747e087d2dbb4
+NeedsCompilation: no
+
+Package: ChAMP
+Version: 1.0.6
+Depends: R (>= 3.0.1), minfi, ChAMPdata, Illumina450ProbeVariants.db
+Imports: sva, IlluminaHumanMethylation450kmanifest, limma, RPMM,
+        DNAcopy, preprocessCore, impute, marray, wateRmelon
+License: GPL-3
+MD5sum: ac246077860fb65a6736ea312bacb8f3
+NeedsCompilation: no
+
+Package: charm
+Version: 2.8.0
+Depends: R (>= 2.14.0), Biobase, SQN, fields, RColorBrewer, genefilter
+Imports: BSgenome, Biobase, oligo (>= 1.11.31), oligoClasses(>=
+        1.17.39), ff, preprocessCore, methods, stats, Biostrings,
+        IRanges, siggenes, nor1mix, gtools, grDevices, graphics, utils,
+        limma, parallel, sva(>= 3.1.2)
+Suggests: charmData, BSgenome.Hsapiens.UCSC.hg18, corpcor
+License: LGPL (>= 2)
+MD5sum: 78752f10cf3f961418345d1a2140c566
+NeedsCompilation: no
+
+Package: ChemmineOB
+Version: 1.0.1
+Depends: R (>= 2.15.1)
+Imports: BiocGenerics, zlibbioc
+Suggests: ChemmineR, BiocStyle
+Enhances: ChemmineR (>= 2.13.0)
+License: file LICENSE
+MD5sum: ae4e10765734a1e55dae63f39de74662
+NeedsCompilation: yes
+
+Package: ChemmineR
+Version: 2.14.2
+Depends: R (>= 2.10.0), methods
+Imports: graphics, methods, stats, RCurl, DBI, digest, BiocGenerics
+Suggests: RSQLite, scatterplot3d, gplots, fmcsR,snow, RPostgreSQL,
+        BiocStyle
+Enhances: ChemmineOB
+License: Artistic-2.0
+MD5sum: 16050e3fbbb0587c6ec133e38722664e
+NeedsCompilation: yes
+
+Package: chimera
+Version: 1.4.0
+Depends: Biobase, GenomicRanges (>= 1.13.3), Rsamtools (>= 1.13.1),
+        methods, org.Hs.eg.db, org.Mm.eg.db, AnnotationDbi,
+        BSgenome.Hsapiens.UCSC.hg19, TxDb.Hsapiens.UCSC.hg19.knownGene
+Suggests: BSgenome.Mmusculus.UCSC.mm9,
+        TxDb.Mmusculus.UCSC.mm9.knownGene, BiocParallel
+Enhances: Rsubread
+License: Artistic-2.0
+MD5sum: c576c731c019a5e008564955eb808aca
+NeedsCompilation: no
+
+Package: chipenrich
+Version: 1.0.0
+Depends: R (>= 2.15.1)
+Imports: chipenrich.data, methods, GenomicRanges (>= 1.10.0), IRanges
+        (>= 1.16.0), mgcv, plyr (>= 1.7.0), lattice, latticeExtra,
+        grid, stringr (>= 0.6), reshape
+License: GPL-3
+MD5sum: 8ca365ed263023cdb929d33c42f3254b
+NeedsCompilation: no
+
+Package: ChIPpeakAnno
+Version: 2.10.0
+Depends: R (>= 2.10), grid,VennDiagram, BiocGenerics (>= 0.1.0),
+        biomaRt, multtest, IRanges, Biostrings, BSgenome,
+        BSgenome.Ecoli.NCBI.20080805, GO.db, org.Hs.eg.db, limma,
+        GenomicFeatures
+Imports: gplots, BiocGenerics, biomaRt, multtest, IRanges, Biostrings,
+        BSgenome, GO.db, limma, AnnotationDbi, GenomicFeatures
+Suggests: reactome.db, RUnit, BiocGenerics
+License: GPL (>= 2)
+MD5sum: 8baba85d080b26b380d5d4bc0f3c0871
+NeedsCompilation: no
+
+Package: chipseq
+Version: 1.12.0
+Depends: R (>= 2.10), methods, BiocGenerics (>= 0.1.0), IRanges (>=
+        1.13.4), GenomicRanges (>= 1.7.7), BSgenome, ShortRead
+Imports: methods, BiocGenerics, IRanges, BSgenome, GenomicRanges,
+        lattice, ShortRead, stats
+Suggests: GenomicFeatures, BSgenome.Mmusculus.UCSC.mm9,
+        TxDb.Mmusculus.UCSC.mm9.knownGene
+License: Artistic-2.0
+MD5sum: 555fa98560c3611b84a4559c5107e0d7
+NeedsCompilation: yes
+
+Package: ChIPseqR
+Version: 1.16.0
+Depends: R (>= 2.10.0), methods, BiocGenerics, ShortRead
+Imports: Biostrings, fBasics, GenomicRanges, graphics, grDevices,
+        HilbertVis, IRanges, methods, ShortRead, stats, timsac, utils
+License: GPL (>= 2)
+MD5sum: fdabf6c63c70aae4ed062dbe85557a05
+NeedsCompilation: yes
+
+Package: ChIPsim
+Version: 1.16.0
+Depends: Biostrings (>= 2.29.2)
+Imports: IRanges, XVector, Biostrings, ShortRead, graphics, methods,
+        stats, utils
+Suggests: actuar, zoo
+License: GPL (>= 2)
+MD5sum: 6abb58243c097c0a9108f50fff0271d1
+NeedsCompilation: no
+
+Package: ChIPXpress
+Version: 1.4.0
+Depends: R (>= 2.10), ChIPXpressData
+Imports: Biobase, GEOquery, frma, affy, bigmemory, biganalytics
+Suggests: mouse4302frmavecs, mouse4302.db, mouse4302cdf, RUnit,
+        BiocGenerics
+License: GPL (>= 2)
+MD5sum: 973fa5a2a670f8d890b09f235080eb81
+NeedsCompilation: no
+
+Package: chopsticks
+Version: 1.26.1
+Depends: R(>= 2.10.0), survival, methods
+Suggests: hexbin
+License: GPL-3
+MD5sum: ff674f03ccb9cee326d5a01200f48955
+NeedsCompilation: yes
+
+Package: chroGPS
+Version: 1.6.0
+Depends: R (>= 2.13.0), IRanges, methods, Biobase, MASS, graphics,
+        stats, rgl, changepoint
+Imports: graphics, cluster, DPpackage, ICSNP
+Enhances: parallel, XML
+License: GPL (>= 2)
+MD5sum: 07c706aa23e81f03406148fac8f13624
+NeedsCompilation: no
+
+Package: ChromHeatMap
+Version: 1.16.0
+Depends: R (>= 2.9.0), BiocGenerics (>= 0.3.2), annotate (>= 1.20.0),
+        AnnotationDbi (>= 1.4.0), hgu95av2.db
+Imports: BiocGenerics, annotate, AnnotationDbi, Biobase (>= 2.17.8),
+        graphics, grDevices, methods, stats, IRanges, rtracklayer
+Suggests: ALL
+License: Artistic-2.0
+MD5sum: 5de46936661b80a0cc9a0966ea9a8e57
+NeedsCompilation: no
+
+Package: cisPath
+Version: 1.2.6
+Depends: R (>= 2.10.0), methods
+Imports: methods, utils
+License: GPL (>= 3)
+MD5sum: 377f7d14b7dfd0cefeed49e42e8c7d1e
+NeedsCompilation: yes
+
+Package: cleanUpdTSeq
+Version: 1.0.2
+Depends: R (>= 2.15), BiocGenerics (>= 0.1.0), BSgenome,
+        BSgenome.Drerio.UCSC.danRer7, GenomicRanges, seqinr, e1071
+License: GPL-2
+MD5sum: 96f649174affe0e727fb3af39a83396a
+NeedsCompilation: no
+
+Package: cleaver
+Version: 1.0.0
+Depends: R (>= 3.0.0), methods, Biostrings (>= 1.29.8)
+Imports: IRanges
+Suggests: testthat, knitr, BiocStyle (>= 0.0.14), BRAIN, UniProt.ws (>=
+        2.1.4)
+License: GPL (>= 3)
+MD5sum: 41fb4100ac18d39ad0db45c457386606
+NeedsCompilation: no
+
+Package: clippda
+Version: 1.12.0
+Depends: R (>= 2.13.1),limma, statmod, rgl, lattice, scatterplot3d,
+        graphics, grDevices, stats, utils, Biobase, tools, methods
+License: GPL (>= 2)
+MD5sum: 2bc9528bb89635450cbf894306cfe32b
+NeedsCompilation: no
+
+Package: clipper
+Version: 1.2.1
+Depends: R (>= 2.15.0), Matrix, graph
+Imports: methods, Biobase, igraph, gRbase (>= 1.6.6), qpgraph,
+        KEGGgraph, corpcor, RBGL
+Suggests: RUnit, BiocGenerics, RCytoscape (>= 1.6.3), graphite, ALL,
+        hgu95av2.db
+License: AGPL-3
+MD5sum: aad172328ae4d343c3fad26eabe796e4
+NeedsCompilation: no
+
+Package: Clonality
+Version: 1.10.0
+Depends: R (>= 2.12.2), DNAcopy
+Imports: DNAcopy, grDevices, graphics, stats, utils
+Suggests: gdata, DNAcopy
+License: GPL-3
+MD5sum: 10fd4119981a0a529421efdbc07bd7cf
+NeedsCompilation: no
+
+Package: clonotypeR
+Version: 1.0.0
+Depends: methods
+Suggests: BiocGenerics, edgeR, knitr, pvclust, RUnit, vegan
+License: file LICENSE
+MD5sum: 7dcd2b06b6c92bdc4a3be931478af9b9
+NeedsCompilation: no
+
+Package: clst
+Version: 1.10.0
+Depends: R (>= 2.10)
+Imports: ROC, lattice
+Suggests: RUnit
+License: GPL-3
+MD5sum: a1b78450091da6671c8c5f7db641c9db
+NeedsCompilation: no
+
+Package: clstutils
+Version: 1.10.0
+Depends: R (>= 2.10), clst, rjson, ape
+Imports: lattice, RSQLite
+Suggests: RUnit, RSVGTipsDevice
+License: GPL-3
+MD5sum: d0a2ba1f8aa5bb774b6523deb2d0369c
+NeedsCompilation: no
+
+Package: clusterProfiler
+Version: 1.10.1
+Depends: R (>= 2.10), ggplot2
+Imports: methods, stats4, DBI, plyr, AnnotationDbi, GO.db, KEGG.db,
+        org.Hs.eg.db, DOSE, GOSemSim
+Suggests: ReactomePA, pathview, knitr
+License: Artistic-2.0
+MD5sum: 76ef4a98e839764218f08612d80e593d
+NeedsCompilation: no
+
+Package: clusterStab
+Version: 1.34.0
+Depends: Biobase (>= 1.4.22), R (>= 1.9.0), methods
+Suggests: fibroEset, genefilter
+License: Artistic-2.0
+MD5sum: 4dda7be197c0e3dc1a78fae13c4368e2
+NeedsCompilation: no
+
+Package: CMA
+Version: 1.20.0
+Depends: R (>= 2.10), methods, stats, Biobase
+Suggests: MASS, class, nnet, glmnet, e1071, randomForest, plsgenomics,
+        gbm, mgcv, corpcor, limma, st, mvtnorm
+License: GPL (>= 2)
+MD5sum: 65c2c6c6ecb3a08a2e0b14c57deb0f8c
+NeedsCompilation: no
+
+Package: cn.farms
+Version: 1.10.0
+Depends: R (>= 2.11), Biobase, methods, ff, oligoClasses, snow
+Imports: BiocGenerics, DBI, affxparser, oligo, DNAcopy, preprocessCore,
+        lattice
+Suggests: pd.mapping250k.sty, pd.mapping250k.nsp, pd.genomewidesnp.5,
+        pd.genomewidesnp.6
+License: LGPL (>= 2.0)
+MD5sum: ad4fb8599aaaf00316603e746468ba26
+NeedsCompilation: yes
+
+Package: cn.mops
+Version: 1.8.3
+Depends: R (>= 2.12), BiocGenerics, Biobase, IRanges, GenomicRanges
+Imports: methods, graphics, BiocGenerics, IRanges, Rsamtools,
+Suggests: snow, DNAcopy
+License: LGPL (>= 2.0)
+MD5sum: 8d5a71770b8ccfcf5eacbff1f8c5ee31
+NeedsCompilation: yes
+
+Package: CNAnorm
+Version: 1.8.0
+Depends: R (>= 2.10.1), DNAcopy, methods
+Imports: methods
+License: GPL-2
+MD5sum: c91fcf88465bc816ca858da04482d340
+NeedsCompilation: yes
+
+Package: CNORdt
+Version: 1.4.0
+Depends: R (>= 1.8.0), CellNOptR (>= 0.99), abind
+License: GPL-2
+MD5sum: 0929f5a9eb68e0327d2fe021240ee1ce
+NeedsCompilation: yes
+
+Package: CNORfeeder
+Version: 1.2.0
+Depends: R (>= 2.15.0), CellNOptR (>= 1.4.0), graph
+Suggests: minet, catnet, igraph, Rgraphviz, RUnit, BiocGenerics
+License: GPL-3
+MD5sum: 89761a6c5207dff4957737798bc2080a
+NeedsCompilation: no
+
+Package: CNORfuzzy
+Version: 1.4.0
+Depends: R (>= 2.15.0), CellNOptR (>= 1.4.0), nloptr (>= 0.8.5)
+Suggests: xtable, Rgraphviz, RUnit, BiocGenerics
+License: GPL-2
+MD5sum: 77ab1a715b47182e554eb1a2159fd6d3
+NeedsCompilation: yes
+
+Package: CNORode
+Version: 1.4.0
+Depends: CellNOptR (>= 1.5.14), genalg
+Enhances: MEIGOR
+License: GPL-3
+MD5sum: d884581d611336598540af01b30706a9
+NeedsCompilation: yes
+
+Package: CNTools
+Version: 1.18.0
+Depends: R (>= 2.10), methods, tools, stats, genefilter
+License: LGPL
+MD5sum: d15fef70967aae074993bde5a3de4383
+NeedsCompilation: yes
+
+Package: cnvGSA
+Version: 1.6.0
+Depends: methods, brglm
+Suggests: cnvGSAdata, org.Hs.eg.db
+License: LGPL
+MD5sum: 83834613634d54328f445a8e193559cd
+NeedsCompilation: no
+
+Package: CNVrd2
+Version: 1.0.0
+Depends: R (>= 3.0.0), DNAcopy, methods, Rsamtools, VariantAnnotation,
+        parallel, rjags, ggplot2
+Imports: IRanges
+Suggests: knitr
+License: GPL-2
+MD5sum: 0e0c296a4b414c5783a9bd0103c2c84e
+NeedsCompilation: no
+
+Package: CNVtools
+Version: 1.56.0
+Depends: R (>= 2.10), survival
+License: GPL-3
+MD5sum: 732a431e8bd9419bc694f6e4d41c533c
+NeedsCompilation: yes
+
+Package: cobindR
+Version: 1.0.0
+Imports: yaml, seqinr, Biostrings, biomaRt, BSgenome, methods, gmp,
+        mclust, rtfbs, gplots, IRanges
+Suggests: RUnit, BiocGenerics
+Enhances: rGADEM, seqLogo, genoPlotR, parallel, VennDiagram,
+        RColorBrewer, vcd, MotifDb, snowfall
+License: Artistic-2.0
+MD5sum: 68088fb9c5a284e612d419d19d3ffb14
+NeedsCompilation: no
+
+Package: CoCiteStats
+Version: 1.34.0
+Depends: R (>= 2.0), org.Hs.eg.db
+Imports: AnnotationDbi
+License: CPL
+MD5sum: 212c38cd6c1a5c14b3dbc5168fe3f5b8
+NeedsCompilation: no
+
+Package: codelink
+Version: 1.30.9
+Depends: R (>= 2.10), BiocGenerics (>= 0.3.2), methods, Biobase (>=
+        2.17.8), limma
+Imports: annotate
+Suggests: genefilter, parallel, knitr
+License: GPL-2
+MD5sum: ac65661aeba7acb21783b93ef6ed76c6
+NeedsCompilation: no
+
+Package: CoGAPS
+Version: 1.12.0
+Depends: R (>= 2.9.0), R.utils (>= 1.2.4), gplots (>= 2.8.0)
+Imports: graphics, grDevices, methods, stats, utils
+License: GPL (== 2)
+MD5sum: 82a33a2cb5d4d9f28e9639152e3eeca4
+NeedsCompilation: yes
+
+Package: coGPS
+Version: 1.6.0
+Depends: R (>= 2.13.0)
+Imports: graphics, grDevices
+Suggests: limma
+License: GPL-2
+MD5sum: 3dec24a021dfb440a6f299b486afcfaf
+NeedsCompilation: no
+
+Package: ConsensusClusterPlus
+Version: 1.16.0
+Imports: Biobase, ALL, graphics, stats, utils, cluster
+License: GPL-2
+MD5sum: b955760b0f298eefe5f509acd147b019
+NeedsCompilation: no
+
+Package: convert
+Version: 1.38.0
+Depends: R (>= 2.6.0), Biobase (>= 1.15.33), limma (>= 1.7.0), marray,
+        utils, methods
+License: LGPL
+MD5sum: 3e067e1a4ebca369debbb6a7c89f6992
+NeedsCompilation: no
+
+Package: copa
+Version: 1.30.0
+Depends: Biobase, methods
+Suggests: colonCA
+License: Artistic-2.0
+MD5sum: 226d17130300b8a1cbc10c175811726e
+NeedsCompilation: yes
+
+Package: copynumber
+Version: 1.2.0
+Depends: R (>= 2.10), BiocGenerics
+Imports: GenomicRanges, IRanges
+License: Artistic-2.0
+MD5sum: 541acc4f0268cb375965e66a4275c5c8
+NeedsCompilation: no
+
+Package: Cormotif
+Version: 1.8.0
+Depends: R (>= 2.12.0), affy, limma
+Imports: affy, graphics, grDevices
+License: GPL-2
+MD5sum: fdbb0e9717f1b3c7de86e1eedeee7384
+NeedsCompilation: no
+
+Package: CorMut
+Version: 1.4.0
+Depends: methods, Biostrings, seqinr,igraph
+License: GPL-2
+MD5sum: 43d154ef278df5a7d4d6448ba20b8955
+NeedsCompilation: no
+
+Package: coRNAi
+Version: 1.12.0
+Depends: R (>= 2.10), cellHTS2, limma, locfit
+Imports: MASS, gplots, lattice, grDevices, graphics, stats
+License: Artistic-2.0
+MD5sum: 32a41ddc00523ecd212bed4f271df7b1
+NeedsCompilation: no
+
+Package: CORREP
+Version: 1.28.0
+Imports: e1071, stats
+Suggests: cluster, MASS
+License: GPL (>= 2)
+MD5sum: e27f214cf08dadbd76da7f5eeb65837b
+NeedsCompilation: no
+
+Package: cqn
+Version: 1.8.0
+Depends: R (>= 2.10.0), mclust, nor1mix, stats, preprocessCore,
+        splines, quantreg
+Imports: splines
+Suggests: scales, edgeR
+License: Artistic-2.0
+MD5sum: 100f87bd3f7ec4280ea0d6f22a5b90c3
+NeedsCompilation: no
+
+Package: CRImage
+Version: 1.10.0
+Depends: EBImage, DNAcopy, aCGH
+Imports: MASS, e1071, foreach, sgeostat
+License: Artistic-2.0
+MD5sum: 3d591dc4784979d768b73c1f32df2c84
+NeedsCompilation: no
+
+Package: crlmm
+Version: 1.20.1
+Depends: R (>= 2.14.0), oligoClasses (>= 1.21.12), preprocessCore (>=
+        1.17.7)
+Imports: methods, Biobase (>= 2.15.4), BiocGenerics, affyio (>=
+        1.23.2), illuminaio, ellipse, mvtnorm, splines, stats, SNPchip,
+        utils, lattice, ff, foreach, RcppEigen (>= 0.3.1.2.1),
+        matrixStats, VGAM
+LinkingTo: preprocessCore (>= 1.17.7)
+Suggests: hapmapsnp6, genomewidesnp6Crlmm (>= 1.0.7), GGdata, snpStats,
+        ellipse, RUnit, VGAM
+License: Artistic-2.0
+MD5sum: e84ea680798cdd70d7282084b2bd43d3
+NeedsCompilation: yes
+
+Package: CSAR
+Version: 1.14.0
+Depends: R (>= 2.15.0), IRanges, GenomicRanges
+Imports: stats, utils
+Suggests: ShortRead, Biostrings
+License: Artistic-2.0
+MD5sum: d912c1005a8deffb75900fcbde8962b7
+NeedsCompilation: yes
+
+Package: CSSP
+Version: 1.0.0
+Imports: methods, splines, stats, utils
+Suggests: testthat
+License: GPL-2
+MD5sum: f3619fe57ff4fc0a1a95d8caadc3fd36
+NeedsCompilation: yes
+
+Package: ctc
+Version: 1.36.0
+Depends: amap
+License: GPL-2
+MD5sum: b73c504189fb04abe916b2365a2c1873
+NeedsCompilation: no
+
+Package: cummeRbund
+Version: 2.4.1
+Depends: R (>= 2.7.0), BiocGenerics (>= 0.3.2), RSQLite, ggplot2,
+        reshape2, fastcluster, rtracklayer, Gviz
+Imports: methods, plyr, BiocGenerics
+Suggests: cluster, plyr
+License: Artistic-2.0
+MD5sum: ac4f657b10d5717f67e7c852df9862f9
+NeedsCompilation: no
+
+Package: customProDB
+Version: 1.2.0
+Depends: R (>= 3.0.1), IRanges, AnnotationDbi, biomaRt
+Imports: Rsamtools (>= 1.10.2), Biostrings (>= 2.26.3), IRanges,
+        GenomicRanges (>= 1.13.18), GenomicFeatures (>= 1.13.15),
+        biomaRt (>= 2.17.1), stringr, RCurl, plyr, VariantAnnotation
+        (>= 1.7.28), rtracklayer, RSQLite, AnnotationDbi
+Suggests: BSgenome.Hsapiens.UCSC.hg19
+License: Artistic-2.0
+MD5sum: 918bbc81c3d2381d2dfc72fd510b095f
+NeedsCompilation: no
+
+Package: cycle
+Version: 1.16.0
+Depends: R (>= 2.10.0), Mfuzz
+Imports: Biobase, stats
+License: GPL-2
+MD5sum: 3dd200cb79f6b1c909ed92aaf219bc77
+NeedsCompilation: no
+
+Package: dagLogo
+Version: 1.0.0
+Depends: R (>= 3.0.1), methods, biomaRt, grImport, grid, motifStack
+Imports: XML, UniProt.ws, pheatmap, Biostrings
+Suggests: RUnit, BiocGenerics, BiocStyle
+License: GPL (>= 2)
+MD5sum: 9d6a1904551b9c2527282c5b2a8d66aa
+NeedsCompilation: no
+
+Package: daMA
+Version: 1.34.0
+Imports: MASS, stats
+License: GPL (>= 2)
+MD5sum: e71aa26e78127b93137eb04937267ae3
+NeedsCompilation: no
+
+Package: DART
+Version: 1.8.0
+Depends: R (>= 2.10.0), igraph (>= 0.6.0)
+Suggests: breastCancerVDX, breastCancerMAINZ, Biobase
+License: GPL-2
+MD5sum: ac86758fc4506466abb18ecd1969ef71
+NeedsCompilation: no
+
+Package: DASiR
+Version: 1.2.0
+Depends: IRanges, GenomicRanges, XML, Biostrings
+License: LGPL (>= 3)
+MD5sum: 5b37f574424d8358279bb87fd74dd063
+NeedsCompilation: no
+
+Package: DAVIDQuery
+Version: 1.22.0
+Depends: RCurl (>= 1.4.0), utils
+License: GPL-2
+MD5sum: 937915bdc9a6cad5c7118f4e9ba3bdcd
+NeedsCompilation: no
+
+Package: DBChIP
+Version: 1.6.0
+Depends: R (>= 2.15.0), edgeR, DESeq
+Suggests: ShortRead, BiocGenerics
+License: GPL (>= 2)
+MD5sum: 77be3349469e0898b4a5deaf28eb0b39
+NeedsCompilation: no
+
+Package: ddCt
+Version: 1.16.0
+Depends: R (>= 2.3.0), Biobase (>= 1.10.0), RColorBrewer (>= 0.1-3),
+        xtable, lattice, methods
+Suggests: RUnit
+License: LGPL-3
+MD5sum: b9231666f419936b8e2ffde07b5c0baf
+NeedsCompilation: no
+
+Package: ddgraph
+Version: 1.6.0
+Depends: graph, methods, Rcpp
+Imports: bnlearn (>= 2.8), gtools, pcalg, RColorBrewer, plotrix, MASS
+LinkingTo: Rcpp
+Suggests: testthat, Rgraphviz, e1071, ROCR, testthat
+License: GPL-3
+MD5sum: 95f2464d716d3242ae3f5d52b87deb84
+NeedsCompilation: yes
+
+Package: DECIPHER
+Version: 1.8.0
+Depends: R (>= 2.13.0), Biostrings (>= 2.29), RSQLite (>= 0.9),
+        IRanges, stats, XVector, parallel
+Imports: Biostrings, parallel, RSQLite, IRanges, stats, XVector
+LinkingTo: Biostrings, parallel, RSQLite, IRanges, stats, XVector
+License: GPL-3
+MD5sum: 604b267ba1e6bf824494c835c5a5dee0
+NeedsCompilation: yes
+
+Package: DeconRNASeq
+Version: 1.4.0
+Depends: R (>= 2.14.0), limSolve, pcaMethods, ggplot2, grid
+License: GPL-2
+MD5sum: 74f14d47e23ef44071cc1be1a6756537
+NeedsCompilation: no
+
+Package: DEDS
+Version: 1.36.0
+Depends: R (>= 1.7.0)
+License: LGPL
+MD5sum: 2baf682100dc2483ff1cecd8deaed780
+NeedsCompilation: yes
+
+Package: deepSNV
+Version: 1.8.0
+Depends: R (>= 2.13.0), Rsamtools (>= 1.4.3), GenomicRanges, IRanges,
+        Biostrings, VGAM, methods, graphics, VariantAnnotation (>=
+        1.5.0), parallel
+Imports: Rsamtools
+LinkingTo: Rsamtools
+Suggests: RColorBrewer, knitr
+License: GPL-3
+MD5sum: f515c296225a228321b37d1ec7b507e4
+NeedsCompilation: yes
+
+Package: DEGraph
+Version: 1.14.0
+Depends: R (>= 2.10.0), R.utils
+Imports: graph, KEGGgraph, lattice, mvtnorm, R.methodsS3, RBGL,
+        Rgraphviz, rrcov, NCIgraph
+Suggests: corpcor, fields, graph, KEGGgraph, lattice, marray, RBGL,
+        rrcov, Rgraphviz, NCIgraph
+License: GPL-3
+MD5sum: 356d3c6ae6219d2193aeafadab011e8f
+NeedsCompilation: no
+
+Package: DEGseq
+Version: 1.16.0
+Depends: R (>= 2.8.0), qvalue, samr, methods
+Imports: graphics, grDevices, methods, stats, utils
+License: LGPL (>= 2)
+MD5sum: 4f5e34e31b1a95725dcff4a3a4c24021
+NeedsCompilation: yes
+
+Package: deltaGseg
+Version: 1.2.0
+Depends: R (>= 2.15.1), methods, ggplot2, changepoint, wavethresh,
+        tseries, pvclust, fBasics, grid, reshape, scales
+Suggests: knitr
+License: GPL-2
+MD5sum: 325b22060d3931ff054480119db6df86
+NeedsCompilation: no
+
+Package: DESeq
+Version: 1.14.0
+Depends: BiocGenerics (>= 0.7.5), Biobase (>= 2.21.7), locfit, lattice
+Imports: genefilter, geneplotter, methods, MASS, RColorBrewer
+Suggests: pasilla (>= 0.2.10), vsn, gplots
+License: GPL (>= 3)
+MD5sum: 6df447df70a5c2e1fac6c98540f6b249
+NeedsCompilation: yes
+
+Package: DESeq2
+Version: 1.2.8
+Depends: GenomicRanges, IRanges, Rcpp (>= 0.10.1), RcppArmadillo (>=
+        0.3.4.4)
+Imports: BiocGenerics (>= 0.7.5), methods, locfit, genefilter,
+        RColorBrewer, lattice
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: RUnit, Biobase, parathyroidSE, pasilla (>= 0.2.10), vsn,
+        gplots, BiocStyle
+License: GPL (>= 3)
+MD5sum: a76c0d8132ae91ab274f38619dcd3bac
+NeedsCompilation: yes
+
+Package: DEXSeq
+Version: 1.8.0
+Depends: Biobase (>= 2.13.11)
+Imports: BiocGenerics (>= 0.7.5), biomaRt, hwriter, methods, stringr,
+        GenomicRanges, Rsamtools, statmod (>= 1.4.15)
+Suggests: GenomicFeatures (>= 1.13.29), pasilla (>= 0.2.13),
+        parathyroidSE, BiocStyle
+Enhances: parallel
+License: GPL (>= 3)
+MD5sum: 5fea2268be4c83f033f8504722c11215
+NeedsCompilation: no
+
+Package: dexus
+Version: 1.2.1
+Depends: R (>= 2.15), methods, BiocGenerics
+Suggests: parallel, statmod, stats, DESeq, RColorBrewer
+License: LGPL (>= 2.0)
+MD5sum: 471f6bf65412765fb0ff938a75fdd653
+NeedsCompilation: yes
+
+Package: DFP
+Version: 1.20.0
+Depends: methods, Biobase (>= 2.5.5)
+License: GPL-2
+MD5sum: 3e7549f13fc95367ad2d317230ec2c78
+NeedsCompilation: no
+
+Package: DiffBind
+Version: 1.8.3
+Depends: R (>= 2.15.0), GenomicRanges
+Imports: RColorBrewer, amap, edgeR (>= 2.3.58), gplots, grDevices,
+        stats, utils, IRanges, zlibbioc
+LinkingTo: Rsamtools
+Suggests: DESeq, Rsamtools, DESeq2
+Enhances: rgl, parallel
+License: Artistic-2.0
+MD5sum: 60b9bc282d60e67d26eb500c0963aa2b
+NeedsCompilation: yes
+
+Package: diffGeneAnalysis
+Version: 1.44.0
+Imports: graphics, grDevices, minpack.lm (>= 1.0-4), stats, utils
+License: GPL
+MD5sum: a9af143109092c78a1cf8da3fcc72e1e
+NeedsCompilation: no
+
+Package: DirichletMultinomial
+Version: 1.4.0
+Depends: IRanges
+Imports: stats4, methods
+Suggests: lattice, parallel, MASS, RColorBrewer, xtable
+License: LGPL-3
+MD5sum: 28ea6486b1b621084994a935741990aa
+NeedsCompilation: yes
+
+Package: dks
+Version: 1.8.0
+Depends: R (>= 2.8)
+Imports: cubature
+License: GPL
+MD5sum: 52273ac0c0dc53524fd846db7ac70ad0
+NeedsCompilation: no
+
+Package: DNAcopy
+Version: 1.36.0
+License: GPL (>= 2)
+MD5sum: e40f7a3ad4261751d623911c968ed6ee
+NeedsCompilation: yes
+
+Package: DNaseR
+Version: 1.0.0
+Depends: R (>= 2.10.0), IRanges
+Imports: Rsamtools, GenomicRanges
+Suggests: RUnit, BiocGenerics
+License: GPL-2 + file LICENSE
+MD5sum: 22981622f2af599cfbd19fea0c3adc5a
+NeedsCompilation: no
+
+Package: domainsignatures
+Version: 1.22.0
+Depends: R (>= 2.4.0), KEGG.db, prada, biomaRt, methods
+Imports: AnnotationDbi
+License: Artistic-2.0
+MD5sum: a2434ada8ec8069fbcfa39ea4310b8c8
+NeedsCompilation: no
+
+Package: DOSE
+Version: 2.0.0
+Depends: R (>= 2.10), ggplot2
+Imports: methods, plyr, qvalue, stats4, AnnotationDbi, DO.db,
+        org.Hs.eg.db, igraph, scales, reshape2, graphics, GOSemSim,
+        grid
+Suggests: clusterProfiler, ReactomePA, knitr
+License: Artistic-2.0
+MD5sum: c66fc205ff4da92f75243868a5b4930f
+NeedsCompilation: no
+
+Package: DriverNet
+Version: 1.2.0
+Depends: R (>= 2.10), methods
+License: GPL-3
+MD5sum: 67b04d4dd947787b814996baa8fa4b29
+NeedsCompilation: no
+
+Package: DrugVsDisease
+Version: 2.2.0
+Depends: R (>= 2.10), affy, limma, biomaRt, ArrayExpress, GEOquery,
+        DrugVsDiseasedata, cMap2data, qvalue
+Imports: annotate, hgu133a.db, hgu133a2.db, hgu133plus2.db, RUnit,
+        BiocGenerics, xtable
+License: GPL-3
+MD5sum: eca330d914e8482a0ca0329c102b5136
+NeedsCompilation: no
+
+Package: DSS
+Version: 1.8.0
+Depends: Biobase, locfdr
+Imports: methods,bsseq,edgeR
+License: GPL
+MD5sum: 9e9821fb4b7d1fa61a1e7fc3886761b0
+NeedsCompilation: no
+
+Package: DTA
+Version: 2.8.0
+Depends: R (>= 2.10), LSD
+Imports: scatterplot3d
+License: Artistic-2.0
+MD5sum: 9392571037a68225272321ef154b6270
+NeedsCompilation: no
+
+Package: dyebias
+Version: 1.20.0
+Depends: R (>= 1.4.1), marray, Biobase
+Suggests: limma, convert, GEOquery, dyebiasexamples, methods
+License: GPL-3
+MD5sum: 732d40a4a4b9d2b51c738c3264ef9b5b
+NeedsCompilation: no
+
+Package: DynDoc
+Version: 1.40.0
+Depends: methods, utils
+Imports: methods
+License: Artistic-2.0
+MD5sum: 2a474f56576857f4cac8d85b8c3c2abd
+NeedsCompilation: no
+
+Package: EasyqpcR
+Version: 1.5.0
+Imports: plyr, matrixStats, plotrix, gWidgetsRGtk2
+Suggests: SLqPCR, qpcrNorm, qpcR, knitr
+License: GPL (>= 2)
+MD5sum: f5825b692007129dd4a8001bc23589fd
+NeedsCompilation: no
+
+Package: easyRNASeq
+Version: 1.8.3
+Depends: genomeIntervals (>= 1.18.0), Biobase (>= 2.22.0), biomaRt (>=
+        2.18.0), edgeR (>= 3.4.0), Biostrings (>= 2.30.0), DESeq (>=
+        1.14.0), GenomicRanges (>= 1.14.3), IRanges (>= 1.20.5),
+        Rsamtools (>= 1.14.1), ShortRead (>= 1.20.0)
+Imports: graphics, methods, parallel, utils, BiocGenerics (>= 0.8.0),
+        LSD (>= 2.5)
+Suggests: BSgenome (>= 1.30.0), BSgenome.Dmelanogaster.UCSC.dm3 (>=
+        1.3.19), GenomicFeatures (>= 1.14.0), RnaSeqTutorial (>=
+        0.0.13)
+License: Artistic-2.0
+MD5sum: e1d1242a5d9d63682a967da3b4d002d4
+NeedsCompilation: no
+
+Package: EBarrays
+Version: 2.26.0
+Depends: R (>= 1.8.0), Biobase, lattice, methods
+Imports: Biobase, cluster, graphics, grDevices, lattice, methods, stats
+License: GPL (>= 2)
+MD5sum: 78d0e62674b879e1e26dc058b8c9010f
+NeedsCompilation: yes
+
+Package: EBcoexpress
+Version: 1.6.0
+Depends: EBarrays, mclust, minqa
+Suggests: graph, igraph, colorspace
+License: GPL (>= 2)
+MD5sum: 2ffd3899d9eb837971c49e70766686d1
+NeedsCompilation: yes
+
+Package: EBImage
+Version: 4.4.0
+Imports: BiocGenerics (>= 0.7.1), methods, graphics, stats, abind,
+        tiff, jpeg, png, locfit
+Suggests: BiocStyle
+License: LGPL
+MD5sum: f32947207f8835aee2ced389c1d3b038
+NeedsCompilation: yes
+
+Package: EBSeq
+Version: 1.2.0
+Depends: blockmodeling, gplots, R (>= 2.10)
+License: Artistic-2.0
+MD5sum: 29f6b05fd6267f98d28b7e0615d854b8
+NeedsCompilation: no
+
+Package: ecolitk
+Version: 1.34.0
+Depends: R (>= 2.10)
+Imports: Biobase, graphics, methods
+Suggests: ecoliLeucine, ecolicdf, graph, multtest, affy
+License: GPL (>= 2)
+MD5sum: 02352023de4aea12a1bef3b5e650f214
+NeedsCompilation: no
+
+Package: EDASeq
+Version: 1.8.0
+Depends: BiocGenerics (>= 0.1.3), Biobase (>= 2.15.1), ShortRead (>=
+        1.11.42), Rsamtools (>= 1.5.75), aroma.light
+Imports: methods, graphics, BiocGenerics, IRanges (>= 1.13.9), DESeq
+Suggests: yeastRNASeq, leeBamViews, edgeR, DESeq
+License: Artistic-2.0
+MD5sum: 50da44bd4efff0b328cc40eac9f7c9de
+NeedsCompilation: no
+
+Package: edgeR
+Version: 3.4.2
+Depends: R (>= 2.15.0), methods, limma
+Suggests: MASS, statmod, splines, locfit, KernSmooth
+License: GPL (>= 2)
+MD5sum: d506df9467878c058f36de7df4023f11
+NeedsCompilation: yes
+
+Package: eiR
+Version: 1.2.0
+Depends: R (>= 2.10.0), ChemmineR (>= 2.13.8), methods, DBI
+Imports: snow, tools, snowfall, RUnit, methods,ChemmineR,RCurl,digest,
+        BiocGenerics
+Suggests: RCurl,snow,BiocStyle
+License: Artistic-2.0
+MD5sum: 107cfcf5d5f73e59aa8ca27e9292ac9f
+NeedsCompilation: yes
+
+Package: eisa
+Version: 1.14.0
+Depends: isa2, Biobase (>= 2.17.8), AnnotationDbi, methods
+Imports: BiocGenerics, Category, genefilter, DBI
+Suggests: igraph (>= 0.6), Matrix, GOstats, GO.db, KEGG.db, biclust,
+        MASS, xtable, ALL, hgu95av2.db, targetscan.Hs.eg.db,
+        org.Hs.eg.db
+License: GPL (>= 2)
+MD5sum: 576c7af718d25408212f333db1705db9
+NeedsCompilation: no
+
+Package: ensemblVEP
+Version: 1.2.0
+Depends: methods, BiocGenerics, GenomicRanges, VariantAnnotation
+Imports: Biostrings, IRanges
+Suggests: RUnit, BiocGenerics
+License: Artistic-2.0
+MD5sum: 99b4ddac783e2048bb0e11c8688ab578
+NeedsCompilation: no
+
+Package: ENVISIONQuery
+Version: 1.10.0
+Depends: rJava, XML, utils
+License: GPL-2
+MD5sum: f5b43c9f1bb374b0e5715360a064e072
+NeedsCompilation: no
+
+Package: epigenomix
+Version: 1.2.0
+Depends: R (>= 2.12.0), methods, Biobase, IRanges, GenomicRanges
+Imports: methods, BiocGenerics, Biobase, IRanges, GenomicRanges,
+        beadarray
+License: LGPL-3
+MD5sum: bbd5989ca154572648ea0ebfb67dd604
+NeedsCompilation: no
+
+Package: epivizr
+Version: 1.0.0
+Depends: R (>= 3.0.1), methods, Biobase, GenomicRanges (>= 1.13.47),
+Imports: httpuv, rjson
+LinkingTo: GenomicRanges, httpuv
+Suggests: testthat, roxygen2, knitr, antiProfilesData, hgu133plus2.db
+License: GPL-3
+MD5sum: a6f3976f1b3f4aea31aed200d9f14f60
+NeedsCompilation: no
+
+Package: ExiMiR
+Version: 2.4.0
+Depends: R (>= 2.10), Biobase (>= 2.5.5), affy (>= 1.26.1), limma
+Imports: affyio(>= 1.13.3), Biobase(>= 2.5.5), preprocessCore(>=
+        1.10.0)
+License: GPL-2
+MD5sum: 094ca4267b1ba2de2aad085248709ea8
+NeedsCompilation: no
+
+Package: exomeCopy
+Version: 1.8.0
+Depends: IRanges, GenomicRanges, Rsamtools
+Imports: stats4, methods
+Suggests: Biostrings
+License: GPL (>= 2)
+MD5sum: 6259c3d305596ce51a8762ca54e49566
+NeedsCompilation: yes
+
+Package: exomePeak
+Version: 1.0.0
+Depends: Rsamtools, GenomicFeatures (>= 1.0.0), rtracklayer
+License: GPL-2
+MD5sum: 12ea90e70ed71adc86b40960f8884d5c
+NeedsCompilation: no
+
+Package: explorase
+Version: 1.26.0
+Depends: R (>= 2.6.2)
+Imports: limma, rggobi, RGtk2
+Suggests: cairoDevice
+License: GPL-2
+MD5sum: fd7a41ac08533c122b211f24dc36ed9f
+NeedsCompilation: no
+
+Package: ExpressionView
+Version: 1.14.0
+Depends: caTools, bitops, methods, isa2, eisa, GO.db, KEGG.db,
+        AnnotationDbi
+Imports: methods, isa2, eisa, GO.db, KEGG.db, AnnotationDbi
+Suggests: ALL, hgu95av2.db, biclust, affy
+License: GPL (>= 2)
+MD5sum: e31903f8da9f509bc3f1dc8519756ffb
+NeedsCompilation: yes
+
+Package: fabia
+Version: 2.8.0
+Depends: R (>= 2.8.0), Biobase
+Imports: methods, graphics, grDevices, stats, utils
+License: LGPL (>= 2.1)
+MD5sum: f9939b8e35f1f6f38660224ffc16536e
+NeedsCompilation: yes
+
+Package: factDesign
+Version: 1.38.0
+Depends: Biobase (>= 2.5.5)
+Imports: stats
+Suggests: affy, genefilter, multtest
+License: LGPL
+MD5sum: 959ab3f9b4379c6c46cc82df060454ad
+NeedsCompilation: no
+
+Package: farms
+Version: 1.14.0
+Depends: R (>= 2.8), affy (>= 1.20.0), MASS, methods
+Imports: affy, MASS, Biobase (>= 1.13.41), methods, graphics
+Suggests: affydata, Biobase, utils
+License: LGPL (>= 2.1)
+MD5sum: 6a67655c732c0dc14fd56ffb57a9bf18
+NeedsCompilation: no
+
+Package: fastseg
+Version: 1.8.0
+Depends: R (>= 2.13), GenomicRanges, Biobase
+Imports: graphics, stats, IRanges, BiocGenerics
+Suggests: DNAcopy, oligo
+License: LGPL (>= 2.0)
+MD5sum: d4532efc7a013925022ae42ca5b13da1
+NeedsCompilation: yes
+
+Package: fdrame
+Version: 1.34.0
+Imports: tcltk, graphics, grDevices, stats, utils
+License: GPL (>= 2)
+MD5sum: 02a8161d9bc8d178226e594063cd85a8
+NeedsCompilation: yes
+
+Package: ffpe
+Version: 1.6.0
+Depends: R (>= 2.10.0), TTR, methods
+Imports: Biobase, BiocGenerics, affy, lumi, methylumi, sfsmisc
+Suggests: genefilter, affy, ffpeExampleData
+License: GPL (> 2)
+MD5sum: 04aa6d9f0c9a6f003b959a1105013a4f
+NeedsCompilation: no
+
+Package: FGNet
+Version: 1.2.0
+Depends: R (>= 2.15)
+Imports: igraph (>= 0.6), RCurl, hwriter, R.utils, XML
+Suggests: RUnit, BiocGenerics, org.Sc.sgd.db
+Enhances: RColorBrewer, png, RDAVIDWebService
+License: GPL (>= 2)
+MD5sum: 5392ab76898786f777a34b5fe2b0b5b2
+NeedsCompilation: no
+
+Package: flagme
+Version: 1.18.0
+Depends: gcspikelite, xcms
+Imports: gplots, graphics, MASS, methods, SparseM, stats, utils
+License: LGPL (>= 2)
+MD5sum: cd5d95ad54efd5d81958b5b0a5a14881
+NeedsCompilation: yes
+
+Package: flipflop
+Version: 1.0.1
+Depends: R (>= 2.10.0)
+Imports: methods, Matrix, IRanges, GenomicRanges
+License: GPL-3
+MD5sum: 9b10511af759e5d8a3b74ea3e4d123b8
+NeedsCompilation: yes
+
+Package: flowBeads
+Version: 1.0.0
+Depends: R (>= 2.15.0), methods, Biobase, rrcov, flowCore
+Imports: flowCore, rrcov, knitr, xtable
+Suggests: flowViz
+License: Artistic-2.0
+MD5sum: b66125a7dd680b7cc09eb3415c41b154
+NeedsCompilation: no
+
+Package: flowClust
+Version: 3.2.0
+Depends: R(>= 2.5.0),methods, Biobase, graph, RBGL,ellipse, flowViz,
+        mnormt, corpcor, flowCore(>= 1.11.23), clue
+Imports: BiocGenerics, MCMCpack
+Suggests: parallel
+License: Artistic-2.0
+MD5sum: c772951246163aa7be29113387a8b98e
+NeedsCompilation: yes
+
+Package: flowCore
+Version: 1.28.0
+Depends: R (>= 2.10.0)
+Imports: Biobase, BiocGenerics (>= 0.1.14), feature, graph, graphics,
+        grDevices, MASS, methods, rrcov, stats, utils, stats4
+Suggests: Rgraphviz, flowViz, ncdf
+License: Artistic-2.0
+MD5sum: 24ebc137d764b7732976836f53bd2ce2
+NeedsCompilation: yes
+
+Package: flowFit
+Version: 1.0.0
+Depends: R (>= 2.12.2)
+Imports: flowCore, flowViz, graphics, methods, kza, minpack.lm, gplots
+Suggests: flowFitExampleData
+License: Artistic-2.0
+MD5sum: ff1ab7c4faaf3da63cdd0fa7c58b16e9
+NeedsCompilation: no
+
+Package: flowFlowJo
+Version: 1.20.0
+Depends: R (>= 2.5.0), MASS,
+Imports: flowCore, XML (>= 1.96), methods, Biobase
+License: GPL (>= 3)
+MD5sum: 2154bab4a91402227d9faa94e8eee945
+NeedsCompilation: no
+
+Package: flowFP
+Version: 1.20.0
+Depends: R (>= 2.10), flowCore, flowViz
+Imports: Biobase, BiocGenerics (>= 0.1.6), flowCore, flowViz, graphics,
+        grDevices, methods, stats, stats4
+Suggests: RUnit
+License: Artistic-2.0
+MD5sum: 1beb5b580f9f95471a4d339bfe8419b9
+NeedsCompilation: yes
+
+Package: flowMap
+Version: 1.0.0
+Depends: R (>= 3.0.1), ade4(>= 1.5-2), doParallel(>= 1.0.3), abind(>=
+        1.4.0), reshape2(>= 1.2.2), ggplot2(>= 0.9.3.1), scales(>=
+        0.2.3), methods (>= 2.14),
+License: GPL (>= 2)
+MD5sum: 682cbfafe3862cfc0fe9b76a2e918cee
+NeedsCompilation: no
+
+Package: flowMeans
+Version: 1.14.0
+Depends: R (>= 2.10.0)
+Imports: Biobase, graphics, grDevices, methods, rrcov, stats, feature,
+        flowCore
+License: Artistic-2.0
+MD5sum: 56ac5698e7aff623441e6ba02e7b8694
+NeedsCompilation: no
+
+Package: flowMerge
+Version: 2.10.0
+Depends: Rgraphviz, flowClust, flowCore,
+        methods,snow,foreach,graph,feature
+Imports: rrcov, flowClust,flowCore, graphics, methods, rrcov, stats,
+        utils, BiocGenerics (>= 0.1.6)
+Suggests: Rgraphviz
+Enhances: doMC, multicore
+License: Artistic-2.0
+MD5sum: 71b9c3210fa41f0be684594a2a878c0a
+NeedsCompilation: no
+
+Package: flowPeaks
+Version: 1.4.0
+Depends: R (>= 2.12.0)
+Enhances: flowCore
+License: Artistic-1.0
+MD5sum: 91b84958e6e80e638265a84b71ba4425
+NeedsCompilation: yes
+
+Package: flowPhyto
+Version: 1.14.0
+Depends: R (>= 1.8.0)
+Imports: flowClust, flowCore, flowMeans, TTR, caroline(>= 0.6.6)
+Suggests: RPostgreSQL, zoo, maps, mapdata, plotrix
+License: Artistic-2.0
+MD5sum: 89757a8be9e8ee2ce66516bafbde7bcb
+NeedsCompilation: no
+
+Package: flowPlots
+Version: 1.10.0
+Depends: R (>= 2.13.0), methods
+Suggests: vcd
+License: Artistic-2.0
+MD5sum: dffd6093206d52344a7873cb34579ac8
+NeedsCompilation: no
+
+Package: flowQ
+Version: 1.22.0
+Depends: R (>= 2.10.0), methods, BiocGenerics (>= 0.1.3), outliers,
+        lattice, flowViz, mvoutlier, bioDist, parody, RColorBrewer,
+        latticeExtra
+Imports: methods, BiocGenerics, geneplotter, flowCore, flowViz, IRanges
+Suggests: flowStats
+License: Artistic-2.0
+MD5sum: 011eeefedd5ef5183ecda87441e2b083
+NeedsCompilation: no
+
+Package: flowQB
+Version: 1.4.0
+Imports: Biobase, graphics,methods, flowCore,stats,MASS
+Suggests: MASS, flowCore, xtable
+License: Artistic-2.0
+MD5sum: d60903c68331e1eb35ec890749b54bba
+NeedsCompilation: no
+
+Package: flowStats
+Version: 3.20.0
+Depends: R (>= 2.10), flowCore (>= 1.10.0), fda (>= 2.2.6), mvoutlier,
+        cluster, flowWorkspace (>= 3.7.27)
+Imports: BiocGenerics, MASS, flowViz, flowCore, fda (>= 2.2.6),
+        Biobase, methods, grDevices, graphics, stats, utils,
+        KernSmooth, lattice,compositions
+Suggests: flowViz, xtable
+Enhances: RBGL,ncdfFlow,graph
+License: Artistic-2.0
+MD5sum: 463c23f61394828b123fdb93f9850217
+NeedsCompilation: no
+
+Package: flowTrans
+Version: 1.14.0
+Depends: R (>= 2.11.0), flowCore, flowViz,flowClust
+Imports: flowCore, methods, flowViz, stats, flowClust
+License: Artistic-2.0
+MD5sum: bb53b8c7af3c534368eb88eb2508f2b2
+NeedsCompilation: no
+
+Package: flowType
+Version: 2.2.0
+Depends: R (>= 2.10), Rcpp (>= 0.10.4)
+Imports: Biobase, graphics, grDevices, methods, flowCore, flowMeans,
+        sfsmisc, rrcov, flowClust, flowMerge, stats
+LinkingTo: Rcpp
+Suggests: xtable
+License: Artistic-2.0
+MD5sum: bb350e0531377955e4fad4290c1ecc5f
+NeedsCompilation: yes
+
+Package: flowUtils
+Version: 1.22.0
+Depends: R (>= 2.2.0), flowCore (>= 1.2.0)
+Imports: Biobase, flowCore, graph, methods, RUnit, stats, utils, XML,
+        flowViz
+Suggests: gatingMLData
+License: Artistic-2.0
+MD5sum: 6c92e7880aec396ddeaa86a9cda6088c
+NeedsCompilation: no
+
+Package: flowViz
+Version: 1.26.0
+Depends: R (>= 2.7.0), flowCore (>= 1.5.17), lattice
+Imports: stats4, Biobase, flowCore, graphics, grDevices, grid,
+        KernSmooth, lattice, latticeExtra, MASS, methods, RColorBrewer,
+        stats, utils, hexbin,IDPmisc
+Suggests: colorspace
+License: Artistic-2.0
+MD5sum: 4ff7289964988c492849b92bd53d900e
+NeedsCompilation: no
+
+Package: flowWorkspace
+Version: 3.8.0
+Depends: R (>= 2.16.0),Rcpp (>= 0.9.9),flowCore (>= 1.25.9),flowViz (>=
+        1.25.5),ncdfFlow(>= 2.7.11),gridExtra
+Imports: Biobase, BiocGenerics, graph, graphics, lattice, methods,
+        stats, stats4, utils, RBGL, graph, XML, Biobase, IDPmisc,
+        Cairo, tools,hexbin,gridExtra,Rgraphviz
+LinkingTo: Rcpp,ncdfFlow
+Suggests: testthat, flowWorkspaceData
+License: Artistic-2.0
+MD5sum: 601a86462519db3b145c54aec260d4d7
+NeedsCompilation: yes
+
+Package: fmcsR
+Version: 1.4.0
+Depends: R (>= 2.10.0), ChemmineR, methods
+Suggests: BiocStyle
+License: Artistic-2.0
+MD5sum: 5e5f968c3787b85b2be1df20481f3926
+NeedsCompilation: yes
+
+Package: frma
+Version: 1.14.0
+Depends: R (>= 2.10.0), Biobase (>= 2.6.0)
+Imports: Biobase, MASS, DBI, affy, methods, oligo, oligoClasses,
+        preprocessCore, utils, BiocGenerics
+Suggests: hgu133afrmavecs, frmaExampleData
+License: GPL (>= 2)
+MD5sum: 52fa2bf38c4590957f238d7a12400ffe
+NeedsCompilation: no
+
+Package: frmaTools
+Version: 1.14.0
+Depends: R (>= 2.10.0), affy
+Imports: Biobase, DBI, methods, preprocessCore, stats, utils
+Suggests: oligo, pd.huex.1.0.st.v2, pd.hugene.1.0.st.v1, frma, affyPLM,
+        hgu133aprobe, hgu133atagprobe, hgu133plus2probe, hgu133acdf,
+        hgu133atagcdf, hgu133plus2cdf, hgu133afrmavecs, frmaExampleData
+License: GPL (>= 2)
+MD5sum: 6e4f1863492df0cc47860fddb1c87ca9
+NeedsCompilation: no
+
+Package: FunciSNP
+Version: 1.4.0
+Depends: R (>= 2.14.0), ggplot2, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        FunciSNP.data
+Imports: AnnotationDbi, IRanges, Rsamtools (>= 1.6.1), rtracklayer(>=
+        1.14.1), methods, ChIPpeakAnno (>= 2.2.0), GenomicRanges,
+        VariantAnnotation, plyr, org.Hs.eg.db, snpStats, ggplot2 (>=
+        0.9.0), reshape (>= 0.8.4), scales
+Enhances: parallel
+License: GPL-3
+MD5sum: 7958926015cce5abd4c11775a6cf5a83
+NeedsCompilation: no
+
+Package: gaga
+Version: 2.8.0
+Depends: R (>= 2.8.0), Biobase, coda, EBarrays, mgcv
+Enhances: parallel
+License: GPL (>= 2)
+MD5sum: f22d24daf95e384cb95d246a2b61e1d0
+NeedsCompilation: yes
+
+Package: gage
+Version: 2.12.1
+Depends: R (>= 2.10)
+Imports: graph, KEGGREST
+Suggests: pathview, gageData, GO.db, org.Hs.eg.db, hgu133a.db,
+        GSEABase, Rsamtools, TxDb.Hsapiens.UCSC.hg19.knownGene, DESeq,
+        DESeq2, edgeR, limma
+License: GPL (>= 2.0)
+MD5sum: 859feb3031be7d09c8735b31954fd472
+NeedsCompilation: no
+
+Package: gaggle
+Version: 1.30.0
+Depends: R (>= 2.3.0), rJava (>= 0.4), graph (>= 1.10.2), RUnit (>=
+        0.4.17)
+License: GPL (>= 2)
+MD5sum: f0b499272d62a4df868ee234295bc6c6
+NeedsCompilation: no
+
+Package: gaia
+Version: 2.6.0
+Depends: R (>= 2.10)
+License: GPL-2
+MD5sum: 70aa3badaa5ddfa3911086a572b1668b
+NeedsCompilation: no
+
+Package: gCMAP
+Version: 1.6.0
+Depends: GSEABase, limma (>= 3.15.14)
+Imports: Biobase, BiocGenerics, methods, GSEAlm, Category, Matrix (>=
+        1.0.9), parallel, annotate, genefilter, AnnotationDbi
+Suggests: DESeq, KEGG.db, reactome.db, RUnit, GO.db, mgsa
+Enhances: bigmemory, bigmemoryExtras (>= 1.1.2)
+License: Artistic-2.0
+MD5sum: dcb7111da0d9cddd04c8e5ca4018ccf1
+NeedsCompilation: no
+
+Package: gCMAPWeb
+Version: 1.2.0
+Depends: brew, gCMAP (>= 1.3.0), R (>= 2.15.0), yaml
+Imports: Biobase, annotate, AnnotationDbi, BiocGenerics, brew,
+        graphics, grDevices, GSEABase, hwriter, IRanges, methods,
+        parallel, Rook, stats, utils
+Suggests: org.Hs.eg.db, org.Mm.eg.db, ArrayExpress, affy, hgfocus.db,
+        ArrayExpress, hgu133a.db, mgug4104a.db, RUnit
+Enhances: bigmemory, bigmemoryExtras
+License: Artistic-2.0
+MD5sum: b6cac726470d579bcfeaae4452c7da91
+NeedsCompilation: no
+
+Package: gcrma
+Version: 2.34.0
+Depends: R (>= 2.6.0), affy (>= 1.23.2), graphics, methods, stats,
+        utils
+Imports: Biobase, affy (>= 1.23.2), affyio (>= 1.13.3), XVector,
+        Biostrings (>= 2.11.32), splines, BiocInstaller
+Suggests: affydata, tools, splines, hgu95av2cdf, hgu95av2probe
+License: LGPL
+MD5sum: 44f0435123c2a962914dc6737d6881c2
+NeedsCompilation: yes
+
+Package: genArise
+Version: 1.38.0
+Depends: R (>= 1.7.1), locfit, tkrplot, methods
+Imports: graphics, grDevices, methods, stats, tcltk, utils, xtable
+License: file LICENSE
+License_restricts_use: yes
+MD5sum: b2aa28768a99e9f59d77e562b939fb3f
+NeedsCompilation: no
+
+Package: GENE.E
+Version: 1.2.0
+Depends: R (>= 2.7.0), h5r (>= 1.4.1), RCurl (>= 1.6-6)
+Imports: h5r, RCurl
+Suggests: RUnit, BiocGenerics, knitr, golubEsets (>= 1.0)
+License: GPL-2
+MD5sum: d94f9de38da2238474dbdbedeb3cc7f9
+NeedsCompilation: no
+
+Package: GeneAnswers
+Version: 2.4.0
+Depends: R (>= 2.10.0), igraph, RCurl, annotate, Biobase (>= 1.12.0),
+        methods, XML, RSQLite, MASS, Heatplus, RColorBrewer
+Imports: RBGL, annotate
+Suggests: GO.db, KEGG.db, reactome.db, biomaRt, AnnotationDbi,
+        org.Hs.eg.db, org.Rn.eg.db, org.Mm.eg.db, org.Dm.eg.db, graph
+License: LGPL (>= 2)
+MD5sum: 3bfb5e0b4060305f97f5b88c0a098990
+NeedsCompilation: no
+
+Package: GeneExpressionSignature
+Version: 1.8.0
+Depends: R (>= 2.13), Biobase, PGSEA
+Suggests: apcluster,GEOquery
+License: GPL-2
+MD5sum: 94c73d44a69d21e96c3fa93256533f94
+NeedsCompilation: no
+
+Package: genefilter
+Version: 1.44.0
+Imports: AnnotationDbi, annotate (>= 1.13.7), Biobase (>= 1.99.10),
+        graphics, methods, stats, survival
+Suggests: Biobase (>= 1.99.10), class, hgu95av2.db, methods, tkWidgets,
+        ALL, ROC, DESeq, pasilla
+License: Artistic-2.0
+MD5sum: 9b368a3942b705cc1547c2c36ddc23ee
+NeedsCompilation: yes
+
+Package: genefu
+Version: 1.12.0
+Depends: R (>= 2.10), survcomp, mclust, biomaRt
+Imports: amap
+Suggests: GeneMeta, breastCancerVDX, breastCancerMAINZ,
+        breastCancerTRANSBIG, breastCancerUPP, breastCancerUNT,
+        breastCancerNKI, rmeta, Biobase, xtable
+License: Artistic-2.0
+MD5sum: f8312822b06b1ab774051d89cb607ed6
+NeedsCompilation: no
+
+Package: GeneGA
+Version: 1.12.0
+Depends: seqinr, hash, methods
+License: GPL-2
+MD5sum: d5c18e6842de764b2dcf926f1fc61050
+NeedsCompilation: no
+
+Package: GeneMeta
+Version: 1.34.0
+Depends: R (>= 2.10), methods, Biobase (>= 2.5.5), genefilter
+Imports: methods, Biobase (>= 2.5.5)
+Suggests: RColorBrewer
+License: Artistic-2.0
+MD5sum: c0024ad667f196e0c1ae35d8bde513d1
+NeedsCompilation: no
+
+Package: GeneNetworkBuilder
+Version: 1.4.0
+Depends: R (>= 2.15.1), Rcpp (>= 0.9.13), graph
+Imports: plyr, graph
+LinkingTo: Rcpp
+Suggests: RUnit, BiocGenerics, Rgraphviz, XML, RCytoscape
+License: GPL (>= 2)
+MD5sum: 289840f59bd5076793bc5c4dc5e6aa7d
+NeedsCompilation: yes
+
+Package: geneplotter
+Version: 1.40.0
+Depends: R (>= 2.10), methods, Biobase, BiocGenerics, lattice, annotate
+Imports: AnnotationDbi, graphics, grDevices, grid, RColorBrewer, stats,
+        utils
+Suggests: Rgraphviz, fibroEset, hgu95av2.db, hu6800.db, hgu133a.db
+License: Artistic-2.0
+MD5sum: 6c8bead575f194a4331303b6d3a21bf4
+NeedsCompilation: no
+
+Package: geneRecommender
+Version: 1.34.0
+Depends: R (>= 1.8.0), Biobase (>= 1.4.22), methods
+Imports: Biobase, methods, stats
+License: GPL (>= 2)
+MD5sum: 3825b54b01bdd522a470084ac2a1c168
+NeedsCompilation: no
+
+Package: GeneRegionScan
+Version: 1.18.0
+Depends: methods, Biobase (>= 2.5.5), Biostrings
+Imports: Biobase (>= 2.5.5), affxparser, RColorBrewer, Biostrings
+Suggests: BSgenome, affy, AnnotationDbi
+License: GPL (>= 2)
+MD5sum: e17945bcab8383af055b1e4a9c504fa0
+NeedsCompilation: no
+
+Package: GeneSelectMMD
+Version: 2.6.0
+Depends: R (>= 2.13.2), Biobase
+Imports: Biobase, MASS, graphics, stats, survival, limma
+Suggests: ALL
+License: GPL (>= 2)
+MD5sum: 9291f73ddd82dbaf961b8656aabfcaaa
+NeedsCompilation: yes
+
+Package: GeneSelector
+Version: 2.12.0
+Depends: R (>= 2.5.1), methods, stats, Biobase
+Imports: multtest, siggenes, samr, limma
+Suggests: multtest, siggenes, samr, limma
+License: GPL (>= 2)
+MD5sum: e6540c3e70da0b45b4586e970a91db4a
+NeedsCompilation: yes
+
+Package: geNetClassifier
+Version: 1.2.0
+Depends: R (>= 2.10.1), Biobase (>= 2.5.5), EBarrays, minet, methods
+Imports: e1071, ipred, graphics, BiocGenerics
+Suggests: leukemiasEset
+Enhances: RColorBrewer, igraph
+License: GPL (>= 2)
+MD5sum: 184da30130b507518aa087cee9acc58e
+NeedsCompilation: no
+
+Package: GeneticsDesign
+Version: 1.30.0
+Imports: gmodels, graphics, gtools (>= 2.4.0), mvtnorm, stats
+License: GPL-2
+MD5sum: 07c7abc5204fee6ccd78a2c18523b6cb
+NeedsCompilation: no
+
+Package: GeneticsPed
+Version: 1.24.0
+Depends: R (>= 2.4.0), gdata (>= 2.3.0), genetics (>= 1.3.0), MASS
+Suggests: RUnit, gtools
+License: LGPL (>= 2.1)
+MD5sum: dd3f093a3955b65c698890dc9167481d
+NeedsCompilation: yes
+
+Package: genoCN
+Version: 1.14.0
+Imports: graphics, stats, utils
+License: GPL (>= 2)
+MD5sum: 9c3d242f05866785d24b8667476d85a6
+NeedsCompilation: yes
+
+Package: GenomeGraphs
+Version: 1.22.0
+Depends: R (>= 2.10), methods, biomaRt, grid
+License: Artistic-2.0
+MD5sum: 2af96c5bff1723ec1608b1bbf1589489
+NeedsCompilation: no
+
+Package: genomeIntervals
+Version: 1.18.0
+Depends: R (>= 2.15.0), methods, intervals (>= 0.14.0), BiocGenerics
+        (>= 0.3.2)
+Imports: methods, Biobase
+License: Artistic-2.0
+MD5sum: 71dc893e51b2837753b25c8da8dbbabc
+NeedsCompilation: no
+
+Package: genomes
+Version: 2.8.0
+Depends: R (>= 2.11), XML, RCurl, GenomicRanges, IRanges, Biostrings
+License: Artistic-2.0
+MD5sum: 7ab9665c6ba2bbb35c263f9795695df1
+NeedsCompilation: no
+
+Package: GenomicFeatures
+Version: 1.14.2
+Depends: BiocGenerics (>= 0.1.0), IRanges (>= 1.17.13), GenomicRanges
+        (>= 1.13.16), AnnotationDbi (>= 1.23.14)
+Imports: methods, DBI (>= 0.2-5), RSQLite (>= 0.8-1), BiocGenerics,
+        IRanges, GenomicRanges, Biostrings (>= 2.23.2), rtracklayer (>=
+        1.15.1), biomaRt (>= 2.17.1), RCurl, utils, Biobase (>= 2.15.1)
+Suggests: rtracklayer, biomaRt, org.Mm.eg.db, Biostrings, BSgenome,
+        BSgenome.Hsapiens.UCSC.hg18 (>= 1.3.14),
+        BSgenome.Hsapiens.UCSC.hg19 (>= 1.3.17),
+        BSgenome.Celegans.UCSC.ce2, BSgenome.Dmelanogaster.UCSC.dm3 (>=
+        1.3.17), mirbase.db, FDb.UCSC.tRNAs,
+        TxDb.Hsapiens.UCSC.hg18.knownGene,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene (>= 2.7.1), Rsamtools,
+        pasillaBamSubset (>= 0.0.5), seqnames.db, RUnit
+License: Artistic-2.0
+MD5sum: aa2f5d703ebcae45963fafcf97fee42e
+NeedsCompilation: no
+
+Package: GenomicRanges
+Version: 1.14.4
+Depends: R (>= 2.10), methods, BiocGenerics (>= 0.7.7), IRanges (>=
+        1.20.3), XVector (>= 0.1.3)
+Imports: methods, utils, stats, BiocGenerics, IRanges
+LinkingTo: IRanges, XVector
+Suggests: AnnotationDbi (>= 1.21.1), AnnotationHub, BSgenome,
+        BSgenome.Hsapiens.UCSC.hg19, BSgenome.Scerevisiae.UCSC.sacCer2,
+        BSgenome.Dmelanogaster.UCSC.dm3, Biostrings (>= 2.25.3),
+        Rsamtools (>= 1.13.53), rtracklayer, KEGG.db, KEGGgraph,
+        GenomicFeatures, TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, seqnames.db, org.Sc.sgd.db,
+        VariantAnnotation, edgeR, DESeq, DEXSeq, pasilla,
+        pasillaBamSubset, RUnit, digest, BiocStyle
+License: Artistic-2.0
+MD5sum: 6ce463569f7336a98e7e6f735a82284f
+NeedsCompilation: yes
+
+Package: Genominator
+Version: 1.16.0
+Depends: R (>= 2.10), methods, RSQLite, DBI (>= 0.2-5), BiocGenerics
+        (>= 0.1.0), IRanges, GenomeGraphs
+Imports: graphics, stats, utils
+Suggests: biomaRt, ShortRead, yeastRNASeq
+License: Artistic-2.0
+MD5sum: a233a7dd952b5f2de67b42f6649f2c4d
+NeedsCompilation: no
+
+Package: genoset
+Version: 1.14.0
+Depends: R (>= 2.10), BiocGenerics (>= 0.1.6), Biobase (>= 2.15.1),
+        IRanges, GenomicRanges
+Imports: methods, graphics, IRanges, GenomicRanges
+Suggests: RUnit, DNAcopy, stats, BSgenome, Biostrings
+Enhances: parallel
+License: Artistic-2.0
+MD5sum: b5a0ffdd062d3925237dbb60fe08856d
+NeedsCompilation: yes
+
+Package: GEOmetadb
+Version: 1.22.0
+Depends: GEOquery,RSQLite
+License: Artistic-2.0
+MD5sum: 91a03ea98d04623f0e5c53f27d4dd8c1
+NeedsCompilation: no
+
+Package: GEOquery
+Version: 2.28.0
+Depends: methods, Biobase
+Imports: XML, RCurl
+Suggests: limma, RUnit
+License: GPL-2
+MD5sum: 51bd3eb1003cd08d5b0c70a9c02a747d
+NeedsCompilation: no
+
+Package: GEOsubmission
+Version: 1.14.0
+Imports: affy, Biobase, utils
+License: GPL (>= 2)
+MD5sum: 6d465073b490d9fcbb4df8be9ae07b16
+NeedsCompilation: no
+
+Package: GEWIST
+Version: 1.6.0
+Depends: R (>= 2.10), car
+License: GPL-2
+MD5sum: 152af878a10405a1f8bcfbdefb3e2049
+NeedsCompilation: no
+
+Package: GGBase
+Version: 3.24.0
+Depends: R (>= 2.14), methods, snpStats
+Imports: limma, genefilter, Biobase, BiocGenerics, Matrix,
+        AnnotationDbi
+License: Artistic-2.0
+MD5sum: 85adceb9bc1212143f96b28fa71001dd
+NeedsCompilation: no
+
+Package: ggbio
+Version: 1.10.10
+Depends: methods, ggplot2 (>= 0.9.3)
+Imports: methods, biovizBase(>= 1.10.5), reshape2, gtable, ggplot2(>=
+        0.9.2), lattice, BiocGenerics, Biobase, IRanges, GenomicRanges
+        (>= 1.13.3), GenomicFeatures, Rsamtools (>= 1.13.1), BSgenome,
+        gridExtra, scales, plyr, VariantAnnotation, Hmisc, rtracklayer
+Suggests: vsn, RUnit, testthat, BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, affyPLM, chipseq,
+        TxDb.Mmusculus.UCSC.mm9.knownGene, knitr
+License: Artistic-2.0
+MD5sum: b7863222335f0a86001c143d0907de14
+NeedsCompilation: no
+
+Package: GGtools
+Version: 4.10.0
+Depends: R (>= 2.14), stats4, GGBase (>= 3.19.7), IRanges,
+        GenomicRanges, Rsamtools
+Imports: methods, utils, stats, BiocGenerics, snpStats, ff,
+        AnnotationDbi, Biobase, bit, VariantAnnotation
+Suggests: GGdata, illuminaHumanv1.db, SNPlocs.Hsapiens.dbSNP.20120608
+Enhances: MatrixEQTL
+License: Artistic-2.0
+MD5sum: 64a7f7af6b00f8f680a748f97b10e055
+NeedsCompilation: no
+
+Package: girafe
+Version: 1.14.0
+Depends: R (>= 2.10.0), methods, IRanges (>= 1.3.53), Rsamtools,
+        ShortRead (>= 1.3.21), intervals (>= 0.13.1), genomeIntervals
+        (>= 1.7.3), grid
+Imports: methods, Biobase, Biostrings, BSgenome, graphics, grDevices,
+        stats, utils, IRanges
+Suggests: MASS, org.Mm.eg.db, RColorBrewer
+Enhances: genomeIntervals
+License: Artistic-2.0
+MD5sum: 47646e25cdce2e575ed4c1b9245b932b
+NeedsCompilation: yes
+
+Package: GLAD
+Version: 2.26.0
+Depends: R (>= 2.10)
+Suggests: aws, tcltk
+License: GPL-2
+MD5sum: 46d601622f6b03e752a4dd883e04cab6
+NeedsCompilation: yes
+
+Package: GlobalAncova
+Version: 3.30.0
+Depends: methods, corpcor, globaltest
+Imports: annotate, AnnotationDbi
+Suggests: Biobase, annotate, GO.db, KEGG.db, golubEsets, hu6800.db,
+        vsn, GSEABase, Rgraphviz
+License: GPL (>= 2)
+MD5sum: 5151b4f33283ecdf5aa994f8fd98a93e
+NeedsCompilation: yes
+
+Package: globaltest
+Version: 5.16.0
+Depends: methods
+Imports: Biobase, survival, AnnotationDbi, annotate, multtest, graphics
+Suggests: vsn, golubEsets, KEGG.db, hu6800.db, Rgraphviz, GO.db,
+        lungExpression, org.Hs.eg.db, annotate, Biobase, survival,
+        GSEABase, penalized, gss, MASS, boot, rpart
+License: GPL (>= 2)
+MD5sum: e85273c688c059e774826f9ab5c4458c
+NeedsCompilation: no
+
+Package: gmapR
+Version: 1.4.2
+Depends: R (>= 2.15.0), methods, GenomicRanges
+Imports: IRanges, Rsamtools (>= 1.7.4), rtracklayer (>= 1.17.15),
+        GenomicRanges, GenomicFeatures, Biostrings, VariantAnnotation
+        (>= 1.7.34), tools, Biobase, BSgenome, methods
+Suggests: RUnit, BSgenome.Dmelanogaster.UCSC.dm3,
+        BSgenome.Scerevisiae.UCSC.sacCer3, VariantAnnotation,
+        org.Hs.eg.db, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        BSgenome.Hsapiens.UCSC.hg19, LungCancerLines
+License: Artistic-2.0
+MD5sum: 1f314845b5292b35d27dda4c81029f14
+NeedsCompilation: yes
+
+Package: GOFunction
+Version: 1.10.0
+Depends: R (>= 2.11.0), methods, Biobase (>= 2.8.0), graph (>= 1.26.0),
+        Rgraphviz (>= 1.26.0), GO.db (>= 2.4.1), AnnotationDbi (>=
+        1.10.2), SparseM (>= 0.85)
+Imports: methods, Biobase, graph, Rgraphviz, GO.db, AnnotationDbi,
+        SparseM
+License: GPL (>= 2)
+MD5sum: abe8bcf279d612d8d6ca44b7441690a7
+NeedsCompilation: no
+
+Package: goProfiles
+Version: 1.24.0
+Depends: Biobase, AnnotationDbi, GO.db
+Suggests: org.Hs.eg.db
+License: GPL-2
+MD5sum: fe693104678ae45aed1ac04d3d61296c
+NeedsCompilation: no
+
+Package: GOSemSim
+Version: 1.20.1
+Depends: R (>= 2.10), Rcpp
+Imports: methods, AnnotationDbi, GO.db, org.Hs.eg.db
+LinkingTo: Rcpp
+Suggests: DOSE, clusterProfiler, BiocInstaller, knitr
+License: GPL-2
+MD5sum: 9093a2ca5eddc3717e13c7eb049681c5
+NeedsCompilation: yes
+
+Package: goseq
+Version: 1.14.0
+Depends: R (>= 2.11.0), BiasedUrn, geneLenDataBase
+Imports: mgcv, graphics, stats, utils, AnnotationDbi
+Suggests: GO.db, edgeR, org.Hs.eg.db, rtracklayer
+License: LGPL (>= 2)
+MD5sum: 98c1aa4f627fd8b1abeb0ee6b0d73645
+NeedsCompilation: no
+
+Package: GOSim
+Version: 1.4.0
+Depends: GO.db, annotate, igraph
+Imports: org.Hs.eg.db, AnnotationDbi, topGO, cluster, flexmix, RBGL,
+        graph, Matrix, corpcor, Rcpp, utils
+LinkingTo: Rcpp
+License: GPL (>= 2)
+MD5sum: bacbf5c2aa7af17bfda5ee0cbf70bdb2
+NeedsCompilation: yes
+
+Package: GOstats
+Version: 2.28.0
+Depends: R (>= 2.10), Biobase (>= 1.15.29), Category (>= 2.3.26), graph
+Imports: AnnotationDbi (>= 0.0.89), Biobase (>= 1.15.29), Category (>=
+        2.3.26), GO.db (>= 1.13.0), RBGL, annotate (>= 1.13.2), graph
+        (>= 1.15.15), methods, stats , AnnotationForge
+Suggests: hgu95av2.db (>= 1.13.0), ALL, GO.db (>= 1.13.0), annotate,
+        multtest, genefilter, RColorBrewer, Rgraphviz, xtable, SparseM,
+        GSEABase, geneplotter, org.Hs.eg.db, RUnit, BiocGenerics
+License: Artistic-2.0
+MD5sum: 666c85c98404d7476004cfa19c5e4339
+NeedsCompilation: no
+
+Package: goTools
+Version: 1.36.0
+Depends: GO.db
+Imports: AnnotationDbi, GO.db, graphics, grDevices
+Suggests: hgu133a.db
+License: GPL-2
+MD5sum: 22b61d91fe3282de365bf8be26d66faf
+NeedsCompilation: no
+
+Package: gpls
+Version: 1.34.0
+Imports: stats
+Suggests: MASS
+License: Artistic-2.0
+MD5sum: 15d07026741b6d4ca3b38df69e4b87f5
+NeedsCompilation: no
+
+Package: gprege
+Version: 1.6.0
+Depends: R (>= 2.8.0), gptk
+Suggests: spam
+License: AGPL-3
+MD5sum: ba0a5e3e6e09a8fc3252788957dbec35
+NeedsCompilation: no
+
+Package: graph
+Version: 1.40.1
+Depends: R (>= 2.10), methods
+Imports: methods, stats, stats4, tools, utils, BiocGenerics (>= 0.1.11)
+Suggests: SparseM (>= 0.36), XML, RBGL, RUnit, cluster
+Enhances: Rgraphviz
+License: Artistic-2.0
+MD5sum: f40d6577e1e6bc1209158722284c660f
+NeedsCompilation: yes
+
+Package: GraphAlignment
+Version: 1.26.0
+License: file LICENSE
+License_restricts_use: yes
+MD5sum: 004ecbc70225708d9ed35693c3646783
+NeedsCompilation: yes
+
+Package: GraphAT
+Version: 1.34.0
+Depends: R (>= 2.10), graph, methods
+Imports: graph, MCMCpack, methods, stats
+License: LGPL
+MD5sum: a4295194518ee954a1d762467ec0a40f
+NeedsCompilation: no
+
+Package: graphite
+Version: 1.8.1
+Depends: R (>= 2.10)
+Imports: AnnotationDbi, graph, graphics, methods, org.Hs.eg.db, stats,
+        utils
+Suggests: DEGraph (>= 1.4), hgu133plus2.db, RCytoscape (>= 1.6), SPIA
+        (>= 2.2), topologyGSA (>= 1.0), clipper, ALL
+License: AGPL-3
+MD5sum: 73d8257c5db640526a90d162a9f7826e
+NeedsCompilation: no
+
+Package: GraphPAC
+Version: 1.4.0
+Depends: R(>= 2.15),iPAC, igraph, TSP, RMallow
+Suggests: RUnit, BiocGenerics
+License: GPL-2
+MD5sum: cde4f35c400fe9ea16c934b0cf55751f
+NeedsCompilation: no
+
+Package: GRENITS
+Version: 1.14.0
+Depends: R (>= 2.12.0), Rcpp (>= 0.8.6), RcppArmadillo (>= 0.2.8),
+        ggplot2 (>= 0.9.0)
+Imports: graphics, grDevices, reshape2, stats, utils
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: network
+License: GPL (>= 2)
+MD5sum: f8160c4886f9158769466c4e78452603
+NeedsCompilation: yes
+
+Package: GSEABase
+Version: 1.24.0
+Depends: R (>= 2.6.0), BiocGenerics (>= 0.3.2), Biobase (>= 2.17.8),
+        annotate, methods, graph (>= 1.37.2)
+Imports: AnnotationDbi, XML
+Suggests: hgu95av2.db, GO.db, org.Hs.eg.db, Rgraphviz, ReportingTools
+License: Artistic-2.0
+MD5sum: f5df90f2e665c1b2281edfbffe0be8d4
+NeedsCompilation: no
+
+Package: GSEAlm
+Version: 1.22.0
+Depends: Biobase
+Suggests: GSEABase,Category, multtest, ALL, annotate, hgu95av2.db,
+        genefilter, GOstats, RColorBrewer
+License: Artistic-2.0
+MD5sum: b94a3959fc8fb81693ad1b0d7200bf72
+NeedsCompilation: no
+
+Package: GSRI
+Version: 2.10.0
+Depends: R (>= 2.14.2), fdrtool
+Imports: methods, graphics, stats, utils, genefilter, Biobase,
+        GSEABase, les (>= 1.1.6)
+Suggests: limma, hgu95av2.db
+Enhances: parallel
+License: GPL-3
+MD5sum: 8c46461ba496dfc1a8ae2fd6dc413cc6
+NeedsCompilation: no
+
+Package: GSVA
+Version: 1.10.1
+Depends: R (>= 2.13.0), methods, GSEABase (>= 1.17.4)
+Imports: methods, BiocGenerics, Biobase, GSEABase
+Suggests: limma, RColorBrewer, genefilter, mclust, edgeR, GSVAdata
+Enhances: snow, parallel
+License: GPL (>= 2)
+MD5sum: 3212a3b551ebdb0f8d09dd479d3b8479
+NeedsCompilation: yes
+
+Package: Gviz
+Version: 1.6.0
+Depends: R (>= 2.10.0), methods, grid
+Imports: IRanges (>= 1.19.5), XVector, rtracklayer (>= 1.15.5),
+        lattice, RColorBrewer, biomaRt (>= 2.11.0), GenomicRanges (>=
+        1.7.14), AnnotationDbi (>= 1.17.11), Biobase (>= 2.15.3),
+        BiocGenerics (>= 0.1.4), GenomicFeatures (>= 1.9.7), BSgenome
+        (>= 1.25.1), Biostrings (>= 2.25.1), biovizBase (>= 1.5.7),
+        Rsamtools(>= 1.11.1), latticeExtra(>= 0.6-26)
+Suggests: xtable, GenomicFeatures, BSgenome.Hsapiens.UCSC.hg19,
+        biomaRt, rtracklayer
+License: Artistic-2.0
+MD5sum: 0bcff07c6791c32fce881bc3991ff0f7
+NeedsCompilation: no
+
+Package: gwascat
+Version: 1.6.0
+Depends: R (>= 2.14.0), methods, IRanges, GenomicRanges, snpStats,
+        graph, BiocGenerics
+Imports: Biostrings
+Suggests: DO.db, Gviz, ggbio, rtracklayer
+Enhances: SNPlocs.Hsapiens.dbSNP.20111119, pd.genomewidesnp.6
+License: Artistic-2.0
+MD5sum: b081f2e226f531a5f552ff6e50bbc7cc
+NeedsCompilation: no
+
+Package: GWASTools
+Version: 1.8.0
+Depends: Biobase, ncdf, gdsfmt, sandwich
+Imports: methods, DBI, RSQLite, GWASExactHW, DNAcopy, survival, lmtest,
+        quantsmooth
+Suggests: GWASdata, BiocGenerics, RUnit, SNPRelate, snpStats,
+        VariantAnnotation
+License: Artistic-2.0
+MD5sum: 97179b12d515c562c09679b2b7929301
+NeedsCompilation: no
+
+Package: h5vc
+Version: 1.0.5
+Imports: rhdf5, ggplot2, reshape, bit64, IRanges, GenomicRanges,
+        Biostrings
+Suggests: knitr, locfit, deepSNV, BSgenome.Hsapiens.UCSC.hg19, h5vcData
+License: GPL (>= 3)
+MD5sum: 6abec7a8427fefcd6f320b23747001f1
+NeedsCompilation: no
+
+Package: hapFabia
+Version: 1.4.2
+Depends: R (>= 2.12.0), Biobase, fabia (>= 2.3.1)
+Imports: methods, graphics, grDevices, stats, utils, KernSmooth
+License: LGPL (>= 2.1)
+MD5sum: 8a9cdb8e984624340ddd922abd6b1092
+NeedsCompilation: yes
+
+Package: Harshlight
+Version: 1.34.0
+Depends: R (>= 2.10)
+Imports: affy, altcdfenvs, Biobase, stats, utils
+License: GPL (>= 2)
+MD5sum: 2c3dfadca0557774f8d4eee7de8cb759
+NeedsCompilation: yes
+
+Package: HCsnip
+Version: 1.2.0
+Depends: R(>= 2.10.0), survival, coin, fpc, clusterRepro, impute,
+        randomForestSRC, sm, sigaR, Biobase
+License: GPL (>= 2)
+MD5sum: 91c1edb87d7853f2e62cf2a471abb893
+NeedsCompilation: no
+
+Package: Heatplus
+Version: 2.8.0
+Imports: graphics, grDevices, stats
+Suggests: Biobase, hgu95av2.db, limma
+License: GPL (>= 2)
+MD5sum: 1008ae5836fed78a7c286a2b722079c7
+NeedsCompilation: no
+
+Package: HELP
+Version: 1.20.0
+Depends: R (>= 2.8.0), stats, graphics, grDevices, Biobase, methods
+License: GPL (>= 2)
+MD5sum: c1e99ce8047480558b7136f5f1d6d179
+NeedsCompilation: no
+
+Package: HEM
+Version: 1.34.0
+Depends: R (>= 2.1.0)
+Imports: Biobase, grDevices, stats, utils
+License: GPL (>= 2)
+MD5sum: 771734e2ff45028da69bb756893b66cb
+NeedsCompilation: yes
+
+Package: HilbertVis
+Version: 1.20.0
+Depends: R (>= 2.6.0), grid, lattice
+Suggests: IRanges, EBImage
+License: GPL (>= 3)
+MD5sum: dde69cd4cfcac618cfbe7faba6d01d3a
+NeedsCompilation: yes
+
+Package: HilbertVisGUI
+Version: 1.20.0
+Depends: R (>= 2.6.0), HilbertVis (>= 1.1.6)
+Suggests: lattice, IRanges
+License: GPL (>= 3)
+MD5sum: e2504157af791db8ed17f965906201f3
+NeedsCompilation: yes
+
+Package: HiTC
+Version: 1.6.0
+Depends: R (>= 2.15.0), methods, GenomicRanges, IRanges, Matrix,
+        RColorBrewer
+Imports: methods, Biobase, Biostrings, graphics, grDevices, rtracklayer
+Suggests: rtracklayer,BiocStyle
+License: Artistic-2.0
+MD5sum: fed0a676518af395187600065ff6becd
+NeedsCompilation: no
+
+Package: HMMcopy
+Version: 1.4.0
+Depends: R (>= 2.10.0), IRanges (>= 1.4.16), geneplotter (>= 1.24.0)
+License: GPL-3
+MD5sum: 4e90a70ef51040c113a50205236e8f39
+NeedsCompilation: yes
+
+Package: hopach
+Version: 2.22.0
+Depends: R (>= 2.11.0), cluster, Biobase, methods
+Imports: Biobase, cluster, graphics, grDevices, methods, stats, utils,
+        BiocGenerics
+License: GPL (>= 2)
+MD5sum: 473f591ceb9c818a461ac2eba59c6e9c
+NeedsCompilation: yes
+
+Package: hpar
+Version: 1.4.0
+Depends: R (>= 2.15)
+Suggests: org.Hs.eg.db, GO.db, knitr
+License: Artistic-2.0
+MD5sum: 3befafae0cf93b4f9f1d9248a1f32a80
+NeedsCompilation: no
+
+Package: HTqPCR
+Version: 1.16.0
+Depends: Biobase, RColorBrewer, limma
+Imports: affy, Biobase, gplots, graphics, grDevices, limma, methods,
+        RColorBrewer, stats, stats4, utils
+Suggests: statmod
+License: Artistic-2.0
+MD5sum: 335ebc98c793eaba1ba8d2aab8a77e00
+NeedsCompilation: no
+
+Package: HTSanalyzeR
+Version: 2.14.0
+Depends: R (>= 2.15), igraph, methods
+Imports: graph, igraph, GSEABase, BioNet, cellHTS2, AnnotationDbi,
+        biomaRt, RankProd
+Suggests: KEGG.db, GO.db, org.Dm.eg.db, GOstats, org.Ce.eg.db,
+        org.Mm.eg.db, org.Rn.eg.db, org.Hs.eg.db, snow
+License: Artistic-2.0
+MD5sum: 0858952be67ee531b3bc3412dbd3c85f
+NeedsCompilation: no
+
+Package: HTSeqGenie
+Version: 3.12.0
+Depends: R (>= 3.0.0), ShortRead (>= 1.14.4), parallel, BiocParallel,
+        hwriter, Cairo, tools, rtracklayer, gmapR (>= 1.1.10)
+Imports: BiocGenerics (>= 0.2.0), IRanges (>= 1.14.3), GenomicRanges
+        (>= 1.7.12), Rsamtools (>= 1.8.5), Biostrings (>= 2.24.1),
+        chipseq (>= 1.6.1), rtracklayer (>= 1.17.19), GenomicFeatures
+        (>= 1.9.31), VariantTools (>= 1.3.6), VariantAnnotation (>=
+        1.5.41)
+Suggests: TxDb.Hsapiens.UCSC.hg19.knownGene, GenomicFeatures,
+        LungCancerLines, org.Hs.eg.db
+License: Artistic-2.0
+MD5sum: f753dae4845be7ad634ab20a54cff03a
+NeedsCompilation: no
+
+Package: htSeqTools
+Version: 1.8.0
+Depends: R (>= 2.12.2), methods, BiocGenerics (>= 0.1.0), Biobase,
+        IRanges, methods, MASS, BSgenome, GenomicRanges
+Enhances: multicore
+License: GPL (>= 2)
+MD5sum: 4a81999d2917430b1365b0852eaf2f23
+NeedsCompilation: no
+
+Package: HTSFilter
+Version: 1.2.1
+Depends: methods, Biobase (>= 2.16.0), R (>= 2.10.0)
+Imports: DESeq (>= 1.8.3), edgeR (>= 2.6.12), DESeq2 (>= 1.2.8),
+        GenomicRanges, IRanges
+Suggests: EDASeq (>= 1.2.0)
+License: Artistic-2.0
+MD5sum: 133f501e252c40081a3c2bd9e2c80937
+NeedsCompilation: no
+
+Package: HybridMTest
+Version: 1.6.0
+Depends: R (>= 2.9.0), Biobase, fdrtool, MASS, survival
+Imports: stats
+License: GPL (>= 2)
+MD5sum: 230472846bc9c471e253f5542182318a
+NeedsCompilation: no
+
+Package: hyperdraw
+Version: 1.14.0
+Depends: R (>= 2.9.0), methods, grid, graph, hypergraph, Rgraphviz
+Imports: stats4
+License: GPL (>= 2)
+MD5sum: 5ba082f9a2e7a686d7c93c25f02e6358
+NeedsCompilation: no
+
+Package: hypergraph
+Version: 1.34.0
+Depends: R (>= 2.1.0), methods, graph
+License: Artistic-2.0
+MD5sum: 87eb072cdc797b50555829399a2bdf2f
+NeedsCompilation: no
+
+Package: iASeq
+Version: 1.6.0
+Depends: R (>= 2.14.1)
+Imports: graphics, grDevices
+License: GPL-2
+MD5sum: 16097d6fba099ceb15739d6caf41fc77
+NeedsCompilation: no
+
+Package: iBBiG
+Version: 1.6.0
+Depends: biclust
+Imports: stats4,xtable,ade4
+Suggests: methods
+License: Artistic-2.0
+MD5sum: dfd8d97c2916218ece83c45b4c87dcfe
+NeedsCompilation: yes
+
+Package: ibh
+Version: 1.10.0
+Depends: simpIntLists
+Suggests: yeastCC, stats
+License: GPL (>= 2)
+MD5sum: 83daafab5527c484f586cff6193b7ce6
+NeedsCompilation: no
+
+Package: iBMQ
+Version: 1.2.0
+Depends: R(>= 2.15.0),Biobase (>= 2.16.0), ggplot2 (>= 0.9.2)
+License: Artistic-2.0
+MD5sum: 07725a229350032a83c58650d4f068d0
+NeedsCompilation: yes
+
+Package: Icens
+Version: 1.34.0
+Depends: survival
+Imports: graphics
+License: Artistic-2.0
+MD5sum: f43ac0c84159ae0887d00712a312cf42
+NeedsCompilation: no
+
+Package: iChip
+Version: 1.16.0
+Depends: R (>= 2.10.0)
+Imports: limma
+License: GPL (>= 2)
+MD5sum: 2be2f2d2c7832014c839f82acde2e778
+NeedsCompilation: yes
+
+Package: idiogram
+Version: 1.38.0
+Depends: R (>= 2.10), methods, Biobase, annotate, plotrix
+Suggests: hu6800.db, hgu95av2.db, golubEsets
+License: GPL-2
+MD5sum: 37f7215dd9a514fab1257e74bd85182e
+NeedsCompilation: no
+
+Package: IdMappingAnalysis
+Version: 1.6.0
+Depends: R (>= 2.14), R.oo (>= 1.13.0), rChoiceDialogs
+Imports: boot, mclust, RColorBrewer, Biobase
+License: GPL-2
+MD5sum: 0bff1a0c15ae95c0bb7b5e8bacfa13ce
+NeedsCompilation: no
+
+Package: IdMappingRetrieval
+Version: 1.8.0
+Depends: R.oo, XML, RCurl, rChoiceDialogs, ENVISIONQuery
+Imports: biomaRt, ENVISIONQuery, DAVIDQuery, AffyCompatible,
+        R.methodsS3, R.oo, utils
+License: GPL-2
+MD5sum: dd2b555a5b3bf516368c46215612bf86
+NeedsCompilation: no
+
+Package: illuminaio
+Version: 0.4.0
+Imports: base64
+Suggests: RUnit, BiocGenerics, IlluminaDataTestFiles, BiocStyle
+License: GPL-2
+MD5sum: 4c26632da0151b00c98b7090e8b7ab61
+NeedsCompilation: yes
+
+Package: imageHTS
+Version: 1.12.0
+Depends: R (>= 2.9.0), EBImage (>= 4.3.12), cellHTS2 (>= 2.10.0)
+Imports: tools, Biobase, hwriter, methods, vsn, stats, utils, e1071
+Suggests: BiocStyle, MASS
+License: LGPL-2.1
+MD5sum: 26ae92615f2226d86a3755d56f65e16e
+NeedsCompilation: no
+
+Package: impute
+Version: 1.36.0
+Depends: R (>= 2.10)
+License: GPL-2
+MD5sum: 1774a8507fe6ad7cbba0346c0c7dae30
+NeedsCompilation: yes
+
+Package: inSilicoDb
+Version: 1.10.0
+Depends: R (>= 2.11.0), rjson, Biobase
+Imports: RCurl
+Suggests: limma
+License: GPL-2
+MD5sum: d0ce431c316db82dfab223d828c0cb4d
+NeedsCompilation: no
+
+Package: inSilicoMerging
+Version: 1.6.0
+Depends: R (>= 2.11.1), Biobase, DWD
+Suggests: BiocGenerics, inSilicoDb
+License: GPL-2
+MD5sum: 44955bd28c2df435d4ba61a3d94cd2d0
+NeedsCompilation: no
+
+Package: intansv
+Version: 1.1.2
+Depends: R (>= 2.14.0), plyr, ggbio, GenomicRanges
+Imports: BiocGenerics, IRanges
+License: Artistic-2.0
+MD5sum: 20913ee2e2c878ee9f6f174e266eab33
+NeedsCompilation: no
+
+Package: interactiveDisplay
+Version: 1.0.8
+Depends: R (>= 2.10), methods, BiocGenerics, grid
+Imports: shiny, GenomicRanges, Gviz, RColorBrewer, ggplot2, reshape2,
+        rtracklayer, GO.db, plyr, gridSVG, XML
+Suggests: RUnit, hgu95av2.db, knitr
+License: Artistic-2.0
+MD5sum: 9af80c48e4b6a6d05d61873c42ba406b
+NeedsCompilation: no
+
+Package: inveRsion
+Version: 1.10.0
+Depends: methods, haplo.stats
+Imports: graphics, methods, utils
+License: GPL (>= 2)
+MD5sum: eb59b13526b732c6675f46216bc05a4d
+NeedsCompilation: yes
+
+Package: iontree
+Version: 1.8.0
+Depends: methods, rJava, RSQLite, XML
+Suggests: iontreeData
+License: GPL-2
+MD5sum: 0d4801931425e658b4de12bb5ef648d4
+NeedsCompilation: no
+
+Package: iPAC
+Version: 1.6.0
+Depends: R(>= 2.15),gdata, scatterplot3d, Biostrings, multtest
+License: GPL-2
+MD5sum: adb2f8ce59f7770760bee80fe2aa0beb
+NeedsCompilation: no
+
+Package: IPPD
+Version: 1.10.0
+Depends: R (>= 2.12.0), MASS, Matrix, XML, digest, bitops
+Imports: methods, stats, graphics
+License: GPL (>= 2)
+MD5sum: 5b163900123662a782f00fe364d1866a
+NeedsCompilation: yes
+
+Package: IRanges
+Version: 1.20.6
+Depends: R (>= 2.8.0), methods, utils, stats, BiocGenerics (>= 0.7.7)
+Imports: methods, utils, stats, BiocGenerics, stats4
+Suggests: XVector, GenomicRanges, BSgenome.Celegans.UCSC.ce2, RUnit
+License: Artistic-2.0
+MD5sum: 4aa479a111bb6784b283ea56cde79012
+NeedsCompilation: yes
+
+Package: iSeq
+Version: 1.14.0
+Depends: R (>= 2.10.0)
+License: GPL (>= 2)
+MD5sum: ad010bbdfce74a9bc61a46c63a20c635
+NeedsCompilation: yes
+
+Package: isobar
+Version: 1.8.1
+Depends: R (>= 2.10.0), Biobase, stats, methods, plyr
+Imports: distr
+Suggests: MSnbase, OrgMassSpecR, XML, biomaRt, ggplot2, RJSONIO, Hmisc,
+        gplots, RColorBrewer, gridExtra, limma, boot, distr
+License: LGPL-2
+MD5sum: 0b307458c9db5bc87ce86c9be48aedfd
+NeedsCompilation: no
+
+Package: IsoGeneGUI
+Version: 1.18.0
+Depends: tcltk, tkrplot, IsoGene
+Imports: multtest, relimp, WriteXLS,gdata, RColorBrewer, geneplotter
+Suggests: RUnit
+License: GPL-2
+MD5sum: 1f3d838dd5e2fc88ff96647b743e9d8b
+NeedsCompilation: no
+
+Package: ITALICS
+Version: 2.22.0
+Depends: R (>= 2.0.0), GLAD, ITALICSData, oligo, affxparser,
+        pd.mapping50k.xba240
+Imports: affxparser, DBI, GLAD, oligo, oligoClasses, stats
+Suggests: pd.mapping50k.hind240, pd.mapping250k.sty, pd.mapping250k.nsp
+License: GPL-2
+MD5sum: adb169c03abbb5d90ecd78f7a8e72356
+NeedsCompilation: no
+
+Package: iterativeBMA
+Version: 1.20.0
+Depends: BMA, leaps, Biobase (>= 2.5.5)
+License: GPL (>= 2)
+MD5sum: 15bb1278d911f53b05799ef547c64c1b
+NeedsCompilation: no
+
+Package: iterativeBMAsurv
+Version: 1.20.0
+Depends: BMA, leaps, survival, splines
+Imports: graphics, grDevices, stats, survival, utils
+License: GPL (>= 2)
+MD5sum: 596739f8e69257eeb521586180b1540f
+NeedsCompilation: no
+
+Package: jmosaics
+Version: 1.2.0
+Depends: R (>= 2.15.2), mosaics
+License: GPL (>= 2)
+MD5sum: a569d7b77c30148d849390e7997fe437
+NeedsCompilation: no
+
+Package: joda
+Version: 1.10.0
+Depends: R (>= 2.0), bgmm, RBGL
+License: GPL (>= 2)
+MD5sum: 42e6359cdd77cf205e82f4b79e46d895
+NeedsCompilation: no
+
+Package: KCsmart
+Version: 2.20.0
+Depends: siggenes, multtest, KernSmooth
+Imports: methods, BiocGenerics
+Enhances: Biobase, CGHbase
+License: GPL-3
+MD5sum: d6e1b2c599e9fede81bde77706b2fc54
+NeedsCompilation: no
+
+Package: KEGGgraph
+Version: 1.20.0
+Depends: R (>= 2.10), methods, XML (>= 2.3-0), graph
+Imports: methods, XML, graph
+Suggests: Rgraphviz, RBGL, RUnit, RColorBrewer, KEGG.db, org.Hs.eg.db,
+        hgu133plus2.db, SPIA
+License: GPL (>= 2)
+MD5sum: fb7af5e332534bff50c556e94dee1ef8
+NeedsCompilation: no
+
+Package: keggorthology
+Version: 2.14.0
+Depends: R (>= 2.5.0),stats,graph,hgu95av2.db
+Imports: AnnotationDbi,graph,DBI, graph, grDevices, methods, stats,
+        tools, utils
+Suggests: RBGL,ALL
+License: Artistic-2.0
+MD5sum: 3ac0e9fcad41e237f3f3ca5d265d6fca
+NeedsCompilation: no
+
+Package: KEGGprofile
+Version: 1.4.0
+Depends: XML, png, TeachingDemos, KEGG.db
+Imports: AnnotationDbi
+License: GPL (>= 2)
+MD5sum: d3d6ca0b2a4612fcab7ef087e2142a19
+NeedsCompilation: no
+
+Package: KEGGREST
+Version: 1.2.0
+Imports: methods, httr, png, Biostrings
+Suggests: RUnit, BiocGenerics, knitr
+License: Artistic-2.0
+MD5sum: 63e503e6dd5425e9bb7dbfadf0647950
+NeedsCompilation: no
+
+Package: lapmix
+Version: 1.28.0
+Depends: R (>= 2.6.0),stats
+Imports: Biobase, graphics, grDevices, methods, stats, tools, utils
+License: GPL (>= 2)
+MD5sum: f996a75e4380e33909c4a6d0e4ca3f3c
+NeedsCompilation: no
+
+Package: LBE
+Version: 1.30.0
+Depends: stats
+Imports: graphics, grDevices, methods, stats, utils
+Suggests: qvalue
+License: GPL-2
+MD5sum: f97fee21916c73083e31be98333a7b46
+NeedsCompilation: no
+
+Package: les
+Version: 1.12.0
+Depends: R (>= 2.13.2), methods, graphics, fdrtool
+Imports: boot, gplots, RColorBrewer
+Suggests: Biobase, limma
+Enhances: parallel
+License: GPL-3
+MD5sum: 716d6e20377fadd4af9c1ab50a944b5b
+NeedsCompilation: no
+
+Package: limma
+Version: 3.18.7
+Depends: R (>= 2.3.0), methods
+Suggests: statmod (>= 1.2.2), splines, locfit, MASS, ellipse, affy,
+        vsn, AnnotationDbi, org.Hs.eg.db
+License: GPL (>= 2)
+MD5sum: 2a7f55a789439646c833a6124c1ff57c
+NeedsCompilation: yes
+
+Package: limmaGUI
+Version: 1.38.0
+Depends: limma, tcltk
+Suggests: statmod, R2HTML, xtable, tkrplot
+License: LGPL
+MD5sum: 50630ab8cfe8a8e8e4a273e85a53be24
+NeedsCompilation: no
+
+Package: LiquidAssociation
+Version: 1.16.0
+Depends: geepack, methods, yeastCC, org.Sc.sgd.db
+Imports: Biobase, graphics, grDevices, methods, stats
+License: GPL (>= 3)
+MD5sum: edc6c16c0734e10450f01b867c07a4ad
+NeedsCompilation: no
+
+Package: lmdme
+Version: 1.4.0
+Depends: R (>= 2.14.1), methods, limma, pls, stemHypoxia
+Imports: stats
+Enhances: parallel
+License: GPL (>= 2)
+MD5sum: e3efa912ad39459687ded580b0882db3
+NeedsCompilation: no
+
+Package: LMGene
+Version: 2.18.0
+Depends: R (>= 2.10.0), Biobase (>= 2.5.5), multtest, survival, affy
+Suggests: affydata
+License: LGPL
+MD5sum: b2f7614c10a67a0ccf535bc41bb1eebd
+NeedsCompilation: no
+
+Package: logicFS
+Version: 1.32.0
+Depends: LogicReg, mcbiopi
+Suggests: genefilter, siggenes
+License: LGPL (>= 2)
+MD5sum: cfe32b6e6d67ef42b1f57b8d826af231
+NeedsCompilation: no
+
+Package: logitT
+Version: 1.20.0
+Depends: affy
+Suggests: SpikeInSubset
+License: GPL (>= 2)
+MD5sum: 27926b7c6bb235d863d753c94d3bb713
+NeedsCompilation: yes
+
+Package: lol
+Version: 1.10.0
+Depends: penalized, Matrix
+Imports: Matrix, penalized, graphics, grDevices, stats
+License: GPL-2
+MD5sum: c451032c54eb9f8f3d698509a8abcff1
+NeedsCompilation: no
+
+Package: LPE
+Version: 1.36.0
+Depends: R (>= 2.10)
+Imports: stats
+License: LGPL
+MD5sum: df6992233c1d8f48fc8b8598845eaa1a
+NeedsCompilation: no
+
+Package: LPEadj
+Version: 1.22.0
+Depends: LPE
+Imports: LPE, stats
+License: LGPL
+MD5sum: 8e2d57fa153d63a845ed11cb1e911a70
+NeedsCompilation: no
+
+Package: lpNet
+Version: 1.2.0
+Depends: lpSolve, nem
+License: Artistic License 2.0
+MD5sum: 949d7ed9b7ec2b9293b64b91146451e6
+NeedsCompilation: no
+
+Package: lumi
+Version: 2.14.1
+Depends: R (>= 2.10), Biobase (>= 2.5.5)
+Imports: affy (>= 1.23.4), methylumi (>= 2.3.2), GenomicFeatures,
+        GenomicRanges, annotate, Biobase (>= 2.5.5), lattice, mgcv (>=
+        1.4-0), nleqslv, KernSmooth, preprocessCore, RSQLite, DBI,
+        AnnotationDbi, MASS, graphics, stats, stats4, methods
+Suggests: beadarray, limma, vsn, lumiBarnes, lumiHumanAll.db,
+        lumiHumanIDMapping, genefilter, RColorBrewer
+License: LGPL (>= 2)
+MD5sum: 3234691e9102c40ad70d2f2e603543dc
+NeedsCompilation: no
+
+Package: LVSmiRNA
+Version: 1.12.0
+Depends: R (>= 2.10), Biobase,quantreg,splines,MASS,limma,affy,methods,
+        SparseM, vsn
+Imports: BiocGenerics, stats4
+Enhances: parallel,snow, Rmpi
+License: GPL-2
+MD5sum: 7354450293d5b908999eacf12c90aa21
+NeedsCompilation: yes
+
+Package: maanova
+Version: 1.32.0
+Depends: R (>= 2.10)
+Imports: Biobase, graphics, grDevices, methods, stats, utils
+Suggests: qvalue, snow
+Enhances: Rmpi
+License: GPL (>= 2)
+MD5sum: 89af6091eecfcf7843c09d92897a122f
+NeedsCompilation: yes
+
+Package: macat
+Version: 1.36.0
+Depends: Biobase, annotate
+Suggests: hgu95av2.db, stjudem
+License: Artistic-2.0
+MD5sum: 25c1dc0de3fdaef4f7ca5c26ca83b455
+NeedsCompilation: no
+
+Package: maCorrPlot
+Version: 1.32.0
+Depends: lattice
+Imports: graphics, grDevices, lattice, stats
+License: GPL (>= 2)
+MD5sum: bd7b0c64857b79afdad7a079fcaca0dc
+NeedsCompilation: no
+
+Package: maDB
+Version: 1.34.0
+Depends: R (>= 2.6.0), Biobase (>= 2.5.5), affy (>= 1.23.4), pgUtils
+        (>= 1.23.2), limma (>= 1.8.0), methods
+Suggests: annaffy (>= 1.6.2), biomaRt (>= 1.8.2), geneplotter
+License: LGPL (>= 2)
+MD5sum: bef9a5636fca0df34852d3ef15e7ad2e
+NeedsCompilation: no
+
+Package: made4
+Version: 1.36.0
+Depends: ade4, RColorBrewer,gplots,scatterplot3d
+Suggests: affy
+License: Artistic-2.0
+MD5sum: 4f481dd147fc967e6e0796881052c841
+NeedsCompilation: no
+
+Package: maigesPack
+Version: 1.26.0
+Depends: R (>= 2.10), convert, graph, limma, marray, methods
+Suggests: amap, annotate, class, e1071, MASS, multtest, OLIN, R2HTML,
+        rgl, som
+License: GPL (>= 2)
+MD5sum: bb35259c517a9e50856d5242deae6d5d
+NeedsCompilation: yes
+
+Package: makecdfenv
+Version: 1.38.0
+Depends: R (>= 2.6.0), methods, affyio
+Imports: Biobase, affy, methods, stats, utils, zlibbioc
+License: GPL (>= 2)
+MD5sum: 3f2338fe3351eaa7d8a86faa5223de0c
+NeedsCompilation: yes
+
+Package: MANOR
+Version: 1.34.0
+Depends: R (>= 2.10), GLAD
+Imports: GLAD, graphics, grDevices, stats, utils
+License: GPL-2
+MD5sum: 189e96b524ead76a44764b71d85e3fd9
+NeedsCompilation: yes
+
+Package: manta
+Version: 1.8.0
+Depends: R (>= 1.8.0), methods, edgeR (>= 2.5.13)
+Imports: Hmisc, caroline(>= 0.6.6)
+Suggests: RSQLite, plotrix
+License: Artistic-2.0
+MD5sum: 70c4dfaa9f2357d641666f73e7b269b1
+NeedsCompilation: no
+
+Package: MantelCorr
+Version: 1.32.0
+Depends: R (>= 2.10)
+Imports: stats
+License: GPL (>= 2)
+MD5sum: 3354b9f55158cd912b72bb8ffe9676ad
+NeedsCompilation: no
+
+Package: maPredictDSC
+Version: 1.0.0
+Depends: R (>= 2.15.0),
+        MASS,affy,limma,gcrma,ROC,class,e1071,caret,hgu133plus2.db,ROCR,AnnotationDbi,LungCancerACvsSCCGEO
+Suggests: parallel
+License: GPL-2
+MD5sum: 989c1dea144f5cfa2786ba982a691e12
+NeedsCompilation: no
+
+Package: marray
+Version: 1.40.0
+Depends: R (>= 2.10.0), limma, methods
+Suggests: tkWidgets
+License: LGPL
+MD5sum: c82aa82073cdbc4cfb4839fb196d5082
+NeedsCompilation: no
+
+Package: maSigPro
+Version: 1.34.0
+Depends: R (>= 2.3.1), stats, Biobase, MASS
+Imports: Biobase, graphics, grDevices, limma, Mfuzz, stats, utils, MASS
+License: GPL (>= 2)
+MD5sum: 6930d6adcb2b6ccd74001473c7ed67df
+NeedsCompilation: no
+
+Package: maskBAD
+Version: 1.6.0
+Depends: R (>= 2.10), gcrma (>= 2.27.1), affy
+Suggests: hgu95av2probe
+License: GPL (>= 2)
+MD5sum: 0ca6249694ba3494e2d35bb6ce4d4714
+NeedsCompilation: no
+
+Package: MassArray
+Version: 1.14.0
+Depends: R (>= 2.10.0), methods
+Imports: graphics, grDevices, methods, stats, utils
+License: GPL (>= 2)
+MD5sum: b924cc524ba82f85f484afb0103e34e9
+NeedsCompilation: no
+
+Package: MassSpecWavelet
+Version: 1.28.0
+Depends: waveslim
+Suggests: xcms, caTools
+License: LGPL (>= 2)
+MD5sum: 7ddd1dfe0db276f2c87a00655d05c1fb
+NeedsCompilation: yes
+
+Package: matchBox
+Version: 1.4.0
+Depends: R (>= 2.8.0)
+License: Artistic-2.0
+MD5sum: 15b20c1228682759e9565c094b7a6c0e
+NeedsCompilation: no
+
+Package: MBCB
+Version: 1.16.0
+Depends: R (>= 2.9.0), tcltk, tcltk2
+Imports: preprocessCore, stats, utils
+License: GPL (>= 2)
+MD5sum: 1a7791662622fa5e41e7fe5aa9ed3801
+NeedsCompilation: no
+
+Package: mBPCR
+Version: 1.16.0
+Depends: oligoClasses, SNPchip
+Imports: Biobase
+Suggests: xtable
+License: GPL (>= 2)
+MD5sum: 907de5434aee3987489ecfbd82583b85
+NeedsCompilation: no
+
+Package: mcaGUI
+Version: 1.10.0
+Depends: lattice, MASS, proto, foreign, gWidgets(>= 0.0-36),
+        gWidgetsRGtk2(>= 0.0-53), OTUbase, vegan, bpca
+Enhances: iplots, reshape, ggplot2, cairoDevice, OTUbase
+License: GPL (>= 2)
+MD5sum: 7e5c4183a2e25ececc1d1adb609ceec5
+NeedsCompilation: no
+
+Package: MCRestimate
+Version: 2.18.0
+Depends: R (>= 2.7.2), golubEsets (>= 1.4.6)
+Imports: e1071 (>= 1.5-12), pamr (>= 1.22), randomForest (>= 3.9-6),
+        RColorBrewer (>= 0.1-3), Biobase (>= 2.5.5), graphics,
+        grDevices, stats, utils
+Suggests: xtable (>= 1.2-1), ROC (>= 1.8.0), genefilter (>= 1.12.0),
+        gpls (>= 1.6.0)
+License: GPL (>= 2)
+MD5sum: df3eda8e6be049539f7ac42596790b03
+NeedsCompilation: no
+
+Package: mdqc
+Version: 1.24.0
+Depends: R (>= 2.2.1), cluster, MASS
+License: LGPL (>= 2)
+MD5sum: 45bb701a55de42aa2c5ca6c7659ca25d
+NeedsCompilation: no
+
+Package: MeasurementError.cor
+Version: 1.34.0
+License: LGPL
+MD5sum: bcf5b802bb68b61e9671a930d9743a60
+NeedsCompilation: no
+
+Package: MEDIPS
+Version: 1.12.0
+Depends: R (>= 3.0), BSgenome, DNAcopy
+Imports: Biostrings, BSgenome, Rsamtools, graphics, gtools, IRanges,
+        methods, stats, utils, GenomicRanges, edgeR, GenomicFeatures,
+        DNAcopy, biomaRt, rtracklayer
+Suggests: BSgenome, BSgenome.Hsapiens.UCSC.hg19, MEDIPSData
+License: GPL (>= 2)
+MD5sum: ffdd00362364cd294fee6a6828fc25e2
+NeedsCompilation: no
+
+Package: MEDME
+Version: 1.22.0
+Depends: R (>= 2.15), grDevices, graphics, methods, stats, utils
+Imports: Biostrings, MASS, drc
+Suggests: BSgenome.Hsapiens.UCSC.hg18, BSgenome.Mmusculus.UCSC.mm9
+License: GPL (>= 2)
+MD5sum: cd435185ec922553146c3cb352368be6
+NeedsCompilation: yes
+
+Package: MergeMaid
+Version: 2.34.0
+Depends: R (>= 2.10.0), survival, Biobase, MASS, methods
+License: GPL (>= 2)
+MD5sum: c736e21bae8ec6b2a3e8b1e24c7bc509
+NeedsCompilation: no
+
+Package: metaArray
+Version: 1.40.0
+Imports: Biobase, MergeMaid, graphics, stats
+License: LGPL-2
+MD5sum: 4eb6d61a5bd40ed275bda9e67ce83ddf
+NeedsCompilation: yes
+
+Package: metagenomeSeq
+Version: 1.4.0
+Depends: R(>= 3.0), Biobase, limma, matrixStats, methods, RColorBrewer,
+        gplots
+Suggests: annotate, knitr
+License: Artistic-2.0
+MD5sum: 7d075e15d4faeda2ca09faa217e9d9b3
+NeedsCompilation: no
+
+Package: metahdep
+Version: 1.20.0
+Depends: R (>= 2.10), methods
+Suggests: affyPLM
+License: GPL-3
+MD5sum: 16a60b982532ab5adb3858d6872cb0dd
+NeedsCompilation: yes
+
+Package: metaSeq
+Version: 1.2.2
+Depends: R (>= 2.13.0), NOISeq, snow
+License: Artistic-2.0
+MD5sum: 0bfb2ae672ed8fa6e019647ea527f697
+NeedsCompilation: no
+
+Package: methVisual
+Version: 1.14.0
+Depends: R (>= 2.11.0), Biostrings(>= 2.4.8), plotrix,gsubfn,
+        grid,sqldf
+Imports: Biostrings, ca, graphics, grDevices, grid, gridBase, IRanges,
+        stats, utils
+License: GPL (>= 2)
+MD5sum: 676eec8464fd41f7c765b4724f0a020a
+NeedsCompilation: no
+
+Package: methyAnalysis
+Version: 1.4.1
+Depends: R (>= 2.10), grid, IRanges, GenomicRanges, Biobase (>= 2.5.5),
+        org.Hs.eg.db
+Imports: lumi, methylumi, Gviz, genoset, GenomicRanges, IRanges,
+        rtracklayer, GenomicFeatures, annotate, Biobase (>= 2.5.5),
+        AnnotationDbi, genefilter, biomaRt, methods
+Suggests: FDb.InfiniumMethylation.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene
+License: Artistic-2.0
+MD5sum: 34377a366bb7950fa4a1daf0c0d303a0
+NeedsCompilation: no
+
+Package: methylMnM
+Version: 1.0.0
+Depends: R (>= 2.12.1), edgeR, statmod
+License: GPL-3
+MD5sum: 7c9f2672248fd7e80f4bdbb6fbba0549
+NeedsCompilation: yes
+
+Package: MethylSeekR
+Version: 1.2.1
+Depends: rtracklayer (>= 1.16.3), parallel (>= 2.15.1), mhsmm (>=
+        0.4.4)
+Imports: IRanges (>= 1.16.3), BSgenome (>= 1.26.1), GenomicRanges (>=
+        1.10.5), geneplotter (>= 1.34.0), graphics (>= 2.15.2),
+        grDevices (>= 2.15.2), parallel (>= 2.15.2), stats (>= 2.15.2),
+        utils (>= 2.15.2)
+Suggests: BSgenome.Hsapiens.UCSC.hg18
+License: GPL (>= 2)
+MD5sum: 663c9912bece6c69e3b2d1a5dd7ce0cd
+NeedsCompilation: no
+
+Package: methylumi
+Version: 2.8.0
+Depends: Biobase, methods, R (>= 2.13), scales, reshape2, ggplot2,
+        matrixStats
+Imports: Biobase, graphics, lattice, annotate, genefilter,
+        AnnotationDbi, minfi, stats4, BiocGenerics
+Suggests: lumi, lattice, limma, xtable, IlluminaHumanMethylation27k.db
+        (>= 1.4.4), IlluminaHumanMethylation450k.db, SQN,
+        GenomicRanges, MASS, matrixStats, parallel, rtracklayer,
+        Biostrings, methyAnalysis, FDb.InfiniumMethylation.hg19
+License: GPL-2
+MD5sum: 9dc8ec21b8aa9f4834a946822f79e643
+NeedsCompilation: no
+
+Package: Mfuzz
+Version: 2.20.0
+Depends: R (>= 2.5.0), Biobase (>= 2.5.5), e1071
+Imports: tcltk, tkWidgets
+Suggests: marray
+License: GPL-2
+MD5sum: aa3e56308dd75753b2a66cc8c2319f38
+NeedsCompilation: no
+
+Package: mgsa
+Version: 1.10.0
+Depends: R (>= 2.14.0), methods, gplots
+Imports: graphics, stats, utils
+Suggests: DBI, RSQLite, GO.db
+License: Artistic-2.0
+MD5sum: ce4f4af8a20577a18f2cda647a01f430
+NeedsCompilation: yes
+
+Package: MiChip
+Version: 1.16.0
+Depends: R (>= 2.3.0), Biobase
+Imports: Biobase
+License: GPL (>= 2)
+MD5sum: e21c867126e3d34a4fbf1e143946c69d
+NeedsCompilation: no
+
+Package: microRNA
+Version: 1.20.0
+Depends: R (>= 2.10)
+Imports: Biostrings (>= 2.11.32)
+Suggests: Biostrings (>= 2.11.32)
+Enhances: Rlibstree
+License: Artistic-2.0
+MD5sum: fc9647dd7794e6f5adf15100a7eb4ec4
+NeedsCompilation: no
+
+Package: MineICA
+Version: 1.2.2
+Depends: R (>= 2.10), Biobase, plyr, ggplot2, scales, foreach, xtable,
+        biomaRt, gtools, GOstats, cluster, marray, mclust,
+        RColorBrewer, colorspace, igraph, Rgraphviz, graph, annotate,
+        Hmisc, fastICA, JADE, methods
+Imports: AnnotationDbi, lumi, fpc, lumiHumanAll.db
+Suggests: biomaRt, GOstats, cluster, hgu133a.db, mclust, igraph,
+        breastCancerMAINZ, breastCancerTRANSBIG, breastCancerUPP,
+        breastCancerVDX
+Enhances: doMC
+License: GPL-2
+MD5sum: 119321ecd43ac1922b8bf3db76aeb14e
+NeedsCompilation: no
+
+Package: minet
+Version: 3.16.0
+Depends: infotheo
+License: CC BY-NC-SA 3.0
+MD5sum: 6f23d1796614099ffe13e157b0cf5e05
+NeedsCompilation: yes
+
+Package: minfi
+Version: 1.8.9
+Depends: methods, BiocGenerics (>= 0.3.2), Biobase (>= 2.17.8),
+        lattice, reshape, GenomicRanges, Biostrings, utils, bumphunter
+        (>= 1.1.9)
+Imports: IRanges, beanplot, RColorBrewer, nor1mix, siggenes, limma,
+        preprocessCore, illuminaio, matrixStats, mclust, genefilter,
+        nlme
+Suggests: IlluminaHumanMethylation450kmanifest (>= 0.2.0),
+        IlluminaHumanMethylation450kanno.ilmn12.hg19, minfiData (>=
+        0.4.1), quadprog, FlowSorted.Blood.450k (>= 1.0.1), RUnit,
+        digest
+License: Artistic-2.0
+MD5sum: a6483d427a80a1af21b73f8e6b5a1537
+NeedsCompilation: no
+
+Package: MinimumDistance
+Version: 1.6.0
+Depends: R (>= 2.14), BiocGenerics (>= 0.3.2), IRanges (>= 1.13.30)
+Imports: methods, DNAcopy, utils, msm, lattice, BiocGenerics,
+        VanillaICE (>= 1.21.24), ff, Biobase (>= 2.17.8), foreach,
+        oligoClasses (>= 1.21.12), GenomicRanges, matrixStats
+Suggests: human610quadv1bCrlmm (>= 1.0.3), SNPchip, RUnit
+Enhances: snow, doSNOW
+License: Artistic-2.0
+MD5sum: 0145be1e5b981bc936da3716f590dbcf
+NeedsCompilation: no
+
+Package: MiPP
+Version: 1.34.0
+Depends: R (>= 2.4)
+Imports: Biobase, e1071, MASS, stats
+License: GPL (>= 2)
+MD5sum: be8470fdb180ab0e6464bd204cd07111
+NeedsCompilation: no
+
+Package: MiRaGE
+Version: 1.4.0
+Depends: R (>= 2.12.1), Biobase(>= 2.16.0)
+Imports: AnnotationDbi, BiocGenerics
+Suggests: seqinr (>= 3.0.3), biomaRt (>= 2.6.0), GenomicFeatures (>=
+        1.8.1), Biostrings (>= 2.24.1), BSgenome.Hsapiens.UCSC.hg19,
+        BSgenome.Mmusculus.UCSC.mm9, miRNATarget, humanStemCell,
+        IRanges , GenomicRanges (>= 1.8.3), BSgenome,
+        beadarrayExampleData
+License: GPL
+MD5sum: b39cbce34fb21e950f758c95d63d707c
+NeedsCompilation: no
+
+Package: miRNApath
+Version: 1.22.0
+Depends: methods, R(>= 2.7.0)
+License: LGPL-2.1
+MD5sum: 56918b6026cad47689b5fc6fb7647098
+NeedsCompilation: no
+
+Package: mitoODE
+Version: 1.0.0
+Depends: R (>= 2.14.0), minpack.lm, MASS, parallel, mitoODEdata,
+        KernSmooth
+License: LGPL
+MD5sum: 2cdb634230aae59d97ad1991f48c3ebf
+NeedsCompilation: yes
+
+Package: MLInterfaces
+Version: 1.42.0
+Depends: R (>= 2.9), Biobase, MASS, methods, genefilter, rpart, rda,
+        annotate, cluster, sfsmisc
+Imports: mboost, gdata, pls
+Suggests: class, e1071, ipred, randomForest, gpls, pamr, rpart, MASS,
+        nnet, ALL, gbm, mlbench, hgu95av2.db, som, RColorBrewer,
+        hu6800.db, lattice, caret (>= 5.07), golubEsets, ada,
+        keggorthology, kernlab, gbm, mboost, sfsmisc, party
+Enhances: parallel
+License: LGPL
+MD5sum: 29992d2d8641defd5c471e6a95c09d01
+NeedsCompilation: no
+
+Package: MLP
+Version: 1.10.0
+Depends: AnnotationDbi, affy, plotrix, gplots, gmodels, gdata, gtools
+Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db, org.Rn.eg.db,
+        org.Cf.eg.db, KEGG.db, annotate, Rgraphviz, GOstats, limma,
+        mouse4302.db, reactome.db
+License: GPL-3
+MD5sum: 6a072fa0ce939b0e5591dbf3247d9cc7
+NeedsCompilation: no
+
+Package: MMDiff
+Version: 1.2.0
+Depends: R (>= 2.14.0),GenomicRanges,parallel,DiffBind,GMD,Rsamtools
+Imports: GenomicRanges,IRanges
+Suggests: MMDiffBamSubset
+License: Artistic-2.0
+MD5sum: 6bba1dd1b9db356f28eb7e481a713696
+NeedsCompilation: no
+
+Package: MmPalateMiRNA
+Version: 1.12.0
+Depends: R (>= 2.13.0), methods, Biobase, xtable, limma, statmod,
+        lattice, vsn
+Imports: limma, lattice, Biobase
+Suggests: GOstats, graph, Category, org.Mm.eg.db, microRNA,
+        targetscan.Mm.eg.db, RSQLite, DBI, AnnotationDbi, clValid,
+        class, cluster, multtest, RColorBrewer, latticeExtra
+License: GPL-3
+MD5sum: 9db37b2c04e5b169f60df6044bcd9acd
+NeedsCompilation: no
+
+Package: mosaics
+Version: 1.10.0
+Depends: R (>= 2.11.1), methods, graphics, Rcpp
+Imports: MASS, splines, lattice, IRanges
+LinkingTo: Rcpp
+Suggests: mosaicsExample
+Enhances: parallel
+License: GPL (>= 2)
+MD5sum: 8db3b98896abfb4c318dce8dbaec1439
+NeedsCompilation: yes
+
+Package: MotifDb
+Version: 1.4.0
+Depends: R (>= 2.15.0), methods, IRanges, Biostrings
+Imports: BiocGenerics, rtracklayer
+Suggests: RUnit, MotIV, seqLogo
+License: Artistic-2.0 | file LICENSE
+License_is_FOSS: no
+License_restricts_use: yes
+MD5sum: d3fda3c5a974793358b2a13f56bae991
+NeedsCompilation: no
+
+Package: motifRG
+Version: 1.6.0
+Depends: R (>= 2.15), Biostrings (>= 2.26), IRanges, seqLogo, parallel,
+        methods, grid, graphics, BSgenome, XVector,
+        BSgenome.Hsapiens.UCSC.hg19
+Imports:
+        Biostrings,IRanges,seqLogo,parallel,methods,grid,graphics,XVector
+License: Artistic-2.0
+MD5sum: c2514227e288dd7dc519b80c35b94a10
+NeedsCompilation: no
+
+Package: motifStack
+Version: 1.6.4
+Depends: R (>= 2.15.1), methods, grImport, grid, MotIV, ade4
+Imports: XML
+Suggests: RUnit, BiocGenerics, MotifDb, RColorBrewer, BiocStyle
+License: GPL (>= 2)
+MD5sum: 57c001d35e95e8fcd67a1ad7337c2173
+NeedsCompilation: no
+
+Package: MotIV
+Version: 1.18.0
+Depends: R (>= 2.10), BiocGenerics (>= 0.1.0)
+Imports: graphics, grid, methods, BiocGenerics, IRanges (>= 1.13.5),
+        Biostrings (>= 1.24.0), lattice, rGADEM, stats, utils
+Suggests: rtracklayer
+License: GPL-2
+MD5sum: bd611f181a079b15cb2d8c1cbbf9e80d
+NeedsCompilation: yes
+
+Package: msmsEDA
+Version: 1.0.0
+Depends: R (>= 3.0.1), MSnbase
+Imports: MASS, gplots, RColorBrewer
+License: GPL-2
+MD5sum: 1044270c465951fedf3be156b1b7f528
+NeedsCompilation: no
+
+Package: msmsTests
+Version: 1.0.0
+Depends: R (>= 3.0.1), MSnbase, msmsEDA
+Imports: edgeR, qvalue
+License: GPL-2
+MD5sum: 95f71129668b1935262aca447722a080
+NeedsCompilation: no
+
+Package: MSnbase
+Version: 1.10.3
+Depends: R (>= 2.10), methods, BiocGenerics (>= 0.7.1), Biobase (>=
+        2.15.2), ggplot2, mzR
+Imports: plyr, IRanges, preprocessCore, vsn, grid, reshape2, stats4,
+        affy, impute
+Suggests: testthat, zoo, knitr (>= 1.1.0), rols, Rdisop, pRolocdata,
+        msdata
+Enhances: foreach, doMC, parallel
+License: Artistic-2.0
+MD5sum: f1938bd365d42cecdd350d3eb3a76b35
+NeedsCompilation: no
+
+Package: MSstats
+Version: 2.0.0
+Depends: R (>= 3.0), Rcpp, MSnbase
+Imports: lme4,marray,limma,gplots,ggplot2
+License: Artistic-2.0
+MD5sum: 17b519ec52b1b8ecaf23ba6c8aa80af6
+NeedsCompilation: no
+
+Package: Mulcom
+Version: 1.12.0
+Depends: R (>= 2.10), fields, Biobase
+Imports: graphics, grDevices, stats, methods
+License: GPL-2
+MD5sum: 3c244ce173d6c26953abd61c83530710
+NeedsCompilation: yes
+
+Package: multiscan
+Version: 1.22.0
+Depends: R (>= 2.3.0)
+Imports: Biobase, utils
+License: GPL (>= 2)
+MD5sum: e164516e5f9f095c721450f9c19934f1
+NeedsCompilation: yes
+
+Package: multtest
+Version: 2.18.0
+Depends: R (>= 2.10), methods, Biobase
+Imports: survival, MASS, stats4
+Suggests: snow
+License: LGPL
+MD5sum: 265ed65e1e7b6c1796a5bbb22519fd18
+NeedsCompilation: yes
+
+Package: MVCClass
+Version: 1.36.0
+Depends: R (>= 2.1.0), methods
+License: LGPL
+MD5sum: 2aaa8798d7d2e1c2dc21194a5615eeaa
+NeedsCompilation: no
+
+Package: mzID
+Version: 1.0.0
+Depends: methods, XML
+Imports: plyr
+License: GPL (>= 2)
+MD5sum: d85ea9c29da82aaf1bc6ecea7213bba3
+NeedsCompilation: no
+
+Package: mzR
+Version: 1.8.0
+Depends: Rcpp (>= 0.10.1), methods, utils
+Imports: Biobase
+LinkingTo: Rcpp
+Suggests: msdata (>= 0.1.9), RUnit, faahKO
+License: Artistic-2.0
+MD5sum: d74e49ba86eb2f0e3033c8df9261a104
+NeedsCompilation: yes
+
+Package: NarrowPeaks
+Version: 1.6.0
+Depends: R (>= 2.10.0), splines
+Imports: GenomicRanges, IRanges, fda, CSAR
+Suggests: rtracklayer, GenomicRanges, CSAR
+License: Artistic-2.0
+MD5sum: 98910c1560cdbf2d79e444858fe35bcf
+NeedsCompilation: yes
+
+Package: ncdfFlow
+Version: 2.8.0
+Depends: R (>= 2.14.0), flowCore (>= 1.25.9), flowViz (>= 1.25.7)
+Imports: Biobase,flowCore,flowViz (>= 1.23.1),methods
+License: Artistic-2.0
+MD5sum: c7a5d74c7f97cbfef2599cae26355f29
+NeedsCompilation: yes
+
+Package: NCIgraph
+Version: 1.10.0
+Depends: graph, R (>= 2.10.0)
+Imports: graph, KEGGgraph, methods, RBGL, RCytoscape, R.methodsS3
+Suggests: Rgraphviz
+Enhances: DEGraph
+License: GPL-3
+MD5sum: d253c2d988490447c01599451b112770
+NeedsCompilation: no
+
+Package: neaGUI
+Version: 1.0.0
+Depends: tcltk
+Imports: hwriter
+Suggests: AnnotationDbi, org.Hs.eg.db, KEGG.db, GO.db, reactome.db,
+        RUnit, GOstats,hwriter
+License: GPL-2
+MD5sum: bf2046ccb9ed95c82ce45bd9e0bfda88
+NeedsCompilation: no
+
+Package: nem
+Version: 2.36.0
+Depends: R (>= 2.0), e1071 (>= 1.5), graph (>= 1.24), plotrix, limma,
+        cluster (>= 1.11), statmod, Hmisc, Rgraphviz
+Imports: boot, e1071, graph, graphics, grDevices, methods, RBGL (>=
+        1.8.1), RColorBrewer, stats, utils, Rgraphviz
+Suggests: Biobase (>= 1.10)
+Enhances: doMC, Rglpk
+License: GPL (>= 2)
+MD5sum: 83bc5a06c920d71bb64b4ceda795c0b6
+NeedsCompilation: yes
+
+Package: netresponse
+Version: 1.14.0
+Depends: R (>= 2.15.1), dmt, igraph, infotheo, ggplot2, graph, mclust,
+        methods, minet, parallel, qvalue, RColorBrewer, reshape,
+        Rgraphviz
+License: GPL (>= 2)
+MD5sum: fa26e236769d33af3659c20f30b5cfe3
+NeedsCompilation: yes
+
+Package: NetSAM
+Version: 1.2.0
+Depends: R (>= 2.15.1), methods, igraph (>= 0.6-1), seriation (>=
+        1.0-6), graph (>= 1.34.0), org.Hs.eg.db (>= 2.8.0)
+Imports: methods, igraph, seriation, graph, org.Hs.eg.db
+Suggests: RUnit, BiocGenerics
+License: LGPL
+MD5sum: af591ae4f306958175f25f361cc57c2f
+NeedsCompilation: no
+
+Package: networkBMA
+Version: 1.4.0
+Depends: R (>= 2.15.0), stats, utils, BMA
+License: GPL (>= 2)
+MD5sum: 4e51c2782d76eb6ee440ae921689bfe5
+NeedsCompilation: no
+
+Package: nnNorm
+Version: 2.26.0
+Depends: R(>= 2.2.0), marray
+Imports: graphics, grDevices, marray, methods, nnet, stats
+License: LGPL
+MD5sum: d2f85197eb97eccb166acb55058c1444
+NeedsCompilation: no
+
+Package: NOISeq
+Version: 2.4.0
+Depends: R (>= 2.13.0), methods, Biobase (>= 2.13.11), splines (>=
+        3.0.1)
+License: Artistic-2.0
+MD5sum: d8fdd52f06b5f91a44af067ccece62ba
+NeedsCompilation: no
+
+Package: NormqPCR
+Version: 1.8.0
+Depends: R(>= 2.14.0), stats, RColorBrewer, Biobase, methods, ReadqPCR,
+        qpcR
+Imports: ReadqPCR
+License: LGPL-3
+MD5sum: ff161819b179370b5b7b9f8ab989ef8d
+NeedsCompilation: no
+
+Package: NTW
+Version: 1.12.0
+Depends: R (>= 2.3.0)
+Imports: mvtnorm, stats, utils
+License: GPL-2
+MD5sum: 4bb73be09e703a47c93b168e705a15af
+NeedsCompilation: no
+
+Package: nucleR
+Version: 1.10.0
+Depends: methods, BiocGenerics (>= 0.1.0), IRanges (>= 1.13.5), Biobase
+        (>= 2.15.1), ShortRead, parallel
+Imports: methods, BiocGenerics, IRanges, Biobase, ShortRead,
+        GenomicRanges, stats
+Enhances: htSeqTools
+License: LGPL (>= 3)
+MD5sum: 58317e67e549990cae71e5108f4eca33
+NeedsCompilation: no
+
+Package: nudge
+Version: 1.28.0
+Imports: stats
+License: GPL-2
+MD5sum: 9532e37cf224631d2f75e043696b6be2
+NeedsCompilation: no
+
+Package: NuPoP
+Version: 1.12.0
+Depends: R (>= 2.10)
+License: GPL-2
+MD5sum: 4a95b46a5bb39244e2cd2821d93f0946
+NeedsCompilation: yes
+
+Package: occugene
+Version: 1.22.0
+Depends: R (>= 2.0.0)
+License: GPL (>= 2)
+MD5sum: fd47620071bc626e42fb8308b878b169
+NeedsCompilation: no
+
+Package: OCplus
+Version: 1.36.0
+Depends: R (>= 2.1.0), akima
+Imports: multtest (>= 1.7.3), graphics, grDevices, stats
+License: LGPL
+MD5sum: 9979823ea49697c5eae74f93a5c1f45c
+NeedsCompilation: no
+
+Package: oligo
+Version: 1.26.0
+Depends: R (>= 2.15.0), BiocGenerics (>= 0.3.2), oligoClasses (>=
+        1.19.43), Biobase (>= 2.17.8)
+Imports: affyio (>= 1.25.0), affxparser (>= 1.29.11), Biostrings (>=
+        2.25.12), BiocGenerics (>= 0.3.2), DBI (>= 0.2-5), ff,
+        graphics, methods, preprocessCore (>= 1.19.0), splines, stats,
+        stats4, utils, zlibbioc
+LinkingTo: preprocessCore
+Suggests: hapmap100kxba, pd.mapping50k.xba240, pd.huex.1.0.st.v2,
+        pd.hg18.60mer.expr, pd.hugene.1.0.st.v1, maqcExpression4plex,
+        genefilter, limma, RColorBrewer, oligoData, RUnit
+Enhances: ff, doMC, doMPI
+License: LGPL (>= 2)
+MD5sum: df197f6cd1021c3651faf487479314be
+NeedsCompilation: yes
+
+Package: oligoClasses
+Version: 1.24.0
+Depends: R (>= 2.14), BiocGenerics (>= 0.3.2)
+Imports: BiocGenerics, Biobase (>= 2.17.8), methods, graphics, IRanges
+        (>= 1.13.30), GenomicRanges, Biostrings (>= 2.23.6), affyio (>=
+        1.23.2), ff, foreach, BiocInstaller, utils
+Suggests: RSQLite, hapmapsnp5, hapmapsnp6, pd.genomewidesnp.6,
+        pd.genomewidesnp.5, pd.mapping50k.hind240,
+        pd.mapping50k.xba240, pd.mapping250k.sty, pd.mapping250k.nsp,
+        genomewidesnp6Crlmm (>= 1.0.7), genomewidesnp5Crlmm (>= 1.0.6),
+        crlmm, SNPchip, VanillaICE, RUnit, human370v1cCrlmm
+Enhances: doMC, doMPI, doSNOW, doParallel, doRedis
+License: GPL (>= 2)
+MD5sum: 4b1728c0c2e401dc911794adef35cabd
+NeedsCompilation: no
+
+Package: OLIN
+Version: 1.40.0
+Depends: R (>= 2.10), methods, locfit, marray
+Imports: graphics, grDevices, limma, marray, methods, stats
+Suggests: convert
+License: GPL-2
+MD5sum: be26e02c6cbf07cba0f196f613a18371
+NeedsCompilation: no
+
+Package: OLINgui
+Version: 1.36.0
+Depends: R (>= 2.0.0), OLIN (>= 1.4.0)
+Imports: graphics, marray, OLIN, tcltk, tkWidgets, widgetTools
+License: GPL-2
+MD5sum: eb9d62a0c7f2d079cca21b8a9a58afde
+NeedsCompilation: no
+
+Package: omicade4
+Version: 1.0.0
+Depends: R (>= 3.0.0), ade4
+Imports: made4
+Suggests: BiocStyle
+License: GPL-2
+MD5sum: a3b061646498de4555c9abcace442400
+NeedsCompilation: no
+
+Package: OmicCircos
+Version: 1.0.0
+Depends: R (>= 2.14.0),methods,GenomicRanges
+Suggests: knitr
+License: GPL-2
+MD5sum: 05cf78380008e58682913701453a75d6
+NeedsCompilation: no
+
+Package: oneChannelGUI
+Version: 1.28.1
+Depends: Biobase, affylmGUI, tkWidgets, IRanges, Rsamtools (>= 1.13.1),
+        Biostrings, siggenes, chimera
+Suggests: annotate, genefilter, maSigPro, pamr, pdmclass, ChIPpeakAnno,
+        chipseq, BSgenome, Rgraphviz, affy ,annaffy, affyPLM, multtest,
+        ssize, sizepower, RankProd, org.Hs.eg.db, org.Mm.eg.db,
+        org.Rn.eg.db, edgeR, metaArray, MergeMaid, biomaRt,
+        GenomeGraphs,AffyCompatible, rtracklayer, Genominator, EDASeq,
+        limma, DESeq, DEXSeq, goseq, hugene10sttranscriptcluster.db,
+        mogene10sttranscriptcluster.db, ragene10sttranscriptcluster.db,
+        GOstats, AnnotationDbi, preprocessCore, baySeq,
+        HuExExonProbesetLocation, MoExExonProbesetLocation,
+        RaExExonProbesetLocation, snow, RmiR, RmiR.Hs.miRNA,
+        BSgenome.Hsapiens.UCSC.hg19, BSgenome.Mmusculus.UCSC.mm9,
+        BSgenome.Rnorvegicus.UCSC.rn4, R.utils, cummeRbund
+License: Artistic-2.0
+MD5sum: 9b83edb55eca7e408a321ff7641efc6a
+NeedsCompilation: no
+
+Package: ontoCAT
+Version: 1.14.0
+Depends: rJava, methods
+License: Apache License 2.0
+MD5sum: 717e7079e8ff476dabd3eecedce0b381
+NeedsCompilation: no
+
+Package: openCyto
+Version: 1.0.1
+Depends: methods,flowWorkspace (>= 3.7.27)
+Imports:
+        Biobase,gtools,flowCore,flowStats,flowClust,MASS,clue,plyr,RBGL,Rgraphviz,graph,data.table,ks,RColorBrewer,lattice,rrcov
+License: Artistic-2.0
+MD5sum: 14626aa686088d59c4c1713f1812bfa0
+NeedsCompilation: no
+
+Package: OrderedList
+Version: 1.34.0
+Depends: R (>= 2.1.0), Biobase (>= 1.5.12), twilight (>= 1.9.2),
+        methods
+Imports: Biobase, graphics, methods, stats, twilight
+License: GPL (>= 2)
+MD5sum: 0d07778c07df98f919969fe8f12a258c
+NeedsCompilation: no
+
+Package: OrganismDbi
+Version: 1.4.0
+Depends: R (>= 2.14.0), methods, AnnotationDbi (>= 1.16.10),
+        GenomicFeatures
+Imports: BiocGenerics, graph, RBGL, AnnotationDbi
+Suggests: Homo.sapiens, Rattus.norvegicus, RUnit
+License: Artistic-2.0
+MD5sum: 76755b127b1800d08a0562353c8722b0
+NeedsCompilation: no
+
+Package: OSAT
+Version: 1.10.0
+Depends: methods,stats
+Suggests: xtable, Biobase
+License: Artistic-2.0
+MD5sum: efabbab64fd78218003321dc66ebed76
+NeedsCompilation: no
+
+Package: OTUbase
+Version: 1.12.0
+Depends: R (>= 2.9.0), methods, ShortRead (>= 1.4.0), Biobase, vegan
+Imports: Biostrings, ShortRead, IRanges
+License: Artistic-2.0
+MD5sum: a8a7e306270b9e823d6575fd440db5be
+NeedsCompilation: no
+
+Package: OutlierD
+Version: 1.26.0
+Depends: R (>= 2.3.0), Biobase, quantreg
+License: GPL (>= 2)
+MD5sum: 538504f3858ad26447ef92d66fd41dc2
+NeedsCompilation: no
+
+Package: PADOG
+Version: 1.4.0
+Depends: R (>= 2.14.0), KEGGdzPathwaysGEO, graphics, limma,
+        AnnotationDbi, Biobase, methods, nlme, GSA,KEGG.db
+Imports: graphics, limma, hgu133plus2.db, hgu133a.db, KEGG.db,
+        AnnotationDbi, Biobase, methods, nlme
+Suggests: parallel
+License: GPL (>= 2)
+MD5sum: c8cfea182aff782d9a4af639fccc7420
+NeedsCompilation: no
+
+Package: paircompviz
+Version: 1.0.0
+Depends: R (>= 2.10), Rgraphviz
+Imports: Rgraphviz
+Suggests: multcomp, reshape, rpart, plyr, xtable
+License: GPL (>= 3.0)
+MD5sum: 9db824f678051223b0c38abb9752b35f
+NeedsCompilation: no
+
+Package: PAnnBuilder
+Version: 1.26.0
+Depends: R (>= 2.7.0), methods, utils, RSQLite, Biobase (>= 1.17.0),
+        AnnotationDbi (>= 1.3.12)
+Imports: methods, utils, Biobase, DBI, RSQLite, AnnotationDbi
+Suggests: org.Hs.ipi.db
+License: LGPL (>= 2.0)
+MD5sum: 57d7f75d2cf4c82ff2ba3eed8d5bd6f7
+NeedsCompilation: no
+
+Package: panp
+Version: 1.32.0
+Depends: R (>= 2.10), affy (>= 1.23.4), Biobase (>= 2.5.5)
+Imports: Biobase, methods, stats, utils
+Suggests: gcrma
+License: GPL (>= 2)
+MD5sum: 7ffd6d519c01dc3b0d85cabd15bdf2dd
+NeedsCompilation: no
+
+Package: PANR
+Version: 1.8.0
+Depends: R (>= 2.14), igraph
+Imports: graphics, grDevices, MASS, methods, pvclust, stats, utils
+Suggests: snow, RedeR
+License: Artistic-2.0
+MD5sum: cf3535bef0a7cc20e91ce7b2960a6043
+NeedsCompilation: no
+
+Package: PAPi
+Version: 1.2.0
+Depends: R (>= 2.15.2), svDialogs, KEGGREST
+License: GPL (>= 2)
+MD5sum: 902775a455933ebdbe6e491d6a149e2a
+NeedsCompilation: no
+
+Package: parody
+Version: 1.20.0
+Depends: R (>= 2.5.0), methods, tools, utils
+License: Artistic-2.0
+MD5sum: 97a92fa5e1d167cdf5d35efd60da4883
+NeedsCompilation: no
+
+Package: pathifier
+Version: 1.0.0
+Imports: R.oo, princurve
+License: Artistic-1.0
+MD5sum: 4e1cd5fc66d3bac7f57ce7b936e10017
+NeedsCompilation: no
+
+Package: PathNet
+Version: 1.2.0
+Depends: R (>= 1.14.0)
+Suggests: PathNetData, RUnit, BiocGenerics
+License: GPL-3
+MD5sum: adbe5326ce55ad994f3bee40367eda8a
+NeedsCompilation: no
+
+Package: pathRender
+Version: 1.30.0
+Depends: graph, Rgraphviz, RColorBrewer, cMAP, AnnotationDbi, methods
+Suggests: ALL, hgu95av2.db
+License: LGPL
+MD5sum: 3589c841e98a133a86385fa03059eaf7
+NeedsCompilation: no
+
+Package: pathview
+Version: 1.2.3
+Depends: R (>= 2.10), KEGGgraph, org.Hs.eg.db
+Imports: Rgraphviz, graph, png, AnnotationDbi, KEGGREST, methods, utils
+Suggests: gage, org.Mm.eg.db, RUnit, BiocGenerics
+License: GPL (>= 3.0)
+MD5sum: 39b88c0ed36ed8df4113b676683b5b9c
+NeedsCompilation: no
+
+Package: pcaGoPromoter
+Version: 1.6.0
+Depends: R (>= 2.14.0) , ellipse
+Imports: Biobase (>= 2.10.0) , AnnotationDbi
+Suggests: Rgraphviz, GO.db, hgu133plus2.db, mouse4302.db, rat2302.db,
+        hugene10sttranscriptcluster.db, mogene10sttranscriptcluster.db,
+        Biostrings, pcaGoPromoter.Hs.hg19, pcaGoPromoter.Mm.mm9,
+        pcaGoPromoter.Rn.rn4, serumStimulation, parallel
+License: GPL (>= 2)
+MD5sum: c79a16b44da43daa4c476034375b59dd
+NeedsCompilation: no
+
+Package: pcaMethods
+Version: 1.52.0
+Depends: Biobase, methods, Rcpp (>= 0.8.7)
+Imports: BiocGenerics, MASS
+LinkingTo: Rcpp
+Suggests: matrixStats, lattice
+License: GPL (>= 3)
+MD5sum: 810f6f792d072fabee4dea65d8349ebc
+NeedsCompilation: yes
+
+Package: pcot2
+Version: 1.30.0
+Depends: R (>= 2.0.0), grDevices, Biobase, amap
+Suggests: multtest, hu6800.db, KEGG.db, mvtnorm
+License: GPL (>= 2)
+MD5sum: ab2f96cf23a33c1b965d66bebab8cffb
+NeedsCompilation: no
+
+Package: PCpheno
+Version: 1.24.0
+Depends: R (>= 2.10), Category, ScISI (>= 1.3.0), SLGI, ppiStats,
+        ppiData, annotate (>= 1.17.4)
+Imports: AnnotationDbi, Biobase, Category, GO.db, graph, graphics,
+        GSEABase, KEGG.db, methods, ScISI, stats, stats4
+Suggests: KEGG.db, GO.db, org.Sc.sgd.db
+License: Artistic-2.0
+MD5sum: 256fa116a1d3ad667c3c8936cf5e01e6
+NeedsCompilation: no
+
+Package: pdInfoBuilder
+Version: 1.26.0
+Depends: R (>= 2.15.0), methods, Biobase (>= 2.17.7), RSQLite (>=
+        0.11.1), affxparser (>= 1.29.12), oligo (>= 1.21.5)
+Imports: Biostrings (>= 2.25.12), IRanges (>= 1.15.44)
+License: Artistic-2.0
+MD5sum: c0e542866c1d8c4f2d9fa449f36a7202
+NeedsCompilation: yes
+
+Package: pdmclass
+Version: 1.34.0
+Depends: Biobase (>= 1.4.22), R (>= 1.9.0), fibroEset, mda
+License: Artistic-2.0
+MD5sum: 521ce38107222a2ca93ffb50306f5922
+NeedsCompilation: no
+
+Package: PGSEA
+Version: 1.36.0
+Depends: R (>= 2.10), GO.db, KEGG.db, AnnotationDbi, annaffy, methods,
+        Biobase (>= 2.5.5)
+Suggests: GSEABase, GEOquery, org.Hs.eg.db, hgu95av2.db, limma
+License: GPL-2
+MD5sum: 26d8d8b71f8a7fe96c6d0da7f66b8d7d
+NeedsCompilation: no
+
+Package: pgUtils
+Version: 1.34.0
+Depends: R (>= 1.8.0), methods, RPostgreSQL (>= 0.1)
+Imports: methods, RPostgreSQL (>= 0.1)
+License: LGPL (>= 2)
+MD5sum: dc60f8c385768c9317ad159a6c41e8d3
+NeedsCompilation: no
+
+Package: phenoDist
+Version: 1.10.0
+Depends: R (>= 2.9.0), imageHTS, e1071
+Suggests: GOstats, MASS
+License: LGPL-2.1
+MD5sum: 1b4b975ba2b2f665d82656011f4932ff
+NeedsCompilation: no
+
+Package: phenoTest
+Version: 1.10.0
+Depends: R (>= 2.12.0), Biobase, methods, annotate, Heatplus, BMA,
+        ggplot2, gridExtra
+Imports: survival, limma, Hmisc, gplots, Category, AnnotationDbi,
+        hopach, biomaRt, GSEABase, genefilter, xtable, annotate, mgcv,
+        SNPchip, hgu133a.db, HTSanalyzeR, ellipse
+Suggests: GSEABase, KEGG.db, GO.db
+Enhances: parallel, org.Ce.eg.db, org.Mm.eg.db, org.Rn.eg.db,
+        org.Hs.eg.db, org.Dm.eg.db
+License: GPL (>= 2)
+MD5sum: 039fd38b9cb939edd9ff5ab4dfe1c337
+NeedsCompilation: no
+
+Package: phyloseq
+Version: 1.6.0
+Depends: R (>= 3.0.0), methods, ade4 (>= 1.5.2), picante (>= 1.5.2)
+Imports: ape (>= 3.0.8), biom (>= 0.3.9), Biostrings (>= 2.28.0),
+        cluster (>= 1.14.4), foreach (>= 1.4), ggplot2 (>= 0.9.3.1),
+        igraph (>= 0.6.5.2), multtest (>= 2.16.0), plyr (>= 1.8),
+        reshape2 (>= 1.2.2), scales (>= 0.2.3), vegan (>= 2.0.7)
+Suggests: genefilter (>= 1.42.0), testthat (>= 0.7.1)
+Enhances: doParallel (>= 1.0.1)
+License: AGPL-3
+MD5sum: 955bb44212aa4b1b923604d954c2e434
+NeedsCompilation: no
+
+Package: piano
+Version: 1.2.10
+Depends: R (>= 2.14.0)
+Imports: Biobase, gplots, igraph, relations, marray
+Suggests: yeast2.db, rsbml, plotrix, limma, affy, plier, affyPLM,
+        gtools, biomaRt, snowfall
+License: GPL (>= 2)
+MD5sum: 5c1d5a805cd75d51698f8a9a900dd64b
+NeedsCompilation: no
+
+Package: pickgene
+Version: 1.34.0
+Imports: graphics, grDevices, MASS, stats, utils
+License: GPL (>= 2)
+MD5sum: 5d9cdbbbd41f0e7723d700f5d0ba18d6
+NeedsCompilation: no
+
+Package: PICS
+Version: 2.6.0
+Depends: R (>= 2.14.0), BiocGenerics (>= 0.1.3)
+Imports: methods, stats4, IRanges, GenomicRanges, graphics, grDevices,
+        stats, Rsamtools
+Suggests: ShortRead, rtracklayer, parallel
+License: Artistic-2.0
+MD5sum: b1ce20535f71de1cb02890455744f524
+NeedsCompilation: yes
+
+Package: PING
+Version: 2.6.0
+Depends: R(>= 2.15.0), chipseq, IRanges, GenomicRanges
+Imports: methods, PICS, graphics, grDevices, stats, Gviz, fda,
+        BSgenome, stats4, BiocGenerics
+Suggests: parallel, ShortRead, rtracklayer
+License: Artistic-2.0
+MD5sum: abdaef006e68827964c1e85874306474
+NeedsCompilation: yes
+
+Package: pint
+Version: 1.14.0
+Depends: mvtnorm, methods, graphics, Matrix, dmt
+License: FreeBSD
+MD5sum: bbb88756f6708a0728ee0c01f19fd718
+NeedsCompilation: no
+
+Package: pkgDepTools
+Version: 1.28.0
+Depends: methods, graph, RBGL
+Imports: graph, RBGL
+Suggests: Biobase, Rgraphviz, RCurl, BiocInstaller
+License: GPL-2
+MD5sum: ffbb37b3012df0f4dce0b82ea7160cb0
+NeedsCompilation: no
+
+Package: plateCore
+Version: 1.20.0
+Depends: R (>= 2.10), flowCore, flowViz, lattice, latticeExtra
+Imports: Biobase, flowCore, graphics, grDevices, lattice, MASS,
+        methods, robustbase, stats, utils
+Suggests: gplots
+License: Artistic-2.0
+MD5sum: 4919c5b37b5c1ed395860c7a483c3ef3
+NeedsCompilation: no
+
+Package: plethy
+Version: 1.0.0
+Depends: R (>= 3.0.0)
+Imports: Streamer, DBI, RSQLite, methods, IRanges, reshape2, batch
+Suggests: RUnit, BiocGenerics
+License: GPL-3
+MD5sum: af095fa25e383176286bdd8a6b3c58b0
+NeedsCompilation: no
+
+Package: plgem
+Version: 1.34.0
+Depends: R (>= 2.10), Biobase (>= 2.5.5), MASS
+Imports: utils
+License: GPL-2
+MD5sum: ac9c1a2c66835bc8df5d70a058448bf1
+NeedsCompilation: no
+
+Package: plier
+Version: 1.32.0
+Depends: R (>= 2.0), methods
+Imports: affy, Biobase, methods
+License: GPL (>= 2)
+MD5sum: 947e20133d321a075ba6f27faab6e892
+NeedsCompilation: yes
+
+Package: PLPE
+Version: 1.22.0
+Depends: R (>= 2.6.2), Biobase (>= 2.5.5), LPE, MASS, methods
+License: GPL (>= 2)
+MD5sum: 6e025db30c342d7eb02925a57badba1a
+NeedsCompilation: no
+
+Package: plrs
+Version: 1.2.0
+Depends: R (>= 2.10), Biobase
+Imports: BiocGenerics, CGHbase, graphics, grDevices, ic.infer, marray,
+        methods, quadprog, Rcsdp, stats, stats4, utils
+Suggests: mvtnorm, methods
+License: GPL (>= 2.0)
+MD5sum: b0574bb95bb10fa5ae8c9ef48fe80be2
+NeedsCompilation: no
+
+Package: plw
+Version: 1.22.0
+Depends: R (>= 2.10), affy (>= 1.23.4)
+Imports: MASS, affy, graphics, splines, stats
+Suggests: limma
+License: GPL-2
+MD5sum: 1709a37b49d7e836fe397c3b4dfae74d
+NeedsCompilation: yes
+
+Package: ppiStats
+Version: 1.28.0
+Depends: ScISI (>= 1.13.2), lattice, ppiData (>= 0.1.19)
+Imports: Biobase, Category, graph, graphics, grDevices, lattice,
+        methods, RColorBrewer, stats
+Suggests: yeastExpData, xtable
+License: Artistic-2.0
+MD5sum: 8c517b0df5deeffe103345370a59fed7
+NeedsCompilation: no
+
+Package: prada
+Version: 1.38.0
+Depends: R (>= 2.10), Biobase, RColorBrewer, grid, methods, rrcov
+Imports: Biobase, BiocGenerics, graphics, grDevices, grid, MASS,
+        methods, RColorBrewer, rrcov, stats4, utils
+Suggests: cellHTS, tcltk
+License: LGPL
+MD5sum: 12f8c8ed73409c482b5647830cf4c396
+NeedsCompilation: yes
+
+Package: prebs
+Version: 1.2.0
+Depends: R (>= 2.14.0), Rsamtools (>= 1.13.1), affy
+Imports: parallel, methods, stats, GenomicRanges (>= 1.13.3), IRanges
+Suggests: prebsdata, hgu133plus2cdf, hgu133plus2probe
+License: Artistic-2.0
+MD5sum: b6813f3ebd5e4d47cdbfe2dbf3c97a60
+NeedsCompilation: no
+
+Package: PREDA
+Version: 1.8.0
+Depends: R (>= 2.9.0), Biobase, lokern (>= 1.0.9), multtest, stats,
+        methods, annotate
+Suggests: quantsmooth, qvalue, samr, limma, caTools, affy,
+        PREDAsampledata
+Enhances: Rmpi, rsprng
+License: GPL-2
+MD5sum: e265d0d81784a7eefe0cb50f131ea944
+NeedsCompilation: no
+
+Package: predictionet
+Version: 1.8.0
+Depends: igraph, catnet
+Imports: penalized, RBGL, MASS
+Suggests: network, minet, knitr
+License: Artistic-2.0
+MD5sum: 91d38830ad348a25af3d2243888e35e6
+NeedsCompilation: yes
+
+Package: preprocessCore
+Version: 1.24.0
+Depends: methods
+Imports: stats
+License: LGPL (>= 2)
+MD5sum: 24f786a32f51874968b0812f83f8854d
+NeedsCompilation: yes
+
+Package: PROcess
+Version: 1.38.0
+Depends: Icens
+Imports: graphics, grDevices, Icens, stats, utils
+License: Artistic-2.0
+MD5sum: e8a8b55e3f82b09c299d24500250f56c
+NeedsCompilation: no
+
+Package: procoil
+Version: 1.12.0
+Depends: R (>= 2.10.1), methods
+Imports: methods, stats, graphics, utils
+Suggests: Biostrings
+License: GPL (>= 2)
+MD5sum: b8822c8364ddf73eaaac0b965071c83c
+NeedsCompilation: no
+
+Package: ProCoNA
+Version: 1.0.0
+Depends: R (>= 2.10), methods, WGCNA, MSnbase
+Imports: BiocGenerics, GOstats
+Suggests: RUnit
+License: GPL (>= 2)
+MD5sum: 56b5aaa709b43262f4dbe71c333612ee
+NeedsCompilation: no
+
+Package: pRoloc
+Version: 1.2.0
+Depends: R (>= 2.15), MSnbase (>= 1.7.23), MLInterfaces (>= 1.37.1),
+        methods, Rcpp (>= 0.10.3)
+Imports: mclust, MSBVAR, caret, e1071, sampling, class, kernlab,
+        lattice, nnet, randomForest, proxy, FNN, BiocGenerics, stats4,
+        RColorBrewer, scales, MASS, knitr
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat, pRolocdata, roxygen2, synapter, xtable
+License: GPL-2
+MD5sum: 066efe82eef8d692b253f0aee2a1d624
+NeedsCompilation: yes
+
+Package: PROMISE
+Version: 1.14.0
+Depends: R (>= 2.11.0), Biobase, GSEABase
+Imports: Biobase, GSEABase, stats
+License: GPL (>= 2)
+MD5sum: 0e74dff8689eb77350393ffb06222c15
+NeedsCompilation: no
+
+Package: prot2D
+Version: 1.0.0
+Depends: R (>=
+        2.15),fdrtool,st,samr,Biobase,limma,Mulcom,impute,MASS,qvalue
+Suggests: made4,affy
+License: GPL (>= 2)
+MD5sum: 5fe45b000c416100c02547b2111443b6
+NeedsCompilation: no
+
+Package: proteinProfiles
+Version: 1.2.0
+Depends: R (>= 2.15.2)
+Imports: graphics, stats
+Suggests: testthat
+License: GPL-3
+MD5sum: 21feb23b6b69a78420b57a9d2103f79e
+NeedsCompilation: no
+
+Package: PSICQUIC
+Version: 1.0.1
+Depends: R (>= 2.15.0), methods, IRanges, biomaRt, BiocGenerics
+Imports: RCurl
+License: Apache License 2.0
+MD5sum: e3b9ee7a80675668ae896e4b42d4e150
+NeedsCompilation: no
+
+Package: puma
+Version: 3.4.0
+Depends: R (>= 2.10), Biobase (>= 2.5.5), affy (>= 1.23.4), graphics,
+        grDevices, methods, stats, utils, mclust
+Imports: Biobase (>= 2.5.5), affy (>= 1.23.4),affyio
+Suggests: pumadata, affydata, snow, limma, annotate, ROCR
+License: LGPL
+MD5sum: afd1a142a1871a0f2335beb521677e05
+NeedsCompilation: yes
+
+Package: pvac
+Version: 1.10.0
+Depends: R (>= 2.8.0)
+Imports: affy (>= 1.20.0), stats, Biobase
+Suggests: pbapply, affydata, ALLMLL, genefilter
+License: LGPL (>= 2.0)
+MD5sum: 1832840d4f7943269465f01daa49204b
+NeedsCompilation: no
+
+Package: pvca
+Version: 1.2.0
+Depends: R (>= 2.15.1)
+Imports: Matrix, Biobase, vsn, lme4
+Suggests: golubEsets
+License: LGPL (>= 2.0)
+MD5sum: e5a3caa7ebd328f3f0607aa80eec4379
+NeedsCompilation: no
+
+Package: PWMEnrich
+Version: 2.6.2
+Depends: methods, grid, BiocGenerics, Biostrings,
+Imports: seqLogo, gdata, evd
+Suggests: MotifDb, BSgenome.Dmelanogaster.UCSC.dm3,
+        PWMEnrich.Dmelanogaster.background, testthat, gtools, parallel
+License: GPL-3
+MD5sum: 0f1cbc9a0d355f8bb3bc08a4c05d4bb8
+NeedsCompilation: no
+
+Package: qcmetrics
+Version: 1.0.0
+Depends: R (>= 2.10)
+Imports: Biobase, methods, knitr, tools, Nozzle.R1, xtable, pander
+Suggests: affy, MSnbase, ggplot2, lattice, yaqcaffy, MAQCsubsetAFX,
+        RforProteomics, AnnotationDbi, mzR, hgu133plus2cdf
+License: GPL-2
+MD5sum: 9cb41a33b7678d1fc7c0680999c3f351
+NeedsCompilation: no
+
+Package: qpcrNorm
+Version: 1.20.0
+Depends: methods, Biobase, limma, affy
+License: LGPL (>= 2)
+MD5sum: 707caaabc9d1f0f1bb5d1af63cea9b0d
+NeedsCompilation: no
+
+Package: qpgraph
+Version: 1.18.7
+Depends: R (>= 3.0.0)
+Imports: methods, parallel, Matrix (>= 1.0), annotate, graph (>= 1.38),
+        Biobase, GGBase, AnnotationDbi, mvtnorm, qtl, Rgraphviz
+Suggests: BiocStyle, genefilter, org.EcK12.eg.db
+Enhances: rlecuyer, snow, Category, GOstats
+License: GPL (>= 2)
+MD5sum: f1f58d532c5e721ff84c699b3f1e2fe4
+NeedsCompilation: yes
+
+Package: qrqc
+Version: 1.16.0
+Depends: reshape, ggplot2, Biostrings, biovizBase, brew, xtable,
+        Rsamtools (>= 1.3.28), testthat
+Imports: reshape, ggplot2, Biostrings, biovizBase, graphics, methods,
+        plyr, stats
+LinkingTo: Rsamtools
+License: GPL (>= 2)
+MD5sum: 49b5f803950f093969d5727ca1217892
+NeedsCompilation: yes
+
+Package: QUALIFIER
+Version: 1.6.0
+Depends: R (>= 2.14.0),flowCore,flowViz,ncdfFlow,flowWorkspace (>=
+        3.7.27), data.table
+Imports:
+        MASS,hwriter,RSVGTipsDevice,lattice,stats4,flowCore,flowViz,methods,flowWorkspace,reshape,latticeExtra,grDevices
+License: Artistic-2.0
+MD5sum: 489e0b5a4fb4b10f172f85bbe3c75f38
+NeedsCompilation: no
+
+Package: quantsmooth
+Version: 1.28.0
+Depends: R(>= 2.10.0), quantreg, grid
+License: GPL-2
+MD5sum: 2d43e9bba962464de01959d4dbedbae0
+NeedsCompilation: no
+
+Package: QuasR
+Version: 1.2.2
+Depends: R (>= 2.15.0), parallel, GenomicRanges (>= 1.13.3), Rbowtie
+Imports: methods, zlibbioc, BiocGenerics, IRanges, BiocInstaller,
+        Biobase, Biostrings, GenomicRanges, BSgenome, Rsamtools (>=
+        1.13.1), GenomicFeatures, ShortRead (>= 1.19.1)
+LinkingTo: Rsamtools
+Suggests: Rsamtools, rtracklayer, Gviz, RUnit, BiocStyle
+License: GPL-2
+MD5sum: fd8340d265ada62c649a13471dadb901
+NeedsCompilation: yes
+
+Package: qusage
+Version: 1.2.0
+Depends: R (>= 2.10), limma (>= 3.14), methods
+Imports: utils, Biobase
+License: GPL (>= 2)
+MD5sum: 87a2e1a0a834b899cc71ada4587aac93
+NeedsCompilation: no
+
+Package: qvalue
+Version: 1.36.0
+Imports: graphics, grDevices, stats, tcltk
+License: LGPL
+MD5sum: 0bbc608c83ca94444ed1a902ecb9ed05
+NeedsCompilation: no
+
+Package: r3Cseq
+Version: 1.8.0
+Depends:
+        GenomicRanges,Rsamtools,data.table,rtracklayer,VGAM,qvalue,RColorBrewer,sqldf,methods
+Suggests:
+        BSgenome.Mmusculus.UCSC.mm9,BSgenome.Hsapiens.UCSC.hg18,BSgenome.Hsapiens.UCSC.hg19
+License: GPL-3
+MD5sum: fa5f5372e5e8271668e8517d39291993
+NeedsCompilation: no
+
+Package: R453Plus1Toolbox
+Version: 1.12.0
+Depends: R (>= 2.12.0), BiocGenerics, Biobase, Biostrings (>= 2.29.2),
+        BSgenome.Scerevisiae.UCSC.sacCer2,TeachingDemos
+Imports: BiocGenerics (>= 0.1.3), Biobase (>= 2.15.1), biomaRt,
+        Biostrings, BSgenome, IRanges (>= 1.19.5), XVector, methods,
+        R2HTML, Rsamtools, ShortRead, VariantAnnotation, xtable, tools
+Suggests: rtracklayer, ShortRead, Rsamtools,
+        BSgenome.Hsapiens.UCSC.hg19
+License: LGPL-3
+MD5sum: d7215618203a7cb1fe37fecb6b513214
+NeedsCompilation: yes
+
+Package: rama
+Version: 1.36.0
+Depends: R(>= 2.5.0)
+License: GPL (>= 2)
+MD5sum: 05bef34de16388e322678661c4eabef3
+NeedsCompilation: yes
+
+Package: RamiGO
+Version: 1.8.0
+Depends: gsubfn,methods
+Imports: igraph,RCurl,png,RCytoscape,graph
+License: Artistic-2.0
+MD5sum: 52580408652506a4b6629cd8b113c79c
+NeedsCompilation: no
+
+Package: randPack
+Version: 1.8.0
+Depends: methods
+Imports: Biobase
+License: Artistic-2.0
+MD5sum: 6a8ee55bbe53f266af7d74ac052f7a37
+NeedsCompilation: no
+
+Package: RankProd
+Version: 2.34.0
+Depends: R (>= 1.9.0)
+Imports: graphics
+License: file LICENSE
+License_restricts_use: yes
+MD5sum: 36e489edc0da616ba424cb47e300fc42
+NeedsCompilation: no
+
+Package: RbcBook1
+Version: 1.30.0
+Depends: R (>= 2.10), Biobase, graph, rpart
+License: Artistic-2.0
+MD5sum: d6287b11433a15f23cd4df5ef1b513be
+NeedsCompilation: no
+
+Package: RBGL
+Version: 1.38.0
+Depends: graph, methods
+Imports: methods
+Suggests: Rgraphviz, XML
+License: Artistic-2.0
+MD5sum: f7d8dc8c3bede64e8d41d25b951f304e
+NeedsCompilation: yes
+
+Package: RBioinf
+Version: 1.22.0
+Depends: graph, methods
+Suggests: Rgraphviz
+License: Artistic-2.0
+MD5sum: 1f91e27b15865e1178ce4ba0593c1b30
+NeedsCompilation: yes
+
+Package: rBiopaxParser
+Version: 1.2.0
+Imports: XML
+Suggests: Rgraphviz, RCurl, graph, RUnit, BiocGenerics
+License: GPL (>= 2)
+MD5sum: 07cf590d2a9da7ef7fbfec7992892416
+NeedsCompilation: no
+
+Package: Rbowtie
+Version: 1.2.0
+Suggests: parallel
+License: Artistic-1.0 | file LICENSE
+MD5sum: 525c7d2a1a16ca268d4a0ecf371bd9b9
+NeedsCompilation: yes
+
+Package: rbsurv
+Version: 2.20.0
+Depends: R (>= 2.5.0), Biobase (>= 2.5.5), survival
+License: GPL (>= 2)
+MD5sum: 2e7976e8ec8dc0e8c4953cd861fc5228
+NeedsCompilation: no
+
+Package: Rcade
+Version: 1.4.0
+Depends: R (>= 2.14.0), methods, GenomicRanges, baySeq, Rsamtools
+Imports: graphics, IRanges, rgl
+Suggests: limma, biomaRt, RUnit, BiocGenerics
+License: GPL-2
+MD5sum: 6c22204c9f391e18b03763c612675dec
+NeedsCompilation: no
+
+Package: RCASPAR
+Version: 1.8.0
+License: GPL (>= 3)
+MD5sum: c81df93d6c39747e623b9a5276e3d94b
+NeedsCompilation: no
+
+Package: Rchemcpp
+Version: 2.0.1
+Depends: Rcpp (>= 0.9.13), R (>= 2.15.0), methods, ChemmineR
+LinkingTo: Rcpp
+Suggests: apcluster, kernlab
+License: GPL (>= 2.1)
+MD5sum: 15a4043bb828fd4a12ac006039e3ef92
+NeedsCompilation: yes
+
+Package: RchyOptimyx
+Version: 2.2.0
+Depends: R (>= 2.10)
+Imports: Rgraphviz, sfsmisc, graphics, methods, graph, grDevices,
+        flowType (>= 2.0.0)
+Suggests: flowCore
+License: Artistic-2.0
+MD5sum: 16b9161395079104b784081246669153
+NeedsCompilation: yes
+
+Package: RCytoscape
+Version: 1.12.0
+Depends: R (>= 2.14.0), graph (>= 1.31.0), XMLRPC (>= 0.2.4)
+Imports: methods, XMLRPC, BiocGenerics
+Suggests: RUnit
+License: GPL-2
+MD5sum: a2d49dbd8b8497b0f276697a3f4e3a32
+NeedsCompilation: no
+
+Package: RDAVIDWebService
+Version: 1.0.0
+Depends: R (>= 2.14.1), methods, rJava, ggplot2, GO.db, graph,
+        Category, GOstats, RBGL
+Suggests: Rgraphviz
+License: GPL (>= 2)
+MD5sum: 2f9894b9d24894af186fe41ef542cfbc
+NeedsCompilation: no
+
+Package: Rdisop
+Version: 1.22.0
+Depends: R (>= 2.0.0), RcppClassic, Rcpp
+LinkingTo: RcppClassic, Rcpp
+Suggests: RUnit
+License: GPL-2
+MD5sum: 660e5ae57055d16ea14c7883b3938630
+NeedsCompilation: yes
+
+Package: RDRToolbox
+Version: 1.12.0
+Depends: R (>= 2.9.0),rgl
+Imports: graphics, grDevices, methods, stats, MASS, rgl
+Suggests: golubEsets
+License: GPL (>= 2)
+MD5sum: 8e12c8dffdb864d7750b10345b2ff3a1
+NeedsCompilation: no
+
+Package: ReactomePA
+Version: 1.6.1
+Imports: methods, AnnotationDbi, reactome.db, org.Hs.eg.db, DOSE,
+        stats4, plyr, igraph, qvalue, graphics, graphite
+Suggests: clusterProfiler, GOSemSim, knitr
+License: GPL-2
+MD5sum: afd3163f1a2a64df4213750faad23a44
+NeedsCompilation: no
+
+Package: ReadqPCR
+Version: 1.8.0
+Depends: R(>= 2.14.0), Biobase, methods, affy
+Imports: Biobase
+Suggests: qpcR
+License: LGPL-3
+MD5sum: 01b020a4bef9bb7a920eb8efdfe7da45
+NeedsCompilation: no
+
+Package: reb
+Version: 1.40.0
+Depends: R (>= 2.0), Biobase, idiogram (>= 1.5.3)
+License: GPL-2
+MD5sum: 388d82c85fedc848e1fedd68dba6635c
+NeedsCompilation: yes
+
+Package: RedeR
+Version: 1.10.1
+Depends: R (>= 2.15), methods, igraph
+Imports: RCurl, XML, XMLRPC, rJava
+Suggests: PANR, pvclust
+License: GPL (>= 2)
+MD5sum: e1c9a088a0501fb5cee2f55ce9014640
+NeedsCompilation: no
+
+Package: REDseq
+Version: 1.8.0
+Depends: R (>= 2.15.0), BiocGenerics (>= 0.1.0),
+        BSgenome.Celegans.UCSC.ce2, multtest, Biostrings, BSgenome,
+        ChIPpeakAnno
+Imports: BiocGenerics, AnnotationDbi, Biostrings, ChIPpeakAnno,
+        graphics, IRanges (>= 1.13.5), multtest, stats, utils
+License: GPL (>= 2)
+MD5sum: ee3ac17d4578765e9c77578c49d4de70
+NeedsCompilation: no
+
+Package: RefPlus
+Version: 1.32.0
+Depends: R (>= 2.8.0), Biobase (>= 2.1.0), affy (>= 1.20.0), affyPLM
+        (>= 1.18.0), preprocessCore (>= 1.4.0)
+Suggests: affydata
+License: GPL (>= 2)
+MD5sum: 6ff6efa78bbf88e84c346625c53db3a5
+NeedsCompilation: no
+
+Package: Repitools
+Version: 1.8.6
+Depends: R (>= 3.0.0), methods, BiocGenerics (>= 0.8.0)
+Imports: IRanges (>= 1.20.0), GenomicRanges, BSgenome, gplots, grid,
+        MASS, gsmoothr, edgeR (>= 3.4.0), DNAcopy, Ringo,
+        aroma.affymetrix, Rsolnp, parallel, Biostrings, Rsamtools,
+        cluster
+Suggests: ShortRead, BSgenome.Hsapiens.UCSC.hg18, rtracklayer
+License: LGPL (>= 2)
+MD5sum: 4d282ce57c767fc70c285f1e0fa284c6
+NeedsCompilation: yes
+
+Package: ReportingTools
+Version: 2.2.0
+Depends: methods, knitr
+Imports: Biobase,hwriter,Category,GOstats,limma(>=
+        3.17.5),lattice,AnnotationDbi,edgeR, annotate,PFAM.db,
+        GSEABase, BiocGenerics(>= 0.1.6), grid, XML, R.utils, ggplot2,
+        ggbio, DESeq2, IRanges
+Suggests: RUnit, ggplot2, ggbio, ALL, hgu95av2.db, org.Mm.eg.db, knitr
+License: Artistic-2.0
+MD5sum: e97be8a67fdfa714b6860c2dd2bdcdf3
+NeedsCompilation: no
+
+Package: ReQON
+Version: 1.8.0
+Depends: R (>= 2.15.0), Rsamtools, seqbias
+Imports: rJava, graphics, stats, utils, grDevices
+License: GPL-2
+MD5sum: 33c3e3273235b6dba9f25cce9029ec24
+NeedsCompilation: no
+
+Package: Resourcerer
+Version: 1.36.0
+Depends: R (>= 1.9.0), Biobase, AnnotationDbi (>= 1.4.0)
+Suggests: human.db0, mouse.db0, rat.db0
+License: LGPL
+MD5sum: 646d4e1b1dcbf6c033653fb359a4b3c1
+NeedsCompilation: no
+
+Package: rfPred
+Version: 1.0.0
+Depends: Rsamtools, GenomicRanges, IRanges, data.table, methods,
+        parallel
+Suggests: BiocStyle
+License: GPL (>= 2)
+MD5sum: 85c34616afb0e444d42be57fd3cc322d
+NeedsCompilation: yes
+
+Package: rGADEM
+Version: 2.10.0
+Depends: R (>= 2.11.0), Biostrings, IRanges, BSgenome, methods, seqLogo
+Imports: Biostrings, IRanges, methods, graphics, seqLogo
+Suggests: BSgenome.Hsapiens.UCSC.hg18
+License: Artistic-2.0
+MD5sum: 484ad809b3c2633dc6559faf845a363d
+NeedsCompilation: yes
+
+Package: RGalaxy
+Version: 1.6.0
+Depends: XML, methods, tools, optparse, digest,
+Imports: BiocGenerics, Biobase, roxygen2
+Suggests: RUnit, hgu95av2.db, knitr, formatR, Rserve
+Enhances: RSclient
+License: Artistic-2.0
+MD5sum: c19da7d923e6d2217148008d5e8c4f1b
+NeedsCompilation: no
+
+Package: Rgraphviz
+Version: 2.6.0
+Depends: R (>= 2.6.0), methods, utils, graph, grid
+Imports: stats4, graphics, grDevices
+Suggests: RUnit, BiocGenerics, XML
+License: EPL
+MD5sum: 8d7c6d1816ddcdc403c32a972046ebd7
+NeedsCompilation: yes
+
+Package: rhdf5
+Version: 2.6.0
+Depends: methods
+Imports: zlibbioc
+Suggests: bit64,BiocStyle
+License: Artistic-2.0
+MD5sum: d654434180e19bab6c2a5a2d0993b923
+NeedsCompilation: yes
+
+Package: rHVDM
+Version: 1.28.0
+Depends: R (>= 2.10), R2HTML (>= 1.5), affy (>= 1.23.4), minpack.lm (>=
+        1.0-5), Biobase (>= 2.5.5)
+License: GPL-2
+MD5sum: 788d48d62e02be778af337db4dcfc2a8
+NeedsCompilation: no
+
+Package: Ringo
+Version: 1.26.1
+Depends: methods, Biobase (>= 1.14.1), RColorBrewer, limma, Matrix,
+        grid, lattice
+Imports: BiocGenerics (>= 0.1.11), genefilter, limma, vsn, stats4
+Suggests: rtracklayer (>= 1.3.1), mclust, topGO (>= 1.15.0)
+License: Artistic-2.0
+MD5sum: 4e73b8d528715f19067e89ad767a4b24
+NeedsCompilation: yes
+
+Package: RIPSeeker
+Version: 1.2.0
+Depends: R (>= 2.15), methods, IRanges, GenomicRanges, rtracklayer,
+        Rsamtools
+Suggests: biomaRt, ChIPpeakAnno, parallel, GenomicFeatures
+License: GPL-2
+MD5sum: 0ba7993c762d2303b398e0029846c092
+NeedsCompilation: no
+
+Package: Risa
+Version: 1.4.0
+Depends: R (>= 2.0.9), Biobase (>= 2.4.0), methods, Rcpp (>= 0.9.13),
+        biocViews, affy
+Imports: xcms
+Suggests: faahKO (>= 1.2.11)
+License: LGPL
+MD5sum: 87ba278d300ee6a13737c504ce7e081f
+NeedsCompilation: no
+
+Package: RLMM
+Version: 1.24.0
+Depends: R (>= 2.1.0)
+Imports: graphics, grDevices, MASS, stats, utils
+License: LGPL (>= 2)
+MD5sum: efe9f80dc869a9decaf1a0eade95a3ff
+NeedsCompilation: no
+
+Package: Rmagpie
+Version: 1.18.0
+Depends: R (>= 2.6.1), Biobase (>= 2.5.5)
+Imports: Biobase (>= 2.5.5), e1071, graphics, grDevices, kernlab,
+        methods, pamr, stats, utils
+Suggests: xtable
+License: GPL (>= 3)
+MD5sum: 9cf9a06be076b5a0b6c24eb352587dc3
+NeedsCompilation: no
+
+Package: RMAPPER
+Version: 1.12.0
+Depends: methods
+Suggests: RCurl
+License: Artistic-2.0
+MD5sum: c82539dd96717290bf655f5093f54031
+NeedsCompilation: no
+
+Package: RMassBank
+Version: 1.4.0
+Depends: mzR,rcdk,yaml,methods
+Imports: XML,RCurl,rjson
+Suggests: gplots,RMassBankData, xcms (>= 1.37.1), CAMERA, ontoCAT,
+        RUnit
+License: Artistic-2.0
+MD5sum: e7f0fd2daa2b32e2d647537e975f19fa
+NeedsCompilation: no
+
+Package: rMAT
+Version: 3.12.0
+Depends: R(>= 2.9.0), BiocGenerics (>= 0.1.3), IRanges (>= 1.13.10),
+        Biobase (>= 2.15.1), affxparser
+Imports: stats, methods, BiocGenerics, IRanges, Biobase, affxparser,
+        stats4
+Suggests: GenomeGraphs, rtracklayer
+License: Artistic-2.0
+MD5sum: cf0e9c84454829e746d927929b74b5f6
+NeedsCompilation: yes
+
+Package: RmiR
+Version: 1.18.0
+Depends: R (>= 2.7.0), RmiR.Hs.miRNA, RSVGTipsDevice
+Imports: DBI, methods, stats
+Suggests: hgug4112a.db,org.Hs.eg.db
+License: Artistic-2.0
+MD5sum: 3fac9ea7f498e1e0ced0b38ef8ace875
+NeedsCompilation: no
+
+Package: RNAinteract
+Version: 1.10.0
+Depends: R (>= 2.12.0), abind, locfit, Biobase
+Imports: RColorBrewer, ICS, ICSNP, cellHTS2, geneplotter, gplots, grid,
+        hwriter, lattice, latticeExtra, limma, methods, splots (>=
+        1.13.12)
+License: Artistic-2.0
+MD5sum: c914b48033f2a1896970253f78fdea0b
+NeedsCompilation: no
+
+Package: RNAither
+Version: 2.10.0
+Depends: R (>= 2.10), topGO, RankProd, prada
+Imports: geneplotter, limma, biomaRt, car, splots, methods
+License: Artistic-2.0
+MD5sum: 7292caea0a017a9a132a086b1601bcef
+NeedsCompilation: no
+
+Package: rnaSeqMap
+Version: 2.18.0
+Depends: R (>= 2.11.0), methods, Biobase, Rsamtools
+Imports: GenomicRanges , IRanges, edgeR, DESeq, DBI
+License: GPL-2
+MD5sum: cc04fdd43e3e97cf0761749ac8419f0e
+NeedsCompilation: yes
+
+Package: RNASeqPower
+Version: 1.2.0
+License: LGPL (>= 2)
+MD5sum: d03659e3e76c59cd754c4b5a11e012d5
+NeedsCompilation: no
+
+Package: ROC
+Version: 1.38.0
+Depends: R (>= 1.9.0), utils, methods
+Suggests: Biobase
+License: Artistic-2.0
+MD5sum: 35bcbd9af068098247f16b7db12afc0c
+NeedsCompilation: yes
+
+Package: Roleswitch
+Version: 1.0.0
+Depends: R (>= 2.10), pracma, reshape, plotrix, microRNA, biomaRt,
+        Biostrings, Biobase, DBI
+Suggests: ggplot2
+License: GPL-2
+MD5sum: 8ef695427cb9750c810d7a7bac4abac4
+NeedsCompilation: no
+
+Package: Rolexa
+Version: 1.18.0
+Depends: R (>= 2.9.0), graphics, grDevices, methods, ShortRead
+Imports: mclust, Biostrings, graphics, grDevices, IRanges, methods,
+        ShortRead, stats
+Enhances: fork
+License: GPL-2
+MD5sum: 0e46527749064afa35664e439374e8be
+NeedsCompilation: no
+
+Package: rols
+Version: 1.4.0
+Depends: methods
+Imports: XML, XMLSchema (>= 0.6.0), SSOAP (>= 0.8.0), Biobase
+Suggests: xtable, GO.db, knitr (>= 1.1.0)
+License: GPL-2
+MD5sum: 0dcd1c65612ca93b65548b1f78befcb9
+NeedsCompilation: no
+
+Package: ROntoTools
+Version: 1.2.0
+Depends: methods, graph, boot, KEGGREST, KEGGgraph, Rgraphviz
+Suggests: RUnit, BiocGenerics
+License: GPL (>= 3)
+MD5sum: f82de32dee423ab4ebc4ff38d4b77dd7
+NeedsCompilation: no
+
+Package: RPA
+Version: 1.18.0
+Depends: R (>= 2.15.0), affy, affydata, methods, parallel
+License: FreeBSD
+MD5sum: f495afe2202cd23425a0314522fd128e
+NeedsCompilation: no
+
+Package: RpsiXML
+Version: 2.4.0
+Depends: methods, annotate (>= 1.21.0), graph (>= 1.21.0), Biobase,
+        RBGL (>= 1.17.0), XML (>= 2.4.0), hypergraph (>= 1.15.2),
+        AnnotationDbi
+Suggests: org.Hs.eg.db, org.Mm.eg.db, org.Dm.eg.db, org.Rn.eg.db,
+        org.Sc.sgd.db,hom.Hs.inp.db, hom.Mm.inp.db, hom.Dm.inp.db,
+        hom.Rn.inp.db, hom.Sc.inp.db,Rgraphviz, ppiStats, ScISI
+License: LGPL-3
+MD5sum: 085b4cafcc56a35514fa718f93171c25
+NeedsCompilation: no
+
+Package: rqubic
+Version: 1.8.0
+Depends: methods, Biobase, biclust
+Imports: Biobase, biclust
+Suggests: RColorBrewer
+License: GPL-2
+MD5sum: 97f7980193890bc728b4bca4e10bf891
+NeedsCompilation: yes
+
+Package: RRHO
+Version: 1.0.0
+Depends: VennDiagram, grid
+License: GPL-2
+MD5sum: 639c74c5de30144460f0b8a15c55fc31
+NeedsCompilation: no
+
+Package: Rsamtools
+Version: 1.14.2
+Depends: methods, IRanges (>= 1.19.11), GenomicRanges (>= 1.13.35),
+        XVector, Biostrings (>= 2.29.7)
+Imports: utils, BiocGenerics (>= 0.1.3), zlibbioc, bitops
+LinkingTo: IRanges, XVector, Biostrings
+Suggests: ShortRead (>= 1.19.10), GenomicFeatures,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene, KEGG.db,
+        TxDb.Hsapiens.UCSC.hg18.knownGene, RNAseqData.HNRNPC.bam.chr14,
+        BSgenome.Hsapiens.UCSC.hg19, pasillaBamSubset, RUnit, BiocStyle
+License: Artistic-2.0 | file LICENSE
+MD5sum: 83aa5c41214583f83c86bcc90355d59e
+NeedsCompilation: yes
+
+Package: rsbml
+Version: 2.20.1
+Depends: R (>= 2.6.0), BiocGenerics (>= 0.3.2), methods, utils
+Imports: BiocGenerics, graph, utils
+License: Artistic-2.0
+MD5sum: 3569cf8b92d53542880055e5e940f97b
+NeedsCompilation: yes
+
+Package: rSFFreader
+Version: 0.10.0
+Depends: R (>= 2.13.0), BiocGenerics, IRanges (>= 1.19.5), XVector,
+        Biostrings (>= 2.29.2), GenomicRanges, ShortRead (>= 1.15.9),
+        xtable, methods
+Imports: methods, IRanges, XVector, Biostrings, ShortRead,
+        GenomicRanges, Biobase
+LinkingTo: IRanges, XVector, Biostrings
+License: Artistic-2.0
+MD5sum: 968b08a748bdc6095618128f62c8213a
+NeedsCompilation: yes
+
+Package: Rsubread
+Version: 1.12.6
+License: GPL-3
+MD5sum: 593068189db38d4149787ef5ade00da3
+NeedsCompilation: yes
+
+Package: RSVSim
+Version: 1.2.1
+Depends: R (>= 3.0.0), Biostrings, GenomicRanges
+Imports: methods, IRanges, ShortRead
+Suggests: BSgenome.Hsapiens.UCSC.hg19, MASS, rtracklayer
+License: LGPL-3
+MD5sum: b9ba209085a1df631dacc1825d27d195
+NeedsCompilation: no
+
+Package: rTANDEM
+Version: 1.2.0
+Depends: XML, Rcpp, data.table (>= 1.8.8)
+Imports: methods
+LinkingTo: Rcpp
+Suggests: biomaRt
+License: Artistic-1.0 | file LICENSE
+MD5sum: dba7b5d5d0b683630c1803f22b16e4be
+NeedsCompilation: yes
+
+Package: RTCA
+Version: 1.14.0
+Depends: methods,stats,graphics,Biobase,RColorBrewer, gtools
+Suggests: xtable
+License: LGPL-3
+MD5sum: acc0b47da9aec3e524f872456c96ede8
+NeedsCompilation: no
+
+Package: RTN
+Version: 1.0.0
+Depends: R (>= 2.15), methods, igraph
+Imports: minet, snow, limma, RedeR (>= 1.8.1)
+Suggests: HTSanalyzeR, RUnit, BiocGenerics
+License: Artistic-2.0
+MD5sum: e62b1dec1034fed27a4f036659bae307
+NeedsCompilation: no
+
+Package: RTopper
+Version: 1.8.0
+Depends: R (>= 2.11.0), Biobase
+Imports: limma, multtest
+Suggests: limma, org.Hs.eg.db, KEGG.db, GO.db
+License: GPL (>= 3)
+MD5sum: f2277a6624caefe08bbbc6f1fbdb9114
+NeedsCompilation: no
+
+Package: rtracklayer
+Version: 1.22.0
+Depends: R (>= 2.10), methods, GenomicRanges (>= 1.13.3)
+Imports: XML (>= 1.98-0), BiocGenerics (>= 0.7.7), IRanges (>=
+        1.19.34), XVector (>= 0.1.3), GenomicRanges (>= 1.13.43),
+        Biostrings (>= 2.29.18), BSgenome (>= 1.23.1), zlibbioc, RCurl
+        (>= 1.4-2), Rsamtools (>= 1.13.1)
+LinkingTo: IRanges, XVector
+Suggests: humanStemCell, microRNA (>= 1.1.1), genefilter, limma,
+        org.Hs.eg.db, BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, hgu133plus2.db
+License: Artistic-2.0
+MD5sum: 1dad994b4779769e935902e9c8384959
+NeedsCompilation: yes
+
+Package: Rtreemix
+Version: 1.24.0
+Depends: R (>= 2.5.0), methods, graph, Biobase
+Imports: methods, graph, Biobase, Hmisc
+Suggests: Rgraphviz
+License: LGPL
+MD5sum: cb45d454f00d422026b5967dbbbfa131
+NeedsCompilation: yes
+
+Package: rTRM
+Version: 1.0.3
+Depends: R (>= 2.10), igraph, RSQLite, annotate
+Imports: AnnotationDbi
+Suggests: RUnit, BiocGenerics, MotifDb, graph, PWMEnrich, biomaRt,
+        knitr, Biostrings, BSgenome.Mmusculus.UCSC.mm8, org.Mm.eg.db
+License: GPL-3
+MD5sum: 6d7e427e407954e8e59915f08b274455
+NeedsCompilation: no
+
+Package: rTRMui
+Version: 1.0.4
+Depends: shiny (>= 0.5), rTRM, MotifDb, org.Hs.eg.db, org.Mm.eg.db
+License: GPL-3
+MD5sum: c4a68ea36e872e00117256eb14c0cfda
+NeedsCompilation: no
+
+Package: RWebServices
+Version: 1.26.0
+Depends: SJava (>= 0.85), TypeInfo, methods, tools (>= 2.10.0), R (>=
+        2.5.0)
+Imports: RCurl, SJava
+License: file LICENSE
+License_restricts_use: no
+MD5sum: 0d419d17922883bf03a4633d1e7726fe
+NeedsCompilation: yes
+
+Package: safe
+Version: 3.2.0
+Depends: R (>= 2.4.0), AnnotationDbi, Biobase, methods, SparseM
+Suggests: GO.db, KEGG.db, PFAM.db, reactome.db, hgu133a.db,
+        breastCancerUPP, survival, foreach, doRNG, Rgraphviz, GOstats
+License: GPL (>= 2)
+MD5sum: c77f3f551e11758e901488f1ce2ab2d3
+NeedsCompilation: no
+
+Package: sagenhaft
+Version: 1.32.0
+Depends: R (>= 2.10), SparseM (>= 0.73), methods
+Imports: graphics, methods, SparseM, stats, utils
+License: GPL (>= 2)
+MD5sum: a402ec6cd85a5357966102f7f23c3900
+NeedsCompilation: no
+
+Package: SAGx
+Version: 1.36.0
+Depends: R (>= 2.5.0), stats, multtest, methods
+Imports: Biobase, stats4
+Suggests: KEGG.db, hu6800.db, MASS
+License: GPL-3
+MD5sum: eda891484fb8ece1da16fc90acccc370
+NeedsCompilation: yes
+
+Package: SamSPECTRAL
+Version: 1.16.0
+Depends: R (>= 2.10)
+Imports: methods
+License: GPL (>= 2)
+MD5sum: c59e1205b95b529eff91aaf9991c5be7
+NeedsCompilation: yes
+
+Package: SANTA
+Version: 1.2.0
+Depends: R (>= 2.14), igraph
+Imports: msm, snow
+Suggests: RUnit, BiocGenerics, org.Sc.sgd.db
+License: Artistic-2.0
+MD5sum: bde2976ed2cfc0f9cd20268a7610a14c
+NeedsCompilation: yes
+
+Package: SBMLR
+Version: 1.58.0
+Depends: XML, deSolve
+Suggests: rsbml
+License: GPL-2
+MD5sum: f08b4106bfd36f095a31ca74e0a3fa6c
+NeedsCompilation: no
+
+Package: SCAN.UPC
+Version: 2.4.1
+Depends: R (>= 2.14.0), Biobase (>= 2.6.0), oligo, Biostrings,
+        GEOquery, affy, affyio, foreach
+Imports: utils, methods, MASS, tools
+Suggests: pd.hg.u95a
+License: MIT
+MD5sum: 75d343ca7ea382b48be7aac2906d934d
+NeedsCompilation: no
+
+Package: ScISI
+Version: 1.34.0
+Depends: R (>= 2.10), GO.db, RpsiXML, annotate, apComplex
+Imports: AnnotationDbi, GO.db, RpsiXML, annotate, methods,
+        org.Sc.sgd.db, utils
+Suggests: ppiData, xtable
+License: LGPL
+MD5sum: 750f36c134b01935e1de28066f527f6e
+NeedsCompilation: no
+
+Package: segmentSeq
+Version: 1.14.0
+Depends: R (>= 2.3.0), methods, baySeq (>= 1.15.4), ShortRead,
+        GenomicRanges, IRanges
+Imports: baySeq, graphics, grDevices, IRanges, methods, utils,
+        GenomicRanges
+Suggests: snow
+License: GPL-3
+MD5sum: 4f35bce2b0f348e302a268701163ace9
+NeedsCompilation: no
+
+Package: SeqArray
+Version: 1.2.0
+Depends: gdsfmt (>= 1.0.0)
+Imports: methods, Biostrings, GenomicRanges, IRanges, VariantAnnotation
+Suggests: parallel, snow, BiocGenerics, RUnit, Rcpp
+License: GPL-3
+MD5sum: 46889044d69fdad5c9fb274c124aac57
+NeedsCompilation: yes
+
+Package: seqbias
+Version: 1.10.0
+Depends: R (>= 2.13.0), GenomicRanges (>= 0.1.0), Biostrings (>=
+        2.15.0), methods
+Imports: zlibbioc
+LinkingTo: Rsamtools
+Suggests: Rsamtools, ggplot2
+License: LGPL-3
+MD5sum: b1f62d8c4d189ac37b71f9f958705877
+NeedsCompilation: yes
+
+Package: seqCNA
+Version: 1.2.0
+Depends: R (>= 2.10), GLAD (>= 2.14), doSNOW (>= 1.0.5), adehabitatLT
+        (>= 0.3.4), seqCNA.annot (>= 0.99), methods
+License: GPL-3
+MD5sum: da8f671e61c3d429dbb28dd0998182e8
+NeedsCompilation: yes
+
+Package: SeqGSEA
+Version: 1.2.0
+Depends: Biobase, BiocGenerics, DESeq, biomaRt, foreach
+Imports: methods, doParallel
+License: GPL (>= 3)
+MD5sum: 22953a614ab17e248fa9d3b51244248f
+NeedsCompilation: no
+
+Package: seqLogo
+Version: 1.28.0
+Depends: methods, grid
+License: LGPL (>= 2)
+MD5sum: 9957cdd2e199dfc3922304bef466b9f6
+NeedsCompilation: no
+
+Package: SeqVarTools
+Version: 1.0.0
+Depends: SeqArray (>= 1.1.1)
+Imports: methods, GenomicRanges, IRanges, GWASExactHW
+Suggests: BiocGenerics, RUnit
+License: GPL-3
+MD5sum: 7da31ff9ac5b01d4c78785248183a5e7
+NeedsCompilation: no
+
+Package: shinyTANDEM
+Version: 1.0.0
+Depends: rTANDEM, shiny, biomaRt
+License: GPL-3
+MD5sum: 866aaa0842fb323cda376dc8bca27b5a
+NeedsCompilation: no
+
+Package: ShortRead
+Version: 1.20.0
+Depends: methods, BiocGenerics (>= 0.1.0), IRanges (>= 1.19.34),
+        GenomicRanges (>= 1.13.43), Biostrings (>= 2.29.18), lattice,
+        Rsamtools (>= 1.13.1)
+Imports: Biobase, hwriter, zlibbioc, latticeExtra
+LinkingTo: IRanges, XVector, Biostrings
+Suggests: biomaRt, RUnit, GenomicFeatures, yeastNagalakshmi
+Enhances: Rmpi, parallel
+License: Artistic-2.0
+MD5sum: f25d1f1aff15fe5a66c9b2e0e2befa81
+NeedsCompilation: yes
+
+Package: sigaR
+Version: 1.6.0
+Depends: Biobase, CGHbase, methods, mvtnorm, penalized
+Imports: corpcor (>= 1.6.2), graphics, igraph, marray, MASS, mvtnorm,
+        quadprog, penalized (>= 0.9-39), snowfall, stats
+License: GPL (>= 2)
+MD5sum: 149e2fa37fe47c32e044198b47f5b04e
+NeedsCompilation: no
+
+Package: SigFuge
+Version: 1.0.0
+Depends: R (>= 2.15.2), GenomicRanges
+Imports: ggplot2, matlab, reshape, sigclust
+Suggests: org.Hs.eg.db, prebsdata, Rsamtools,
+        TxDb.Hsapiens.UCSC.hg19.knownGene
+License: GPL-3
+MD5sum: 1388911071008e6a5b32c8d3e8e350e9
+NeedsCompilation: no
+
+Package: siggenes
+Version: 1.36.0
+Depends: methods, Biobase, multtest, splines, graphics
+Imports: stats4
+Suggests: affy, annotate, genefilter, KernSmooth, scrime (>= 1.2.5)
+License: LGPL (>= 2)
+MD5sum: 441c332d5189421028651921f6247423
+NeedsCompilation: no
+
+Package: sigPathway
+Version: 1.30.0
+Depends: R (>= 2.10)
+Suggests: hgu133a.db (>= 1.10.0), XML (>= 1.6-3), AnnotationDbi (>=
+        1.3.12)
+License: GPL-2
+MD5sum: 5636efc1cdcc651fa4a0352abcd774cd
+NeedsCompilation: yes
+
+Package: SIM
+Version: 1.32.0
+Depends: R (>= 2.4), quantreg
+Imports: graphics, stats, globaltest, quantsmooth
+Suggests: biomaRt, RColorBrewer
+License: GPL (>= 2)
+MD5sum: 1b8976e860df3277743e70b323cc521d
+NeedsCompilation: yes
+
+Package: SimBindProfiles
+Version: 1.0.0
+Depends: R (>= 2.10), methods, Ringo
+Imports: limma, mclust, Biobase
+License: GPL-3
+MD5sum: 10b8d68552a48540164c7c4460066640
+NeedsCompilation: no
+
+Package: simpleaffy
+Version: 2.38.0
+Depends: R (>= 2.0.0), methods, utils, grDevices, graphics, stats,
+        BiocGenerics (>= 0.1.12), Biobase, affy (>= 1.33.6),
+        genefilter, gcrma
+Imports: methods, utils, grDevices, graphics, stats, BiocGenerics,
+        Biobase, affy, genefilter, gcrma
+License: GPL (>= 2)
+MD5sum: 68fbe75b4e04265c0fe43610afdeff04
+NeedsCompilation: yes
+
+Package: sizepower
+Version: 1.32.0
+Depends: stats
+License: LGPL
+MD5sum: 4b831c816fa11496de3631735ed7bea3
+NeedsCompilation: no
+
+Package: SJava
+Version: 0.88.0
+Depends: R (>= 2.10.0), methods
+Imports: methods
+License: GPL (>= 2)
+MD5sum: 2a8d1f3cbcf4870488d7b05f9fde09fa
+NeedsCompilation: yes
+
+Package: SLGI
+Version: 1.22.0
+Depends: R (>= 2.10), ScISI, lattice
+Imports: AnnotationDbi, Biobase, GO.db, ScISI, graphics, lattice,
+        methods, stats, BiocGenerics
+Suggests: GO.db, org.Sc.sgd.db
+License: Artistic-2.0
+MD5sum: 63b52e30d5740677f13c2ca8cc083d1e
+NeedsCompilation: no
+
+Package: SLqPCR
+Version: 1.28.0
+Depends: R(>= 2.4.0)
+Imports: stats
+Suggests: RColorBrewer
+License: GPL (>= 2)
+MD5sum: 5dbb7b7f9a4319319fb374b32e2ce01c
+NeedsCompilation: no
+
+Package: SMAP
+Version: 1.26.0
+Depends: R (>= 2.10), methods
+License: GPL-2
+MD5sum: acd1793efe06650cfe90ce66ccb8394a
+NeedsCompilation: yes
+
+Package: SNAGEE
+Version: 1.2.0
+Depends: R (>= 2.6.0), SNAGEEdata
+Suggests: ALL, hgu95av2.db
+Enhances: parallel
+License: Artistic-2.0
+MD5sum: 2992411d5f1c331242b07dc8cffdd8ef
+NeedsCompilation: no
+
+Package: snapCGH
+Version: 1.32.0
+Depends: limma, DNAcopy, methods
+Imports: aCGH, cluster, DNAcopy, GLAD, graphics, grDevices, limma,
+        methods, stats, tilingArray, utils
+License: GPL
+MD5sum: d84ff68e1f526ba4b4a292714d848c63
+NeedsCompilation: yes
+
+Package: snm
+Version: 1.10.2
+Depends: R (>= 2.12.0)
+Imports: corpcor, lme4 (>= 1.0), splines
+License: LGPL
+MD5sum: afa6ce66e5d8ce91ccdac964c541c086
+NeedsCompilation: no
+
+Package: SNPchip
+Version: 2.8.0
+Depends: R (>= 2.14.0)
+Imports: graphics, lattice, grid, foreach, utils, methods, oligoClasses
+        (>= 1.21.12), Biobase, GenomicRanges
+Suggests: crlmm (>= 1.17.14), IRanges, RUnit
+Enhances: doSNOW, VanillaICE (>= 1.21.24), RColorBrewer
+License: LGPL (>= 2)
+MD5sum: 3c45e6a9950349660e6fffad788f6382
+NeedsCompilation: no
+
+Package: snpStats
+Version: 1.12.0
+Depends: R(>= 2.10.0), survival, methods, Matrix
+Imports: graphics, grDevices, methods, stats, survival, utils, Matrix,
+        BiocGenerics
+Suggests: hexbin
+License: GPL-3
+MD5sum: 05608e57a73258fc13f8a7600e23e527
+NeedsCompilation: yes
+
+Package: SomatiCA
+Version: 1.4.0
+Depends: R (>= 2.14.0), lars, DNAcopy, foreach, methods, rebmix,
+        GenomicRanges, IRanges, doParallel
+Imports: foreach, lars, sn, DNAcopy, methods, rebmix, GenomicRanges,
+        IRanges
+Enhances: sn, SomatiCAData
+License: GPL (>= 2)
+MD5sum: e460d005732197282b423c97eb70bdf7
+NeedsCompilation: no
+
+Package: SpacePAC
+Version: 1.0.0
+Depends: R(>= 2.15),iPAC
+Suggests: RUnit, BiocGenerics, rgl
+License: GPL-2
+MD5sum: 9f3d3e625eaf90bf2b09722db398dfbf
+NeedsCompilation: no
+
+Package: spade
+Version: 1.10.2
+Depends: R (>= 2.11), igraph, Rclusterpp
+Imports: Biobase, flowCore, igraph, Rclusterpp
+Suggests: flowViz
+License: GPL-2
+MD5sum: c0095db79e2e209de4280522e7dc7a8a
+NeedsCompilation: yes
+
+Package: SpeCond
+Version: 1.16.0
+Depends: R (>= 2.10.0), mclust (>= 3.3.1), Biobase (>= 1.15.13),
+        fields, hwriter (>= 1.1), RColorBrewer, methods
+License: LGPL (>= 2)
+MD5sum: 496dff890b351d2b166c535f098c0964
+NeedsCompilation: no
+
+Package: SPEM
+Version: 1.2.0
+Depends: R (>= 2.15.1), Rsolnp, Biobase, methods
+License: GPL-2
+MD5sum: 73f697a0bcc5295931adf43b77d1cc4f
+NeedsCompilation: no
+
+Package: SPIA
+Version: 2.14.0
+Depends: R (>= 2.14.0), graphics, KEGGgraph
+Imports: graphics
+Suggests: graph, Rgraphviz, hgu133plus2.db
+License: GPL (>= 2)
+MD5sum: 879e813b9f59288846c21928273185a2
+NeedsCompilation: no
+
+Package: spikeLI
+Version: 2.22.0
+Imports: graphics, grDevices, stats, utils
+License: GPL-2
+MD5sum: 1531d8d2549d8952b6e8dc95268ad86b
+NeedsCompilation: no
+
+Package: spkTools
+Version: 1.18.0
+Depends: R (>= 2.7.0), Biobase (>= 2.5.5)
+Imports: Biobase (>= 2.5.5), graphics, grDevices, gtools, methods,
+        RColorBrewer, stats, utils
+Suggests: xtable
+License: GPL (>= 2)
+MD5sum: ee71c4777b1199e49a6eafb18ba6f23b
+NeedsCompilation: no
+
+Package: splicegear
+Version: 1.34.0
+Depends: R (>= 2.6.0), methods, Biobase(>= 2.5.5)
+Imports: annotate, Biobase, graphics, grDevices, grid, methods, utils,
+        XML
+License: LGPL
+MD5sum: 06d7f460808e0e1902599040be87451f
+NeedsCompilation: no
+
+Package: spliceR
+Version: 1.2.0
+Depends: R (>= 2.15.0), methods, cummeRbund, rtracklayer, VennDiagram,
+        RColorBrewer, plyr
+Imports: GenomicRanges, IRanges
+Suggests: BSgenome.Hsapiens.UCSC.hg19, BSgenome
+License: GPL (>= 2)
+MD5sum: 49b96e82e09a098a189e1d00afb00805
+NeedsCompilation: yes
+
+Package: spliceSites
+Version: 1.0.0
+Depends: methods,rbamtools,refGenome (>= 1.1.2),doBy,Biobase,Biostrings
+        (>= 2.28.0),seqLogo
+Imports: BiocGenerics
+License: GPL-2
+MD5sum: 875480eba65d282e2416ad4bf4a91507
+NeedsCompilation: yes
+
+Package: SplicingGraphs
+Version: 1.2.0
+Depends: BiocGenerics, IRanges (>= 1.17.43), GenomicRanges (>= 1.13.5),
+        GenomicFeatures, Rgraphviz (>= 2.3.7)
+Imports: methods, utils, igraph, BiocGenerics, IRanges, GenomicRanges,
+        GenomicFeatures, graph, Rgraphviz
+Suggests: igraph, Gviz, Rsamtools, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        RNAseqData.HNRNPC.bam.chr14, RUnit
+License: Artistic-2.0
+MD5sum: 7c6b2f08bd996435c278c5d96e9a2d5d
+NeedsCompilation: no
+
+Package: splots
+Version: 1.28.0
+Imports: grid, RColorBrewer
+License: LGPL
+MD5sum: 859d512c3be1b912101d621978e9618f
+NeedsCompilation: no
+
+Package: spotSegmentation
+Version: 1.36.0
+Depends: R (>= 2.10), mclust
+License: GPL (>= 2)
+MD5sum: 2b2b7bbcf5a4203364dff3223af60b4c
+NeedsCompilation: no
+
+Package: SQUADD
+Version: 1.12.0
+Depends: R (>= 2.11.0)
+Imports: graphics, grDevices, methods, RColorBrewer, stats, utils
+License: GPL (>= 2)
+MD5sum: cffc98c19d19cb41b0faf6ca7c1a22d1
+NeedsCompilation: no
+
+Package: SRAdb
+Version: 1.16.0
+Depends: RSQLite (>= 0.8-4) , graph, RCurl
+Imports: GEOquery
+Suggests: Rgraphviz
+License: Artistic-2.0
+MD5sum: 5acb750fbfd47fa219be17911bf83e14
+NeedsCompilation: no
+
+Package: sRAP
+Version: 1.2.0
+Depends: WriteXLS
+Imports: gplots, pls, ROCR, qvalue
+License: GPL-3
+MD5sum: 3222c1e24e4a614482bf4ba7ff161e31
+NeedsCompilation: no
+
+Package: sscore
+Version: 1.34.0
+Depends: R (>= 1.8.0), affy, affyio
+Suggests: affydata
+License: GPL (>= 2)
+MD5sum: b9780ec01ae88c61ab10d56c6d4ad0cf
+NeedsCompilation: no
+
+Package: sSeq
+Version: 1.0.0
+Depends: R (>= 3.0), caTools, RColorBrewer
+License: GPL (>= 3)
+MD5sum: 271b2426014b6aaaa250bd342a792bd4
+NeedsCompilation: no
+
+Package: ssize
+Version: 1.36.0
+Depends: gdata, xtable
+License: LGPL
+MD5sum: f6708a69703ffa006803d826323bdf53
+NeedsCompilation: no
+
+Package: SSPA
+Version: 2.2.0
+Depends: R (>= 2.12), methods, qvalue, lattice, limma
+Imports: graphics, stats
+Suggests: genefilter, edgeR, DESeq
+License: GPL (>= 2)
+MD5sum: 03aa9528c9581ea0b79bfd867b780278
+NeedsCompilation: yes
+
+Package: staRank
+Version: 1.4.0
+Depends: methods, cellHTS2, R (>= 2.10)
+License: GPL
+MD5sum: efedafe9f81d8877a6cf97d3b39036c7
+NeedsCompilation: no
+
+Package: Starr
+Version: 1.18.1
+Depends: Ringo, affy, affxparser, lattice
+Imports: pspline, MASS, zlibbioc
+License: Artistic-2.0
+MD5sum: d5c9e944fa162c2e03a80800584f94b0
+NeedsCompilation: yes
+
+Package: stepNorm
+Version: 1.34.0
+Depends: R (>= 1.8.0), marray, methods
+Imports: marray, MASS, methods, stats
+License: LGPL
+MD5sum: 2c48d08833cc72bb83089550dfe0b572
+NeedsCompilation: no
+
+Package: stepwiseCM
+Version: 1.8.0
+Depends: R (>= 2.14), randomForest, MAclinical, tspair, pamr, snowfall,
+        glmpath, penalized, e1071, Biobase
+License: GPL (> 2)
+MD5sum: cfb91c85b707bdd37b64b9b3f6aff16c
+NeedsCompilation: no
+
+Package: Streamer
+Version: 1.8.0
+Imports: methods, graph, RBGL, parallel, BiocGenerics
+Suggests: RUnit, Rsamtools (>= 1.5.53), Rgraphviz
+License: Artistic-2.0
+MD5sum: 35355b93788f4136d0906a3ea15e8df9
+NeedsCompilation: yes
+
+Package: STRINGdb
+Version: 1.0.0
+Depends: R (>= 2.14.0), png, sqldf, plyr, igraph, RCurl, plotrix,
+        methods
+Suggests: RUnit, BiocGenerics
+License: GPL-2
+MD5sum: 47a0c5481cb1ade79b5cceecd95732d2
+NeedsCompilation: no
+
+Package: supraHex
+Version: 1.0.0
+Depends: R (>= 3.0.1), hexbin
+Imports: grid, MASS, Biobase
+License: GPL-2
+MD5sum: 5a0d010b61abeb0b963b3bbb1f975c01
+NeedsCompilation: no
+
+Package: survcomp
+Version: 1.12.0
+Depends: R (>= 2.10), survival, prodlim
+Imports: ipred, SuppDists, KernSmooth, survivalROC, bootstrap, grid,
+        rmeta
+Suggests: Hmisc, CPE, clinfun, survJamda, Biobase, xtable
+License: Artistic-2.0
+MD5sum: 50e44a0771e01c1d0d193a078dac2f14
+NeedsCompilation: yes
+
+Package: sva
+Version: 3.8.0
+Depends: R (>= 2.8), corpcor, mgcv
+Imports: graphics, stats
+Suggests: limma,pamr,bladderbatch
+License: Artistic-2.0
+MD5sum: c00e486a5ffff7f00bfaa27cea809b13
+NeedsCompilation: yes
+
+Package: SwimR
+Version: 1.0.0
+Depends: R (>= 3.0.0), methods, gplots (>= 2.10.1), heatmap.plus (>=
+        1.3), signal (>= 0.7), R2HTML (>= 2.2.1)
+Imports: methods
+License: LGPL-2
+MD5sum: 80a2197e31a189fad22b60947fed2272
+NeedsCompilation: no
+
+Package: synapter
+Version: 1.4.0
+Depends: R (>= 2.15), methods, MSnbase
+Imports: hwriter, tcltk, tcltk2, RColorBrewer, lattice, qvalue,
+        multtest, utils, Biobase, knitr
+Suggests: synapterdata, xtable
+License: GPL-2
+MD5sum: 76137819d1edbb2c44fe5534495b47f1
+NeedsCompilation: no
+
+Package: TargetScore
+Version: 1.0.0
+Depends: pracma, Matrix
+Suggests: TargetScoreData, gplots, Biobase, GEOquery
+License: GPL-2
+MD5sum: f20670e159b86c74400d3b16ad7179a1
+NeedsCompilation: no
+
+Package: TargetSearch
+Version: 1.18.0
+Depends: R (>= 2.7.0), mzR
+Imports: graphics, grDevices, methods, stats, tcltk, utils
+Suggests: TargetSearchData
+License: GPL (>= 2)
+MD5sum: 9e6141f6a291f312e866932df128670c
+NeedsCompilation: yes
+
+Package: TCC
+Version: 1.2.0
+Depends: R (>= 2.15), methods, DESeq, edgeR, baySeq, ROC
+Imports: EBSeq, samr
+Suggests: RUnit, BiocGenerics
+Enhances: snow
+License: GPL-2
+MD5sum: 271da5318b89a03a009849181685d038
+NeedsCompilation: no
+
+Package: TDARACNE
+Version: 1.12.0
+Depends: GenKern, Rgraphviz, Biobase
+License: GPL-2
+MD5sum: 748cfaa520fddfb63cf1e3efe5208f3d
+NeedsCompilation: no
+
+Package: TEQC
+Version: 3.2.0
+Depends: methods, BiocGenerics (>= 0.1.0), IRanges (>= 1.13.5),
+        Rsamtools, hwriter
+Imports: Biobase (>= 2.15.1)
+License: GPL (>= 2)
+MD5sum: f603e86e5b1d327f62673680275526d3
+NeedsCompilation: no
+
+Package: ternarynet
+Version: 1.6.0
+Depends: R (>= 2.10.0), methods
+Imports: utils, igraph
+License: GPL (>= 2)
+MD5sum: 4d13c8ccbf82b853bd2c0516489d962f
+NeedsCompilation: yes
+
+Package: TFBSTools
+Version: 1.0.0
+Depends: R (>= 3.0.1), methods, IRanges(>= 1.19.38)
+Imports: Biostrings(>= 2.29.19), RSQLite(>= 0.11.4), seqLogo
+License: GPL-2
+MD5sum: 05016c8dc11c5520eb9286d5c14556f6
+NeedsCompilation: no
+
+Package: tigre
+Version: 1.16.0
+Depends: R (>= 2.11.0), BiocGenerics, Biobase
+Imports: methods, BiocGenerics, Biobase, AnnotationDbi, gplots,
+        graphics, puma, stats, utils, annotate, DBI, RSQLite
+Suggests: puma, drosgenome1.db, annotate, lumi
+License: AGPL-3
+MD5sum: 3892074465297dfeb6d747d121aa27ff
+NeedsCompilation: yes
+
+Package: tilingArray
+Version: 1.40.0
+Depends: R (>= 2.11.0), Biobase, methods, pixmap
+Imports: strucchange, affy, vsn, genefilter, RColorBrewer, grid, stats4
+License: Artistic-2.0
+MD5sum: 1bbf633782a484f8e6f62931ab98ee08
+NeedsCompilation: yes
+
+Package: timecourse
+Version: 1.34.0
+Depends: R (>= 2.1.1), MASS, methods
+Imports: Biobase, graphics, limma (>= 1.8.6), MASS, marray, methods,
+        stats
+License: LGPL
+MD5sum: 97fd9ed17ea253c9aca0de3c3c23eab7
+NeedsCompilation: no
+
+Package: tkWidgets
+Version: 1.40.0
+Depends: R (>= 2.0.0), methods, widgetTools (>= 1.1.7), DynDoc (>=
+        1.3.0), tools
+Suggests: Biobase, hgu95av2
+License: Artistic-2.0
+MD5sum: add1b0a90e4203e43fc7dae67a541e3f
+NeedsCompilation: no
+
+Package: topGO
+Version: 2.14.0
+Depends: R (>= 2.10.0), methods, graph (>= 1.14.0), Biobase (>= 2.0.0),
+        GO.db (>= 2.3.0), AnnotationDbi (>= 1.7.19), SparseM (>= 0.73)
+Imports: methods, graph, Biobase, SparseM, AnnotationDbi, lattice
+Suggests: ALL, hgu95av2.db, hgu133a.db, genefilter, xtable, multtest,
+        Rgraphviz, globaltest
+License: LGPL
+MD5sum: b5e7fa20902b4755787dbd5f0ffde648
+NeedsCompilation: no
+
+Package: tRanslatome
+Version: 1.0.0
+Depends: R (>= 2.15.0), methods, limma, sigPathway, samr, anota, DESeq,
+        edgeR, RankProd, topGO, org.Hs.eg.db, GOSemSim, Heatplus,
+        gplots, plotrix
+License: LGPL
+MD5sum: f07f27e99b9a64bd37ce32714380749e
+NeedsCompilation: no
+
+Package: TransView
+Version: 1.6.1
+Depends: methods,GenomicRanges
+Imports: Rsamtools,zlibbioc,gplots,IRanges
+LinkingTo: Rsamtools
+Suggests: RUnit,pasillaBamSubset
+License: GPL-3
+MD5sum: 1f66b7c3f32867aa92257ed0671b4a1b
+NeedsCompilation: yes
+
+Package: triform
+Version: 1.4.0
+Depends: R (>= 2.11.0), IRanges, yaml
+Imports: IRanges, yaml, BiocGenerics
+Suggests: RUnit
+License: GPL-2
+MD5sum: 925d7d1853ed33b4c4c3ddaee1adb2e5
+NeedsCompilation: no
+
+Package: trigger
+Version: 1.8.0
+Depends: R (>= 2.14.0), corpcor, qtl
+Imports: qvalue, methods, graphics, sva
+License: GPL-3
+MD5sum: 0ea5a14f0b933ef47d7ecc444f0209ec
+NeedsCompilation: yes
+
+Package: trio
+Version: 3.0.0
+Depends: R (>= 3.0.1)
+Suggests: survival, haplo.stats, mcbiopi, siggenes, splines, LogicReg
+        (>= 1.5.3), logicFS (>= 1.28.1), KernSmooth
+License: LGPL-2
+MD5sum: 2f89229baaf5cd5a96f223428cd066d1
+NeedsCompilation: no
+
+Package: triplex
+Version: 1.2.1
+Depends: R (>= 2.15.0), IRanges (>= 1.19.5), XVector, Biostrings (>=
+        2.29.2)
+Imports: methods, grid, GenomicRanges
+LinkingTo: IRanges, XVector, Biostrings
+Suggests: rgl (>= 0.93.932), BSgenome.Celegans.UCSC.ce10, rtracklayer,
+        GenomeGraphs
+License: BSD_2_clause + file LICENSE
+MD5sum: 3ed2fabb5ed26ec4183172bda54fc522
+NeedsCompilation: yes
+
+Package: tspair
+Version: 1.20.0
+Depends: R (>= 2.10), Biobase (>= 2.4.0)
+License: GPL-2
+MD5sum: ae48744d26dd7d5018b9dbaae48d06bf
+NeedsCompilation: yes
+
+Package: TSSi
+Version: 1.8.0
+Depends: R (>= 2.13.2), BiocGenerics (>= 0.3.2)
+Imports: BiocGenerics, methods, Hmisc, minqa, stats, Biobase (>=
+        0.3.2), plyr, IRanges
+Suggests: rtracklayer
+Enhances: parallel
+License: GPL-3
+MD5sum: 6d3b202bbaf1d554599abf1b6b55faf0
+NeedsCompilation: yes
+
+Package: TurboNorm
+Version: 1.10.0
+Depends: R (>= 2.12.0), convert, limma (>= 1.7.0), marray
+Imports: stats, grDevices, affy, lattice
+Suggests: affydata, affy, lattice
+License: LGPL
+MD5sum: b92a4d128a1bbda2cd51e1109ebbc5de
+NeedsCompilation: yes
+
+Package: tweeDEseq
+Version: 1.8.0
+Depends: R (>= 2.12.0)
+Imports: MASS, limma, edgeR, parallel, cqn
+Suggests: tweeDEseqCountData, xtable
+License: GPL (>= 2)
+MD5sum: 1632922d57afe9bdae7bc9ac44f9c6a9
+NeedsCompilation: yes
+
+Package: twilight
+Version: 1.38.0
+Depends: R (>= 2.10), splines (>= 2.2.0), stats (>= 2.2.0), Biobase(>=
+        1.12.0)
+Imports: Biobase, graphics, grDevices, stats
+Suggests: golubEsets (>= 1.4.2), vsn (>= 1.7.2)
+License: GPL (>= 2)
+MD5sum: 7770fc647d78dfbd008735d2ebb380dc
+NeedsCompilation: yes
+
+Package: TypeInfo
+Version: 1.28.0
+Depends: methods
+Suggests: Biobase
+License: BSD
+MD5sum: bf151bf5e3cbae71ae63721a69f3d11d
+NeedsCompilation: no
+
+Package: UniProt.ws
+Version: 2.2.0
+Depends: RSQLite, RCurl, methods, utils
+Imports: BiocGenerics, AnnotationDbi
+Suggests: RUnit
+License: Artistic License 2.0
+MD5sum: e6330015994a0461ad123a359e7c4581
+NeedsCompilation: no
+
+Package: VanillaICE
+Version: 1.24.0
+Depends: R (>= 2.14.0)
+Imports: stats, utils, methods, Biobase, oligoClasses (>=
+        1.21.12),lattice, IRanges (>= 1.13.22), grid, msm, iterators,
+        foreach, GenomicRanges, matrixStats
+Suggests: genomewidesnp6Crlmm (>= 1.0.7), hapmapsnp6, RColorBrewer,
+        genefilter, RSQLite, foreach, RUnit, pd.mapping50k.hind240,
+        SNPchip (>= 2.5.7), doSNOW
+Enhances: DNAcopy, crlmm (>= 1.17.14)
+License: LGPL-2
+MD5sum: ecf8ac4b7fc3a7d3fee058a9735c1b1a
+NeedsCompilation: yes
+
+Package: VariantAnnotation
+Version: 1.8.8
+Depends: R (>= 2.8.0), methods, BiocGenerics (>= 0.7.7), GenomicRanges
+        (>= 1.13.51), Rsamtools (>= 1.13.47), IRanges (>= 1.19.36),
+        XVector
+Imports: methods, BiocGenerics, IRanges, XVector, Biostrings (>=
+        2.29.2), Biobase, Rsamtools, AnnotationDbi (>= 1.17.11),
+        zlibbioc, BSgenome, GenomicFeatures (>= 1.13.11), DBI, utils,
+        rtracklayer
+LinkingTo: IRanges, XVector, Biostrings, Rsamtools
+Suggests: RUnit, BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        SNPlocs.Hsapiens.dbSNP.20110815,
+        SNPlocs.Hsapiens.dbSNP.20101109, SIFT.Hsapiens.dbSNP132,
+        PolyPhen.Hsapiens.dbSNP131, snpStats, ggplot2, BiocStyle
+License: Artistic-2.0
+MD5sum: 9a1a7f419d2291ce435b5ae4ffe18efd
+NeedsCompilation: yes
+
+Package: VariantTools
+Version: 1.4.5
+Depends: IRanges (>= 1.19.34), GenomicRanges (>= 1.13.43),
+        VariantAnnotation (>= 1.7.35), methods
+Imports: IRanges, Rsamtools (>= 1.11.10), GenomicRanges, BiocGenerics,
+        Biostrings, parallel, gmapR (>= 1.3.8), GenomicFeatures,
+        VariantAnnotation, methods, Matrix, rtracklayer, BiocParallel
+Suggests: RUnit, LungCancerLines (>= 0.0.6), RBGL
+License: Artistic-2.0
+MD5sum: 92564f19c586ba034e8be7b3e7f971eb
+NeedsCompilation: no
+
+Package: vbmp
+Version: 1.30.0
+Depends: R (>= 2.10)
+Suggests: Biobase (>= 2.5.5), statmod
+License: GPL (>= 2)
+MD5sum: 5e3edc33e97eac11c12d151cfcc12dac
+NeedsCompilation: no
+
+Package: Vega
+Version: 1.10.0
+Depends: R (>= 2.10)
+License: GPL-2
+MD5sum: 7a707e0b782b110bc1efa244d1fa92fb
+NeedsCompilation: yes
+
+Package: VegaMC
+Version: 2.8.0
+Depends: R (>= 2.10.0), biomaRt, Biobase, genoset
+Imports: methods
+License: GPL-2
+MD5sum: 6246f26c7489eacc99ce794c44adbfae
+NeedsCompilation: yes
+
+Package: virtualArray
+Version: 1.6.0
+Depends: R (>= 2.15.0), BiocGenerics, methods, plyr, preprocessCore
+Imports: affy, affyPLM, AnnotationDbi, Biobase, gcrma, GEOquery,
+        graphics, methods, reshape2, stats, utils, tseries, outliers
+Suggests: affydata, plier, limma, lumi, org.Hs.eg.db
+Enhances: multicore,BiocParallel
+License: GPL-3
+MD5sum: 3e32a3f4590568f7baf9a0047ddc4640
+NeedsCompilation: no
+
+Package: vsn
+Version: 3.30.0
+Depends: R (>= 2.10), Biobase (>= 2.5.5)
+Imports: methods, affy (>= 1.23.4), limma, lattice
+Suggests: affydata, hgu95av2cdf
+License: Artistic-2.0
+MD5sum: 81388e1ba615aeac7566847a3bc5fc23
+NeedsCompilation: yes
+
+Package: vtpnet
+Version: 0.2.0
+Depends: R (>= 3.0.0), graph, GenomicRanges
+Suggests: MotifDb, VariantAnnotation, Rgraphviz
+License: Artistic-2.0
+MD5sum: fe010e84ca797da151c74549da77e3f0
+NeedsCompilation: no
+
+Package: wateRmelon
+Version: 1.2.2
+Depends: R (>= 2.10), limma, methods, matrixStats, methylumi, lumi,
+        IlluminaHumanMethylation450k.db, ROC
+Suggests: RPMM
+Enhances: minfi, methylumi, IMA
+License: GPL-3
+MD5sum: a51be1d45c46db4f49e2345267d7d39d
+NeedsCompilation: no
+
+Package: waveTiling
+Version: 1.4.0
+Depends: oligo, oligoClasses, Biobase, Biostrings, GenomeGraphs
+Imports: methods, affy, preprocessCore, GenomicRanges, waveslim,
+        IRanges
+Suggests: BSgenome, BSgenome.Athaliana.TAIR.TAIR9, waveTilingData,
+        pd.atdschip.tiling, TxDb.Athaliana.BioMart.plantsmart12
+License: GPL (>= 2)
+MD5sum: 32ed626609f1c8be8dc98b6553371d54
+NeedsCompilation: yes
+
+Package: weaver
+Version: 1.28.0
+Depends: R (>= 2.5.0), digest, tools, utils, codetools
+Suggests: codetools
+License: GPL-2
+MD5sum: a16c51036cdbc9bd75b0e57c68bb91cb
+NeedsCompilation: no
+
+Package: webbioc
+Version: 1.34.0
+Depends: R (>= 1.8.0), Biobase, affy, multtest, annaffy, vsn, gcrma,
+        qvalue
+Imports: multtest, qvalue, stats, utils, BiocInstaller
+License: GPL (>= 2)
+MD5sum: 1303d98ba46ec104b7a095dcf5df3426
+NeedsCompilation: no
+
+Package: widgetTools
+Version: 1.40.0
+Depends: R (>= 2.4.0), methods, utils, tcltk
+Suggests: Biobase
+License: LGPL
+MD5sum: bf2c5ccdc89b904f430ee2dc2c1b29b1
+NeedsCompilation: no
+
+Package: xcms
+Version: 1.38.0
+Depends: R (>= 2.14.0), methods, mzR (>= 1.1.6), BiocGenerics, Biobase
+Suggests: faahKO, msdata, ncdf, multtest, rgl, MassSpecWavelet (>=
+        1.5.2), RANN, RUnit
+Enhances: Rgraphviz, KEGGSOAP, Rmpi, XML
+License: GPL (>= 2)
+MD5sum: 9dee773e2680ec32571ce2d3fd0b8766
+NeedsCompilation: yes
+
+Package: XDE
+Version: 2.8.0
+Depends: R (>= 2.10.0), Biobase (>= 2.5.5), methods, graphics
+Imports: Biobase, BiocGenerics, genefilter, graphics, grDevices,
+        gtools, MergeMaid, methods, stats, utils, mvtnorm
+Suggests: siggenes, genefilter, MASS, RColorBrewer, GeneMeta, RUnit
+Enhances: coda
+License: LGPL-2
+MD5sum: f5553fdc8c531d0745b99e4345e77fa9
+NeedsCompilation: yes
+
+Package: xmapbridge
+Version: 1.20.0
+Depends: R (>= 2.0), methods
+Suggests: RUnit, RColorBrewer
+License: LGPL-3
+MD5sum: 5bd757bb18741cae279de4c66604b53d
+NeedsCompilation: no
+
+Package: xps
+Version: 1.22.2
+Depends: R (>= 2.6.0), methods, utils
+Suggests: tools
+License: GPL (>= 2.0)
+MD5sum: e0b7cdcc2b01f21848cd4c8152d7274a
+NeedsCompilation: yes
+
+Package: XVector
+Version: 0.2.0
+Depends: R (>= 2.8.0), methods, BiocGenerics (>= 0.7.2), IRanges (>=
+        1.19.36)
+Imports: methods, BiocGenerics, IRanges
+LinkingTo: IRanges
+Suggests: Biostrings, drosophila2probe, RUnit
+License: Artistic-2.0
+MD5sum: d5c6799b09b67f1fa5942ed6d60e5452
+NeedsCompilation: yes
+
+Package: yaqcaffy
+Version: 1.22.0
+Depends: simpleaffy (>= 2.19.3), methods
+Imports: stats4
+Suggests: MAQCsubsetAFX, affydata, xtable, tcltk2, tcltk
+License: Artistic-2.0
+MD5sum: db7071e55fbfb761c7d7ce1fd996c108
+NeedsCompilation: no
+
+Package: zlibbioc
+Version: 1.8.0
+License: Artistic-2.0 + file LICENSE
+MD5sum: 699d7d5bc95ba1da70d5776f2f98089d
+NeedsCompilation: yes
+

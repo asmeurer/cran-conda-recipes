@@ -1,0 +1,42 @@
+package:
+  name: r-cn.farms
+  version: 1.10.0
+
+source:
+  fn: cn.farms_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cn.farms_1.10.0.tar.gz
+    - ad4fb8599aaaf00316603e746468ba26
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-ff
+    - r-oligoclasses
+    - r-snow
+    - r-biocgenerics
+    - r-dbi
+    - r-affxparser
+    - r-oligo
+    - r-dnacopy
+    - r-preprocesscore
+  run:
+    - r
+    - r-biobase
+    - r-ff
+    - r-oligoclasses
+    - r-snow
+    - r-biocgenerics
+    - r-dbi
+    - r-affxparser
+    - r-oligo
+    - r-dnacopy
+    - r-preprocesscore
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,32 @@
+package:
+  name: r-pgsea
+  version: 1.36.0
+
+source:
+  fn: PGSEA_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PGSEA_1.36.0.tar.gz
+    - 26d8d8b71f8a7fe96c6d0da7f66b8d7d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-go.db
+    - r-kegg.db
+    - r-annotationdbi
+    - r-annaffy
+    - r-biobase
+  run:
+    - r
+    - r-go.db
+    - r-kegg.db
+    - r-annotationdbi
+    - r-annaffy
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-help
+  version: 1.20.0
+
+source:
+  fn: HELP_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HELP_1.20.0.tar.gz
+    - c1e99ce8047480558b7136f5f1d6d179
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

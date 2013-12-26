@@ -1,0 +1,28 @@
+package:
+  name: r-timecourse
+  version: 1.34.0
+
+source:
+  fn: timecourse_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/timecourse_1.34.0.tar.gz
+    - 97fd9ed17ea253c9aca0de3c3c23eab7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-limma
+    - r-marray
+  run:
+    - r
+    - r-biobase
+    - r-limma
+    - r-marray
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

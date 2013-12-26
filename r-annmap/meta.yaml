@@ -1,0 +1,40 @@
+package:
+  name: r-annmap
+  version: 1.4.1
+
+source:
+  fn: annmap_1.4.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/annmap_1.4.1.tar.gz
+    - faf01c8021d3b9cf5cbe007f1aa0745a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-dbi
+    - r-rmysql
+    - r-digest
+    - r-biobase
+    - r-rsamtools
+    - r-genefilter
+    - r-iranges
+    - r-biocgenerics
+  run:
+    - r
+    - r-genomicranges
+    - r-dbi
+    - r-rmysql
+    - r-digest
+    - r-biobase
+    - r-rsamtools
+    - r-genefilter
+    - r-iranges
+    - r-biocgenerics
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

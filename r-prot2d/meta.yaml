@@ -1,0 +1,38 @@
+package:
+  name: r-prot2d
+  version: 1.0.0
+
+source:
+  fn: prot2D_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/prot2D_1.0.0.tar.gz
+    - 5fe45b000c416100c02547b2111443b6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fdrtool
+    - r-st
+    - r-samr
+    - r-biobase
+    - r-limma
+    - r-mulcom
+    - r-impute
+    - r-qvalue
+  run:
+    - r
+    - r-fdrtool
+    - r-st
+    - r-samr
+    - r-biobase
+    - r-limma
+    - r-mulcom
+    - r-impute
+    - r-qvalue
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-biobase
+  version: 2.22.0
+
+source:
+  fn: Biobase_2.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.22.0.tar.gz
+    - 97b4dd96418b87b47d62c955d54924b7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+  run:
+    - r
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

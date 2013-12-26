@@ -1,0 +1,46 @@
+package:
+  name: r-easyrnaseq
+  version: 1.8.3
+
+source:
+  fn: easyRNASeq_1.8.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/easyRNASeq_1.8.3.tar.gz
+    - e1d1242a5d9d63682a967da3b4d002d4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomeintervals
+    - r-biobase
+    - r-biomart
+    - r-edger
+    - r-biostrings
+    - r-deseq
+    - r-genomicranges
+    - r-iranges
+    - r-rsamtools
+    - r-shortread
+    - r-biocgenerics
+    - r-lsd
+  run:
+    - r
+    - r-genomeintervals
+    - r-biobase
+    - r-biomart
+    - r-edger
+    - r-biostrings
+    - r-deseq
+    - r-genomicranges
+    - r-iranges
+    - r-rsamtools
+    - r-shortread
+    - r-biocgenerics
+    - r-lsd
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

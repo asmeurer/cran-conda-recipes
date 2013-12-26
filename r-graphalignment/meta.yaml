@@ -1,0 +1,22 @@
+package:
+  name: r-graphalignment
+  version: 1.26.0
+
+source:
+  fn: GraphAlignment_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GraphAlignment_1.26.0.tar.gz
+    - 004ecbc70225708d9ed35693c3646783
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,38 @@
+package:
+  name: r-deseq2
+  version: 1.2.8
+
+source:
+  fn: DESeq2_1.2.8.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DESeq2_1.2.8.tar.gz
+    - a76c0d8132ae91ab274f38619dcd3bac
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-biocgenerics
+    - r-locfit
+    - r-genefilter
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-biocgenerics
+    - r-locfit
+    - r-genefilter
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

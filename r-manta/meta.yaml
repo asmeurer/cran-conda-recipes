@@ -1,0 +1,28 @@
+package:
+  name: r-manta
+  version: 1.8.0
+
+source:
+  fn: manta_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/manta_1.8.0.tar.gz
+    - 70c4dfaa9f2357d641666f73e7b269b1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-edger
+    - r-hmisc
+    - r-caroline
+  run:
+    - r
+    - r-edger
+    - r-hmisc
+    - r-caroline
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

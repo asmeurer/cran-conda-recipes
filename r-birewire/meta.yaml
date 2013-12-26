@@ -1,0 +1,24 @@
+package:
+  name: r-birewire
+  version: 1.2.2
+
+source:
+  fn: BiRewire_1.2.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiRewire_1.2.2.tar.gz
+    - 40309f383af4d5d69c46179d431a44a9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+  run:
+    - r
+    - r-igraph
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

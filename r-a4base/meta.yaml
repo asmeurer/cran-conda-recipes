@@ -1,0 +1,44 @@
+package:
+  name: r-a4base
+  version: 1.10.0
+
+source:
+  fn: a4Base_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4Base_1.10.0.tar.gz
+    - 7e1aca3d33d425976b0f8d513f918877
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-annaffy
+    - r-mpm
+    - r-genefilter
+    - r-limma
+    - r-multtest
+    - r-glmnet
+    - r-a4preproc
+    - r-a4core
+    - r-gplots
+  run:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-annaffy
+    - r-mpm
+    - r-genefilter
+    - r-limma
+    - r-multtest
+    - r-glmnet
+    - r-a4preproc
+    - r-a4core
+    - r-gplots
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

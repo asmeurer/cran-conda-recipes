@@ -1,0 +1,28 @@
+package:
+  name: r-les
+  version: 1.12.0
+
+source:
+  fn: les_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/les_1.12.0.tar.gz
+    - 716d6e20377fadd4af9c1ab50a944b5b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-fdrtool
+    - r-gplots
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-fdrtool
+    - r-gplots
+    - r-rcolorbrewer
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

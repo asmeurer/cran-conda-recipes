@@ -1,0 +1,24 @@
+package:
+  name: r-affycomp
+  version: 1.38.0
+
+source:
+  fn: affycomp_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affycomp_1.38.0.tar.gz
+    - 7b30327b14a45597d497bba9deb87bdf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-dama
+  version: 1.34.0
+
+source:
+  fn: daMA_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/daMA_1.34.0.tar.gz
+    - e71aa26e78127b93137eb04937267ae3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

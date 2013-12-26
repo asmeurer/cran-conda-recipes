@@ -1,0 +1,34 @@
+package:
+  name: r-mcrestimate
+  version: 2.18.0
+
+source:
+  fn: MCRestimate_2.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MCRestimate_2.18.0.tar.gz
+    - df3eda8e6be049539f7ac42596790b03
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-golubesets
+    - r-e1071
+    - r-pamr
+    - r-randomforest
+    - r-rcolorbrewer
+    - r-biobase
+  run:
+    - r
+    - r-golubesets
+    - r-e1071
+    - r-pamr
+    - r-randomforest
+    - r-rcolorbrewer
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-bufferedmatrix
+  version: 1.26.0
+
+source:
+  fn: BufferedMatrix_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BufferedMatrix_1.26.0.tar.gz
+    - 0c940a510f96f364413280e77d080298
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

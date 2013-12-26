@@ -1,0 +1,24 @@
+package:
+  name: r-rbiopaxparser
+  version: 1.2.0
+
+source:
+  fn: rBiopaxParser_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rBiopaxParser_1.2.0.tar.gz
+    - 07cf590d2a9da7ef7fbfec7992892416
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+  run:
+    - r
+    - r-xml
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

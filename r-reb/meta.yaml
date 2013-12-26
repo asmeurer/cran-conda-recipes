@@ -1,0 +1,26 @@
+package:
+  name: r-reb
+  version: 1.40.0
+
+source:
+  fn: reb_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/reb_1.40.0.tar.gz
+    - 388d82c85fedc848e1fedd68dba6635c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-idiogram
+  run:
+    - r
+    - r-biobase
+    - r-idiogram
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

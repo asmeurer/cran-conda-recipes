@@ -1,0 +1,32 @@
+package:
+  name: r-snapcgh
+  version: 1.32.0
+
+source:
+  fn: snapCGH_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/snapCGH_1.32.0.tar.gz
+    - d84ff68e1f526ba4b4a292714d848c63
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-dnacopy
+    - r-acgh
+    - r-glad
+    - r-tilingarray
+  run:
+    - r
+    - r-limma
+    - r-dnacopy
+    - r-acgh
+    - r-glad
+    - r-tilingarray
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

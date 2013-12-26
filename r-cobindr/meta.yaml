@@ -1,0 +1,42 @@
+package:
+  name: r-cobindr
+  version: 1.0.0
+
+source:
+  fn: cobindR_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cobindR_1.0.0.tar.gz
+    - 68088fb9c5a284e612d419d19d3ffb14
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-yaml
+    - r-seqinr
+    - r-biostrings
+    - r-biomart
+    - r-bsgenome
+    - r-gmp
+    - r-mclust
+    - r-rtfbs
+    - r-gplots
+    - r-iranges
+  run:
+    - r
+    - r-yaml
+    - r-seqinr
+    - r-biostrings
+    - r-biomart
+    - r-bsgenome
+    - r-gmp
+    - r-mclust
+    - r-rtfbs
+    - r-gplots
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

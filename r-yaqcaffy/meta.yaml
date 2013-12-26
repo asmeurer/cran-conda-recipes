@@ -1,0 +1,24 @@
+package:
+  name: r-yaqcaffy
+  version: 1.22.0
+
+source:
+  fn: yaqcaffy_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/yaqcaffy_1.22.0.tar.gz
+    - db7071e55fbfb761c7d7ce1fd996c108
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-simpleaffy
+  run:
+    - r
+    - r-simpleaffy
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

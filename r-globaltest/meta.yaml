@@ -1,0 +1,30 @@
+package:
+  name: r-globaltest
+  version: 5.16.0
+
+source:
+  fn: globaltest_5.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/globaltest_5.16.0.tar.gz
+    - e85273c688c059e774826f9ab5c4458c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-annotate
+    - r-multtest
+  run:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-annotate
+    - r-multtest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,28 @@
+package:
+  name: r-aroma.light
+  version: 1.32.0
+
+source:
+  fn: aroma.light_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/aroma.light_1.32.0.tar.gz
+    - 85f902743bdfa2c0d2d8bb4fec253f6a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-matrixstats
+    - r-r.methodss3
+    - r-r.oo
+  run:
+    - r
+    - r-matrixstats
+    - r-r.methodss3
+    - r-r.oo
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

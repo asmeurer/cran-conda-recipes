@@ -1,0 +1,54 @@
+package:
+  name: r-arrayqualitymetrics
+  version: 3.18.0
+
+source:
+  fn: arrayQualityMetrics_3.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/arrayQualityMetrics_3.18.0.tar.gz
+    - 63ce91940ff6b385e3b08e20011c9b77
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-affyplm
+    - r-beadarray
+    - r-biobase
+    - r-cairo
+    - r-genefilter
+    - r-hmisc
+    - r-hwriter
+    - r-latticeextra
+    - r-limma
+    - r-rcolorbrewer
+    - r-setrng
+    - r-simpleaffy
+    - r-svgannotation
+    - r-vsn
+    - r-xml
+  run:
+    - r
+    - r-affy
+    - r-affyplm
+    - r-beadarray
+    - r-biobase
+    - r-cairo
+    - r-genefilter
+    - r-hmisc
+    - r-hwriter
+    - r-latticeextra
+    - r-limma
+    - r-rcolorbrewer
+    - r-setrng
+    - r-simpleaffy
+    - r-svgannotation
+    - r-vsn
+    - r-xml
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

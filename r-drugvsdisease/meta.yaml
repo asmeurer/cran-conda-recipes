@@ -1,0 +1,52 @@
+package:
+  name: r-drugvsdisease
+  version: 2.2.0
+
+source:
+  fn: DrugVsDisease_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DrugVsDisease_2.2.0.tar.gz
+    - eca330d914e8482a0ca0329c102b5136
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-limma
+    - r-biomart
+    - r-arrayexpress
+    - r-geoquery
+    - r-drugvsdiseasedata
+    - r-cmap2data
+    - r-qvalue
+    - r-annotate
+    - r-hgu133a.db
+    - r-hgu133a2.db
+    - r-hgu133plus2.db
+    - r-runit
+    - r-biocgenerics
+    - r-xtable
+  run:
+    - r
+    - r-affy
+    - r-limma
+    - r-biomart
+    - r-arrayexpress
+    - r-geoquery
+    - r-drugvsdiseasedata
+    - r-cmap2data
+    - r-qvalue
+    - r-annotate
+    - r-hgu133a.db
+    - r-hgu133a2.db
+    - r-hgu133plus2.db
+    - r-runit
+    - r-biocgenerics
+    - r-xtable
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

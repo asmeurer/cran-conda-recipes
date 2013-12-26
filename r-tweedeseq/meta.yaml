@@ -1,0 +1,28 @@
+package:
+  name: r-tweedeseq
+  version: 1.8.0
+
+source:
+  fn: tweeDEseq_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tweeDEseq_1.8.0.tar.gz
+    - 1632922d57afe9bdae7bc9ac44f9c6a9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-edger
+    - r-cqn
+  run:
+    - r
+    - r-limma
+    - r-edger
+    - r-cqn
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

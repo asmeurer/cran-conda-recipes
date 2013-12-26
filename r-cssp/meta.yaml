@@ -1,0 +1,22 @@
+package:
+  name: r-cssp
+  version: 1.0.0
+
+source:
+  fn: CSSP_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CSSP_1.0.0.tar.gz
+    - f3619fe57ff4fc0a1a95d8caadc3fd36
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

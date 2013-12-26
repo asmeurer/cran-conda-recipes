@@ -1,0 +1,30 @@
+package:
+  name: r-rmat
+  version: 3.12.0
+
+source:
+  fn: rMAT_3.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rMAT_3.12.0.tar.gz
+    - cf0e9c84454829e746d927929b74b5f6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-biobase
+    - r-affxparser
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-biobase
+    - r-affxparser
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

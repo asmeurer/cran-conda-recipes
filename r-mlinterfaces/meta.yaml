@@ -1,0 +1,38 @@
+package:
+  name: r-mlinterfaces
+  version: 1.42.0
+
+source:
+  fn: MLInterfaces_1.42.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MLInterfaces_1.42.0.tar.gz
+    - 29992d2d8641defd5c471e6a95c09d01
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-genefilter
+    - r-rda
+    - r-annotate
+    - r-sfsmisc
+    - r-mboost
+    - r-gdata
+    - r-pls
+  run:
+    - r
+    - r-biobase
+    - r-genefilter
+    - r-rda
+    - r-annotate
+    - r-sfsmisc
+    - r-mboost
+    - r-gdata
+    - r-pls
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

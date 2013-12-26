@@ -1,0 +1,40 @@
+package:
+  name: r-nem
+  version: 2.36.0
+
+source:
+  fn: nem_2.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/nem_2.36.0.tar.gz
+    - 83bc5a06c920d71bb64b4ceda795c0b6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-e1071
+    - r-graph
+    - r-plotrix
+    - r-limma
+    - r-statmod
+    - r-hmisc
+    - r-rgraphviz
+    - r-rbgl
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-e1071
+    - r-graph
+    - r-plotrix
+    - r-limma
+    - r-statmod
+    - r-hmisc
+    - r-rgraphviz
+    - r-rbgl
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

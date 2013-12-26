@@ -1,0 +1,32 @@
+package:
+  name: r-simpleaffy
+  version: 2.38.0
+
+source:
+  fn: simpleaffy_2.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/simpleaffy_2.38.0.tar.gz
+    - 68fbe75b4e04265c0fe43610afdeff04
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-affy
+    - r-genefilter
+    - r-gcrma
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-affy
+    - r-genefilter
+    - r-gcrma
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

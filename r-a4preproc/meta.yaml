@@ -1,0 +1,24 @@
+package:
+  name: r-a4preproc
+  version: 1.10.0
+
+source:
+  fn: a4Preproc_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4Preproc_1.10.0.tar.gz
+    - def2defa0fd4597265f71bba17b0485e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

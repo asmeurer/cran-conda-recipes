@@ -1,0 +1,22 @@
+package:
+  name: r-beaddatapackr
+  version: 1.14.0
+
+source:
+  fn: BeadDataPackR_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BeadDataPackR_1.14.0.tar.gz
+    - 5e2f32b87defbaf33c16e20ba0a5122d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

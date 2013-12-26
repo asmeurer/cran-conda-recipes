@@ -1,0 +1,34 @@
+package:
+  name: r-altcdfenvs
+  version: 2.24.0
+
+source:
+  fn: altcdfenvs_2.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/altcdfenvs_2.24.0.tar.gz
+    - 7ca0c6dd18dc5cb9a347f9afdef36d8f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-affy
+    - r-makecdfenv
+    - r-biostrings
+    - r-hypergraph
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-affy
+    - r-makecdfenv
+    - r-biostrings
+    - r-hypergraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-bsgenome
+  version: 1.30.0
+
+source:
+  fn: BSgenome_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BSgenome_1.30.0.tar.gz
+    - 6ae0eaf797f1b64fc72f0be329fd3a0c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-genomicranges
+    - r-biostrings
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-genomicranges
+    - r-biostrings
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,28 @@
+package:
+  name: r-shinytandem
+  version: 1.0.0
+
+source:
+  fn: shinyTANDEM_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/shinyTANDEM_1.0.0.tar.gz
+    - 866aaa0842fb323cda376dc8bca27b5a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rtandem
+    - r-shiny
+    - r-biomart
+  run:
+    - r
+    - r-rtandem
+    - r-shiny
+    - r-biomart
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

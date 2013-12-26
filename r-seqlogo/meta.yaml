@@ -1,0 +1,22 @@
+package:
+  name: r-seqlogo
+  version: 1.28.0
+
+source:
+  fn: seqLogo_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/seqLogo_1.28.0.tar.gz
+    - 9957cdd2e199dfc3922304bef466b9f6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

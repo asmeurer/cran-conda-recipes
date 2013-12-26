@@ -1,0 +1,34 @@
+package:
+  name: r-stringdb
+  version: 1.0.0
+
+source:
+  fn: STRINGdb_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/STRINGdb_1.0.0.tar.gz
+    - 47a0c5481cb1ade79b5cceecd95732d2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-png
+    - r-sqldf
+    - r-plyr
+    - r-igraph
+    - r-rcurl
+    - r-plotrix
+  run:
+    - r
+    - r-png
+    - r-sqldf
+    - r-plyr
+    - r-igraph
+    - r-rcurl
+    - r-plotrix
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

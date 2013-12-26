@@ -1,0 +1,24 @@
+package:
+  name: r-hypergraph
+  version: 1.34.0
+
+source:
+  fn: hypergraph_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hypergraph_1.34.0.tar.gz
+    - 87eb072cdc797b50555829399a2bdf2f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+  run:
+    - r
+    - r-graph
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

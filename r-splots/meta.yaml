@@ -1,0 +1,24 @@
+package:
+  name: r-splots
+  version: 1.28.0
+
+source:
+  fn: splots_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/splots_1.28.0.tar.gz
+    - 859d512c3be1b912101d621978e9618f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-rcolorbrewer
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

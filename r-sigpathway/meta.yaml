@@ -1,0 +1,22 @@
+package:
+  name: r-sigpathway
+  version: 1.30.0
+
+source:
+  fn: sigPathway_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sigPathway_1.30.0.tar.gz
+    - 5636efc1cdcc651fa4a0352abcd774cd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

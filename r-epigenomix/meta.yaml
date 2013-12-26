@@ -1,0 +1,32 @@
+package:
+  name: r-epigenomix
+  version: 1.2.0
+
+source:
+  fn: epigenomix_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/epigenomix_1.2.0.tar.gz
+    - bbd5989ca154572648ea0ebfb67dd604
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-iranges
+    - r-genomicranges
+    - r-biocgenerics
+    - r-beadarray
+  run:
+    - r
+    - r-biobase
+    - r-iranges
+    - r-genomicranges
+    - r-biocgenerics
+    - r-beadarray
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

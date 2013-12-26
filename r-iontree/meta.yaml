@@ -1,0 +1,28 @@
+package:
+  name: r-iontree
+  version: 1.8.0
+
+source:
+  fn: iontree_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iontree_1.8.0.tar.gz
+    - 0d4801931425e658b4de12bb5ef648d4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-rsqlite
+    - r-xml
+  run:
+    - r
+    - r-rjava
+    - r-rsqlite
+    - r-xml
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

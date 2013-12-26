@@ -1,0 +1,26 @@
+package:
+  name: r-hapfabia
+  version: 1.4.2
+
+source:
+  fn: hapFabia_1.4.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hapFabia_1.4.2.tar.gz
+    - 8a9cdb8e984624340ddd922abd6b1092
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-fabia
+  run:
+    - r
+    - r-biobase
+    - r-fabia
+
+about:
+  license: LGPL (>= 2.1)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

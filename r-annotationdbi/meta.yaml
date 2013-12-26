@@ -1,0 +1,32 @@
+package:
+  name: r-annotationdbi
+  version: 1.24.0
+
+source:
+  fn: AnnotationDbi_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AnnotationDbi_1.24.0.tar.gz
+    - a51f84efd8fff2f48579189ebc67c508
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-dbi
+    - r-rsqlite
+    - r-iranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-dbi
+    - r-rsqlite
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

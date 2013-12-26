@@ -1,0 +1,24 @@
+package:
+  name: r-rgraphviz
+  version: 2.6.0
+
+source:
+  fn: Rgraphviz_2.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rgraphviz_2.6.0.tar.gz
+    - 8d7c6d1816ddcdc403c32a972046ebd7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+  run:
+    - r
+    - r-graph
+
+about:
+  license: EPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

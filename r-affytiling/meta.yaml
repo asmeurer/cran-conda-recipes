@@ -1,0 +1,28 @@
+package:
+  name: r-affytiling
+  version: 1.20.0
+
+source:
+  fn: AffyTiling_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AffyTiling_1.20.0.tar.gz
+    - 5cbc7db056fbd052bb5487123ed99efb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affxparser
+    - r-affy
+    - r-preprocesscore
+  run:
+    - r
+    - r-affxparser
+    - r-affy
+    - r-preprocesscore
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

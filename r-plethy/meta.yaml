@@ -1,0 +1,34 @@
+package:
+  name: r-plethy
+  version: 1.0.0
+
+source:
+  fn: plethy_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plethy_1.0.0.tar.gz
+    - af095fa25e383176286bdd8a6b3c58b0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-streamer
+    - r-dbi
+    - r-rsqlite
+    - r-iranges
+    - r-reshape2
+    - r-batch
+  run:
+    - r
+    - r-streamer
+    - r-dbi
+    - r-rsqlite
+    - r-iranges
+    - r-reshape2
+    - r-batch
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

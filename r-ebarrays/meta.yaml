@@ -1,0 +1,24 @@
+package:
+  name: r-ebarrays
+  version: 2.26.0
+
+source:
+  fn: EBarrays_2.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBarrays_2.26.0.tar.gz
+    - 78d0e62674b879e1e26dc058b8c9010f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

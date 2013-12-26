@@ -1,0 +1,34 @@
+package:
+  name: r-chrogps
+  version: 1.6.0
+
+source:
+  fn: chroGPS_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chroGPS_1.6.0.tar.gz
+    - 07c706aa23e81f03406148fac8f13624
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-biobase
+    - r-rgl
+    - r-changepoint
+    - r-dppackage
+    - r-icsnp
+  run:
+    - r
+    - r-iranges
+    - r-biobase
+    - r-rgl
+    - r-changepoint
+    - r-dppackage
+    - r-icsnp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

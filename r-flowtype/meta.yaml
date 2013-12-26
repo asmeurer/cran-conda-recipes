@@ -1,0 +1,38 @@
+package:
+  name: r-flowtype
+  version: 2.2.0
+
+source:
+  fn: flowType_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowType_2.2.0.tar.gz
+    - bb350e0531377955e4fad4290c1ecc5f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-biobase
+    - r-flowcore
+    - r-flowmeans
+    - r-sfsmisc
+    - r-rrcov
+    - r-flowclust
+    - r-flowmerge
+  run:
+    - r
+    - r-rcpp
+    - r-biobase
+    - r-flowcore
+    - r-flowmeans
+    - r-sfsmisc
+    - r-rrcov
+    - r-flowclust
+    - r-flowmerge
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

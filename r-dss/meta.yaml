@@ -1,0 +1,30 @@
+package:
+  name: r-dss
+  version: 1.8.0
+
+source:
+  fn: DSS_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DSS_1.8.0.tar.gz
+    - 9e9821fb4b7d1fa61a1e7fc3886761b0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-locfdr
+    - r-bsseq
+    - r-edger
+  run:
+    - r
+    - r-biobase
+    - r-locfdr
+    - r-bsseq
+    - r-edger
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

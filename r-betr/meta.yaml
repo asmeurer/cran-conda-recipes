@@ -1,0 +1,28 @@
+package:
+  name: r-betr
+  version: 1.18.0
+
+source:
+  fn: betr_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/betr_1.18.0.tar.gz
+    - b6a9fb11171b9a6daa54eccb3153e6b8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-limma
+    - r-mvtnorm
+  run:
+    - r
+    - r-biobase
+    - r-limma
+    - r-mvtnorm
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

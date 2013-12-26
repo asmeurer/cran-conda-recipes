@@ -1,0 +1,28 @@
+package:
+  name: r-cghnormaliter
+  version: 1.16.0
+
+source:
+  fn: CGHnormaliter_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGHnormaliter_1.16.0.tar.gz
+    - c9fe41c5d791c757b74fd378b7c28d88
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-cghcall
+    - r-cghbase
+    - r-biobase
+  run:
+    - r
+    - r-cghcall
+    - r-cghbase
+    - r-biobase
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

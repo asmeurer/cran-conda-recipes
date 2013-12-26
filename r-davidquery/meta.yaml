@@ -1,0 +1,24 @@
+package:
+  name: r-davidquery
+  version: 1.22.0
+
+source:
+  fn: DAVIDQuery_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DAVIDQuery_1.22.0.tar.gz
+    - 937915bdc9a6cad5c7118f4e9ba3bdcd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+  run:
+    - r
+    - r-rcurl
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

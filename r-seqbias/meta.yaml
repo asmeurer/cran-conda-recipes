@@ -1,0 +1,28 @@
+package:
+  name: r-seqbias
+  version: 1.10.0
+
+source:
+  fn: seqbias_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/seqbias_1.10.0.tar.gz
+    - b1f62d8c4d189ac37b71f9f958705877
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-biostrings
+    - r-zlibbioc
+  run:
+    - r
+    - r-genomicranges
+    - r-biostrings
+    - r-zlibbioc
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

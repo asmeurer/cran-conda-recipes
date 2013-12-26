@@ -1,0 +1,28 @@
+package:
+  name: r-isobar
+  version: 1.8.1
+
+source:
+  fn: isobar_1.8.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/isobar_1.8.1.tar.gz
+    - 0b307458c9db5bc87ce86c9be48aedfd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-plyr
+    - r-distr
+  run:
+    - r
+    - r-biobase
+    - r-plyr
+    - r-distr
+
+about:
+  license: LGPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

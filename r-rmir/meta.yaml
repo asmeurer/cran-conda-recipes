@@ -1,0 +1,28 @@
+package:
+  name: r-rmir
+  version: 1.18.0
+
+source:
+  fn: RmiR_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RmiR_1.18.0.tar.gz
+    - 3fac9ea7f498e1e0ced0b38ef8ace875
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rmir.hs.mirna
+    - r-rsvgtipsdevice
+    - r-dbi
+  run:
+    - r
+    - r-rmir.hs.mirna
+    - r-rsvgtipsdevice
+    - r-dbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,38 @@
+package:
+  name: r-redseq
+  version: 1.8.0
+
+source:
+  fn: REDseq_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/REDseq_1.8.0.tar.gz
+    - ee3ac17d4578765e9c77578c49d4de70
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-bsgenome.celegans.ucsc.ce2
+    - r-multtest
+    - r-biostrings
+    - r-bsgenome
+    - r-chippeakanno
+    - r-annotationdbi
+    - r-iranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-bsgenome.celegans.ucsc.ce2
+    - r-multtest
+    - r-biostrings
+    - r-bsgenome
+    - r-chippeakanno
+    - r-annotationdbi
+    - r-iranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

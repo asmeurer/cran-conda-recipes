@@ -1,0 +1,40 @@
+package:
+  name: r-degraph
+  version: 1.14.0
+
+source:
+  fn: DEGraph_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DEGraph_1.14.0.tar.gz
+    - 356d3c6ae6219d2193aeafadab011e8f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-r.utils
+    - r-graph
+    - r-kegggraph
+    - r-mvtnorm
+    - r-r.methodss3
+    - r-rbgl
+    - r-rgraphviz
+    - r-rrcov
+    - r-ncigraph
+  run:
+    - r
+    - r-r.utils
+    - r-graph
+    - r-kegggraph
+    - r-mvtnorm
+    - r-r.methodss3
+    - r-rbgl
+    - r-rgraphviz
+    - r-rrcov
+    - r-ncigraph
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

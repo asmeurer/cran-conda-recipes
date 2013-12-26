@@ -1,0 +1,28 @@
+package:
+  name: r-affycompatible
+  version: 1.22.0
+
+source:
+  fn: AffyCompatible_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AffyCompatible_1.22.0.tar.gz
+    - 06127e1b2d708320379b6c41ca8191d9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-biostrings
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-biostrings
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

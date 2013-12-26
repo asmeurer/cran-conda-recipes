@@ -1,0 +1,32 @@
+package:
+  name: r-htseqtools
+  version: 1.8.0
+
+source:
+  fn: htSeqTools_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/htSeqTools_1.8.0.tar.gz
+    - 4a81999d2917430b1365b0852eaf2f23
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-iranges
+    - r-bsgenome
+    - r-genomicranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-iranges
+    - r-bsgenome
+    - r-genomicranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

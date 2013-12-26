@@ -1,0 +1,34 @@
+package:
+  name: r-ramigo
+  version: 1.8.0
+
+source:
+  fn: RamiGO_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RamiGO_1.8.0.tar.gz
+    - 52580408652506a4b6629cd8b113c79c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gsubfn
+    - r-igraph
+    - r-rcurl
+    - r-png
+    - r-rcytoscape
+    - r-graph
+  run:
+    - r
+    - r-gsubfn
+    - r-igraph
+    - r-rcurl
+    - r-png
+    - r-rcytoscape
+    - r-graph
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

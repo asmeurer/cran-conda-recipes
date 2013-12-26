@@ -1,0 +1,30 @@
+package:
+  name: r-narrowpeaks
+  version: 1.6.0
+
+source:
+  fn: NarrowPeaks_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NarrowPeaks_1.6.0.tar.gz
+    - 98910c1560cdbf2d79e444858fe35bcf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-fda
+    - r-csar
+  run:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-fda
+    - r-csar
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

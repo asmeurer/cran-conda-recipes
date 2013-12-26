@@ -1,0 +1,30 @@
+package:
+  name: r-rolexa
+  version: 1.18.0
+
+source:
+  fn: Rolexa_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rolexa_1.18.0.tar.gz
+    - 0e46527749064afa35664e439374e8be
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-shortread
+    - r-mclust
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-shortread
+    - r-mclust
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

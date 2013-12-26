@@ -1,0 +1,30 @@
+package:
+  name: r-genoset
+  version: 1.14.0
+
+source:
+  fn: genoset_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genoset_1.14.0.tar.gz
+    - b5a0ffdd062d3925237dbb60fe08856d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-iranges
+    - r-genomicranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-iranges
+    - r-genomicranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

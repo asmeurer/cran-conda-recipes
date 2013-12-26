@@ -1,0 +1,30 @@
+package:
+  name: r-normqpcr
+  version: 1.8.0
+
+source:
+  fn: NormqPCR_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NormqPCR_1.8.0.tar.gz
+    - ff161819b179370b5b7b9f8ab989ef8d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcolorbrewer
+    - r-biobase
+    - r-readqpcr
+    - r-qpcr
+  run:
+    - r
+    - r-rcolorbrewer
+    - r-biobase
+    - r-readqpcr
+    - r-qpcr
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

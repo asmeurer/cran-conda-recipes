@@ -1,0 +1,28 @@
+package:
+  name: r-mfuzz
+  version: 2.20.0
+
+source:
+  fn: Mfuzz_2.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Mfuzz_2.20.0.tar.gz
+    - aa3e56308dd75753b2a66cc8c2319f38
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-e1071
+    - r-tkwidgets
+  run:
+    - r
+    - r-biobase
+    - r-e1071
+    - r-tkwidgets
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

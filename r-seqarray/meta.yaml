@@ -1,0 +1,32 @@
+package:
+  name: r-seqarray
+  version: 1.2.0
+
+source:
+  fn: SeqArray_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SeqArray_1.2.0.tar.gz
+    - 46889044d69fdad5c9fb274c124aac57
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gdsfmt
+    - r-biostrings
+    - r-genomicranges
+    - r-iranges
+    - r-variantannotation
+  run:
+    - r
+    - r-gdsfmt
+    - r-biostrings
+    - r-genomicranges
+    - r-iranges
+    - r-variantannotation
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

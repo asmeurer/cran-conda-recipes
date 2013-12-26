@@ -1,0 +1,24 @@
+package:
+  name: r-lol
+  version: 1.10.0
+
+source:
+  fn: lol_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/lol_1.10.0.tar.gz
+    - c451032c54eb9f8f3d698509a8abcff1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-penalized
+  run:
+    - r
+    - r-penalized
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

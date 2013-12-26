@@ -1,0 +1,32 @@
+package:
+  name: r-genominator
+  version: 1.16.0
+
+source:
+  fn: Genominator_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Genominator_1.16.0.tar.gz
+    - a233a7dd952b5f2de67b42f6649f2c4d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-dbi
+    - r-biocgenerics
+    - r-iranges
+    - r-genomegraphs
+  run:
+    - r
+    - r-rsqlite
+    - r-dbi
+    - r-biocgenerics
+    - r-iranges
+    - r-genomegraphs
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

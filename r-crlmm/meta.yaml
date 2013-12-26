@@ -1,0 +1,50 @@
+package:
+  name: r-crlmm
+  version: 1.20.1
+
+source:
+  fn: crlmm_1.20.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/crlmm_1.20.1.tar.gz
+    - e84ea680798cdd70d7282084b2bd43d3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-oligoclasses
+    - r-preprocesscore
+    - r-biobase
+    - r-biocgenerics
+    - r-affyio
+    - r-illuminaio
+    - r-ellipse
+    - r-mvtnorm
+    - r-snpchip
+    - r-ff
+    - r-foreach
+    - r-rcppeigen
+    - r-matrixstats
+    - r-vgam
+  run:
+    - r
+    - r-oligoclasses
+    - r-preprocesscore
+    - r-biobase
+    - r-biocgenerics
+    - r-affyio
+    - r-illuminaio
+    - r-ellipse
+    - r-mvtnorm
+    - r-snpchip
+    - r-ff
+    - r-foreach
+    - r-rcppeigen
+    - r-matrixstats
+    - r-vgam
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-rhvdm
+  version: 1.28.0
+
+source:
+  fn: rHVDM_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rHVDM_1.28.0.tar.gz
+    - 788d48d62e02be778af337db4dcfc2a8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-r2html
+    - r-affy
+    - r-minpack.lm
+    - r-biobase
+  run:
+    - r
+    - r-r2html
+    - r-affy
+    - r-minpack.lm
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

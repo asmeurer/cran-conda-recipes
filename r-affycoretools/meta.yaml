@@ -1,0 +1,58 @@
+package:
+  name: r-affycoretools
+  version: 1.34.0
+
+source:
+  fn: affycoretools_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affycoretools_1.34.0.tar.gz
+    - c51eb71297beb36d41f3033bfd5edae2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-biobase
+    - r-go.db
+    - r-kegg.db
+    - r-biomart
+    - r-limma
+    - r-gostats
+    - r-annotate
+    - r-annaffy
+    - r-genefilter
+    - r-gcrma
+    - r-xtable
+    - r-annotationdbi
+    - r-gplots
+    - r-r2html
+    - r-oligoclasses
+    - r-reportingtools
+    - r-hwriter
+  run:
+    - r
+    - r-affy
+    - r-biobase
+    - r-go.db
+    - r-kegg.db
+    - r-biomart
+    - r-limma
+    - r-gostats
+    - r-annotate
+    - r-annaffy
+    - r-genefilter
+    - r-gcrma
+    - r-xtable
+    - r-annotationdbi
+    - r-gplots
+    - r-r2html
+    - r-oligoclasses
+    - r-reportingtools
+    - r-hwriter
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

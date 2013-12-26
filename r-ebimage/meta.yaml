@@ -1,0 +1,34 @@
+package:
+  name: r-ebimage
+  version: 4.4.0
+
+source:
+  fn: EBImage_4.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBImage_4.4.0.tar.gz
+    - f32947207f8835aee2ced389c1d3b038
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-abind
+    - r-tiff
+    - r-jpeg
+    - r-png
+    - r-locfit
+  run:
+    - r
+    - r-biocgenerics
+    - r-abind
+    - r-tiff
+    - r-jpeg
+    - r-png
+    - r-locfit
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

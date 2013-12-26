@@ -1,0 +1,28 @@
+package:
+  name: r-pvca
+  version: 1.2.0
+
+source:
+  fn: pvca_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pvca_1.2.0.tar.gz
+    - e5a3caa7ebd328f3f0607aa80eec4379
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-vsn
+    - r-lme4
+  run:
+    - r
+    - r-biobase
+    - r-vsn
+    - r-lme4
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,44 @@
+package:
+  name: r-medips
+  version: 1.12.0
+
+source:
+  fn: MEDIPS_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MEDIPS_1.12.0.tar.gz
+    - ffdd00362364cd294fee6a6828fc25e2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+    - r-dnacopy
+    - r-biostrings
+    - r-rsamtools
+    - r-gtools
+    - r-iranges
+    - r-genomicranges
+    - r-edger
+    - r-genomicfeatures
+    - r-biomart
+    - r-rtracklayer
+  run:
+    - r
+    - r-bsgenome
+    - r-dnacopy
+    - r-biostrings
+    - r-rsamtools
+    - r-gtools
+    - r-iranges
+    - r-genomicranges
+    - r-edger
+    - r-genomicfeatures
+    - r-biomart
+    - r-rtracklayer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

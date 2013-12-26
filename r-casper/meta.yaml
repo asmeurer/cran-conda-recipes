@@ -1,0 +1,42 @@
+package:
+  name: r-casper
+  version: 1.4.0
+
+source:
+  fn: casper_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/casper_1.4.0.tar.gz
+    - a820e172f60067cdc1aa9cc2fc81bff9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-iranges
+    - r-gtools
+    - r-genomicranges
+    - r-rsamtools
+    - r-plyr
+    - r-gaga
+    - r-vgam
+    - r-genomicfeatures
+    - r-sqldf
+  run:
+    - r
+    - r-biobase
+    - r-iranges
+    - r-gtools
+    - r-genomicranges
+    - r-rsamtools
+    - r-plyr
+    - r-gaga
+    - r-vgam
+    - r-genomicfeatures
+    - r-sqldf
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

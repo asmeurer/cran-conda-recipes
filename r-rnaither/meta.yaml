@@ -1,0 +1,38 @@
+package:
+  name: r-rnaither
+  version: 2.10.0
+
+source:
+  fn: RNAither_2.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RNAither_2.10.0.tar.gz
+    - 7292caea0a017a9a132a086b1601bcef
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-topgo
+    - r-rankprod
+    - r-prada
+    - r-geneplotter
+    - r-limma
+    - r-biomart
+    - r-car
+    - r-splots
+  run:
+    - r
+    - r-topgo
+    - r-rankprod
+    - r-prada
+    - r-geneplotter
+    - r-limma
+    - r-biomart
+    - r-car
+    - r-splots
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

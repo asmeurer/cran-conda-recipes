@@ -1,0 +1,22 @@
+package:
+  name: r-macorrplot
+  version: 1.32.0
+
+source:
+  fn: maCorrPlot_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/maCorrPlot_1.32.0.tar.gz
+    - bd7b0c64857b79afdad7a079fcaca0dc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-spia
+  version: 2.14.0
+
+source:
+  fn: SPIA_2.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SPIA_2.14.0.tar.gz
+    - 879e813b9f59288846c21928273185a2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-kegggraph
+  run:
+    - r
+    - r-kegggraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-predictionet
+  version: 1.8.0
+
+source:
+  fn: predictionet_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/predictionet_1.8.0.tar.gz
+    - 91d38830ad348a25af3d2243888e35e6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-catnet
+    - r-penalized
+    - r-rbgl
+  run:
+    - r
+    - r-igraph
+    - r-catnet
+    - r-penalized
+    - r-rbgl
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

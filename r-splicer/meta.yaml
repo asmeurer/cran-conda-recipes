@@ -1,0 +1,36 @@
+package:
+  name: r-splicer
+  version: 1.2.0
+
+source:
+  fn: spliceR_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spliceR_1.2.0.tar.gz
+    - 49b96e82e09a098a189e1d00afb00805
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-cummerbund
+    - r-rtracklayer
+    - r-venndiagram
+    - r-rcolorbrewer
+    - r-plyr
+    - r-genomicranges
+    - r-iranges
+  run:
+    - r
+    - r-cummerbund
+    - r-rtracklayer
+    - r-venndiagram
+    - r-rcolorbrewer
+    - r-plyr
+    - r-genomicranges
+    - r-iranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

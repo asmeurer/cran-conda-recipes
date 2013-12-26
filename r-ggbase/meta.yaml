@@ -1,0 +1,34 @@
+package:
+  name: r-ggbase
+  version: 3.24.0
+
+source:
+  fn: GGBase_3.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GGBase_3.24.0.tar.gz
+    - 85adceb9bc1212143f96b28fa71001dd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-snpstats
+    - r-limma
+    - r-genefilter
+    - r-biobase
+    - r-biocgenerics
+    - r-annotationdbi
+  run:
+    - r
+    - r-snpstats
+    - r-limma
+    - r-genefilter
+    - r-biobase
+    - r-biocgenerics
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

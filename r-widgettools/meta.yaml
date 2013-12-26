@@ -1,0 +1,22 @@
+package:
+  name: r-widgettools
+  version: 1.40.0
+
+source:
+  fn: widgetTools_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/widgetTools_1.40.0.tar.gz
+    - bf2c5ccdc89b904f430ee2dc2c1b29b1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

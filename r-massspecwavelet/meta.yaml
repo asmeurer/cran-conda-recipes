@@ -1,0 +1,24 @@
+package:
+  name: r-massspecwavelet
+  version: 1.28.0
+
+source:
+  fn: MassSpecWavelet_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MassSpecWavelet_1.28.0.tar.gz
+    - 7ddd1dfe0db276f2c87a00655d05c1fb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-waveslim
+  run:
+    - r
+    - r-waveslim
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

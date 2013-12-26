@@ -1,0 +1,24 @@
+package:
+  name: r-dirichletmultinomial
+  version: 1.4.0
+
+source:
+  fn: DirichletMultinomial_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DirichletMultinomial_1.4.0.tar.gz
+    - 28ea6486b1b621084994a935741990aa
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+  run:
+    - r
+    - r-iranges
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-aseb
+  version: 1.6.0
+
+source:
+  fn: ASEB_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ASEB_1.6.0.tar.gz
+    - 6673c4aa7d12b960a041b1f28e7093a0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

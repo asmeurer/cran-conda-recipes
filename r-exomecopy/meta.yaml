@@ -1,0 +1,28 @@
+package:
+  name: r-exomecopy
+  version: 1.8.0
+
+source:
+  fn: exomeCopy_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/exomeCopy_1.8.0.tar.gz
+    - 6259c3d305596ce51a8762ca54e49566
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-rsamtools
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-rsamtools
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

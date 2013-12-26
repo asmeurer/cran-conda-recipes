@@ -1,0 +1,36 @@
+package:
+  name: r-bsseq
+  version: 0.10.0
+
+source:
+  fn: bsseq_0.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bsseq_0.10.0.tar.gz
+    - bdbff8058544100d2a87b49673d1cf1a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-genomicranges
+    - r-matrixstats
+    - r-scales
+    - r-biobase
+    - r-locfit
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-genomicranges
+    - r-matrixstats
+    - r-scales
+    - r-biobase
+    - r-locfit
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

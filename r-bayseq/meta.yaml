@@ -1,0 +1,24 @@
+package:
+  name: r-bayseq
+  version: 1.16.0
+
+source:
+  fn: baySeq_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/baySeq_1.16.0.tar.gz
+    - 7cdea501c8fae9944715ab921f596bc8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+  run:
+    - r
+    - r-genomicranges
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

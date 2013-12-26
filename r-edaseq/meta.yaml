@@ -1,0 +1,36 @@
+package:
+  name: r-edaseq
+  version: 1.8.0
+
+source:
+  fn: EDASeq_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EDASeq_1.8.0.tar.gz
+    - 50da44bd4efff0b328cc40eac9f7c9de
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-shortread
+    - r-rsamtools
+    - r-aroma.light
+    - r-iranges
+    - r-deseq
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-shortread
+    - r-rsamtools
+    - r-aroma.light
+    - r-iranges
+    - r-deseq
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

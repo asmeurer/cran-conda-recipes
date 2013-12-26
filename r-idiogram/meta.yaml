@@ -1,0 +1,28 @@
+package:
+  name: r-idiogram
+  version: 1.38.0
+
+source:
+  fn: idiogram_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/idiogram_1.38.0.tar.gz
+    - 37f7215dd9a514fab1257e74bd85182e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotate
+    - r-plotrix
+  run:
+    - r
+    - r-biobase
+    - r-annotate
+    - r-plotrix
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

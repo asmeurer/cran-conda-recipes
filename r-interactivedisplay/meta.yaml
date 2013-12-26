@@ -1,0 +1,46 @@
+package:
+  name: r-interactivedisplay
+  version: 1.0.8
+
+source:
+  fn: interactiveDisplay_1.0.8.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/interactiveDisplay_1.0.8.tar.gz
+    - 9af80c48e4b6a6d05d61873c42ba406b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-shiny
+    - r-genomicranges
+    - r-gviz
+    - r-rcolorbrewer
+    - r-ggplot2
+    - r-reshape2
+    - r-rtracklayer
+    - r-go.db
+    - r-plyr
+    - r-gridsvg
+    - r-xml
+  run:
+    - r
+    - r-biocgenerics
+    - r-shiny
+    - r-genomicranges
+    - r-gviz
+    - r-rcolorbrewer
+    - r-ggplot2
+    - r-reshape2
+    - r-rtracklayer
+    - r-go.db
+    - r-plyr
+    - r-gridsvg
+    - r-xml
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

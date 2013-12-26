@@ -1,0 +1,28 @@
+package:
+  name: r-flowflowjo
+  version: 1.20.0
+
+source:
+  fn: flowFlowJo_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowFlowJo_1.20.0.tar.gz
+    - 2154bab4a91402227d9faa94e8eee945
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowcore
+    - r-xml
+    - r-biobase
+  run:
+    - r
+    - r-flowcore
+    - r-xml
+    - r-biobase
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-cghmcr
+  version: 1.20.0
+
+source:
+  fn: cghMCR_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cghMCR_1.20.0.tar.gz
+    - bec51b25c5cc27a3dfca639437ed242e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-dnacopy
+    - r-cntools
+    - r-limma
+    - r-biocgenerics
+  run:
+    - r
+    - r-dnacopy
+    - r-cntools
+    - r-limma
+    - r-biocgenerics
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

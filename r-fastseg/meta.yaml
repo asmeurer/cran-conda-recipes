@@ -1,0 +1,30 @@
+package:
+  name: r-fastseg
+  version: 1.8.0
+
+source:
+  fn: fastseg_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/fastseg_1.8.0.tar.gz
+    - d4532efc7a013925022ae42ca5b13da1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-biobase
+    - r-iranges
+    - r-biocgenerics
+  run:
+    - r
+    - r-genomicranges
+    - r-biobase
+    - r-iranges
+    - r-biocgenerics
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

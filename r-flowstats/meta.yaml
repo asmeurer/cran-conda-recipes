@@ -1,0 +1,38 @@
+package:
+  name: r-flowstats
+  version: 3.20.0
+
+source:
+  fn: flowStats_3.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowStats_3.20.0.tar.gz
+    - 463c23f61394828b123fdb93f9850217
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowcore
+    - r-fda
+    - r-mvoutlier
+    - r-flowworkspace
+    - r-biocgenerics
+    - r-flowviz
+    - r-biobase
+    - r-compositions
+  run:
+    - r
+    - r-flowcore
+    - r-fda
+    - r-mvoutlier
+    - r-flowworkspace
+    - r-biocgenerics
+    - r-flowviz
+    - r-biobase
+    - r-compositions
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-dfp
+  version: 1.20.0
+
+source:
+  fn: DFP_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DFP_1.20.0.tar.gz
+    - 3e7549f13fc95367ad2d317230ec2c78
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

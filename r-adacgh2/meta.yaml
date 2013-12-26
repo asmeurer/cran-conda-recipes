@@ -1,0 +1,40 @@
+package:
+  name: r-adacgh2
+  version: 2.2.0
+
+source:
+  fn: ADaCGH2_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ADaCGH2_2.2.0.tar.gz
+    - b100a5a714ec60a9e590cd8825992ab7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ff
+    - r-bit
+    - r-ffbase
+    - r-dnacopy
+    - r-snapcgh
+    - r-tilingarray
+    - r-acgh
+    - r-glad
+    - r-waveslim
+  run:
+    - r
+    - r-ff
+    - r-bit
+    - r-ffbase
+    - r-dnacopy
+    - r-snapcgh
+    - r-tilingarray
+    - r-acgh
+    - r-glad
+    - r-waveslim
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

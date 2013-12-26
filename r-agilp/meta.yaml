@@ -1,0 +1,22 @@
+package:
+  name: r-agilp
+  version: 3.4.0
+
+source:
+  fn: agilp_3.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/agilp_3.4.0.tar.gz
+    - 5f565f7534565ab5601f0f98f25863d0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

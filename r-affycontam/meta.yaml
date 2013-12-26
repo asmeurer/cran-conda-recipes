@@ -1,0 +1,28 @@
+package:
+  name: r-affycontam
+  version: 1.20.0
+
+source:
+  fn: affyContam_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyContam_1.20.0.tar.gz
+    - 2a67c36a39ba8d8c543bfa9a53947e2b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-affydata
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-affydata
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,26 @@
+package:
+  name: r-chemmineob
+  version: 1.0.1
+
+source:
+  fn: ChemmineOB_1.0.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChemmineOB_1.0.1.tar.gz
+    - ae4e10765734a1e55dae63f39de74662
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-zlibbioc
+  run:
+    - r
+    - r-biocgenerics
+    - r-zlibbioc
+
+about:
+  license: file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

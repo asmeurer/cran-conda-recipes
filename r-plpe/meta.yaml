@@ -1,0 +1,26 @@
+package:
+  name: r-plpe
+  version: 1.22.0
+
+source:
+  fn: PLPE_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PLPE_1.22.0.tar.gz
+    - 6e025db30c342d7eb02925a57badba1a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-lpe
+  run:
+    - r
+    - r-biobase
+    - r-lpe
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

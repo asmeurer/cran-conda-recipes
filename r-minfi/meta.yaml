@@ -1,0 +1,56 @@
+package:
+  name: r-minfi
+  version: 1.8.9
+
+source:
+  fn: minfi_1.8.9.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/minfi_1.8.9.tar.gz
+    - a6483d427a80a1af21b73f8e6b5a1537
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-reshape
+    - r-genomicranges
+    - r-biostrings
+    - r-bumphunter
+    - r-iranges
+    - r-beanplot
+    - r-rcolorbrewer
+    - r-nor1mix
+    - r-siggenes
+    - r-limma
+    - r-preprocesscore
+    - r-illuminaio
+    - r-matrixstats
+    - r-mclust
+    - r-genefilter
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-reshape
+    - r-genomicranges
+    - r-biostrings
+    - r-bumphunter
+    - r-iranges
+    - r-beanplot
+    - r-rcolorbrewer
+    - r-nor1mix
+    - r-siggenes
+    - r-limma
+    - r-preprocesscore
+    - r-illuminaio
+    - r-matrixstats
+    - r-mclust
+    - r-genefilter
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

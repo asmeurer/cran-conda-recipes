@@ -1,0 +1,32 @@
+package:
+  name: r-teqc
+  version: 3.2.0
+
+source:
+  fn: TEQC_3.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TEQC_3.2.0.tar.gz
+    - f603e86e5b1d327f62673680275526d3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-rsamtools
+    - r-hwriter
+    - r-biobase
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-rsamtools
+    - r-hwriter
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

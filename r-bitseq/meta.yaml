@@ -1,0 +1,28 @@
+package:
+  name: r-bitseq
+  version: 1.6.1
+
+source:
+  fn: BitSeq_1.6.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BitSeq_1.6.1.tar.gz
+    - a40900434d3c3d234682a29fbe532f8f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsamtools
+    - r-zlibbioc
+    - r-iranges
+  run:
+    - r
+    - r-rsamtools
+    - r-zlibbioc
+    - r-iranges
+
+about:
+  license: Artistic-2.0 + file LICENSE
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

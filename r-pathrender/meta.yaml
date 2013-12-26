@@ -1,0 +1,32 @@
+package:
+  name: r-pathrender
+  version: 1.30.0
+
+source:
+  fn: pathRender_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pathRender_1.30.0.tar.gz
+    - 3589c841e98a133a86385fa03059eaf7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-rgraphviz
+    - r-rcolorbrewer
+    - r-cmap
+    - r-annotationdbi
+  run:
+    - r
+    - r-graph
+    - r-rgraphviz
+    - r-rcolorbrewer
+    - r-cmap
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

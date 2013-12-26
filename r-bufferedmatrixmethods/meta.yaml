@@ -1,0 +1,24 @@
+package:
+  name: r-bufferedmatrixmethods
+  version: 1.26.0
+
+source:
+  fn: BufferedMatrixMethods_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BufferedMatrixMethods_1.26.0.tar.gz
+    - 7af6cd3667a779dd049db9926c90177c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bufferedmatrix
+  run:
+    - r
+    - r-bufferedmatrix
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

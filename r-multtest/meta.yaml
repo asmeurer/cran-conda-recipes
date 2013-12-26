@@ -1,0 +1,24 @@
+package:
+  name: r-multtest
+  version: 2.18.0
+
+source:
+  fn: multtest_2.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/multtest_2.18.0.tar.gz
+    - 265ed65e1e7b6c1796a5bbb22519fd18
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

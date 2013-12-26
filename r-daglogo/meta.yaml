@@ -1,0 +1,36 @@
+package:
+  name: r-daglogo
+  version: 1.0.0
+
+source:
+  fn: dagLogo_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/dagLogo_1.0.0.tar.gz
+    - 9d6a1904551b9c2527282c5b2a8d66aa
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biomart
+    - r-grimport
+    - r-motifstack
+    - r-xml
+    - r-uniprot.ws
+    - r-pheatmap
+    - r-biostrings
+  run:
+    - r
+    - r-biomart
+    - r-grimport
+    - r-motifstack
+    - r-xml
+    - r-uniprot.ws
+    - r-pheatmap
+    - r-biostrings
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

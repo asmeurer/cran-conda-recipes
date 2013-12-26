@@ -1,0 +1,22 @@
+package:
+  name: r-nupop
+  version: 1.12.0
+
+source:
+  fn: NuPoP_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NuPoP_1.12.0.tar.gz
+    - 4a95b46a5bb39244e2cd2821d93f0946
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

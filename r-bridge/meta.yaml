@@ -1,0 +1,24 @@
+package:
+  name: r-bridge
+  version: 1.26.0
+
+source:
+  fn: bridge_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bridge_1.26.0.tar.gz
+    - 3307670492a5852c61ec41da3d162573
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rama
+  run:
+    - r
+    - r-rama
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

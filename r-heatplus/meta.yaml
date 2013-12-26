@@ -1,0 +1,22 @@
+package:
+  name: r-heatplus
+  version: 2.8.0
+
+source:
+  fn: Heatplus_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Heatplus_2.8.0.tar.gz
+    - 1008ae5836fed78a7c286a2b722079c7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

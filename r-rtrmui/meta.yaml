@@ -1,0 +1,32 @@
+package:
+  name: r-rtrmui
+  version: 1.0.4
+
+source:
+  fn: rTRMui_1.0.4.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rTRMui_1.0.4.tar.gz
+    - c4a68ea36e872e00117256eb14c0cfda
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-shiny
+    - r-rtrm
+    - r-motifdb
+    - r-org.hs.eg.db
+    - r-org.mm.eg.db
+  run:
+    - r
+    - r-shiny
+    - r-rtrm
+    - r-motifdb
+    - r-org.hs.eg.db
+    - r-org.mm.eg.db
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

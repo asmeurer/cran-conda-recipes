@@ -1,0 +1,28 @@
+package:
+  name: r-sim
+  version: 1.32.0
+
+source:
+  fn: SIM_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SIM_1.32.0.tar.gz
+    - 1b8976e860df3277743e70b323cc521d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quantreg
+    - r-globaltest
+    - r-quantsmooth
+  run:
+    - r
+    - r-quantreg
+    - r-globaltest
+    - r-quantsmooth
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

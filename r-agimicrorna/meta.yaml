@@ -1,0 +1,32 @@
+package:
+  name: r-agimicrorna
+  version: 2.12.0
+
+source:
+  fn: AgiMicroRna_2.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AgiMicroRna_2.12.0.tar.gz
+    - 0efc7867ed3f7a69945334eb1e2a1950
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-limma
+    - r-affy
+    - r-preprocesscore
+    - r-affycoretools
+  run:
+    - r
+    - r-biobase
+    - r-limma
+    - r-affy
+    - r-preprocesscore
+    - r-affycoretools
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

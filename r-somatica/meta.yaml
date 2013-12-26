@@ -1,0 +1,38 @@
+package:
+  name: r-somatica
+  version: 1.4.0
+
+source:
+  fn: SomatiCA_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SomatiCA_1.4.0.tar.gz
+    - e460d005732197282b423c97eb70bdf7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lars
+    - r-dnacopy
+    - r-foreach
+    - r-rebmix
+    - r-genomicranges
+    - r-iranges
+    - r-doparallel
+    - r-sn
+  run:
+    - r
+    - r-lars
+    - r-dnacopy
+    - r-foreach
+    - r-rebmix
+    - r-genomicranges
+    - r-iranges
+    - r-doparallel
+    - r-sn
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

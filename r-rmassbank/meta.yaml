@@ -1,0 +1,34 @@
+package:
+  name: r-rmassbank
+  version: 1.4.0
+
+source:
+  fn: RMassBank_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RMassBank_1.4.0.tar.gz
+    - e7f0fd2daa2b32e2d647537e975f19fa
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mzr
+    - r-rcdk
+    - r-yaml
+    - r-xml
+    - r-rcurl
+    - r-rjson
+  run:
+    - r
+    - r-mzr
+    - r-rcdk
+    - r-yaml
+    - r-xml
+    - r-rcurl
+    - r-rjson
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

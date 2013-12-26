@@ -1,0 +1,50 @@
+package:
+  name: r-methyanalysis
+  version: 1.4.1
+
+source:
+  fn: methyAnalysis_1.4.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methyAnalysis_1.4.1.tar.gz
+    - 34377a366bb7950fa4a1daf0c0d303a0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-biobase
+    - r-org.hs.eg.db
+    - r-lumi
+    - r-methylumi
+    - r-gviz
+    - r-genoset
+    - r-rtracklayer
+    - r-genomicfeatures
+    - r-annotate
+    - r-annotationdbi
+    - r-genefilter
+    - r-biomart
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-biobase
+    - r-org.hs.eg.db
+    - r-lumi
+    - r-methylumi
+    - r-gviz
+    - r-genoset
+    - r-rtracklayer
+    - r-genomicfeatures
+    - r-annotate
+    - r-annotationdbi
+    - r-genefilter
+    - r-biomart
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

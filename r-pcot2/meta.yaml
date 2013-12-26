@@ -1,0 +1,26 @@
+package:
+  name: r-pcot2
+  version: 1.30.0
+
+source:
+  fn: pcot2_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pcot2_1.30.0.tar.gz
+    - ab2f96cf23a33c1b965d66bebab8cffb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-amap
+  run:
+    - r
+    - r-biobase
+    - r-amap
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

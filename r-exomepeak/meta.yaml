@@ -1,0 +1,28 @@
+package:
+  name: r-exomepeak
+  version: 1.0.0
+
+source:
+  fn: exomePeak_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/exomePeak_1.0.0.tar.gz
+    - 12ea90e70ed71adc86b40960f8884d5c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsamtools
+    - r-genomicfeatures
+    - r-rtracklayer
+  run:
+    - r
+    - r-rsamtools
+    - r-genomicfeatures
+    - r-rtracklayer
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

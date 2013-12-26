@@ -1,0 +1,28 @@
+package:
+  name: r-vegamc
+  version: 2.8.0
+
+source:
+  fn: VegaMC_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VegaMC_2.8.0.tar.gz
+    - 6246f26c7489eacc99ce794c44adbfae
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biomart
+    - r-biobase
+    - r-genoset
+  run:
+    - r
+    - r-biomart
+    - r-biobase
+    - r-genoset
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

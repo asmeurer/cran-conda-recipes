@@ -1,0 +1,26 @@
+package:
+  name: r-envisionquery
+  version: 1.10.0
+
+source:
+  fn: ENVISIONQuery_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ENVISIONQuery_1.10.0.tar.gz
+    - f5b43c9f1bb374b0e5715360a064e072
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-xml
+  run:
+    - r
+    - r-rjava
+    - r-xml
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

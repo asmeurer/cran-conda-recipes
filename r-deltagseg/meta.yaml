@@ -1,0 +1,38 @@
+package:
+  name: r-deltagseg
+  version: 1.2.0
+
+source:
+  fn: deltaGseg_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/deltaGseg_1.2.0.tar.gz
+    - 325b22060d3931ff054480119db6df86
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-changepoint
+    - r-wavethresh
+    - r-tseries
+    - r-pvclust
+    - r-fbasics
+    - r-reshape
+    - r-scales
+  run:
+    - r
+    - r-ggplot2
+    - r-changepoint
+    - r-wavethresh
+    - r-tseries
+    - r-pvclust
+    - r-fbasics
+    - r-reshape
+    - r-scales
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

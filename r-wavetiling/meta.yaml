@@ -1,0 +1,42 @@
+package:
+  name: r-wavetiling
+  version: 1.4.0
+
+source:
+  fn: waveTiling_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/waveTiling_1.4.0.tar.gz
+    - 32ed626609f1c8be8dc98b6553371d54
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-oligo
+    - r-oligoclasses
+    - r-biobase
+    - r-biostrings
+    - r-genomegraphs
+    - r-affy
+    - r-preprocesscore
+    - r-genomicranges
+    - r-waveslim
+    - r-iranges
+  run:
+    - r
+    - r-oligo
+    - r-oligoclasses
+    - r-biobase
+    - r-biostrings
+    - r-genomegraphs
+    - r-affy
+    - r-preprocesscore
+    - r-genomicranges
+    - r-waveslim
+    - r-iranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

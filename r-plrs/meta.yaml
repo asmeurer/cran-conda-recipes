@@ -1,0 +1,36 @@
+package:
+  name: r-plrs
+  version: 1.2.0
+
+source:
+  fn: plrs_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plrs_1.2.0.tar.gz
+    - b0574bb95bb10fa5ae8c9ef48fe80be2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-cghbase
+    - r-ic.infer
+    - r-marray
+    - r-quadprog
+    - r-rcsdp
+  run:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-cghbase
+    - r-ic.infer
+    - r-marray
+    - r-quadprog
+    - r-rcsdp
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

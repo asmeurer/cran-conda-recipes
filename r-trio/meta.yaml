@@ -1,0 +1,22 @@
+package:
+  name: r-trio
+  version: 3.0.0
+
+source:
+  fn: trio_3.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/trio_3.0.0.tar.gz
+    - 2f89229baaf5cd5a96f223428cd066d1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

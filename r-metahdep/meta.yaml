@@ -1,0 +1,22 @@
+package:
+  name: r-metahdep
+  version: 1.20.0
+
+source:
+  fn: metahdep_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/metahdep_1.20.0.tar.gz
+    - 16a60b982532ab5adb3858d6872cb0dd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

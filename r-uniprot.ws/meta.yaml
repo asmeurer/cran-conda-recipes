@@ -1,0 +1,30 @@
+package:
+  name: r-uniprot.ws
+  version: 2.2.0
+
+source:
+  fn: UniProt.ws_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/UniProt.ws_2.2.0.tar.gz
+    - e6330015994a0461ad123a359e7c4581
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-rcurl
+    - r-biocgenerics
+    - r-annotationdbi
+  run:
+    - r
+    - r-rsqlite
+    - r-rcurl
+    - r-biocgenerics
+    - r-annotationdbi
+
+about:
+  license: Artistic License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

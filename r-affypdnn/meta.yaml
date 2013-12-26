@@ -1,0 +1,24 @@
+package:
+  name: r-affypdnn
+  version: 1.36.0
+
+source:
+  fn: affypdnn_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affypdnn_1.36.0.tar.gz
+    - d9d20dc844c04dc65c02945de1ebd7d1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+  run:
+    - r
+    - r-affy
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

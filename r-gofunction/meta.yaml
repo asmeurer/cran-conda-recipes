@@ -1,0 +1,34 @@
+package:
+  name: r-gofunction
+  version: 1.10.0
+
+source:
+  fn: GOFunction_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOFunction_1.10.0.tar.gz
+    - abe8bcf279d612d8d6ca44b7441690a7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-graph
+    - r-rgraphviz
+    - r-go.db
+    - r-annotationdbi
+    - r-sparsem
+  run:
+    - r
+    - r-biobase
+    - r-graph
+    - r-rgraphviz
+    - r-go.db
+    - r-annotationdbi
+    - r-sparsem
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

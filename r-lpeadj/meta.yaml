@@ -1,0 +1,24 @@
+package:
+  name: r-lpeadj
+  version: 1.22.0
+
+source:
+  fn: LPEadj_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LPEadj_1.22.0.tar.gz
+    - 8e2d57fa153d63a845ed11cb1e911a70
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lpe
+  run:
+    - r
+    - r-lpe
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

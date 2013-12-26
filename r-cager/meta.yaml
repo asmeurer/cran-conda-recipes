@@ -1,0 +1,42 @@
+package:
+  name: r-cager
+  version: 1.4.1
+
+source:
+  fn: CAGEr_1.4.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CAGEr_1.4.1.tar.gz
+    - 6785df5778e0b633acbea8011f874807
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bsgenome
+    - r-bsgenome.mmusculus.ucsc.mm9
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-data.table
+    - r-beanplot
+    - r-rtracklayer
+    - r-som
+    - r-vgam
+  run:
+    - r
+    - r-bsgenome
+    - r-bsgenome.mmusculus.ucsc.mm9
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-data.table
+    - r-beanplot
+    - r-rtracklayer
+    - r-som
+    - r-vgam
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

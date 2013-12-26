@@ -1,0 +1,30 @@
+package:
+  name: r-swimr
+  version: 1.0.0
+
+source:
+  fn: SwimR_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SwimR_1.0.0.tar.gz
+    - 80a2197e31a189fad22b60947fed2272
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gplots
+    - r-heatmap.plus
+    - r-signal
+    - r-r2html
+  run:
+    - r
+    - r-gplots
+    - r-heatmap.plus
+    - r-signal
+    - r-r2html
+
+about:
+  license: LGPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

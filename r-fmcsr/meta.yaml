@@ -1,0 +1,24 @@
+package:
+  name: r-fmcsr
+  version: 1.4.0
+
+source:
+  fn: fmcsR_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/fmcsR_1.4.0.tar.gz
+    - 5e5f968c3787b85b2be1df20481f3926
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chemminer
+  run:
+    - r
+    - r-chemminer
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,26 @@
+package:
+  name: r-resourcerer
+  version: 1.36.0
+
+source:
+  fn: Resourcerer_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Resourcerer_1.36.0.tar.gz
+    - 646d4e1b1dcbf6c033653fb359a4b3c1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotationdbi
+  run:
+    - r
+    - r-biobase
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

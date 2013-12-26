@@ -1,0 +1,32 @@
+package:
+  name: r-slgi
+  version: 1.22.0
+
+source:
+  fn: SLGI_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SLGI_1.22.0.tar.gz
+    - 63b52e30d5740677f13c2ca8cc083d1e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-scisi
+    - r-annotationdbi
+    - r-biobase
+    - r-go.db
+    - r-biocgenerics
+  run:
+    - r
+    - r-scisi
+    - r-annotationdbi
+    - r-biobase
+    - r-go.db
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

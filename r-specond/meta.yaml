@@ -1,0 +1,32 @@
+package:
+  name: r-specond
+  version: 1.16.0
+
+source:
+  fn: SpeCond_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SpeCond_1.16.0.tar.gz
+    - 496dff890b351d2b166c535f098c0964
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mclust
+    - r-biobase
+    - r-fields
+    - r-hwriter
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-mclust
+    - r-biobase
+    - r-fields
+    - r-hwriter
+    - r-rcolorbrewer
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

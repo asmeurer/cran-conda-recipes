@@ -1,0 +1,28 @@
+package:
+  name: r-masigpro
+  version: 1.34.0
+
+source:
+  fn: maSigPro_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/maSigPro_1.34.0.tar.gz
+    - 6930d6adcb2b6ccd74001473c7ed67df
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-limma
+    - r-mfuzz
+  run:
+    - r
+    - r-biobase
+    - r-limma
+    - r-mfuzz
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

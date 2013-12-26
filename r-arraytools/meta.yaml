@@ -1,0 +1,30 @@
+package:
+  name: r-arraytools
+  version: 1.22.0
+
+source:
+  fn: ArrayTools_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ArrayTools_1.22.0.tar.gz
+    - 8072c494442f30d083d6a2b5feb656d1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-biobase
+    - r-limma
+    - r-xtable
+  run:
+    - r
+    - r-affy
+    - r-biobase
+    - r-limma
+    - r-xtable
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

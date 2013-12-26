@@ -1,0 +1,28 @@
+package:
+  name: r-hyperdraw
+  version: 1.14.0
+
+source:
+  fn: hyperdraw_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hyperdraw_1.14.0.tar.gz
+    - 5ba082f9a2e7a686d7c93c25f02e6358
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-hypergraph
+    - r-rgraphviz
+  run:
+    - r
+    - r-graph
+    - r-hypergraph
+    - r-rgraphviz
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,32 @@
+package:
+  name: r-nucler
+  version: 1.10.0
+
+source:
+  fn: nucleR_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/nucleR_1.10.0.tar.gz
+    - 58317e67e549990cae71e5108f4eca33
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-biobase
+    - r-shortread
+    - r-genomicranges
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-biobase
+    - r-shortread
+    - r-genomicranges
+
+about:
+  license: LGPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-flowmeans
+  version: 1.14.0
+
+source:
+  fn: flowMeans_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowMeans_1.14.0.tar.gz
+    - 56ac5698e7aff623441e6ba02e7b8694
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rrcov
+    - r-feature
+    - r-flowcore
+  run:
+    - r
+    - r-biobase
+    - r-rrcov
+    - r-feature
+    - r-flowcore
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

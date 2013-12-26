@@ -1,0 +1,24 @@
+package:
+  name: r-gsealm
+  version: 1.22.0
+
+source:
+  fn: GSEAlm_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSEAlm_1.22.0.tar.gz
+    - b94a3959fc8fb81693ad1b0d7200bf72
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

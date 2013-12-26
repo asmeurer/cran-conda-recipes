@@ -1,0 +1,40 @@
+package:
+  name: r-idmappingretrieval
+  version: 1.8.0
+
+source:
+  fn: IdMappingRetrieval_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IdMappingRetrieval_1.8.0.tar.gz
+    - dd2b555a5b3bf516368c46215612bf86
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-r.oo
+    - r-xml
+    - r-rcurl
+    - r-rchoicedialogs
+    - r-envisionquery
+    - r-biomart
+    - r-davidquery
+    - r-affycompatible
+    - r-r.methodss3
+  run:
+    - r
+    - r-r.oo
+    - r-xml
+    - r-rcurl
+    - r-rchoicedialogs
+    - r-envisionquery
+    - r-biomart
+    - r-davidquery
+    - r-affycompatible
+    - r-r.methodss3
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

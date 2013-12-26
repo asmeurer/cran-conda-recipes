@@ -1,0 +1,34 @@
+package:
+  name: r-gseabase
+  version: 1.24.0
+
+source:
+  fn: GSEABase_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSEABase_1.24.0.tar.gz
+    - f5df90f2e665c1b2281edfbffe0be8d4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-annotate
+    - r-graph
+    - r-annotationdbi
+    - r-xml
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-annotate
+    - r-graph
+    - r-annotationdbi
+    - r-xml
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

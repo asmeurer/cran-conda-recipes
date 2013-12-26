@@ -1,0 +1,28 @@
+package:
+  name: r-graphite
+  version: 1.8.1
+
+source:
+  fn: graphite_1.8.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/graphite_1.8.1.tar.gz
+    - 73d8257c5db640526a90d162a9f7826e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-graph
+    - r-org.hs.eg.db
+  run:
+    - r
+    - r-annotationdbi
+    - r-graph
+    - r-org.hs.eg.db
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

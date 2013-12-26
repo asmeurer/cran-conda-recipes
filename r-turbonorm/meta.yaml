@@ -1,0 +1,30 @@
+package:
+  name: r-turbonorm
+  version: 1.10.0
+
+source:
+  fn: TurboNorm_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TurboNorm_1.10.0.tar.gz
+    - b92a4d128a1bbda2cd51e1109ebbc5de
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-convert
+    - r-limma
+    - r-marray
+    - r-affy
+  run:
+    - r
+    - r-convert
+    - r-limma
+    - r-marray
+    - r-affy
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

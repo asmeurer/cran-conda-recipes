@@ -1,0 +1,32 @@
+package:
+  name: r-attract
+  version: 1.14.0
+
+source:
+  fn: attract_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/attract_1.14.0.tar.gz
+    - c08fe1b9295c5efc10519f3fee60d631
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-kegg.db
+    - r-limma
+    - r-gostats
+    - r-biobase
+  run:
+    - r
+    - r-annotationdbi
+    - r-kegg.db
+    - r-limma
+    - r-gostats
+    - r-biobase
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

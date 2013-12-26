@@ -1,0 +1,30 @@
+package:
+  name: r-spade
+  version: 1.10.2
+
+source:
+  fn: spade_1.10.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spade_1.10.2.tar.gz
+    - c0095db79e2e209de4280522e7dc7a8a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-rclusterpp
+    - r-biobase
+    - r-flowcore
+  run:
+    - r
+    - r-igraph
+    - r-rclusterpp
+    - r-biobase
+    - r-flowcore
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

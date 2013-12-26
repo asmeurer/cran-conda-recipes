@@ -1,0 +1,50 @@
+package:
+  name: r-chippeakanno
+  version: 2.10.0
+
+source:
+  fn: ChIPpeakAnno_2.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChIPpeakAnno_2.10.0.tar.gz
+    - 8baba85d080b26b380d5d4bc0f3c0871
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-venndiagram
+    - r-biocgenerics
+    - r-biomart
+    - r-multtest
+    - r-iranges
+    - r-biostrings
+    - r-bsgenome
+    - r-bsgenome.ecoli.ncbi.20080805
+    - r-go.db
+    - r-org.hs.eg.db
+    - r-limma
+    - r-genomicfeatures
+    - r-gplots
+    - r-annotationdbi
+  run:
+    - r
+    - r-venndiagram
+    - r-biocgenerics
+    - r-biomart
+    - r-multtest
+    - r-iranges
+    - r-biostrings
+    - r-bsgenome
+    - r-bsgenome.ecoli.ncbi.20080805
+    - r-go.db
+    - r-org.hs.eg.db
+    - r-limma
+    - r-genomicfeatures
+    - r-gplots
+    - r-annotationdbi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

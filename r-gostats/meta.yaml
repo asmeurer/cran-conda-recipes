@@ -1,0 +1,38 @@
+package:
+  name: r-gostats
+  version: 2.28.0
+
+source:
+  fn: GOstats_2.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOstats_2.28.0.tar.gz
+    - 666c85c98404d7476004cfa19c5e4339
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-category
+    - r-graph
+    - r-annotationdbi
+    - r-go.db
+    - r-rbgl
+    - r-annotate
+    - r-annotationforge
+  run:
+    - r
+    - r-biobase
+    - r-category
+    - r-graph
+    - r-annotationdbi
+    - r-go.db
+    - r-rbgl
+    - r-annotate
+    - r-annotationforge
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

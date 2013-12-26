@@ -1,0 +1,40 @@
+package:
+  name: r-biseq
+  version: 1.2.3
+
+source:
+  fn: BiSeq_1.2.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiSeq_1.2.3.tar.gz
+    - 0093424d20d2a30bddb934fa5e032382
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-formula
+    - r-biocgenerics
+    - r-biobase
+    - r-rtracklayer
+    - r-betareg
+    - r-lokern
+    - r-globaltest
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-formula
+    - r-biocgenerics
+    - r-biobase
+    - r-rtracklayer
+    - r-betareg
+    - r-lokern
+    - r-globaltest
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

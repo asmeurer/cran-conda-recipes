@@ -1,0 +1,34 @@
+package:
+  name: r-deseq
+  version: 1.14.0
+
+source:
+  fn: DESeq_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DESeq_1.14.0.tar.gz
+    - 6df447df70a5c2e1fac6c98540f6b249
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-locfit
+    - r-genefilter
+    - r-geneplotter
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-locfit
+    - r-genefilter
+    - r-geneplotter
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

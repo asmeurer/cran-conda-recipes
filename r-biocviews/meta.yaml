@@ -1,0 +1,36 @@
+package:
+  name: r-biocviews
+  version: 1.30.0
+
+source:
+  fn: biocViews_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biocViews_1.30.0.tar.gz
+    - fbd3dd686aeaa7bef84cc9696379de06
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-graph
+    - r-rbgl
+    - r-xml
+    - r-rcurl
+    - r-runit
+    - r-knitr
+  run:
+    - r
+    - r-biobase
+    - r-graph
+    - r-rbgl
+    - r-xml
+    - r-rcurl
+    - r-runit
+    - r-knitr
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

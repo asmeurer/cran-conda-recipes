@@ -1,0 +1,30 @@
+package:
+  name: r-rsvsim
+  version: 1.2.1
+
+source:
+  fn: RSVSim_1.2.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RSVSim_1.2.1.tar.gz
+    - b9ba209085a1df631dacc1825d27d195
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-genomicranges
+    - r-iranges
+    - r-shortread
+  run:
+    - r
+    - r-biostrings
+    - r-genomicranges
+    - r-iranges
+    - r-shortread
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

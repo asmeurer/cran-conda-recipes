@@ -1,0 +1,28 @@
+package:
+  name: r-olin
+  version: 1.40.0
+
+source:
+  fn: OLIN_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OLIN_1.40.0.tar.gz
+    - be26e02c6cbf07cba0f196f613a18371
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-locfit
+    - r-marray
+    - r-limma
+  run:
+    - r
+    - r-locfit
+    - r-marray
+    - r-limma
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

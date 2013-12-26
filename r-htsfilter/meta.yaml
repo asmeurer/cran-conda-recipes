@@ -1,0 +1,34 @@
+package:
+  name: r-htsfilter
+  version: 1.2.1
+
+source:
+  fn: HTSFilter_1.2.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HTSFilter_1.2.1.tar.gz
+    - 133f501e252c40081a3c2bd9e2c80937
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-deseq
+    - r-edger
+    - r-deseq2
+    - r-genomicranges
+    - r-iranges
+  run:
+    - r
+    - r-biobase
+    - r-deseq
+    - r-edger
+    - r-deseq2
+    - r-genomicranges
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

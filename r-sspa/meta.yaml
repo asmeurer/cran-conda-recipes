@@ -1,0 +1,26 @@
+package:
+  name: r-sspa
+  version: 2.2.0
+
+source:
+  fn: SSPA_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SSPA_2.2.0.tar.gz
+    - 03aa9528c9581ea0b79bfd867b780278
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-qvalue
+    - r-limma
+  run:
+    - r
+    - r-qvalue
+    - r-limma
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

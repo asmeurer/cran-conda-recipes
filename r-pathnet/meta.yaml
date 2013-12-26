@@ -1,0 +1,22 @@
+package:
+  name: r-pathnet
+  version: 1.2.0
+
+source:
+  fn: PathNet_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PathNet_1.2.0.tar.gz
+    - adbe5326ce55ad994f3bee40367eda8a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

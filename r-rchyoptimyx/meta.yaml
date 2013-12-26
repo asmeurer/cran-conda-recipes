@@ -1,0 +1,30 @@
+package:
+  name: r-rchyoptimyx
+  version: 2.2.0
+
+source:
+  fn: RchyOptimyx_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RchyOptimyx_2.2.0.tar.gz
+    - 16b9161395079104b784081246669153
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgraphviz
+    - r-sfsmisc
+    - r-graph
+    - r-flowtype
+  run:
+    - r
+    - r-rgraphviz
+    - r-sfsmisc
+    - r-graph
+    - r-flowtype
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

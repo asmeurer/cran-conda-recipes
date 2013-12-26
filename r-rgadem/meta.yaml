@@ -1,0 +1,30 @@
+package:
+  name: r-rgadem
+  version: 2.10.0
+
+source:
+  fn: rGADEM_2.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rGADEM_2.10.0.tar.gz
+    - 484ad809b3c2633dc6559faf845a363d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-iranges
+    - r-bsgenome
+    - r-seqlogo
+  run:
+    - r
+    - r-biostrings
+    - r-iranges
+    - r-bsgenome
+    - r-seqlogo
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

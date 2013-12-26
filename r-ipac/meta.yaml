@@ -1,0 +1,30 @@
+package:
+  name: r-ipac
+  version: 1.6.0
+
+source:
+  fn: iPAC_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iPAC_1.6.0.tar.gz
+    - adb2f8ce59f7770760bee80fe2aa0beb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gdata
+    - r-scatterplot3d
+    - r-biostrings
+    - r-multtest
+  run:
+    - r
+    - r-gdata
+    - r-scatterplot3d
+    - r-biostrings
+    - r-multtest
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

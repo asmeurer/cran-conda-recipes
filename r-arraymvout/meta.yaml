@@ -1,0 +1,36 @@
+package:
+  name: r-arraymvout
+  version: 1.20.0
+
+source:
+  fn: arrayMvout_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/arrayMvout_1.20.0.tar.gz
+    - e9d4466df31eea0f34ef6b2b70caac23
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-parody
+    - r-biobase
+    - r-affy
+    - r-lumi
+    - r-simpleaffy
+    - r-mdqc
+    - r-affycontam
+  run:
+    - r
+    - r-parody
+    - r-biobase
+    - r-affy
+    - r-lumi
+    - r-simpleaffy
+    - r-mdqc
+    - r-affycontam
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

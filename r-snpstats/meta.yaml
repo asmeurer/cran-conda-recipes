@@ -1,0 +1,24 @@
+package:
+  name: r-snpstats
+  version: 1.12.0
+
+source:
+  fn: snpStats_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/snpStats_1.12.0.tar.gz
+    - 05608e57a73258fc13f8a7600e23e527
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+  run:
+    - r
+    - r-biocgenerics
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

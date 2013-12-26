@@ -1,0 +1,38 @@
+package:
+  name: r-roleswitch
+  version: 1.0.0
+
+source:
+  fn: Roleswitch_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Roleswitch_1.0.0.tar.gz
+    - 8ef695427cb9750c810d7a7bac4abac4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pracma
+    - r-reshape
+    - r-plotrix
+    - r-microrna
+    - r-biomart
+    - r-biostrings
+    - r-biobase
+    - r-dbi
+  run:
+    - r
+    - r-pracma
+    - r-reshape
+    - r-plotrix
+    - r-microrna
+    - r-biomart
+    - r-biostrings
+    - r-biobase
+    - r-dbi
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

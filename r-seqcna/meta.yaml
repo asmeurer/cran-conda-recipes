@@ -1,0 +1,30 @@
+package:
+  name: r-seqcna
+  version: 1.2.0
+
+source:
+  fn: seqCNA_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/seqCNA_1.2.0.tar.gz
+    - da8f671e61c3d429dbb28dd0998182e8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-glad
+    - r-dosnow
+    - r-adehabitatlt
+    - r-seqcna.annot
+  run:
+    - r
+    - r-glad
+    - r-dosnow
+    - r-adehabitatlt
+    - r-seqcna.annot
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

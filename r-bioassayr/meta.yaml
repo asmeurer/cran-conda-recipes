@@ -1,0 +1,28 @@
+package:
+  name: r-bioassayr
+  version: 1.0.0
+
+source:
+  fn: bioassayR_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bioassayR_1.0.0.tar.gz
+    - 8db90aa8246cb56cde35311345883753
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-dbi
+    - r-rsqlite
+    - r-xml
+  run:
+    - r
+    - r-dbi
+    - r-rsqlite
+    - r-xml
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

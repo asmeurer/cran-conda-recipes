@@ -1,0 +1,50 @@
+package:
+  name: r-ampliqueso
+  version: 1.0.0
+
+source:
+  fn: ampliQueso_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ampliQueso_1.0.0.tar.gz
+    - 70ece150cf3f6ec43a459deb40741023
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rnaseqmap
+    - r-knitr
+    - r-rgl
+    - r-ggplot2
+    - r-gplots
+    - r-doparallel
+    - r-foreach
+    - r-variantannotation
+    - r-genefilter
+    - r-statmod
+    - r-xtable
+    - r-edger
+    - r-deseq
+    - r-samr
+  run:
+    - r
+    - r-rnaseqmap
+    - r-knitr
+    - r-rgl
+    - r-ggplot2
+    - r-gplots
+    - r-doparallel
+    - r-foreach
+    - r-variantannotation
+    - r-genefilter
+    - r-statmod
+    - r-xtable
+    - r-edger
+    - r-deseq
+    - r-samr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

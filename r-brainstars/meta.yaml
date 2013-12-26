@@ -1,0 +1,28 @@
+package:
+  name: r-brainstars
+  version: 1.6.0
+
+source:
+  fn: BrainStars_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BrainStars_1.6.0.tar.gz
+    - 648da8c4f092fc9aa08fad90e3da2f91
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-biobase
+    - r-rjsonio
+  run:
+    - r
+    - r-rcurl
+    - r-biobase
+    - r-rjsonio
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

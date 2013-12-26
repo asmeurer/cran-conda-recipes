@@ -1,0 +1,24 @@
+package:
+  name: r-illuminaio
+  version: 0.4.0
+
+source:
+  fn: illuminaio_0.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/illuminaio_0.4.0.tar.gz
+    - 4c26632da0151b00c98b7090e8b7ab61
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-base64
+  run:
+    - r
+    - r-base64
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

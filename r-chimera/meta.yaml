@@ -1,0 +1,38 @@
+package:
+  name: r-chimera
+  version: 1.4.0
+
+source:
+  fn: chimera_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chimera_1.4.0.tar.gz
+    - c576c731c019a5e008564955eb808aca
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-genomicranges
+    - r-rsamtools
+    - r-org.hs.eg.db
+    - r-org.mm.eg.db
+    - r-annotationdbi
+    - r-bsgenome.hsapiens.ucsc.hg19
+    - r-txdb.hsapiens.ucsc.hg19.knowngene
+  run:
+    - r
+    - r-biobase
+    - r-genomicranges
+    - r-rsamtools
+    - r-org.hs.eg.db
+    - r-org.mm.eg.db
+    - r-annotationdbi
+    - r-bsgenome.hsapiens.ucsc.hg19
+    - r-txdb.hsapiens.ucsc.hg19.knowngene
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

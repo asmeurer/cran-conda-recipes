@@ -1,0 +1,44 @@
+package:
+  name: r-gosim
+  version: 1.4.0
+
+source:
+  fn: GOSim_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOSim_1.4.0.tar.gz
+    - bacbf5c2aa7af17bfda5ee0cbf70bdb2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-go.db
+    - r-annotate
+    - r-igraph
+    - r-org.hs.eg.db
+    - r-annotationdbi
+    - r-topgo
+    - r-flexmix
+    - r-rbgl
+    - r-graph
+    - r-corpcor
+    - r-rcpp
+  run:
+    - r
+    - r-go.db
+    - r-annotate
+    - r-igraph
+    - r-org.hs.eg.db
+    - r-annotationdbi
+    - r-topgo
+    - r-flexmix
+    - r-rbgl
+    - r-graph
+    - r-corpcor
+    - r-rcpp
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

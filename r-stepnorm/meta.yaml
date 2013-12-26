@@ -1,0 +1,24 @@
+package:
+  name: r-stepnorm
+  version: 1.34.0
+
+source:
+  fn: stepNorm_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/stepNorm_1.34.0.tar.gz
+    - 2c48d08833cc72bb83089550dfe0b572
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-marray
+  run:
+    - r
+    - r-marray
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

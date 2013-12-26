@@ -1,0 +1,44 @@
+package:
+  name: r-flowclust
+  version: 3.2.0
+
+source:
+  fn: flowClust_3.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowClust_3.2.0.tar.gz
+    - c772951246163aa7be29113387a8b98e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-graph
+    - r-rbgl
+    - r-ellipse
+    - r-flowviz
+    - r-mnormt
+    - r-corpcor
+    - r-flowcore
+    - r-clue
+    - r-biocgenerics
+    - r-mcmcpack
+  run:
+    - r
+    - r-biobase
+    - r-graph
+    - r-rbgl
+    - r-ellipse
+    - r-flowviz
+    - r-mnormt
+    - r-corpcor
+    - r-flowcore
+    - r-clue
+    - r-biocgenerics
+    - r-mcmcpack
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

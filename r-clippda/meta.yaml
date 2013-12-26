@@ -1,0 +1,32 @@
+package:
+  name: r-clippda
+  version: 1.12.0
+
+source:
+  fn: clippda_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clippda_1.12.0.tar.gz
+    - 2bc9528bb89635450cbf894306cfe32b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-statmod
+    - r-rgl
+    - r-scatterplot3d
+    - r-biobase
+  run:
+    - r
+    - r-limma
+    - r-statmod
+    - r-rgl
+    - r-scatterplot3d
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

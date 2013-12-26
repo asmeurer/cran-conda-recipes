@@ -1,0 +1,26 @@
+package:
+  name: r-papi
+  version: 1.2.0
+
+source:
+  fn: PAPi_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PAPi_1.2.0.tar.gz
+    - 902775a455933ebdbe6e491d6a149e2a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-svdialogs
+    - r-keggrest
+  run:
+    - r
+    - r-svdialogs
+    - r-keggrest
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,26 @@
+package:
+  name: r-mzid
+  version: 1.0.0
+
+source:
+  fn: mzID_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mzID_1.0.0.tar.gz
+    - d85ea9c29da82aaf1bc6ecea7213bba3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-plyr
+  run:
+    - r
+    - r-xml
+    - r-plyr
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

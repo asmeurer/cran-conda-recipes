@@ -1,0 +1,24 @@
+package:
+  name: r-process
+  version: 1.38.0
+
+source:
+  fn: PROcess_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PROcess_1.38.0.tar.gz
+    - e8a8b55e3f82b09c299d24500250f56c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-icens
+  run:
+    - r
+    - r-icens
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

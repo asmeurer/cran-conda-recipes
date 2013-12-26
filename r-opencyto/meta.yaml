@@ -1,0 +1,52 @@
+package:
+  name: r-opencyto
+  version: 1.0.1
+
+source:
+  fn: openCyto_1.0.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/openCyto_1.0.1.tar.gz
+    - 14626aa686088d59c4c1713f1812bfa0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowworkspace
+    - r-biobase
+    - r-gtools
+    - r-flowcore
+    - r-flowstats
+    - r-flowclust
+    - r-clue
+    - r-plyr
+    - r-rbgl
+    - r-rgraphviz
+    - r-graph
+    - r-data.table
+    - r-ks
+    - r-rcolorbrewer
+    - r-rrcov
+  run:
+    - r
+    - r-flowworkspace
+    - r-biobase
+    - r-gtools
+    - r-flowcore
+    - r-flowstats
+    - r-flowclust
+    - r-clue
+    - r-plyr
+    - r-rbgl
+    - r-rgraphviz
+    - r-graph
+    - r-data.table
+    - r-ks
+    - r-rcolorbrewer
+    - r-rrcov
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

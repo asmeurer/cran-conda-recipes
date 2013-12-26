@@ -1,0 +1,28 @@
+package:
+  name: r-iterativebma
+  version: 1.20.0
+
+source:
+  fn: iterativeBMA_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iterativeBMA_1.20.0.tar.gz
+    - 15bb1278d911f53b05799ef547c64c1b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-bma
+    - r-leaps
+    - r-biobase
+  run:
+    - r
+    - r-bma
+    - r-leaps
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

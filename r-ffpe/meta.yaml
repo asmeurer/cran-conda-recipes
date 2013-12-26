@@ -1,0 +1,36 @@
+package:
+  name: r-ffpe
+  version: 1.6.0
+
+source:
+  fn: ffpe_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ffpe_1.6.0.tar.gz
+    - 04aa6d9f0c9a6f003b959a1105013a4f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ttr
+    - r-biobase
+    - r-biocgenerics
+    - r-affy
+    - r-lumi
+    - r-methylumi
+    - r-sfsmisc
+  run:
+    - r
+    - r-ttr
+    - r-biobase
+    - r-biocgenerics
+    - r-affy
+    - r-lumi
+    - r-methylumi
+    - r-sfsmisc
+
+about:
+  license: GPL (> 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

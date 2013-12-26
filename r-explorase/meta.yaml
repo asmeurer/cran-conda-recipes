@@ -1,0 +1,28 @@
+package:
+  name: r-explorase
+  version: 1.26.0
+
+source:
+  fn: explorase_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/explorase_1.26.0.tar.gz
+    - fd7a41ac08533c122b211f24dc36ed9f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-rggobi
+    - r-rgtk2
+  run:
+    - r
+    - r-limma
+    - r-rggobi
+    - r-rgtk2
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,42 @@
+package:
+  name: r-methylumi
+  version: 2.8.0
+
+source:
+  fn: methylumi_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methylumi_2.8.0.tar.gz
+    - 9dc8ec21b8aa9f4834a946822f79e643
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-scales
+    - r-reshape2
+    - r-ggplot2
+    - r-matrixstats
+    - r-annotate
+    - r-genefilter
+    - r-annotationdbi
+    - r-minfi
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-scales
+    - r-reshape2
+    - r-ggplot2
+    - r-matrixstats
+    - r-annotate
+    - r-genefilter
+    - r-annotationdbi
+    - r-minfi
+    - r-biocgenerics
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,26 @@
+package:
+  name: r-acgh
+  version: 1.40.0
+
+source:
+  fn: aCGH_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/aCGH_1.40.0.tar.gz
+    - b70eac05f243efb9674113aa27ca4de4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-multtest
+    - r-biobase
+  run:
+    - r
+    - r-multtest
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

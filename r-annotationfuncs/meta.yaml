@@ -1,0 +1,24 @@
+package:
+  name: r-annotationfuncs
+  version: 1.12.0
+
+source:
+  fn: AnnotationFuncs_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AnnotationFuncs_1.12.0.tar.gz
+    - 465b1d45ef938f5cf33d5158198e3178
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotationdbi
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

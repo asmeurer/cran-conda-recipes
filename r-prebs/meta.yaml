@@ -1,0 +1,30 @@
+package:
+  name: r-prebs
+  version: 1.2.0
+
+source:
+  fn: prebs_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/prebs_1.2.0.tar.gz
+    - b6813f3ebd5e4d47cdbfe2dbf3c97a60
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsamtools
+    - r-affy
+    - r-genomicranges
+    - r-iranges
+  run:
+    - r
+    - r-rsamtools
+    - r-affy
+    - r-genomicranges
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

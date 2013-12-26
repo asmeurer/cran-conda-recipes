@@ -1,0 +1,32 @@
+package:
+  name: r-intansv
+  version: 1.1.2
+
+source:
+  fn: intansv_1.1.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/intansv_1.1.2.tar.gz
+    - 20913ee2e2c878ee9f6f174e266eab33
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+    - r-ggbio
+    - r-genomicranges
+    - r-biocgenerics
+    - r-iranges
+  run:
+    - r
+    - r-plyr
+    - r-ggbio
+    - r-genomicranges
+    - r-biocgenerics
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

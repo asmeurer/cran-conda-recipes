@@ -1,0 +1,34 @@
+package:
+  name: r-tcc
+  version: 1.2.0
+
+source:
+  fn: TCC_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TCC_1.2.0.tar.gz
+    - 271da5318b89a03a009849181685d038
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-deseq
+    - r-edger
+    - r-bayseq
+    - r-roc
+    - r-ebseq
+    - r-samr
+  run:
+    - r
+    - r-deseq
+    - r-edger
+    - r-bayseq
+    - r-roc
+    - r-ebseq
+    - r-samr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

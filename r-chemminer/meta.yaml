@@ -1,0 +1,30 @@
+package:
+  name: r-chemminer
+  version: 2.14.2
+
+source:
+  fn: ChemmineR_2.14.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChemmineR_2.14.2.tar.gz
+    - 16050e3fbbb0587c6ec133e38722664e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcurl
+    - r-dbi
+    - r-digest
+    - r-biocgenerics
+  run:
+    - r
+    - r-rcurl
+    - r-dbi
+    - r-digest
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

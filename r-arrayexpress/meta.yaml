@@ -1,0 +1,30 @@
+package:
+  name: r-arrayexpress
+  version: 1.22.0
+
+source:
+  fn: ArrayExpress_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ArrayExpress_1.22.0.tar.gz
+    - 83f79d7213cd14223cdcf34a474f7443
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-xml
+    - r-affy
+    - r-limma
+  run:
+    - r
+    - r-biobase
+    - r-xml
+    - r-affy
+    - r-limma
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

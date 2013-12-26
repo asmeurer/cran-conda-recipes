@@ -1,0 +1,30 @@
+package:
+  name: r-generegionscan
+  version: 1.18.0
+
+source:
+  fn: GeneRegionScan_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneRegionScan_1.18.0.tar.gz
+    - e17945bcab8383af055b1e4a9c504fa0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biostrings
+    - r-affxparser
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-biobase
+    - r-biostrings
+    - r-affxparser
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,36 @@
+package:
+  name: r-rnaseqmap
+  version: 2.18.0
+
+source:
+  fn: rnaSeqMap_2.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rnaSeqMap_2.18.0.tar.gz
+    - cc04fdd43e3e97cf0761749ac8419f0e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-edger
+    - r-deseq
+    - r-dbi
+  run:
+    - r
+    - r-biobase
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-edger
+    - r-deseq
+    - r-dbi
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

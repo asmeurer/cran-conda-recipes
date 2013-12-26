@@ -1,0 +1,22 @@
+package:
+  name: r-xps
+  version: 1.22.2
+
+source:
+  fn: xps_1.22.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/xps_1.22.2.tar.gz
+    - e0b7cdcc2b01f21848cd4c8152d7274a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

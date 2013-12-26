@@ -1,0 +1,22 @@
+package:
+  name: r-qvalue
+  version: 1.36.0
+
+source:
+  fn: qvalue_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qvalue_1.36.0.tar.gz
+    - 0bbc608c83ca94444ed1a902ecb9ed05
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,26 @@
+package:
+  name: r-graphat
+  version: 1.34.0
+
+source:
+  fn: GraphAT_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GraphAT_1.34.0.tar.gz
+    - a4295194518ee954a1d762467ec0a40f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-mcmcpack
+  run:
+    - r
+    - r-graph
+    - r-mcmcpack
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

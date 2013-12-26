@@ -1,0 +1,28 @@
+package:
+  name: r-tdaracne
+  version: 1.12.0
+
+source:
+  fn: TDARACNE_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TDARACNE_1.12.0.tar.gz
+    - 748cfaa520fddfb63cf1e3efe5208f3d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genkern
+    - r-rgraphviz
+    - r-biobase
+  run:
+    - r
+    - r-genkern
+    - r-rgraphviz
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

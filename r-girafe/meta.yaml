@@ -1,0 +1,38 @@
+package:
+  name: r-girafe
+  version: 1.14.0
+
+source:
+  fn: girafe_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/girafe_1.14.0.tar.gz
+    - 47646e25cdce2e575ed4c1b9245b932b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-rsamtools
+    - r-shortread
+    - r-intervals
+    - r-genomeintervals
+    - r-biobase
+    - r-biostrings
+    - r-bsgenome
+  run:
+    - r
+    - r-iranges
+    - r-rsamtools
+    - r-shortread
+    - r-intervals
+    - r-genomeintervals
+    - r-biobase
+    - r-biostrings
+    - r-bsgenome
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

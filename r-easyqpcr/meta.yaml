@@ -1,0 +1,30 @@
+package:
+  name: r-easyqpcr
+  version: 1.5.0
+
+source:
+  fn: EasyqpcR_1.5.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EasyqpcR_1.5.0.tar.gz
+    - f5825b692007129dd4a8001bc23589fd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-plyr
+    - r-matrixstats
+    - r-plotrix
+    - r-gwidgetsrgtk2
+  run:
+    - r
+    - r-plyr
+    - r-matrixstats
+    - r-plotrix
+    - r-gwidgetsrgtk2
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

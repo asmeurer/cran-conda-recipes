@@ -1,0 +1,36 @@
+package:
+  name: r-eisa
+  version: 1.14.0
+
+source:
+  fn: eisa_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/eisa_1.14.0.tar.gz
+    - 576c7af718d25408212f333db1705db9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-isa2
+    - r-biobase
+    - r-annotationdbi
+    - r-biocgenerics
+    - r-category
+    - r-genefilter
+    - r-dbi
+  run:
+    - r
+    - r-isa2
+    - r-biobase
+    - r-annotationdbi
+    - r-biocgenerics
+    - r-category
+    - r-genefilter
+    - r-dbi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

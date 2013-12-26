@@ -1,0 +1,32 @@
+package:
+  name: r-arrayquality
+  version: 1.40.0
+
+source:
+  fn: arrayQuality_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/arrayQuality_1.40.0.tar.gz
+    - e9686bbea5377e2ecb2da287a4e49cd5
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gridbase
+    - r-hexbin
+    - r-limma
+    - r-marray
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-gridbase
+    - r-hexbin
+    - r-limma
+    - r-marray
+    - r-rcolorbrewer
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-liquidassociation
+  version: 1.16.0
+
+source:
+  fn: LiquidAssociation_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LiquidAssociation_1.16.0.tar.gz
+    - edc6c16c0734e10450f01b867c07a4ad
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-geepack
+    - r-yeastcc
+    - r-org.sc.sgd.db
+    - r-biobase
+  run:
+    - r
+    - r-geepack
+    - r-yeastcc
+    - r-org.sc.sgd.db
+    - r-biobase
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

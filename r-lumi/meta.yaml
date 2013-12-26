@@ -1,0 +1,44 @@
+package:
+  name: r-lumi
+  version: 2.14.1
+
+source:
+  fn: lumi_2.14.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/lumi_2.14.1.tar.gz
+    - 3234691e9102c40ad70d2f2e603543dc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-methylumi
+    - r-genomicfeatures
+    - r-genomicranges
+    - r-annotate
+    - r-nleqslv
+    - r-preprocesscore
+    - r-rsqlite
+    - r-dbi
+    - r-annotationdbi
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-methylumi
+    - r-genomicfeatures
+    - r-genomicranges
+    - r-annotate
+    - r-nleqslv
+    - r-preprocesscore
+    - r-rsqlite
+    - r-dbi
+    - r-annotationdbi
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

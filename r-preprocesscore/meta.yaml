@@ -1,0 +1,22 @@
+package:
+  name: r-preprocesscore
+  version: 1.24.0
+
+source:
+  fn: preprocessCore_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/preprocessCore_1.24.0.tar.gz
+    - 24f786a32f51874968b0812f83f8854d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

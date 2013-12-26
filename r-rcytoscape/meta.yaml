@@ -1,0 +1,28 @@
+package:
+  name: r-rcytoscape
+  version: 1.12.0
+
+source:
+  fn: RCytoscape_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RCytoscape_1.12.0.tar.gz
+    - a2d49dbd8b8497b0f276697a3f4e3a32
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-xmlrpc
+    - r-biocgenerics
+  run:
+    - r
+    - r-graph
+    - r-xmlrpc
+    - r-biocgenerics
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

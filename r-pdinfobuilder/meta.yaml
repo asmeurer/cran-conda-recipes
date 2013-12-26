@@ -1,0 +1,34 @@
+package:
+  name: r-pdinfobuilder
+  version: 1.26.0
+
+source:
+  fn: pdInfoBuilder_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pdInfoBuilder_1.26.0.tar.gz
+    - c0e542866c1d8c4f2d9fa449f36a7202
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rsqlite
+    - r-affxparser
+    - r-oligo
+    - r-biostrings
+    - r-iranges
+  run:
+    - r
+    - r-biobase
+    - r-rsqlite
+    - r-affxparser
+    - r-oligo
+    - r-biostrings
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

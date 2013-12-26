@@ -1,0 +1,34 @@
+package:
+  name: r-rgalaxy
+  version: 1.6.0
+
+source:
+  fn: RGalaxy_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RGalaxy_1.6.0.tar.gz
+    - c19da7d923e6d2217148008d5e8c4f1b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-optparse
+    - r-digest
+    - r-biocgenerics
+    - r-biobase
+    - r-roxygen2
+  run:
+    - r
+    - r-xml
+    - r-optparse
+    - r-digest
+    - r-biocgenerics
+    - r-biobase
+    - r-roxygen2
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

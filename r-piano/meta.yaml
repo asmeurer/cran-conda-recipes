@@ -1,0 +1,32 @@
+package:
+  name: r-piano
+  version: 1.2.10
+
+source:
+  fn: piano_1.2.10.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/piano_1.2.10.tar.gz
+    - 5c1d5a805cd75d51698f8a9a900dd64b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-gplots
+    - r-igraph
+    - r-relations
+    - r-marray
+  run:
+    - r
+    - r-biobase
+    - r-gplots
+    - r-igraph
+    - r-relations
+    - r-marray
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

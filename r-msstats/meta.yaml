@@ -1,0 +1,36 @@
+package:
+  name: r-msstats
+  version: 2.0.0
+
+source:
+  fn: MSstats_2.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MSstats_2.0.0.tar.gz
+    - 17b519ec52b1b8ecaf23ba6c8aa80af6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-msnbase
+    - r-lme4
+    - r-marray
+    - r-limma
+    - r-gplots
+    - r-ggplot2
+  run:
+    - r
+    - r-rcpp
+    - r-msnbase
+    - r-lme4
+    - r-marray
+    - r-limma
+    - r-gplots
+    - r-ggplot2
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

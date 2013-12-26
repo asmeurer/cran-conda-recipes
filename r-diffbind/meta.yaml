@@ -1,0 +1,36 @@
+package:
+  name: r-diffbind
+  version: 1.8.3
+
+source:
+  fn: DiffBind_1.8.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DiffBind_1.8.3.tar.gz
+    - 60b9bc282d60e67d26eb500c0963aa2b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-rcolorbrewer
+    - r-amap
+    - r-edger
+    - r-gplots
+    - r-iranges
+    - r-zlibbioc
+  run:
+    - r
+    - r-genomicranges
+    - r-rcolorbrewer
+    - r-amap
+    - r-edger
+    - r-gplots
+    - r-iranges
+    - r-zlibbioc
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

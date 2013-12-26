@@ -1,0 +1,34 @@
+package:
+  name: r-affyplm
+  version: 1.38.0
+
+source:
+  fn: affyPLM_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyPLM_1.38.0.tar.gz
+    - bffb6a94e493311a4cb0f9cc53b696e0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-affy
+    - r-biobase
+    - r-gcrma
+    - r-preprocesscore
+    - r-zlibbioc
+  run:
+    - r
+    - r-biocgenerics
+    - r-affy
+    - r-biobase
+    - r-gcrma
+    - r-preprocesscore
+    - r-zlibbioc
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

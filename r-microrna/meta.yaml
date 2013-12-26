@@ -1,0 +1,24 @@
+package:
+  name: r-microrna
+  version: 1.20.0
+
+source:
+  fn: microRNA_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/microRNA_1.20.0.tar.gz
+    - fc9647dd7794e6f5adf15100a7eb4ec4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+  run:
+    - r
+    - r-biostrings
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

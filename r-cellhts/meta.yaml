@@ -1,0 +1,30 @@
+package:
+  name: r-cellhts
+  version: 1.32.0
+
+source:
+  fn: cellHTS_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cellHTS_1.32.0.tar.gz
+    - b1f6c895ed0c4d5012db68277ff61e18
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-prada
+    - r-rcolorbrewer
+    - r-biobase
+    - r-genefilter
+  run:
+    - r
+    - r-prada
+    - r-rcolorbrewer
+    - r-biobase
+    - r-genefilter
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

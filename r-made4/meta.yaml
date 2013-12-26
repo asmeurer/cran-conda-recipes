@@ -1,0 +1,30 @@
+package:
+  name: r-made4
+  version: 1.36.0
+
+source:
+  fn: made4_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/made4_1.36.0.tar.gz
+    - 4f481dd147fc967e6e0796881052c841
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ade4
+    - r-rcolorbrewer
+    - r-gplots
+    - r-scatterplot3d
+  run:
+    - r
+    - r-ade4
+    - r-rcolorbrewer
+    - r-gplots
+    - r-scatterplot3d
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

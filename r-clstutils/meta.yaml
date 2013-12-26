@@ -1,0 +1,30 @@
+package:
+  name: r-clstutils
+  version: 1.10.0
+
+source:
+  fn: clstutils_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clstutils_1.10.0.tar.gz
+    - d0a2ba1f8aa5bb774b6523deb2d0369c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-clst
+    - r-rjson
+    - r-ape
+    - r-rsqlite
+  run:
+    - r
+    - r-clst
+    - r-rjson
+    - r-ape
+    - r-rsqlite
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

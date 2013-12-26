@@ -1,0 +1,30 @@
+package:
+  name: r-biomvcclass
+  version: 1.30.0
+
+source:
+  fn: BioMVCClass_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BioMVCClass_1.30.0.tar.gz
+    - 602bbc3699961f9d91cc759fdce173ba
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mvcclass
+    - r-biobase
+    - r-graph
+    - r-rgraphviz
+  run:
+    - r
+    - r-mvcclass
+    - r-biobase
+    - r-graph
+    - r-rgraphviz
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

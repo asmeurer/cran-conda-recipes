@@ -1,0 +1,30 @@
+package:
+  name: r-keggorthology
+  version: 2.14.0
+
+source:
+  fn: keggorthology_2.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/keggorthology_2.14.0.tar.gz
+    - 3ac0e9fcad41e237f3f3ca5d265d6fca
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-hgu95av2.db
+    - r-annotationdbi
+    - r-dbi
+  run:
+    - r
+    - r-graph
+    - r-hgu95av2.db
+    - r-annotationdbi
+    - r-dbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

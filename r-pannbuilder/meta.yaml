@@ -1,0 +1,30 @@
+package:
+  name: r-pannbuilder
+  version: 1.26.0
+
+source:
+  fn: PAnnBuilder_1.26.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PAnnBuilder_1.26.0.tar.gz
+    - 57d7f75d2cf4c82ff2ba3eed8d5bd6f7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsqlite
+    - r-biobase
+    - r-annotationdbi
+    - r-dbi
+  run:
+    - r
+    - r-rsqlite
+    - r-biobase
+    - r-annotationdbi
+    - r-dbi
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

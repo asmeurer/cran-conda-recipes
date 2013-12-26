@@ -1,0 +1,32 @@
+package:
+  name: r-htqpcr
+  version: 1.16.0
+
+source:
+  fn: HTqPCR_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HTqPCR_1.16.0.tar.gz
+    - 335ebc98c793eaba1ba8d2aab8a77e00
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-limma
+    - r-affy
+    - r-gplots
+  run:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-limma
+    - r-affy
+    - r-gplots
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

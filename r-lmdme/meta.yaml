@@ -1,0 +1,28 @@
+package:
+  name: r-lmdme
+  version: 1.4.0
+
+source:
+  fn: lmdme_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/lmdme_1.4.0.tar.gz
+    - e3efa912ad39459687ded580b0882db3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-pls
+    - r-stemhypoxia
+  run:
+    - r
+    - r-limma
+    - r-pls
+    - r-stemhypoxia
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

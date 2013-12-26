@@ -1,0 +1,30 @@
+package:
+  name: r-biomvrcns
+  version: 1.2.0
+
+source:
+  fn: biomvRCNS_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biomvRCNS_1.2.0.tar.gz
+    - cbe48661fc23c82ef6faca64a6278ad3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-gviz
+    - r-mvtnorm
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-gviz
+    - r-mvtnorm
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

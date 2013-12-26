@@ -1,0 +1,24 @@
+package:
+  name: r-copa
+  version: 1.30.0
+
+source:
+  fn: copa_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/copa_1.30.0.tar.gz
+    - 226d17130300b8a1cbc10c175811726e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

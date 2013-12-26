@@ -1,0 +1,40 @@
+package:
+  name: r-bioseqclass
+  version: 1.20.0
+
+source:
+  fn: BioSeqClass_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BioSeqClass_1.20.0.tar.gz
+    - 9352fbae23c13a7241aa388973910d3b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-scatterplot3d
+    - r-biostrings
+    - r-ipred
+    - r-e1071
+    - r-klar
+    - r-randomforest
+    - r-tree
+    - r-party
+    - r-biobase
+  run:
+    - r
+    - r-scatterplot3d
+    - r-biostrings
+    - r-ipred
+    - r-e1071
+    - r-klar
+    - r-randomforest
+    - r-tree
+    - r-party
+    - r-biobase
+
+about:
+  license: LGPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

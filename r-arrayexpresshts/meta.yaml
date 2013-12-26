@@ -1,0 +1,62 @@
+package:
+  name: r-arrayexpresshts
+  version: 1.12.0
+
+source:
+  fn: ArrayExpressHTS_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ArrayExpressHTS_1.12.0.tar.gz
+    - c11106babcfe7c206f16b338e3d2e50c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-sampling
+    - r-rsamtools
+    - r-snow
+    - r-biobase
+    - r-biocgenerics
+    - r-biostrings
+    - r-deseq
+    - r-genomicranges
+    - r-hmisc
+    - r-iranges
+    - r-r2html
+    - r-rcolorbrewer
+    - r-shortread
+    - r-xml
+    - r-biomart
+    - r-edger
+    - r-rjava
+    - r-svmisc
+    - r-sendmailr
+    - r-bitops
+  run:
+    - r
+    - r-sampling
+    - r-rsamtools
+    - r-snow
+    - r-biobase
+    - r-biocgenerics
+    - r-biostrings
+    - r-deseq
+    - r-genomicranges
+    - r-hmisc
+    - r-iranges
+    - r-r2html
+    - r-rcolorbrewer
+    - r-shortread
+    - r-xml
+    - r-biomart
+    - r-edger
+    - r-rjava
+    - r-svmisc
+    - r-sendmailr
+    - r-bitops
+
+about:
+  license: Artistic License 2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

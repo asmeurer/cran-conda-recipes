@@ -1,0 +1,24 @@
+package:
+  name: r-diffgeneanalysis
+  version: 1.44.0
+
+source:
+  fn: diffGeneAnalysis_1.44.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/diffGeneAnalysis_1.44.0.tar.gz
+    - a9af143109092c78a1cf8da3fcc72e1e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-minpack.lm
+  run:
+    - r
+    - r-minpack.lm
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

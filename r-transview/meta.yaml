@@ -1,0 +1,32 @@
+package:
+  name: r-transview
+  version: 1.6.1
+
+source:
+  fn: TransView_1.6.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TransView_1.6.1.tar.gz
+    - 1f66b7c3f32867aa92257ed0671b4a1b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-rsamtools
+    - r-zlibbioc
+    - r-gplots
+    - r-iranges
+  run:
+    - r
+    - r-genomicranges
+    - r-rsamtools
+    - r-zlibbioc
+    - r-gplots
+    - r-iranges
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

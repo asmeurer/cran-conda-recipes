@@ -1,0 +1,24 @@
+package:
+  name: r-tspair
+  version: 1.20.0
+
+source:
+  fn: tspair_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tspair_1.20.0.tar.gz
+    - ae48744d26dd7d5018b9dbaae48d06bf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

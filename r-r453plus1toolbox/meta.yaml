@@ -1,0 +1,50 @@
+package:
+  name: r-r453plus1toolbox
+  version: 1.12.0
+
+source:
+  fn: R453Plus1Toolbox_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/R453Plus1Toolbox_1.12.0.tar.gz
+    - d7215618203a7cb1fe37fecb6b513214
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-biostrings
+    - r-bsgenome.scerevisiae.ucsc.saccer2
+    - r-teachingdemos
+    - r-biomart
+    - r-bsgenome
+    - r-iranges
+    - r-xvector
+    - r-r2html
+    - r-rsamtools
+    - r-shortread
+    - r-variantannotation
+    - r-xtable
+  run:
+    - r
+    - r-biocgenerics
+    - r-biobase
+    - r-biostrings
+    - r-bsgenome.scerevisiae.ucsc.saccer2
+    - r-teachingdemos
+    - r-biomart
+    - r-bsgenome
+    - r-iranges
+    - r-xvector
+    - r-r2html
+    - r-rsamtools
+    - r-shortread
+    - r-variantannotation
+    - r-xtable
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

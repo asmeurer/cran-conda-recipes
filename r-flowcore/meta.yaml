@@ -1,0 +1,32 @@
+package:
+  name: r-flowcore
+  version: 1.28.0
+
+source:
+  fn: flowCore_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowCore_1.28.0.tar.gz
+    - 24ebc137d764b7732976836f53bd2ce2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-feature
+    - r-graph
+    - r-rrcov
+  run:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-feature
+    - r-graph
+    - r-rrcov
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

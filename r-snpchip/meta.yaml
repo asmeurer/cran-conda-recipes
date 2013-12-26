@@ -1,0 +1,30 @@
+package:
+  name: r-snpchip
+  version: 2.8.0
+
+source:
+  fn: SNPchip_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SNPchip_2.8.0.tar.gz
+    - 3c45e6a9950349660e6fffad788f6382
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-foreach
+    - r-oligoclasses
+    - r-biobase
+    - r-genomicranges
+  run:
+    - r
+    - r-foreach
+    - r-oligoclasses
+    - r-biobase
+    - r-genomicranges
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

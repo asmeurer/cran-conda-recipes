@@ -1,0 +1,24 @@
+package:
+  name: r-quantsmooth
+  version: 1.28.0
+
+source:
+  fn: quantsmooth_1.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/quantsmooth_1.28.0.tar.gz
+    - 2d43e9bba962464de01959d4dbedbae0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-quantreg
+  run:
+    - r
+    - r-quantreg
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,30 @@
+package:
+  name: r-motiv
+  version: 1.18.0
+
+source:
+  fn: MotIV_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MotIV_1.18.0.tar.gz
+    - bd611f181a079b15cb2d8c1cbbf9e80d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-biostrings
+    - r-rgadem
+  run:
+    - r
+    - r-biocgenerics
+    - r-iranges
+    - r-biostrings
+    - r-rgadem
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

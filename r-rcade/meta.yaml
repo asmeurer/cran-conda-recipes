@@ -1,0 +1,32 @@
+package:
+  name: r-rcade
+  version: 1.4.0
+
+source:
+  fn: Rcade_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rcade_1.4.0.tar.gz
+    - 6c22204c9f391e18b03763c612675dec
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-bayseq
+    - r-rsamtools
+    - r-iranges
+    - r-rgl
+  run:
+    - r
+    - r-genomicranges
+    - r-bayseq
+    - r-rsamtools
+    - r-iranges
+    - r-rgl
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

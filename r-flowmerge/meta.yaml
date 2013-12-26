@@ -1,0 +1,40 @@
+package:
+  name: r-flowmerge
+  version: 2.10.0
+
+source:
+  fn: flowMerge_2.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowMerge_2.10.0.tar.gz
+    - 71b9c3210fa41f0be684594a2a878c0a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgraphviz
+    - r-flowclust
+    - r-flowcore
+    - r-snow
+    - r-foreach
+    - r-graph
+    - r-feature
+    - r-rrcov
+    - r-biocgenerics
+  run:
+    - r
+    - r-rgraphviz
+    - r-flowclust
+    - r-flowcore
+    - r-snow
+    - r-foreach
+    - r-graph
+    - r-feature
+    - r-rrcov
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-rbsurv
+  version: 2.20.0
+
+source:
+  fn: rbsurv_2.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rbsurv_2.20.0.tar.gz
+    - 2e7976e8ec8dc0e8c4953cd861fc5228
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

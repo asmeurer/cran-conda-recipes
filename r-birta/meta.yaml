@@ -1,0 +1,26 @@
+package:
+  name: r-birta
+  version: 1.6.0
+
+source:
+  fn: birta_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/birta_1.6.0.tar.gz
+    - 51ffd86e934ac4c576428950de879607
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-biobase
+  run:
+    - r
+    - r-limma
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

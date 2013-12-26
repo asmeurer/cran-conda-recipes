@@ -1,0 +1,38 @@
+package:
+  name: r-eir
+  version: 1.2.0
+
+source:
+  fn: eiR_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/eiR_1.2.0.tar.gz
+    - 107cfcf5d5f73e59aa8ca27e9292ac9f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chemminer
+    - r-dbi
+    - r-snow
+    - r-snowfall
+    - r-runit
+    - r-rcurl
+    - r-digest
+    - r-biocgenerics
+  run:
+    - r
+    - r-chemminer
+    - r-dbi
+    - r-snow
+    - r-snowfall
+    - r-runit
+    - r-rcurl
+    - r-digest
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-ternarynet
+  version: 1.6.0
+
+source:
+  fn: ternarynet_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ternarynet_1.6.0.tar.gz
+    - 4d13c8ccbf82b853bd2c0516489d962f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+  run:
+    - r
+    - r-igraph
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

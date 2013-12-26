@@ -1,0 +1,36 @@
+package:
+  name: r-rpsixml
+  version: 2.4.0
+
+source:
+  fn: RpsiXML_2.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RpsiXML_2.4.0.tar.gz
+    - 085b4cafcc56a35514fa718f93171c25
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotate
+    - r-graph
+    - r-biobase
+    - r-rbgl
+    - r-xml
+    - r-hypergraph
+    - r-annotationdbi
+  run:
+    - r
+    - r-annotate
+    - r-graph
+    - r-biobase
+    - r-rbgl
+    - r-xml
+    - r-hypergraph
+    - r-annotationdbi
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

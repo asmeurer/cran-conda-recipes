@@ -1,0 +1,28 @@
+package:
+  name: r-ncdfflow
+  version: 2.8.0
+
+source:
+  fn: ncdfFlow_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ncdfFlow_2.8.0.tar.gz
+    - c7a5d74c7f97cbfef2599cae26355f29
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowcore
+    - r-flowviz
+    - r-biobase
+  run:
+    - r
+    - r-flowcore
+    - r-flowviz
+    - r-biobase
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

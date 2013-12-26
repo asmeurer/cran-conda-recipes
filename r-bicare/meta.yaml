@@ -1,0 +1,28 @@
+package:
+  name: r-bicare
+  version: 1.20.0
+
+source:
+  fn: BicARE_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BicARE_1.20.0.tar.gz
+    - e8449fa668030b3bc71ac10496795f96
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-multtest
+    - r-gseabase
+  run:
+    - r
+    - r-biobase
+    - r-multtest
+    - r-gseabase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

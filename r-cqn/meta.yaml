@@ -1,0 +1,30 @@
+package:
+  name: r-cqn
+  version: 1.8.0
+
+source:
+  fn: cqn_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cqn_1.8.0.tar.gz
+    - 100f87bd3f7ec4280ea0d6f22a5b90c3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mclust
+    - r-nor1mix
+    - r-preprocesscore
+    - r-quantreg
+  run:
+    - r
+    - r-mclust
+    - r-nor1mix
+    - r-preprocesscore
+    - r-quantreg
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

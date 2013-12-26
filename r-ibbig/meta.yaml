@@ -1,0 +1,28 @@
+package:
+  name: r-ibbig
+  version: 1.6.0
+
+source:
+  fn: iBBiG_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iBBiG_1.6.0.tar.gz
+    - dfd8d97c2916218ece83c45b4c87dcfe
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biclust
+    - r-xtable
+    - r-ade4
+  run:
+    - r
+    - r-biclust
+    - r-xtable
+    - r-ade4
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

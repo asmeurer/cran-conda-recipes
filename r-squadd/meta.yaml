@@ -1,0 +1,24 @@
+package:
+  name: r-squadd
+  version: 1.12.0
+
+source:
+  fn: SQUADD_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SQUADD_1.12.0.tar.gz
+    - cffc98c19d19cb41b0faf6ca7c1a22d1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

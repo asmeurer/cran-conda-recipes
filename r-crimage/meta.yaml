@@ -1,0 +1,34 @@
+package:
+  name: r-crimage
+  version: 1.10.0
+
+source:
+  fn: CRImage_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CRImage_1.10.0.tar.gz
+    - 3d591dc4784979d768b73c1f32df2c84
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ebimage
+    - r-dnacopy
+    - r-acgh
+    - r-e1071
+    - r-foreach
+    - r-sgeostat
+  run:
+    - r
+    - r-ebimage
+    - r-dnacopy
+    - r-acgh
+    - r-e1071
+    - r-foreach
+    - r-sgeostat
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

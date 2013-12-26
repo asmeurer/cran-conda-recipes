@@ -1,0 +1,38 @@
+package:
+  name: r-webbioc
+  version: 1.34.0
+
+source:
+  fn: webbioc_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/webbioc_1.34.0.tar.gz
+    - 1303d98ba46ec104b7a095dcf5df3426
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-multtest
+    - r-annaffy
+    - r-vsn
+    - r-gcrma
+    - r-qvalue
+    - r-biocinstaller
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-multtest
+    - r-annaffy
+    - r-vsn
+    - r-gcrma
+    - r-qvalue
+    - r-biocinstaller
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

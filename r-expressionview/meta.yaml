@@ -1,0 +1,36 @@
+package:
+  name: r-expressionview
+  version: 1.14.0
+
+source:
+  fn: ExpressionView_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ExpressionView_1.14.0.tar.gz
+    - e31903f8da9f509bc3f1dc8519756ffb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-catools
+    - r-bitops
+    - r-isa2
+    - r-eisa
+    - r-go.db
+    - r-kegg.db
+    - r-annotationdbi
+  run:
+    - r
+    - r-catools
+    - r-bitops
+    - r-isa2
+    - r-eisa
+    - r-go.db
+    - r-kegg.db
+    - r-annotationdbi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

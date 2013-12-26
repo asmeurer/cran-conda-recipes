@@ -1,0 +1,26 @@
+package:
+  name: r-snm
+  version: 1.10.2
+
+source:
+  fn: snm_1.10.2.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/snm_1.10.2.tar.gz
+    - afa6ce66e5d8ce91ccdac964c541c086
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-corpcor
+    - r-lme4
+  run:
+    - r
+    - r-corpcor
+    - r-lme4
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

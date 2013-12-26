@@ -1,0 +1,38 @@
+package:
+  name: r-vanillaice
+  version: 1.24.0
+
+source:
+  fn: VanillaICE_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VanillaICE_1.24.0.tar.gz
+    - ecf8ac4b7fc3a7d3fee058a9735c1b1a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-oligoclasses
+    - r-iranges
+    - r-msm
+    - r-iterators
+    - r-foreach
+    - r-genomicranges
+    - r-matrixstats
+  run:
+    - r
+    - r-biobase
+    - r-oligoclasses
+    - r-iranges
+    - r-msm
+    - r-iterators
+    - r-foreach
+    - r-genomicranges
+    - r-matrixstats
+
+about:
+  license: LGPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

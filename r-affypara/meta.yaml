@@ -1,0 +1,32 @@
+package:
+  name: r-affypara
+  version: 1.22.0
+
+source:
+  fn: affyPara_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyPara_1.22.0.tar.gz
+    - b085e2f55b92f3732835263bb5c6947a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-snow
+    - r-vsn
+    - r-aplpack
+    - r-affyio
+  run:
+    - r
+    - r-affy
+    - r-snow
+    - r-vsn
+    - r-aplpack
+    - r-affyio
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

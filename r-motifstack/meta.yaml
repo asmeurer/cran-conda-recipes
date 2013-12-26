@@ -1,0 +1,30 @@
+package:
+  name: r-motifstack
+  version: 1.6.4
+
+source:
+  fn: motifStack_1.6.4.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/motifStack_1.6.4.tar.gz
+    - 57c001d35e95e8fcd67a1ad7337c2173
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-grimport
+    - r-motiv
+    - r-ade4
+    - r-xml
+  run:
+    - r
+    - r-grimport
+    - r-motiv
+    - r-ade4
+    - r-xml
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

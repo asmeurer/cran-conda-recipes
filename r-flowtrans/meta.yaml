@@ -1,0 +1,28 @@
+package:
+  name: r-flowtrans
+  version: 1.14.0
+
+source:
+  fn: flowTrans_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowTrans_1.14.0.tar.gz
+    - bb53b8c7af3c534368eb88eb2508f2b2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-flowcore
+    - r-flowviz
+    - r-flowclust
+  run:
+    - r
+    - r-flowcore
+    - r-flowviz
+    - r-flowclust
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

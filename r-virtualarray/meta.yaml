@@ -1,0 +1,46 @@
+package:
+  name: r-virtualarray
+  version: 1.6.0
+
+source:
+  fn: virtualArray_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/virtualArray_1.6.0.tar.gz
+    - 3e32a3f4590568f7baf9a0047ddc4640
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-plyr
+    - r-preprocesscore
+    - r-affy
+    - r-affyplm
+    - r-annotationdbi
+    - r-biobase
+    - r-gcrma
+    - r-geoquery
+    - r-reshape2
+    - r-tseries
+    - r-outliers
+  run:
+    - r
+    - r-biocgenerics
+    - r-plyr
+    - r-preprocesscore
+    - r-affy
+    - r-affyplm
+    - r-annotationdbi
+    - r-biobase
+    - r-gcrma
+    - r-geoquery
+    - r-reshape2
+    - r-tseries
+    - r-outliers
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

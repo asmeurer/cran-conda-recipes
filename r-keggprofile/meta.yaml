@@ -1,0 +1,32 @@
+package:
+  name: r-keggprofile
+  version: 1.4.0
+
+source:
+  fn: KEGGprofile_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/KEGGprofile_1.4.0.tar.gz
+    - d3d6ca0b2a4612fcab7ef087e2142a19
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-png
+    - r-teachingdemos
+    - r-kegg.db
+    - r-annotationdbi
+  run:
+    - r
+    - r-xml
+    - r-png
+    - r-teachingdemos
+    - r-kegg.db
+    - r-annotationdbi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

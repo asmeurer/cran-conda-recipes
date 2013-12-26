@@ -1,0 +1,36 @@
+package:
+  name: r-chipxpress
+  version: 1.4.0
+
+source:
+  fn: ChIPXpress_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChIPXpress_1.4.0.tar.gz
+    - 973fa5a2a670f8d890b09f235080eb81
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chipxpressdata
+    - r-biobase
+    - r-geoquery
+    - r-frma
+    - r-affy
+    - r-bigmemory
+    - r-biganalytics
+  run:
+    - r
+    - r-chipxpressdata
+    - r-biobase
+    - r-geoquery
+    - r-frma
+    - r-affy
+    - r-bigmemory
+    - r-biganalytics
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

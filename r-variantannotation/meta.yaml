@@ -1,0 +1,48 @@
+package:
+  name: r-variantannotation
+  version: 1.8.8
+
+source:
+  fn: VariantAnnotation_1.8.8.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VariantAnnotation_1.8.8.tar.gz
+    - 9a1a7f419d2291ce435b5ae4ffe18efd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-genomicranges
+    - r-rsamtools
+    - r-iranges
+    - r-xvector
+    - r-biostrings
+    - r-biobase
+    - r-annotationdbi
+    - r-zlibbioc
+    - r-bsgenome
+    - r-genomicfeatures
+    - r-dbi
+    - r-rtracklayer
+  run:
+    - r
+    - r-biocgenerics
+    - r-genomicranges
+    - r-rsamtools
+    - r-iranges
+    - r-xvector
+    - r-biostrings
+    - r-biobase
+    - r-annotationdbi
+    - r-zlibbioc
+    - r-bsgenome
+    - r-genomicfeatures
+    - r-dbi
+    - r-rtracklayer
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

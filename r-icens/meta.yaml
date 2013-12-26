@@ -1,6 +1,3 @@
-# Manually crafted recipe due to Icens being removed from CRAN and only made
-# available from Bioconductor:
-#   http://cran.r-project.org/web/packages/Icens/index.html
 package:
   name: r-icens
   version: 1.34.0
@@ -8,20 +5,18 @@ package:
 source:
   fn: Icens_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Icens_1.34.0.tar.gz
+    - f43ac0c84159ae0887d00712a312cf42
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - r-survival
   run:
     - r
-    - r-survival
 
 about:
-  home: http://www.bioconductor.org/packages/release/bioc/html/Icens.html
-  license: Artistic 2.0
+  license: Artistic-2.0
 
 # vim:set ts=8 sw=2 sts=2 tw=78 et:

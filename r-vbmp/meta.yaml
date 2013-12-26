@@ -1,0 +1,22 @@
+package:
+  name: r-vbmp
+  version: 1.30.0
+
+source:
+  fn: vbmp_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/vbmp_1.30.0.tar.gz
+    - 5e3edc33e97eac11c12d151cfcc12dac
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

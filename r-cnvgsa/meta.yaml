@@ -1,0 +1,24 @@
+package:
+  name: r-cnvgsa
+  version: 1.6.0
+
+source:
+  fn: cnvGSA_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cnvGSA_1.6.0.tar.gz
+    - 83834613634d54328f445a8e193559cd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-brglm
+  run:
+    - r
+    - r-brglm
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

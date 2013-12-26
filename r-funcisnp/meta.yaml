@@ -1,0 +1,52 @@
+package:
+  name: r-funcisnp
+  version: 1.4.0
+
+source:
+  fn: FunciSNP_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/FunciSNP_1.4.0.tar.gz
+    - 7958926015cce5abd4c11775a6cf5a83
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-txdb.hsapiens.ucsc.hg19.knowngene
+    - r-funcisnp.data
+    - r-annotationdbi
+    - r-iranges
+    - r-rsamtools
+    - r-rtracklayer
+    - r-chippeakanno
+    - r-genomicranges
+    - r-variantannotation
+    - r-plyr
+    - r-org.hs.eg.db
+    - r-snpstats
+    - r-reshape
+    - r-scales
+  run:
+    - r
+    - r-ggplot2
+    - r-txdb.hsapiens.ucsc.hg19.knowngene
+    - r-funcisnp.data
+    - r-annotationdbi
+    - r-iranges
+    - r-rsamtools
+    - r-rtracklayer
+    - r-chippeakanno
+    - r-genomicranges
+    - r-variantannotation
+    - r-plyr
+    - r-org.hs.eg.db
+    - r-snpstats
+    - r-reshape
+    - r-scales
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

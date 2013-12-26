@@ -1,0 +1,24 @@
+package:
+  name: r-bcrank
+  version: 1.24.0
+
+source:
+  fn: BCRANK_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BCRANK_1.24.0.tar.gz
+    - 1d0839ac8c451b4f788b0c83953765a1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+  run:
+    - r
+    - r-biostrings
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

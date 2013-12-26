@@ -1,0 +1,22 @@
+package:
+  name: r-rsubread
+  version: 1.12.6
+
+source:
+  fn: Rsubread_1.12.6.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rsubread_1.12.6.tar.gz
+    - 593068189db38d4149787ef5ade00da3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

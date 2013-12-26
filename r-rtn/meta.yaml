@@ -1,0 +1,32 @@
+package:
+  name: r-rtn
+  version: 1.0.0
+
+source:
+  fn: RTN_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RTN_1.0.0.tar.gz
+    - e62b1dec1034fed27a4f036659bae307
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-igraph
+    - r-minet
+    - r-snow
+    - r-limma
+    - r-reder
+  run:
+    - r
+    - r-igraph
+    - r-minet
+    - r-snow
+    - r-limma
+    - r-reder
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

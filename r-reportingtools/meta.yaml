@@ -1,0 +1,58 @@
+package:
+  name: r-reportingtools
+  version: 2.2.0
+
+source:
+  fn: ReportingTools_2.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReportingTools_2.2.0.tar.gz
+    - e97be8a67fdfa714b6860c2dd2bdcdf3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-knitr
+    - r-biobase
+    - r-hwriter
+    - r-category
+    - r-gostats
+    - r-limma
+    - r-annotationdbi
+    - r-edger
+    - r-annotate
+    - r-pfam.db
+    - r-gseabase
+    - r-biocgenerics
+    - r-xml
+    - r-r.utils
+    - r-ggplot2
+    - r-ggbio
+    - r-deseq2
+    - r-iranges
+  run:
+    - r
+    - r-knitr
+    - r-biobase
+    - r-hwriter
+    - r-category
+    - r-gostats
+    - r-limma
+    - r-annotationdbi
+    - r-edger
+    - r-annotate
+    - r-pfam.db
+    - r-gseabase
+    - r-biocgenerics
+    - r-xml
+    - r-r.utils
+    - r-ggplot2
+    - r-ggbio
+    - r-deseq2
+    - r-iranges
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

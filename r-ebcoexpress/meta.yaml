@@ -1,0 +1,28 @@
+package:
+  name: r-ebcoexpress
+  version: 1.6.0
+
+source:
+  fn: EBcoexpress_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBcoexpress_1.6.0.tar.gz
+    - 2ffd3899d9eb837971c49e70766686d1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ebarrays
+    - r-mclust
+    - r-minqa
+  run:
+    - r
+    - r-ebarrays
+    - r-mclust
+    - r-minqa
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

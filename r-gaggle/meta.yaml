@@ -1,0 +1,28 @@
+package:
+  name: r-gaggle
+  version: 1.30.0
+
+source:
+  fn: gaggle_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gaggle_1.30.0.tar.gz
+    - f0b499272d62a4df868ee234295bc6c6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rjava
+    - r-graph
+    - r-runit
+  run:
+    - r
+    - r-rjava
+    - r-graph
+    - r-runit
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

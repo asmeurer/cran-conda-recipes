@@ -1,0 +1,48 @@
+package:
+  name: r-customprodb
+  version: 1.2.0
+
+source:
+  fn: customProDB_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/customProDB_1.2.0.tar.gz
+    - 918bbc81c3d2381d2dfc72fd510b095f
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-annotationdbi
+    - r-biomart
+    - r-rsamtools
+    - r-biostrings
+    - r-genomicranges
+    - r-genomicfeatures
+    - r-stringr
+    - r-rcurl
+    - r-plyr
+    - r-variantannotation
+    - r-rtracklayer
+    - r-rsqlite
+  run:
+    - r
+    - r-iranges
+    - r-annotationdbi
+    - r-biomart
+    - r-rsamtools
+    - r-biostrings
+    - r-genomicranges
+    - r-genomicfeatures
+    - r-stringr
+    - r-rcurl
+    - r-plyr
+    - r-variantannotation
+    - r-rtracklayer
+    - r-rsqlite
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

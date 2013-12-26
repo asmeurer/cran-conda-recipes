@@ -1,0 +1,44 @@
+package:
+  name: r-gcmapweb
+  version: 1.2.0
+
+source:
+  fn: gCMAPWeb_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gCMAPWeb_1.2.0.tar.gz
+    - b6cac726470d579bcfeaae4452c7da91
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-brew
+    - r-gcmap
+    - r-yaml
+    - r-biobase
+    - r-annotate
+    - r-annotationdbi
+    - r-biocgenerics
+    - r-gseabase
+    - r-hwriter
+    - r-iranges
+    - r-rook
+  run:
+    - r
+    - r-brew
+    - r-gcmap
+    - r-yaml
+    - r-biobase
+    - r-annotate
+    - r-annotationdbi
+    - r-biocgenerics
+    - r-gseabase
+    - r-hwriter
+    - r-iranges
+    - r-rook
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

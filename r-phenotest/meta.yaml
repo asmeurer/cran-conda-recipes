@@ -1,0 +1,62 @@
+package:
+  name: r-phenotest
+  version: 1.10.0
+
+source:
+  fn: phenoTest_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/phenoTest_1.10.0.tar.gz
+    - 039fd38b9cb939edd9ff5ab4dfe1c337
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotate
+    - r-heatplus
+    - r-bma
+    - r-ggplot2
+    - r-gridextra
+    - r-limma
+    - r-hmisc
+    - r-gplots
+    - r-category
+    - r-annotationdbi
+    - r-hopach
+    - r-biomart
+    - r-gseabase
+    - r-genefilter
+    - r-xtable
+    - r-snpchip
+    - r-hgu133a.db
+    - r-htsanalyzer
+    - r-ellipse
+  run:
+    - r
+    - r-biobase
+    - r-annotate
+    - r-heatplus
+    - r-bma
+    - r-ggplot2
+    - r-gridextra
+    - r-limma
+    - r-hmisc
+    - r-gplots
+    - r-category
+    - r-annotationdbi
+    - r-hopach
+    - r-biomart
+    - r-gseabase
+    - r-genefilter
+    - r-xtable
+    - r-snpchip
+    - r-hgu133a.db
+    - r-htsanalyzer
+    - r-ellipse
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

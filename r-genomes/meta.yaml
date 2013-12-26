@@ -1,0 +1,32 @@
+package:
+  name: r-genomes
+  version: 2.8.0
+
+source:
+  fn: genomes_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genomes_2.8.0.tar.gz
+    - 7ab9665c6ba2bbb35c263f9795695df1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-genomicranges
+    - r-iranges
+    - r-biostrings
+  run:
+    - r
+    - r-xml
+    - r-rcurl
+    - r-genomicranges
+    - r-iranges
+    - r-biostrings
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

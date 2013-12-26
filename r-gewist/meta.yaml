@@ -1,0 +1,24 @@
+package:
+  name: r-gewist
+  version: 1.6.0
+
+source:
+  fn: GEWIST_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GEWIST_1.6.0.tar.gz
+    - 152af878a10405a1f8bcfbdefb3e2049
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-car
+  run:
+    - r
+    - r-car
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

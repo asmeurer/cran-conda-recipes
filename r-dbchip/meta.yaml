@@ -1,0 +1,26 @@
+package:
+  name: r-dbchip
+  version: 1.6.0
+
+source:
+  fn: DBChIP_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DBChIP_1.6.0.tar.gz
+    - 77be3349469e0898b4a5deaf28eb0b39
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-edger
+    - r-deseq
+  run:
+    - r
+    - r-edger
+    - r-deseq
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

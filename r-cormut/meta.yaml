@@ -1,0 +1,28 @@
+package:
+  name: r-cormut
+  version: 1.4.0
+
+source:
+  fn: CorMut_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CorMut_1.4.0.tar.gz
+    - 43d154ef278df5a7d4d6448ba20b8955
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-seqinr
+    - r-igraph
+  run:
+    - r
+    - r-biostrings
+    - r-seqinr
+    - r-igraph
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

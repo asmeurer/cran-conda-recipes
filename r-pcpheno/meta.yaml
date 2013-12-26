@@ -1,0 +1,46 @@
+package:
+  name: r-pcpheno
+  version: 1.24.0
+
+source:
+  fn: PCpheno_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PCpheno_1.24.0.tar.gz
+    - 256fa116a1d3ad667c3c8936cf5e01e6
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-category
+    - r-scisi
+    - r-slgi
+    - r-ppistats
+    - r-ppidata
+    - r-annotate
+    - r-annotationdbi
+    - r-biobase
+    - r-go.db
+    - r-graph
+    - r-gseabase
+    - r-kegg.db
+  run:
+    - r
+    - r-category
+    - r-scisi
+    - r-slgi
+    - r-ppistats
+    - r-ppidata
+    - r-annotate
+    - r-annotationdbi
+    - r-biobase
+    - r-go.db
+    - r-graph
+    - r-gseabase
+    - r-kegg.db
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

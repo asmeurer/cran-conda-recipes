@@ -1,0 +1,26 @@
+package:
+  name: r-mosaics
+  version: 1.10.0
+
+source:
+  fn: mosaics_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mosaics_1.10.0.tar.gz
+    - 8db3b98896abfb4c318dce8dbaec1439
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rcpp
+    - r-iranges
+  run:
+    - r
+    - r-rcpp
+    - r-iranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

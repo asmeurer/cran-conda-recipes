@@ -1,0 +1,28 @@
+package:
+  name: r-triform
+  version: 1.4.0
+
+source:
+  fn: triform_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/triform_1.4.0.tar.gz
+    - 925d7d1853ed33b4c4c3ddaee1adb2e5
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-yaml
+    - r-biocgenerics
+  run:
+    - r
+    - r-iranges
+    - r-yaml
+    - r-biocgenerics
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

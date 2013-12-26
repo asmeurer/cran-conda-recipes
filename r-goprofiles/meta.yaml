@@ -1,0 +1,28 @@
+package:
+  name: r-goprofiles
+  version: 1.24.0
+
+source:
+  fn: goProfiles_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/goProfiles_1.24.0.tar.gz
+    - fe693104678ae45aed1ac04d3d61296c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-go.db
+  run:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-go.db
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

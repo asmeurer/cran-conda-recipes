@@ -1,0 +1,32 @@
+package:
+  name: r-srap
+  version: 1.2.0
+
+source:
+  fn: sRAP_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sRAP_1.2.0.tar.gz
+    - 3222c1e24e4a614482bf4ba7ff161e31
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-writexls
+    - r-gplots
+    - r-pls
+    - r-rocr
+    - r-qvalue
+  run:
+    - r
+    - r-writexls
+    - r-gplots
+    - r-pls
+    - r-rocr
+    - r-qvalue
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

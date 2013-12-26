@@ -1,0 +1,36 @@
+package:
+  name: r-chipenrich
+  version: 1.0.0
+
+source:
+  fn: chipenrich_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chipenrich_1.0.0.tar.gz
+    - 8ca365ed263023cdb929d33c42f3254b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-chipenrich.data
+    - r-genomicranges
+    - r-iranges
+    - r-plyr
+    - r-latticeextra
+    - r-stringr
+    - r-reshape
+  run:
+    - r
+    - r-chipenrich.data
+    - r-genomicranges
+    - r-iranges
+    - r-plyr
+    - r-latticeextra
+    - r-stringr
+    - r-reshape
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

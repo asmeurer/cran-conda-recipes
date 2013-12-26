@@ -1,0 +1,30 @@
+package:
+  name: r-globalancova
+  version: 3.30.0
+
+source:
+  fn: GlobalAncova_3.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GlobalAncova_3.30.0.tar.gz
+    - 5151b4f33283ecdf5aa994f8fd98a93e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-corpcor
+    - r-globaltest
+    - r-annotate
+    - r-annotationdbi
+  run:
+    - r
+    - r-corpcor
+    - r-globaltest
+    - r-annotate
+    - r-annotationdbi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

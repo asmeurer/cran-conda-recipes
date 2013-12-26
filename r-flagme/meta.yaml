@@ -1,0 +1,30 @@
+package:
+  name: r-flagme
+  version: 1.18.0
+
+source:
+  fn: flagme_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flagme_1.18.0.tar.gz
+    - cd5d95ad54efd5d81958b5b0a5a14881
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gcspikelite
+    - r-xcms
+    - r-gplots
+    - r-sparsem
+  run:
+    - r
+    - r-gcspikelite
+    - r-xcms
+    - r-gplots
+    - r-sparsem
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

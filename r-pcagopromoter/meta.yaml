@@ -1,0 +1,28 @@
+package:
+  name: r-pcagopromoter
+  version: 1.6.0
+
+source:
+  fn: pcaGoPromoter_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pcaGoPromoter_1.6.0.tar.gz
+    - c79a16b44da43daa4c476034375b59dd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ellipse
+    - r-biobase
+    - r-annotationdbi
+  run:
+    - r
+    - r-ellipse
+    - r-biobase
+    - r-annotationdbi
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

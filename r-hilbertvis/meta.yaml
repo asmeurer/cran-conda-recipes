@@ -1,0 +1,22 @@
+package:
+  name: r-hilbertvis
+  version: 1.20.0
+
+source:
+  fn: HilbertVis_1.20.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HilbertVis_1.20.0.tar.gz
+    - dde69cd4cfcac618cfbe7faba6d01d3a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

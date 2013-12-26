@@ -1,0 +1,48 @@
+package:
+  name: r-phyloseq
+  version: 1.6.0
+
+source:
+  fn: phyloseq_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/phyloseq_1.6.0.tar.gz
+    - 955bb44212aa4b1b923604d954c2e434
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ade4
+    - r-picante
+    - r-ape
+    - r-biom
+    - r-biostrings
+    - r-foreach
+    - r-ggplot2
+    - r-igraph
+    - r-multtest
+    - r-plyr
+    - r-reshape2
+    - r-scales
+    - r-vegan
+  run:
+    - r
+    - r-ade4
+    - r-picante
+    - r-ape
+    - r-biom
+    - r-biostrings
+    - r-foreach
+    - r-ggplot2
+    - r-igraph
+    - r-multtest
+    - r-plyr
+    - r-reshape2
+    - r-scales
+    - r-vegan
+
+about:
+  license: AGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,32 @@
+package:
+  name: r-geneselector
+  version: 2.12.0
+
+source:
+  fn: GeneSelector_2.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneSelector_2.12.0.tar.gz
+    - e6540c3e70da0b45b4586e970a91db4a
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-multtest
+    - r-siggenes
+    - r-samr
+    - r-limma
+  run:
+    - r
+    - r-biobase
+    - r-multtest
+    - r-siggenes
+    - r-samr
+    - r-limma
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

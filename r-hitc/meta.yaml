@@ -1,0 +1,34 @@
+package:
+  name: r-hitc
+  version: 1.6.0
+
+source:
+  fn: HiTC_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HiTC_1.6.0.tar.gz
+    - fed0a676518af395187600065ff6becd
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-rcolorbrewer
+    - r-biobase
+    - r-biostrings
+    - r-rtracklayer
+  run:
+    - r
+    - r-genomicranges
+    - r-iranges
+    - r-rcolorbrewer
+    - r-biobase
+    - r-biostrings
+    - r-rtracklayer
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

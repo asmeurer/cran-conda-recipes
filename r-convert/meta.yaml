@@ -1,0 +1,28 @@
+package:
+  name: r-convert
+  version: 1.38.0
+
+source:
+  fn: convert_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/convert_1.38.0.tar.gz
+    - 3e067e1a4ebca369debbb6a7c89f6992
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-limma
+    - r-marray
+  run:
+    - r
+    - r-biobase
+    - r-limma
+    - r-marray
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

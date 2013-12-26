@@ -1,0 +1,30 @@
+package:
+  name: r-puma
+  version: 3.4.0
+
+source:
+  fn: puma_3.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/puma_3.4.0.tar.gz
+    - afd1a142a1871a0f2335beb521677e05
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-affy
+    - r-mclust
+    - r-affyio
+  run:
+    - r
+    - r-biobase
+    - r-affy
+    - r-mclust
+    - r-affyio
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

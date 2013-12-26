@@ -1,0 +1,24 @@
+package:
+  name: r-factdesign
+  version: 1.38.0
+
+source:
+  fn: factDesign_1.38.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/factDesign_1.38.0.tar.gz
+    - 959ab3f9b4379c6c46cc82df060454ad
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-hem
+  version: 1.34.0
+
+source:
+  fn: HEM_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HEM_1.34.0.tar.gz
+    - 771734e2ff45028da69bb756893b66cb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

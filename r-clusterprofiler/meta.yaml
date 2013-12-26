@@ -1,0 +1,40 @@
+package:
+  name: r-clusterprofiler
+  version: 1.10.1
+
+source:
+  fn: clusterProfiler_1.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clusterProfiler_1.10.1.tar.gz
+    - 76ef4a98e839764218f08612d80e593d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ggplot2
+    - r-dbi
+    - r-plyr
+    - r-annotationdbi
+    - r-go.db
+    - r-kegg.db
+    - r-org.hs.eg.db
+    - r-dose
+    - r-gosemsim
+  run:
+    - r
+    - r-ggplot2
+    - r-dbi
+    - r-plyr
+    - r-annotationdbi
+    - r-go.db
+    - r-kegg.db
+    - r-org.hs.eg.db
+    - r-dose
+    - r-gosemsim
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

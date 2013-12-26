@@ -1,0 +1,36 @@
+package:
+  name: r-h5vc
+  version: 1.0.5
+
+source:
+  fn: h5vc_1.0.5.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/h5vc_1.0.5.tar.gz
+    - 6abec7a8427fefcd6f320b23747001f1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rhdf5
+    - r-ggplot2
+    - r-reshape
+    - r-bit64
+    - r-iranges
+    - r-genomicranges
+    - r-biostrings
+  run:
+    - r
+    - r-rhdf5
+    - r-ggplot2
+    - r-reshape
+    - r-bit64
+    - r-iranges
+    - r-genomicranges
+    - r-biostrings
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

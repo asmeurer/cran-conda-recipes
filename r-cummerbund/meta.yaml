@@ -1,0 +1,38 @@
+package:
+  name: r-cummerbund
+  version: 2.4.1
+
+source:
+  fn: cummeRbund_2.4.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cummeRbund_2.4.1.tar.gz
+    - ac4f657b10d5717f67e7c852df9862f9
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-rsqlite
+    - r-ggplot2
+    - r-reshape2
+    - r-fastcluster
+    - r-rtracklayer
+    - r-gviz
+    - r-plyr
+  run:
+    - r
+    - r-biocgenerics
+    - r-rsqlite
+    - r-ggplot2
+    - r-reshape2
+    - r-fastcluster
+    - r-rtracklayer
+    - r-gviz
+    - r-plyr
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

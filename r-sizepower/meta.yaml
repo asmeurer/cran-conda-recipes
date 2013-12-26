@@ -1,0 +1,22 @@
+package:
+  name: r-sizepower
+  version: 1.32.0
+
+source:
+  fn: sizepower_1.32.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sizepower_1.32.0.tar.gz
+    - 4b831c816fa11496de3631735ed7bea3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

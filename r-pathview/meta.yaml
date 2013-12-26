@@ -1,0 +1,36 @@
+package:
+  name: r-pathview
+  version: 1.2.3
+
+source:
+  fn: pathview_1.2.3.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pathview_1.2.3.tar.gz
+    - 39b88c0ed36ed8df4113b676683b5b9c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-kegggraph
+    - r-org.hs.eg.db
+    - r-rgraphviz
+    - r-graph
+    - r-png
+    - r-annotationdbi
+    - r-keggrest
+  run:
+    - r
+    - r-kegggraph
+    - r-org.hs.eg.db
+    - r-rgraphviz
+    - r-graph
+    - r-png
+    - r-annotationdbi
+    - r-keggrest
+
+about:
+  license: GPL (>= 3.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

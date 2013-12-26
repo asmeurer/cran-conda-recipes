@@ -1,0 +1,32 @@
+package:
+  name: r-starr
+  version: 1.18.1
+
+source:
+  fn: Starr_1.18.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Starr_1.18.1.tar.gz
+    - d5c9e944fa162c2e03a80800584f94b0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ringo
+    - r-affy
+    - r-affxparser
+    - r-pspline
+    - r-zlibbioc
+  run:
+    - r
+    - r-ringo
+    - r-affy
+    - r-affxparser
+    - r-pspline
+    - r-zlibbioc
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

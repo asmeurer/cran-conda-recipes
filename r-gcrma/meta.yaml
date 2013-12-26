@@ -1,0 +1,34 @@
+package:
+  name: r-gcrma
+  version: 2.34.0
+
+source:
+  fn: gcrma_2.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gcrma_2.34.0.tar.gz
+    - 44f0435123c2a962914dc6737d6881c2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-biobase
+    - r-affyio
+    - r-xvector
+    - r-biostrings
+    - r-biocinstaller
+  run:
+    - r
+    - r-affy
+    - r-biobase
+    - r-affyio
+    - r-xvector
+    - r-biostrings
+    - r-biocinstaller
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

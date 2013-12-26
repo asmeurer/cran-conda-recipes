@@ -1,0 +1,28 @@
+package:
+  name: r-gsva
+  version: 1.10.1
+
+source:
+  fn: GSVA_1.10.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSVA_1.10.1.tar.gz
+    - 3212a3b551ebdb0f8d09dd479d3b8479
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-gseabase
+    - r-biocgenerics
+    - r-biobase
+  run:
+    - r
+    - r-gseabase
+    - r-biocgenerics
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

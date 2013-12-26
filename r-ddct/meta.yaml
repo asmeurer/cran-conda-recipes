@@ -1,0 +1,28 @@
+package:
+  name: r-ddct
+  version: 1.16.0
+
+source:
+  fn: ddCt_1.16.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ddCt_1.16.0.tar.gz
+    - b9231666f419936b8e2ffde07b5c0baf
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-xtable
+  run:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-xtable
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,32 @@
+package:
+  name: r-flowbeads
+  version: 1.0.0
+
+source:
+  fn: flowBeads_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowBeads_1.0.0.tar.gz
+    - b66125a7dd680b7cc09eb3415c41b154
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rrcov
+    - r-flowcore
+    - r-knitr
+    - r-xtable
+  run:
+    - r
+    - r-biobase
+    - r-rrcov
+    - r-flowcore
+    - r-knitr
+    - r-xtable
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,54 @@
+package:
+  name: r-proloc
+  version: 1.2.0
+
+source:
+  fn: pRoloc_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pRoloc_1.2.0.tar.gz
+    - 066efe82eef8d692b253f0aee2a1d624
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-msnbase
+    - r-mlinterfaces
+    - r-rcpp
+    - r-mclust
+    - r-msbvar
+    - r-caret
+    - r-e1071
+    - r-sampling
+    - r-kernlab
+    - r-randomforest
+    - r-proxy
+    - r-fnn
+    - r-biocgenerics
+    - r-rcolorbrewer
+    - r-scales
+    - r-knitr
+  run:
+    - r
+    - r-msnbase
+    - r-mlinterfaces
+    - r-rcpp
+    - r-mclust
+    - r-msbvar
+    - r-caret
+    - r-e1071
+    - r-sampling
+    - r-kernlab
+    - r-randomforest
+    - r-proxy
+    - r-fnn
+    - r-biocgenerics
+    - r-rcolorbrewer
+    - r-scales
+    - r-knitr
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

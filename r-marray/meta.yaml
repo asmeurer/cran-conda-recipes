@@ -1,0 +1,24 @@
+package:
+  name: r-marray
+  version: 1.40.0
+
+source:
+  fn: marray_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/marray_1.40.0.tar.gz
+    - c82aa82073cdbc4cfb4839fb196d5082
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+  run:
+    - r
+    - r-limma
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

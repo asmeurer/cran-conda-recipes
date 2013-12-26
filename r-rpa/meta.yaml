@@ -1,0 +1,26 @@
+package:
+  name: r-rpa
+  version: 1.18.0
+
+source:
+  fn: RPA_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RPA_1.18.0.tar.gz
+    - f495afe2202cd23425a0314522fd128e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-affy
+    - r-affydata
+  run:
+    - r
+    - r-affy
+    - r-affydata
+
+about:
+  license: FreeBSD
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

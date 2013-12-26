@@ -1,0 +1,34 @@
+package:
+  name: r-gwascat
+  version: 1.6.0
+
+source:
+  fn: gwascat_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gwascat_1.6.0.tar.gz
+    - b081f2e226f531a5f552ff6e50bbc7cc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-snpstats
+    - r-graph
+    - r-biocgenerics
+    - r-biostrings
+  run:
+    - r
+    - r-iranges
+    - r-genomicranges
+    - r-snpstats
+    - r-graph
+    - r-biocgenerics
+    - r-biostrings
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

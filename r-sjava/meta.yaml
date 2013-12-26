@@ -1,0 +1,22 @@
+package:
+  name: r-sjava
+  version: 0.88.0
+
+source:
+  fn: SJava_0.88.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SJava_0.88.0.tar.gz
+    - 2a8d1f3cbcf4870488d7b05f9fde09fa
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

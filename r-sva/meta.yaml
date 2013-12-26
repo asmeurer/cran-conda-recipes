@@ -1,0 +1,24 @@
+package:
+  name: r-sva
+  version: 3.8.0
+
+source:
+  fn: sva_3.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sva_3.8.0.tar.gz
+    - c00e486a5ffff7f00bfaa27cea809b13
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-corpcor
+  run:
+    - r
+    - r-corpcor
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

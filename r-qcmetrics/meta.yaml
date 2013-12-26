@@ -1,0 +1,32 @@
+package:
+  name: r-qcmetrics
+  version: 1.0.0
+
+source:
+  fn: qcmetrics_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qcmetrics_1.0.0.tar.gz
+    - 9cb41a33b7678d1fc7c0680999c3f351
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-knitr
+    - r-nozzle.r1
+    - r-xtable
+    - r-pander
+  run:
+    - r
+    - r-biobase
+    - r-knitr
+    - r-nozzle.r1
+    - r-xtable
+    - r-pander
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

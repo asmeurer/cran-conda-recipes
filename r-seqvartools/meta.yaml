@@ -1,0 +1,30 @@
+package:
+  name: r-seqvartools
+  version: 1.0.0
+
+source:
+  fn: SeqVarTools_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SeqVarTools_1.0.0.tar.gz
+    - 7da31ff9ac5b01d4c78785248183a5e7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-seqarray
+    - r-genomicranges
+    - r-iranges
+    - r-gwasexacthw
+  run:
+    - r
+    - r-seqarray
+    - r-genomicranges
+    - r-iranges
+    - r-gwasexacthw
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

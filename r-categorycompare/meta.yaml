@@ -1,0 +1,44 @@
+package:
+  name: r-categorycompare
+  version: 1.6.0
+
+source:
+  fn: categoryCompare_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/categoryCompare_1.6.0.tar.gz
+    - aacd154c87262be23b26e79763e5491c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-annotationdbi
+    - r-hwriter
+    - r-gseabase
+    - r-category
+    - r-gostats
+    - r-annotate
+    - r-colorspace
+    - r-graph
+    - r-rcytoscape
+  run:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-annotationdbi
+    - r-hwriter
+    - r-gseabase
+    - r-category
+    - r-gostats
+    - r-annotate
+    - r-colorspace
+    - r-graph
+    - r-rcytoscape
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

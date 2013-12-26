@@ -1,0 +1,30 @@
+package:
+  name: r-domainsignatures
+  version: 1.22.0
+
+source:
+  fn: domainsignatures_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/domainsignatures_1.22.0.tar.gz
+    - a2434ada8ec8069fbcfa39ea4310b8c8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-kegg.db
+    - r-prada
+    - r-biomart
+    - r-annotationdbi
+  run:
+    - r
+    - r-kegg.db
+    - r-prada
+    - r-biomart
+    - r-annotationdbi
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

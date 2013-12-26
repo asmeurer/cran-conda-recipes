@@ -1,0 +1,36 @@
+package:
+  name: r-mlp
+  version: 1.10.0
+
+source:
+  fn: MLP_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MLP_1.10.0.tar.gz
+    - 6a072fa0ce939b0e5591dbf3247d9cc7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-affy
+    - r-plotrix
+    - r-gplots
+    - r-gmodels
+    - r-gdata
+    - r-gtools
+  run:
+    - r
+    - r-annotationdbi
+    - r-affy
+    - r-plotrix
+    - r-gplots
+    - r-gmodels
+    - r-gdata
+    - r-gtools
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

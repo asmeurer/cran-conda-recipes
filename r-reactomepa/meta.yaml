@@ -1,0 +1,38 @@
+package:
+  name: r-reactomepa
+  version: 1.6.1
+
+source:
+  fn: ReactomePA_1.6.1.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReactomePA_1.6.1.tar.gz
+    - afd3163f1a2a64df4213750faad23a44
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-annotationdbi
+    - r-reactome.db
+    - r-org.hs.eg.db
+    - r-dose
+    - r-plyr
+    - r-igraph
+    - r-qvalue
+    - r-graphite
+  run:
+    - r
+    - r-annotationdbi
+    - r-reactome.db
+    - r-org.hs.eg.db
+    - r-dose
+    - r-plyr
+    - r-igraph
+    - r-qvalue
+    - r-graphite
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

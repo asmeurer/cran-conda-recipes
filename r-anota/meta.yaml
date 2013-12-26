@@ -1,0 +1,26 @@
+package:
+  name: r-anota
+  version: 1.10.0
+
+source:
+  fn: anota_1.10.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/anota_1.10.0.tar.gz
+    - 04c67850100fdc069a05f0332d6fed89
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-qvalue
+    - r-multtest
+  run:
+    - r
+    - r-qvalue
+    - r-multtest
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

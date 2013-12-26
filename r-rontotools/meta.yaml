@@ -1,0 +1,30 @@
+package:
+  name: r-rontotools
+  version: 1.2.0
+
+source:
+  fn: ROntoTools_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ROntoTools_1.2.0.tar.gz
+    - f82de32dee423ab4ebc4ff38d4b77dd7
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-graph
+    - r-keggrest
+    - r-kegggraph
+    - r-rgraphviz
+  run:
+    - r
+    - r-graph
+    - r-keggrest
+    - r-kegggraph
+    - r-rgraphviz
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

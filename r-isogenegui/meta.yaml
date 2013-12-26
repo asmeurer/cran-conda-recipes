@@ -1,0 +1,38 @@
+package:
+  name: r-isogenegui
+  version: 1.18.0
+
+source:
+  fn: IsoGeneGUI_1.18.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IsoGeneGUI_1.18.0.tar.gz
+    - 1f3d838dd5e2fc88ff96647b743e9d8b
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-tkrplot
+    - r-isogene
+    - r-multtest
+    - r-relimp
+    - r-writexls
+    - r-gdata
+    - r-rcolorbrewer
+    - r-geneplotter
+  run:
+    - r
+    - r-tkrplot
+    - r-isogene
+    - r-multtest
+    - r-relimp
+    - r-writexls
+    - r-gdata
+    - r-rcolorbrewer
+    - r-geneplotter
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

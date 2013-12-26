@@ -1,0 +1,26 @@
+package:
+  name: r-cnordt
+  version: 1.4.0
+
+source:
+  fn: CNORdt_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNORdt_1.4.0.tar.gz
+    - 0929f5a9eb68e0327d2fe021240ee1ce
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-cellnoptr
+    - r-abind
+  run:
+    - r
+    - r-cellnoptr
+    - r-abind
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

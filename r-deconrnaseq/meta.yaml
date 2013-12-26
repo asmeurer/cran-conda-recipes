@@ -1,0 +1,28 @@
+package:
+  name: r-deconrnaseq
+  version: 1.4.0
+
+source:
+  fn: DeconRNASeq_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DeconRNASeq_1.4.0.tar.gz
+    - 74f14d47e23ef44071cc1be1a6756537
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limsolve
+    - r-pcamethods
+    - r-ggplot2
+  run:
+    - r
+    - r-limsolve
+    - r-pcamethods
+    - r-ggplot2
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

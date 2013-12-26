@@ -1,0 +1,24 @@
+package:
+  name: r-arrmnormalization
+  version: 1.2.0
+
+source:
+  fn: ARRmNormalization_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ARRmNormalization_1.2.0.tar.gz
+    - a9406e9722336fba218eac07eac86604
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-arrmdata
+  run:
+    - r
+    - r-arrmdata
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

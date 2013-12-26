@@ -1,0 +1,46 @@
+package:
+  name: r-champ
+  version: 1.0.6
+
+source:
+  fn: ChAMP_1.0.6.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChAMP_1.0.6.tar.gz
+    - ac246077860fb65a6736ea312bacb8f3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-minfi
+    - r-champdata
+    - r-illumina450probevariants.db
+    - r-sva
+    - r-illuminahumanmethylation450kmanifest
+    - r-limma
+    - r-rpmm
+    - r-dnacopy
+    - r-preprocesscore
+    - r-impute
+    - r-marray
+    - r-watermelon
+  run:
+    - r
+    - r-minfi
+    - r-champdata
+    - r-illumina450probevariants.db
+    - r-sva
+    - r-illuminahumanmethylation450kmanifest
+    - r-limma
+    - r-rpmm
+    - r-dnacopy
+    - r-preprocesscore
+    - r-impute
+    - r-marray
+    - r-watermelon
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,34 @@
+package:
+  name: r-survcomp
+  version: 1.12.0
+
+source:
+  fn: survcomp_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/survcomp_1.12.0.tar.gz
+    - 50e44a0771e01c1d0d193a078dac2f14
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-prodlim
+    - r-ipred
+    - r-suppdists
+    - r-survivalroc
+    - r-bootstrap
+    - r-rmeta
+  run:
+    - r
+    - r-prodlim
+    - r-ipred
+    - r-suppdists
+    - r-survivalroc
+    - r-bootstrap
+    - r-rmeta
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

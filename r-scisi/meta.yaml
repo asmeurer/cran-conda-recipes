@@ -1,0 +1,34 @@
+package:
+  name: r-scisi
+  version: 1.34.0
+
+source:
+  fn: ScISI_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ScISI_1.34.0.tar.gz
+    - 750f36c134b01935e1de28066f527f6e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-go.db
+    - r-rpsixml
+    - r-annotate
+    - r-apcomplex
+    - r-annotationdbi
+    - r-org.sc.sgd.db
+  run:
+    - r
+    - r-go.db
+    - r-rpsixml
+    - r-annotate
+    - r-apcomplex
+    - r-annotationdbi
+    - r-org.sc.sgd.db
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

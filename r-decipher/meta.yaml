@@ -1,0 +1,30 @@
+package:
+  name: r-decipher
+  version: 1.8.0
+
+source:
+  fn: DECIPHER_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DECIPHER_1.8.0.tar.gz
+    - 604b267ba1e6bf824494c835c5a5dee0
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biostrings
+    - r-rsqlite
+    - r-iranges
+    - r-xvector
+  run:
+    - r
+    - r-biostrings
+    - r-rsqlite
+    - r-iranges
+    - r-xvector
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

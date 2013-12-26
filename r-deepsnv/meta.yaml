@@ -1,0 +1,34 @@
+package:
+  name: r-deepsnv
+  version: 1.8.0
+
+source:
+  fn: deepSNV_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/deepSNV_1.8.0.tar.gz
+    - f515c296225a228321b37d1ec7b507e4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-biostrings
+    - r-vgam
+    - r-variantannotation
+  run:
+    - r
+    - r-rsamtools
+    - r-genomicranges
+    - r-iranges
+    - r-biostrings
+    - r-vgam
+    - r-variantannotation
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

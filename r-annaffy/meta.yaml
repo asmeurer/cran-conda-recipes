@@ -1,0 +1,30 @@
+package:
+  name: r-annaffy
+  version: 1.34.0
+
+source:
+  fn: annaffy_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/annaffy_1.34.0.tar.gz
+    - 886859ce049d7b17b5c728b8016e8f20
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-go.db
+    - r-kegg.db
+    - r-annotationdbi
+  run:
+    - r
+    - r-biobase
+    - r-go.db
+    - r-kegg.db
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

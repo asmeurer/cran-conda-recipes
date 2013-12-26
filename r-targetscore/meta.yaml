@@ -1,0 +1,24 @@
+package:
+  name: r-targetscore
+  version: 1.0.0
+
+source:
+  fn: TargetScore_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TargetScore_1.0.0.tar.gz
+    - f20670e159b86c74400d3b16ad7179a1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-pracma
+  run:
+    - r
+    - r-pracma
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,24 @@
+package:
+  name: r-spotsegmentation
+  version: 1.36.0
+
+source:
+  fn: spotSegmentation_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spotSegmentation_1.36.0.tar.gz
+    - 2b2b7bbcf5a4203364dff3223af60b4c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-mclust
+  run:
+    - r
+    - r-mclust
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

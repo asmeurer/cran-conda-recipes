@@ -1,0 +1,26 @@
+package:
+  name: r-sseq
+  version: 1.0.0
+
+source:
+  fn: sSeq_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sSeq_1.0.0.tar.gz
+    - 271b2426014b6aaaa250bd342a792bd4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-catools
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-catools
+    - r-rcolorbrewer
+
+about:
+  license: GPL (>= 3)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

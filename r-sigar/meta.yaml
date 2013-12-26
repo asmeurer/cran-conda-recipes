@@ -1,0 +1,40 @@
+package:
+  name: r-sigar
+  version: 1.6.0
+
+source:
+  fn: sigaR_1.6.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sigaR_1.6.0.tar.gz
+    - 149e2fa37fe47c32e044198b47f5b04e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-cghbase
+    - r-mvtnorm
+    - r-penalized
+    - r-corpcor
+    - r-igraph
+    - r-marray
+    - r-quadprog
+    - r-snowfall
+  run:
+    - r
+    - r-biobase
+    - r-cghbase
+    - r-mvtnorm
+    - r-penalized
+    - r-corpcor
+    - r-igraph
+    - r-marray
+    - r-quadprog
+    - r-snowfall
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-gpls
+  version: 1.34.0
+
+source:
+  fn: gpls_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gpls_1.34.0.tar.gz
+    - 15d07026741b6d4ca3b38df69e4b87f5
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

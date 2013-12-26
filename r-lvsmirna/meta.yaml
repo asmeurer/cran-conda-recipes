@@ -1,0 +1,36 @@
+package:
+  name: r-lvsmirna
+  version: 1.12.0
+
+source:
+  fn: LVSmiRNA_1.12.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LVSmiRNA_1.12.0.tar.gz
+    - 7354450293d5b908999eacf12c90aa21
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-quantreg
+    - r-limma
+    - r-affy
+    - r-sparsem
+    - r-vsn
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-quantreg
+    - r-limma
+    - r-affy
+    - r-sparsem
+    - r-vsn
+    - r-biocgenerics
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

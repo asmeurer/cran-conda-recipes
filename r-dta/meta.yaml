@@ -1,0 +1,26 @@
+package:
+  name: r-dta
+  version: 2.8.0
+
+source:
+  fn: DTA_2.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DTA_2.8.0.tar.gz
+    - 9392571037a68225272321ef154b6270
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-lsd
+    - r-scatterplot3d
+  run:
+    - r
+    - r-lsd
+    - r-scatterplot3d
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

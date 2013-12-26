@@ -1,0 +1,42 @@
+package:
+  name: r-affylmgui
+  version: 1.36.0
+
+source:
+  fn: affylmGUI_1.36.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affylmGUI_1.36.0.tar.gz
+    - d025aa403478b32454184d231e2ebf9d
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-limma
+    - r-affy
+    - r-biocinstaller
+    - r-affyio
+    - r-tkrplot
+    - r-affyplm
+    - r-r2html
+    - r-xtable
+    - r-gcrma
+    - r-annotationdbi
+  run:
+    - r
+    - r-limma
+    - r-affy
+    - r-biocinstaller
+    - r-affyio
+    - r-tkrplot
+    - r-affyplm
+    - r-r2html
+    - r-xtable
+    - r-gcrma
+    - r-annotationdbi
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

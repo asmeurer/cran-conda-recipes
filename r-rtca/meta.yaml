@@ -1,0 +1,28 @@
+package:
+  name: r-rtca
+  version: 1.14.0
+
+source:
+  fn: RTCA_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RTCA_1.14.0.tar.gz
+    - acc0b47da9aec3e524f872456c96ede8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-gtools
+  run:
+    - r
+    - r-biobase
+    - r-rcolorbrewer
+    - r-gtools
+
+about:
+  license: LGPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

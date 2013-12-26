@@ -1,0 +1,26 @@
+package:
+  name: r-ebseq
+  version: 1.2.0
+
+source:
+  fn: EBSeq_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBSeq_1.2.0.tar.gz
+    - 29f6b05fd6267f98d28b7e0615d854b8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-blockmodeling
+    - r-gplots
+  run:
+    - r
+    - r-blockmodeling
+    - r-gplots
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

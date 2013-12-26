@@ -1,0 +1,24 @@
+package:
+  name: r-ecolitk
+  version: 1.34.0
+
+source:
+  fn: ecolitk_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ecolitk_1.34.0.tar.gz
+    - 02352023de4aea12a1bef3b5e650f214
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

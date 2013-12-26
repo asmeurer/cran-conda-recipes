@@ -1,0 +1,24 @@
+package:
+  name: r-bayespeak
+  version: 1.14.0
+
+source:
+  fn: BayesPeak_1.14.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BayesPeak_1.14.0.tar.gz
+    - dff4f1be832052b7dd16338ba117b662
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-iranges
+  run:
+    - r
+    - r-iranges
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,28 @@
+package:
+  name: r-mirage
+  version: 1.4.0
+
+source:
+  fn: MiRaGE_1.4.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MiRaGE_1.4.0.tar.gz
+    - b39cbce34fb21e950f758c95d63d707c
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-biocgenerics
+  run:
+    - r
+    - r-biobase
+    - r-annotationdbi
+    - r-biocgenerics
+
+about:
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,34 @@
+package:
+  name: r-flowmap
+  version: 1.0.0
+
+source:
+  fn: flowMap_1.0.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowMap_1.0.0.tar.gz
+    - 682cbfafe3862cfc0fe9b76a2e918cee
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-ade4
+    - r-doparallel
+    - r-abind
+    - r-reshape2
+    - r-ggplot2
+    - r-scales
+  run:
+    - r
+    - r-ade4
+    - r-doparallel
+    - r-abind
+    - r-reshape2
+    - r-ggplot2
+    - r-scales
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

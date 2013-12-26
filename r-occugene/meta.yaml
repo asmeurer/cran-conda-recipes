@@ -1,0 +1,22 @@
+package:
+  name: r-occugene
+  version: 1.22.0
+
+source:
+  fn: occugene_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/occugene_1.22.0.tar.gz
+    - fd47620071bc626e42fb8308b878b169
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

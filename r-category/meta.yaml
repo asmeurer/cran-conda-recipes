@@ -1,0 +1,40 @@
+package:
+  name: r-category
+  version: 2.28.0
+
+source:
+  fn: Category_2.28.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Category_2.28.0.tar.gz
+    - df3a4c6b3719932e0cbff905c4f3a8fc
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biocgenerics
+    - r-annotationdbi
+    - r-biobase
+    - r-go.db
+    - r-graph
+    - r-rbgl
+    - r-gseabase
+    - r-genefilter
+    - r-annotate
+  run:
+    - r
+    - r-biocgenerics
+    - r-annotationdbi
+    - r-biobase
+    - r-go.db
+    - r-graph
+    - r-rbgl
+    - r-gseabase
+    - r-genefilter
+    - r-annotate
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

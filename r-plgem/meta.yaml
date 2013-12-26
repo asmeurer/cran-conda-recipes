@@ -1,0 +1,24 @@
+package:
+  name: r-plgem
+  version: 1.34.0
+
+source:
+  fn: plgem_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plgem_1.34.0.tar.gz
+    - ac9c1a2c66835bc8df5d70a058448bf1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+  run:
+    - r
+    - r-biobase
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

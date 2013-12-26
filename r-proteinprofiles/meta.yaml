@@ -1,0 +1,22 @@
+package:
+  name: r-proteinprofiles
+  version: 1.2.0
+
+source:
+  fn: proteinProfiles_1.2.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/proteinProfiles_1.2.0.tar.gz
+    - 21feb23b6b69a78420b57a9d2103f79e
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

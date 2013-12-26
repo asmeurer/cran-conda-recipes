@@ -1,0 +1,24 @@
+package:
+  name: r-genomegraphs
+  version: 1.22.0
+
+source:
+  fn: GenomeGraphs_1.22.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GenomeGraphs_1.22.0.tar.gz
+    - 2af96c5bff1723ec1608b1bbf1589489
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biomart
+  run:
+    - r
+    - r-biomart
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

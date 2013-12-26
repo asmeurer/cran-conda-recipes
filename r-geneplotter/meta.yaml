@@ -1,0 +1,32 @@
+package:
+  name: r-geneplotter
+  version: 1.40.0
+
+source:
+  fn: geneplotter_1.40.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/geneplotter_1.40.0.tar.gz
+    - 6c8bead575f194a4331303b6d3a21bf4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-annotate
+    - r-annotationdbi
+    - r-rcolorbrewer
+  run:
+    - r
+    - r-biobase
+    - r-biocgenerics
+    - r-annotate
+    - r-annotationdbi
+    - r-rcolorbrewer
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

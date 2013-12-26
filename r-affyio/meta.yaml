@@ -1,0 +1,24 @@
+package:
+  name: r-affyio
+  version: 1.30.0
+
+source:
+  fn: affyio_1.30.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyio_1.30.0.tar.gz
+    - 5a26b715296921b05ab788e6af2a3e09
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-zlibbioc
+  run:
+    - r
+    - r-zlibbioc
+
+about:
+  license: LGPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

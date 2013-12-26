@@ -1,0 +1,30 @@
+package:
+  name: r-biocgraph
+  version: 1.24.0
+
+source:
+  fn: biocGraph_1.24.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biocGraph_1.24.0.tar.gz
+    - 73a6e1db237a32256d4c1504c3f943e4
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-rgraphviz
+    - r-graph
+    - r-geneplotter
+    - r-biocgenerics
+  run:
+    - r
+    - r-rgraphviz
+    - r-graph
+    - r-geneplotter
+    - r-biocgenerics
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

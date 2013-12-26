@@ -1,0 +1,22 @@
+package:
+  name: r-measurementerror.cor
+  version: 1.34.0
+
+source:
+  fn: MeasurementError.cor_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MeasurementError.cor_1.34.0.tar.gz
+    - bcf5b802bb68b61e9671a930d9743a60
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: LGPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

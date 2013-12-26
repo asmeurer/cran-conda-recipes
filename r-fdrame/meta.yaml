@@ -1,0 +1,22 @@
+package:
+  name: r-fdrame
+  version: 1.34.0
+
+source:
+  fn: fdrame_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/fdrame_1.34.0.tar.gz
+    - 02a8161d9bc8d178226e594063cd85a8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+  run:
+    - r
+
+about:
+  license: GPL (>= 2)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

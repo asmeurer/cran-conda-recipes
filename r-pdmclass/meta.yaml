@@ -1,0 +1,28 @@
+package:
+  name: r-pdmclass
+  version: 1.34.0
+
+source:
+  fn: pdmclass_1.34.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pdmclass_1.34.0.tar.gz
+    - 521ce38107222a2ca93ffb50306f5922
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-biobase
+    - r-fibroeset
+    - r-mda
+  run:
+    - r
+    - r-biobase
+    - r-fibroeset
+    - r-mda
+
+about:
+  license: Artistic-2.0
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,38 @@
+package:
+  name: r-r3cseq
+  version: 1.8.0
+
+source:
+  fn: r3Cseq_1.8.0.tar.gz
+  url: http://www.bioconductor.org/packages/release/bioc/src/contrib/r3Cseq_1.8.0.tar.gz
+    - fa5f5372e5e8271668e8517d39291993
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-genomicranges
+    - r-rsamtools
+    - r-data.table
+    - r-rtracklayer
+    - r-vgam
+    - r-qvalue
+    - r-rcolorbrewer
+    - r-sqldf
+  run:
+    - r
+    - r-genomicranges
+    - r-rsamtools
+    - r-data.table
+    - r-rtracklayer
+    - r-vgam
+    - r-qvalue
+    - r-rcolorbrewer
+    - r-sqldf
+
+about:
+  license: GPL-3
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
