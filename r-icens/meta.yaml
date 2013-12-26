@@ -15,8 +15,10 @@ build:
 requirements:
   build:
     - r
+    - r-survival
   run:
     - r
+    - r-survival
 
 about:
   home: http://www.bioconductor.org/packages/release/bioc/html/Icens.html
