@@ -15,15 +15,11 @@ requirements:
     - r-leaps
     - r-ltsa
     - r-bestglm
-    - r-leaps
-    - r-ltsa
   run:
     - r
     - r-leaps
     - r-ltsa
     - r-bestglm
-    - r-leaps
-    - r-ltsa
 
 about:
   license: GPL (>= 2)

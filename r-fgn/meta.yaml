@@ -7,19 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/FGN_2.0-11.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
     - r-ltsa
     - r-akima
-    - r-ltsa
   run:
     - r
     - r-ltsa
     - r-akima
-    - r-ltsa
 
 about:
   license: CC BY-NC-SA 3.0

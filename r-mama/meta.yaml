@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/MAMA_2.2.1.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -19,8 +19,6 @@ requirements:
     - r-gtools
     - r-genemeta
     - r-mergemaid
-    - r-genemeta
-    - r-xtable
     - r-metaarray
   run:
     - r
@@ -31,8 +29,6 @@ requirements:
     - r-gtools
     - r-genemeta
     - r-mergemaid
-    - r-genemeta
-    - r-xtable
     - r-metaarray
 
 about:

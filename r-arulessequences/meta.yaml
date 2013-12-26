@@ -7,16 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/arulesSequences_0.2-4.tar.gz
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
     - r
     - r-arules
-    - r-arules
   run:
     - r
-    - r-arules
     - r-arules
 
 about:

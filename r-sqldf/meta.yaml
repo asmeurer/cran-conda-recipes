@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/sqldf_0.4-6.4.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -18,16 +18,12 @@ requirements:
     - r-chron
     - r-rsqlite
     - r-rsqlite.extfuns
-    - r-rsqlite
-    - r-rsqlite.extfuns
   run:
     - r
     - r-dbi
     - r-gsubfn
     - r-proto
     - r-chron
-    - r-rsqlite
-    - r-rsqlite.extfuns
     - r-rsqlite
     - r-rsqlite.extfuns
 

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/fbati_0.7-3.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
@@ -15,13 +15,11 @@ requirements:
     - r-pbatr
     - r-fgui
     - r-rootsolve
-    - r-fgui
   run:
     - r
     - r-pbatr
     - r-fgui
     - r-rootsolve
-    - r-fgui
 
 about:
   license: GPL

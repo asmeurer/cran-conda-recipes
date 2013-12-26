@@ -13,10 +13,8 @@ requirements:
   build:
     - r
     - r-betareg
-    - r-betareg
   run:
     - r
-    - r-betareg
     - r-betareg
 
 about:

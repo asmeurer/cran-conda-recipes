@@ -17,18 +17,8 @@ requirements:
     - r-tgp
     - r-peperr
     - r-penalizedsvm
-    - r-glmnet
-    - r-mlegp
-    - r-tgp
-    - r-peperr
-    - r-penalizedsvm
   run:
     - r
-    - r-glmnet
-    - r-mlegp
-    - r-tgp
-    - r-peperr
-    - r-penalizedsvm
     - r-glmnet
     - r-mlegp
     - r-tgp

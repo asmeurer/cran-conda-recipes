@@ -7,16 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/xlsxjars_0.5.0.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - r
     - r-rjava
-    - r-rjava
   run:
     - r
-    - r-rjava
     - r-rjava
 
 about:

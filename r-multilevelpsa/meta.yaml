@@ -18,7 +18,6 @@ requirements:
     - r-reshape
     - r-proto
     - r-xtable
-    - r-xtable
   run:
     - r
     - r-ggplot2
@@ -26,7 +25,6 @@ requirements:
     - r-psych
     - r-reshape
     - r-proto
-    - r-xtable
     - r-xtable
 
 about:

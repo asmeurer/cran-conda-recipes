@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/riskRegression_0.0.8.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -15,14 +15,12 @@ requirements:
     - r-prodlim
     - r-rms
     - r-pec
-    - r-rms
     - r-cmprsk
   run:
     - r
     - r-prodlim
     - r-rms
     - r-pec
-    - r-rms
     - r-cmprsk
 
 about:

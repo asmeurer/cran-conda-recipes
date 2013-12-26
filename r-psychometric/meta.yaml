@@ -13,10 +13,8 @@ requirements:
   build:
     - r
     - r-multilevel
-    - r-multilevel
   run:
     - r
-    - r-multilevel
     - r-multilevel
 
 about:

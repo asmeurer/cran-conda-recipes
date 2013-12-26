@@ -7,18 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/intReg_0.1-2.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
     - r-maxlik
     - r-sets
-    - r-sets
   run:
     - r
     - r-maxlik
-    - r-sets
     - r-sets
 
 about:

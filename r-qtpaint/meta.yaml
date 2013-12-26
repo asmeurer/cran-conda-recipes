@@ -7,16 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/qtpaint_0.9.0.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
     - r-qtbase
-    - r-qtbase
   run:
     - r
-    - r-qtbase
     - r-qtbase
 
 about:

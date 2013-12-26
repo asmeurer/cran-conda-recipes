@@ -7,19 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/Rjms_0.0.5.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
     - r-rjava
     - r-rjmsjars
-    - r-rjava
-    - r-rjmsjars
   run:
     - r
-    - r-rjava
-    - r-rjmsjars
     - r-rjava
     - r-rjmsjars
 

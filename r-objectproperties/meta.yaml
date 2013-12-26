@@ -7,16 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/objectProperties_0.6.5.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
     - r-objectsignals
-    - r-objectsignals
   run:
     - r
-    - r-objectsignals
     - r-objectsignals
 
 about:
