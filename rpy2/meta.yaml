@@ -6,14 +6,27 @@ source:
   fn: rpy2-2.3.8.tar.gz
   url: https://pypi.python.org/packages/source/r/rpy2/rpy2-2.3.8.tar.gz
 
+build:
+  number: 1
+
 requirements:
   build:
     - r
     - python
+    - chrpath
 
   run:
     - r
     - python
+
+test:
+  imports:
+    - rpy2
+    - rpy2.interactive
+    - rpy2.rinterface
+    - rpy2.rlike
+    - rpy2.robjects
+    - rpy2.robjects.lib
 
 about:
   home: http://rpy.sourceforge.net/index.html
