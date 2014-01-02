@@ -13,8 +13,10 @@ build:
 requirements:
   build:
     - r
+    - r-annotationdbi
   run:
     - r
+    - r-annotationdbi
 
 about:
   license: LGPL
