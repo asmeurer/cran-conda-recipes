@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - fftw
   run:
     - r
+    - fftw
 
 about:
   license: GPL-2
