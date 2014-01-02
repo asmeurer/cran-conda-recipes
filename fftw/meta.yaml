@@ -1,0 +1,18 @@
+package:
+  name: fftw
+  version: 3.3.3
+
+source:
+  fn: fftw-3.3.3.tar.gz
+  url: http://www.fftw.org/fftw-3.3.3.tar.gz
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - chrpath
+
+about:
+  home: http://www.fftw.org/
+  license: GPL
