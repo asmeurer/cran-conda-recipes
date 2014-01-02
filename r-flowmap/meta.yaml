@@ -5,10 +5,10 @@ package:
 source:
   fn: flowMap_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowMap_1.0.0.tar.gz
-    - 682cbfafe3862cfc0fe9b76a2e918cee
+  md5: 682cbfafe3862cfc0fe9b76a2e918cee
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

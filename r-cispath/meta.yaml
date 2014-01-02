@@ -5,10 +5,10 @@ package:
 source:
   fn: cisPath_1.2.6.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cisPath_1.2.6.tar.gz
-    - 377f7d14b7dfd0cefeed49e42e8c7d1e
+  md5: 377f7d14b7dfd0cefeed49e42e8c7d1e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

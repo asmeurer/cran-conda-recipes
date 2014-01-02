@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.cangene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.cangene.1.0.st_3.8.0.tar.gz
-    - 9f9bf8398156c6defcbce20155f50d33
+  md5: 9f9bf8398156c6defcbce20155f50d33
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.poplar_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.poplar_1.10.0.tar.gz
-    - 44996e5b624d354c93b86a8a50f94c20
+  md5: 44996e5b624d354c93b86a8a50f94c20
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

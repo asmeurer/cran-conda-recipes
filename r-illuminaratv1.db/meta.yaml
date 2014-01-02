@@ -5,10 +5,10 @@ package:
 source:
   fn: illuminaRatv1.db_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/illuminaRatv1.db_1.20.0.tar.gz
-    - f14b26c3c9dcd52baaef6a196141cbb5
+  md5: f14b26c3c9dcd52baaef6a196141cbb5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

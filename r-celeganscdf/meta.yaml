@@ -5,10 +5,10 @@ package:
 source:
   fn: celeganscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/celeganscdf_2.13.0.tar.gz
-    - a2b6eae0342e5b514ca3587ede233c38
+  md5: a2b6eae0342e5b514ca3587ede233c38
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

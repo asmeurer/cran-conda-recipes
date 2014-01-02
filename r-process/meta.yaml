@@ -5,10 +5,10 @@ package:
 source:
   fn: PROcess_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PROcess_1.38.0.tar.gz
-    - e8a8b55e3f82b09c299d24500250f56c
+  md5: e8a8b55e3f82b09c299d24500250f56c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

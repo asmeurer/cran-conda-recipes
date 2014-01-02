@@ -5,10 +5,10 @@ package:
 source:
   fn: dks_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/dks_1.8.0.tar.gz
-    - 52273ac0c0dc53524fd846db7ac70ad0
+  md5: 52273ac0c0dc53524fd846db7ac70ad0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

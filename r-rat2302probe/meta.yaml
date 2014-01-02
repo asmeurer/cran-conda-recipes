@@ -5,10 +5,10 @@ package:
 source:
   fn: rat2302probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rat2302probe_2.13.0.tar.gz
-    - fe447e8c01d0e51899f5ae0e08eda923
+  md5: fe447e8c01d0e51899f5ae0e08eda923
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

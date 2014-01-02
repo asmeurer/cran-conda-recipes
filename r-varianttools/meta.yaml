@@ -5,10 +5,10 @@ package:
 source:
   fn: VariantTools_1.4.5.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VariantTools_1.4.5.tar.gz
-    - 92564f19c586ba034e8be7b3e7f971eb
+  md5: 92564f19c586ba034e8be7b3e7f971eb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

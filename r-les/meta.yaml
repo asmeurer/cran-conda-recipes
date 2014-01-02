@@ -5,10 +5,10 @@ package:
 source:
   fn: les_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/les_1.12.0.tar.gz
-    - 716d6e20377fadd4af9c1ab50a944b5b
+  md5: 716d6e20377fadd4af9c1ab50a944b5b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

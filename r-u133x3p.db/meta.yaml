@@ -5,10 +5,10 @@ package:
 source:
   fn: u133x3p.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/u133x3p.db_2.10.1.tar.gz
-    - 9491cbfb49e501af489d063357831ea3
+  md5: 9491cbfb49e501af489d063357831ea3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

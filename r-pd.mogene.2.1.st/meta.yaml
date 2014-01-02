@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mogene.2.1.st_2.12.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mogene.2.1.st_2.12.1.tar.gz
-    - fb182a140c6475f24f9c2b6a00b7d96f
+  md5: fb182a140c6475f24f9c2b6a00b7d96f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

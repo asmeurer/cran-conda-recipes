@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Alyrata.JGI.v1_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Alyrata.JGI.v1_1.0.0.tar.gz
-    - 2119e78ebb1957fd55ab186b167e0995
+  md5: 2119e78ebb1957fd55ab186b167e0995
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

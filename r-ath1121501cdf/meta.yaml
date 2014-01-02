@@ -5,10 +5,10 @@ package:
 source:
   fn: ath1121501cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ath1121501cdf_2.13.0.tar.gz
-    - bd3871ffab053d93259ca0b502a0e6b6
+  md5: bd3871ffab053d93259ca0b502a0e6b6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: sugarcaneprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/sugarcaneprobe_2.13.0.tar.gz
-    - e7bc06d3a349b9e6d2887270d114c00b
+  md5: e7bc06d3a349b9e6d2887270d114c00b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

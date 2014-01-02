@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.soygene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.soygene.1.1.st_3.8.0.tar.gz
-    - c26c33bcbad514baa3a856db735b26f6
+  md5: c26c33bcbad514baa3a856db735b26f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

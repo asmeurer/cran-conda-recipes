@@ -5,10 +5,10 @@ package:
 source:
   fn: ddgraph_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ddgraph_1.6.0.tar.gz
-    - 95f2464d716d3242ae3f5d52b87deb84
+  md5: 95f2464d716d3242ae3f5d52b87deb84
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

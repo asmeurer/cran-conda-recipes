@@ -5,10 +5,10 @@ package:
 source:
   fn: gmapR_1.4.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gmapR_1.4.2.tar.gz
-    - 1f314845b5292b35d27dda4c81029f14
+  md5: 1f314845b5292b35d27dda4c81029f14
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: lumiHumanIDMapping_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/lumiHumanIDMapping_1.10.0.tar.gz
-    - e8d781acfd5d8732861b3ecba9e4edcf
+  md5: e8d781acfd5d8732861b3ecba9e4edcf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

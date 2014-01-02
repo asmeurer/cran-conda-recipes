@@ -5,10 +5,10 @@ package:
 source:
   fn: TargetSearch_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TargetSearch_1.18.0.tar.gz
-    - 9e6141f6a291f312e866932df128670c
+  md5: 9e6141f6a291f312e866932df128670c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

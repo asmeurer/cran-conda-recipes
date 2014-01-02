@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.feinberg.hg18.me.hx1_0.99.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.feinberg.hg18.me.hx1_0.99.2.tar.gz
-    - 18bc87b47ff18b1619eb52c295ff2895
+  md5: 18bc87b47ff18b1619eb52c295ff2895
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

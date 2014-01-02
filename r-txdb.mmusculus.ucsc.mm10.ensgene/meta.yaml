@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Mmusculus.UCSC.mm10.ensGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm10.ensGene_2.10.1.tar.gz
-    - 758998afbf6ae50bc97055d7ca809f29
+  md5: 758998afbf6ae50bc97055d7ca809f29
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

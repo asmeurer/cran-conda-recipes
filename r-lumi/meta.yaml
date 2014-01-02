@@ -5,10 +5,10 @@ package:
 source:
   fn: lumi_2.14.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/lumi_2.14.1.tar.gz
-    - 3234691e9102c40ad70d2f2e603543dc
+  md5: 3234691e9102c40ad70d2f2e603543dc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

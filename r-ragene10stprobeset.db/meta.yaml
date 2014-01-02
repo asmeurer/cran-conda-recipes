@@ -5,10 +5,10 @@ package:
 source:
   fn: ragene10stprobeset.db_7.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene10stprobeset.db_7.0.1.tar.gz
-    - a416bf1d71b21ffcbe57474886e093d6
+  md5: a416bf1d71b21ffcbe57474886e093d6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

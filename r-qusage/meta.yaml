@@ -5,10 +5,10 @@ package:
 source:
   fn: qusage_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qusage_1.2.0.tar.gz
-    - 87a2e1a0a834b899cc71ada4587aac93
+  md5: 87a2e1a0a834b899cc71ada4587aac93
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

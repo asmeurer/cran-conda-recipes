@@ -5,10 +5,10 @@ package:
 source:
   fn: RDRToolbox_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RDRToolbox_1.12.0.tar.gz
-    - 8e12c8dffdb864d7750b10345b2ff3a1
+  md5: 8e12c8dffdb864d7750b10345b2ff3a1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

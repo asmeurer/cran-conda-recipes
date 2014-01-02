@@ -5,10 +5,10 @@ package:
 source:
   fn: EBcoexpress_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBcoexpress_1.6.0.tar.gz
-    - 2ffd3899d9eb837971c49e70766686d1
+  md5: 2ffd3899d9eb837971c49e70766686d1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

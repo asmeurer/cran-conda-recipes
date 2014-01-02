@@ -5,10 +5,10 @@ package:
 source:
   fn: hthgu133bprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hthgu133bprobe_2.13.0.tar.gz
-    - 4cc5e329bd9a3768175b7144ad2cc8ac
+  md5: 4cc5e329bd9a3768175b7144ad2cc8ac
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

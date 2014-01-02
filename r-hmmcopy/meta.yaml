@@ -5,10 +5,10 @@ package:
 source:
   fn: HMMcopy_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HMMcopy_1.4.0.tar.gz
-    - 4e90a70ef51040c113a50205236e8f39
+  md5: 4e90a70ef51040c113a50205236e8f39
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

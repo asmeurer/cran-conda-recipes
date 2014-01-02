@@ -5,10 +5,10 @@ package:
 source:
   fn: CGHnormaliter_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGHnormaliter_1.16.0.tar.gz
-    - c9fe41c5d791c757b74fd378b7c28d88
+  md5: c9fe41c5d791c757b74fd378b7c28d88
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

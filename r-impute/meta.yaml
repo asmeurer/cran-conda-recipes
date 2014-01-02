@@ -5,10 +5,10 @@ package:
 source:
   fn: impute_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/impute_1.36.0.tar.gz
-    - 1774a8507fe6ad7cbba0346c0c7dae30
+  md5: 1774a8507fe6ad7cbba0346c0c7dae30
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: PFAM.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/PFAM.db_2.10.1.tar.gz
-    - 08e0a8c5ea494f9567e8f6ec163280b3
+  md5: 08e0a8c5ea494f9567e8f6ec163280b3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

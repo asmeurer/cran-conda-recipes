@@ -5,10 +5,10 @@ package:
 source:
   fn: plateCore_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plateCore_1.20.0.tar.gz
-    - 4919c5b37b5c1ed395860c7a483c3ef3
+  md5: 4919c5b37b5c1ed395860c7a483c3ef3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

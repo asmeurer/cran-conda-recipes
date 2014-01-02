@@ -5,10 +5,10 @@ package:
 source:
   fn: idiogram_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/idiogram_1.38.0.tar.gz
-    - 37f7215dd9a514fab1257e74bd85182e
+  md5: 37f7215dd9a514fab1257e74bd85182e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

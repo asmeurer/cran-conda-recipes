@@ -5,10 +5,10 @@ package:
 source:
   fn: GGBase_3.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GGBase_3.24.0.tar.gz
-    - 85adceb9bc1212143f96b28fa71001dd
+  md5: 85adceb9bc1212143f96b28fa71001dd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

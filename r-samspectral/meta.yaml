@@ -5,10 +5,10 @@ package:
 source:
   fn: SamSPECTRAL_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SamSPECTRAL_1.16.0.tar.gz
-    - c59e1205b95b529eff91aaf9991c5be7
+  md5: c59e1205b95b529eff91aaf9991c5be7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.plasmodium.anopheles_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.plasmodium.anopheles_1.10.0.tar.gz
-    - 6172346faeb8f8ee7b1ac09fddc7a22e
+  md5: 6172346faeb8f8ee7b1ac09fddc7a22e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

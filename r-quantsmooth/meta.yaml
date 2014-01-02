@@ -5,10 +5,10 @@ package:
 source:
   fn: quantsmooth_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/quantsmooth_1.28.0.tar.gz
-    - 2d43e9bba962464de01959d4dbedbae0
+  md5: 2d43e9bba962464de01959d4dbedbae0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

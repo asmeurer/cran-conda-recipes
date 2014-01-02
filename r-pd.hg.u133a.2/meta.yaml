@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hg.u133a.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hg.u133a.2_1.10.0.tar.gz
-    - e402873e186b0b0065c528380379d424
+  md5: e402873e186b0b0065c528380379d424
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

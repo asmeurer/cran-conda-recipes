@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu219probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu219probe_2.13.0.tar.gz
-    - 8ab870655ac2f3f0cec5766ec61f3abf
+  md5: 8ab870655ac2f3f0cec5766ec61f3abf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

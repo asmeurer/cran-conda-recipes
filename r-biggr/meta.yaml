@@ -5,10 +5,10 @@ package:
 source:
   fn: BiGGR_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiGGR_1.0.0.tar.gz
-    - 4fc3c900f11858b58d4fef0cc753c917
+  md5: 4fc3c900f11858b58d4fef0cc753c917
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

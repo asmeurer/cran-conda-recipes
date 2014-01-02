@@ -5,10 +5,10 @@ package:
 source:
   fn: HELP_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HELP_1.20.0.tar.gz
-    - c1e99ce8047480558b7136f5f1d6d179
+  md5: c1e99ce8047480558b7136f5f1d6d179
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

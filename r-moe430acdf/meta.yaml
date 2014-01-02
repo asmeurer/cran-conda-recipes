@@ -5,10 +5,10 @@ package:
 source:
   fn: moe430acdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/moe430acdf_2.13.0.tar.gz
-    - 21daf6587f260eb6f611d7e26fa95798
+  md5: 21daf6587f260eb6f611d7e26fa95798
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

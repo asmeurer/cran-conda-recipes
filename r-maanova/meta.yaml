@@ -5,10 +5,10 @@ package:
 source:
   fn: maanova_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/maanova_1.32.0.tar.gz
-    - 89af6091eecfcf7843c09d92897a122f
+  md5: 89af6091eecfcf7843c09d92897a122f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

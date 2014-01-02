@@ -5,10 +5,10 @@ package:
 source:
   fn: clippda_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clippda_1.12.0.tar.gz
-    - 2bc9528bb89635450cbf894306cfe32b
+  md5: 2bc9528bb89635450cbf894306cfe32b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

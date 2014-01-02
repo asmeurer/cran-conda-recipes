@@ -5,10 +5,10 @@ package:
 source:
   fn: spikeLI_2.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spikeLI_2.22.0.tar.gz
-    - 1531d8d2549d8952b6e8dc95268ad86b
+  md5: 1531d8d2549d8952b6e8dc95268ad86b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

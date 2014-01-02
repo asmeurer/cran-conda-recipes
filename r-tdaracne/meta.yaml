@@ -5,10 +5,10 @@ package:
 source:
   fn: TDARACNE_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TDARACNE_1.12.0.tar.gz
-    - 748cfaa520fddfb63cf1e3efe5208f3d
+  md5: 748cfaa520fddfb63cf1e3efe5208f3d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

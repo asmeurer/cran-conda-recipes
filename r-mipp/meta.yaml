@@ -5,10 +5,10 @@ package:
 source:
   fn: MiPP_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MiPP_1.34.0.tar.gz
-    - be8470fdb180ab0e6464bd204cd07111
+  md5: be8470fdb180ab0e6464bd204cd07111
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

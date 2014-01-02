@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu133atagprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133atagprobe_2.13.0.tar.gz
-    - 297722fef767046320f9f11bce245c22
+  md5: 297722fef767046320f9f11bce245c22
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

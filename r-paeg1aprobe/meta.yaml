@@ -5,10 +5,10 @@ package:
 source:
   fn: paeg1aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/paeg1aprobe_2.13.0.tar.gz
-    - 47c18e8df4da251b4c7d5d56722d4ba3
+  md5: 47c18e8df4da251b4c7d5d56722d4ba3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

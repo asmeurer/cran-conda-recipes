@@ -5,10 +5,10 @@ package:
 source:
   fn: hgug4100a.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgug4100a.db_2.10.1.tar.gz
-    - 7be9310c495e5bec7c965c185a222440
+  md5: 7be9310c495e5bec7c965c185a222440
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

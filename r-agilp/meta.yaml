@@ -5,10 +5,10 @@ package:
 source:
   fn: agilp_3.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/agilp_3.4.0.tar.gz
-    - 5f565f7534565ab5601f0f98f25863d0
+  md5: 5f565f7534565ab5601f0f98f25863d0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: iBBiG_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iBBiG_1.6.0.tar.gz
-    - dfd8d97c2916218ece83c45b4c87dcfe
+  md5: dfd8d97c2916218ece83c45b4c87dcfe
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

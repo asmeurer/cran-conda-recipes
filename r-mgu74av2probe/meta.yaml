@@ -5,10 +5,10 @@ package:
 source:
   fn: mgu74av2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgu74av2probe_2.13.0.tar.gz
-    - d72b89c6bfb18ab478e27d41630994a9
+  md5: d72b89c6bfb18ab478e27d41630994a9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

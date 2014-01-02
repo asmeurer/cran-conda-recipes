@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneticsDesign_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneticsDesign_1.30.0.tar.gz
-    - 07c7abc5204fee6ccd78a2c18523b6cb
+  md5: 07c7abc5204fee6ccd78a2c18523b6cb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

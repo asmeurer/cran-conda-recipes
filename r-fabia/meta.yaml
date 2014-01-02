@@ -5,10 +5,10 @@ package:
 source:
   fn: fabia_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/fabia_2.8.0.tar.gz
-    - f9939b8e35f1f6f38660224ffc16536e
+  md5: f9939b8e35f1f6f38660224ffc16536e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

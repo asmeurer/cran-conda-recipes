@@ -5,10 +5,10 @@ package:
 source:
   fn: LPE_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LPE_1.36.0.tar.gz
-    - df6992233c1d8f48fc8b8598845eaa1a
+  md5: df6992233c1d8f48fc8b8598845eaa1a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

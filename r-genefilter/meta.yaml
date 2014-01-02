@@ -5,10 +5,10 @@ package:
 source:
   fn: genefilter_1.44.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genefilter_1.44.0.tar.gz
-    - 9b368a3942b705cc1547c2c36ddc23ee
+  md5: 9b368a3942b705cc1547c2c36ddc23ee
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

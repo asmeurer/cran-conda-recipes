@@ -5,10 +5,10 @@ package:
 source:
   fn: MBCB_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MBCB_1.16.0.tar.gz
-    - 1a7791662622fa5e41e7fe5aa9ed3801
+  md5: 1a7791662622fa5e41e7fe5aa9ed3801
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

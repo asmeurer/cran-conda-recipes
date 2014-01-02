@@ -5,10 +5,10 @@ package:
 source:
   fn: beadarray_2.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/beadarray_2.12.0.tar.gz
-    - ac90632c43b62a917bfff988d81361a4
+  md5: ac90632c43b62a917bfff988d81361a4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: cleaver_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cleaver_1.0.0.tar.gz
-    - 41fb4100ac18d39ad0db45c457386606
+  md5: 41fb4100ac18d39ad0db45c457386606
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

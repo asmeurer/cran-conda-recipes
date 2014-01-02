@@ -5,10 +5,10 @@ package:
 source:
   fn: test1cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/test1cdf_2.13.0.tar.gz
-    - 66a8a450bff7586108eb8c24d70921d8
+  md5: 66a8a450bff7586108eb8c24d70921d8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

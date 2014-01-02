@@ -5,10 +5,10 @@ package:
 source:
   fn: macat_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/macat_1.36.0.tar.gz
-    - 25c1dc0de3fdaef4f7ca5c26ca83b455
+  md5: 25c1dc0de3fdaef4f7ca5c26ca83b455
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

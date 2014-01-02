@@ -5,10 +5,10 @@ package:
 source:
   fn: xlaevis2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xlaevis2cdf_2.13.0.tar.gz
-    - cc930dadb855cfaef77cc2eda3a73031
+  md5: cc930dadb855cfaef77cc2eda3a73031
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

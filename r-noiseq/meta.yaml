@@ -5,10 +5,10 @@ package:
 source:
   fn: NOISeq_2.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NOISeq_2.4.0.tar.gz
-    - d8fdd52f06b5f91a44af067ccece62ba
+  md5: d8fdd52f06b5f91a44af067ccece62ba
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: huex.1.0.st.v2frmavecs_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/huex.1.0.st.v2frmavecs_1.0.0.tar.gz
-    - 237f0b89ef5c159cb7df2f85e8817f31
+  md5: 237f0b89ef5c159cb7df2f85e8817f31
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

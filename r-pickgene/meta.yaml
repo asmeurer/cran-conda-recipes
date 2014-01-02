@@ -5,10 +5,10 @@ package:
 source:
   fn: pickgene_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pickgene_1.34.0.tar.gz
-    - 5d9cdbbbd41f0e7723d700f5d0ba18d6
+  md5: 5d9cdbbbd41f0e7723d700f5d0ba18d6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

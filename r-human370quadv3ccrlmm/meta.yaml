@@ -5,10 +5,10 @@ package:
 source:
   fn: human370quadv3cCrlmm_1.0.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human370quadv3cCrlmm_1.0.3.tar.gz
-    - 33c3ccc3793ed95647418b746a5177f9
+  md5: 33c3ccc3793ed95647418b746a5177f9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

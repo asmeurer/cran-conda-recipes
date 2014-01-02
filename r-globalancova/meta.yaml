@@ -5,10 +5,10 @@ package:
 source:
   fn: GlobalAncova_3.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GlobalAncova_3.30.0.tar.gz
-    - 5151b4f33283ecdf5aa994f8fd98a93e
+  md5: 5151b4f33283ecdf5aa994f8fd98a93e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

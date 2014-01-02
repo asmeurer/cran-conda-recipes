@@ -5,10 +5,10 @@ package:
 source:
   fn: ygs98cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ygs98cdf_2.13.0.tar.gz
-    - b88c0bd59177aa1d1038f6167e9e4b24
+  md5: b88c0bd59177aa1d1038f6167e9e4b24
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: triplex_1.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/triplex_1.2.1.tar.gz
-    - 3ed2fabb5ed26ec4183172bda54fc522
+  md5: 3ed2fabb5ed26ec4183172bda54fc522
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

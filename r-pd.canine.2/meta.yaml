@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.canine.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.canine.2_1.10.0.tar.gz
-    - b80dc88f5ec749bf573c115d0ab09def
+  md5: b80dc88f5ec749bf573c115d0ab09def
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

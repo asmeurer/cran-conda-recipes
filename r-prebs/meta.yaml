@@ -5,10 +5,10 @@ package:
 source:
   fn: prebs_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/prebs_1.2.0.tar.gz
-    - b6813f3ebd5e4d47cdbfe2dbf3c97a60
+  md5: b6813f3ebd5e4d47cdbfe2dbf3c97a60
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: CGHcall_2.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGHcall_2.22.0.tar.gz
-    - 6c9412fc740312bf360d7975bd5d9be8
+  md5: 6c9412fc740312bf360d7975bd5d9be8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

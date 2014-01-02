@@ -5,10 +5,10 @@ package:
 source:
   fn: mBPCR_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mBPCR_1.16.0.tar.gz
-    - 907de5434aee3987489ecfbd82583b85
+  md5: 907de5434aee3987489ecfbd82583b85
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

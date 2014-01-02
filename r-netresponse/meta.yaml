@@ -5,10 +5,10 @@ package:
 source:
   fn: netresponse_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/netresponse_1.14.0.tar.gz
-    - fa26e236769d33af3659c20f30b5cfe3
+  md5: fa26e236769d33af3659c20f30b5cfe3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

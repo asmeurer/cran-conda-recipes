@@ -5,10 +5,10 @@ package:
 source:
   fn: GEOsubmission_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GEOsubmission_1.14.0.tar.gz
-    - 6d465073b490d9fcbb4df8be9ae07b16
+  md5: 6d465073b490d9fcbb4df8be9ae07b16
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

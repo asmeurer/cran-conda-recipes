@@ -5,10 +5,10 @@ package:
 source:
   fn: xenopuslaevisprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xenopuslaevisprobe_2.13.0.tar.gz
-    - f0ef9bc8b3c32d2a241972a088ad1f1d
+  md5: f0ef9bc8b3c32d2a241972a088ad1f1d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

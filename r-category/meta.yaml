@@ -5,10 +5,10 @@ package:
 source:
   fn: Category_2.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Category_2.28.0.tar.gz
-    - df3a4c6b3719932e0cbff905c4f3a8fc
+  md5: df3a4c6b3719932e0cbff905c4f3a8fc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

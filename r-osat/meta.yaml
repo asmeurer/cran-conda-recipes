@@ -5,10 +5,10 @@ package:
 source:
   fn: OSAT_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OSAT_1.10.0.tar.gz
-    - efabbab64fd78218003321dc66ebed76
+  md5: efabbab64fd78218003321dc66ebed76
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

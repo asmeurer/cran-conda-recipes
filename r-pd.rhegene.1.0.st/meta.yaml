@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rhegene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rhegene.1.0.st_3.8.0.tar.gz
-    - a8d71bc1d5858f8df334754bb4131c04
+  md5: a8d71bc1d5858f8df334754bb4131c04
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

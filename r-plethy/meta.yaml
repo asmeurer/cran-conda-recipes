@@ -5,10 +5,10 @@ package:
 source:
   fn: plethy_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plethy_1.0.0.tar.gz
-    - af095fa25e383176286bdd8a6b3c58b0
+  md5: af095fa25e383176286bdd8a6b3c58b0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

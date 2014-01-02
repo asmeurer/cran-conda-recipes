@@ -5,10 +5,10 @@ package:
 source:
   fn: poplarprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/poplarprobe_2.13.0.tar.gz
-    - 9e49de6e92055d725f8487cade3154ba
+  md5: 9e49de6e92055d725f8487cade3154ba
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

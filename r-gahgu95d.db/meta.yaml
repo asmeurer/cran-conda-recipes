@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu95d.db_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95d.db_2.2.0.tar.gz
-    - 254574d0fb2979ddf002231e7ae53677
+  md5: 254574d0fb2979ddf002231e7ae53677
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

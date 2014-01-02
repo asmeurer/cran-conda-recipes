@@ -5,10 +5,10 @@ package:
 source:
   fn: ddCt_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ddCt_1.16.0.tar.gz
-    - b9231666f419936b8e2ffde07b5c0baf
+  md5: b9231666f419936b8e2ffde07b5c0baf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

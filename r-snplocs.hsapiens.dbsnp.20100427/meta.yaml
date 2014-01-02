@@ -5,10 +5,10 @@ package:
 source:
   fn: SNPlocs.Hsapiens.dbSNP.20100427_0.99.6.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP.20100427_0.99.6.tar.gz
-    - 8d9fe0843a7d66ec945861944eb14e93
+  md5: 8d9fe0843a7d66ec945861944eb14e93
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

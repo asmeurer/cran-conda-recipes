@@ -5,10 +5,10 @@ package:
 source:
   fn: human610quadv1bCrlmm_1.0.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human610quadv1bCrlmm_1.0.3.tar.gz
-    - 609cf09410774e084ee6a3286652bb1a
+  md5: 609cf09410774e084ee6a3286652bb1a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

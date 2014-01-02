@@ -5,10 +5,10 @@ package:
 source:
   fn: MLP_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MLP_1.10.0.tar.gz
-    - 6a072fa0ce939b0e5591dbf3247d9cc7
+  md5: 6a072fa0ce939b0e5591dbf3247d9cc7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

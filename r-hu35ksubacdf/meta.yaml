@@ -5,10 +5,10 @@ package:
 source:
   fn: hu35ksubacdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu35ksubacdf_2.13.0.tar.gz
-    - 63d655c1bf3e301cacf5f0e01b038d82
+  md5: 63d655c1bf3e301cacf5f0e01b038d82
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

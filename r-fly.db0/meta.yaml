@@ -5,10 +5,10 @@ package:
 source:
   fn: fly.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/fly.db0_2.10.1.tar.gz
-    - a72779881b6390a6691437c9a5f2037f
+  md5: a72779881b6390a6691437c9a5f2037f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

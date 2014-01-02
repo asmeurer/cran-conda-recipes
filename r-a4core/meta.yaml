@@ -5,10 +5,10 @@ package:
 source:
   fn: a4Core_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4Core_1.10.0.tar.gz
-    - c3f252531bd635542dfd02934d4d2e4e
+  md5: c3f252531bd635542dfd02934d4d2e4e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

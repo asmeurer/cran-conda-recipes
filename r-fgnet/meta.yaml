@@ -5,10 +5,10 @@ package:
 source:
   fn: FGNet_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/FGNet_1.2.0.tar.gz
-    - 5392ab76898786f777a34b5fe2b0b5b2
+  md5: 5392ab76898786f777a34b5fe2b0b5b2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

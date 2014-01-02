@@ -5,10 +5,10 @@ package:
 source:
   fn: snm_1.10.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/snm_1.10.2.tar.gz
-    - afa6ce66e5d8ce91ccdac964c541c086
+  md5: afa6ce66e5d8ce91ccdac964c541c086
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

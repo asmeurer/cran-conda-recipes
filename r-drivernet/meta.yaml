@@ -5,10 +5,10 @@ package:
 source:
   fn: DriverNet_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DriverNet_1.2.0.tar.gz
-    - 67b04d4dd947787b814996baa8fa4b29
+  md5: 67b04d4dd947787b814996baa8fa4b29
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

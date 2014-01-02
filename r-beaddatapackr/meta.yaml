@@ -5,10 +5,10 @@ package:
 source:
   fn: BeadDataPackR_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BeadDataPackR_1.14.0.tar.gz
-    - 5e2f32b87defbaf33c16e20ba0a5122d
+  md5: 5e2f32b87defbaf33c16e20ba0a5122d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

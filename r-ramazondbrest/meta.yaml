@@ -5,10 +5,10 @@ package:
 source:
   fn: RAmazonDBREST_0.1-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RAmazonDBREST_0.1-1.tar.gz
-    - 5dcc055f10d8ba4217de14854e511dcc
+  md5: 5dcc055f10d8ba4217de14854e511dcc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

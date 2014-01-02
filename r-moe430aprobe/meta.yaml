@@ -5,10 +5,10 @@ package:
 source:
   fn: moe430aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/moe430aprobe_2.13.0.tar.gz
-    - 85c5cbf8fd4a9031d49d8e1102e07229
+  md5: 85c5cbf8fd4a9031d49d8e1102e07229
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: chroGPS_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chroGPS_1.6.0.tar.gz
-    - 07c706aa23e81f03406148fac8f13624
+  md5: 07c706aa23e81f03406148fac8f13624
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

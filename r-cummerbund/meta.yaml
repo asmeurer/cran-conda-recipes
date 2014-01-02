@@ -5,10 +5,10 @@ package:
 source:
   fn: cummeRbund_2.4.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cummeRbund_2.4.1.tar.gz
-    - ac4f657b10d5717f67e7c852df9862f9
+  md5: ac4f657b10d5717f67e7c852df9862f9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

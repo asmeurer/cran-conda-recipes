@@ -5,10 +5,10 @@ package:
 source:
   fn: DirichletMultinomial_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DirichletMultinomial_1.4.0.tar.gz
-    - 28ea6486b1b621084994a935741990aa
+  md5: 28ea6486b1b621084994a935741990aa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

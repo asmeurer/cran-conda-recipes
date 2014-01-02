@@ -5,10 +5,10 @@ package:
 source:
   fn: DynDoc_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DynDoc_1.40.0.tar.gz
-    - 2a474f56576857f4cac8d85b8c3c2abd
+  md5: 2a474f56576857f4cac8d85b8c3c2abd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

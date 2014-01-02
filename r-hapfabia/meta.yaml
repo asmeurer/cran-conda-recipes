@@ -5,10 +5,10 @@ package:
 source:
   fn: hapFabia_1.4.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hapFabia_1.4.2.tar.gz
-    - 8a9cdb8e984624340ddd922abd6b1092
+  md5: 8a9cdb8e984624340ddd922abd6b1092
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

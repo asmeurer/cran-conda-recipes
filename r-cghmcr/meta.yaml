@@ -5,10 +5,10 @@ package:
 source:
   fn: cghMCR_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cghMCR_1.20.0.tar.gz
-    - bec51b25c5cc27a3dfca639437ed242e
+  md5: bec51b25c5cc27a3dfca639437ed242e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

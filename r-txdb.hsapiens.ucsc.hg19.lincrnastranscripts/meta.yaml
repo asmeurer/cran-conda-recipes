@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_2.10.1.tar.gz
-    - 7e5d3b690b34d20316f9849cd71add6e
+  md5: 7e5d3b690b34d20316f9849cd71add6e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

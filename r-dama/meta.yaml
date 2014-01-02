@@ -5,10 +5,10 @@ package:
 source:
   fn: daMA_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/daMA_1.34.0.tar.gz
-    - e71aa26e78127b93137eb04937267ae3
+  md5: e71aa26e78127b93137eb04937267ae3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

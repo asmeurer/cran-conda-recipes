@@ -5,10 +5,10 @@ package:
 source:
   fn: IlluminaHumanMethylation450kmanifest_0.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/IlluminaHumanMethylation450kmanifest_0.4.0.tar.gz
-    - 664d1f5a3892974334faa26757269509
+  md5: 664d1f5a3892974334faa26757269509
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

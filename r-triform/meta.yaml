@@ -5,10 +5,10 @@ package:
 source:
   fn: triform_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/triform_1.4.0.tar.gz
-    - 925d7d1853ed33b4c4c3ddaee1adb2e5
+  md5: 925d7d1853ed33b4c4c3ddaee1adb2e5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

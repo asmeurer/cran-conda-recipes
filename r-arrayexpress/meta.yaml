@@ -5,10 +5,10 @@ package:
 source:
   fn: ArrayExpress_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ArrayExpress_1.22.0.tar.gz
-    - 83f79d7213cd14223cdcf34a474f7443
+  md5: 83f79d7213cd14223cdcf34a474f7443
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

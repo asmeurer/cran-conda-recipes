@@ -5,10 +5,10 @@ package:
 source:
   fn: RNAinteract_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RNAinteract_1.10.0.tar.gz
-    - c914b48033f2a1896970253f78fdea0b
+  md5: c914b48033f2a1896970253f78fdea0b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

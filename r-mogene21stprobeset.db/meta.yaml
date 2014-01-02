@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene21stprobeset.db_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene21stprobeset.db_2.13.0.tar.gz
-    - f3cb566b75c0059b8b9d520e0f18d90c
+  md5: f3cb566b75c0059b8b9d520e0f18d90c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

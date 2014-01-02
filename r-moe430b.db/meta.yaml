@@ -5,10 +5,10 @@ package:
 source:
   fn: moe430b.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/moe430b.db_2.10.1.tar.gz
-    - 60cb1c1a6a2795b192b44dec583eec08
+  md5: 60cb1c1a6a2795b192b44dec583eec08
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

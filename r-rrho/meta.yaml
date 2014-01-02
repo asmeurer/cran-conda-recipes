@@ -5,10 +5,10 @@ package:
 source:
   fn: RRHO_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RRHO_1.0.0.tar.gz
-    - 639c74c5de30144460f0b8a15c55fc31
+  md5: 639c74c5de30144460f0b8a15c55fc31
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

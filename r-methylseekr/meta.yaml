@@ -5,10 +5,10 @@ package:
 source:
   fn: MethylSeekR_1.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MethylSeekR_1.2.1.tar.gz
-    - 663c9912bece6c69e3b2d1a5dd7ce0cd
+  md5: 663c9912bece6c69e3b2d1a5dd7ce0cd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

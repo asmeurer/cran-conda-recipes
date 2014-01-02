@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.porgene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.porgene.1.1.st_3.8.0.tar.gz
-    - dbb149725e83b9bfecedea299af80b67
+  md5: dbb149725e83b9bfecedea299af80b67
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

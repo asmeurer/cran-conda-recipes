@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ath1.121501_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ath1.121501_1.10.0.tar.gz
-    - 85f7024ae91f802f8284e2a5e37131de
+  md5: 85f7024ae91f802f8284e2a5e37131de
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

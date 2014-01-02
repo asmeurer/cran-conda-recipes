@@ -5,10 +5,10 @@ package:
 source:
   fn: QUALIFIER_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/QUALIFIER_1.6.0.tar.gz
-    - 489e0b5a4fb4b10f172f85bbe3c75f38
+  md5: 489e0b5a4fb4b10f172f85bbe3c75f38
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

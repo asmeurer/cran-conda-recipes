@@ -5,10 +5,10 @@ package:
 source:
   fn: fastseg_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/fastseg_1.8.0.tar.gz
-    - d4532efc7a013925022ae42ca5b13da1
+  md5: d4532efc7a013925022ae42ca5b13da1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

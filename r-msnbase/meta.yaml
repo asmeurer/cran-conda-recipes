@@ -5,10 +5,10 @@ package:
 source:
   fn: MSnbase_1.10.3.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MSnbase_1.10.3.tar.gz
-    - f1938bd365d42cecdd350d3eb3a76b35
+  md5: f1938bd365d42cecdd350d3eb3a76b35
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

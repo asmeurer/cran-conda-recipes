@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mapping250k.sty_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mapping250k.sty_1.10.0.tar.gz
-    - c821d5ac22c0767e210375e90094afbc
+  md5: c821d5ac22c0767e210375e90094afbc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

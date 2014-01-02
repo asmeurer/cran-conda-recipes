@@ -5,10 +5,10 @@ package:
 source:
   fn: BufferedMatrixMethods_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BufferedMatrixMethods_1.26.0.tar.gz
-    - 7af6cd3667a779dd049db9926c90177c
+  md5: 7af6cd3667a779dd049db9926c90177c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

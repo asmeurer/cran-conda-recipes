@@ -5,10 +5,10 @@ package:
 source:
   fn: a4Reporting_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4Reporting_1.10.0.tar.gz
-    - c07a49c5bf2bc4f5a51a4aa6d6dfaa2e
+  md5: c07a49c5bf2bc4f5a51a4aa6d6dfaa2e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: zebrafishcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/zebrafishcdf_2.13.0.tar.gz
-    - fab81c5be225afe4fd1adba4d901475b
+  md5: fab81c5be225afe4fd1adba4d901475b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

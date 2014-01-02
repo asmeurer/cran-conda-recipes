@@ -5,10 +5,10 @@ package:
 source:
   fn: ecoli2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoli2probe_2.13.0.tar.gz
-    - c85752cda5d751f3c9f1cba17494373c
+  md5: c85752cda5d751f3c9f1cba17494373c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

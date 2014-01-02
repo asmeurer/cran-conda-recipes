@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mapping50k.xba240_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mapping50k.xba240_1.10.0.tar.gz
-    - 068c9d6647f67ffea9c8374f395b2bb6
+  md5: 068c9d6647f67ffea9c8374f395b2bb6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

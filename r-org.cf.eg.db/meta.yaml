@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Cf.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Cf.eg.db_2.10.1.tar.gz
-    - 043c08baa6adc06bdcf617e84e734675
+  md5: 043c08baa6adc06bdcf617e84e734675
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

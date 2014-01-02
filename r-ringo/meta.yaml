@@ -5,10 +5,10 @@ package:
 source:
   fn: Ringo_1.26.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Ringo_1.26.1.tar.gz
-    - 4e73b8d528715f19067e89ad767a4b24
+  md5: 4e73b8d528715f19067e89ad767a4b24
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: XMLSchema_0.7-2.tar.gz
   url: http://www.omegahat.org/R/src/contrib/XMLSchema_0.7-2.tar.gz
-    - 080c2fb4e502ad04e8c1dec4cbcb32b8
+  md5: 080c2fb4e502ad04e8c1dec4cbcb32b8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

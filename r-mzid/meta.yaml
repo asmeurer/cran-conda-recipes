@@ -5,10 +5,10 @@ package:
 source:
   fn: mzID_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mzID_1.0.0.tar.gz
-    - d85ea9c29da82aaf1bc6ecea7213bba3
+  md5: d85ea9c29da82aaf1bc6ecea7213bba3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

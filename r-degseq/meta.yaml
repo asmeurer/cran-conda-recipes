@@ -5,10 +5,10 @@ package:
 source:
   fn: DEGseq_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DEGseq_1.16.0.tar.gz
-    - 4f5e34e31b1a95725dcff4a3a4c24021
+  md5: 4f5e34e31b1a95725dcff4a3a4c24021
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

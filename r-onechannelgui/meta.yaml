@@ -5,10 +5,10 @@ package:
 source:
   fn: oneChannelGUI_1.28.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/oneChannelGUI_1.28.1.tar.gz
-    - 9b83edb55eca7e408a321ff7641efc6a
+  md5: 9b83edb55eca7e408a321ff7641efc6a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

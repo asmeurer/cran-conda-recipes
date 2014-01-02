@@ -5,10 +5,10 @@ package:
 source:
   fn: pRoloc_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pRoloc_1.2.0.tar.gz
-    - 066efe82eef8d692b253f0aee2a1d624
+  md5: 066efe82eef8d692b253f0aee2a1d624
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

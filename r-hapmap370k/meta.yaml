@@ -5,10 +5,10 @@ package:
 source:
   fn: hapmap370k_1.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hapmap370k_1.0.1.tar.gz
-    - 569556341a45da799372aaf1012be72e
+  md5: 569556341a45da799372aaf1012be72e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

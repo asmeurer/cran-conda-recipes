@@ -5,10 +5,10 @@ package:
 source:
   fn: flowMeans_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowMeans_1.14.0.tar.gz
-    - 56ac5698e7aff623441e6ba02e7b8694
+  md5: 56ac5698e7aff623441e6ba02e7b8694
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

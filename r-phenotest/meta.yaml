@@ -5,10 +5,10 @@ package:
 source:
   fn: phenoTest_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/phenoTest_1.10.0.tar.gz
-    - 039fd38b9cb939edd9ff5ab4dfe1c337
+  md5: 039fd38b9cb939edd9ff5ab4dfe1c337
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

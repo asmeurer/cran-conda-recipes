@@ -5,10 +5,10 @@ package:
 source:
   fn: BiocCaseStudies_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiocCaseStudies_1.24.0.tar.gz
-    - 3db901e026036f42fd2873a49baa7e9a
+  md5: 3db901e026036f42fd2873a49baa7e9a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

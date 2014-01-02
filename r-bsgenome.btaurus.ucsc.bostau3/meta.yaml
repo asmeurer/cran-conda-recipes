@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Btaurus.UCSC.bosTau3_1.3.16.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Btaurus.UCSC.bosTau3_1.3.16.tar.gz
-    - 8662b972fa64a331f48f8028a5d2f864
+  md5: 8662b972fa64a331f48f8028a5d2f864
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

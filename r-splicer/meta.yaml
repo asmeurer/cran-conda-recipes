@@ -5,10 +5,10 @@ package:
 source:
   fn: spliceR_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spliceR_1.2.0.tar.gz
-    - 49b96e82e09a098a189e1d00afb00805
+  md5: 49b96e82e09a098a189e1d00afb00805
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

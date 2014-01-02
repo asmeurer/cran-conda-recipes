@@ -5,10 +5,10 @@ package:
 source:
   fn: affyPara_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyPara_1.22.0.tar.gz
-    - b085e2f55b92f3732835263bb5c6947a
+  md5: b085e2f55b92f3732835263bb5c6947a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

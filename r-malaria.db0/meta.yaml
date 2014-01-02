@@ -5,10 +5,10 @@ package:
 source:
   fn: malaria.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/malaria.db0_2.10.1.tar.gz
-    - acbae101f3e745f7bfb7dca28d3c0c65
+  md5: acbae101f3e745f7bfb7dca28d3c0c65
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

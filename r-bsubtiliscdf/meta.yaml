@@ -5,10 +5,10 @@ package:
 source:
   fn: bsubtiliscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bsubtiliscdf_2.13.0.tar.gz
-    - db1315a0cb8e721b2907ab8918770dce
+  md5: db1315a0cb8e721b2907ab8918770dce
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

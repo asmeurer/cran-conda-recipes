@@ -5,10 +5,10 @@ package:
 source:
   fn: IlluminaHumanMethylation450kprobe_2.0.6.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/IlluminaHumanMethylation450kprobe_2.0.6.tar.gz
-    - 84c31861fcbaddbf2a9c500b8d8d767d
+  md5: 84c31861fcbaddbf2a9c500b8d8d767d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

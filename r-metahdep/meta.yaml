@@ -5,10 +5,10 @@ package:
 source:
   fn: metahdep_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/metahdep_1.20.0.tar.gz
-    - 16a60b982532ab5adb3858d6872cb0dd
+  md5: 16a60b982532ab5adb3858d6872cb0dd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

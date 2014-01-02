@@ -5,10 +5,10 @@ package:
 source:
   fn: r3Cseq_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/r3Cseq_1.8.0.tar.gz
-    - fa5f5372e5e8271668e8517d39291993
+  md5: fa5f5372e5e8271668e8517d39291993
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

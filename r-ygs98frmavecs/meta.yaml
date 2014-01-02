@@ -5,10 +5,10 @@ package:
 source:
   fn: ygs98frmavecs_1.1.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ygs98frmavecs_1.1.0.tar.gz
-    - a3b5bd475a6d82f6c136a9e4c564586f
+  md5: a3b5bd475a6d82f6c136a9e4c564586f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

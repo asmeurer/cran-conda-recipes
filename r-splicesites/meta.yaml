@@ -5,10 +5,10 @@ package:
 source:
   fn: spliceSites_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spliceSites_1.0.0.tar.gz
-    - 875480eba65d282e2416ad4bf4a91507
+  md5: 875480eba65d282e2416ad4bf4a91507
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

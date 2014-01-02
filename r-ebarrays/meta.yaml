@@ -5,10 +5,10 @@ package:
 source:
   fn: EBarrays_2.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBarrays_2.26.0.tar.gz
-    - 78d0e62674b879e1e26dc058b8c9010f
+  md5: 78d0e62674b879e1e26dc058b8c9010f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

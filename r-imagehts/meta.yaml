@@ -5,10 +5,10 @@ package:
 source:
   fn: imageHTS_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/imageHTS_1.12.0.tar.gz
-    - 26ae92615f2226d86a3755d56f65e16e
+  md5: 26ae92615f2226d86a3755d56f65e16e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

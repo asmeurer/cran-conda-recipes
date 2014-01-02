@@ -5,10 +5,10 @@ package:
 source:
   fn: humanomni1quadv1bCrlmm_1.0.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/humanomni1quadv1bCrlmm_1.0.3.tar.gz
-    - e81b2603f37d4cda3f28cd69a7296a23
+  md5: e81b2603f37d4cda3f28cd69a7296a23
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

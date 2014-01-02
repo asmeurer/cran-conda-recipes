@@ -5,10 +5,10 @@ package:
 source:
   fn: flowFit_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowFit_1.0.0.tar.gz
-    - ff1ab7c4faaf3da63cdd0fa7c58b16e9
+  md5: ff1ab7c4faaf3da63cdd0fa7c58b16e9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

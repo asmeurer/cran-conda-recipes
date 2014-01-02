@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Rnorvegicus.UCSC.rn4.ensGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn4.ensGene_2.10.1.tar.gz
-    - 5ae8867c16276a08b6edff71400dae6d
+  md5: 5ae8867c16276a08b6edff71400dae6d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

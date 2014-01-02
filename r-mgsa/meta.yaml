@@ -5,10 +5,10 @@ package:
 source:
   fn: mgsa_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mgsa_1.10.0.tar.gz
-    - ce4f4af8a20577a18f2cda647a01f430
+  md5: ce4f4af8a20577a18f2cda647a01f430
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

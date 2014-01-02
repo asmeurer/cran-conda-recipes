@@ -5,10 +5,10 @@ package:
 source:
   fn: HEM_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HEM_1.34.0.tar.gz
-    - 771734e2ff45028da69bb756893b66cb
+  md5: 771734e2ff45028da69bb756893b66cb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

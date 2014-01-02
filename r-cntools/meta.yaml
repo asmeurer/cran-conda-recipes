@@ -5,10 +5,10 @@ package:
 source:
   fn: CNTools_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNTools_1.18.0.tar.gz
-    - d15fef70967aae074993bde5a3de4383
+  md5: d15fef70967aae074993bde5a3de4383
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

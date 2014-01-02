@@ -5,10 +5,10 @@ package:
 source:
   fn: TurboNorm_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TurboNorm_1.10.0.tar.gz
-    - b92a4d128a1bbda2cd51e1109ebbc5de
+  md5: b92a4d128a1bbda2cd51e1109ebbc5de
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

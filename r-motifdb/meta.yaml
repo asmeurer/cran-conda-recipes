@@ -5,10 +5,10 @@ package:
 source:
   fn: MotifDb_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MotifDb_1.4.0.tar.gz
-    - d3fda3c5a974793358b2a13f56bae991
+  md5: d3fda3c5a974793358b2a13f56bae991
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

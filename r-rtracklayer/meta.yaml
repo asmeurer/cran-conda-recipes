@@ -5,10 +5,10 @@ package:
 source:
   fn: rtracklayer_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rtracklayer_1.22.0.tar.gz
-    - 1dad994b4779769e935902e9c8384959
+  md5: 1dad994b4779769e935902e9c8384959
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

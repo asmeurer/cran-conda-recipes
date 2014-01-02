@@ -5,10 +5,10 @@ package:
 source:
   fn: ENVISIONQuery_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ENVISIONQuery_1.10.0.tar.gz
-    - f5b43c9f1bb374b0e5715360a064e072
+  md5: f5b43c9f1bb374b0e5715360a064e072
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

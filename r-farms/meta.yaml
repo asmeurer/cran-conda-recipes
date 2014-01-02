@@ -5,10 +5,10 @@ package:
 source:
   fn: farms_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/farms_1.14.0.tar.gz
-    - 6a67655c732c0dc14fd56ffb57a9bf18
+  md5: 6a67655c732c0dc14fd56ffb57a9bf18
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

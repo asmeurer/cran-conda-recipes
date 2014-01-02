@@ -5,10 +5,10 @@ package:
 source:
   fn: pvac_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pvac_1.10.0.tar.gz
-    - 1832840d4f7943269465f01daa49204b
+  md5: 1832840d4f7943269465f01daa49204b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

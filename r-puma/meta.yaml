@@ -5,10 +5,10 @@ package:
 source:
   fn: puma_3.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/puma_3.4.0.tar.gz
-    - afd1a142a1871a0f2335beb521677e05
+  md5: afd1a142a1871a0f2335beb521677e05
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

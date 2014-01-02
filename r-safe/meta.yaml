@@ -5,10 +5,10 @@ package:
 source:
   fn: safe_3.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/safe_3.2.0.tar.gz
-    - c77f3f551e11758e901488f1ce2ab2d3
+  md5: c77f3f551e11758e901488f1ce2ab2d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

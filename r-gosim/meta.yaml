@@ -5,10 +5,10 @@ package:
 source:
   fn: GOSim_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOSim_1.4.0.tar.gz
-    - bacbf5c2aa7af17bfda5ee0cbf70bdb2
+  md5: bacbf5c2aa7af17bfda5ee0cbf70bdb2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

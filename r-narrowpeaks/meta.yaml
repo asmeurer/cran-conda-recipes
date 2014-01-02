@@ -5,10 +5,10 @@ package:
 source:
   fn: NarrowPeaks_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NarrowPeaks_1.6.0.tar.gz
-    - 98910c1560cdbf2d79e444858fe35bcf
+  md5: 98910c1560cdbf2d79e444858fe35bcf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

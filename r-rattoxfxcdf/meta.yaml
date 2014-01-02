@@ -5,10 +5,10 @@ package:
 source:
   fn: rattoxfxcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rattoxfxcdf_2.13.0.tar.gz
-    - 59926b10eb573d7cc9823f739e7fd64f
+  md5: 59926b10eb573d7cc9823f739e7fd64f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

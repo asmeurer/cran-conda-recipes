@@ -5,10 +5,10 @@ package:
 source:
   fn: RTCA_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RTCA_1.14.0.tar.gz
-    - acc0b47da9aec3e524f872456c96ede8
+  md5: acc0b47da9aec3e524f872456c96ede8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: IRanges_1.20.6.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IRanges_1.20.6.tar.gz
-    - 4aa479a111bb6784b283ea56cde79012
+  md5: 4aa479a111bb6784b283ea56cde79012
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Celegans.UCSC.ce6_1.3.19.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce6_1.3.19.tar.gz
-    - b74c0fc0f413a09d5b706f57c6d7f9b6
+  md5: b74c0fc0f413a09d5b706f57c6d7f9b6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

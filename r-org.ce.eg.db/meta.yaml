@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Ce.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Ce.eg.db_2.10.1.tar.gz
-    - f0c632deb7b00035300cce938fd89fbe
+  md5: f0c632deb7b00035300cce938fd89fbe
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

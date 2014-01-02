@@ -5,10 +5,10 @@ package:
 source:
   fn: SNPchip_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SNPchip_2.8.0.tar.gz
-    - 3c45e6a9950349660e6fffad788f6382
+  md5: 3c45e6a9950349660e6fffad788f6382
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

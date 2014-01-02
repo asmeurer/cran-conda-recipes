@@ -5,10 +5,10 @@ package:
 source:
   fn: DESeq_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DESeq_1.14.0.tar.gz
-    - 6df447df70a5c2e1fac6c98540f6b249
+  md5: 6df447df70a5c2e1fac6c98540f6b249
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

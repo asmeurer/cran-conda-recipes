@@ -5,10 +5,10 @@ package:
 source:
   fn: ygs98probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ygs98probe_2.13.0.tar.gz
-    - ab6d1a203cba4d236945041cbdb527f2
+  md5: ab6d1a203cba4d236945041cbdb527f2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

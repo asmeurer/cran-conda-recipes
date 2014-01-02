@@ -5,10 +5,10 @@ package:
 source:
   fn: mdqc_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mdqc_1.24.0.tar.gz
-    - 45bb701a55de42aa2c5ca6c7659ca25d
+  md5: 45bb701a55de42aa2c5ca6c7659ca25d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

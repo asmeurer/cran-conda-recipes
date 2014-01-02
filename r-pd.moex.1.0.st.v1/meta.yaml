@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.moex.1.0.st.v1_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.moex.1.0.st.v1_3.8.0.tar.gz
-    - 473d0ebea7e797d8560ab110b72a3b8a
+  md5: 473d0ebea7e797d8560ab110b72a3b8a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

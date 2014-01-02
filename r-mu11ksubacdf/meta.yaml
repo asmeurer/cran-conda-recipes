@@ -5,10 +5,10 @@ package:
 source:
   fn: mu11ksubacdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu11ksubacdf_2.13.0.tar.gz
-    - ecd868c158ce46072d70b89a40ee291c
+  md5: ecd868c158ce46072d70b89a40ee291c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

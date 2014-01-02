@@ -5,10 +5,10 @@ package:
 source:
   fn: coRNAi_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/coRNAi_1.12.0.tar.gz
-    - 32a41ddc00523ecd212bed4f271df7b1
+  md5: 32a41ddc00523ecd212bed4f271df7b1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

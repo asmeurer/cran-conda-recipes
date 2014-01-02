@@ -5,10 +5,10 @@ package:
 source:
   fn: XVector_0.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/XVector_0.2.0.tar.gz
-    - d5c6799b09b67f1fa5942ed6d60e5452
+  md5: d5c6799b09b67f1fa5942ed6d60e5452
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

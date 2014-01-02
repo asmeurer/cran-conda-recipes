@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mapping250k.nsp_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mapping250k.nsp_1.10.0.tar.gz
-    - a3823aff7d3bf9480dd4e8c7cad91294
+  md5: a3823aff7d3bf9480dd4e8c7cad91294
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

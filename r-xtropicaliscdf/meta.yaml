@@ -5,10 +5,10 @@ package:
 source:
   fn: xtropicaliscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xtropicaliscdf_2.13.0.tar.gz
-    - 35fc58159179f341b57e26a23d5ef411
+  md5: 35fc58159179f341b57e26a23d5ef411
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

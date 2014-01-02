@@ -5,10 +5,10 @@ package:
 source:
   fn: BiocParallel_0.4.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiocParallel_0.4.1.tar.gz
-    - 11dfccf3754a20ebf4e5ccf9bdd6183f
+  md5: 11dfccf3754a20ebf4e5ccf9bdd6183f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

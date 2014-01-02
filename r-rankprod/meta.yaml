@@ -5,10 +5,10 @@ package:
 source:
   fn: RankProd_2.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RankProd_2.34.0.tar.gz
-    - 36e489edc0da616ba424cb47e300fc42
+  md5: 36e489edc0da616ba424cb47e300fc42
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

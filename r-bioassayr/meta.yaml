@@ -5,10 +5,10 @@ package:
 source:
   fn: bioassayR_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bioassayR_1.0.0.tar.gz
-    - 8db90aa8246cb56cde35311345883753
+  md5: 8db90aa8246cb56cde35311345883753
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ecoli.asv2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ecoli.asv2_1.10.0.tar.gz
-    - ee1f2eec9cf32a496baff0ebd250342a
+  md5: ee1f2eec9cf32a496baff0ebd250342a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

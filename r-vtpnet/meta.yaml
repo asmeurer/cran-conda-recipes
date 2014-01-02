@@ -5,10 +5,10 @@ package:
 source:
   fn: vtpnet_0.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/vtpnet_0.2.0.tar.gz
-    - fe010e84ca797da151c74549da77e3f0
+  md5: fe010e84ca797da151c74549da77e3f0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

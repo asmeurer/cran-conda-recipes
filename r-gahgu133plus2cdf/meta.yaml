@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu133plus2cdf_2.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu133plus2cdf_2.2.1.tar.gz
-    - 4710ff0482c1d32a88e5cfefddcba7c0
+  md5: 4710ff0482c1d32a88e5cfefddcba7c0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

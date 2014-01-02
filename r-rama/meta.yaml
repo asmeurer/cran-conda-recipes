@@ -5,10 +5,10 @@ package:
 source:
   fn: rama_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rama_1.36.0.tar.gz
-    - 05bef34de16388e322678661c4eabef3
+  md5: 05bef34de16388e322678661c4eabef3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

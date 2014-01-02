@@ -5,10 +5,10 @@ package:
 source:
   fn: ShortRead_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ShortRead_1.20.0.tar.gz
-    - f25d1f1aff15fe5a66c9b2e0e2befa81
+  md5: f25d1f1aff15fe5a66c9b2e0e2befa81
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: frmaTools_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/frmaTools_1.14.0.tar.gz
-    - 6e4f1863492df0cc47860fddb1c87ca9
+  md5: 6e4f1863492df0cc47860fddb1c87ca9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

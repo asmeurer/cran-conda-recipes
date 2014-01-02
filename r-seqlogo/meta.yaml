@@ -5,10 +5,10 @@ package:
 source:
   fn: seqLogo_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/seqLogo_1.28.0.tar.gz
-    - 9957cdd2e199dfc3922304bef466b9f6
+  md5: 9957cdd2e199dfc3922304bef466b9f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

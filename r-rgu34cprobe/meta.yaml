@@ -5,10 +5,10 @@ package:
 source:
   fn: rgu34cprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rgu34cprobe_2.13.0.tar.gz
-    - 7ec13605cbde29170e9a477132e6d6d7
+  md5: 7ec13605cbde29170e9a477132e6d6d7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

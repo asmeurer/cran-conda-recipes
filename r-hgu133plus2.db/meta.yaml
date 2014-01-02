@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu133plus2.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133plus2.db_2.10.1.tar.gz
-    - 627c7b2654dda121ed4ee9fc90663c81
+  md5: 627c7b2654dda121ed4ee9fc90663c81
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: vsn_3.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/vsn_3.30.0.tar.gz
-    - 81388e1ba615aeac7566847a3bc5fc23
+  md5: 81388e1ba615aeac7566847a3bc5fc23
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

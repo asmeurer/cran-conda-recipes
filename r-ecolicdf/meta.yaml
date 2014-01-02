@@ -5,10 +5,10 @@ package:
 source:
   fn: ecolicdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecolicdf_2.13.0.tar.gz
-    - 0b58e26f6edd5b86779dd11e93d0df2a
+  md5: 0b58e26f6edd5b86779dd11e93d0df2a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

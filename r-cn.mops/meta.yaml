@@ -5,10 +5,10 @@ package:
 source:
   fn: cn.mops_1.8.3.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cn.mops_1.8.3.tar.gz
-    - 8d5a71770b8ccfcf5eacbff1f8c5ee31
+  md5: 8d5a71770b8ccfcf5eacbff1f8c5ee31
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

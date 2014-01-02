@@ -5,10 +5,10 @@ package:
 source:
   fn: sagenhaft_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sagenhaft_1.32.0.tar.gz
-    - a402ec6cd85a5357966102f7f23c3900
+  md5: a402ec6cd85a5357966102f7f23c3900
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

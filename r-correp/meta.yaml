@@ -5,10 +5,10 @@ package:
 source:
   fn: CORREP_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CORREP_1.28.0.tar.gz
-    - e27f214cf08dadbd76da7f5eeb65837b
+  md5: e27f214cf08dadbd76da7f5eeb65837b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

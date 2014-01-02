@@ -5,10 +5,10 @@ package:
 source:
   fn: bridge_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bridge_1.26.0.tar.gz
-    - 3307670492a5852c61ec41da3d162573
+  md5: 3307670492a5852c61ec41da3d162573
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: CellNOptR_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CellNOptR_1.8.0.tar.gz
-    - 508490b35cc5323edd10f582b69d52f8
+  md5: 508490b35cc5323edd10f582b69d52f8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

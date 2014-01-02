@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Scerevisiae.UCSC.sacCer2.sgdGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene_2.10.1.tar.gz
-    - 235cdec7f8a972abf2ff9effc5f6ec87
+  md5: 235cdec7f8a972abf2ff9effc5f6ec87
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mapping50k.hind240_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mapping50k.hind240_1.10.0.tar.gz
-    - a700383d07a7065d54a5d6d51b0ad676
+  md5: a700383d07a7065d54a5d6d51b0ad676
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

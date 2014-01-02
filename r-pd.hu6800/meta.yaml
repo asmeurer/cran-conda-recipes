@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hu6800_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hu6800_1.10.0.tar.gz
-    - a438741b51a83796b53b2eee59dec7b9
+  md5: a438741b51a83796b53b2eee59dec7b9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: biocGraph_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biocGraph_1.24.0.tar.gz
-    - 73a6e1db237a32256d4c1504c3f943e4
+  md5: 73a6e1db237a32256d4c1504c3f943e4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

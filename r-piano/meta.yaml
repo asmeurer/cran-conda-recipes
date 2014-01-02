@@ -5,10 +5,10 @@ package:
 source:
   fn: piano_1.2.10.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/piano_1.2.10.tar.gz
-    - 5c1d5a805cd75d51698f8a9a900dd64b
+  md5: 5c1d5a805cd75d51698f8a9a900dd64b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

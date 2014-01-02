@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Gaculeatus.UCSC.gasAcu1_1.3.17.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Gaculeatus.UCSC.gasAcu1_1.3.17.tar.gz
-    - ed2891744a1227769b3d42dbcbfc0921
+  md5: ed2891744a1227769b3d42dbcbfc0921
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

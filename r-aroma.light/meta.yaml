@@ -5,10 +5,10 @@ package:
 source:
   fn: aroma.light_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/aroma.light_1.32.0.tar.gz
-    - 85f902743bdfa2c0d2d8bb4fec253f6a
+  md5: 85f902743bdfa2c0d2d8bb4fec253f6a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: Roberts2005Annotation.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Roberts2005Annotation.db_2.10.1.tar.gz
-    - 3950ebfea9447f651cae75c05cbeff0d
+  md5: 3950ebfea9447f651cae75c05cbeff0d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

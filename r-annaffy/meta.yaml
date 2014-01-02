@@ -5,10 +5,10 @@ package:
 source:
   fn: annaffy_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/annaffy_1.34.0.tar.gz
-    - 886859ce049d7b17b5c728b8016e8f20
+  md5: 886859ce049d7b17b5c728b8016e8f20
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

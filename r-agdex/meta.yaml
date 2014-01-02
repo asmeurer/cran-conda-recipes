@@ -5,10 +5,10 @@ package:
 source:
   fn: AGDEX_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AGDEX_1.10.0.tar.gz
-    - 9cbf08e9f8bf0fca48ac66f46f8f25a1
+  md5: 9cbf08e9f8bf0fca48ac66f46f8f25a1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

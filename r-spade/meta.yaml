@@ -5,10 +5,10 @@ package:
 source:
   fn: spade_1.10.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spade_1.10.2.tar.gz
-    - c0095db79e2e209de4280522e7dc7a8a
+  md5: c0095db79e2e209de4280522e7dc7a8a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

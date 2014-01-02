@@ -5,10 +5,10 @@ package:
 source:
   fn: TargetScore_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TargetScore_1.0.0.tar.gz
-    - f20670e159b86c74400d3b16ad7179a1
+  md5: f20670e159b86c74400d3b16ad7179a1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

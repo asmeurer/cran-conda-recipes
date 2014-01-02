@@ -5,10 +5,10 @@ package:
 source:
   fn: pdInfoBuilder_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pdInfoBuilder_1.26.0.tar.gz
-    - c0e542866c1d8c4f2d9fa449f36a7202
+  md5: c0e542866c1d8c4f2d9fa449f36a7202
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

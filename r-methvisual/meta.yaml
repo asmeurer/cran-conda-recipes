@@ -5,10 +5,10 @@ package:
 source:
   fn: methVisual_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methVisual_1.14.0.tar.gz
-    - 676eec8464fd41f7c765b4724f0a020a
+  md5: 676eec8464fd41f7c765b4724f0a020a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

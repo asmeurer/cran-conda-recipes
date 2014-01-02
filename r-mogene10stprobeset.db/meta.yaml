@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene10stprobeset.db_8.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene10stprobeset.db_8.0.1.tar.gz
-    - f414496b8af3f9ba422ec7ba711a4339
+  md5: f414496b8af3f9ba422ec7ba711a4339
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

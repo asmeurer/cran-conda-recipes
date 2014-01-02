@@ -5,10 +5,10 @@ package:
 source:
   fn: gaggle_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gaggle_1.30.0.tar.gz
-    - f0b499272d62a4df868ee234295bc6c6
+  md5: f0b499272d62a4df868ee234295bc6c6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

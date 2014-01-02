@@ -5,10 +5,10 @@ package:
 source:
   fn: spotSegmentation_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spotSegmentation_1.36.0.tar.gz
-    - 2b2b7bbcf5a4203364dff3223af60b4c
+  md5: 2b2b7bbcf5a4203364dff3223af60b4c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: flipflop_1.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flipflop_1.0.1.tar.gz
-    - 9b10511af759e5d8a3b74ea3e4d123b8
+  md5: 9b10511af759e5d8a3b74ea3e4d123b8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

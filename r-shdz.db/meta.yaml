@@ -5,10 +5,10 @@ package:
 source:
   fn: SHDZ.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/SHDZ.db_2.10.1.tar.gz
-    - fda2cd353bc37b65de7f31d3cd3af13b
+  md5: fda2cd353bc37b65de7f31d3cd3af13b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

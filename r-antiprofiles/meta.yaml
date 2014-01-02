@@ -5,10 +5,10 @@ package:
 source:
   fn: antiProfiles_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/antiProfiles_1.2.0.tar.gz
-    - 3fa94f4c18927d10da9dae3e9d1113bc
+  md5: 3fa94f4c18927d10da9dae3e9d1113bc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

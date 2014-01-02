@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene10stv1cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene10stv1cdf_2.13.0.tar.gz
-    - acc541be1d1f99f0a39537aa0123c838
+  md5: acc541be1d1f99f0a39537aa0123c838
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: porcinecdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/porcinecdf_2.13.0.tar.gz
-    - f0029375e6422e5d4bb38ce4fd74f1a2
+  md5: f0029375e6422e5d4bb38ce4fd74f1a2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

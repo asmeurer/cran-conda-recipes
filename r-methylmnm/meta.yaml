@@ -5,10 +5,10 @@ package:
 source:
   fn: methylMnM_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methylMnM_1.0.0.tar.gz
-    - 7c9f2672248fd7e80f4bdbb6fbba0549
+  md5: 7c9f2672248fd7e80f4bdbb6fbba0549
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: tspair_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tspair_1.20.0.tar.gz
-    - ae48744d26dd7d5018b9dbaae48d06bf
+  md5: ae48744d26dd7d5018b9dbaae48d06bf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Dr.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Dr.eg.db_2.10.1.tar.gz
-    - 7d9e8f07303e7c933fa51ef55f1fd56a
+  md5: 7d9e8f07303e7c933fa51ef55f1fd56a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: BADER_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BADER_1.0.0.tar.gz
-    - 72ab95fbc804af05f41cb1fea0c6ccf4
+  md5: 72ab95fbc804af05f41cb1fea0c6ccf4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

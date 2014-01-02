@@ -5,10 +5,10 @@ package:
 source:
   fn: hyperdraw_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hyperdraw_1.14.0.tar.gz
-    - 5ba082f9a2e7a686d7c93c25f02e6358
+  md5: 5ba082f9a2e7a686d7c93c25f02e6358
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

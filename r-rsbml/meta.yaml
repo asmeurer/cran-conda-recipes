@@ -5,10 +5,10 @@ package:
 source:
   fn: rsbml_2.20.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rsbml_2.20.1.tar.gz
-    - 3569cf8b92d53542880055e5e940f97b
+  md5: 3569cf8b92d53542880055e5e940f97b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

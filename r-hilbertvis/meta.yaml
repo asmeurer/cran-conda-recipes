@@ -5,10 +5,10 @@ package:
 source:
   fn: HilbertVis_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HilbertVis_1.20.0.tar.gz
-    - dde69cd4cfcac618cfbe7faba6d01d3a
+  md5: dde69cd4cfcac618cfbe7faba6d01d3a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.s.aureus_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.s.aureus_1.10.0.tar.gz
-    - 854ff1240b99ceba73c16ab1b70f5911
+  md5: 854ff1240b99ceba73c16ab1b70f5911
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

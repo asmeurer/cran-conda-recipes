@@ -5,10 +5,10 @@ package:
 source:
   fn: iBMQ_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iBMQ_1.2.0.tar.gz
-    - 07725a229350032a83c58650d4f068d0
+  md5: 07725a229350032a83c58650d4f068d0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

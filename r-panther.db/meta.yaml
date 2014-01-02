@@ -5,10 +5,10 @@ package:
 source:
   fn: PANTHER.db_0.99.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/PANTHER.db_0.99.3.tar.gz
-    - 380fadc7f4161cde5b7d55126f216d27
+  md5: 380fadc7f4161cde5b7d55126f216d27
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

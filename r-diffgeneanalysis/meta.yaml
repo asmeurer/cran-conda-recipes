@@ -5,10 +5,10 @@ package:
 source:
   fn: diffGeneAnalysis_1.44.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/diffGeneAnalysis_1.44.0.tar.gz
-    - a9af143109092c78a1cf8da3fcc72e1e
+  md5: a9af143109092c78a1cf8da3fcc72e1e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

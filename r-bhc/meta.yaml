@@ -5,10 +5,10 @@ package:
 source:
   fn: BHC_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BHC_1.14.0.tar.gz
-    - f77f1a9fb82676cc20571436c240d2da
+  md5: f77f1a9fb82676cc20571436c240d2da
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ADaCGH2_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ADaCGH2_2.2.0.tar.gz
-    - b100a5a714ec60a9e590cd8825992ab7
+  md5: b100a5a714ec60a9e590cd8825992ab7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

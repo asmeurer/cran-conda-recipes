@@ -5,10 +5,10 @@ package:
 source:
   fn: SeqGSEA_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SeqGSEA_1.2.0.tar.gz
-    - 22953a614ab17e248fa9d3b51244248f
+  md5: 22953a614ab17e248fa9d3b51244248f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: BAC_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BAC_1.22.0.tar.gz
-    - dbfa07a603252c831f181e9c2c4ade5f
+  md5: dbfa07a603252c831f181e9c2c4ade5f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

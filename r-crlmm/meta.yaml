@@ -5,10 +5,10 @@ package:
 source:
   fn: crlmm_1.20.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/crlmm_1.20.1.tar.gz
-    - e84ea680798cdd70d7282084b2bd43d3
+  md5: e84ea680798cdd70d7282084b2bd43d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

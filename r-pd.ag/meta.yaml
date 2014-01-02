@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ag_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ag_1.10.0.tar.gz
-    - ad0a0b204afad93a9c5ae32bfd858d66
+  md5: ad0a0b204afad93a9c5ae32bfd858d66
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

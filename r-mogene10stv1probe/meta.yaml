@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene10stv1probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene10stv1probe_2.13.0.tar.gz
-    - 7221305188b31463817b4488b6286abb
+  md5: 7221305188b31463817b4488b6286abb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ROC_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ROC_1.38.0.tar.gz
-    - 35bcbd9af068098247f16b7db12afc0c
+  md5: 35bcbd9af068098247f16b7db12afc0c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene21sttranscriptcluster.db_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene21sttranscriptcluster.db_2.13.0.tar.gz
-    - 96f07724e3c46a67583ab1718a2c3d8a
+  md5: 96f07724e3c46a67583ab1718a2c3d8a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

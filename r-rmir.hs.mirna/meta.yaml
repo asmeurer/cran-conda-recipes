@@ -5,10 +5,10 @@ package:
 source:
   fn: RmiR.Hs.miRNA_1.0.7.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/RmiR.Hs.miRNA_1.0.7.tar.gz
-    - 4aedac188382447d9907d2617aa2e8e6
+  md5: 4aedac188382447d9907d2617aa2e8e6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

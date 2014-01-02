@@ -5,10 +5,10 @@ package:
 source:
   fn: rguatlas4k.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rguatlas4k.db_2.10.1.tar.gz
-    - 755574e97fe4f4ac400a60467a7b1b1e
+  md5: 755574e97fe4f4ac400a60467a7b1b1e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

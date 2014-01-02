@@ -5,10 +5,10 @@ package:
 source:
   fn: RNASeqPower_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RNASeqPower_1.2.0.tar.gz
-    - d03659e3e76c59cd754c4b5a11e012d5
+  md5: d03659e3e76c59cd754c4b5a11e012d5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

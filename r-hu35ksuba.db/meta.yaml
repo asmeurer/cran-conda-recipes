@@ -5,10 +5,10 @@ package:
 source:
   fn: hu35ksuba.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu35ksuba.db_2.10.1.tar.gz
-    - a238c6ce42803952ffa002cb908b7d1d
+  md5: a238c6ce42803952ffa002cb908b7d1d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

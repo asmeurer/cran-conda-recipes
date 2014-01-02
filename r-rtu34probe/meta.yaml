@@ -5,10 +5,10 @@ package:
 source:
   fn: rtu34probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rtu34probe_2.13.0.tar.gz
-    - 6b47bdef6ca1a70bad4e383eb8ef9e98
+  md5: 6b47bdef6ca1a70bad4e383eb8ef9e98
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

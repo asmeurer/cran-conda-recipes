@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.huex.1.0.st.v2_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.huex.1.0.st.v2_3.8.0.tar.gz
-    - 8388f9c0e24550590e32fc166ddd341f
+  md5: 8388f9c0e24550590e32fc166ddd341f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: FDb.UCSC.tRNAs_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/FDb.UCSC.tRNAs_1.0.0.tar.gz
-    - 06e2cda88e71cbb804522725156fcab4
+  md5: 06e2cda88e71cbb804522725156fcab4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

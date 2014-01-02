@@ -5,10 +5,10 @@ package:
 source:
   fn: genomeIntervals_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genomeIntervals_1.18.0.tar.gz
-    - 71dc893e51b2837753b25c8da8dbbabc
+  md5: 71dc893e51b2837753b25c8da8dbbabc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

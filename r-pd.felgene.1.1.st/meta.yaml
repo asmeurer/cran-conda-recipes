@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.felgene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.felgene.1.1.st_3.8.0.tar.gz
-    - 64791d798ccef8422e888df1edba48f9
+  md5: 64791d798ccef8422e888df1edba48f9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

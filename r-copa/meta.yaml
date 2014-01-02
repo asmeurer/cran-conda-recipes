@@ -5,10 +5,10 @@ package:
 source:
   fn: copa_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/copa_1.30.0.tar.gz
-    - 226d17130300b8a1cbc10c175811726e
+  md5: 226d17130300b8a1cbc10c175811726e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

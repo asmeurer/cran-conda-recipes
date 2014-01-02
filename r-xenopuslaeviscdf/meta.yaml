@@ -5,10 +5,10 @@ package:
 source:
   fn: xenopuslaeviscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xenopuslaeviscdf_2.13.0.tar.gz
-    - 8053545b3a6e827bd1d592384a4623fe
+  md5: 8053545b3a6e827bd1d592384a4623fe
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

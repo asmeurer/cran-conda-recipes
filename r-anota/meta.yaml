@@ -5,10 +5,10 @@ package:
 source:
   fn: anota_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/anota_1.10.0.tar.gz
-    - 04c67850100fdc069a05f0332d6fed89
+  md5: 04c67850100fdc069a05f0332d6fed89
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

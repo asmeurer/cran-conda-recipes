@@ -5,10 +5,10 @@ package:
 source:
   fn: Starr_1.18.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Starr_1.18.1.tar.gz
-    - d5c9e944fa162c2e03a80800584f94b0
+  md5: d5c9e944fa162c2e03a80800584f94b0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

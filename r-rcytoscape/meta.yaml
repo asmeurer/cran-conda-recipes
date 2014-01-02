@@ -5,10 +5,10 @@ package:
 source:
   fn: RCytoscape_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RCytoscape_1.12.0.tar.gz
-    - a2d49dbd8b8497b0f276697a3f4e3a32
+  md5: a2d49dbd8b8497b0f276697a3f4e3a32
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

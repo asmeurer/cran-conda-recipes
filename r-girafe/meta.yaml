@@ -5,10 +5,10 @@ package:
 source:
   fn: girafe_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/girafe_1.14.0.tar.gz
-    - 47646e25cdce2e575ed4c1b9245b932b
+  md5: 47646e25cdce2e575ed4c1b9245b932b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

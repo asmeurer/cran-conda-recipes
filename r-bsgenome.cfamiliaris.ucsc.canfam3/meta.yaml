@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Cfamiliaris.UCSC.canFam3_1.3.19.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Cfamiliaris.UCSC.canFam3_1.3.19.tar.gz
-    - 90bff72e6e7bcf95fcfaf6c717b067f8
+  md5: 90bff72e6e7bcf95fcfaf6c717b067f8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

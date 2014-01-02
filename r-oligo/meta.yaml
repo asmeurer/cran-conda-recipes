@@ -5,10 +5,10 @@ package:
 source:
   fn: oligo_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/oligo_1.26.0.tar.gz
-    - df197f6cd1021c3651faf487479314be
+  md5: df197f6cd1021c3651faf487479314be
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

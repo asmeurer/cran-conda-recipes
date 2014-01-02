@@ -5,10 +5,10 @@ package:
 source:
   fn: xtropicalisprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xtropicalisprobe_2.13.0.tar.gz
-    - c101c651cd2d1017fc2ec7eb83623c8f
+  md5: c101c651cd2d1017fc2ec7eb83623c8f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

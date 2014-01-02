@@ -5,10 +5,10 @@ package:
 source:
   fn: zlibbioc_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/zlibbioc_1.8.0.tar.gz
-    - 699d7d5bc95ba1da70d5776f2f98089d
+  md5: 699d7d5bc95ba1da70d5776f2f98089d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

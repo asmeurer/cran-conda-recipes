@@ -5,10 +5,10 @@ package:
 source:
   fn: trigger_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/trigger_1.8.0.tar.gz
-    - 0ea5a14f0b933ef47d7ecc444f0209ec
+  md5: 0ea5a14f0b933ef47d7ecc444f0209ec
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

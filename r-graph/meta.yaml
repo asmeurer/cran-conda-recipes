@@ -5,10 +5,10 @@ package:
 source:
   fn: graph_1.40.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/graph_1.40.1.tar.gz
-    - f40d6577e1e6bc1209158722284c660f
+  md5: f40d6577e1e6bc1209158722284c660f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

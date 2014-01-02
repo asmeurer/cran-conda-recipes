@@ -5,10 +5,10 @@ package:
 source:
   fn: OLIN_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OLIN_1.40.0.tar.gz
-    - be26e02c6cbf07cba0f196f613a18371
+  md5: be26e02c6cbf07cba0f196f613a18371
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

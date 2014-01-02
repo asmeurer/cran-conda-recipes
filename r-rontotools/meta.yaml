@@ -5,10 +5,10 @@ package:
 source:
   fn: ROntoTools_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ROntoTools_1.2.0.tar.gz
-    - f82de32dee423ab4ebc4ff38d4b77dd7
+  md5: f82de32dee423ab4ebc4ff38d4b77dd7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

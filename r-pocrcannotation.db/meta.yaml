@@ -5,10 +5,10 @@ package:
 source:
   fn: POCRCannotation.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/POCRCannotation.db_2.10.1.tar.gz
-    - 7e6cb0dd8ab3e5683a451d66632cf468
+  md5: 7e6cb0dd8ab3e5683a451d66632cf468
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

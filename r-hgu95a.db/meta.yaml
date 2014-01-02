@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu95a.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95a.db_2.10.1.tar.gz
-    - 80408663836fe0a39a89f5acd7dd3c3a
+  md5: 80408663836fe0a39a89f5acd7dd3c3a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

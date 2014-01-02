@@ -5,10 +5,10 @@ package:
 source:
   fn: BicARE_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BicARE_1.20.0.tar.gz
-    - e8449fa668030b3bc71ac10496795f96
+  md5: e8449fa668030b3bc71ac10496795f96
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

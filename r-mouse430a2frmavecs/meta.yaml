@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse430a2frmavecs_1.1.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse430a2frmavecs_1.1.0.tar.gz
-    - f9326b209e29100766beceb6ba03e07e
+  md5: f9326b209e29100766beceb6ba03e07e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

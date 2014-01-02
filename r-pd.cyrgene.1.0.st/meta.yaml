@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.cyrgene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.cyrgene.1.0.st_3.8.0.tar.gz
-    - b46fe8ac4967daf6690ae01420b6c9be
+  md5: b46fe8ac4967daf6690ae01420b6c9be
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

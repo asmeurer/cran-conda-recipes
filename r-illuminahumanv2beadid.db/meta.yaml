@@ -5,10 +5,10 @@ package:
 source:
   fn: illuminaHumanv2BeadID.db_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/illuminaHumanv2BeadID.db_1.8.0.tar.gz
-    - b5a2b2deaa9a9b245a141043e7bc5270
+  md5: b5a2b2deaa9a9b245a141043e7bc5270
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

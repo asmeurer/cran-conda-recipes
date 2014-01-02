@@ -5,10 +5,10 @@ package:
 source:
   fn: ggbio_1.10.10.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ggbio_1.10.10.tar.gz
-    - b7863222335f0a86001c143d0907de14
+  md5: b7863222335f0a86001c143d0907de14
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

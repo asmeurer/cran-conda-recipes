@@ -5,10 +5,10 @@ package:
 source:
   fn: maizeprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/maizeprobe_2.13.0.tar.gz
-    - fa069b2dbf2571f9a065beafb9e6cf62
+  md5: fa069b2dbf2571f9a065beafb9e6cf62
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

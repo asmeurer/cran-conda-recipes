@@ -5,10 +5,10 @@ package:
 source:
   fn: LPEadj_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LPEadj_1.22.0.tar.gz
-    - 8e2d57fa153d63a845ed11cb1e911a70
+  md5: 8e2d57fa153d63a845ed11cb1e911a70
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

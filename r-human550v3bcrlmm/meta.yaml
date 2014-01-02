@@ -5,10 +5,10 @@ package:
 source:
   fn: human550v3bCrlmm_1.0.4.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human550v3bCrlmm_1.0.4.tar.gz
-    - 20e6b008fab5e1084354c87ad50d18a8
+  md5: 20e6b008fab5e1084354c87ad50d18a8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

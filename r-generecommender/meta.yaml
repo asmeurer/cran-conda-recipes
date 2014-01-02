@@ -5,10 +5,10 @@ package:
 source:
   fn: geneRecommender_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/geneRecommender_1.34.0.tar.gz
-    - 3825b54b01bdd522a470084ac2a1c168
+  md5: 3825b54b01bdd522a470084ac2a1c168
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

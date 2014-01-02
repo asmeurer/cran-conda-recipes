@@ -5,10 +5,10 @@ package:
 source:
   fn: RTopper_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RTopper_1.8.0.tar.gz
-    - f2277a6624caefe08bbbc6f1fbdb9114
+  md5: f2277a6624caefe08bbbc6f1fbdb9114
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

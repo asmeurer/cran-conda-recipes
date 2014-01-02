@@ -5,10 +5,10 @@ package:
 source:
   fn: pgUtils_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pgUtils_1.34.0.tar.gz
-    - dc60f8c385768c9317ad159a6c41e8d3
+  md5: dc60f8c385768c9317ad159a6c41e8d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

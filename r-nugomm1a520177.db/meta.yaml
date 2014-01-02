@@ -5,10 +5,10 @@ package:
 source:
   fn: nugomm1a520177.db_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugomm1a520177.db_2.8.0.tar.gz
-    - caeaa062c27c4c3a7df3d6a2dfd9fad1
+  md5: caeaa062c27c4c3a7df3d6a2dfd9fad1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

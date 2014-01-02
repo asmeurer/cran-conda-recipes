@@ -5,10 +5,10 @@ package:
 source:
   fn: SBMLR_1.58.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SBMLR_1.58.0.tar.gz
-    - f08b4106bfd36f095a31ca74e0a3fa6c
+  md5: f08b4106bfd36f095a31ca74e0a3fa6c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

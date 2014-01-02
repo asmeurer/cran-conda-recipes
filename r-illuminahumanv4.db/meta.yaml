@@ -5,10 +5,10 @@ package:
 source:
   fn: illuminaHumanv4.db_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/illuminaHumanv4.db_1.20.0.tar.gz
-    - 3806b0e6a1a67c7e66bdd9cbcfeb56e9
+  md5: 3806b0e6a1a67c7e66bdd9cbcfeb56e9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

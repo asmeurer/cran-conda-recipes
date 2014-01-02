@@ -5,10 +5,10 @@ package:
 source:
   fn: seqnames.db_1.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/seqnames.db_1.0.1.tar.gz
-    - dee48e4f7dae2e7051edb0273f17d42c
+  md5: dee48e4f7dae2e7051edb0273f17d42c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

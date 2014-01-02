@@ -5,10 +5,10 @@ package:
 source:
   fn: arrayQualityMetrics_3.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/arrayQualityMetrics_3.18.0.tar.gz
-    - 63ce91940ff6b385e3b08e20011c9b77
+  md5: 63ce91940ff6b385e3b08e20011c9b77
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

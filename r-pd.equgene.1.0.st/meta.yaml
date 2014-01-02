@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.equgene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.equgene.1.0.st_3.8.0.tar.gz
-    - 4cf94218539a645a881424e1fd38c848
+  md5: 4cf94218539a645a881424e1fd38c848
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

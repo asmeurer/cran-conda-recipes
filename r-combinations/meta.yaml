@@ -5,10 +5,10 @@ package:
 source:
   fn: Combinations_0.2-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Combinations_0.2-1.tar.gz
-    - 035c0b4c8943dfbfe86259f63ac3b460
+  md5: 035c0b4c8943dfbfe86259f63ac3b460
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

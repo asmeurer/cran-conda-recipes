@@ -5,10 +5,10 @@ package:
 source:
   fn: STRINGdb_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/STRINGdb_1.0.0.tar.gz
-    - 47a0c5481cb1ade79b5cceecd95732d2
+  md5: 47a0c5481cb1ade79b5cceecd95732d2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

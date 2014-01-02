@@ -5,10 +5,10 @@ package:
 source:
   fn: OutlierD_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OutlierD_1.26.0.tar.gz
-    - 538504f3858ad26447ef92d66fd41dc2
+  md5: 538504f3858ad26447ef92d66fd41dc2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

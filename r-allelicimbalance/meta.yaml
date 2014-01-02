@@ -5,10 +5,10 @@ package:
 source:
   fn: AllelicImbalance_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AllelicImbalance_1.0.0.tar.gz
-    - 0da57422c464231f6e39745cd54637f1
+  md5: 0da57422c464231f6e39745cd54637f1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

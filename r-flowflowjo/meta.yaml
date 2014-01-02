@@ -5,10 +5,10 @@ package:
 source:
   fn: flowFlowJo_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowFlowJo_1.20.0.tar.gz
-    - 2154bab4a91402227d9faa94e8eee945
+  md5: 2154bab4a91402227d9faa94e8eee945
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

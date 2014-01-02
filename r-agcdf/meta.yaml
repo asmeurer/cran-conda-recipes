@@ -5,10 +5,10 @@ package:
 source:
   fn: agcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/agcdf_2.13.0.tar.gz
-    - 7ee3097ddd95a77437731edb699ad4e6
+  md5: 7ee3097ddd95a77437731edb699ad4e6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: hgubeta7.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgubeta7.db_2.10.1.tar.gz
-    - 7e6b20f370e7f5f5d0cd19a6efe2c565
+  md5: 7e6b20f370e7f5f5d0cd19a6efe2c565
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

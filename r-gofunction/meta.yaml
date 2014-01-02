@@ -5,10 +5,10 @@ package:
 source:
   fn: GOFunction_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOFunction_1.10.0.tar.gz
-    - abe8bcf279d612d8d6ca44b7441690a7
+  md5: abe8bcf279d612d8d6ca44b7441690a7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

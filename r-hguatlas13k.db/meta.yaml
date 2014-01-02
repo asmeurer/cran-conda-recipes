@@ -5,10 +5,10 @@ package:
 source:
   fn: hguatlas13k.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hguatlas13k.db_2.10.1.tar.gz
-    - 0dc276155395be012aa1a3d7a5301266
+  md5: 0dc276155395be012aa1a3d7a5301266
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

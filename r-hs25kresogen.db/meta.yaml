@@ -5,10 +5,10 @@ package:
 source:
   fn: hs25kresogen.db_2.5.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hs25kresogen.db_2.5.0.tar.gz
-    - a3800d072ce0e5f6f5d8299538b99cca
+  md5: a3800d072ce0e5f6f5d8299538b99cca
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

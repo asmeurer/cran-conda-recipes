@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rcngene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rcngene.1.1.st_3.8.0.tar.gz
-    - 8dc2591ade8bcbe23bfaaae7edd6d430
+  md5: 8dc2591ade8bcbe23bfaaae7edd6d430
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: edgeR_3.4.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/edgeR_3.4.2.tar.gz
-    - d506df9467878c058f36de7df4023f11
+  md5: d506df9467878c058f36de7df4023f11
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: stepwiseCM_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/stepwiseCM_1.8.0.tar.gz
-    - cfb91c85b707bdd37b64b9b3f6aff16c
+  md5: cfb91c85b707bdd37b64b9b3f6aff16c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

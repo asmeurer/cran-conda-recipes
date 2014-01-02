@@ -5,10 +5,10 @@ package:
 source:
   fn: GEWIST_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GEWIST_1.6.0.tar.gz
-    - 152af878a10405a1f8bcfbdefb3e2049
+  md5: 152af878a10405a1f8bcfbdefb3e2049
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

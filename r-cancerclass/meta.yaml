@@ -5,10 +5,10 @@ package:
 source:
   fn: cancerclass_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cancerclass_1.6.0.tar.gz
-    - d6c10065f6673b5c049cac5fae85f44a
+  md5: d6c10065f6673b5c049cac5fae85f44a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

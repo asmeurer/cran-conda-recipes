@@ -5,10 +5,10 @@ package:
 source:
   fn: CSSP_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CSSP_1.0.0.tar.gz
-    - f3619fe57ff4fc0a1a95d8caadc3fd36
+  md5: f3619fe57ff4fc0a1a95d8caadc3fd36
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

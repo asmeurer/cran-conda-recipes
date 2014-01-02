@@ -5,10 +5,10 @@ package:
 source:
   fn: MLInterfaces_1.42.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MLInterfaces_1.42.0.tar.gz
-    - 29992d2d8641defd5c471e6a95c09d01
+  md5: 29992d2d8641defd5c471e6a95c09d01
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

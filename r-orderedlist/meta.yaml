@@ -5,10 +5,10 @@ package:
 source:
   fn: OrderedList_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OrderedList_1.34.0.tar.gz
-    - 0d07778c07df98f919969fe8f12a258c
+  md5: 0d07778c07df98f919969fe8f12a258c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

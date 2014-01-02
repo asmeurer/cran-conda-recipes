@@ -5,10 +5,10 @@ package:
 source:
   fn: drosophila2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/drosophila2probe_2.13.0.tar.gz
-    - 0296d9aa1fab3c0bc8e79ba09cd3ac9a
+  md5: 0296d9aa1fab3c0bc8e79ba09cd3ac9a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: CNVtools_1.56.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNVtools_1.56.0.tar.gz
-    - 732a431e8bd9419bc694f6e4d41c533c
+  md5: 732a431e8bd9419bc694f6e4d41c533c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

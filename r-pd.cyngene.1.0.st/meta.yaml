@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.cyngene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.cyngene.1.0.st_3.8.0.tar.gz
-    - 02fe2e59b79d24ed23cfbd3526761b86
+  md5: 02fe2e59b79d24ed23cfbd3526761b86
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

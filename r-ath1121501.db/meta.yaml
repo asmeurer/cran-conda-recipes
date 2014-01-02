@@ -5,10 +5,10 @@ package:
 source:
   fn: ath1121501.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ath1121501.db_2.10.1.tar.gz
-    - f43914f47b734878f6b5b97df065c433
+  md5: f43914f47b734878f6b5b97df065c433
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

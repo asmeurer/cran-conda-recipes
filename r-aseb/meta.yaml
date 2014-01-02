@@ -5,10 +5,10 @@ package:
 source:
   fn: ASEB_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ASEB_1.6.0.tar.gz
-    - 6673c4aa7d12b960a041b1f28e7093a0
+  md5: 6673c4aa7d12b960a041b1f28e7093a0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

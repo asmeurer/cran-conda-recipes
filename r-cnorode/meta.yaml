@@ -5,10 +5,10 @@ package:
 source:
   fn: CNORode_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNORode_1.4.0.tar.gz
-    - d884581d611336598540af01b30706a9
+  md5: d884581d611336598540af01b30706a9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

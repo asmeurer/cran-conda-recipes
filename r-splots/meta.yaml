@@ -5,10 +5,10 @@ package:
 source:
   fn: splots_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/splots_1.28.0.tar.gz
-    - 859d512c3be1b912101d621978e9618f
+  md5: 859d512c3be1b912101d621978e9618f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

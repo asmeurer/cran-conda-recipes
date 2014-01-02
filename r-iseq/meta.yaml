@@ -5,10 +5,10 @@ package:
 source:
   fn: iSeq_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iSeq_1.14.0.tar.gz
-    - ad010bbdfce74a9bc61a46c63a20c635
+  md5: ad010bbdfce74a9bc61a46c63a20c635
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

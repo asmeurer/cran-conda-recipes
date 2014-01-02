@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneticsPed_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneticsPed_1.24.0.tar.gz
-    - dd3f093a3955b65c698890dc9167481d
+  md5: dd3f093a3955b65c698890dc9167481d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

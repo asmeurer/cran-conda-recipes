@@ -5,10 +5,10 @@ package:
 source:
   fn: DSS_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DSS_1.8.0.tar.gz
-    - 9e9821fb4b7d1fa61a1e7fc3886761b0
+  md5: 9e9821fb4b7d1fa61a1e7fc3886761b0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

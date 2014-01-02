@@ -5,10 +5,10 @@ package:
 source:
   fn: HTSeqGenie_3.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HTSeqGenie_3.12.0.tar.gz
-    - f753dae4845be7ad634ab20a54cff03a
+  md5: f753dae4845be7ad634ab20a54cff03a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

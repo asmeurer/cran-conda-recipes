@@ -5,10 +5,10 @@ package:
 source:
   fn: clusterProfiler_1.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clusterProfiler_1.10.1.tar.gz
-    - 76ef4a98e839764218f08612d80e593d
+  md5: 76ef4a98e839764218f08612d80e593d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

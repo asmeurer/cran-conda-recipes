@@ -5,10 +5,10 @@ package:
 source:
   fn: cqn_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cqn_1.8.0.tar.gz
-    - 100f87bd3f7ec4280ea0d6f22a5b90c3
+  md5: 100f87bd3f7ec4280ea0d6f22a5b90c3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

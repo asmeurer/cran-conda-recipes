@@ -5,10 +5,10 @@ package:
 source:
   fn: categoryCompare_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/categoryCompare_1.6.0.tar.gz
-    - aacd154c87262be23b26e79763e5491c
+  md5: aacd154c87262be23b26e79763e5491c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

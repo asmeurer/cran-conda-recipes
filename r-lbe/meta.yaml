@@ -5,10 +5,10 @@ package:
 source:
   fn: LBE_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LBE_1.30.0.tar.gz
-    - f97fee21916c73083e31be98333a7b46
+  md5: f97fee21916c73083e31be98333a7b46
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

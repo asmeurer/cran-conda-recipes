@@ -5,10 +5,10 @@ package:
 source:
   fn: DASiR_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DASiR_1.2.0.tar.gz
-    - 5b37f574424d8358279bb87fd74dd063
+  md5: 5b37f574424d8358279bb87fd74dd063
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

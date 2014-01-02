@@ -5,10 +5,10 @@ package:
 source:
   fn: ChIPsim_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChIPsim_1.16.0.tar.gz
-    - 6abb58243c097c0a9108f50fff0271d1
+  md5: 6abb58243c097c0a9108f50fff0271d1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse430a2.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse430a2.db_2.10.1.tar.gz
-    - 525c3d0b22fa87f95e8c71d523590bd7
+  md5: 525c3d0b22fa87f95e8c71d523590bd7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

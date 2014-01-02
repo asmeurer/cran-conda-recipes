@@ -5,10 +5,10 @@ package:
 source:
   fn: IlluminaHumanMethylation450kanno.ilmn12.hg19_0.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/IlluminaHumanMethylation450kanno.ilmn12.hg19_0.2.1.tar.gz
-    - 44440967c20414c0c29d60d0bf779ee3
+  md5: 44440967c20414c0c29d60d0bf779ee3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

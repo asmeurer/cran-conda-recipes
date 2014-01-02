@@ -5,10 +5,10 @@ package:
 source:
   fn: CNORfuzzy_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNORfuzzy_1.4.0.tar.gz
-    - 77ab1a715b47182e554eb1a2159fd6d3
+  md5: 77ab1a715b47182e554eb1a2159fd6d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

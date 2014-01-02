@@ -5,10 +5,10 @@ package:
 source:
   fn: org.EcK12.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.EcK12.eg.db_2.10.1.tar.gz
-    - 19fa0afcf178678231e0654a63885f84
+  md5: 19fa0afcf178678231e0654a63885f84
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

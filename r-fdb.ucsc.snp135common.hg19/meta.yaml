@@ -5,10 +5,10 @@ package:
 source:
   fn: FDb.UCSC.snp135common.hg19_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/FDb.UCSC.snp135common.hg19_1.0.0.tar.gz
-    - 0cdca5fa595bb69464016ceb97635f78
+  md5: 0cdca5fa595bb69464016ceb97635f78
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

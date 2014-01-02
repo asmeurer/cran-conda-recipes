@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.moe430b_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.moe430b_1.10.0.tar.gz
-    - a4bc64b07b24bb94e0f06d0693aa7627
+  md5: a4bc64b07b24bb94e0f06d0693aa7627
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

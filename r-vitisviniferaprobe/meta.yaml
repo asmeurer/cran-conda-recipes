@@ -5,10 +5,10 @@ package:
 source:
   fn: vitisviniferaprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/vitisviniferaprobe_2.13.0.tar.gz
-    - 5b975af064dea3df0016732e2e87b204
+  md5: 5b975af064dea3df0016732e2e87b204
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

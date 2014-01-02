@@ -5,10 +5,10 @@ package:
 source:
   fn: GOSemSim_1.20.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOSemSim_1.20.1.tar.gz
-    - 9093a2ca5eddc3717e13c7eb049681c5
+  md5: 9093a2ca5eddc3717e13c7eb049681c5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

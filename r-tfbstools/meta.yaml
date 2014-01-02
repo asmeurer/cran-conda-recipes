@@ -5,10 +5,10 @@ package:
 source:
   fn: TFBSTools_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TFBSTools_1.0.0.tar.gz
-    - 05016c8dc11c5520eb9286d5c14556f6
+  md5: 05016c8dc11c5520eb9286d5c14556f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ProCoNA_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ProCoNA_1.0.0.tar.gz
-    - 56b5aaa709b43262f4dbe71c333612ee
+  md5: 56b5aaa709b43262f4dbe71c333612ee
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

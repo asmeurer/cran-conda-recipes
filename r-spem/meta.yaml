@@ -5,10 +5,10 @@ package:
 source:
   fn: SPEM_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SPEM_1.2.0.tar.gz
-    - 73f697a0bcc5295931adf43b77d1cc4f
+  md5: 73f697a0bcc5295931adf43b77d1cc4f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

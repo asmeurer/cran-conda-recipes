@@ -5,10 +5,10 @@ package:
 source:
   fn: rnu34cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rnu34cdf_2.13.0.tar.gz
-    - 1d128ca2f91e0ce0106cf6ad8d478760
+  md5: 1d128ca2f91e0ce0106cf6ad8d478760
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

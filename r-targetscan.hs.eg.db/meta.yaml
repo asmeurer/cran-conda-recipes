@@ -5,10 +5,10 @@ package:
 source:
   fn: targetscan.Hs.eg.db_0.6.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/targetscan.Hs.eg.db_0.6.1.tar.gz
-    - d10569315400f6c1b95ad2688632b6de
+  md5: d10569315400f6c1b95ad2688632b6de
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

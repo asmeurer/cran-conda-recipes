@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu95bprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95bprobe_2.13.0.tar.gz
-    - bdd0c966d102e70c26fbe4670a90f15b
+  md5: bdd0c966d102e70c26fbe4670a90f15b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

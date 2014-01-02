@@ -5,10 +5,10 @@ package:
 source:
   fn: ssize_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ssize_1.36.0.tar.gz
-    - f6708a69703ffa006803d826323bdf53
+  md5: f6708a69703ffa006803d826323bdf53
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

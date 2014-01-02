@@ -5,10 +5,10 @@ package:
 source:
   fn: hivprtplus2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hivprtplus2cdf_2.13.0.tar.gz
-    - a1c3d2e8d511d7be4f72a86794cce7a6
+  md5: a1c3d2e8d511d7be4f72a86794cce7a6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

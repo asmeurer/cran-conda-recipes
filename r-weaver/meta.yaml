@@ -5,10 +5,10 @@ package:
 source:
   fn: weaver_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/weaver_1.28.0.tar.gz
-    - a16c51036cdbc9bd75b0e57c68bb91cb
+  md5: a16c51036cdbc9bd75b0e57c68bb91cb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

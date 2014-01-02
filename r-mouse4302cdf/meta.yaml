@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse4302cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse4302cdf_2.13.0.tar.gz
-    - 711f796fbdf4b88f65eec217b311fe4a
+  md5: 711f796fbdf4b88f65eec217b311fe4a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

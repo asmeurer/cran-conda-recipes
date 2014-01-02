@@ -5,10 +5,10 @@ package:
 source:
   fn: qpcrNorm_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qpcrNorm_1.20.0.tar.gz
-    - 707caaabc9d1f0f1bb5d1af63cea9b0d
+  md5: 707caaabc9d1f0f1bb5d1af63cea9b0d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

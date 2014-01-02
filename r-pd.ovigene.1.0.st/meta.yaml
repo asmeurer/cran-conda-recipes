@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ovigene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ovigene.1.0.st_3.8.0.tar.gz
-    - 7aab7c68ae624edce2b8cb9ee9abfab8
+  md5: 7aab7c68ae624edce2b8cb9ee9abfab8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

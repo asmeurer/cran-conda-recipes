@@ -5,10 +5,10 @@ package:
 source:
   fn: tomatoprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/tomatoprobe_2.13.0.tar.gz
-    - 168bfdc2936f2e55f66e99e78e1da004
+  md5: 168bfdc2936f2e55f66e99e78e1da004
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

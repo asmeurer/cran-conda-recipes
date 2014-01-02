@@ -5,10 +5,10 @@ package:
 source:
   fn: ecoli2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoli2cdf_2.13.0.tar.gz
-    - bdfac90695bbdf6885be3570c2164f88
+  md5: bdfac90695bbdf6885be3570c2164f88
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

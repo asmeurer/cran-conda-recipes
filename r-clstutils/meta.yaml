@@ -5,10 +5,10 @@ package:
 source:
   fn: clstutils_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clstutils_1.10.0.tar.gz
-    - d0a2ba1f8aa5bb774b6523deb2d0369c
+  md5: d0a2ba1f8aa5bb774b6523deb2d0369c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

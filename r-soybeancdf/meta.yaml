@@ -5,10 +5,10 @@ package:
 source:
   fn: soybeancdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/soybeancdf_2.13.0.tar.gz
-    - 1e41073c84fa854f50164b3557311e1d
+  md5: 1e41073c84fa854f50164b3557311e1d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

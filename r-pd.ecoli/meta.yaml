@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ecoli_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ecoli_1.10.0.tar.gz
-    - 52c7bc0f4dded823151990d4f44a86b4
+  md5: 52c7bc0f4dded823151990d4f44a86b4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

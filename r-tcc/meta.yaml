@@ -5,10 +5,10 @@ package:
 source:
   fn: TCC_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TCC_1.2.0.tar.gz
-    - 271da5318b89a03a009849181685d038
+  md5: 271da5318b89a03a009849181685d038
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

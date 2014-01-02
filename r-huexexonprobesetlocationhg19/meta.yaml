@@ -5,10 +5,10 @@ package:
 source:
   fn: HuExExonProbesetLocationHg19_0.0.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/HuExExonProbesetLocationHg19_0.0.3.tar.gz
-    - 1a3843c95c82dc71a043d902961ba33a
+  md5: 1a3843c95c82dc71a043d902961ba33a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

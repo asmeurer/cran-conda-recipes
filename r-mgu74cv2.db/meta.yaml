@@ -5,10 +5,10 @@ package:
 source:
   fn: mgu74cv2.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgu74cv2.db_2.10.1.tar.gz
-    - 3147f671ec721d255a4e57db1db82714
+  md5: 3147f671ec721d255a4e57db1db82714
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

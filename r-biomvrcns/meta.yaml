@@ -5,10 +5,10 @@ package:
 source:
   fn: biomvRCNS_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biomvRCNS_1.2.0.tar.gz
-    - cbe48661fc23c82ef6faca64a6278ad3
+  md5: cbe48661fc23c82ef6faca64a6278ad3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

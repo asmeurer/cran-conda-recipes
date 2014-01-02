@@ -5,10 +5,10 @@ package:
 source:
   fn: zebrafish.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/zebrafish.db_2.10.1.tar.gz
-    - bfe11c63e8a0f73094a67eeddae422e2
+  md5: bfe11c63e8a0f73094a67eeddae422e2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: gaga_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gaga_2.8.0.tar.gz
-    - f22d24daf95e384cb95d246a2b61e1d0
+  md5: f22d24daf95e384cb95d246a2b61e1d0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

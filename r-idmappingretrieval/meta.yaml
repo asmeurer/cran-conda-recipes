@@ -5,10 +5,10 @@ package:
 source:
   fn: IdMappingRetrieval_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IdMappingRetrieval_1.8.0.tar.gz
-    - dd2b555a5b3bf516368c46215612bf86
+  md5: dd2b555a5b3bf516368c46215612bf86
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

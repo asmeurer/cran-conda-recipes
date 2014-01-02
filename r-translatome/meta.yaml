@@ -5,10 +5,10 @@ package:
 source:
   fn: tRanslatome_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tRanslatome_1.0.0.tar.gz
-    - f07f27e99b9a64bd37ce32714380749e
+  md5: f07f27e99b9a64bd37ce32714380749e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

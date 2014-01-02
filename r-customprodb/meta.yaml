@@ -5,10 +5,10 @@ package:
 source:
   fn: customProDB_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/customProDB_1.2.0.tar.gz
-    - 918bbc81c3d2381d2dfc72fd510b095f
+  md5: 918bbc81c3d2381d2dfc72fd510b095f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

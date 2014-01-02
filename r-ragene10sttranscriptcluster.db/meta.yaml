@@ -5,10 +5,10 @@ package:
 source:
   fn: ragene10sttranscriptcluster.db_7.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene10sttranscriptcluster.db_7.0.1.tar.gz
-    - 3a1b9484080554bf114b1075cac40928
+  md5: 3a1b9484080554bf114b1075cac40928
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

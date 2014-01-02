@@ -5,10 +5,10 @@ package:
 source:
   fn: Rstem_0.4-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Rstem_0.4-1.tar.gz
-    - 889cd107b32a266f146b92daecff1101
+  md5: 889cd107b32a266f146b92daecff1101
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

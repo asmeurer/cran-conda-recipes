@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Athaliana.TAIR.TAIR9_1.3.18.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Athaliana.TAIR.TAIR9_1.3.18.tar.gz
-    - 01cb331b6961ce62aa212b576d0cbf94
+  md5: 01cb331b6961ce62aa212b576d0cbf94
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

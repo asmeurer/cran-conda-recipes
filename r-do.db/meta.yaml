@@ -5,7 +5,7 @@ package:
 source:
   fn: DO.db_2.7.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/DO.db_2.7.tar.gz
-    - 6274b0127a7ea46f11623240c169496e
+  md5: 6274b0127a7ea46f11623240c169496e
 
 build:
   number: 0

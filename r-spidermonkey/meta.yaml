@@ -5,10 +5,10 @@ package:
 source:
   fn: SpiderMonkey_0.2-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/SpiderMonkey_0.2-0.tar.gz
-    - f8694731de772ce61dac45aaab4fabe7
+  md5: f8694731de772ce61dac45aaab4fabe7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

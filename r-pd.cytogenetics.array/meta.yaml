@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.cytogenetics.array_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.cytogenetics.array_1.10.0.tar.gz
-    - e0a6bcdcc393c0f862a34149ed324d61
+  md5: e0a6bcdcc393c0f862a34149ed324d61
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

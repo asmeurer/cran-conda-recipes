@@ -5,10 +5,10 @@ package:
 source:
   fn: Mfuzz_2.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Mfuzz_2.20.0.tar.gz
-    - aa3e56308dd75753b2a66cc8c2319f38
+  md5: aa3e56308dd75753b2a66cc8c2319f38
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

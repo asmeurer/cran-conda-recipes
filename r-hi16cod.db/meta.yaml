@@ -5,10 +5,10 @@ package:
 source:
   fn: hi16cod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hi16cod.db_2.17.0.tar.gz
-    - 1c47264a3fae861fe189a2332360457b
+  md5: 1c47264a3fae861fe189a2332360457b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

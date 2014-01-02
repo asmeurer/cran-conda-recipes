@@ -5,10 +5,10 @@ package:
 source:
   fn: BayesPeak_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BayesPeak_1.14.0.tar.gz
-    - dff4f1be832052b7dd16338ba117b662
+  md5: dff4f1be832052b7dd16338ba117b662
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

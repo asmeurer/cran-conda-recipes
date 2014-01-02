@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.citrus_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.citrus_1.10.0.tar.gz
-    - 6452922b28d6cd0566f144275ee1e061
+  md5: 6452922b28d6cd0566f144275ee1e061
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: HTqPCR_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HTqPCR_1.16.0.tar.gz
-    - 335ebc98c793eaba1ba8d2aab8a77e00
+  md5: 335ebc98c793eaba1ba8d2aab8a77e00
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

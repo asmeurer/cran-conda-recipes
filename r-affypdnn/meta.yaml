@@ -5,10 +5,10 @@ package:
 source:
   fn: affypdnn_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affypdnn_1.36.0.tar.gz
-    - d9d20dc844c04dc65c02945de1ebd7d1
+  md5: d9d20dc844c04dc65c02945de1ebd7d1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

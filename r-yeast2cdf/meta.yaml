@@ -5,10 +5,10 @@ package:
 source:
   fn: yeast2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/yeast2cdf_2.13.0.tar.gz
-    - da6bc01a10c5a31058f51da77efbbed5
+  md5: da6bc01a10c5a31058f51da77efbbed5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: DESeq2_1.2.8.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DESeq2_1.2.8.tar.gz
-    - a76c0d8132ae91ab274f38619dcd3bac
+  md5: a76c0d8132ae91ab274f38619dcd3bac
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

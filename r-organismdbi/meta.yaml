@@ -5,10 +5,10 @@ package:
 source:
   fn: OrganismDbi_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OrganismDbi_1.4.0.tar.gz
-    - 76755b127b1800d08a0562353c8722b0
+  md5: 76755b127b1800d08a0562353c8722b0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

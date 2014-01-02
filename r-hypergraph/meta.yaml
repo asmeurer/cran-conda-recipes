@@ -5,10 +5,10 @@ package:
 source:
   fn: hypergraph_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hypergraph_1.34.0.tar.gz
-    - 87eb072cdc797b50555829399a2bdf2f
+  md5: 87eb072cdc797b50555829399a2bdf2f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

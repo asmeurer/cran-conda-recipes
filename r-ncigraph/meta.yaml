@@ -5,10 +5,10 @@ package:
 source:
   fn: NCIgraph_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NCIgraph_1.10.0.tar.gz
-    - d253c2d988490447c01599451b112770
+  md5: d253c2d988490447c01599451b112770
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

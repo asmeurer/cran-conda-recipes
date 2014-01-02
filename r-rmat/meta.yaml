@@ -5,10 +5,10 @@ package:
 source:
   fn: rMAT_3.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rMAT_3.12.0.tar.gz
-    - cf0e9c84454829e746d927929b74b5f6
+  md5: cf0e9c84454829e746d927929b74b5f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

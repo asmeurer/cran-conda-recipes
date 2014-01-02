@@ -5,10 +5,10 @@ package:
 source:
   fn: OCplus_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OCplus_1.36.0.tar.gz
-    - 9979823ea49697c5eae74f93a5c1f45c
+  md5: 9979823ea49697c5eae74f93a5c1f45c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

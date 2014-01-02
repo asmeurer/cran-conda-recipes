@@ -5,10 +5,10 @@ package:
 source:
   fn: chicken.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/chicken.db0_2.10.1.tar.gz
-    - 4da51554835e222cfd8a7bf251fb451a
+  md5: 4da51554835e222cfd8a7bf251fb451a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

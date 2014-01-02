@@ -5,10 +5,10 @@ package:
 source:
   fn: rgu34c.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rgu34c.db_2.10.1.tar.gz
-    - 282c62bd533737fe9df79b59142ccd16
+  md5: 282c62bd533737fe9df79b59142ccd16
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ExpressionView_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ExpressionView_1.14.0.tar.gz
-    - e31903f8da9f509bc3f1dc8519756ffb
+  md5: e31903f8da9f509bc3f1dc8519756ffb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

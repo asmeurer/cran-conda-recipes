@@ -5,10 +5,10 @@ package:
 source:
   fn: hthgu133pluspmcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hthgu133pluspmcdf_2.13.0.tar.gz
-    - ac8421d186247b3a5c606a9156e58aa6
+  md5: ac8421d186247b3a5c606a9156e58aa6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

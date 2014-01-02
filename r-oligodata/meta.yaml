@@ -5,10 +5,10 @@ package:
 source:
   fn: oligoData_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/oligoData_1.8.0.tar.gz
-    - 9625cfd4b31bb575c4029a0632a7ee12
+  md5: 9625cfd4b31bb575c4029a0632a7ee12
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

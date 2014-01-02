@@ -5,10 +5,10 @@ package:
 source:
   fn: IPPD_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IPPD_1.10.0.tar.gz
-    - 5b163900123662a782f00fe364d1866a
+  md5: 5b163900123662a782f00fe364d1866a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

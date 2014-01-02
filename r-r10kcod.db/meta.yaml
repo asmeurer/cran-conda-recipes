@@ -5,10 +5,10 @@ package:
 source:
   fn: r10kcod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/r10kcod.db_2.17.0.tar.gz
-    - 7abf3a87451c68d6cffc26b32be93215
+  md5: 7abf3a87451c68d6cffc26b32be93215
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

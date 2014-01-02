@@ -5,10 +5,10 @@ package:
 source:
   fn: cellHTS_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cellHTS_1.32.0.tar.gz
-    - b1f6c895ed0c4d5012db68277ff61e18
+  md5: b1f6c895ed0c4d5012db68277ff61e18
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

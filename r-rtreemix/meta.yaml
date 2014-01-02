@@ -5,10 +5,10 @@ package:
 source:
   fn: Rtreemix_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rtreemix_1.24.0.tar.gz
-    - cb45d454f00d422026b5967dbbbfa131
+  md5: cb45d454f00d422026b5967dbbbfa131
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

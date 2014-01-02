@@ -5,10 +5,10 @@ package:
 source:
   fn: HTSFilter_1.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HTSFilter_1.2.1.tar.gz
-    - 133f501e252c40081a3c2bd9e2c80937
+  md5: 133f501e252c40081a3c2bd9e2c80937
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

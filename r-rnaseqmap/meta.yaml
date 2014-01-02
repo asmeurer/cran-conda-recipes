@@ -5,10 +5,10 @@ package:
 source:
   fn: rnaSeqMap_2.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rnaSeqMap_2.18.0.tar.gz
-    - cc04fdd43e3e97cf0761749ac8419f0e
+  md5: cc04fdd43e3e97cf0761749ac8419f0e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

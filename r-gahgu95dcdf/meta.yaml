@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu95dcdf_2.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95dcdf_2.2.1.tar.gz
-    - be6f79bb7f4200f4f7cc103801720adc
+  md5: be6f79bb7f4200f4f7cc103801720adc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: Rchemcpp_2.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rchemcpp_2.0.1.tar.gz
-    - 15a4043bb828fd4a12ac006039e3ef92
+  md5: 15a4043bb828fd4a12ac006039e3ef92
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

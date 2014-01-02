@@ -5,10 +5,10 @@ package:
 source:
   fn: GSVA_1.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSVA_1.10.1.tar.gz
-    - 3212a3b551ebdb0f8d09dd479d3b8479
+  md5: 3212a3b551ebdb0f8d09dd479d3b8479
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: biocViews_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biocViews_1.30.0.tar.gz
-    - fbd3dd686aeaa7bef84cc9696379de06
+  md5: fbd3dd686aeaa7bef84cc9696379de06
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

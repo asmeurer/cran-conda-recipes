@@ -5,10 +5,10 @@ package:
 source:
   fn: RNYTimes_0.1-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RNYTimes_0.1-1.tar.gz
-    - 6a2807c5faf18f027600b643b056382b
+  md5: 6a2807c5faf18f027600b643b056382b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

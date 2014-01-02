@@ -5,10 +5,10 @@ package:
 source:
   fn: maSigPro_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/maSigPro_1.34.0.tar.gz
-    - 6930d6adcb2b6ccd74001473c7ed67df
+  md5: 6930d6adcb2b6ccd74001473c7ed67df
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

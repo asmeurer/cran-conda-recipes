@@ -5,10 +5,10 @@ package:
 source:
   fn: OperonHumanV3.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/OperonHumanV3.db_2.10.1.tar.gz
-    - 1d90b088d7166b3914e7c4826eef0abb
+  md5: 1d90b088d7166b3914e7c4826eef0abb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

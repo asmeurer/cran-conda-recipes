@@ -5,10 +5,10 @@ package:
 source:
   fn: ROpenOffice_0.4-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/ROpenOffice_0.4-1.tar.gz
-    - 00e31f864cb2f93de92983286a0b2e0b
+  md5: 00e31f864cb2f93de92983286a0b2e0b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

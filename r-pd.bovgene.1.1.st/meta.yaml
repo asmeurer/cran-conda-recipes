@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.bovgene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.bovgene.1.1.st_3.8.0.tar.gz
-    - 8156097f6a9930cf51729cf0fbaf9e2c
+  md5: 8156097f6a9930cf51729cf0fbaf9e2c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

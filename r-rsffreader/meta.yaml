@@ -5,10 +5,10 @@ package:
 source:
   fn: rSFFreader_0.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rSFFreader_0.10.0.tar.gz
-    - 968b08a748bdc6095618128f62c8213a
+  md5: 968b08a748bdc6095618128f62c8213a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

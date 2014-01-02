@@ -5,10 +5,10 @@ package:
 source:
   fn: MSstats_2.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MSstats_2.0.0.tar.gz
-    - 17b519ec52b1b8ecaf23ba6c8aa80af6
+  md5: 17b519ec52b1b8ecaf23ba6c8aa80af6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ChemmineR_2.14.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChemmineR_2.14.2.tar.gz
-    - 16050e3fbbb0587c6ec133e38722664e
+  md5: 16050e3fbbb0587c6ec133e38722664e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

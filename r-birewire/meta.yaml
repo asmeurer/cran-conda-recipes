@@ -5,10 +5,10 @@ package:
 source:
   fn: BiRewire_1.2.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiRewire_1.2.2.tar.gz
-    - 40309f383af4d5d69c46179d431a44a9
+  md5: 40309f383af4d5d69c46179d431a44a9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: SVGAnnotation_0.93-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/SVGAnnotation_0.93-1.tar.gz
-    - d730b05b7ca7105bca9308e4770bc09c
+  md5: d730b05b7ca7105bca9308e4770bc09c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

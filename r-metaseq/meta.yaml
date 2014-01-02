@@ -5,10 +5,10 @@ package:
 source:
   fn: metaSeq_1.2.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/metaSeq_1.2.2.tar.gz
-    - 0bfb2ae672ed8fa6e019647ea527f697
+  md5: 0bfb2ae672ed8fa6e019647ea527f697
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Hs.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Hs.eg.db_2.10.1.tar.gz
-    - aae92ab4dc66629fd30571ab15bb6dda
+  md5: aae92ab4dc66629fd30571ab15bb6dda
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

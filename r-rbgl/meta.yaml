@@ -5,10 +5,10 @@ package:
 source:
   fn: RBGL_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RBGL_1.38.0.tar.gz
-    - f7d8dc8c3bede64e8d41d25b951f304e
+  md5: f7d8dc8c3bede64e8d41d25b951f304e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

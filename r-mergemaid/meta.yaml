@@ -5,10 +5,10 @@ package:
 source:
   fn: MergeMaid_2.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MergeMaid_2.34.0.tar.gz
-    - c736e21bae8ec6b2a3e8b1e24c7bc509
+  md5: c736e21bae8ec6b2a3e8b1e24c7bc509
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

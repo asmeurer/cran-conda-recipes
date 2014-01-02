@@ -5,10 +5,10 @@ package:
 source:
   fn: human660quadv1aCrlmm_1.0.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human660quadv1aCrlmm_1.0.3.tar.gz
-    - 5fd2d94a462e150c888f13c5c0975c36
+  md5: 5fd2d94a462e150c888f13c5c0975c36
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

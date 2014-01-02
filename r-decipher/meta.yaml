@@ -5,10 +5,10 @@ package:
 source:
   fn: DECIPHER_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DECIPHER_1.8.0.tar.gz
-    - 604b267ba1e6bf824494c835c5a5dee0
+  md5: 604b267ba1e6bf824494c835c5a5dee0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: altcdfenvs_2.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/altcdfenvs_2.24.0.tar.gz
-    - 7ca0c6dd18dc5cb9a347f9afdef36d8f
+  md5: 7ca0c6dd18dc5cb9a347f9afdef36d8f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

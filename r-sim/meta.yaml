@@ -5,10 +5,10 @@ package:
 source:
   fn: SIM_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SIM_1.32.0.tar.gz
-    - 1b8976e860df3277743e70b323cc521d
+  md5: 1b8976e860df3277743e70b323cc521d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

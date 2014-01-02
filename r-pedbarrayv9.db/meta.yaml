@@ -5,10 +5,10 @@ package:
 source:
   fn: pedbarrayv9.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pedbarrayv9.db_2.10.1.tar.gz
-    - dbf5030081e1079304e41403037b119e
+  md5: dbf5030081e1079304e41403037b119e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

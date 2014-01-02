@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Ptroglodytes.UCSC.panTro3_1.3.17.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Ptroglodytes.UCSC.panTro3_1.3.17.tar.gz
-    - 8d9fa02efb627dbdb5e4c1ee1ba919fa
+  md5: 8d9fa02efb627dbdb5e4c1ee1ba919fa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

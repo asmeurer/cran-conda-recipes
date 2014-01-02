@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu133aprobe_2.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu133aprobe_2.2.1.tar.gz
-    - e52eabbb4e0f100fb992a9179b92de77
+  md5: e52eabbb4e0f100fb992a9179b92de77
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

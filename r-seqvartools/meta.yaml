@@ -5,10 +5,10 @@ package:
 source:
   fn: SeqVarTools_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SeqVarTools_1.0.0.tar.gz
-    - 7da31ff9ac5b01d4c78785248183a5e7
+  md5: 7da31ff9ac5b01d4c78785248183a5e7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ctc_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ctc_1.36.0.tar.gz
-    - b73c504189fb04abe916b2365a2c1873
+  md5: b73c504189fb04abe916b2365a2c1873
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

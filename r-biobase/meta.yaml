@@ -5,10 +5,10 @@ package:
 source:
   fn: Biobase_2.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.22.0.tar.gz
-    - 97b4dd96418b87b47d62c955d54924b7
+  md5: 97b4dd96418b87b47d62c955d54924b7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

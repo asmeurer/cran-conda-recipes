@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hg18.60mer.expr_3.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hg18.60mer.expr_3.4.0.tar.gz
-    - eb4515a6ddd6a42c8a4492a4f2f49db9
+  md5: eb4515a6ddd6a42c8a4492a4f2f49db9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

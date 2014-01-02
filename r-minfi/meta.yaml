@@ -5,10 +5,10 @@ package:
 source:
   fn: minfi_1.8.9.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/minfi_1.8.9.tar.gz
-    - a6483d427a80a1af21b73f8e6b5a1537
+  md5: a6483d427a80a1af21b73f8e6b5a1537
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

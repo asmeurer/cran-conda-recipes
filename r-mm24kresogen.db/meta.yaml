@@ -5,10 +5,10 @@ package:
 source:
   fn: mm24kresogen.db_2.5.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mm24kresogen.db_2.5.0.tar.gz
-    - 437f5d4bc225ee500af1ecc2d4da472b
+  md5: 437f5d4bc225ee500af1ecc2d4da472b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

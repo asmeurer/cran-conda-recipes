@@ -5,10 +5,10 @@ package:
 source:
   fn: GLAD_2.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GLAD_2.26.0.tar.gz
-    - 46d601622f6b03e752a4dd883e04cab6
+  md5: 46d601622f6b03e752a4dd883e04cab6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu95ccdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95ccdf_2.13.0.tar.gz
-    - f200d8abfe099a5c4f4aed518a06014b
+  md5: f200d8abfe099a5c4f4aed518a06014b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

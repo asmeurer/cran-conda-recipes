@@ -5,10 +5,10 @@ package:
 source:
   fn: bumphunter_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bumphunter_1.2.0.tar.gz
-    - e4abf997b3a877753860a719b69cdd7e
+  md5: e4abf997b3a877753860a719b69cdd7e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

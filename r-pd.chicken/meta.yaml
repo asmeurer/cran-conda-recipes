@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.chicken_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.chicken_1.10.0.tar.gz
-    - 3d62eaca628241101cf1d71393e8b655
+  md5: 3d62eaca628241101cf1d71393e8b655
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

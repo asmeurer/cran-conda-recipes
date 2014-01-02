@@ -5,10 +5,10 @@ package:
 source:
   fn: XMLRPC_0.3-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/XMLRPC_0.3-0.tar.gz
-    - 91df53f13c782ab2ea4642bb309ee0f6
+  md5: 91df53f13c782ab2ea4642bb309ee0f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

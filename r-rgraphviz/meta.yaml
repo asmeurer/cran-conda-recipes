@@ -5,10 +5,10 @@ package:
 source:
   fn: Rgraphviz_2.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rgraphviz_2.6.0.tar.gz
-    - 8d7c6d1816ddcdc403c32a972046ebd7
+  md5: 8d7c6d1816ddcdc403c32a972046ebd7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

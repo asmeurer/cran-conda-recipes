@@ -5,10 +5,10 @@ package:
 source:
   fn: rae230aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rae230aprobe_2.13.0.tar.gz
-    - 68f5551fbc85b5158d1ae1f47a600503
+  md5: 68f5551fbc85b5158d1ae1f47a600503
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

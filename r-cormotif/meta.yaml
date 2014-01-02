@@ -5,10 +5,10 @@ package:
 source:
   fn: Cormotif_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Cormotif_1.8.0.tar.gz
-    - fdbb0e9717f1b3c7de86e1eedeee7384
+  md5: fdbb0e9717f1b3c7de86e1eedeee7384
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Ecoli.NCBI.20080805_1.3.17.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Ecoli.NCBI.20080805_1.3.17.tar.gz
-    - 4d161519c43130cd916583d5f68982e8
+  md5: 4d161519c43130cd916583d5f68982e8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

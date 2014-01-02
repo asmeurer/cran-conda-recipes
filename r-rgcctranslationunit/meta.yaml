@@ -5,10 +5,10 @@ package:
 source:
   fn: RGCCTranslationUnit_0.6-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RGCCTranslationUnit_0.6-0.tar.gz
-    - 3104ecf243eeac4959bb96809c1bbc1e
+  md5: 3104ecf243eeac4959bb96809c1bbc1e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

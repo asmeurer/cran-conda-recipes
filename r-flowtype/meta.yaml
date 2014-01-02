@@ -5,10 +5,10 @@ package:
 source:
   fn: flowType_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowType_2.2.0.tar.gz
-    - bb350e0531377955e4fad4290c1ecc5f
+  md5: bb350e0531377955e4fad4290c1ecc5f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

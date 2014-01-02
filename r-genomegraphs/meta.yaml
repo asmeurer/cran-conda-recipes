@@ -5,10 +5,10 @@ package:
 source:
   fn: GenomeGraphs_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GenomeGraphs_1.22.0.tar.gz
-    - 2af96c5bff1723ec1608b1bbf1589489
+  md5: 2af96c5bff1723ec1608b1bbf1589489
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

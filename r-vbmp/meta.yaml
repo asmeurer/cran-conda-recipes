@@ -5,10 +5,10 @@ package:
 source:
   fn: vbmp_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/vbmp_1.30.0.tar.gz
-    - 5e3edc33e97eac11c12d151cfcc12dac
+  md5: 5e3edc33e97eac11c12d151cfcc12dac
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

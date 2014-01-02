@@ -5,10 +5,10 @@ package:
 source:
   fn: lol_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/lol_1.10.0.tar.gz
-    - c451032c54eb9f8f3d698509a8abcff1
+  md5: c451032c54eb9f8f3d698509a8abcff1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

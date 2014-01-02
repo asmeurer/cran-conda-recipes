@@ -5,10 +5,10 @@ package:
 source:
   fn: bigmemoryExtras_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bigmemoryExtras_1.6.0.tar.gz
-    - c52c2537a5ea93596fc4ea2582737e3a
+  md5: c52c2537a5ea93596fc4ea2582737e3a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

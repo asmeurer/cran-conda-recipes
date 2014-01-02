@@ -5,10 +5,10 @@ package:
 source:
   fn: DOSE_2.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DOSE_2.0.0.tar.gz
-    - c66fc205ff4da92f75243868a5b4930f
+  md5: c66fc205ff4da92f75243868a5b4930f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

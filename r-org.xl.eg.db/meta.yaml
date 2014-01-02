@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Xl.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Xl.eg.db_2.10.1.tar.gz
-    - 49f1584263a2045652655a68630a963b
+  md5: 49f1584263a2045652655a68630a963b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

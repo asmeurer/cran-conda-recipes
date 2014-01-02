@@ -5,10 +5,10 @@ package:
 source:
   fn: gage_2.12.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gage_2.12.1.tar.gz
-    - 859feb3031be7d09c8735b31954fd472
+  md5: 859feb3031be7d09c8735b31954fd472
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

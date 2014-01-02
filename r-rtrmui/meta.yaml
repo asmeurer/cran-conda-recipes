@@ -5,10 +5,10 @@ package:
 source:
   fn: rTRMui_1.0.4.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rTRMui_1.0.4.tar.gz
-    - c4a68ea36e872e00117256eb14c0cfda
+  md5: c4a68ea36e872e00117256eb14c0cfda
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

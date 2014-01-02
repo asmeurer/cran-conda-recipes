@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.barley1_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.barley1_1.10.0.tar.gz
-    - 5b8826c3d9fa0e5711001f8f66d70ee6
+  md5: 5b8826c3d9fa0e5711001f8f66d70ee6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

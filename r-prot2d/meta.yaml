@@ -5,10 +5,10 @@ package:
 source:
   fn: prot2D_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/prot2D_1.0.0.tar.gz
-    - 5fe45b000c416100c02547b2111443b6
+  md5: 5fe45b000c416100c02547b2111443b6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

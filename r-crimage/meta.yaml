@@ -5,10 +5,10 @@ package:
 source:
   fn: CRImage_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CRImage_1.10.0.tar.gz
-    - 3d591dc4784979d768b73c1f32df2c84
+  md5: 3d591dc4784979d768b73c1f32df2c84
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

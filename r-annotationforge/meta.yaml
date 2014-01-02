@@ -5,10 +5,10 @@ package:
 source:
   fn: AnnotationForge_1.4.4.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AnnotationForge_1.4.4.tar.gz
-    - 89efc9d7879b9be9f8cc35d510d5d857
+  md5: 89efc9d7879b9be9f8cc35d510d5d857
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

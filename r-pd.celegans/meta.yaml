@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.celegans_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.celegans_1.10.0.tar.gz
-    - 6322623992ba30d7615b062f2b014b15
+  md5: 6322623992ba30d7615b062f2b014b15
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

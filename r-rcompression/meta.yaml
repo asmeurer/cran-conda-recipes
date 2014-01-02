@@ -5,10 +5,10 @@ package:
 source:
   fn: Rcompression_0.94-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Rcompression_0.94-0.tar.gz
-    - 2676a370744ce426baf4909f09f9086a
+  md5: 2676a370744ce426baf4909f09f9086a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: CAMERA_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CAMERA_1.18.0.tar.gz
-    - f78029f0b0c4de88ec234bbc67b0acf3
+  md5: f78029f0b0c4de88ec234bbc67b0acf3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: RGalaxy_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RGalaxy_1.6.0.tar.gz
-    - c19da7d923e6d2217148008d5e8c4f1b
+  md5: c19da7d923e6d2217148008d5e8c4f1b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ag.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ag.db_2.10.1.tar.gz
-    - 0f410617f2bfe6e1f2a2fd13cef1ba84
+  md5: 0f410617f2bfe6e1f2a2fd13cef1ba84
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

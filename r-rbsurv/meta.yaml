@@ -5,10 +5,10 @@ package:
 source:
   fn: rbsurv_2.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rbsurv_2.20.0.tar.gz
-    - 2e7976e8ec8dc0e8c4953cd861fc5228
+  md5: 2e7976e8ec8dc0e8c4953cd861fc5228
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

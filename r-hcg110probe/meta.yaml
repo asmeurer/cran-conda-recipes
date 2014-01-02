@@ -5,10 +5,10 @@ package:
 source:
   fn: hcg110probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hcg110probe_2.13.0.tar.gz
-    - dfe9adce4993ce4794f5c0e8a8083168
+  md5: dfe9adce4993ce4794f5c0e8a8083168
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

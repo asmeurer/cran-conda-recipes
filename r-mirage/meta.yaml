@@ -5,10 +5,10 @@ package:
 source:
   fn: MiRaGE_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MiRaGE_1.4.0.tar.gz
-    - b39cbce34fb21e950f758c95d63d707c
+  md5: b39cbce34fb21e950f758c95d63d707c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

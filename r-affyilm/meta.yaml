@@ -5,10 +5,10 @@ package:
 source:
   fn: affyILM_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyILM_1.14.0.tar.gz
-    - 4413daa494796e5f9437d4bbcb2296db
+  md5: 4413daa494796e5f9437d4bbcb2296db
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

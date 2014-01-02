@@ -5,10 +5,10 @@ package:
 source:
   fn: ABarray_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ABarray_1.30.0.tar.gz
-    - 7a7d391abafe914f7e9d1195b39a2b53
+  md5: 7a7d391abafe914f7e9d1195b39a2b53
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

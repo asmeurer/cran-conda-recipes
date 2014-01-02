@@ -5,10 +5,10 @@ package:
 source:
   fn: HsAgilentDesign026652.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/HsAgilentDesign026652.db_2.10.1.tar.gz
-    - 0756596cbcef61cfc5adaf43582a675a
+  md5: 0756596cbcef61cfc5adaf43582a675a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

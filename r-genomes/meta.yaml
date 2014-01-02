@@ -5,10 +5,10 @@ package:
 source:
   fn: genomes_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genomes_2.8.0.tar.gz
-    - 7ab9665c6ba2bbb35c263f9795695df1
+  md5: 7ab9665c6ba2bbb35c263f9795695df1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: SWinTypeLibs_0.5-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/SWinTypeLibs_0.5-0.tar.gz
-    - b5bf5cda54180552391e075d58f279fc
+  md5: b5bf5cda54180552391e075d58f279fc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

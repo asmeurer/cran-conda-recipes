@@ -5,10 +5,10 @@ package:
 source:
   fn: matchBox_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/matchBox_1.4.0.tar.gz
-    - 15b20c1228682759e9565c094b7a6c0e
+  md5: 15b20c1228682759e9565c094b7a6c0e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

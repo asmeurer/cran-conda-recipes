@@ -5,10 +5,10 @@ package:
 source:
   fn: SRAdb_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SRAdb_1.16.0.tar.gz
-    - 5acb750fbfd47fa219be17911bf83e14
+  md5: 5acb750fbfd47fa219be17911bf83e14
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

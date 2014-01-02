@@ -5,10 +5,10 @@ package:
 source:
   fn: hgfocus.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgfocus.db_2.10.1.tar.gz
-    - bd5a312ec325b19ba8c456c8a8a03b6c
+  md5: bd5a312ec325b19ba8c456c8a8a03b6c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

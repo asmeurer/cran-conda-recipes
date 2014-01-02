@@ -5,10 +5,10 @@ package:
 source:
   fn: tigre_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tigre_1.16.0.tar.gz
-    - 3892074465297dfeb6d747d121aa27ff
+  md5: 3892074465297dfeb6d747d121aa27ff
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

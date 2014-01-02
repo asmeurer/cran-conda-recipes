@@ -5,10 +5,10 @@ package:
 source:
   fn: MotIV_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MotIV_1.18.0.tar.gz
-    - bd611f181a079b15cb2d8c1cbbf9e80d
+  md5: bd611f181a079b15cb2d8c1cbbf9e80d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

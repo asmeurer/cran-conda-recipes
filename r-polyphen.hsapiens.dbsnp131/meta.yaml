@@ -5,10 +5,10 @@ package:
 source:
   fn: PolyPhen.Hsapiens.dbSNP131_1.0.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/PolyPhen.Hsapiens.dbSNP131_1.0.2.tar.gz
-    - 763e9cd4afd97b36f7e659f5454ef61f
+  md5: 763e9cd4afd97b36f7e659f5454ef61f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

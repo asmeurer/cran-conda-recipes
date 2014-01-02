@@ -5,10 +5,10 @@ package:
 source:
   fn: bsubtilisprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bsubtilisprobe_2.13.0.tar.gz
-    - 2e869a4fda1fec5dd3015adf537cb931
+  md5: 2e869a4fda1fec5dd3015adf537cb931
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

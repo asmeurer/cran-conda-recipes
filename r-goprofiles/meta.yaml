@@ -5,10 +5,10 @@ package:
 source:
   fn: goProfiles_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/goProfiles_1.24.0.tar.gz
-    - fe693104678ae45aed1ac04d3d61296c
+  md5: fe693104678ae45aed1ac04d3d61296c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

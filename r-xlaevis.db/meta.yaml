@@ -5,10 +5,10 @@ package:
 source:
   fn: xlaevis.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xlaevis.db_2.10.1.tar.gz
-    - 4df3b4d02778563130a1d4ec3f4fb4c1
+  md5: 4df3b4d02778563130a1d4ec3f4fb4c1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

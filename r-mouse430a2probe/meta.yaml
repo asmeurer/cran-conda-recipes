@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse430a2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse430a2probe_2.13.0.tar.gz
-    - c80e92e4b02250267aaec4097c6ff20b
+  md5: c80e92e4b02250267aaec4097c6ff20b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

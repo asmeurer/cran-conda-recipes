@@ -5,10 +5,10 @@ package:
 source:
   fn: indac.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/indac.db_2.10.1.tar.gz
-    - 8194e557df62f226cf52cdf2bf24d8f6
+  md5: 8194e557df62f226cf52cdf2bf24d8f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

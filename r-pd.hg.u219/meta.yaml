@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hg.u219_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hg.u219_1.10.0.tar.gz
-    - 08a8894dc3687fb6927a6798bdfb2a9d
+  md5: 08a8894dc3687fb6927a6798bdfb2a9d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

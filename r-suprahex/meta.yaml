@@ -5,10 +5,10 @@ package:
 source:
   fn: supraHex_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/supraHex_1.0.0.tar.gz
-    - 5a0d010b61abeb0b963b3bbb1f975c01
+  md5: 5a0d010b61abeb0b963b3bbb1f975c01
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

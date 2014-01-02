@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ht.mg.430a_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ht.mg.430a_1.10.0.tar.gz
-    - ab24b4356e01adf4d8dd97f781ab61aa
+  md5: ab24b4356e01adf4d8dd97f781ab61aa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: DBChIP_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DBChIP_1.6.0.tar.gz
-    - 77be3349469e0898b4a5deaf28eb0b39
+  md5: 77be3349469e0898b4a5deaf28eb0b39
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

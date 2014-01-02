@@ -5,10 +5,10 @@ package:
 source:
   fn: waveTiling_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/waveTiling_1.4.0.tar.gz
-    - 32ed626609f1c8be8dc98b6553371d54
+  md5: 32ed626609f1c8be8dc98b6553371d54
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

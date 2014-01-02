@@ -5,10 +5,10 @@ package:
 source:
   fn: AnnotationDbi_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AnnotationDbi_1.24.0.tar.gz
-    - a51f84efd8fff2f48579189ebc67c508
+  md5: a51f84efd8fff2f48579189ebc67c508
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

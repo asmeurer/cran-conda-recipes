@@ -5,10 +5,10 @@ package:
 source:
   fn: hu35ksubdprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu35ksubdprobe_2.13.0.tar.gz
-    - a82d6f271c61b51c0c7e53d9ee527512
+  md5: a82d6f271c61b51c0c7e53d9ee527512
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

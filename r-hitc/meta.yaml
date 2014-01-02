@@ -5,10 +5,10 @@ package:
 source:
   fn: HiTC_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HiTC_1.6.0.tar.gz
-    - fed0a676518af395187600065ff6becd
+  md5: fed0a676518af395187600065ff6becd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

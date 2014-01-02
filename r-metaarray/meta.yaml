@@ -5,10 +5,10 @@ package:
 source:
   fn: metaArray_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/metaArray_1.40.0.tar.gz
-    - 4eb6d61a5bd40ed275bda9e67ce83ddf
+  md5: 4eb6d61a5bd40ed275bda9e67ce83ddf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

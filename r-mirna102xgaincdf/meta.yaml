@@ -5,10 +5,10 @@ package:
 source:
   fn: mirna102xgaincdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirna102xgaincdf_2.13.0.tar.gz
-    - 0f0646a6d7b2956d1162ae1562958ffb
+  md5: 0f0646a6d7b2956d1162ae1562958ffb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

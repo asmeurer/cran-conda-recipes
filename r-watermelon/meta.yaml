@@ -5,10 +5,10 @@ package:
 source:
   fn: wateRmelon_1.2.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/wateRmelon_1.2.2.tar.gz
-    - a51be1d45c46db4f49e2345267d7d39d
+  md5: a51be1d45c46db4f49e2345267d7d39d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

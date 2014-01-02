@@ -5,10 +5,10 @@ package:
 source:
   fn: Homo.sapiens_1.1.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Homo.sapiens_1.1.2.tar.gz
-    - e88ea8aa92a918e8229b47c413742bdc
+  md5: e88ea8aa92a918e8229b47c413742bdc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

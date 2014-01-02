@@ -5,10 +5,10 @@ package:
 source:
   fn: maigesPack_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/maigesPack_1.26.0.tar.gz
-    - bb35259c517a9e50856d5242deae6d5d
+  md5: bb35259c517a9e50856d5242deae6d5d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

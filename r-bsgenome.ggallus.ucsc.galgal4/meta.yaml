@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Ggallus.UCSC.galGal4_1.3.18.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Ggallus.UCSC.galGal4_1.3.18.tar.gz
-    - 5713916fe37b799bf8d79f9db16f5cea
+  md5: 5713916fe37b799bf8d79f9db16f5cea
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

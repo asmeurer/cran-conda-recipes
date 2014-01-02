@@ -5,10 +5,10 @@ package:
 source:
   fn: RchyOptimyx_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RchyOptimyx_2.2.0.tar.gz
-    - 16b9161395079104b784081246669153
+  md5: 16b9161395079104b784081246669153
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

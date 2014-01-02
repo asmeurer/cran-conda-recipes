@@ -5,10 +5,10 @@ package:
 source:
   fn: epigenomix_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/epigenomix_1.2.0.tar.gz
-    - bbd5989ca154572648ea0ebfb67dd604
+  md5: bbd5989ca154572648ea0ebfb67dd604
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

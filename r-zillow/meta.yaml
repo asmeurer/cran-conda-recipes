@@ -5,10 +5,10 @@ package:
 source:
   fn: Zillow_0.1-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Zillow_0.1-1.tar.gz
-    - 01a232a07b0e879ef1c3cfd3e255a56b
+  md5: 01a232a07b0e879ef1c3cfd3e255a56b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

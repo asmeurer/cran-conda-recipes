@@ -5,10 +5,10 @@ package:
 source:
   fn: Rflickr_0.2-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Rflickr_0.2-1.tar.gz
-    - 11b13085b23012e9a13d3f42d85d71fb
+  md5: 11b13085b23012e9a13d3f42d85d71fb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

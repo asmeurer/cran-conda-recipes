@@ -5,10 +5,10 @@ package:
 source:
   fn: illuminaio_0.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/illuminaio_0.4.0.tar.gz
-    - 4c26632da0151b00c98b7090e8b7ab61
+  md5: 4c26632da0151b00c98b7090e8b7ab61
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

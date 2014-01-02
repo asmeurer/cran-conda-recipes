@@ -5,10 +5,10 @@ package:
 source:
   fn: splicegear_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/splicegear_1.34.0.tar.gz
-    - 06d7f460808e0e1902599040be87451f
+  md5: 06d7f460808e0e1902599040be87451f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

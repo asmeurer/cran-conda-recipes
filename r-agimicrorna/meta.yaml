@@ -5,10 +5,10 @@ package:
 source:
   fn: AgiMicroRna_2.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AgiMicroRna_2.12.0.tar.gz
-    - 0efc7867ed3f7a69945334eb1e2a1950
+  md5: 0efc7867ed3f7a69945334eb1e2a1950
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

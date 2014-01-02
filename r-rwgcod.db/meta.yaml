@@ -5,10 +5,10 @@ package:
 source:
   fn: rwgcod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rwgcod.db_2.17.0.tar.gz
-    - 08f9e2dbb28bb1b45167db9621237e46
+  md5: 08f9e2dbb28bb1b45167db9621237e46
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

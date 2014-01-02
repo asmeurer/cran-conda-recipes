@@ -5,10 +5,10 @@ package:
 source:
   fn: hugene10stprobeset.db_8.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene10stprobeset.db_8.0.1.tar.gz
-    - 3dc3efa342b3d0209e87c92ce2266a0f
+  md5: 3dc3efa342b3d0209e87c92ce2266a0f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

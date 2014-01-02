@@ -5,10 +5,10 @@ package:
 source:
   fn: ncdfFlow_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ncdfFlow_2.8.0.tar.gz
-    - c7a5d74c7f97cbfef2599cae26355f29
+  md5: c7a5d74c7f97cbfef2599cae26355f29
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

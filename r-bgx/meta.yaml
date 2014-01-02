@@ -5,10 +5,10 @@ package:
 source:
   fn: bgx_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bgx_1.28.0.tar.gz
-    - 0eaf2459cdd4c2bc3660a7b6190844e5
+  md5: 0eaf2459cdd4c2bc3660a7b6190844e5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

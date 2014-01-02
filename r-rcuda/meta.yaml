@@ -5,10 +5,10 @@ package:
 source:
   fn: RCUDA_0.4-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RCUDA_0.4-0.tar.gz
-    - b8d8060df481f4e301457ccf2b49db7d
+  md5: b8d8060df481f4e301457ccf2b49db7d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

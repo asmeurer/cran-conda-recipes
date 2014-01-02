@@ -5,10 +5,10 @@ package:
 source:
   fn: RCSS_0.2-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RCSS_0.2-0.tar.gz
-    - 7d638d9b8aa49a8bb486bcf5e2d7e74e
+  md5: 7d638d9b8aa49a8bb486bcf5e2d7e74e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

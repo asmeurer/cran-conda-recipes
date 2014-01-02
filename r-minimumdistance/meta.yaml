@@ -5,10 +5,10 @@ package:
 source:
   fn: MinimumDistance_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MinimumDistance_1.6.0.tar.gz
-    - 0145be1e5b981bc936da3716f590dbcf
+  md5: 0145be1e5b981bc936da3716f590dbcf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

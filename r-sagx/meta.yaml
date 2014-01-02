@@ -5,10 +5,10 @@ package:
 source:
   fn: SAGx_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SAGx_1.36.0.tar.gz
-    - eda891484fb8ece1da16fc90acccc370
+  md5: eda891484fb8ece1da16fc90acccc370
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

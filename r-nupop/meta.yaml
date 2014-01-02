@@ -5,10 +5,10 @@ package:
 source:
   fn: NuPoP_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NuPoP_1.12.0.tar.gz
-    - 4a95b46a5bb39244e2cd2821d93f0946
+  md5: 4a95b46a5bb39244e2cd2821d93f0946
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

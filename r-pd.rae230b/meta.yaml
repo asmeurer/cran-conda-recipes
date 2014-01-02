@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rae230b_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rae230b_1.10.0.tar.gz
-    - 17f565e6e645db1a513811c47fa2e060
+  md5: 17f565e6e645db1a513811c47fa2e060
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

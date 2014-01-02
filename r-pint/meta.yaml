@@ -5,10 +5,10 @@ package:
 source:
   fn: pint_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pint_1.14.0.tar.gz
-    - bbb88756f6708a0728ee0c01f19fd718
+  md5: bbb88756f6708a0728ee0c01f19fd718
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: maizecdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/maizecdf_2.13.0.tar.gz
-    - 684881339c855695b880984dd1410ec1
+  md5: 684881339c855695b880984dd1410ec1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

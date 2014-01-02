@@ -5,10 +5,10 @@ package:
 source:
   fn: htrat230pmcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htrat230pmcdf_2.13.0.tar.gz
-    - 15835f45cd014330d47f0017d1195965
+  md5: 15835f45cd014330d47f0017d1195965
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

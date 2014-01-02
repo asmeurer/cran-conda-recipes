@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Rnorvegicus.UCSC.rn5.refGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn5.refGene_2.10.1.tar.gz
-    - 76be65d17dfe91cbc5591f13864ae7a0
+  md5: 76be65d17dfe91cbc5591f13864ae7a0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

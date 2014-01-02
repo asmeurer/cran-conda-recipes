@@ -5,10 +5,10 @@ package:
 source:
   fn: Roleswitch_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Roleswitch_1.0.0.tar.gz
-    - 8ef695427cb9750c810d7a7bac4abac4
+  md5: 8ef695427cb9750c810d7a7bac4abac4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

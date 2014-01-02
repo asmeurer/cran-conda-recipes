@@ -5,10 +5,10 @@ package:
 source:
   fn: coGPS_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/coGPS_1.6.0.tar.gz
-    - 3dec24a021dfb440a6f299b486afcfaf
+  md5: 3dec24a021dfb440a6f299b486afcfaf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

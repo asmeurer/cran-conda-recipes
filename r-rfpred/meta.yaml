@@ -5,10 +5,10 @@ package:
 source:
   fn: rfPred_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rfPred_1.0.0.tar.gz
-    - 85c34616afb0e444d42be57fd3cc322d
+  md5: 85c34616afb0e444d42be57fd3cc322d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

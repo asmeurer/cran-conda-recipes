@@ -5,10 +5,10 @@ package:
 source:
   fn: BioSeqClass_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BioSeqClass_1.20.0.tar.gz
-    - 9352fbae23c13a7241aa388973910d3b
+  md5: 9352fbae23c13a7241aa388973910d3b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

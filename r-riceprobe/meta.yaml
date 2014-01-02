@@ -5,10 +5,10 @@ package:
 source:
   fn: riceprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/riceprobe_2.13.0.tar.gz
-    - 8ab4d10eadb108a16a596c75b060be91
+  md5: 8ab4d10eadb108a16a596c75b060be91
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

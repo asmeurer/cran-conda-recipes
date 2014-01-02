@@ -5,10 +5,10 @@ package:
 source:
   fn: CGHregions_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGHregions_1.20.0.tar.gz
-    - 2a723b2977234d5aadc747e087d2dbb4
+  md5: 2a723b2977234d5aadc747e087d2dbb4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

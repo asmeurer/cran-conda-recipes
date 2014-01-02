@@ -5,10 +5,10 @@ package:
 source:
   fn: SplicingGraphs_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SplicingGraphs_1.2.0.tar.gz
-    - 7c6b2f08bd996435c278c5d96e9a2d5d
+  md5: 7c6b2f08bd996435c278c5d96e9a2d5d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

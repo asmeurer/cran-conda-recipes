@@ -5,10 +5,10 @@ package:
 source:
   fn: randPack_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/randPack_1.8.0.tar.gz
-    - 6a8ee55bbe53f266af7d74ac052f7a37
+  md5: 6a8ee55bbe53f266af7d74ac052f7a37
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

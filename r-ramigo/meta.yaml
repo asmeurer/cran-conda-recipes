@@ -5,10 +5,10 @@ package:
 source:
   fn: RamiGO_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RamiGO_1.8.0.tar.gz
-    - 52580408652506a4b6629cd8b113c79c
+  md5: 52580408652506a4b6629cd8b113c79c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

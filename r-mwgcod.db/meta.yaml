@@ -5,10 +5,10 @@ package:
 source:
   fn: mwgcod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mwgcod.db_2.17.0.tar.gz
-    - ea57a4cddabf1b2cb8e33727a2d02c50
+  md5: ea57a4cddabf1b2cb8e33727a2d02c50
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

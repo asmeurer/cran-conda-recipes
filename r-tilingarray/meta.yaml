@@ -5,10 +5,10 @@ package:
 source:
   fn: tilingArray_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tilingArray_1.40.0.tar.gz
-    - 1bbf633782a484f8e6f62931ab98ee08
+  md5: 1bbf633782a484f8e6f62931ab98ee08
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

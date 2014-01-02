@@ -5,10 +5,10 @@ package:
 source:
   fn: illuminaHumanWGDASLv3.db_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/illuminaHumanWGDASLv3.db_1.20.0.tar.gz
-    - 3340019dd182c4917df3bc7dda4c5e32
+  md5: 3340019dd182c4917df3bc7dda4c5e32
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

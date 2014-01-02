@@ -5,10 +5,10 @@ package:
 source:
   fn: ArrayTV_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ArrayTV_1.0.0.tar.gz
-    - 9a73631bda25a10458a6a505c647aab6
+  md5: 9a73631bda25a10458a6a505c647aab6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

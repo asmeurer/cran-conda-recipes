@@ -5,10 +5,10 @@ package:
 source:
   fn: copynumber_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/copynumber_1.2.0.tar.gz
-    - 541acc4f0268cb375965e66a4275c5c8
+  md5: 541acc4f0268cb375965e66a4275c5c8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

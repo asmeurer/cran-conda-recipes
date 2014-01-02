@@ -5,10 +5,10 @@ package:
 source:
   fn: test3probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/test3probe_2.13.0.tar.gz
-    - 696303e88f3c50ecc86f09cddae7cdb1
+  md5: 696303e88f3c50ecc86f09cddae7cdb1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

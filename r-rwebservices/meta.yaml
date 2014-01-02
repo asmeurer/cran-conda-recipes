@@ -5,10 +5,10 @@ package:
 source:
   fn: RWebServices_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RWebServices_1.26.0.tar.gz
-    - 0d419d17922883bf03a4633d1e7726fe
+  md5: 0d419d17922883bf03a4633d1e7726fe
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

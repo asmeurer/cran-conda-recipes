@@ -5,10 +5,10 @@ package:
 source:
   fn: charm_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/charm_2.8.0.tar.gz
-    - 78752f10cf3f961418345d1a2140c566
+  md5: 78752f10cf3f961418345d1a2140c566
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

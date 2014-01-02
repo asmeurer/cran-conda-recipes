@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.raex.1.0.st.v1_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.raex.1.0.st.v1_3.8.0.tar.gz
-    - 08e1f76f5a6cde5f06d7502324659fd5
+  md5: 08e1f76f5a6cde5f06d7502324659fd5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

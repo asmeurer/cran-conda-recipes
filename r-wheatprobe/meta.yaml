@@ -5,10 +5,10 @@ package:
 source:
   fn: wheatprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/wheatprobe_2.13.0.tar.gz
-    - 1710407c2efb250d0283bba2d64df0cf
+  md5: 1710407c2efb250d0283bba2d64df0cf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

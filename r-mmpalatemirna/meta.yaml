@@ -5,10 +5,10 @@ package:
 source:
   fn: MmPalateMiRNA_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MmPalateMiRNA_1.12.0.tar.gz
-    - 9db37b2c04e5b169f60df6044bcd9acd
+  md5: 9db37b2c04e5b169f60df6044bcd9acd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

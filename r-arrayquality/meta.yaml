@@ -5,10 +5,10 @@ package:
 source:
   fn: arrayQuality_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/arrayQuality_1.40.0.tar.gz
-    - e9686bbea5377e2ecb2da287a4e49cd5
+  md5: e9686bbea5377e2ecb2da287a4e49cd5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

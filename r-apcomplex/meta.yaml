@@ -5,10 +5,10 @@ package:
 source:
   fn: apComplex_2.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/apComplex_2.28.0.tar.gz
-    - 8d8d43a6f30a51afe7cefd70fceb645b
+  md5: 8d8d43a6f30a51afe7cefd70fceb645b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.081229.hg18.promoter.medip.hx1_0.99.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.081229.hg18.promoter.medip.hx1_0.99.3.tar.gz
-    - 9ea6a0643b0e39abf9b1166c257f542f
+  md5: 9ea6a0643b0e39abf9b1166c257f542f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

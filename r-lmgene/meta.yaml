@@ -5,10 +5,10 @@ package:
 source:
   fn: LMGene_2.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/LMGene_2.18.0.tar.gz
-    - b2f7614c10a67a0ccf535bc41bb1eebd
+  md5: b2f7614c10a67a0ccf535bc41bb1eebd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

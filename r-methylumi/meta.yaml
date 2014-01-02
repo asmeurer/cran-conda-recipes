@@ -5,10 +5,10 @@ package:
 source:
   fn: methylumi_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methylumi_2.8.0.tar.gz
-    - 9dc8ec21b8aa9f4834a946822f79e643
+  md5: 9dc8ec21b8aa9f4834a946822f79e643
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.tomato_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.tomato_1.10.0.tar.gz
-    - 2099699199e8eaea587424b0f4001d68
+  md5: 2099699199e8eaea587424b0f4001d68
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: yeast.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/yeast.db0_2.10.1.tar.gz
-    - 37867f7d4cf8c454ea6f2acbc08bd88b
+  md5: 37867f7d4cf8c454ea6f2acbc08bd88b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

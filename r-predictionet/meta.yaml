@@ -5,10 +5,10 @@ package:
 source:
   fn: predictionet_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/predictionet_1.8.0.tar.gz
-    - 91d38830ad348a25af3d2243888e35e6
+  md5: 91d38830ad348a25af3d2243888e35e6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

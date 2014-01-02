@@ -5,10 +5,10 @@ package:
 source:
   fn: fdrame_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/fdrame_1.34.0.tar.gz
-    - 02a8161d9bc8d178226e594063cd85a8
+  md5: 02a8161d9bc8d178226e594063cd85a8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

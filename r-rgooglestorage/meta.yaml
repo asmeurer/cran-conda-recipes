@@ -5,10 +5,10 @@ package:
 source:
   fn: RGoogleStorage_0.1-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RGoogleStorage_0.1-0.tar.gz
-    - 733a6c10297bb3983a61d683df75cb0c
+  md5: 733a6c10297bb3983a61d683df75cb0c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

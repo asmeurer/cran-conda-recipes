@@ -5,10 +5,10 @@ package:
 source:
   fn: hwgcod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hwgcod.db_2.17.0.tar.gz
-    - b575c0cf5301e6e6f7e55069f675e852
+  md5: b575c0cf5301e6e6f7e55069f675e852
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

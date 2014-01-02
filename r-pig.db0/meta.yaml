@@ -5,10 +5,10 @@ package:
 source:
   fn: pig.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pig.db0_2.10.1.tar.gz
-    - 08eb0b39409b2ea0494a3bd011b6c2f8
+  md5: 08eb0b39409b2ea0494a3bd011b6c2f8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

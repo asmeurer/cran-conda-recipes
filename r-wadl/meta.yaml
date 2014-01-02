@@ -5,10 +5,10 @@ package:
 source:
   fn: WADL_0.2-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/WADL_0.2-0.tar.gz
-    - b5244d3d9a69db114cdb699a29364b08
+  md5: b5244d3d9a69db114cdb699a29364b08
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

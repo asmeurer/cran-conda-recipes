@@ -5,10 +5,10 @@ package:
 source:
   fn: RCIndex_0.1-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RCIndex_0.1-0.tar.gz
-    - 32321a3db41949e47b038e5fea8689ea
+  md5: 32321a3db41949e47b038e5fea8689ea
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

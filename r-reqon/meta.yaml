@@ -5,10 +5,10 @@ package:
 source:
   fn: ReQON_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReQON_1.8.0.tar.gz
-    - 33c3e3273235b6dba9f25cce9029ec24
+  md5: 33c3e3273235b6dba9f25cce9029ec24
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

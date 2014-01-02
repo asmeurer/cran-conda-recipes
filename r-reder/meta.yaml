@@ -5,10 +5,10 @@ package:
 source:
   fn: RedeR_1.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RedeR_1.10.1.tar.gz
-    - e1c9a088a0501fb5cee2f55ce9014640
+  md5: e1c9a088a0501fb5cee2f55ce9014640
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

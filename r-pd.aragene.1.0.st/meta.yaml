@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.aragene.1.0.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.aragene.1.0.st_3.8.0.tar.gz
-    - c3fb2bb96b6c7fa81a164e2982ab4b55
+  md5: c3fb2bb96b6c7fa81a164e2982ab4b55
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

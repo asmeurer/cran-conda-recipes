@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mg.u74a_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mg.u74a_1.10.0.tar.gz
-    - 695d885715596d7942c9acd6f22e81e7
+  md5: 695d885715596d7942c9acd6f22e81e7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

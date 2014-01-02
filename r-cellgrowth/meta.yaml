@@ -5,10 +5,10 @@ package:
 source:
   fn: cellGrowth_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cellGrowth_1.6.0.tar.gz
-    - 30428c9e015c0dbe790c408e1fa348ee
+  md5: 30428c9e015c0dbe790c408e1fa348ee
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

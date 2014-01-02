@@ -5,10 +5,10 @@ package:
 source:
   fn: CancerMutationAnalysis_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CancerMutationAnalysis_1.6.0.tar.gz
-    - 0937a66c58d7bb48a4165d2cd463e527
+  md5: 0937a66c58d7bb48a4165d2cd463e527
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

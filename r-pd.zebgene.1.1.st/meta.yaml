@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.zebgene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.zebgene.1.1.st_3.8.0.tar.gz
-    - 3525bacf864101c7cb1875a34bd5a26d
+  md5: 3525bacf864101c7cb1875a34bd5a26d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

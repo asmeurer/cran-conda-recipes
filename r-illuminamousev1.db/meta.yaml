@@ -5,10 +5,10 @@ package:
 source:
   fn: illuminaMousev1.db_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/illuminaMousev1.db_1.18.0.tar.gz
-    - 1ee4e4e1d13dcea37a91464991800a6d
+  md5: 1ee4e4e1d13dcea37a91464991800a6d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

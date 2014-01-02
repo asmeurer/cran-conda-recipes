@@ -5,10 +5,10 @@ package:
 source:
   fn: AffyTiling_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AffyTiling_1.20.0.tar.gz
-    - 5cbc7db056fbd052bb5487123ed99efb
+  md5: 5cbc7db056fbd052bb5487123ed99efb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

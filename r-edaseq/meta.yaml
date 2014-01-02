@@ -5,10 +5,10 @@ package:
 source:
   fn: EDASeq_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EDASeq_1.8.0.tar.gz
-    - 50da44bd4efff0b328cc40eac9f7c9de
+  md5: 50da44bd4efff0b328cc40eac9f7c9de
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

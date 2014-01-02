@@ -5,10 +5,10 @@ package:
 source:
   fn: a4Preproc_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4Preproc_1.10.0.tar.gz
-    - def2defa0fd4597265f71bba17b0485e
+  md5: def2defa0fd4597265f71bba17b0485e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

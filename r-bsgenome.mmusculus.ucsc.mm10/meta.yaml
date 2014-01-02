@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Mmusculus.UCSC.mm10_1.3.19.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm10_1.3.19.tar.gz
-    - 53a5d03e297f81d81f5850cc71cc5b5d
+  md5: 53a5d03e297f81d81f5850cc71cc5b5d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

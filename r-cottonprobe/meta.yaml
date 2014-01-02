@@ -5,10 +5,10 @@ package:
 source:
   fn: cottonprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/cottonprobe_2.13.0.tar.gz
-    - 5f073864b84a2c7355661039e1799d54
+  md5: 5f073864b84a2c7355661039e1799d54
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

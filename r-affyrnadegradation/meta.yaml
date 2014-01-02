@@ -5,10 +5,10 @@ package:
 source:
   fn: AffyRNADegradation_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AffyRNADegradation_1.8.0.tar.gz
-    - 98744e1e95fcdde78a698b00dc7b3f36
+  md5: 98744e1e95fcdde78a698b00dc7b3f36
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

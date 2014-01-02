@@ -5,10 +5,10 @@ package:
 source:
   fn: GRENITS_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GRENITS_1.14.0.tar.gz
-    - f8160c4886f9158769466c4e78452603
+  md5: f8160c4886f9158769466c4e78452603
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

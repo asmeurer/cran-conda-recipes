@@ -5,10 +5,10 @@ package:
 source:
   fn: deltaGseg_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/deltaGseg_1.2.0.tar.gz
-    - 325b22060d3931ff054480119db6df86
+  md5: 325b22060d3931ff054480119db6df86
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: Rolexa_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rolexa_1.18.0.tar.gz
-    - 0e46527749064afa35664e439374e8be
+  md5: 0e46527749064afa35664e439374e8be
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

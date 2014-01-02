@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu133a.db_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu133a.db_2.2.0.tar.gz
-    - f3c376e088afd2d2d0dda0025ad4934d
+  md5: f3c376e088afd2d2d0dda0025ad4934d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

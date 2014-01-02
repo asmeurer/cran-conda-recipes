@@ -5,10 +5,10 @@ package:
 source:
   fn: CALIB_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CALIB_1.28.0.tar.gz
-    - 59f5921138731bd8510ac0b075c8aed9
+  md5: 59f5921138731bd8510ac0b075c8aed9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: convert_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/convert_1.38.0.tar.gz
-    - 3e067e1a4ebca369debbb6a7c89f6992
+  md5: 3e067e1a4ebca369debbb6a7c89f6992
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

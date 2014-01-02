@@ -5,10 +5,10 @@ package:
 source:
   fn: jmosaics_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/jmosaics_1.2.0.tar.gz
-    - a569d7b77c30148d849390e7997fe437
+  md5: a569d7b77c30148d849390e7997fe437
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

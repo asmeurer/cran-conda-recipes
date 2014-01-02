@@ -5,10 +5,10 @@ package:
 source:
   fn: RBioinf_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RBioinf_1.22.0.tar.gz
-    - 1f91e27b15865e1178ce4ba0593c1b30
+  md5: 1f91e27b15865e1178ce4ba0593c1b30
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

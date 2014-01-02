@@ -5,10 +5,10 @@ package:
 source:
   fn: MVCClass_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MVCClass_1.36.0.tar.gz
-    - 2aaa8798d7d2e1c2dc21194a5615eeaa
+  md5: 2aaa8798d7d2e1c2dc21194a5615eeaa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene11sttranscriptcluster.db_4.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene11sttranscriptcluster.db_4.0.1.tar.gz
-    - e53a1cbc07d6e399293a627717605a9a
+  md5: e53a1cbc07d6e399293a627717605a9a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

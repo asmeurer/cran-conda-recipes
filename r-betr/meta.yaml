@@ -5,10 +5,10 @@ package:
 source:
   fn: betr_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/betr_1.18.0.tar.gz
-    - b6a9fb11171b9a6daa54eccb3153e6b8
+  md5: b6a9fb11171b9a6daa54eccb3153e6b8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

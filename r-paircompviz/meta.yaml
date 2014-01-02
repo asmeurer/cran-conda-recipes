@@ -5,10 +5,10 @@ package:
 source:
   fn: paircompviz_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/paircompviz_1.0.0.tar.gz
-    - 9db824f678051223b0c38abb9752b35f
+  md5: 9db824f678051223b0c38abb9752b35f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

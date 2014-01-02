@@ -5,10 +5,10 @@ package:
 source:
   fn: ragene10stv1probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene10stv1probe_2.13.0.tar.gz
-    - 7d457754bcce6f3da61cc23a0202d7e6
+  md5: 7d457754bcce6f3da61cc23a0202d7e6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

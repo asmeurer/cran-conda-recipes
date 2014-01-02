@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.porcine_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.porcine_1.10.0.tar.gz
-    - 5b794f3aceeea3e8d0ad28d37f803ec5
+  md5: 5b794f3aceeea3e8d0ad28d37f803ec5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

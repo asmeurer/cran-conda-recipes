@@ -5,10 +5,10 @@ package:
 source:
   fn: ragene21stprobeset.db_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene21stprobeset.db_2.13.0.tar.gz
-    - 7520d7f9ef9f76472fe56c49d34e904d
+  md5: 7520d7f9ef9f76472fe56c49d34e904d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

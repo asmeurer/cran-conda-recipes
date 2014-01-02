@@ -5,10 +5,10 @@ package:
 source:
   fn: pathifier_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pathifier_1.0.0.tar.gz
-    - 4e1cd5fc66d3bac7f57ce7b936e10017
+  md5: 4e1cd5fc66d3bac7f57ce7b936e10017
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

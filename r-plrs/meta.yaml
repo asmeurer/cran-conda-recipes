@@ -5,10 +5,10 @@ package:
 source:
   fn: plrs_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plrs_1.2.0.tar.gz
-    - b0574bb95bb10fa5ae8c9ef48fe80be2
+  md5: b0574bb95bb10fa5ae8c9ef48fe80be2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

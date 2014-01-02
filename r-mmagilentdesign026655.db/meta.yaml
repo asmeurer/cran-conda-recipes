@@ -5,10 +5,10 @@ package:
 source:
   fn: MmAgilentDesign026655.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/MmAgilentDesign026655.db_2.10.1.tar.gz
-    - c3ac2c787d70ea4f3d724ee91e58ffd5
+  md5: c3ac2c787d70ea4f3d724ee91e58ffd5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

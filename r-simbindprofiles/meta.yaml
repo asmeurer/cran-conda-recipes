@@ -5,10 +5,10 @@ package:
 source:
   fn: SimBindProfiles_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SimBindProfiles_1.0.0.tar.gz
-    - 10b8d68552a48540164c7c4460066640
+  md5: 10b8d68552a48540164c7c4460066640
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

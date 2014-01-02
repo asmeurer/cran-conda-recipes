@@ -5,10 +5,10 @@ package:
 source:
   fn: DART_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DART_1.8.0.tar.gz
-    - ac86758fc4506466abb18ecd1969ef71
+  md5: ac86758fc4506466abb18ecd1969ef71
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

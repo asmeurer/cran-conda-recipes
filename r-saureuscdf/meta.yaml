@@ -5,10 +5,10 @@ package:
 source:
   fn: saureuscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/saureuscdf_2.13.0.tar.gz
-    - a783fad796f45365b2317ce4b8682a2a
+  md5: a783fad796f45365b2317ce4b8682a2a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

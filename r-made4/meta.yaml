@@ -5,10 +5,10 @@ package:
 source:
   fn: made4_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/made4_1.36.0.tar.gz
-    - 4f481dd147fc967e6e0796881052c841
+  md5: 4f481dd147fc967e6e0796881052c841
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

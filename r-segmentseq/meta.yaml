@@ -5,10 +5,10 @@ package:
 source:
   fn: segmentSeq_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/segmentSeq_1.14.0.tar.gz
-    - 4f35bce2b0f348e302a268701163ace9
+  md5: 4f35bce2b0f348e302a268701163ace9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

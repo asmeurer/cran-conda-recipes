@@ -5,10 +5,10 @@ package:
 source:
   fn: gCMAP_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gCMAP_1.6.0.tar.gz
-    - dcb7111da0d9cddd04c8e5ca4018ccf1
+  md5: dcb7111da0d9cddd04c8e5ca4018ccf1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: BrainStars_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BrainStars_1.6.0.tar.gz
-    - 648da8c4f092fc9aa08fad90e3da2f91
+  md5: 648da8c4f092fc9aa08fad90e3da2f91
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

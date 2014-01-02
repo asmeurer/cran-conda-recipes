@@ -5,10 +5,10 @@ package:
 source:
   fn: mguatlas5k.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mguatlas5k.db_2.10.1.tar.gz
-    - c51d17d47b79184cdc6f722f29f43bc7
+  md5: c51d17d47b79184cdc6f722f29f43bc7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

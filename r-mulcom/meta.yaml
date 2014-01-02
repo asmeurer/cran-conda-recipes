@@ -5,10 +5,10 @@ package:
 source:
   fn: Mulcom_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Mulcom_1.12.0.tar.gz
-    - 3c244ce173d6c26953abd61c83530710
+  md5: 3c244ce173d6c26953abd61c83530710
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

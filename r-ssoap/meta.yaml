@@ -5,10 +5,10 @@ package:
 source:
   fn: SSOAP_0.9-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/SSOAP_0.9-1.tar.gz
-    - f5febba0cf71b7b8f1bede232982c45f
+  md5: f5febba0cf71b7b8f1bede232982c45f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

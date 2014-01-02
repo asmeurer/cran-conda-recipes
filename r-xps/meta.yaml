@@ -5,10 +5,10 @@ package:
 source:
   fn: xps_1.22.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/xps_1.22.2.tar.gz
-    - e0b7cdcc2b01f21848cd4c8152d7274a
+  md5: e0b7cdcc2b01f21848cd4c8152d7274a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

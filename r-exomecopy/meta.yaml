@@ -5,10 +5,10 @@ package:
 source:
   fn: exomeCopy_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/exomeCopy_1.8.0.tar.gz
-    - 6259c3d305596ce51a8762ca54e49566
+  md5: 6259c3d305596ce51a8762ca54e49566
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

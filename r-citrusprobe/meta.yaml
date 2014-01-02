@@ -5,10 +5,10 @@ package:
 source:
   fn: citrusprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/citrusprobe_2.13.0.tar.gz
-    - 4548f2df80d4ca53cd3e00910315e4ff
+  md5: 4548f2df80d4ca53cd3e00910315e4ff
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

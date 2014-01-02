@@ -5,10 +5,10 @@ package:
 source:
   fn: GENE.E_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GENE.E_1.2.0.tar.gz
-    - d94f9de38da2238474dbdbedeb3cc7f9
+  md5: d94f9de38da2238474dbdbedeb3cc7f9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

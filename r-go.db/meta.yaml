@@ -5,10 +5,10 @@ package:
 source:
   fn: GO.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/GO.db_2.10.1.tar.gz
-    - 5429c641ae326f75894ccfff9105dd21
+  md5: 5429c641ae326f75894ccfff9105dd21
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

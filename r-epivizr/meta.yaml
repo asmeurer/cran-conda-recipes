@@ -5,10 +5,10 @@ package:
 source:
   fn: epivizr_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/epivizr_1.0.0.tar.gz
-    - a6f3976f1b3f4aea31aed200d9f14f60
+  md5: a6f3976f1b3f4aea31aed200d9f14f60
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

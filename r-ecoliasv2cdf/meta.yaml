@@ -5,10 +5,10 @@ package:
 source:
   fn: ecoliasv2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoliasv2cdf_2.13.0.tar.gz
-    - bfe51275c33860cf0f2d3fec1afd37cf
+  md5: bfe51275c33860cf0f2d3fec1afd37cf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

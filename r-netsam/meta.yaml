@@ -5,10 +5,10 @@ package:
 source:
   fn: NetSAM_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NetSAM_1.2.0.tar.gz
-    - af591ae4f306958175f25f361cc57c2f
+  md5: af591ae4f306958175f25f361cc57c2f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

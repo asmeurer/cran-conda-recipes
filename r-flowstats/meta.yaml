@@ -5,10 +5,10 @@ package:
 source:
   fn: flowStats_3.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowStats_3.20.0.tar.gz
-    - 463c23f61394828b123fdb93f9850217
+  md5: 463c23f61394828b123fdb93f9850217
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

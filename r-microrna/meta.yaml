@@ -5,10 +5,10 @@ package:
 source:
   fn: microRNA_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/microRNA_1.20.0.tar.gz
-    - fc9647dd7794e6f5adf15100a7eb4ec4
+  md5: fc9647dd7794e6f5adf15100a7eb4ec4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

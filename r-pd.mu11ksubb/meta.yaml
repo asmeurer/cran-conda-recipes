@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mu11ksubb_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mu11ksubb_1.10.0.tar.gz
-    - 8a4fa42427a1840c0503d010a8892a39
+  md5: 8a4fa42427a1840c0503d010a8892a39
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

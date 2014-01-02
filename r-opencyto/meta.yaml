@@ -5,10 +5,10 @@ package:
 source:
   fn: openCyto_1.0.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/openCyto_1.0.1.tar.gz
-    - 14626aa686088d59c4c1713f1812bfa0
+  md5: 14626aa686088d59c4c1713f1812bfa0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

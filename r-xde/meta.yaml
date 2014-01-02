@@ -5,10 +5,10 @@ package:
 source:
   fn: XDE_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/XDE_2.8.0.tar.gz
-    - f5553fdc8c531d0745b99e4345e77fa9
+  md5: f5553fdc8c531d0745b99e4345e77fa9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

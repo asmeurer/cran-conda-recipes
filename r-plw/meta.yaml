@@ -5,10 +5,10 @@ package:
 source:
   fn: plw_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plw_1.22.0.tar.gz
-    - 1709a37b49d7e836fe397c3b4dfae74d
+  md5: 1709a37b49d7e836fe397c3b4dfae74d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: CoGAPS_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CoGAPS_1.12.0.tar.gz
-    - 82a33a2cb5d4d9f28e9639152e3eeca4
+  md5: 82a33a2cb5d4d9f28e9639152e3eeca4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

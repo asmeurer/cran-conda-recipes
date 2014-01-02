@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Dmelanogaster.UCSC.dm3_1.3.19.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Dmelanogaster.UCSC.dm3_1.3.19.tar.gz
-    - 5edc810440f85997fb46c24630927630
+  md5: 5edc810440f85997fb46c24630927630
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

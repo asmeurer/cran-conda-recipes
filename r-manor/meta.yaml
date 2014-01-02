@@ -5,10 +5,10 @@ package:
 source:
   fn: MANOR_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MANOR_1.34.0.tar.gz
-    - 189e96b524ead76a44764b71d85e3fd9
+  md5: 189e96b524ead76a44764b71d85e3fd9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

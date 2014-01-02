@@ -5,10 +5,10 @@ package:
 source:
   fn: genoset_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genoset_1.14.0.tar.gz
-    - b5a0ffdd062d3925237dbb60fe08856d
+  md5: b5a0ffdd062d3925237dbb60fe08856d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: aCGH_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/aCGH_1.40.0.tar.gz
-    - b70eac05f243efb9674113aa27ca4de4
+  md5: b70eac05f243efb9674113aa27ca4de4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

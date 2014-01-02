@@ -5,10 +5,10 @@ package:
 source:
   fn: hu6800probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu6800probe_2.13.0.tar.gz
-    - f8a248f053a4e888936cf4e79eb28084
+  md5: f8a248f053a4e888936cf4e79eb28084
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

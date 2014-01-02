@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Rnorvegicus.UCSC.rn4_1.3.17.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Rnorvegicus.UCSC.rn4_1.3.17.tar.gz
-    - 541d4004a6a1e6085a73bd23ebbbe2b0
+  md5: 541d4004a6a1e6085a73bd23ebbbe2b0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

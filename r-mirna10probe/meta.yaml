@@ -5,10 +5,10 @@ package:
 source:
   fn: mirna10probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirna10probe_2.13.0.tar.gz
-    - d7543dbf41859c225a801d31707b03e9
+  md5: d7543dbf41859c225a801d31707b03e9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

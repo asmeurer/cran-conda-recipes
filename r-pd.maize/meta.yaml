@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.maize_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.maize_1.10.0.tar.gz
-    - 17d67aa80486422f6b4ba12c8e781296
+  md5: 17d67aa80486422f6b4ba12c8e781296
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

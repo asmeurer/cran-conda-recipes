@@ -5,10 +5,10 @@ package:
 source:
   fn: soybeanprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/soybeanprobe_2.13.0.tar.gz
-    - 6addc1bcf61d796581bdfada4630952a
+  md5: 6addc1bcf61d796581bdfada4630952a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

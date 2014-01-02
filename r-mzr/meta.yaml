@@ -5,10 +5,10 @@ package:
 source:
   fn: mzR_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/mzR_1.8.0.tar.gz
-    - d74e49ba86eb2f0e3033c8df9261a104
+  md5: d74e49ba86eb2f0e3033c8df9261a104
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

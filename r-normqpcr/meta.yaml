@@ -5,10 +5,10 @@ package:
 source:
   fn: NormqPCR_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/NormqPCR_1.8.0.tar.gz
-    - ff161819b179370b5b7b9f8ab989ef8d
+  md5: ff161819b179370b5b7b9f8ab989ef8d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

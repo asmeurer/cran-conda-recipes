@@ -5,10 +5,10 @@ package:
 source:
   fn: BiocGenerics_0.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiocGenerics_0.8.0.tar.gz
-    - 6a6c9276b28bc1839c605ac8809a4d3a
+  md5: 6a6c9276b28bc1839c605ac8809a4d3a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

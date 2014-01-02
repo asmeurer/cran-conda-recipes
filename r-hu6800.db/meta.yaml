@@ -5,10 +5,10 @@ package:
 source:
   fn: hu6800.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu6800.db_2.10.1.tar.gz
-    - 5e4bdc6f6cae8c49c2b5a083020b991a
+  md5: 5e4bdc6f6cae8c49c2b5a083020b991a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

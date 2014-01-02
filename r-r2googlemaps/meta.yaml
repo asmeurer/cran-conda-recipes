@@ -5,10 +5,10 @@ package:
 source:
   fn: R2GoogleMaps_0.2-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/R2GoogleMaps_0.2-0.tar.gz
-    - 750f9abb4788fe92460a849d81f6376f
+  md5: 750f9abb4788fe92460a849d81f6376f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

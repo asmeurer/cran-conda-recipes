@@ -5,10 +5,10 @@ package:
 source:
   fn: GraphAT_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GraphAT_1.34.0.tar.gz
-    - a4295194518ee954a1d762467ec0a40f
+  md5: a4295194518ee954a1d762467ec0a40f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

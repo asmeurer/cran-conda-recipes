@@ -5,10 +5,10 @@ package:
 source:
   fn: GenomicRanges_1.14.4.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GenomicRanges_1.14.4.tar.gz
-    - 6ce463569f7336a98e7e6f735a82284f
+  md5: 6ce463569f7336a98e7e6f735a82284f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

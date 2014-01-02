@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.drosophila.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.drosophila.2_1.10.0.tar.gz
-    - ab87d25de1b6fa83441231c20f1ee85e
+  md5: ab87d25de1b6fa83441231c20f1ee85e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

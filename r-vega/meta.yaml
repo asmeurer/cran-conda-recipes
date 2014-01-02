@@ -5,10 +5,10 @@ package:
 source:
   fn: Vega_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Vega_1.10.0.tar.gz
-    - 7a707e0b782b110bc1efa244d1fa92fb
+  md5: 7a707e0b782b110bc1efa244d1fa92fb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

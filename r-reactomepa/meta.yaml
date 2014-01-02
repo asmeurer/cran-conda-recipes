@@ -5,10 +5,10 @@ package:
 source:
   fn: ReactomePA_1.6.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReactomePA_1.6.1.tar.gz
-    - afd3163f1a2a64df4213750faad23a44
+  md5: afd3163f1a2a64df4213750faad23a44
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

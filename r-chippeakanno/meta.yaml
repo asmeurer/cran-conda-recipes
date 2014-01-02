@@ -5,10 +5,10 @@ package:
 source:
   fn: ChIPpeakAnno_2.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChIPpeakAnno_2.10.0.tar.gz
-    - 8baba85d080b26b380d5d4bc0f3c0871
+  md5: 8baba85d080b26b380d5d4bc0f3c0871
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

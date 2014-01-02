@@ -5,10 +5,10 @@ package:
 source:
   fn: timecourse_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/timecourse_1.34.0.tar.gz
-    - 97fd9ed17ea253c9aca0de3c3c23eab7
+  md5: 97fd9ed17ea253c9aca0de3c3c23eab7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

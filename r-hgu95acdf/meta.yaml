@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu95acdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95acdf_2.13.0.tar.gz
-    - 54ebb631f9382a5957fb2ca7a6860b92
+  md5: 54ebb631f9382a5957fb2ca7a6860b92
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

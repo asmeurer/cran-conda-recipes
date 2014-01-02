@@ -5,10 +5,10 @@ package:
 source:
   fn: BaseSpaceR_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BaseSpaceR_1.2.0.tar.gz
-    - 4cd252dfb2a191f771eab32e7a41b0b0
+  md5: 4cd252dfb2a191f771eab32e7a41b0b0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

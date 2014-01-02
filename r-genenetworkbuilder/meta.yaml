@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneNetworkBuilder_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneNetworkBuilder_1.4.0.tar.gz
-    - 289840f59bd5076793bc5c4dc5e6aa7d
+  md5: 289840f59bd5076793bc5c4dc5e6aa7d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

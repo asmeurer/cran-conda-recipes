@@ -5,10 +5,10 @@ package:
 source:
   fn: inSilicoMerging_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/inSilicoMerging_1.6.0.tar.gz
-    - 44955bd28c2df435d4ba61a3d94cd2d0
+  md5: 44955bd28c2df435d4ba61a3d94cd2d0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

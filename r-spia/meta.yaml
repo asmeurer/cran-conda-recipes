@@ -5,10 +5,10 @@ package:
 source:
   fn: SPIA_2.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SPIA_2.14.0.tar.gz
-    - 879e813b9f59288846c21928273185a2
+  md5: 879e813b9f59288846c21928273185a2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

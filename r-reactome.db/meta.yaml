@@ -5,10 +5,10 @@ package:
 source:
   fn: reactome.db_1.46.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/reactome.db_1.46.1.tar.gz
-    - ebeeb52275f6c35c2b25ba70192aea81
+  md5: ebeeb52275f6c35c2b25ba70192aea81
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

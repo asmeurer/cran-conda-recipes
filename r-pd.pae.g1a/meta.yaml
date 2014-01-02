@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.pae.g1a_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.pae.g1a_1.10.0.tar.gz
-    - b85085ca2c98a0db2a225695cae23a50
+  md5: b85085ca2c98a0db2a225695cae23a50
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

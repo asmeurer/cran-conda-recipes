@@ -5,10 +5,10 @@ package:
 source:
   fn: Rlibstemmer_0.2-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Rlibstemmer_0.2-1.tar.gz
-    - cf5875196f26e2ae042a09c00ff45d1a
+  md5: cf5875196f26e2ae042a09c00ff45d1a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

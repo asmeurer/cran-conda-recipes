@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse4302probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse4302probe_2.13.0.tar.gz
-    - 6c235d1c8776327f54367056063fe472
+  md5: 6c235d1c8776327f54367056063fe472
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

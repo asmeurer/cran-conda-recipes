@@ -5,10 +5,10 @@ package:
 source:
   fn: Rsamtools_1.14.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rsamtools_1.14.2.tar.gz
-    - 83aa5c41214583f83c86bcc90355d59e
+  md5: 83aa5c41214583f83c86bcc90355d59e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

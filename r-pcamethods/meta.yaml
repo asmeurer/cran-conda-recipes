@@ -5,10 +5,10 @@ package:
 source:
   fn: pcaMethods_1.52.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pcaMethods_1.52.0.tar.gz
-    - 810f6f792d072fabee4dea65d8349ebc
+  md5: 810f6f792d072fabee4dea65d8349ebc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

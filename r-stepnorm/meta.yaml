@@ -5,10 +5,10 @@ package:
 source:
   fn: stepNorm_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/stepNorm_1.34.0.tar.gz
-    - 2c48d08833cc72bb83089550dfe0b572
+  md5: 2c48d08833cc72bb83089550dfe0b572
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

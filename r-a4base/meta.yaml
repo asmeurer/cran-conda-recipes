@@ -5,10 +5,10 @@ package:
 source:
   fn: a4Base_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/a4Base_1.10.0.tar.gz
-    - 7e1aca3d33d425976b0f8d513f918877
+  md5: 7e1aca3d33d425976b0f8d513f918877
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

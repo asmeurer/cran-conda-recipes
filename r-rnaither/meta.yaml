@@ -5,10 +5,10 @@ package:
 source:
   fn: RNAither_2.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RNAither_2.10.0.tar.gz
-    - 7292caea0a017a9a132a086b1601bcef
+  md5: 7292caea0a017a9a132a086b1601bcef
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

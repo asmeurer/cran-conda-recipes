@@ -5,10 +5,10 @@ package:
 source:
   fn: TypeInfo_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TypeInfo_1.28.0.tar.gz
-    - bf151bf5e3cbae71ae63721a69f3d11d
+  md5: bf151bf5e3cbae71ae63721a69f3d11d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

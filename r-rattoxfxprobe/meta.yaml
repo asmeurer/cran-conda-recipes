@@ -5,10 +5,10 @@ package:
 source:
   fn: rattoxfxprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rattoxfxprobe_2.13.0.tar.gz
-    - b39409bcae6fdd4171fc2cde062bd75b
+  md5: b39409bcae6fdd4171fc2cde062bd75b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

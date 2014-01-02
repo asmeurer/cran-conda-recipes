@@ -5,10 +5,10 @@ package:
 source:
   fn: DTA_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DTA_2.8.0.tar.gz
-    - 9392571037a68225272321ef154b6270
+  md5: 9392571037a68225272321ef154b6270
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

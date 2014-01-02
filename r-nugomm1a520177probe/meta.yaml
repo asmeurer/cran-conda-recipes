@@ -5,10 +5,10 @@ package:
 source:
   fn: nugomm1a520177probe_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugomm1a520177probe_2.8.0.tar.gz
-    - ea5b59a4d463a817b2dce2a8ec79ea42
+  md5: ea5b59a4d463a817b2dce2a8ec79ea42
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

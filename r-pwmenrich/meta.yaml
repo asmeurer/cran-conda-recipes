@@ -5,10 +5,10 @@ package:
 source:
   fn: PWMEnrich_2.6.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PWMEnrich_2.6.2.tar.gz
-    - 0f1cbc9a0d355f8bb3bc08a4c05d4bb8
+  md5: 0f1cbc9a0d355f8bb3bc08a4c05d4bb8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

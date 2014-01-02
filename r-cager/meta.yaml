@@ -5,10 +5,10 @@ package:
 source:
   fn: CAGEr_1.4.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CAGEr_1.4.1.tar.gz
-    - 6785df5778e0b633acbea8011f874807
+  md5: 6785df5778e0b633acbea8011f874807
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: SANTA_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SANTA_1.2.0.tar.gz
-    - bde2976ed2cfc0f9cd20268a7610a14c
+  md5: bde2976ed2cfc0f9cd20268a7610a14c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

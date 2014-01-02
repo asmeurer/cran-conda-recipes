@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Pf.plasmo.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Pf.plasmo.db_2.10.1.tar.gz
-    - ce0ec0e18756bfd466ee860168e46845
+  md5: ce0ec0e18756bfd466ee860168e46845
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

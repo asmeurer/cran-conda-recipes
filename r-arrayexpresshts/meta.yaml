@@ -5,10 +5,10 @@ package:
 source:
   fn: ArrayExpressHTS_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ArrayExpressHTS_1.12.0.tar.gz
-    - c11106babcfe7c206f16b338e3d2e50c
+  md5: c11106babcfe7c206f16b338e3d2e50c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

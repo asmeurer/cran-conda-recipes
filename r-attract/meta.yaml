@@ -5,10 +5,10 @@ package:
 source:
   fn: attract_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/attract_1.14.0.tar.gz
-    - c08fe1b9295c5efc10519f3fee60d631
+  md5: c08fe1b9295c5efc10519f3fee60d631
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

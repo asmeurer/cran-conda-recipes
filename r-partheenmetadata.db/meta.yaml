@@ -5,10 +5,10 @@ package:
 source:
   fn: PartheenMetaData.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/PartheenMetaData.db_2.10.1.tar.gz
-    - ef12610471337be23b8f85b752c34251
+  md5: ef12610471337be23b8f85b752c34251
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

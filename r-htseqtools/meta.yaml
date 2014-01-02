@@ -5,10 +5,10 @@ package:
 source:
   fn: htSeqTools_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/htSeqTools_1.8.0.tar.gz
-    - 4a81999d2917430b1365b0852eaf2f23
+  md5: 4a81999d2917430b1365b0852eaf2f23
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

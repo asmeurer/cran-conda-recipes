@@ -5,10 +5,10 @@ package:
 source:
   fn: nugohs1a520180probe_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugohs1a520180probe_2.8.0.tar.gz
-    - 2f87b50ed648c268717a9ead4c60205b
+  md5: 2f87b50ed648c268717a9ead4c60205b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: msmsEDA_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/msmsEDA_1.0.0.tar.gz
-    - 1044270c465951fedf3be156b1b7f528
+  md5: 1044270c465951fedf3be156b1b7f528
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

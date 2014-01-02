@@ -5,10 +5,10 @@ package:
 source:
   fn: u133aaofav2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/u133aaofav2cdf_2.13.0.tar.gz
-    - 290beb74e6b08a72f821c95289e4181e
+  md5: 290beb74e6b08a72f821c95289e4181e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

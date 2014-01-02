@@ -5,10 +5,10 @@ package:
 source:
   fn: SQUADD_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SQUADD_1.12.0.tar.gz
-    - cffc98c19d19cb41b0faf6ca7c1a22d1
+  md5: cffc98c19d19cb41b0faf6ca7c1a22d1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

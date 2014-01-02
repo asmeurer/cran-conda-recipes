@@ -5,10 +5,10 @@ package:
 source:
   fn: RKML_0.8-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RKML_0.8-1.tar.gz
-    - 855ad3a0ff751a11d88a4e2b1fd16681
+  md5: 855ad3a0ff751a11d88a4e2b1fd16681
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

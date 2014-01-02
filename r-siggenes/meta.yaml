@@ -5,10 +5,10 @@ package:
 source:
   fn: siggenes_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/siggenes_1.36.0.tar.gz
-    - 441c332d5189421028651921f6247423
+  md5: 441c332d5189421028651921f6247423
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

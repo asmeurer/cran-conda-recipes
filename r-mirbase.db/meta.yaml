@@ -5,10 +5,10 @@ package:
 source:
   fn: mirbase.db_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirbase.db_1.2.0.tar.gz
-    - 316bc12cee8c2dd9240b7fc30cd1619e
+  md5: 316bc12cee8c2dd9240b7fc30cd1619e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

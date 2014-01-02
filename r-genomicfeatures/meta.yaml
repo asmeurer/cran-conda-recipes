@@ -5,10 +5,10 @@ package:
 source:
   fn: GenomicFeatures_1.14.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GenomicFeatures_1.14.2.tar.gz
-    - aa2f5d703ebcae45963fafcf97fee42e
+  md5: aa2f5d703ebcae45963fafcf97fee42e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: htrat230pmprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htrat230pmprobe_2.13.0.tar.gz
-    - b8a037ad47e5b5afb2bf5ecf87d17cdb
+  md5: b8a037ad47e5b5afb2bf5ecf87d17cdb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

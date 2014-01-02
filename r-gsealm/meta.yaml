@@ -5,10 +5,10 @@ package:
 source:
   fn: GSEAlm_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSEAlm_1.22.0.tar.gz
-    - b94a3959fc8fb81693ad1b0d7200bf72
+  md5: b94a3959fc8fb81693ad1b0d7200bf72
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

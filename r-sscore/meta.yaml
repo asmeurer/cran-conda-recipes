@@ -5,10 +5,10 @@ package:
 source:
   fn: sscore_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sscore_1.34.0.tar.gz
-    - b9780ec01ae88c61ab10d56c6d4ad0cf
+  md5: b9780ec01ae88c61ab10d56c6d4ad0cf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

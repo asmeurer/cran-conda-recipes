@@ -5,10 +5,10 @@ package:
 source:
   fn: reb_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/reb_1.40.0.tar.gz
-    - 388d82c85fedc848e1fedd68dba6635c
+  md5: 388d82c85fedc848e1fedd68dba6635c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

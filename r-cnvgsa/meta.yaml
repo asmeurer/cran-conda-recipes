@@ -5,10 +5,10 @@ package:
 source:
   fn: cnvGSA_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cnvGSA_1.6.0.tar.gz
-    - 83834613634d54328f445a8e193559cd
+  md5: 83834613634d54328f445a8e193559cd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: xcms_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/xcms_1.38.0.tar.gz
-    - 9dee773e2680ec32571ce2d3fd0b8766
+  md5: 9dee773e2680ec32571ce2d3fd0b8766
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

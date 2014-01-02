@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mogene.1.0.st.v1_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mogene.1.0.st.v1_3.8.0.tar.gz
-    - 8fd3d3b050443c29ee70a45b2e9b7e59
+  md5: 8fd3d3b050443c29ee70a45b2e9b7e59
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

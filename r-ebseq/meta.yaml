@@ -5,10 +5,10 @@ package:
 source:
   fn: EBSeq_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EBSeq_1.2.0.tar.gz
-    - 29f6b05fd6267f98d28b7e0615d854b8
+  md5: 29f6b05fd6267f98d28b7e0615d854b8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: qrqc_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qrqc_1.16.0.tar.gz
-    - 49b5f803950f093969d5727ca1217892
+  md5: 49b5f803950f093969d5727ca1217892
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

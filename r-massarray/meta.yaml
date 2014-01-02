@@ -5,10 +5,10 @@ package:
 source:
   fn: MassArray_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MassArray_1.14.0.tar.gz
-    - b924cc524ba82f85f484afb0103e34e9
+  md5: b924cc524ba82f85f484afb0103e34e9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

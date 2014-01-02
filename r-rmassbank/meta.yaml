@@ -5,10 +5,10 @@ package:
 source:
   fn: RMassBank_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RMassBank_1.4.0.tar.gz
-    - e7f0fd2daa2b32e2d647537e975f19fa
+  md5: e7f0fd2daa2b32e2d647537e975f19fa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

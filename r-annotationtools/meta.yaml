@@ -5,10 +5,10 @@ package:
 source:
   fn: annotationTools_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/annotationTools_1.36.0.tar.gz
-    - d7788f08d7fadea94e50eed5bcbe5765
+  md5: d7788f08d7fadea94e50eed5bcbe5765
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

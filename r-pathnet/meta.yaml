@@ -5,10 +5,10 @@ package:
 source:
   fn: PathNet_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PathNet_1.2.0.tar.gz
-    - adbe5326ce55ad994f3bee40367eda8a
+  md5: adbe5326ce55ad994f3bee40367eda8a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

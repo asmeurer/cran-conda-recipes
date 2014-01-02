@@ -5,10 +5,10 @@ package:
 source:
   fn: LAPOINTE.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/LAPOINTE.db_2.10.1.tar.gz
-    - ef4c5c1ee23b45101d03a6c67012ac07
+  md5: ef4c5c1ee23b45101d03a6c67012ac07
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

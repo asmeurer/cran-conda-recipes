@@ -5,10 +5,10 @@ package:
 source:
   fn: BioMVCClass_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BioMVCClass_1.30.0.tar.gz
-    - 602bbc3699961f9d91cc759fdce173ba
+  md5: 602bbc3699961f9d91cc759fdce173ba
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

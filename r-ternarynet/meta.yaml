@@ -5,10 +5,10 @@ package:
 source:
   fn: ternarynet_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ternarynet_1.6.0.tar.gz
-    - 4d13c8ccbf82b853bd2c0516489d962f
+  md5: 4d13c8ccbf82b853bd2c0516489d962f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

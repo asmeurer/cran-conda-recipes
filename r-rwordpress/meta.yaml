@@ -5,10 +5,10 @@ package:
 source:
   fn: RWordPress_0.2-3.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RWordPress_0.2-3.tar.gz
-    - 94445ef75cb6ba2e834f3cbb84e65305
+  md5: 94445ef75cb6ba2e834f3cbb84e65305
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

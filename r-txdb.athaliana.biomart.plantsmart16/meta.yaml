@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Athaliana.BioMart.plantsmart16_2.9.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Athaliana.BioMart.plantsmart16_2.9.0.tar.gz
-    - c6bb735cf94d0b3995a6d6b7ef04f38c
+  md5: c6bb735cf94d0b3995a6d6b7ef04f38c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

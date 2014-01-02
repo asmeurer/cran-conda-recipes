@@ -5,10 +5,10 @@ package:
 source:
   fn: htmg430pmcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htmg430pmcdf_2.13.0.tar.gz
-    - 37bae3c373aa084508660b34683ec0d3
+  md5: 37bae3c373aa084508660b34683ec0d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

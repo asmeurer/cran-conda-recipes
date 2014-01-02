@@ -5,10 +5,10 @@ package:
 source:
   fn: GGtools_4.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GGtools_4.10.0.tar.gz
-    - 64a7f7af6b00f8f680a748f97b10e055
+  md5: 64a7f7af6b00f8f680a748f97b10e055
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

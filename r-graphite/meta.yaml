@@ -5,10 +5,10 @@ package:
 source:
   fn: graphite_1.8.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/graphite_1.8.1.tar.gz
-    - 73d8257c5db640526a90d162a9f7826e
+  md5: 73d8257c5db640526a90d162a9f7826e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

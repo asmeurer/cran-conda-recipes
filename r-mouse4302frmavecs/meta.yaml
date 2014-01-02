@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse4302frmavecs_1.3.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse4302frmavecs_1.3.0.tar.gz
-    - 10f5ef08a4d5a38f576497b1047aba9e
+  md5: 10f5ef08a4d5a38f576497b1047aba9e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

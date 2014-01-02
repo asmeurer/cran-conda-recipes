@@ -5,10 +5,10 @@ package:
 source:
   fn: CNORdt_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNORdt_1.4.0.tar.gz
-    - 0929f5a9eb68e0327d2fe021240ee1ce
+  md5: 0929f5a9eb68e0327d2fe021240ee1ce
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

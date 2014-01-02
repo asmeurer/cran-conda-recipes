@@ -5,10 +5,10 @@ package:
 source:
   fn: EasyqpcR_1.5.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/EasyqpcR_1.5.0.tar.gz
-    - f5825b692007129dd4a8001bc23589fd
+  md5: f5825b692007129dd4a8001bc23589fd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

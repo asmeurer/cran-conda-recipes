@@ -5,10 +5,10 @@ package:
 source:
   fn: human650v3aCrlmm_1.0.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human650v3aCrlmm_1.0.3.tar.gz
-    - 4b0de367ccc0f7499dcffe21ef1893c2
+  md5: 4b0de367ccc0f7499dcffe21ef1893c2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

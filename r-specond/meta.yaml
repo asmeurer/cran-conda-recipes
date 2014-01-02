@@ -5,10 +5,10 @@ package:
 source:
   fn: SpeCond_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SpeCond_1.16.0.tar.gz
-    - 496dff890b351d2b166c535f098c0964
+  md5: 496dff890b351d2b166c535f098c0964
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneMeta_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneMeta_1.34.0.tar.gz
-    - c0024ad667f196e0c1ae35d8bde513d1
+  md5: c0024ad667f196e0c1ae35d8bde513d1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

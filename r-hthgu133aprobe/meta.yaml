@@ -5,10 +5,10 @@ package:
 source:
   fn: hthgu133aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hthgu133aprobe_2.13.0.tar.gz
-    - d7e353af258fc6c2fe3c60756e2d521f
+  md5: d7e353af258fc6c2fe3c60756e2d521f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

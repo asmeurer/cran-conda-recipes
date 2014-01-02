@@ -5,10 +5,10 @@ package:
 source:
   fn: ensemblVEP_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ensemblVEP_1.2.0.tar.gz
-    - 99b4ddac783e2048bb0e11c8688ab578
+  md5: 99b4ddac783e2048bb0e11c8688ab578
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

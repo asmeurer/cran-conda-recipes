@@ -5,10 +5,10 @@ package:
 source:
   fn: bovine.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bovine.db_2.10.1.tar.gz
-    - 9e02338afc2ac1cab2a14ea1ecc173fe
+  md5: 9e02338afc2ac1cab2a14ea1ecc173fe
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

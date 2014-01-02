@@ -5,10 +5,10 @@ package:
 source:
   fn: DEGraph_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DEGraph_1.14.0.tar.gz
-    - 356d3c6ae6219d2193aeafadab011e8f
+  md5: 356d3c6ae6219d2193aeafadab011e8f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

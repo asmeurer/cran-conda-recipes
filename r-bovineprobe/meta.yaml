@@ -5,10 +5,10 @@ package:
 source:
   fn: bovineprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bovineprobe_2.13.0.tar.gz
-    - 293e75386690504a649054456ece7f4e
+  md5: 293e75386690504a649054456ece7f4e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

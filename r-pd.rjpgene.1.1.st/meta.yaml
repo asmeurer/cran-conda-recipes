@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rjpgene.1.1.st_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rjpgene.1.1.st_3.8.0.tar.gz
-    - 676d24092b0805684779ced780f73e4f
+  md5: 676d24092b0805684779ced780f73e4f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

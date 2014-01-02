@@ -5,10 +5,10 @@ package:
 source:
   fn: mgug4122a.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgug4122a.db_2.10.1.tar.gz
-    - 680182019cbfa7d0050083176415f3fb
+  md5: 680182019cbfa7d0050083176415f3fb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

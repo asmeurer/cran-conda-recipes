@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Mmusculus.UCSC.mm10.knownGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm10.knownGene_2.10.1.tar.gz
-    - 8ede808d0527c0998a7cb1cade60bc65
+  md5: 8ede808d0527c0998a7cb1cade60bc65
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

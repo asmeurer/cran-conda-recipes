@@ -5,10 +5,10 @@ package:
 source:
   fn: MiChip_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MiChip_1.16.0.tar.gz
-    - e21c867126e3d34a4fbf1e143946c69d
+  md5: e21c867126e3d34a4fbf1e143946c69d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

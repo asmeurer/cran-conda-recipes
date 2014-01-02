@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mouse430a.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mouse430a.2_1.10.0.tar.gz
-    - 1130a760f91d4b253834edb0d2867771
+  md5: 1130a760f91d4b253834edb0d2867771
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

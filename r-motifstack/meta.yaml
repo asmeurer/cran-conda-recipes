@@ -5,10 +5,10 @@ package:
 source:
   fn: motifStack_1.6.4.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/motifStack_1.6.4.tar.gz
-    - 57c001d35e95e8fcd67a1ad7337c2173
+  md5: 57c001d35e95e8fcd67a1ad7337c2173
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

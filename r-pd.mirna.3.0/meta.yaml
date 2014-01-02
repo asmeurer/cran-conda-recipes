@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mirna.3.0_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mirna.3.0_3.8.0.tar.gz
-    - a1ec98c17fdbd3a668c35880a8f8e0ef
+  md5: a1ec98c17fdbd3a668c35880a8f8e0ef
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

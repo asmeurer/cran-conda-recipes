@@ -5,10 +5,10 @@ package:
 source:
   fn: affy_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affy_1.40.0.tar.gz
-    - b58ebcb0117b685130425e8840088845
+  md5: b58ebcb0117b685130425e8840088845
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

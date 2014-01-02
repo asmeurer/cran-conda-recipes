@@ -5,10 +5,10 @@ package:
 source:
   fn: MMDiff_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MMDiff_1.2.0.tar.gz
-    - 6bba1dd1b9db356f28eb7e481a713696
+  md5: 6bba1dd1b9db356f28eb7e481a713696
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

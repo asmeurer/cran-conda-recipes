@@ -5,10 +5,10 @@ package:
 source:
   fn: flowWorkspace_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowWorkspace_3.8.0.tar.gz
-    - 601a86462519db3b145c54aec260d4d7
+  md5: 601a86462519db3b145c54aec260d4d7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: FastCSVSample_0.1-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/FastCSVSample_0.1-0.tar.gz
-    - e9573b2961090a6b6b089012183249f7
+  md5: e9573b2961090a6b6b089012183249f7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

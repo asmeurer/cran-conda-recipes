@@ -5,10 +5,10 @@ package:
 source:
   fn: wheatcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/wheatcdf_2.13.0.tar.gz
-    - 2e9f7f8713f11bef68b01859f9815faa
+  md5: 2e9f7f8713f11bef68b01859f9815faa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

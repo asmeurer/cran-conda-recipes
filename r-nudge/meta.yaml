@@ -5,10 +5,10 @@ package:
 source:
   fn: nudge_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/nudge_1.28.0.tar.gz
-    - 9532e37cf224631d2f75e043696b6be2
+  md5: 9532e37cf224631d2f75e043696b6be2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

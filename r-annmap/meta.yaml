@@ -5,10 +5,10 @@ package:
 source:
   fn: annmap_1.4.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/annmap_1.4.1.tar.gz
-    - faf01c8021d3b9cf5cbe007f1aa0745a
+  md5: faf01c8021d3b9cf5cbe007f1aa0745a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

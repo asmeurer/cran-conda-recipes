@@ -5,10 +5,10 @@ package:
 source:
   fn: SeqArray_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SeqArray_1.2.0.tar.gz
-    - 46889044d69fdad5c9fb274c124aac57
+  md5: 46889044d69fdad5c9fb274c124aac57
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

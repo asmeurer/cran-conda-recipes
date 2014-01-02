@@ -5,10 +5,10 @@ package:
 source:
   fn: tomatocdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/tomatocdf_2.13.0.tar.gz
-    - 421b9dd87d2a86e134172cb4973617ee
+  md5: 421b9dd87d2a86e134172cb4973617ee
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: drosophila2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/drosophila2cdf_2.13.0.tar.gz
-    - 60f75c123dff3850841e2ebed9403ea7
+  md5: 60f75c123dff3850841e2ebed9403ea7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

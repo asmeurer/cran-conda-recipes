@@ -5,10 +5,10 @@ package:
 source:
   fn: canine2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/canine2cdf_2.13.0.tar.gz
-    - ad7026c315cf6ccc03d9a8b6e6615b5b
+  md5: ad7026c315cf6ccc03d9a8b6e6615b5b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: sSeq_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sSeq_1.0.0.tar.gz
-    - 271b2426014b6aaaa250bd342a792bd4
+  md5: 271b2426014b6aaaa250bd342a792bd4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

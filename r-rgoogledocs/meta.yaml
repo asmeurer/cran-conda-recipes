@@ -5,10 +5,10 @@ package:
 source:
   fn: RGoogleDocs_0.7-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RGoogleDocs_0.7-0.tar.gz
-    - 8d31d139f1b14c7356f98e04fbf1be6f
+  md5: 8d31d139f1b14c7356f98e04fbf1be6f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

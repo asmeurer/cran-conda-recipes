@@ -5,10 +5,10 @@ package:
 source:
   fn: GWASTools_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GWASTools_1.8.0.tar.gz
-    - 97179b12d515c562c09679b2b7929301
+  md5: 97179b12d515c562c09679b2b7929301
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

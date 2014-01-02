@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Tgondii.ToxoDB.7.0_0.99.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Tgondii.ToxoDB.7.0_0.99.0.tar.gz
-    - 8f204871f73f8d1c5194f3748e28878e
+  md5: 8f204871f73f8d1c5194f3748e28878e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

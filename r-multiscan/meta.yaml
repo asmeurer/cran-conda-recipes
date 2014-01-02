@@ -5,10 +5,10 @@ package:
 source:
   fn: multiscan_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/multiscan_1.22.0.tar.gz
-    - e164516e5f9f095c721450f9c19934f1
+  md5: e164516e5f9f095c721450f9c19934f1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

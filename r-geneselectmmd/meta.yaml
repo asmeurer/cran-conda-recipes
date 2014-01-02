@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneSelectMMD_2.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneSelectMMD_2.6.0.tar.gz
-    - 9291f73ddd82dbaf961b8656aabfcaaa
+  md5: 9291f73ddd82dbaf961b8656aabfcaaa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: RExcelXML_0.5-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RExcelXML_0.5-0.tar.gz
-    - e47c33b0a32a1ce7241e590677f907c3
+  md5: e47c33b0a32a1ce7241e590677f907c3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

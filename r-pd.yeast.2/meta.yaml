@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.yeast.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.yeast.2_1.10.0.tar.gz
-    - 935dda24e9838f8c7a9d896536ed9bab
+  md5: 935dda24e9838f8c7a9d896536ed9bab
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

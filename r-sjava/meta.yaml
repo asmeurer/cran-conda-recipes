@@ -5,10 +5,10 @@ package:
 source:
   fn: SJava_0.88.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SJava_0.88.0.tar.gz
-    - 2a8d1f3cbcf4870488d7b05f9fde09fa
+  md5: 2a8d1f3cbcf4870488d7b05f9fde09fa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

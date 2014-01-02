@@ -5,10 +5,10 @@ package:
 source:
   fn: rgu34acdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rgu34acdf_2.13.0.tar.gz
-    - 87c8cec0ad0ee868e31910d36762f575
+  md5: 87c8cec0ad0ee868e31910d36762f575
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

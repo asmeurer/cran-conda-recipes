@@ -5,10 +5,10 @@ package:
 source:
   fn: gwascat_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gwascat_1.6.0.tar.gz
-    - b081f2e226f531a5f552ff6e50bbc7cc
+  md5: b081f2e226f531a5f552ff6e50bbc7cc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

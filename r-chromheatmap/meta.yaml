@@ -5,10 +5,10 @@ package:
 source:
   fn: ChromHeatMap_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChromHeatMap_1.16.0.tar.gz
-    - 5de46936661b80a0cc9a0966ea9a8e57
+  md5: 5de46936661b80a0cc9a0966ea9a8e57
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

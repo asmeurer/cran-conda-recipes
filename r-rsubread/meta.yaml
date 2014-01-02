@@ -5,10 +5,10 @@ package:
 source:
   fn: Rsubread_1.12.6.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rsubread_1.12.6.tar.gz
-    - 593068189db38d4149787ef5ade00da3
+  md5: 593068189db38d4149787ef5ade00da3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

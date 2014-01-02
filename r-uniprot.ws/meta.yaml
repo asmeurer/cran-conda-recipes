@@ -5,10 +5,10 @@ package:
 source:
   fn: UniProt.ws_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/UniProt.ws_2.2.0.tar.gz
-    - e6330015994a0461ad123a359e7c4581
+  md5: e6330015994a0461ad123a359e7c4581
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

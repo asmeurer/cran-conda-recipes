@@ -5,10 +5,10 @@ package:
 source:
   fn: RAmazonS3_0.1-5.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RAmazonS3_0.1-5.tar.gz
-    - 69b32dd8a4c324a0ebe66fb962f049cc
+  md5: 69b32dd8a4c324a0ebe66fb962f049cc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

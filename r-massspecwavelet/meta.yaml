@@ -5,10 +5,10 @@ package:
 source:
   fn: MassSpecWavelet_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MassSpecWavelet_1.28.0.tar.gz
-    - 7ddd1dfe0db276f2c87a00655d05c1fb
+  md5: 7ddd1dfe0db276f2c87a00655d05c1fb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

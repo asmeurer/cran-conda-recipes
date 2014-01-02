@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu95aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95aprobe_2.13.0.tar.gz
-    - 187b12cc16204801af31ff3a43d5aafd
+  md5: 187b12cc16204801af31ff3a43d5aafd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

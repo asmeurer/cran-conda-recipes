@@ -5,10 +5,10 @@ package:
 source:
   fn: REDseq_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/REDseq_1.8.0.tar.gz
-    - ee3ac17d4578765e9c77578c49d4de70
+  md5: ee3ac17d4578765e9c77578c49d4de70
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

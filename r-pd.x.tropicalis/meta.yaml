@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.x.tropicalis_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.x.tropicalis_1.10.0.tar.gz
-    - 08b36c7357673316a7ffacf0a626bebf
+  md5: 08b36c7357673316a7ffacf0a626bebf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: RLMM_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RLMM_1.24.0.tar.gz
-    - efe9f80dc869a9decaf1a0eade95a3ff
+  md5: efe9f80dc869a9decaf1a0eade95a3ff
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

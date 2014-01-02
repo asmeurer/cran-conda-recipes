@@ -5,10 +5,10 @@ package:
 source:
   fn: rnu34.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rnu34.db_2.10.1.tar.gz
-    - 715d9f8850b4601919da127f332fffa2
+  md5: 715d9f8850b4601919da127f332fffa2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

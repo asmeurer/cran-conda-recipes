@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.mg.u74c_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.mg.u74c_1.10.0.tar.gz
-    - 7354af5f1c744e8df2fffad1913fe34e
+  md5: 7354af5f1c744e8df2fffad1913fe34e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

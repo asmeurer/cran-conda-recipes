@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Amellifera.UCSC.apiMel2_1.3.16.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Amellifera.UCSC.apiMel2_1.3.16.tar.gz
-    - 602f3837e45eab113cda83afd605b1e3
+  md5: 602f3837e45eab113cda83afd605b1e3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

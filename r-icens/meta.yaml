@@ -5,10 +5,10 @@ package:
 source:
   fn: Icens_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Icens_1.34.0.tar.gz
-    - f43ac0c84159ae0887d00712a312cf42
+  md5: f43ac0c84159ae0887d00712a312cf42
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:

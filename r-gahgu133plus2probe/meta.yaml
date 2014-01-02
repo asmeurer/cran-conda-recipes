@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu133plus2probe_2.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu133plus2probe_2.2.1.tar.gz
-    - 4b15803062c9e6240ef29df32a03a97d
+  md5: 4b15803062c9e6240ef29df32a03a97d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

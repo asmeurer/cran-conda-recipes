@@ -5,10 +5,10 @@ package:
 source:
   fn: celegansprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/celegansprobe_2.13.0.tar.gz
-    - 1198b2cd785d579e1e93b8a1be065e19
+  md5: 1198b2cd785d579e1e93b8a1be065e19
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

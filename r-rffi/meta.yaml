@@ -5,10 +5,10 @@ package:
 source:
   fn: Rffi_0.3-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Rffi_0.3-0.tar.gz
-    - 4abf4a9a428feec573b36c6dbf44d91b
+  md5: 4abf4a9a428feec573b36c6dbf44d91b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

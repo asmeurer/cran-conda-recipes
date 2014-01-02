@@ -5,10 +5,10 @@ package:
 source:
   fn: CGEN_2.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGEN_2.4.0.tar.gz
-    - e79aa5dbb3d6aa9a11cceba56cb595a3
+  md5: e79aa5dbb3d6aa9a11cceba56cb595a3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

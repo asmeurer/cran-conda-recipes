@@ -5,10 +5,10 @@ package:
 source:
   fn: genoCN_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genoCN_1.14.0.tar.gz
-    - 9c3d242f05866785d24b8667476d85a6
+  md5: 9c3d242f05866785d24b8667476d85a6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

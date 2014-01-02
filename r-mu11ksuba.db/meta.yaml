@@ -5,10 +5,10 @@ package:
 source:
   fn: mu11ksuba.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu11ksuba.db_2.10.1.tar.gz
-    - cd2f282fc3b307857a75a4402e103a90
+  md5: cd2f282fc3b307857a75a4402e103a90
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

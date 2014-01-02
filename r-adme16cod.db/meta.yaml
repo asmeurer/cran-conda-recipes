@@ -5,10 +5,10 @@ package:
 source:
   fn: adme16cod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/adme16cod.db_2.17.0.tar.gz
-    - 5919217fbf4756f600e2ffe5a609ab3c
+  md5: 5919217fbf4756f600e2ffe5a609ab3c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

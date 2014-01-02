@@ -5,10 +5,10 @@ package:
 source:
   fn: CNVrd2_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CNVrd2_1.0.0.tar.gz
-    - 0e0c296a4b414c5783a9bd0103c2c84e
+  md5: 0e0c296a4b414c5783a9bd0103c2c84e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

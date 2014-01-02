@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Pt.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Pt.eg.db_2.10.1.tar.gz
-    - 3dd81ebc04dbb1ed2db7a1703f94d052
+  md5: 3dd81ebc04dbb1ed2db7a1703f94d052
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: methyAnalysis_1.4.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/methyAnalysis_1.4.1.tar.gz
-    - 34377a366bb7950fa4a1daf0c0d303a0
+  md5: 34377a366bb7950fa4a1daf0c0d303a0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

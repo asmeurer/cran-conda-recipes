@@ -5,10 +5,10 @@ package:
 source:
   fn: affyPLM_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyPLM_1.38.0.tar.gz
-    - bffb6a94e493311a4cb0f9cc53b696e0
+  md5: bffb6a94e493311a4cb0f9cc53b696e0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: occugene_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/occugene_1.22.0.tar.gz
-    - fd47620071bc626e42fb8308b878b169
+  md5: fd47620071bc626e42fb8308b878b169
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

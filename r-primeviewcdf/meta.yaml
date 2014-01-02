@@ -5,10 +5,10 @@ package:
 source:
   fn: primeviewcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/primeviewcdf_2.13.0.tar.gz
-    - ae3830bb18d0463af181dcbfe6f4ca61
+  md5: ae3830bb18d0463af181dcbfe6f4ca61
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

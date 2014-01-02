@@ -5,10 +5,10 @@ package:
 source:
   fn: drosgenome1probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/drosgenome1probe_2.13.0.tar.gz
-    - 9dc95adceb01ecc541bc79374af47d52
+  md5: 9dc95adceb01ecc541bc79374af47d52
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

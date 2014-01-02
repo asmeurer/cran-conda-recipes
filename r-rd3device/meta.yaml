@@ -5,10 +5,10 @@ package:
 source:
   fn: RD3Device_0.1-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RD3Device_0.1-0.tar.gz
-    - 38ff140afe3869950d11b184feec7ebb
+  md5: 38ff140afe3869950d11b184feec7ebb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

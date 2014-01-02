@@ -5,10 +5,10 @@ package:
 source:
   fn: SIFT.Hsapiens.dbSNP132_1.0.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/SIFT.Hsapiens.dbSNP132_1.0.2.tar.gz
-    - c374f0bf4c99357cfe99e0b192c00d75
+  md5: c374f0bf4c99357cfe99e0b192c00d75
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: KEGG.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/KEGG.db_2.10.1.tar.gz
-    - 9f30aaf9a1e0ac767f3393b61018a0db
+  md5: 9f30aaf9a1e0ac767f3393b61018a0db
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

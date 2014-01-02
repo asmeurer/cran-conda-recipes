@@ -5,10 +5,10 @@ package:
 source:
   fn: Mu22v3.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Mu22v3.db_2.10.1.tar.gz
-    - e6151d13c40fc516ddfd0ed6a2550a6f
+  md5: e6151d13c40fc516ddfd0ed6a2550a6f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

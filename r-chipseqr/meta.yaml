@@ -5,10 +5,10 @@ package:
 source:
   fn: ChIPseqR_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ChIPseqR_1.16.0.tar.gz
-    - fdabf6c63c70aae4ed062dbe85557a05
+  md5: fdabf6c63c70aae4ed062dbe85557a05
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

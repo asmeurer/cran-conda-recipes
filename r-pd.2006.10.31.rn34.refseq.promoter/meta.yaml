@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.2006.10.31.rn34.refseq.promoter_0.99.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.2006.10.31.rn34.refseq.promoter_0.99.2.tar.gz
-    - 61d7b8d4c463558764684923fae54cd3
+  md5: 61d7b8d4c463558764684923fae54cd3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

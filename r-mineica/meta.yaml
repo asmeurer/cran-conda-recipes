@@ -5,10 +5,10 @@ package:
 source:
   fn: MineICA_1.2.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MineICA_1.2.2.tar.gz
-    - 119321ecd43ac1922b8bf3db76aeb14e
+  md5: 119321ecd43ac1922b8bf3db76aeb14e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

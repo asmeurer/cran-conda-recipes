@@ -5,10 +5,10 @@ package:
 source:
   fn: AnnotationFuncs_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AnnotationFuncs_1.12.0.tar.gz
-    - 465b1d45ef938f5cf33d5158198e3178
+  md5: 465b1d45ef938f5cf33d5158198e3178
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

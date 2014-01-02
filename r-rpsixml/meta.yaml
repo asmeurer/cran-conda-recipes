@@ -5,10 +5,10 @@ package:
 source:
   fn: RpsiXML_2.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RpsiXML_2.4.0.tar.gz
-    - 085b4cafcc56a35514fa718f93171c25
+  md5: 085b4cafcc56a35514fa718f93171c25
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

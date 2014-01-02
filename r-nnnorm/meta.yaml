@@ -5,10 +5,10 @@ package:
 source:
   fn: nnNorm_2.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/nnNorm_2.26.0.tar.gz
-    - d2f85197eb97eccb166acb55058c1444
+  md5: d2f85197eb97eccb166acb55058c1444
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

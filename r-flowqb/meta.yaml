@@ -5,10 +5,10 @@ package:
 source:
   fn: flowQB_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowQB_1.4.0.tar.gz
-    - d60903c68331e1eb35ec890749b54bba
+  md5: d60903c68331e1eb35ec890749b54bba
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

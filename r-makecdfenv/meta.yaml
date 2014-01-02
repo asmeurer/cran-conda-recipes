@@ -5,10 +5,10 @@ package:
 source:
   fn: makecdfenv_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/makecdfenv_1.38.0.tar.gz
-    - 3f2338fe3351eaa7d8a86faa5223de0c
+  md5: 3f2338fe3351eaa7d8a86faa5223de0c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

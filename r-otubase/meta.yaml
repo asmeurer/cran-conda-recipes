@@ -5,10 +5,10 @@ package:
 source:
   fn: OTUbase_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OTUbase_1.12.0.tar.gz
-    - a8a7e306270b9e823d6575fd440db5be
+  md5: a8a7e306270b9e823d6575fd440db5be
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

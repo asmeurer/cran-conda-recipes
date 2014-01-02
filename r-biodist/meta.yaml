@@ -5,10 +5,10 @@ package:
 source:
   fn: bioDist_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bioDist_1.34.0.tar.gz
-    - 7b44369e5bd739ca22c6c1d61e599f57
+  md5: 7b44369e5bd739ca22c6c1d61e599f57
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

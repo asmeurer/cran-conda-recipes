@@ -5,10 +5,10 @@ package:
 source:
   fn: BiSeq_1.2.3.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiSeq_1.2.3.tar.gz
-    - 0093424d20d2a30bddb934fa5e032382
+  md5: 0093424d20d2a30bddb934fa5e032382
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

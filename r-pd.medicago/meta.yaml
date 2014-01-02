@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.medicago_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.medicago_1.10.0.tar.gz
-    - be2cfc589f21fef5cd9d6061d7ed4007
+  md5: be2cfc589f21fef5cd9d6061d7ed4007
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

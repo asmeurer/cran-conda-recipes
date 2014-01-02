@@ -5,10 +5,10 @@ package:
 source:
   fn: twilight_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/twilight_1.38.0.tar.gz
-    - 7770fc647d78dfbd008735d2ebb380dc
+  md5: 7770fc647d78dfbd008735d2ebb380dc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

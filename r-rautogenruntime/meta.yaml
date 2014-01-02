@@ -5,10 +5,10 @@ package:
 source:
   fn: RAutoGenRunTime_0.3-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RAutoGenRunTime_0.3-0.tar.gz
-    - 8fa7739e166eacf7f7c05636f7778369
+  md5: 8fa7739e166eacf7f7c05636f7778369
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

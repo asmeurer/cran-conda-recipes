@@ -5,10 +5,10 @@ package:
 source:
   fn: rqubic_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rqubic_1.8.0.tar.gz
-    - 97f7980193890bc728b4bca4e10bf891
+  md5: 97f7980193890bc728b4bca4e10bf891
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

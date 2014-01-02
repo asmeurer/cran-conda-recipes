@@ -5,10 +5,10 @@ package:
 source:
   fn: Mu15v1.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Mu15v1.db_2.10.1.tar.gz
-    - 787943da70290db4f002d8433980ee43
+  md5: 787943da70290db4f002d8433980ee43
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: VegaMC_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VegaMC_2.8.0.tar.gz
-    - 6246f26c7489eacc99ce794c44adbfae
+  md5: 6246f26c7489eacc99ce794c44adbfae
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

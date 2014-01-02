@@ -5,10 +5,10 @@ package:
 source:
   fn: hugene21stprobeset.db_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene21stprobeset.db_2.13.0.tar.gz
-    - 91ebef2c41a75d3213bdff03b377c469
+  md5: 91ebef2c41a75d3213bdff03b377c469
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

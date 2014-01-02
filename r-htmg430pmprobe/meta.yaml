@@ -5,10 +5,10 @@ package:
 source:
   fn: htmg430pmprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htmg430pmprobe_2.13.0.tar.gz
-    - 819d5e377ab35d836fa3d73fe85bd0a6
+  md5: 819d5e377ab35d836fa3d73fe85bd0a6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

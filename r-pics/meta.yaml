@@ -5,10 +5,10 @@ package:
 source:
   fn: PICS_2.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PICS_2.6.0.tar.gz
-    - b1ce20535f71de1cb02890455744f524
+  md5: b1ce20535f71de1cb02890455744f524
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

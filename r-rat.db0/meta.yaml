@@ -5,10 +5,10 @@ package:
 source:
   fn: rat.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rat.db0_2.10.1.tar.gz
-    - dde60f61ed0f64d047d0b22ed2735f7d
+  md5: dde60f61ed0f64d047d0b22ed2735f7d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

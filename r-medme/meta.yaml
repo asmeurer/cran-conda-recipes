@@ -5,10 +5,10 @@ package:
 source:
   fn: MEDME_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MEDME_1.22.0.tar.gz
-    - cd435185ec922553146c3cb352368be6
+  md5: cd435185ec922553146c3cb352368be6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

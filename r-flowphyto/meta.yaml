@@ -5,10 +5,10 @@ package:
 source:
   fn: flowPhyto_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowPhyto_1.14.0.tar.gz
-    - 89757a8be9e8ee2ce66516bafbde7bcb
+  md5: 89757a8be9e8ee2ce66516bafbde7bcb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

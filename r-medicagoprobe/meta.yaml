@@ -5,10 +5,10 @@ package:
 source:
   fn: medicagoprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/medicagoprobe_2.13.0.tar.gz
-    - 58eb2bbe2549bf621b3dc3edcf600094
+  md5: 58eb2bbe2549bf621b3dc3edcf600094
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

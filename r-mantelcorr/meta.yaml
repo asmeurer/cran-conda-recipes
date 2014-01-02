@@ -5,10 +5,10 @@ package:
 source:
   fn: MantelCorr_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MantelCorr_1.32.0.tar.gz
-    - 3354b9f55158cd912b72bb8ffe9676ad
+  md5: 3354b9f55158cd912b72bb8ffe9676ad
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

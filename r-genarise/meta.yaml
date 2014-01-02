@@ -5,10 +5,10 @@ package:
 source:
   fn: genArise_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/genArise_1.38.0.tar.gz
-    - b2aa28768a99e9f59d77e562b939fb3f
+  md5: b2aa28768a99e9f59d77e562b939fb3f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

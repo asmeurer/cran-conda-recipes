@@ -5,10 +5,10 @@ package:
 source:
   fn: phenoDist_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/phenoDist_1.10.0.tar.gz
-    - 1b4b975ba2b2f665d82656011f4932ff
+  md5: 1b4b975ba2b2f665d82656011f4932ff
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

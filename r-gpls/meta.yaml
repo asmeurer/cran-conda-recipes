@@ -5,10 +5,10 @@ package:
 source:
   fn: gpls_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/gpls_1.34.0.tar.gz
-    - 15d07026741b6d4ca3b38df69e4b87f5
+  md5: 15d07026741b6d4ca3b38df69e4b87f5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

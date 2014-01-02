@@ -5,10 +5,10 @@ package:
 source:
   fn: celegans.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/celegans.db_2.10.1.tar.gz
-    - b533b5035f09e57a7bb39a31ee46174c
+  md5: b533b5035f09e57a7bb39a31ee46174c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

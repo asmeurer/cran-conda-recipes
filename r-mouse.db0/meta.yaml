@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse.db0_2.10.1.tar.gz
-    - e04bd326bed29ae7bb379688fe3a2bdb
+  md5: e04bd326bed29ae7bb379688fe3a2bdb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

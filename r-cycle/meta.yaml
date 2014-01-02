@@ -5,10 +5,10 @@ package:
 source:
   fn: cycle_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cycle_1.16.0.tar.gz
-    - 3dd200cb79f6b1c909ed92aaf219bc77
+  md5: 3dd200cb79f6b1c909ed92aaf219bc77
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

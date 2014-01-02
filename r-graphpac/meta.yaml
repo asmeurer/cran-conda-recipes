@@ -5,10 +5,10 @@ package:
 source:
   fn: GraphPAC_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GraphPAC_1.4.0.tar.gz
-    - cde4f35c400fe9ea16c934b0cf55751f
+  md5: cde4f35c400fe9ea16c934b0cf55751f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

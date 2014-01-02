@@ -5,10 +5,10 @@ package:
 source:
   fn: CexoR_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CexoR_1.0.0.tar.gz
-    - 0098eb5b8172778d48a20186cd136903
+  md5: 0098eb5b8172778d48a20186cd136903
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

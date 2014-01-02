@@ -5,10 +5,10 @@ package:
 source:
   fn: vitisviniferacdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/vitisviniferacdf_2.13.0.tar.gz
-    - 0418ae6ef3bf6da4aac94c95a97b7af8
+  md5: 0418ae6ef3bf6da4aac94c95a97b7af8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

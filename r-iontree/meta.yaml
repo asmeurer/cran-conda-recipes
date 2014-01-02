@@ -5,10 +5,10 @@ package:
 source:
   fn: iontree_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iontree_1.8.0.tar.gz
-    - 0d4801931425e658b4de12bb5ef648d4
+  md5: 0d4801931425e658b4de12bb5ef648d4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

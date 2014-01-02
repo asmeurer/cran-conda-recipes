@@ -5,10 +5,10 @@ package:
 source:
   fn: h20kcod.db_2.17.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/h20kcod.db_2.17.0.tar.gz
-    - 9cad5123f0ca2eb111631d6a7f79aad6
+  md5: 9cad5123f0ca2eb111631d6a7f79aad6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

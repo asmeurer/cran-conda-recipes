@@ -5,10 +5,10 @@ package:
 source:
   fn: clusterStab_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clusterStab_1.34.0.tar.gz
-    - 4dda7be197c0e3dc1a78fae13c4368e2
+  md5: 4dda7be197c0e3dc1a78fae13c4368e2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

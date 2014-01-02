@@ -5,10 +5,10 @@ package:
 source:
   fn: iterativeBMA_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iterativeBMA_1.20.0.tar.gz
-    - 15bb1278d911f53b05799ef547c64c1b
+  md5: 15bb1278d911f53b05799ef547c64c1b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

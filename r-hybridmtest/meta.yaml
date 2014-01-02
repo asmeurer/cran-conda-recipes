@@ -5,10 +5,10 @@ package:
 source:
   fn: HybridMTest_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/HybridMTest_1.6.0.tar.gz
-    - 230472846bc9c471e253f5542182318a
+  md5: 230472846bc9c471e253f5542182318a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

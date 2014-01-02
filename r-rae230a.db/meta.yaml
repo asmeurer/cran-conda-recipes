@@ -5,10 +5,10 @@ package:
 source:
   fn: rae230a.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rae230a.db_2.10.1.tar.gz
-    - f1231118f20fabef44896641832a7c5e
+  md5: f1231118f20fabef44896641832a7c5e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

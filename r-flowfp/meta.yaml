@@ -5,10 +5,10 @@ package:
 source:
   fn: flowFP_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowFP_1.20.0.tar.gz
-    - 1beb5b580f9f95471a4d339bfe8419b9
+  md5: 1beb5b580f9f95471a4d339bfe8419b9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: eiR_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/eiR_1.2.0.tar.gz
-    - 107cfcf5d5f73e59aa8ca27e9292ac9f
+  md5: 107cfcf5d5f73e59aa8ca27e9292ac9f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

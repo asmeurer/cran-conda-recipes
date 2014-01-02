@@ -5,10 +5,10 @@ package:
 source:
   fn: flowPlots_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowPlots_1.10.0.tar.gz
-    - dffd6093206d52344a7873cb34579ac8
+  md5: dffd6093206d52344a7873cb34579ac8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

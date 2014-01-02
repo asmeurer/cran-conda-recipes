@@ -5,10 +5,10 @@ package:
 source:
   fn: CodeDepends_0.2-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/CodeDepends_0.2-1.tar.gz
-    - e2ec3505f9db1a96919a72f07673a2d8
+  md5: e2ec3505f9db1a96919a72f07673a2d8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

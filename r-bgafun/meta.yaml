@@ -5,10 +5,10 @@ package:
 source:
   fn: bgafun_1.24.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bgafun_1.24.1.tar.gz
-    - 24f169475ec098c1cc8f0f03ac775239
+  md5: 24f169475ec098c1cc8f0f03ac775239
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

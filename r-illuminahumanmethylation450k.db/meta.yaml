@@ -5,10 +5,10 @@ package:
 source:
   fn: IlluminaHumanMethylation450k.db_2.0.7.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/IlluminaHumanMethylation450k.db_2.0.7.tar.gz
-    - 672c95fa7584ab04140f2eaf833d2513
+  md5: 672c95fa7584ab04140f2eaf833d2513
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

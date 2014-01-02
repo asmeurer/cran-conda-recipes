@@ -5,10 +5,10 @@ package:
 source:
   fn: cMAP_1.15.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/cMAP_1.15.1.tar.gz
-    - dbf8df4d4540151936884e1c5d747bcf
+  md5: dbf8df4d4540151936884e1c5d747bcf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

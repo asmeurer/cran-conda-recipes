@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Scerevisiae.UCSC.sacCer3_1.3.19.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer3_1.3.19.tar.gz
-    - 39b556568c87df61fa3b98d3e699b76d
+  md5: 39b556568c87df61fa3b98d3e699b76d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

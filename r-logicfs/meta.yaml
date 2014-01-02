@@ -5,10 +5,10 @@ package:
 source:
   fn: logicFS_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/logicFS_1.32.0.tar.gz
-    - cfe32b6e6d67ef42b1f57b8d826af231
+  md5: cfe32b6e6d67ef42b1f57b8d826af231
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

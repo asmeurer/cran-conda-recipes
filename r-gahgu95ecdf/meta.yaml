@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu95ecdf_2.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95ecdf_2.2.1.tar.gz
-    - 7f70f7bf61c7075ef49875792aa83bc6
+  md5: 7f70f7bf61c7075ef49875792aa83bc6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

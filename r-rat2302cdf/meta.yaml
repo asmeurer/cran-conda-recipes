@@ -5,10 +5,10 @@ package:
 source:
   fn: rat2302cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rat2302cdf_2.13.0.tar.gz
-    - ae518a1f673c395ea09417aacb5d5435
+  md5: ae518a1f673c395ea09417aacb5d5435
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

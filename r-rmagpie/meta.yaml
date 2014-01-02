@@ -5,10 +5,10 @@ package:
 source:
   fn: Rmagpie_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rmagpie_1.18.0.tar.gz
-    - 9cf9a06be076b5a0b6c24eb352587dc3
+  md5: 9cf9a06be076b5a0b6c24eb352587dc3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

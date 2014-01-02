@@ -5,10 +5,10 @@ package:
 source:
   fn: ReadqPCR_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReadqPCR_1.8.0.tar.gz
-    - 01b020a4bef9bb7a920eb8efdfe7da45
+  md5: 01b020a4bef9bb7a920eb8efdfe7da45
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

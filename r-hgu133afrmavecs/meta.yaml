@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu133afrmavecs_1.3.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133afrmavecs_1.3.0.tar.gz
-    - dff035d7e3a4f7db36a8486ce988834c
+  md5: dff035d7e3a4f7db36a8486ce988834c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

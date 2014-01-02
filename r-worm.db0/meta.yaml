@@ -5,10 +5,10 @@ package:
 source:
   fn: worm.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/worm.db0_2.10.1.tar.gz
-    - e8886c631fc43fcc2f0e7793a9fd814e
+  md5: e8886c631fc43fcc2f0e7793a9fd814e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

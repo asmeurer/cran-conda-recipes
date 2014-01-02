@@ -5,10 +5,10 @@ package:
 source:
   fn: ye6100subbcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ye6100subbcdf_2.13.0.tar.gz
-    - 8ca3646ae5db30511a8aff44f1f4faa5
+  md5: 8ca3646ae5db30511a8aff44f1f4faa5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

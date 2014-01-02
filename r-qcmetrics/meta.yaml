@@ -5,10 +5,10 @@ package:
 source:
   fn: qcmetrics_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qcmetrics_1.0.0.tar.gz
-    - 9cb41a33b7678d1fc7c0680999c3f351
+  md5: 9cb41a33b7678d1fc7c0680999c3f351
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rhesus_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rhesus_1.10.0.tar.gz
-    - 0b6378ed7e1fb28b6489560039a29544
+  md5: 0b6378ed7e1fb28b6489560039a29544
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

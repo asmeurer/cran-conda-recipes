@@ -5,10 +5,10 @@ package:
 source:
   fn: xmapbridge_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/xmapbridge_1.20.0.tar.gz
-    - 5bd757bb18741cae279de4c66604b53d
+  md5: 5bd757bb18741cae279de4c66604b53d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: baySeq_1.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/baySeq_1.16.0.tar.gz
-    - 7cdea501c8fae9944715ab921f596bc8
+  md5: 7cdea501c8fae9944715ab921f596bc8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

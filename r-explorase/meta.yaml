@@ -5,10 +5,10 @@ package:
 source:
   fn: explorase_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/explorase_1.26.0.tar.gz
-    - fd7a41ac08533c122b211f24dc36ed9f
+  md5: fd7a41ac08533c122b211f24dc36ed9f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

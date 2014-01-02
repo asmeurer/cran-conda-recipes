@@ -5,10 +5,10 @@ package:
 source:
   fn: nem_2.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/nem_2.36.0.tar.gz
-    - 83bc5a06c920d71bb64b4ceda795c0b6
+  md5: 83bc5a06c920d71bb64b4ceda795c0b6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

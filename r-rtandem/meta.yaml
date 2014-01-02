@@ -5,10 +5,10 @@ package:
 source:
   fn: rTANDEM_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rTANDEM_1.2.0.tar.gz
-    - dba7b5d5d0b683630c1803f22b16e4be
+  md5: dba7b5d5d0b683630c1803f22b16e4be
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

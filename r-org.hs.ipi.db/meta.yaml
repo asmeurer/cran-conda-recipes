@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Hs.ipi.db_1.3.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Hs.ipi.db_1.3.0.tar.gz
-    - 787cc8c4512e1e07c2ef0812024438ca
+  md5: 787cc8c4512e1e07c2ef0812024438ca
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: cleanUpdTSeq_1.0.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cleanUpdTSeq_1.0.2.tar.gz
-    - 96f649174affe0e727fb3af39a83396a
+  md5: 96f649174affe0e727fb3af39a83396a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

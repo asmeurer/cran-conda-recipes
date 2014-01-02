@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.x.laevis.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.x.laevis.2_1.10.0.tar.gz
-    - 9198d6cfdc92b28f6833fab85c645a4a
+  md5: 9198d6cfdc92b28f6833fab85c645a4a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

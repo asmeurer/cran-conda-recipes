@@ -5,10 +5,10 @@ package:
 source:
   fn: hcg110.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hcg110.db_2.10.1.tar.gz
-    - dadb7bc6dfce33a7099a9164239667e4
+  md5: dadb7bc6dfce33a7099a9164239667e4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

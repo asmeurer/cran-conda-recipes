@@ -5,10 +5,10 @@ package:
 source:
   fn: RbcBook1_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RbcBook1_1.30.0.tar.gz
-    - d6287b11433a15f23cd4df5ef1b513be
+  md5: d6287b11433a15f23cd4df5ef1b513be
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

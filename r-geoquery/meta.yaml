@@ -5,10 +5,10 @@ package:
 source:
   fn: GEOquery_2.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GEOquery_2.28.0.tar.gz
-    - 51bd3eb1003cd08d5b0c70a9c02a747d
+  md5: 51bd3eb1003cd08d5b0c70a9c02a747d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: canine2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/canine2probe_2.13.0.tar.gz
-    - b479332870c851f6a49c051c898bdd4d
+  md5: b479332870c851f6a49c051c898bdd4d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

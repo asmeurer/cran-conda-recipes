@@ -5,10 +5,10 @@ package:
 source:
   fn: PROMISE_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PROMISE_1.14.0.tar.gz
-    - 0e74dff8689eb77350393ffb06222c15
+  md5: 0e74dff8689eb77350393ffb06222c15
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

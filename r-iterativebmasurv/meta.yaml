@@ -5,10 +5,10 @@ package:
 source:
   fn: iterativeBMAsurv_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iterativeBMAsurv_1.20.0.tar.gz
-    - 596739f8e69257eeb521586180b1540f
+  md5: 596739f8e69257eeb521586180b1540f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

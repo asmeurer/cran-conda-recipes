@@ -5,10 +5,10 @@ package:
 source:
   fn: RIPSeeker_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RIPSeeker_1.2.0.tar.gz
-    - 0ba7993c762d2303b398e0029846c092
+  md5: 0ba7993c762d2303b398e0029846c092
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

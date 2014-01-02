@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneExpressionSignature_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneExpressionSignature_1.8.0.tar.gz
-    - 94c73d44a69d21e96c3fa93256533f94
+  md5: 94c73d44a69d21e96c3fa93256533f94
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

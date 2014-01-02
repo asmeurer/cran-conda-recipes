@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Hsapiens.UCSC.hg19.knownGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg19.knownGene_2.10.1.tar.gz
-    - 72e7e881eaf990225e48f068de8d794f
+  md5: 72e7e881eaf990225e48f068de8d794f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

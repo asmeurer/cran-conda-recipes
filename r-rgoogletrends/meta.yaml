@@ -5,10 +5,10 @@ package:
 source:
   fn: RGoogleTrends_0.2-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RGoogleTrends_0.2-1.tar.gz
-    - 997ca2bc169f566e4b3bf9aa3133c6ef
+  md5: 997ca2bc169f566e4b3bf9aa3133c6ef
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

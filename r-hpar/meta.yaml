@@ -5,10 +5,10 @@ package:
 source:
   fn: hpar_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hpar_1.4.0.tar.gz
-    - 3befafae0cf93b4f9f1d9248a1f32a80
+  md5: 3befafae0cf93b4f9f1d9248a1f32a80
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

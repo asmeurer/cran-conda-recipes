@@ -5,10 +5,10 @@ package:
 source:
   fn: inveRsion_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/inveRsion_1.10.0.tar.gz
-    - eb59b13526b732c6675f46216bc05a4d
+  md5: eb59b13526b732c6675f46216bc05a4d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

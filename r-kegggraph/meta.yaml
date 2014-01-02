@@ -5,10 +5,10 @@ package:
 source:
   fn: KEGGgraph_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/KEGGgraph_1.20.0.tar.gz
-    - fb7af5e332534bff50c556e94dee1ef8
+  md5: fb7af5e332534bff50c556e94dee1ef8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: RSVSim_1.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RSVSim_1.2.1.tar.gz
-    - b9ba209085a1df631dacc1825d27d195
+  md5: b9ba209085a1df631dacc1825d27d195
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

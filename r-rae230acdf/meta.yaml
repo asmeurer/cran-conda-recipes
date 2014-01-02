@@ -5,10 +5,10 @@ package:
 source:
   fn: rae230acdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rae230acdf_2.13.0.tar.gz
-    - 1817152d3119226f96096297fb79e4b7
+  md5: 1817152d3119226f96096297fb79e4b7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

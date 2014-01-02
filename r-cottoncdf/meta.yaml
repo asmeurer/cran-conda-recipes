@@ -5,10 +5,10 @@ package:
 source:
   fn: cottoncdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/cottoncdf_2.13.0.tar.gz
-    - 7e7560c938ab97ee7c752a9e7e0085e3
+  md5: 7e7560c938ab97ee7c752a9e7e0085e3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

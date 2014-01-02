@@ -5,10 +5,10 @@ package:
 source:
   fn: SMAP_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SMAP_1.26.0.tar.gz
-    - acd1793efe06650cfe90ce66ccb8394a
+  md5: acd1793efe06650cfe90ce66ccb8394a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

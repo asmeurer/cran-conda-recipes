@@ -5,10 +5,10 @@ package:
 source:
   fn: anopheles.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/anopheles.db0_2.10.1.tar.gz
-    - ea53ea4ba70e9e8d0ac1be86cf7f1602
+  md5: ea53ea4ba70e9e8d0ac1be86cf7f1602
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

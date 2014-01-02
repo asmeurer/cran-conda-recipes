@@ -5,10 +5,10 @@ package:
 source:
   fn: Clonality_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Clonality_1.10.0.tar.gz
-    - 10fd4119981a0a529421efdbc07bd7cf
+  md5: 10fd4119981a0a529421efdbc07bd7cf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: parody_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/parody_1.20.0.tar.gz
-    - 97a92fa5e1d167cdf5d35efd60da4883
+  md5: 97a92fa5e1d167cdf5d35efd60da4883
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

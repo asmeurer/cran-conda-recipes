@@ -5,10 +5,10 @@ package:
 source:
   fn: SpacePAC_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SpacePAC_1.0.0.tar.gz
-    - 9f3d3e625eaf90bf2b09722db398dfbf
+  md5: 9f3d3e625eaf90bf2b09722db398dfbf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

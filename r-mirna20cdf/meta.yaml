@@ -5,10 +5,10 @@ package:
 source:
   fn: mirna20cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mirna20cdf_2.13.0.tar.gz
-    - fbcaaab1ca62d8038c0e872440da4315
+  md5: fbcaaab1ca62d8038c0e872440da4315
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: chopsticks_1.26.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chopsticks_1.26.1.tar.gz
-    - ff674f03ccb9cee326d5a01200f48955
+  md5: ff674f03ccb9cee326d5a01200f48955
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

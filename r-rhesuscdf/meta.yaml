@@ -5,10 +5,10 @@ package:
 source:
   fn: rhesuscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rhesuscdf_2.13.0.tar.gz
-    - 54d654024ff41d0d1268add1d3e7c303
+  md5: 54d654024ff41d0d1268add1d3e7c303
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: KEGGprofile_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/KEGGprofile_1.4.0.tar.gz
-    - d3d6ca0b2a4612fcab7ef087e2142a19
+  md5: d3d6ca0b2a4612fcab7ef087e2142a19
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: rat2302.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rat2302.db_2.10.1.tar.gz
-    - ddeff1f70279be98a81493e764fcdcf1
+  md5: ddeff1f70279be98a81493e764fcdcf1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

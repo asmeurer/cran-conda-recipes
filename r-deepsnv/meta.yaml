@@ -5,10 +5,10 @@ package:
 source:
   fn: deepSNV_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/deepSNV_1.8.0.tar.gz
-    - f515c296225a228321b37d1ec7b507e4
+  md5: f515c296225a228321b37d1ec7b507e4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

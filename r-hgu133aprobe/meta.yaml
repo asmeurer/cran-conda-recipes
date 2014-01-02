@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu133aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133aprobe_2.13.0.tar.gz
-    - e0335befb703f6bc4384b72f697a227d
+  md5: e0335befb703f6bc4384b72f697a227d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: ROOXML_0.3-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/ROOXML_0.3-0.tar.gz
-    - e8ea6e8d911ce9c2752cb0a9b92fa73c
+  md5: e8ea6e8d911ce9c2752cb0a9b92fa73c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

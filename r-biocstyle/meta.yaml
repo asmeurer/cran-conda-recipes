@@ -5,10 +5,10 @@ package:
 source:
   fn: BiocStyle_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BiocStyle_1.0.0.tar.gz
-    - 7589b4ccbd9c9c191ad38bbfd6973ec4
+  md5: 7589b4ccbd9c9c191ad38bbfd6973ec4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

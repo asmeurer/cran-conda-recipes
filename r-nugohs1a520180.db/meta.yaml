@@ -5,10 +5,10 @@ package:
 source:
   fn: nugohs1a520180.db_2.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/nugohs1a520180.db_2.8.0.tar.gz
-    - dc23e15f5c3709e581a13df9f4804cb3
+  md5: dc23e15f5c3709e581a13df9f4804cb3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

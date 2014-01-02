@@ -5,10 +5,10 @@ package:
 source:
   fn: annotate_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/annotate_1.40.0.tar.gz
-    - 3bad7d1d9e213064f23c54d0b60eb82c
+  md5: 3bad7d1d9e213064f23c54d0b60eb82c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

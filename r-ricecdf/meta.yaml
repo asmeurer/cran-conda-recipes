@@ -5,10 +5,10 @@ package:
 source:
   fn: ricecdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ricecdf_2.13.0.tar.gz
-    - f5ee1d4fd455af0ad7fda2162077e0c6
+  md5: f5ee1d4fd455af0ad7fda2162077e0c6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

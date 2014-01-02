@@ -5,10 +5,10 @@ package:
 source:
   fn: miRNApath_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/miRNApath_1.22.0.tar.gz
-    - 56918b6026cad47689b5fc6fb7647098
+  md5: 56918b6026cad47689b5fc6fb7647098
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

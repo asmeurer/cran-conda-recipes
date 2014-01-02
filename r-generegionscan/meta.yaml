@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneRegionScan_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneRegionScan_1.18.0.tar.gz
-    - e17945bcab8383af055b1e4a9c504fa0
+  md5: e17945bcab8383af055b1e4a9c504fa0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

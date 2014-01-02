@@ -5,10 +5,10 @@ package:
 source:
   fn: plier_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plier_1.32.0.tar.gz
-    - 947e20133d321a075ba6f27faab6e892
+  md5: 947e20133d321a075ba6f27faab6e892
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

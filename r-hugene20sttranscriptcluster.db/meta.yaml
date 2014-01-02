@@ -5,10 +5,10 @@ package:
 source:
   fn: hugene20sttranscriptcluster.db_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene20sttranscriptcluster.db_2.13.0.tar.gz
-    - 8a9550739f2f806d44eba239e83e7947
+  md5: 8a9550739f2f806d44eba239e83e7947
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

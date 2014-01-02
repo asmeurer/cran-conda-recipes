@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.genomewidesnp.5_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.genomewidesnp.5_1.10.0.tar.gz
-    - a76a76a81f07605dcda301c91ed97f78
+  md5: a76a76a81f07605dcda301c91ed97f78
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

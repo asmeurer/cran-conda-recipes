@@ -5,10 +5,10 @@ package:
 source:
   fn: hom.Dr.inp.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hom.Dr.inp.db_2.10.1.tar.gz
-    - 590bec7f6b7deec275d20e7d368ca218
+  md5: 590bec7f6b7deec275d20e7d368ca218
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

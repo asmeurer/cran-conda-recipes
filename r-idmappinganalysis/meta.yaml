@@ -5,10 +5,10 @@ package:
 source:
   fn: IdMappingAnalysis_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IdMappingAnalysis_1.6.0.tar.gz
-    - 0bff1a0c15ae95c0bb7b5e8bacfa13ce
+  md5: 0bff1a0c15ae95c0bb7b5e8bacfa13ce
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: hugene.1.0.st.v1frmavecs_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene.1.0.st.v1frmavecs_1.0.0.tar.gz
-    - 94eda2bdc4dec8007ae9fb04290e0086
+  md5: 94eda2bdc4dec8007ae9fb04290e0086
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

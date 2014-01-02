@@ -5,10 +5,10 @@ package:
 source:
   fn: eisa_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/eisa_1.14.0.tar.gz
-    - 576c7af718d25408212f333db1705db9
+  md5: 576c7af718d25408212f333db1705db9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

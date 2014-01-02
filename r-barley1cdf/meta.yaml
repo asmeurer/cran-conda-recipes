@@ -5,10 +5,10 @@ package:
 source:
   fn: barley1cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/barley1cdf_2.13.0.tar.gz
-    - 24159f32e84cfd897f7405bf985df63d
+  md5: 24159f32e84cfd897f7405bf985df63d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: birta_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/birta_1.6.0.tar.gz
-    - 51ffd86e934ac4c576428950de879607
+  md5: 51ffd86e934ac4c576428950de879607
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

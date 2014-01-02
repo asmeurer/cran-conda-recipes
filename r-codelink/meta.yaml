@@ -5,10 +5,10 @@ package:
 source:
   fn: codelink_1.30.9.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/codelink_1.30.9.tar.gz
-    - ac65661aeba7acb21783b93ef6ed76c6
+  md5: ac65661aeba7acb21783b93ef6ed76c6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

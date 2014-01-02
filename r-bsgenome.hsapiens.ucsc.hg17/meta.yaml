@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Hsapiens.UCSC.hg17_1.3.17.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg17_1.3.17.tar.gz
-    - ff49feb14ecf95799b6e9bce9a9d50e3
+  md5: ff49feb14ecf95799b6e9bce9a9d50e3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

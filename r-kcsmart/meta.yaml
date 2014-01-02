@@ -5,10 +5,10 @@ package:
 source:
   fn: KCsmart_2.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/KCsmart_2.20.0.tar.gz
-    - d6e1b2c599e9fede81bde77706b2fc54
+  md5: d6e1b2c599e9fede81bde77706b2fc54
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

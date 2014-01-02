@@ -5,10 +5,10 @@ package:
 source:
   fn: clst_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clst_1.10.0.tar.gz
-    - a1b78450091da6671c8c5f7db641c9db
+  md5: a1b78450091da6671c8c5f7db641c9db
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

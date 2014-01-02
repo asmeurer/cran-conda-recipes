@@ -5,10 +5,10 @@ package:
 source:
   fn: pcot2_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pcot2_1.30.0.tar.gz
-    - ab2f96cf23a33c1b965d66bebab8cffb
+  md5: ab2f96cf23a33c1b965d66bebab8cffb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

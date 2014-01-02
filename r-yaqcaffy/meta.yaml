@@ -5,10 +5,10 @@ package:
 source:
   fn: yaqcaffy_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/yaqcaffy_1.22.0.tar.gz
-    - db7071e55fbfb761c7d7ce1fd996c108
+  md5: db7071e55fbfb761c7d7ce1fd996c108
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

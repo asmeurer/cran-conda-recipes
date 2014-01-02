@@ -5,10 +5,10 @@ package:
 source:
   fn: RMAPPER_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RMAPPER_1.12.0.tar.gz
-    - c82539dd96717290bf655f5093f54031
+  md5: c82539dd96717290bf655f5093f54031
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

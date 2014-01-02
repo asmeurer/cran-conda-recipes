@@ -5,10 +5,10 @@ package:
 source:
   fn: GSEABase_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSEABase_1.24.0.tar.gz
-    - f5df90f2e665c1b2281edfbffe0be8d4
+  md5: f5df90f2e665c1b2281edfbffe0be8d4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

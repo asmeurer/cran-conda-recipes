@@ -5,10 +5,10 @@ package:
 source:
   fn: DNaseR_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DNaseR_1.0.0.tar.gz
-    - 22981622f2af599cfbd19fea0c3adc5a
+  md5: 22981622f2af599cfbd19fea0c3adc5a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

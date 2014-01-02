@@ -5,10 +5,10 @@ package:
 source:
   fn: bovinecdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/bovinecdf_2.13.0.tar.gz
-    - d9d83394cdf8798f271d7a75e65bd163
+  md5: d9d83394cdf8798f271d7a75e65bd163
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

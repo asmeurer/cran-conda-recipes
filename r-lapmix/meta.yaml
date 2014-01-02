@@ -5,10 +5,10 @@ package:
 source:
   fn: lapmix_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/lapmix_1.28.0.tar.gz
-    - f996a75e4380e33909c4a6d0e4ca3f3c
+  md5: f996a75e4380e33909c4a6d0e4ca3f3c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

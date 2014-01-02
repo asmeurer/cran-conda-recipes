@@ -5,10 +5,10 @@ package:
 source:
   fn: RGCCTUFFI_0.2-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RGCCTUFFI_0.2-0.tar.gz
-    - 815676c765eb966d9819138d43c980f6
+  md5: 815676c765eb966d9819138d43c980f6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

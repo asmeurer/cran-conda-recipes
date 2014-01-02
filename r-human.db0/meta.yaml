@@ -5,10 +5,10 @@ package:
 source:
   fn: human.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/human.db0_2.10.1.tar.gz
-    - 1589f39aa3a54f651e17992e61df992e
+  md5: 1589f39aa3a54f651e17992e61df992e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

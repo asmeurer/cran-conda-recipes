@@ -5,10 +5,10 @@ package:
 source:
   fn: PING_2.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PING_2.6.0.tar.gz
-    - abdaef006e68827964c1e85874306474
+  md5: abdaef006e68827964c1e85874306474
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

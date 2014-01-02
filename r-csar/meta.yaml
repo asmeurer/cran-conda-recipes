@@ -5,10 +5,10 @@ package:
 source:
   fn: CSAR_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CSAR_1.14.0.tar.gz
-    - d912c1005a8deffb75900fcbde8962b7
+  md5: d912c1005a8deffb75900fcbde8962b7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

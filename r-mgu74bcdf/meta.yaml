@@ -5,10 +5,10 @@ package:
 source:
   fn: mgu74bcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgu74bcdf_2.13.0.tar.gz
-    - 332e77a18ab2e89b66f06d7a52173322
+  md5: 332e77a18ab2e89b66f06d7a52173322
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

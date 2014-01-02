@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hc.g110_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hc.g110_1.10.0.tar.gz
-    - b565b7a2f4bef6edd58be4d324f2ec7a
+  md5: b565b7a2f4bef6edd58be4d324f2ec7a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

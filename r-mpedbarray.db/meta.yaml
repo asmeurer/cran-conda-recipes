@@ -5,10 +5,10 @@ package:
 source:
   fn: mpedbarray.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mpedbarray.db_2.10.1.tar.gz
-    - a8bd1b25bd6e7fa755aed260ac1914ca
+  md5: a8bd1b25bd6e7fa755aed260ac1914ca
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

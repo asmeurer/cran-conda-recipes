@@ -5,10 +5,10 @@ package:
 source:
   fn: plasmodiumanophelescdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/plasmodiumanophelescdf_2.13.0.tar.gz
-    - 1fb66ea57d9d10ab831796ec546837ea
+  md5: 1fb66ea57d9d10ab831796ec546837ea
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

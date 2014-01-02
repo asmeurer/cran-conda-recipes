@@ -5,10 +5,10 @@ package:
 source:
   fn: cellHTS2_2.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cellHTS2_2.26.0.tar.gz
-    - 7ad26c35ef99ad04d84ed12d81ac6088
+  md5: 7ad26c35ef99ad04d84ed12d81ac6088
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

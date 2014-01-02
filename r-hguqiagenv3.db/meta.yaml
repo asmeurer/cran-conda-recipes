@@ -5,10 +5,10 @@ package:
 source:
   fn: hguqiagenv3.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hguqiagenv3.db_2.10.1.tar.gz
-    - a14e0d6a05f60691caf9f75576b7cece
+  md5: a14e0d6a05f60691caf9f75576b7cece
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

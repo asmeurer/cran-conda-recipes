@@ -5,10 +5,10 @@ package:
 source:
   fn: ASSET_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ASSET_1.0.0.tar.gz
-    - a79445ed489f7d285ba4a60402ac624e
+  md5: a79445ed489f7d285ba4a60402ac624e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

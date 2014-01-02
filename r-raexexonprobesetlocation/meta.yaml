@@ -5,10 +5,10 @@ package:
 source:
   fn: RaExExonProbesetLocation_1.0.5.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/RaExExonProbesetLocation_1.0.5.tar.gz
-    - 08564d3e0d5ea1628db19b9ee2aef40a
+  md5: 08564d3e0d5ea1628db19b9ee2aef40a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

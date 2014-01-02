@@ -5,10 +5,10 @@ package:
 source:
   fn: pvca_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pvca_1.2.0.tar.gz
-    - e5a3caa7ebd328f3f0607aa80eec4379
+  md5: e5a3caa7ebd328f3f0607aa80eec4379
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

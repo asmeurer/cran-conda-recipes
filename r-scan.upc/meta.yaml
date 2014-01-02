@@ -5,10 +5,10 @@ package:
 source:
   fn: SCAN.UPC_2.4.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SCAN.UPC_2.4.1.tar.gz
-    - 75d343ca7ea382b48be7aac2906d934d
+  md5: 75d343ca7ea382b48be7aac2906d934d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

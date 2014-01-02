@@ -5,10 +5,10 @@ package:
 source:
   fn: TransView_1.6.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TransView_1.6.1.tar.gz
-    - 1f66b7c3f32867aa92257ed0671b4a1b
+  md5: 1f66b7c3f32867aa92257ed0671b4a1b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

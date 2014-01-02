@@ -5,10 +5,10 @@ package:
 source:
   fn: ReportingTools_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ReportingTools_2.2.0.tar.gz
-    - e97be8a67fdfa714b6860c2dd2bdcdf3
+  md5: e97be8a67fdfa714b6860c2dd2bdcdf3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

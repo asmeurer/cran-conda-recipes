@@ -5,10 +5,10 @@ package:
 source:
   fn: BitSeq_1.6.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BitSeq_1.6.1.tar.gz
-    - a40900434d3c3d234682a29fbe532f8f
+  md5: a40900434d3c3d234682a29fbe532f8f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

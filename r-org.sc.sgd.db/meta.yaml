@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Sc.sgd.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Sc.sgd.db_2.10.1.tar.gz
-    - 1ce2a6cced579a2722d0bd92f50e6f8f
+  md5: 1ce2a6cced579a2722d0bd92f50e6f8f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

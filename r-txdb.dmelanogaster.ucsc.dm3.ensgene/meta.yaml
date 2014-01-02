@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Dmelanogaster.UCSC.dm3.ensGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Dmelanogaster.UCSC.dm3.ensGene_2.10.1.tar.gz
-    - fae4b661ac998c32512715e91ffb0f7e
+  md5: fae4b661ac998c32512715e91ffb0f7e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

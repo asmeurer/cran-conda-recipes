@@ -5,10 +5,10 @@ package:
 source:
   fn: PAnnBuilder_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PAnnBuilder_1.26.0.tar.gz
-    - 57d7f75d2cf4c82ff2ba3eed8d5bd6f7
+  md5: 57d7f75d2cf4c82ff2ba3eed8d5bd6f7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

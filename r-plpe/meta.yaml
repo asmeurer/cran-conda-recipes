@@ -5,10 +5,10 @@ package:
 source:
   fn: PLPE_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PLPE_1.22.0.tar.gz
-    - 6e025db30c342d7eb02925a57badba1a
+  md5: 6e025db30c342d7eb02925a57badba1a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

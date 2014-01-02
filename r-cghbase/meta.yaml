@@ -5,10 +5,10 @@ package:
 source:
   fn: CGHbase_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CGHbase_1.22.0.tar.gz
-    - db7faf4abdc629090f7bb2e35cb8d080
+  md5: db7faf4abdc629090f7bb2e35cb8d080
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Rn.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Rn.eg.db_2.10.1.tar.gz
-    - 89b17bb470550060830d5148390f3dc6
+  md5: 89b17bb470550060830d5148390f3dc6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

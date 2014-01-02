@@ -5,10 +5,10 @@ package:
 source:
   fn: RGraphicsDevice_0.5-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RGraphicsDevice_0.5-0.tar.gz
-    - 22bf5f96e0405cadfb5e58a4c746e331
+  md5: 22bf5f96e0405cadfb5e58a4c746e331
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

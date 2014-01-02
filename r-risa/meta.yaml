@@ -5,10 +5,10 @@ package:
 source:
   fn: Risa_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Risa_1.4.0.tar.gz
-    - 87ba278d300ee6a13737c504ce7e081f
+  md5: 87ba278d300ee6a13737c504ce7e081f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

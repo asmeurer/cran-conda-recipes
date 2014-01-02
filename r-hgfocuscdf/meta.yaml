@@ -5,10 +5,10 @@ package:
 source:
   fn: hgfocuscdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgfocuscdf_2.13.0.tar.gz
-    - b2b7021a3b41dfdb12b71f33ca6329c8
+  md5: b2b7021a3b41dfdb12b71f33ca6329c8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

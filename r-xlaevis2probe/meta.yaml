@@ -5,10 +5,10 @@ package:
 source:
   fn: xlaevis2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/xlaevis2probe_2.13.0.tar.gz
-    - d5a641caac55a5824506801112abd2d9
+  md5: d5a641caac55a5824506801112abd2d9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

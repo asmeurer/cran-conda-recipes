@@ -5,10 +5,10 @@ package:
 source:
   fn: affxparser_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affxparser_1.34.0.tar.gz
-    - dbcd64c4d496799d932af88b54eb3881
+  md5: dbcd64c4d496799d932af88b54eb3881
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

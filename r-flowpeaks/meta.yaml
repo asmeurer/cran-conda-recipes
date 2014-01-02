@@ -5,10 +5,10 @@ package:
 source:
   fn: flowPeaks_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowPeaks_1.4.0.tar.gz
-    - 91b84958e6e80e638265a84b71ba4425
+  md5: 91b84958e6e80e638265a84b71ba4425
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

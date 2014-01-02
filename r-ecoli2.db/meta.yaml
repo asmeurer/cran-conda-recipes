@@ -5,10 +5,10 @@ package:
 source:
   fn: ecoli2.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoli2.db_2.10.1.tar.gz
-    - 14cb701897de2812ad17604fd1d4c9d3
+  md5: 14cb701897de2812ad17604fd1d4c9d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

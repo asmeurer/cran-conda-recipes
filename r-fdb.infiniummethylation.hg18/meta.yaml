@@ -5,10 +5,10 @@ package:
 source:
   fn: FDb.InfiniumMethylation.hg18_2.0.9.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/FDb.InfiniumMethylation.hg18_2.0.9.tar.gz
-    - 3e64db6dcdd9f682b9e3d332f4a30bc0
+  md5: 3e64db6dcdd9f682b9e3d332f4a30bc0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

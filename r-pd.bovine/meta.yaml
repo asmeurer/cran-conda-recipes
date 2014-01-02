@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.bovine_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.bovine_1.10.0.tar.gz
-    - 97b3fc0d26c6f402aba5b359159bfe00
+  md5: 97b3fc0d26c6f402aba5b359159bfe00
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

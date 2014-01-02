@@ -5,10 +5,10 @@ package:
 source:
   fn: omicade4_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/omicade4_1.0.0.tar.gz
-    - a3b061646498de4555c9abcace442400
+  md5: a3b061646498de4555c9abcace442400
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

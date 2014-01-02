@@ -5,10 +5,10 @@ package:
 source:
   fn: arabidopsis.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/arabidopsis.db0_2.10.1.tar.gz
-    - 0c688e5bdbe472e294807240c19e2473
+  md5: 0c688e5bdbe472e294807240c19e2473
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

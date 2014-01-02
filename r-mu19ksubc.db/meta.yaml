@@ -5,10 +5,10 @@ package:
 source:
   fn: mu19ksubc.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu19ksubc.db_2.10.1.tar.gz
-    - 778691ed21fa3be24745e547714e8bc9
+  md5: 778691ed21fa3be24745e547714e8bc9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

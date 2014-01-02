@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Osativa.MSU.MSU7_0.99.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Osativa.MSU.MSU7_0.99.1.tar.gz
-    - 459fe50be785d06ab680565aacca1c57
+  md5: 459fe50be785d06ab680565aacca1c57
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: Rbowtie_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rbowtie_1.2.0.tar.gz
-    - 525c7d2a1a16ca268d4a0ecf371bd9b9
+  md5: 525c7d2a1a16ca268d4a0ecf371bd9b9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

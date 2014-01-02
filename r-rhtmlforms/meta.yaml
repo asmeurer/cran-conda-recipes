@@ -5,10 +5,10 @@ package:
 source:
   fn: RHTMLForms_0.6-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RHTMLForms_0.6-0.tar.gz
-    - 116718fb949b55784caac8dc86d64dfa
+  md5: 116718fb949b55784caac8dc86d64dfa
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

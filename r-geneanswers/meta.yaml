@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneAnswers_2.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneAnswers_2.4.0.tar.gz
-    - 3bfb5e0b4060305f97f5b88c0a098990
+  md5: 3bfb5e0b4060305f97f5b88c0a098990
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

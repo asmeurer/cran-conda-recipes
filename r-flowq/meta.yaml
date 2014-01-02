@@ -5,10 +5,10 @@ package:
 source:
   fn: flowQ_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowQ_1.22.0.tar.gz
-    - 011eeefedd5ef5183ecda87441e2b083
+  md5: 011eeefedd5ef5183ecda87441e2b083
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

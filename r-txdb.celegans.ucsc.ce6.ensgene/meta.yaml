@@ -5,10 +5,10 @@ package:
 source:
   fn: TxDb.Celegans.UCSC.ce6.ensGene_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Celegans.UCSC.ce6.ensGene_2.10.1.tar.gz
-    - a11cffb59f300fab813cecd4c4b79bb7
+  md5: a11cffb59f300fab813cecd4c4b79bb7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: HuO22.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/HuO22.db_2.10.1.tar.gz
-    - c1e7a4a6f7673cc1a4358cdce16f291b
+  md5: c1e7a4a6f7673cc1a4358cdce16f291b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

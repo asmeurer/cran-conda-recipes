@@ -5,10 +5,10 @@ package:
 source:
   fn: RUbigraph_0.1-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/RUbigraph_0.1-1.tar.gz
-    - 312b2d456e1b6ad429a79a1fe49196a1
+  md5: 312b2d456e1b6ad429a79a1fe49196a1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: Hs6UG171.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Hs6UG171.db_2.10.1.tar.gz
-    - ee13c405a958bbd92bd7e7c32ec18a70
+  md5: ee13c405a958bbd92bd7e7c32ec18a70
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

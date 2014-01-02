@@ -5,10 +5,10 @@ package:
 source:
   fn: hugene10stv1cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene10stv1cdf_2.13.0.tar.gz
-    - 748f5e64c2f115e780b453c3ab6fde48
+  md5: 748f5e64c2f115e780b453c3ab6fde48
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

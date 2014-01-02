@@ -5,10 +5,10 @@ package:
 source:
   fn: goTools_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/goTools_1.36.0.tar.gz
-    - 22b61d91fe3282de365bf8be26d66faf
+  md5: 22b61d91fe3282de365bf8be26d66faf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

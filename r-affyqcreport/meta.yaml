@@ -5,10 +5,10 @@ package:
 source:
   fn: affyQCReport_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyQCReport_1.40.0.tar.gz
-    - 16440fb7fa5920fd36319a5af83eadc7
+  md5: 16440fb7fa5920fd36319a5af83eadc7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

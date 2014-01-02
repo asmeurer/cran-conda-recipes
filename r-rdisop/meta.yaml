@@ -5,10 +5,10 @@ package:
 source:
   fn: Rdisop_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Rdisop_1.22.0.tar.gz
-    - 660e5ae57055d16ea14c7883b3938630
+  md5: 660e5ae57055d16ea14c7883b3938630
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

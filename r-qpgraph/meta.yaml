@@ -5,10 +5,10 @@ package:
 source:
   fn: qpgraph_1.18.7.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/qpgraph_1.18.7.tar.gz
-    - f1f58d532c5e721ff84c699b3f1e2fe4
+  md5: f1f58d532c5e721ff84c699b3f1e2fe4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

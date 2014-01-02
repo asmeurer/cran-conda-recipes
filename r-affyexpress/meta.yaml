@@ -5,10 +5,10 @@ package:
 source:
   fn: AffyExpress_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/AffyExpress_1.28.0.tar.gz
-    - e14186e66d96022c14345ff0510efacf
+  md5: e14186e66d96022c14345ff0510efacf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

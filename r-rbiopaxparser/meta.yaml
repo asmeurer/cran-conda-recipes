@@ -5,10 +5,10 @@ package:
 source:
   fn: rBiopaxParser_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rBiopaxParser_1.2.0.tar.gz
-    - 07cf590d2a9da7ef7fbfec7992892416
+  md5: 07cf590d2a9da7ef7fbfec7992892416
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

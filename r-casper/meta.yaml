@@ -5,10 +5,10 @@ package:
 source:
   fn: casper_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/casper_1.4.0.tar.gz
-    - a820e172f60067cdc1aa9cc2fc81bff9
+  md5: a820e172f60067cdc1aa9cc2fc81bff9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

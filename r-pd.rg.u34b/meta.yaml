@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rg.u34b_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rg.u34b_1.10.0.tar.gz
-    - 23b6bc4124506b14aeea54554f9ee3b4
+  md5: 23b6bc4124506b14aeea54554f9ee3b4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

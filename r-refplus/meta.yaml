@@ -5,10 +5,10 @@ package:
 source:
   fn: RefPlus_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RefPlus_1.32.0.tar.gz
-    - 6ff6efa78bbf88e84c346625c53db3a5
+  md5: 6ff6efa78bbf88e84c346625c53db3a5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

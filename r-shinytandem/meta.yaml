@@ -5,10 +5,10 @@ package:
 source:
   fn: shinyTANDEM_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/shinyTANDEM_1.0.0.tar.gz
-    - 866aaa0842fb323cda376dc8bca27b5a
+  md5: 866aaa0842fb323cda376dc8bca27b5a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

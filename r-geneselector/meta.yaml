@@ -5,10 +5,10 @@ package:
 source:
   fn: GeneSelector_2.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GeneSelector_2.12.0.tar.gz
-    - e6540c3e70da0b45b4586e970a91db4a
+  md5: e6540c3e70da0b45b4586e970a91db4a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

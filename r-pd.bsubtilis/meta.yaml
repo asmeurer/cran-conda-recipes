@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.bsubtilis_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.bsubtilis_1.10.0.tar.gz
-    - 064db00b67b8dde68226adc2c18e8ee7
+  md5: 064db00b67b8dde68226adc2c18e8ee7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

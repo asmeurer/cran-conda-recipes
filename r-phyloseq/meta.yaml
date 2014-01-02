@@ -5,10 +5,10 @@ package:
 source:
   fn: phyloseq_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/phyloseq_1.6.0.tar.gz
-    - 955bb44212aa4b1b923604d954c2e434
+  md5: 955bb44212aa4b1b923604d954c2e434
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

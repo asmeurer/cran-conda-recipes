@@ -5,10 +5,10 @@ package:
 source:
   fn: hu6800cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hu6800cdf_2.13.0.tar.gz
-    - 16b23cb7fda6fe76bfb5700e2a2c89eb
+  md5: 16b23cb7fda6fe76bfb5700e2a2c89eb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

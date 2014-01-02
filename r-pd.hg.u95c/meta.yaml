@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hg.u95c_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hg.u95c_1.10.0.tar.gz
-    - e98dabffccd2a021d12d6a6583f486dc
+  md5: e98dabffccd2a021d12d6a6583f486dc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

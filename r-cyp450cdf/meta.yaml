@@ -5,10 +5,10 @@ package:
 source:
   fn: cyp450cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/cyp450cdf_2.13.0.tar.gz
-    - 46da3baba38b7bcb023ac5abe4bea910
+  md5: 46da3baba38b7bcb023ac5abe4bea910
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

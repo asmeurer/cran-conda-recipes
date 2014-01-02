@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.sugar.cane_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.sugar.cane_1.10.0.tar.gz
-    - edd2df3d15d63bdd2305e993eb16f5a0
+  md5: edd2df3d15d63bdd2305e993eb16f5a0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

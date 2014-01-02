@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.soybean_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.soybean_1.10.0.tar.gz
-    - dfd7de85e0a2f5b2214e37b81b392373
+  md5: dfd7de85e0a2f5b2214e37b81b392373
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

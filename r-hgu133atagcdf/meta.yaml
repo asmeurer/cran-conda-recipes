@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu133atagcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu133atagcdf_2.13.0.tar.gz
-    - fe82c67c0212fa2e85c7d51fe208039d
+  md5: fe82c67c0212fa2e85c7d51fe208039d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: panp_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/panp_1.32.0.tar.gz
-    - 7ffd6d519c01dc3b0d85cabd15bdf2dd
+  md5: 7ffd6d519c01dc3b0d85cabd15bdf2dd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

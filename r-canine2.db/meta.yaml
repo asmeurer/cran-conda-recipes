@@ -5,10 +5,10 @@ package:
 source:
   fn: canine2.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/canine2.db_2.10.1.tar.gz
-    - 4ff7b3f91c57d7fe3f04dda7494458d7
+  md5: 4ff7b3f91c57d7fe3f04dda7494458d7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

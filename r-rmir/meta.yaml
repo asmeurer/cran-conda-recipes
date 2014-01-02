@@ -5,10 +5,10 @@ package:
 source:
   fn: RmiR_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RmiR_1.18.0.tar.gz
-    - 3fac9ea7f498e1e0ced0b38ef8ace875
+  md5: 3fac9ea7f498e1e0ced0b38ef8ace875
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

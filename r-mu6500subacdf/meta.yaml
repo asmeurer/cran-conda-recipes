@@ -5,10 +5,10 @@ package:
 source:
   fn: mu6500subacdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu6500subacdf_2.13.0.tar.gz
-    - afb4fdef3461ba26576c1bee4aa4544c
+  md5: afb4fdef3461ba26576c1bee4aa4544c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

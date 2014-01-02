@@ -5,10 +5,10 @@ package:
 source:
   fn: yeast2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/yeast2probe_2.13.0.tar.gz
-    - 139f76623764558e704566f40eff983c
+  md5: 139f76623764558e704566f40eff983c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

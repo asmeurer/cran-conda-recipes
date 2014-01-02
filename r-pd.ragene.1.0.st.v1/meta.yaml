@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.ragene.1.0.st.v1_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.ragene.1.0.st.v1_3.8.0.tar.gz
-    - 40d0c0a747bf0c566feb54883aed75c0
+  md5: 40d0c0a747bf0c566feb54883aed75c0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

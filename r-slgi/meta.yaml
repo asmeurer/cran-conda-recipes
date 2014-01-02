@@ -5,10 +5,10 @@ package:
 source:
   fn: SLGI_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/SLGI_1.22.0.tar.gz
-    - 63b52e30d5740677f13c2ca8cc083d1e
+  md5: 63b52e30d5740677f13c2ca8cc083d1e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

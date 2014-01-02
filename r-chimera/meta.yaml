@@ -5,10 +5,10 @@ package:
 source:
   fn: chimera_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/chimera_1.4.0.tar.gz
-    - c576c731c019a5e008564955eb808aca
+  md5: c576c731c019a5e008564955eb808aca
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

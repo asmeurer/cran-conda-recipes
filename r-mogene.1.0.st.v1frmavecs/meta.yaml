@@ -5,10 +5,10 @@ package:
 source:
   fn: mogene.1.0.st.v1frmavecs_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mogene.1.0.st.v1frmavecs_1.0.0.tar.gz
-    - f3449893d0dcfd7dab2f88a792aab9e6
+  md5: f3449893d0dcfd7dab2f88a792aab9e6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

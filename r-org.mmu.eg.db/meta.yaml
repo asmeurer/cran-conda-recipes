@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Mmu.eg.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Mmu.eg.db_2.10.1.tar.gz
-    - 0fedbb88277022b4d4dc7bafd1ed828f
+  md5: 0fedbb88277022b4d4dc7bafd1ed828f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

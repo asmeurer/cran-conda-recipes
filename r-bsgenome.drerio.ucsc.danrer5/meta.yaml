@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Drerio.UCSC.danRer5_1.3.17.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Drerio.UCSC.danRer5_1.3.17.tar.gz
-    - f65fa91690bd5f6acc0cf22ffcd6afdd
+  md5: f65fa91690bd5f6acc0cf22ffcd6afdd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

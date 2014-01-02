@@ -5,10 +5,10 @@ package:
 source:
   fn: pkgDepTools_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pkgDepTools_1.28.0.tar.gz
-    - ffbb37b3012df0f4dce0b82ea7160cb0
+  md5: ffbb37b3012df0f4dce0b82ea7160cb0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

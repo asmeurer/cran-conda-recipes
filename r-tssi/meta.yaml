@@ -5,10 +5,10 @@ package:
 source:
   fn: TSSi_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TSSi_1.8.0.tar.gz
-    - 6d3b202bbaf1d554599abf1b6b55faf0
+  md5: 6d3b202bbaf1d554599abf1b6b55faf0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

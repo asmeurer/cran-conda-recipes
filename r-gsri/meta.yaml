@@ -5,10 +5,10 @@ package:
 source:
   fn: GSRI_2.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GSRI_2.10.0.tar.gz
-    - 8c46461ba496dfc1a8ae2fd6dc413cc6
+  md5: 8c46461ba496dfc1a8ae2fd6dc413cc6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

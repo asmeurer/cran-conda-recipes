@@ -5,10 +5,10 @@ package:
 source:
   fn: ffpe_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ffpe_1.6.0.tar.gz
-    - 04aa6d9f0c9a6f003b959a1105013a4f
+  md5: 04aa6d9f0c9a6f003b959a1105013a4f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: dexus_1.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/dexus_1.2.1.tar.gz
-    - 471f6bf65412765fb0ff938a75fdd653
+  md5: 471f6bf65412765fb0ff938a75fdd653
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

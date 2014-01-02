@@ -5,10 +5,10 @@ package:
 source:
   fn: pathview_1.2.3.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/pathview_1.2.3.tar.gz
-    - 39b88c0ed36ed8df4113b676683b5b9c
+  md5: 39b88c0ed36ed8df4113b676683b5b9c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

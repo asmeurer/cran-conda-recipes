@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.feinberg.mm8.me.hx1_0.99.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.feinberg.mm8.me.hx1_0.99.2.tar.gz
-    - de79832e48f5dd82dffc627c0cd0111c
+  md5: de79832e48f5dd82dffc627c0cd0111c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

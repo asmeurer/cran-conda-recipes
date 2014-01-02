@@ -5,10 +5,10 @@ package:
 source:
   fn: Agi4x44PreProcess_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Agi4x44PreProcess_1.22.0.tar.gz
-    - b88b89f3902cb5aec94faac537d5f433
+  md5: b88b89f3902cb5aec94faac537d5f433
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

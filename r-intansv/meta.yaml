@@ -5,10 +5,10 @@ package:
 source:
   fn: intansv_1.1.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/intansv_1.1.2.tar.gz
-    - 20913ee2e2c878ee9f6f174e266eab33
+  md5: 20913ee2e2c878ee9f6f174e266eab33
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

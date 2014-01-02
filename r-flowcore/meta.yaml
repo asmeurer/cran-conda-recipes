@@ -5,10 +5,10 @@ package:
 source:
   fn: flowCore_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowCore_1.28.0.tar.gz
-    - 24ebc137d764b7732976836f53bd2ce2
+  md5: 24ebc137d764b7732976836f53bd2ce2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

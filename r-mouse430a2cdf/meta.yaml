@@ -5,10 +5,10 @@ package:
 source:
   fn: mouse430a2cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mouse430a2cdf_2.13.0.tar.gz
-    - 8eb77fa2c90f932d7d30bc2d4e78ef99
+  md5: 8eb77fa2c90f932d7d30bc2d4e78ef99
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

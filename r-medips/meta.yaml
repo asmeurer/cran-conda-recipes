@@ -5,10 +5,10 @@ package:
 source:
   fn: MEDIPS_1.12.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MEDIPS_1.12.0.tar.gz
-    - ffdd00362364cd294fee6a6828fc25e2
+  md5: ffdd00362364cd294fee6a6828fc25e2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

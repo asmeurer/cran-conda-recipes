@@ -5,10 +5,10 @@ package:
 source:
   fn: globaltest_5.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/globaltest_5.16.0.tar.gz
-    - e85273c688c059e774826f9ab5c4458c
+  md5: e85273c688c059e774826f9ab5c4458c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

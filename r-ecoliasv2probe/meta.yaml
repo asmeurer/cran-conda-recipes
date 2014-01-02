@@ -5,10 +5,10 @@ package:
 source:
   fn: ecoliasv2probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoliasv2probe_2.13.0.tar.gz
-    - 0315c251266777b8b720c2e8d9abc23a
+  md5: 0315c251266777b8b720c2e8d9abc23a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

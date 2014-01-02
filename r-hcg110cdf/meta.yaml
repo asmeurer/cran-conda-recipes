@@ -5,10 +5,10 @@ package:
 source:
   fn: hcg110cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hcg110cdf_2.13.0.tar.gz
-    - ba6614b226884dbe4c48c436dc9b90a1
+  md5: ba6614b226884dbe4c48c436dc9b90a1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

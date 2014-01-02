@@ -5,10 +5,10 @@ package:
 source:
   fn: cobindR_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/cobindR_1.0.0.tar.gz
-    - 68088fb9c5a284e612d419d19d3ffb14
+  md5: 68088fb9c5a284e612d419d19d3ffb14
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

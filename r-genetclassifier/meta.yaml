@@ -5,10 +5,10 @@ package:
 source:
   fn: geNetClassifier_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/geNetClassifier_1.2.0.tar.gz
-    - 184da30130b507518aa087cee9acc58e
+  md5: 184da30130b507518aa087cee9acc58e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

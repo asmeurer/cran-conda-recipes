@@ -5,10 +5,10 @@ package:
 source:
   fn: GOstats_2.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/GOstats_2.28.0.tar.gz
-    - 666c85c98404d7476004cfa19c5e4339
+  md5: 666c85c98404d7476004cfa19c5e4339
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

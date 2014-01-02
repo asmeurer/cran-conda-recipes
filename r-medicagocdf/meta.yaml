@@ -5,10 +5,10 @@ package:
 source:
   fn: medicagocdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/medicagocdf_2.13.0.tar.gz
-    - a809b09bfcd9276f47403698a0d8bf15
+  md5: a809b09bfcd9276f47403698a0d8bf15
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

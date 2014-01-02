@@ -5,10 +5,10 @@ package:
 source:
   fn: interactiveDisplay_1.0.8.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/interactiveDisplay_1.0.8.tar.gz
-    - 9af80c48e4b6a6d05d61873c42ba406b
+  md5: 9af80c48e4b6a6d05d61873c42ba406b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

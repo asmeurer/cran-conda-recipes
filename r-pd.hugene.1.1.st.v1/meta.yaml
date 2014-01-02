@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.hugene.1.1.st.v1_3.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.hugene.1.1.st.v1_3.8.0.tar.gz
-    - d154d8f8f2e26f699d318ecfd19e0b80
+  md5: d154d8f8f2e26f699d318ecfd19e0b80
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

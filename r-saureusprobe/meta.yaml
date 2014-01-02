@@ -5,10 +5,10 @@ package:
 source:
   fn: saureusprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/saureusprobe_2.13.0.tar.gz
-    - cd858a20100f226331e00a47ff13426d
+  md5: cd858a20100f226331e00a47ff13426d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

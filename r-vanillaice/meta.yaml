@@ -5,10 +5,10 @@ package:
 source:
   fn: VanillaICE_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VanillaICE_1.24.0.tar.gz
-    - ecf8ac4b7fc3a7d3fee058a9735c1b1a
+  md5: ecf8ac4b7fc3a7d3fee058a9735c1b1a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: IsoGeneGUI_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/IsoGeneGUI_1.18.0.tar.gz
-    - 1f3d838dd5e2fc88ff96647b743e9d8b
+  md5: 1f3d838dd5e2fc88ff96647b743e9d8b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

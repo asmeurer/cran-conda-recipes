@@ -5,10 +5,10 @@ package:
 source:
   fn: affycomp_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affycomp_1.38.0.tar.gz
-    - 7b30327b14a45597d497bba9deb87bdf
+  md5: 7b30327b14a45597d497bba9deb87bdf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

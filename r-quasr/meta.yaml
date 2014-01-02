@@ -5,10 +5,10 @@ package:
 source:
   fn: QuasR_1.2.2.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/QuasR_1.2.2.tar.gz
-    - fd8340d265ada62c649a13471dadb901
+  md5: fd8340d265ada62c649a13471dadb901
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

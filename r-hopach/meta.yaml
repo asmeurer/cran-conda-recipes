@@ -5,10 +5,10 @@ package:
 source:
   fn: hopach_2.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/hopach_2.22.0.tar.gz
-    - 473f591ceb9c818a461ac2eba59c6e9c
+  md5: 473f591ceb9c818a461ac2eba59c6e9c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

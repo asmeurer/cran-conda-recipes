@@ -5,10 +5,10 @@ package:
 source:
   fn: ygs98.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ygs98.db_2.10.1.tar.gz
-    - d0f733b11c00741c71dba26745e4feb9
+  md5: d0f733b11c00741c71dba26745e4feb9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

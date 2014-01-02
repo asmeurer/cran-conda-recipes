@@ -5,10 +5,10 @@ package:
 source:
   fn: OLINgui_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/OLINgui_1.36.0.tar.gz
-    - eb9d62a0c7f2d079cca21b8a9a58afde
+  md5: eb9d62a0c7f2d079cca21b8a9a58afde
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: hgfocusprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgfocusprobe_2.13.0.tar.gz
-    - e5310989cf94c7abc6226381b4db9089
+  md5: e5310989cf94c7abc6226381b4db9089
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

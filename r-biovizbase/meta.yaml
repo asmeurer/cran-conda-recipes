@@ -5,10 +5,10 @@ package:
 source:
   fn: biovizBase_1.10.7.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/biovizBase_1.10.7.tar.gz
-    - 7c6ae3c48125bb61653b8c941809e519
+  md5: 7c6ae3c48125bb61653b8c941809e519
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

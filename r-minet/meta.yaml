@@ -5,10 +5,10 @@ package:
 source:
   fn: minet_3.16.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/minet_3.16.0.tar.gz
-    - 6f23d1796614099ffe13e157b0cf5e05
+  md5: 6f23d1796614099ffe13e157b0cf5e05
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

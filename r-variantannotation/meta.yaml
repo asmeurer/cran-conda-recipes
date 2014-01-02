@@ -5,10 +5,10 @@ package:
 source:
   fn: VariantAnnotation_1.8.8.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/VariantAnnotation_1.8.8.tar.gz
-    - 9a1a7f419d2291ce435b5ae4ffe18efd
+  md5: 9a1a7f419d2291ce435b5ae4ffe18efd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

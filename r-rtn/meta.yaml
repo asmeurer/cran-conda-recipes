@@ -5,10 +5,10 @@ package:
 source:
   fn: RTN_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RTN_1.0.0.tar.gz
-    - e62b1dec1034fed27a4f036659bae307
+  md5: e62b1dec1034fed27a4f036659bae307
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

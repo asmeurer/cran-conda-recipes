@@ -5,10 +5,10 @@ package:
 source:
   fn: affyio_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affyio_1.30.0.tar.gz
-    - 5a26b715296921b05ab788e6af2a3e09
+  md5: 5a26b715296921b05ab788e6af2a3e09
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

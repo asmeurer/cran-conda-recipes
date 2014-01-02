@@ -5,10 +5,10 @@ package:
 source:
   fn: CMA_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CMA_1.20.0.tar.gz
-    - 65c2c6c6ecb3a08a2e0b14c57deb0f8c
+  md5: 65c2c6c6ecb3a08a2e0b14c57deb0f8c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

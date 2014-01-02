@@ -5,10 +5,10 @@ package:
 source:
   fn: TEQC_3.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/TEQC_3.2.0.tar.gz
-    - f603e86e5b1d327f62673680275526d3
+  md5: f603e86e5b1d327f62673680275526d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

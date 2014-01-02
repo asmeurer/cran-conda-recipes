@@ -5,10 +5,10 @@ package:
 source:
   fn: primeviewprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/primeviewprobe_2.13.0.tar.gz
-    - b1271b0a0d0526384a05e3ef94793366
+  md5: b1271b0a0d0526384a05e3ef94793366
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

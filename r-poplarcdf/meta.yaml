@@ -5,10 +5,10 @@ package:
 source:
   fn: poplarcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/poplarcdf_2.13.0.tar.gz
-    - 853e17998da21e06f66eec5c0fbf5fbb
+  md5: 853e17998da21e06f66eec5c0fbf5fbb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

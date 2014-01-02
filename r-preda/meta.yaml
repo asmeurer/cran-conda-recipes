@@ -5,10 +5,10 @@ package:
 source:
   fn: PREDA_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PREDA_1.8.0.tar.gz
-    - e265d0d81784a7eefe0cb50f131ea944
+  md5: e265d0d81784a7eefe0cb50f131ea944
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

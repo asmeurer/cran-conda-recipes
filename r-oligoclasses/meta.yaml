@@ -5,10 +5,10 @@ package:
 source:
   fn: oligoClasses_1.24.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/oligoClasses_1.24.0.tar.gz
-    - 4b1728c0c2e401dc911794adef35cabd
+  md5: 4b1728c0c2e401dc911794adef35cabd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

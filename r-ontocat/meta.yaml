@@ -5,10 +5,10 @@ package:
 source:
   fn: ontoCAT_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ontoCAT_1.14.0.tar.gz
-    - 717e7079e8ff476dabd3eecedce0b381
+  md5: 717e7079e8ff476dabd3eecedce0b381
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

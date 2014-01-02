@@ -5,10 +5,10 @@ package:
 source:
   fn: synapter_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/synapter_1.4.0.tar.gz
-    - 76137819d1edbb2c44fe5534495b47f1
+  md5: 76137819d1edbb2c44fe5534495b47f1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

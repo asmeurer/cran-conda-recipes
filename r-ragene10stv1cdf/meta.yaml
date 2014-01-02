@@ -5,10 +5,10 @@ package:
 source:
   fn: ragene10stv1cdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene10stv1cdf_2.13.0.tar.gz
-    - d475ecd68ab86eb615bf75bf478ad801
+  md5: d475ecd68ab86eb615bf75bf478ad801
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

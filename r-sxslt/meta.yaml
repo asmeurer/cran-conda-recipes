@@ -5,10 +5,10 @@ package:
 source:
   fn: Sxslt_0.91-1.tar.gz
   url: http://www.omegahat.org/R/src/contrib/Sxslt_0.91-1.tar.gz
-    - af6599363619546ed501d5116f85d7d1
+  md5: af6599363619546ed501d5116f85d7d1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

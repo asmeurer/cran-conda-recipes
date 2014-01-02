@@ -5,10 +5,10 @@ package:
 source:
   fn: u133x3pcdf_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/u133x3pcdf_2.13.0.tar.gz
-    - ac287c0ae4c2a6a7029c3e5cebaeceea
+  md5: ac287c0ae4c2a6a7029c3e5cebaeceea
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

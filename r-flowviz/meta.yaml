@@ -5,10 +5,10 @@ package:
 source:
   fn: flowViz_1.26.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowViz_1.26.0.tar.gz
-    - 4ff7289964988c492849b92bd53d900e
+  md5: 4ff7289964988c492849b92bd53d900e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

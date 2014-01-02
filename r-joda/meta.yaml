@@ -5,10 +5,10 @@ package:
 source:
   fn: joda_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/joda_1.10.0.tar.gz
-    - 42e6359cdd77cf205e82f4b79e46d895
+  md5: 42e6359cdd77cf205e82f4b79e46d895
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

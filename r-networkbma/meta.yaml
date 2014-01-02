@@ -5,10 +5,10 @@ package:
 source:
   fn: networkBMA_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/networkBMA_1.4.0.tar.gz
-    - 4e51c2782d76eb6ee440ae921689bfe5
+  md5: 4e51c2782d76eb6ee440ae921689bfe5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

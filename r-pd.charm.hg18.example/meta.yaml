@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.charm.hg18.example_0.99.3.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.charm.hg18.example_0.99.3.tar.gz
-    - 4cbff85ee5c46e999b63de35729bb361
+  md5: 4cbff85ee5c46e999b63de35729bb361
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: RDAVIDWebService_1.0.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RDAVIDWebService_1.0.0.tar.gz
-    - 2f9894b9d24894af186fe41ef542cfbc
+  md5: 2f9894b9d24894af186fe41ef542cfbc
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

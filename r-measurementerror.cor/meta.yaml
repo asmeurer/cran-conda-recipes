@@ -5,10 +5,10 @@ package:
 source:
   fn: MeasurementError.cor_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/MeasurementError.cor_1.34.0.tar.gz
-    - bcf5b802bb68b61e9671a930d9743a60
+  md5: bcf5b802bb68b61e9671a930d9743a60
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

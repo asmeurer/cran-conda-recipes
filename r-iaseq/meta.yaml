@@ -5,10 +5,10 @@ package:
 source:
   fn: iASeq_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/iASeq_1.6.0.tar.gz
-    - 16097d6fba099ceb15739d6caf41fc77
+  md5: 16097d6fba099ceb15739d6caf41fc77
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

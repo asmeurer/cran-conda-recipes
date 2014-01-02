@@ -5,10 +5,10 @@ package:
 source:
   fn: BRAIN_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BRAIN_1.8.0.tar.gz
-    - 8d90eb93569f446145972496d5450970
+  md5: 8d90eb93569f446145972496d5450970
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

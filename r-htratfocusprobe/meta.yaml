@@ -5,10 +5,10 @@ package:
 source:
   fn: htratfocusprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/htratfocusprobe_2.13.0.tar.gz
-    - 105b2546fbc64a2306db510217374c9b
+  md5: 105b2546fbc64a2306db510217374c9b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

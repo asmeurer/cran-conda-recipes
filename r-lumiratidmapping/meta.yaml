@@ -5,10 +5,10 @@ package:
 source:
   fn: lumiRatIDMapping_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/lumiRatIDMapping_1.10.0.tar.gz
-    - 1122fc25e3fff62678bed36f9d7b5709
+  md5: 1122fc25e3fff62678bed36f9d7b5709
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

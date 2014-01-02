@@ -5,10 +5,10 @@ package:
 source:
   fn: CoCiteStats_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/CoCiteStats_1.34.0.tar.gz
-    - 212c38cd6c1a5c14b3dbc5168fe3f5b8
+  md5: 212c38cd6c1a5c14b3dbc5168fe3f5b8
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

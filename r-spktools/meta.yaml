@@ -5,10 +5,10 @@ package:
 source:
   fn: spkTools_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/spkTools_1.18.0.tar.gz
-    - ee71c4777b1199e49a6eafb18ba6f23b
+  md5: ee71c4777b1199e49a6eafb18ba6f23b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

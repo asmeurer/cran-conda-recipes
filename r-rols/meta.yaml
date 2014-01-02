@@ -5,10 +5,10 @@ package:
 source:
   fn: rols_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rols_1.4.0.tar.gz
-    - 0dcd1c65612ca93b65548b1f78befcb9
+  md5: 0dcd1c65612ca93b65548b1f78befcb9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

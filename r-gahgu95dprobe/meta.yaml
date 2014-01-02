@@ -5,10 +5,10 @@ package:
 source:
   fn: gahgu95dprobe_2.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/gahgu95dprobe_2.2.1.tar.gz
-    - 1bae3c19a69429d8a345d31ba6a8fa91
+  md5: 1bae3c19a69429d8a345d31ba6a8fa91
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

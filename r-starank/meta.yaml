@@ -5,10 +5,10 @@ package:
 source:
   fn: staRank_1.4.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/staRank_1.4.0.tar.gz
-    - efedafe9f81d8877a6cf97d3b39036c7
+  md5: efedafe9f81d8877a6cf97d3b39036c7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

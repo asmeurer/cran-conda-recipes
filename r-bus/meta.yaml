@@ -5,10 +5,10 @@ package:
 source:
   fn: BUS_1.18.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BUS_1.18.0.tar.gz
-    - bbbed27bfcd89ab5df3eccb53cadf824
+  md5: bbbed27bfcd89ab5df3eccb53cadf824
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

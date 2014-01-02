@@ -5,10 +5,10 @@ package:
 source:
   fn: bsseq_0.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/bsseq_0.10.0.tar.gz
-    - bdbff8058544100d2a87b49673d1cf1a
+  md5: bdbff8058544100d2a87b49673d1cf1a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

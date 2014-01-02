@@ -5,10 +5,10 @@ package:
 source:
   fn: flowTrans_1.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowTrans_1.14.0.tar.gz
-    - bb53b8c7af3c534368eb88eb2508f2b2
+  md5: bb53b8c7af3c534368eb88eb2508f2b2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

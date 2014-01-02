@@ -5,10 +5,10 @@ package:
 source:
   fn: humanCHRLOC_2.1.6.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/humanCHRLOC_2.1.6.tar.gz
-    - 113450c0822000c9b4e8a0141cf4b819
+  md5: 113450c0822000c9b4e8a0141cf4b819
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

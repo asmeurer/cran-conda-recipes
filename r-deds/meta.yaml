@@ -5,10 +5,10 @@ package:
 source:
   fn: DEDS_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/DEDS_1.36.0.tar.gz
-    - 2baf682100dc2483ff1cecd8deaed780
+  md5: 2baf682100dc2483ff1cecd8deaed780
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: tkWidgets_1.40.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tkWidgets_1.40.0.tar.gz
-    - add1b0a90e4203e43fc7dae67a541e3f
+  md5: add1b0a90e4203e43fc7dae67a541e3f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

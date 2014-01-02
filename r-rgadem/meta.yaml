@@ -5,10 +5,10 @@ package:
 source:
   fn: rGADEM_2.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rGADEM_2.10.0.tar.gz
-    - 484ad809b3c2633dc6559faf845a363d
+  md5: 484ad809b3c2633dc6559faf845a363d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: keggorthology_2.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/keggorthology_2.14.0.tar.gz
-    - 3ac0e9fcad41e237f3f3ca5d265d6fca
+  md5: 3ac0e9fcad41e237f3f3ca5d265d6fca
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

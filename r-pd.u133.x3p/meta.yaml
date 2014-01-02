@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.u133.x3p_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.u133.x3p_1.10.0.tar.gz
-    - d26707a6099623f7f8e00eaa09e7d5ae
+  md5: d26707a6099623f7f8e00eaa09e7d5ae
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

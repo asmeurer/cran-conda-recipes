@@ -5,10 +5,10 @@ package:
 source:
   fn: Rattus.norvegicus_1.1.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/Rattus.norvegicus_1.1.2.tar.gz
-    - ae84624b858b862e73a66ae1a1b9540b
+  md5: ae84624b858b862e73a66ae1a1b9540b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

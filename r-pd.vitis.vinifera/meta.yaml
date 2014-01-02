@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.vitis.vinifera_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.vitis.vinifera_1.10.0.tar.gz
-    - 8a509b68a038ff1724bbe571653f52ef
+  md5: 8a509b68a038ff1724bbe571653f52ef
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: rhdf5_2.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/rhdf5_2.6.0.tar.gz
-    - d654434180e19bab6c2a5a2d0993b923
+  md5: d654434180e19bab6c2a5a2d0993b923
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

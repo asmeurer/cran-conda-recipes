@@ -5,10 +5,10 @@ package:
 source:
   fn: inSilicoDb_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/inSilicoDb_1.10.0.tar.gz
-    - d0ce431c316db82dfab223d828c0cb4d
+  md5: d0ce431c316db82dfab223d828c0cb4d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Mmulatta.UCSC.rheMac3_1.3.20.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Mmulatta.UCSC.rheMac3_1.3.20.tar.gz
-    - c8f568d7acd548eed07a7eb6df08fdc0
+  md5: c8f568d7acd548eed07a7eb6df08fdc0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: manta_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/manta_1.8.0.tar.gz
-    - 70c4dfaa9f2357d641666f73e7b269b1
+  md5: 70c4dfaa9f2357d641666f73e7b269b1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

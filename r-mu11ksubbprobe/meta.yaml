@@ -5,10 +5,10 @@ package:
 source:
   fn: mu11ksubbprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mu11ksubbprobe_2.13.0.tar.gz
-    - 7a318acb9bd3d0ef7b1b88376a3ef134
+  md5: 7a318acb9bd3d0ef7b1b88376a3ef134
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

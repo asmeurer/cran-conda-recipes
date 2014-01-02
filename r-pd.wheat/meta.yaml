@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.wheat_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.wheat_1.10.0.tar.gz
-    - 8dea5866750d4ab5d6ae3b51d4148641
+  md5: 8dea5866750d4ab5d6ae3b51d4148641
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

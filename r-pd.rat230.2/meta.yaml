@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.rat230.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.rat230.2_1.10.0.tar.gz
-    - 2864f12948400063afe860781898e0c2
+  md5: 2864f12948400063afe860781898e0c2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

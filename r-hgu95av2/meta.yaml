@@ -5,10 +5,10 @@ package:
 source:
   fn: hgu95av2_2.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hgu95av2_2.2.0.tar.gz
-    - b92585c0f43e91bd1abd234b9465a6a7
+  md5: b92585c0f43e91bd1abd234b9465a6a7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

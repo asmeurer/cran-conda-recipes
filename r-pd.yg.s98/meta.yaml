@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.yg.s98_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.yg.s98_1.10.0.tar.gz
-    - e9a37fdc2e4ae33bfa7a7f29ab5bbc69
+  md5: e9a37fdc2e4ae33bfa7a7f29ab5bbc69
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

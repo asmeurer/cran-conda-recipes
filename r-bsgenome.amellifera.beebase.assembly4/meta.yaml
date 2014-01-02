@@ -5,10 +5,10 @@ package:
 source:
   fn: BSgenome.Amellifera.BeeBase.assembly4_1.3.16.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/BSgenome.Amellifera.BeeBase.assembly4_1.3.16.tar.gz
-    - a251a76a3a3595e107c02b2b5e725a3f
+  md5: a251a76a3a3595e107c02b2b5e725a3f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

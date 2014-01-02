@@ -5,10 +5,10 @@ package:
 source:
   fn: plgem_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/plgem_1.34.0.tar.gz
-    - ac9c1a2c66835bc8df5d70a058448bf1
+  md5: ac9c1a2c66835bc8df5d70a058448bf1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

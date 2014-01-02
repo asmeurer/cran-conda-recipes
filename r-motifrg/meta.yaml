@@ -5,10 +5,10 @@ package:
 source:
   fn: motifRG_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/motifRG_1.6.0.tar.gz
-    - c2514227e288dd7dc519b80c35b94a10
+  md5: c2514227e288dd7dc519b80c35b94a10
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

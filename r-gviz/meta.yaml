@@ -5,10 +5,10 @@ package:
 source:
   fn: Gviz_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Gviz_1.6.0.tar.gz
-    - 0bcff07c6791c32fce881bc3991ff0f7
+  md5: 0bcff07c6791c32fce881bc3991ff0f7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

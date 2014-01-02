@@ -5,10 +5,10 @@ package:
 source:
   fn: pd.e.coli.2_1.10.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/pd.e.coli.2_1.10.0.tar.gz
-    - 6e17ff7082b6617c8c2cab96d367e7fb
+  md5: 6e17ff7082b6617c8c2cab96d367e7fb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: PAPi_1.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PAPi_1.2.0.tar.gz
-    - 902775a455933ebdbe6e491d6a149e2a
+  md5: 902775a455933ebdbe6e491d6a149e2a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

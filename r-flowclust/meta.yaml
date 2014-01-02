@@ -5,10 +5,10 @@ package:
 source:
   fn: flowClust_3.2.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowClust_3.2.0.tar.gz
-    - c772951246163aa7be29113387a8b98e
+  md5: c772951246163aa7be29113387a8b98e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: sigPathway_1.30.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/sigPathway_1.30.0.tar.gz
-    - 5636efc1cdcc651fa4a0352abcd774cd
+  md5: 5636efc1cdcc651fa4a0352abcd774cd
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

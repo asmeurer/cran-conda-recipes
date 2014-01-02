@@ -5,10 +5,10 @@ package:
 source:
   fn: genomewidesnp5Crlmm_1.0.6.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/genomewidesnp5Crlmm_1.0.6.tar.gz
-    - cc24140cd17758b8e09f4fe6c931526a
+  md5: cc24140cd17758b8e09f4fe6c931526a
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

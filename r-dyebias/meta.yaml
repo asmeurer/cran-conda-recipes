@@ -5,10 +5,10 @@ package:
 source:
   fn: dyebias_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/dyebias_1.20.0.tar.gz
-    - 732d40a4a4b9d2b51c738c3264ef9b5b
+  md5: 732d40a4a4b9d2b51c738c3264ef9b5b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

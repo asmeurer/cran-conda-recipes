@@ -5,10 +5,10 @@ package:
 source:
   fn: beadarraySNP_1.28.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/beadarraySNP_1.28.0.tar.gz
-    - 307ef166f20f50e1e1fa7beea517101f
+  md5: 307ef166f20f50e1e1fa7beea517101f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

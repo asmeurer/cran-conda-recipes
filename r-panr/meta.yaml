@@ -5,10 +5,10 @@ package:
 source:
   fn: PANR_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/PANR_1.8.0.tar.gz
-    - cf3535bef0a7cc20e91ce7b2960a6043
+  md5: cf3535bef0a7cc20e91ce7b2960a6043
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

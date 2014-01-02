@@ -5,10 +5,10 @@ package:
 source:
   fn: porcineprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/porcineprobe_2.13.0.tar.gz
-    - 6010c21dbf8561a26979b370d7c47920
+  md5: 6010c21dbf8561a26979b370d7c47920
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

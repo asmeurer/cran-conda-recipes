@@ -5,10 +5,10 @@ package:
 source:
   fn: hugene10stv1probe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/hugene10stv1probe_2.13.0.tar.gz
-    - 9c89b878645f2ac8e7cdc9659c032e8d
+  md5: 9c89b878645f2ac8e7cdc9659c032e8d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

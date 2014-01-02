@@ -5,10 +5,10 @@ package:
 source:
   fn: Resourcerer_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Resourcerer_1.36.0.tar.gz
-    - 646d4e1b1dcbf6c033653fb359a4b3c1
+  md5: 646d4e1b1dcbf6c033653fb359a4b3c1
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

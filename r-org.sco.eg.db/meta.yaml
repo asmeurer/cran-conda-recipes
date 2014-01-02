@@ -5,10 +5,10 @@ package:
 source:
   fn: org.Sco.eg.db_2.4.2.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/org.Sco.eg.db_2.4.2.tar.gz
-    - 21d66935277a2853080721e267612cf5
+  md5: 21d66935277a2853080721e267612cf5
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

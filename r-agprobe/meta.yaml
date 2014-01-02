@@ -5,10 +5,10 @@ package:
 source:
   fn: agprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/agprobe_2.13.0.tar.gz
-    - cee2651447cf5f523c16d2a1e01ee17d
+  md5: cee2651447cf5f523c16d2a1e01ee17d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

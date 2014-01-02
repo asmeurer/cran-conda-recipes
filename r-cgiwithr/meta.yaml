@@ -5,10 +5,10 @@ package:
 source:
   fn: CGIwithR_0.73-0.tar.gz
   url: http://www.omegahat.org/R/src/contrib/CGIwithR_0.73-0.tar.gz
-    - 50b1f48209c9e66909c7afb3a4b8af5e
+  md5: 50b1f48209c9e66909c7afb3a4b8af5e
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

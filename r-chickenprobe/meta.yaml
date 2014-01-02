@@ -5,10 +5,10 @@ package:
 source:
   fn: chickenprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/chickenprobe_2.13.0.tar.gz
-    - 9c8cccfd36c5886fa4ef28c0ccc50d6f
+  md5: 9c8cccfd36c5886fa4ef28c0ccc50d6f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

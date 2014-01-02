@@ -5,10 +5,10 @@ package:
 source:
   fn: ecolitk_1.34.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/ecolitk_1.34.0.tar.gz
-    - 02352023de4aea12a1bef3b5e650f214
+  md5: 02352023de4aea12a1bef3b5e650f214
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

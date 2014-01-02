@@ -5,10 +5,10 @@ package:
 source:
   fn: affylmGUI_1.36.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/affylmGUI_1.36.0.tar.gz
-    - d025aa403478b32454184d231e2ebf9d
+  md5: d025aa403478b32454184d231e2ebf9d
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

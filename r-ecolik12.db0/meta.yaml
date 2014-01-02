@@ -5,10 +5,10 @@ package:
 source:
   fn: ecoliK12.db0_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ecoliK12.db0_2.10.1.tar.gz
-    - eeff77af274a79248066dbd1680302c2
+  md5: eeff77af274a79248066dbd1680302c2
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

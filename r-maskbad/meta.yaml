@@ -5,10 +5,10 @@ package:
 source:
   fn: maskBAD_1.6.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/maskBAD_1.6.0.tar.gz
-    - 0ca6249694ba3494e2d35bb6ce4d4714
+  md5: 0ca6249694ba3494e2d35bb6ce4d4714
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

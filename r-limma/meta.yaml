@@ -5,10 +5,10 @@ package:
 source:
   fn: limma_3.18.7.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/limma_3.18.7.tar.gz
-    - 2a7f55a789439646c833a6124c1ff57c
+  md5: 2a7f55a789439646c833a6124c1ff57c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

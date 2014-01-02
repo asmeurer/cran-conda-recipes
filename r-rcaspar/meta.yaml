@@ -5,10 +5,10 @@ package:
 source:
   fn: RCASPAR_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/RCASPAR_1.8.0.tar.gz
-    - c81df93d6c39747e623b9a5276e3d94b
+  md5: c81df93d6c39747e623b9a5276e3d94b
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

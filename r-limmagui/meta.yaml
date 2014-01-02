@@ -5,10 +5,10 @@ package:
 source:
   fn: limmaGUI_1.38.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/limmaGUI_1.38.0.tar.gz
-    - 50630ab8cfe8a8e8e4a273e85a53be24
+  md5: 50630ab8cfe8a8e8e4a273e85a53be24
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

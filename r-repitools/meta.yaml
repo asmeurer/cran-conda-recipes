@@ -5,10 +5,10 @@ package:
 source:
   fn: Repitools_1.8.6.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/Repitools_1.8.6.tar.gz
-    - 4d282ce57c767fc70c285f1e0fa284c6
+  md5: 4d282ce57c767fc70c285f1e0fa284c6
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

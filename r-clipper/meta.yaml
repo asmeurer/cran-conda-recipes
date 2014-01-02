@@ -5,10 +5,10 @@ package:
 source:
   fn: clipper_1.2.1.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/clipper_1.2.1.tar.gz
-    - aad172328ae4d343c3fad26eabe796e4
+  md5: aad172328ae4d343c3fad26eabe796e4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

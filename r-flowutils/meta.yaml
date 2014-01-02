@@ -5,10 +5,10 @@ package:
 source:
   fn: flowUtils_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/flowUtils_1.22.0.tar.gz
-    - 6c92e7880aec396ddeaa86a9cda6088c
+  md5: 6c92e7880aec396ddeaa86a9cda6088c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

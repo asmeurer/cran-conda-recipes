@@ -5,10 +5,10 @@ package:
 source:
   fn: BioNet_1.22.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/BioNet_1.22.0.tar.gz
-    - 523faf8fd432e1c6f7732b53e2834e1c
+  md5: 523faf8fd432e1c6f7732b53e2834e1c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

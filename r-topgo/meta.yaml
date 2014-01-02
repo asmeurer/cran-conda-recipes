@@ -5,10 +5,10 @@ package:
 source:
   fn: topGO_2.14.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/topGO_2.14.0.tar.gz
-    - b5e7fa20902b4755787dbd5f0ffde648
+  md5: b5e7fa20902b4755787dbd5f0ffde648
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -5,10 +5,10 @@ package:
 source:
   fn: rhesusprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/rhesusprobe_2.13.0.tar.gz
-    - ce5c1331c565382653c0b6a3cd34ad17
+  md5: ce5c1331c565382653c0b6a3cd34ad17
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

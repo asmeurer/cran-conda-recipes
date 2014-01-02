@@ -5,10 +5,10 @@ package:
 source:
   fn: snapCGH_1.32.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/snapCGH_1.32.0.tar.gz
-    - d84ff68e1f526ba4b4a292714d848c63
+  md5: d84ff68e1f526ba4b4a292714d848c63
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

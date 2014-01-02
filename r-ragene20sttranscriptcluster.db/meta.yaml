@@ -5,10 +5,10 @@ package:
 source:
   fn: ragene20sttranscriptcluster.db_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/ragene20sttranscriptcluster.db_2.13.0.tar.gz
-    - 30350f10beb8b12bd06770ad740450a0
+  md5: 30350f10beb8b12bd06770ad740450a0
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

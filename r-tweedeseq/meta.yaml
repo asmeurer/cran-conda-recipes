@@ -5,10 +5,10 @@ package:
 source:
   fn: tweeDEseq_1.8.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/tweeDEseq_1.8.0.tar.gz
-    - 1632922d57afe9bdae7bc9ac44f9c6a9
+  md5: 1632922d57afe9bdae7bc9ac44f9c6a9
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

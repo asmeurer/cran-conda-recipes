@@ -5,10 +5,10 @@ package:
 source:
   fn: mgu74aprobe_2.13.0.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/mgu74aprobe_2.13.0.tar.gz
-    - 240fa784dd5942364a9a65d2916d46ef
+  md5: 240fa784dd5942364a9a65d2916d46ef
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

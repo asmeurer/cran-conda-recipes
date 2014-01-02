@@ -5,10 +5,10 @@ package:
 source:
   fn: logitT_1.20.0.tar.gz
   url: http://www.bioconductor.org/packages/release/bioc/src/contrib/logitT_1.20.0.tar.gz
-    - 27926b7c6bb235d863d753c94d3bb713
+  md5: 27926b7c6bb235d863d753c94d3bb713
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

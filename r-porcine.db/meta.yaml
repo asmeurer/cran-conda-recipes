@@ -5,10 +5,10 @@ package:
 source:
   fn: porcine.db_2.10.1.tar.gz
   url: http://www.bioconductor.org/packages/release/data/annotation/src/contrib/porcine.db_2.10.1.tar.gz
-    - 91eb07bc113adf6eaa0e99568951a1bb
+  md5: 91eb07bc113adf6eaa0e99568951a1bb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
