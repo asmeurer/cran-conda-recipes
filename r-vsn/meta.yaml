@@ -8,7 +8,7 @@ source:
   md5: 81388e1ba615aeac7566847a3bc5fc23
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,11 +16,13 @@ requirements:
     - r-biobase
     - r-affy
     - r-limma
+    - r-lattice
   run:
     - r
     - r-biobase
     - r-affy
     - r-limma
+    - r-lattice
 
 about:
   license: Artistic-2.0

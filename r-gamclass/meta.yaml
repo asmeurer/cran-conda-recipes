@@ -13,17 +13,27 @@ requirements:
   build:
     - r
     - r-car
+    - r-mgcv
     - r-daag
+    - r-mass
+    - r-rpart
     - r-randomforest
+    - r-lattice
     - r-latticeextra
     - r-ape
+    - r-kernsmooth
   run:
     - r
     - r-car
+    - r-mgcv
     - r-daag
+    - r-mass
+    - r-rpart
     - r-randomforest
+    - r-lattice
     - r-latticeextra
     - r-ape
+    - r-kernsmooth
 
 about:
   license: GPL (>= 2)

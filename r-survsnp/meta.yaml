@@ -7,17 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/survSNP_0.21-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-rcpp
+    - r-lattice
     - r-foreach
     - r-xtable
   run:
     - r
+    - r-survival
     - r-rcpp
+    - r-lattice
     - r-foreach
     - r-xtable
 

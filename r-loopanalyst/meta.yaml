@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/LoopAnalyst_1.2-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
   run:
     - r
+    - r-nlme
 
 about:
   license: GPL-2

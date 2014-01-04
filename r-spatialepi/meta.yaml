@@ -12,6 +12,7 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-sp
     - r-maps
     - r-maptools
@@ -19,8 +20,14 @@ requirements:
     - r-spdep
     - r-gtools
     - r-rgeos
+    - r-foreign
+    - r-lattice
+    - r-boot
+    - r-matrix
+    - r-nlme
   run:
     - r
+    - r-mass
     - r-sp
     - r-maps
     - r-maptools
@@ -28,6 +35,11 @@ requirements:
     - r-spdep
     - r-gtools
     - r-rgeos
+    - r-foreign
+    - r-lattice
+    - r-boot
+    - r-matrix
+    - r-nlme
 
 about:
   license: GPL-2

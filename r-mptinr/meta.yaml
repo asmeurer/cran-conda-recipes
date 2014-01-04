@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/MPTinR_1.2.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-numderiv
+    - r-rcppeigen
+    - r-rcpp
   run:
     - r
     - r-numderiv
+    - r-rcppeigen
+    - r-rcpp
 
 about:
   license: GPL (>= 2)

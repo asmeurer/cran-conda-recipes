@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/CVST_0.2-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-kernlab
+    - r-matrix
   run:
     - r
     - r-kernlab
+    - r-matrix
 
 about:
   license: GPL (>= 2.0)

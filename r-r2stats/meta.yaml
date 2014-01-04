@@ -7,25 +7,29 @@ source:
   url: http://cran.r-project.org/src/contrib/R2STATS_0.68-32.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-proto
+    - r-lattice
     - r-lme4
     - r-cairodevice
     - r-gwidgets
     - r-gwidgetsrgtk2
     - r-rgtk2extras
+    - r-matrix
   run:
     - r
     - r-proto
+    - r-lattice
     - r-lme4
     - r-cairodevice
     - r-gwidgets
     - r-gwidgetsrgtk2
     - r-rgtk2extras
+    - r-matrix
 
 about:
   license: GPL (>= 2)

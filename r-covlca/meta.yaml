@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-mlogit
     - r-polca
   run:
     - r
+    - r-matrix
     - r-mlogit
     - r-polca
 

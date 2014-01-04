@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-nlme
     - r-sparsem
     - r-quantreg
   run:
     - r
+    - r-nlme
     - r-sparsem
     - r-quantreg
 

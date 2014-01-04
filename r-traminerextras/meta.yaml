@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/TraMineRextras_0.2.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-traminer
     - r-rcolorbrewer
     - r-combinat
+    - r-survival
   run:
     - r
     - r-traminer
     - r-rcolorbrewer
     - r-combinat
+    - r-survival
 
 about:
   license: GPL (>= 2)

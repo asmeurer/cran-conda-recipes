@@ -14,10 +14,12 @@ requirements:
     - r
     - r-sandwich
     - r-lmtest
+    - r-mass
   run:
     - r
     - r-sandwich
     - r-lmtest
+    - r-mass
 
 about:
   license: GPL-2 | GPL-3

@@ -19,6 +19,7 @@ requirements:
     - r-distrteach
     - r-randvar
     - r-distrmod
+    - r-mass
     - r-sweavelistingutils
     - r-startupmsg
   run:
@@ -30,6 +31,7 @@ requirements:
     - r-distrteach
     - r-randvar
     - r-distrmod
+    - r-mass
     - r-sweavelistingutils
     - r-startupmsg
 

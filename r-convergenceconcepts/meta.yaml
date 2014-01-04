@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-tkrplot
+    - r-lattice
   run:
     - r
     - r-tkrplot
+    - r-lattice
 
 about:
   license: GPL (>= 2)

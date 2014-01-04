@@ -14,12 +14,16 @@ requirements:
     - r
     - r-car
     - r-ellipse
+    - r-lattice
+    - r-cluster
     - r-scatterplot3d
     - r-leaps
   run:
     - r
     - r-car
     - r-ellipse
+    - r-lattice
+    - r-cluster
     - r-scatterplot3d
     - r-leaps
 

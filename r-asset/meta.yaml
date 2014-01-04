@@ -8,15 +8,17 @@ source:
   md5: a79445ed489f7d285ba4a60402ac624e
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-msm
     - r-rmeta
   run:
     - r
+    - r-mass
     - r-msm
     - r-rmeta
 

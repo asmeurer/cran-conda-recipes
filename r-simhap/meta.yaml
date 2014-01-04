@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/SimHap_1.2.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-nlme
   run:
     - r
+    - r-survival
+    - r-nlme
 
 about:
   license: GPL-2

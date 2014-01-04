@@ -15,6 +15,7 @@ requirements:
     - r-rgtk2
     - r-gwidgetsrgtk2
     - r-cairodevice
+    - r-lattice
     - r-rggobi
     - r-ggplot2
     - r-proto
@@ -23,6 +24,7 @@ requirements:
     - r-rgtk2
     - r-gwidgetsrgtk2
     - r-cairodevice
+    - r-lattice
     - r-rggobi
     - r-ggplot2
     - r-proto

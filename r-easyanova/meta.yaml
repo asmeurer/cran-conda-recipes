@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-car
+    - r-nlme
   run:
     - r
     - r-car
+    - r-nlme
 
 about:
   license: GPL-2

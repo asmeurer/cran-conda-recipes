@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-waveslim
+    - r-lattice
   run:
     - r
     - r-waveslim
+    - r-lattice
 
 about:
   license: GPL (>= 2)

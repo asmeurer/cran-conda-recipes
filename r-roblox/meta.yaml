@@ -14,6 +14,7 @@ requirements:
     - r
     - r-distrmod
     - r-robastbase
+    - r-lattice
     - r-rcolorbrewer
     - r-biobase
     - r-randvar
@@ -22,6 +23,7 @@ requirements:
     - r
     - r-distrmod
     - r-robastbase
+    - r-lattice
     - r-rcolorbrewer
     - r-biobase
     - r-randvar

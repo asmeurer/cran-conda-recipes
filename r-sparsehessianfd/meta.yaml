@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/sparseHessianFD_0.1.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-rcpp
     - r-rcppeigen
+    - r-matrix
   run:
     - r
     - r-rcpp
     - r-rcppeigen
+    - r-matrix
 
 about:
   license: file LICENSE

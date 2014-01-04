@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/REEMtree_0.90.3.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-nlme
+    - r-rpart
   run:
     - r
+    - r-nlme
+    - r-rpart
 
 about:
   license: GPL

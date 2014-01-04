@@ -12,11 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-matchit
+    - r-nnet
     - r-numderiv
   run:
     - r
+    - r-mass
     - r-matchit
+    - r-nnet
     - r-numderiv
 
 about:

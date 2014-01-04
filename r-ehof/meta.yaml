@@ -12,8 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mgcv
+    - r-lattice
   run:
     - r
+    - r-mgcv
+    - r-lattice
 
 about:
   license: GPL (>= 2)

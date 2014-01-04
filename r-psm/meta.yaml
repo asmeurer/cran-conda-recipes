@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/PSM_0.8-10.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-numderiv
     - r-desolve
     - r-ucminf
   run:
     - r
+    - r-mass
     - r-numderiv
     - r-desolve
     - r-ucminf

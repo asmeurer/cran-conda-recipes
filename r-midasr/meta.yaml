@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-sandwich
+    - r-mass
     - r-numderiv
   run:
     - r
     - r-sandwich
+    - r-mass
     - r-numderiv
 
 about:

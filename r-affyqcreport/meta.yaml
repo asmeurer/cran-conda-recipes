@@ -8,13 +8,14 @@ source:
   md5: 16440fb7fa5920fd36319a5af83eadc7
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
     - r-affy
+    - r-lattice
     - r-affyplm
     - r-genefilter
     - r-rcolorbrewer
@@ -24,6 +25,7 @@ requirements:
     - r
     - r-biobase
     - r-affy
+    - r-lattice
     - r-affyplm
     - r-genefilter
     - r-rcolorbrewer

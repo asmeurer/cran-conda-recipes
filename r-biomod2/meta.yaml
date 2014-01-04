@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/biomod2_3.1-25.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,9 +17,12 @@ requirements:
     - r-abind
     - r-rastervis
     - r-proc
+    - r-nnet
     - r-gbm
     - r-mda
     - r-randomforest
+    - r-rpart
+    - r-mass
   run:
     - r
     - r-sp
@@ -27,9 +30,12 @@ requirements:
     - r-abind
     - r-rastervis
     - r-proc
+    - r-nnet
     - r-gbm
     - r-mda
     - r-randomforest
+    - r-rpart
+    - r-mass
 
 about:
   license: GPL-2

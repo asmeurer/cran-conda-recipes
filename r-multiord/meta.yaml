@@ -14,11 +14,13 @@ requirements:
     - r
     - r-mvtnorm
     - r-corpcor
+    - r-matrix
     - r-psych
   run:
     - r
     - r-mvtnorm
     - r-corpcor
+    - r-matrix
     - r-psych
 
 about:

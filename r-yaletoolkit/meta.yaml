@@ -12,13 +12,17 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-vcd
+    - r-mass
     - r-colorspace
     - r-barcode
     - r-gpairs
   run:
     - r
+    - r-lattice
     - r-vcd
+    - r-mass
     - r-colorspace
     - r-barcode
     - r-gpairs

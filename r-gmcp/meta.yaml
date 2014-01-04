@@ -7,24 +7,30 @@ source:
   url: http://cran.r-project.org/src/contrib/gMCP_0.8-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rjava
     - r-javagd
+    - r-mass
     - r-polynomf
     - r-multcomp
+    - r-lattice
     - r-mvtnorm
+    - r-matrix
     - r-commonjavajars
   run:
     - r
     - r-rjava
     - r-javagd
+    - r-mass
     - r-polynomf
     - r-multcomp
+    - r-lattice
     - r-mvtnorm
+    - r-matrix
     - r-commonjavajars
 
 about:

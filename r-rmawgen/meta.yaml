@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/RMAWGEN_1.2.5.5.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
@@ -15,6 +15,7 @@ requirements:
     - r-chron
     - r-date
     - r-vars
+    - r-mass
     - r-strucchange
     - r-urca
     - r-lmtest
@@ -24,6 +25,7 @@ requirements:
     - r-chron
     - r-date
     - r-vars
+    - r-mass
     - r-strucchange
     - r-urca
     - r-lmtest

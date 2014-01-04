@@ -14,12 +14,14 @@ requirements:
     - r
     - r-car
     - r-leaps
+    - r-foreign
     - r-mbess
     - r-gdata
   run:
     - r
     - r-car
     - r-leaps
+    - r-foreign
     - r-mbess
     - r-gdata
 

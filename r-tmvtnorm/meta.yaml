@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/tmvtnorm_1.4-8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-mvtnorm
+    - r-matrix
     - r-gmm
   run:
     - r
     - r-mvtnorm
+    - r-matrix
     - r-gmm
 
 about:

@@ -14,11 +14,13 @@ requirements:
     - r
     - r-mvtnorm
     - r-corpcor
+    - r-matrix
     - r-genord
   run:
     - r
     - r-mvtnorm
     - r-corpcor
+    - r-matrix
     - r-genord
 
 about:

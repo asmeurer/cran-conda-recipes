@@ -8,15 +8,17 @@ source:
   md5: 30428c9e015c0dbe790c408e1fa348ee
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-locfit
+    - r-lattice
   run:
     - r
     - r-locfit
+    - r-lattice
 
 about:
   license: Artistic-2.0

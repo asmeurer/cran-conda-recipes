@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-foreign
   run:
     - r
+    - r-foreign
 
 about:
   license: GPL

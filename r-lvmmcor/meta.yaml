@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/LVMMCOR_0.01.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
+    - r-mass
   run:
     - r
+    - r-nlme
+    - r-mass
 
 about:
   license: GPL (>= 2)

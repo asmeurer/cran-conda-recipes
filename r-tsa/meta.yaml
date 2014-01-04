@@ -14,11 +14,13 @@ requirements:
     - r
     - r-leaps
     - r-locfit
+    - r-mgcv
     - r-tseries
   run:
     - r
     - r-leaps
     - r-locfit
+    - r-mgcv
     - r-tseries
 
 about:

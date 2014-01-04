@@ -7,16 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/tripEstimation_0.0-41.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-mgcv
     - r-rgdal
     - r-sp
     - r-zoo
   run:
     - r
+    - r-lattice
+    - r-mgcv
     - r-rgdal
     - r-sp
     - r-zoo

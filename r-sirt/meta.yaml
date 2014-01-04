@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/sirt_0.40-9.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-coda
     - r-mvtnorm
     - r-gregmisc
@@ -23,8 +24,11 @@ requirements:
     - r-sm
     - r-psych
     - r-pbivnorm
+    - r-rcpp
+    - r-rcpparmadillo
   run:
     - r
+    - r-mass
     - r-coda
     - r-mvtnorm
     - r-gregmisc
@@ -36,6 +40,8 @@ requirements:
     - r-sm
     - r-psych
     - r-pbivnorm
+    - r-rcpp
+    - r-rcpparmadillo
 
 about:
   license: GPL (>= 2)

@@ -7,22 +7,26 @@ source:
   url: http://cran.r-project.org/src/contrib/epoc_0.2.5-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-lassoshooting
+    - r-matrix
     - r-graph
     - r-irr
     - r-elasticnet
+    - r-survival
     - r-rgraphviz
   run:
     - r
     - r-lassoshooting
+    - r-matrix
     - r-graph
     - r-irr
     - r-elasticnet
+    - r-survival
     - r-rgraphviz
 
 about:

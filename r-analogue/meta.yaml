@@ -7,19 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/analogue_0.12-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-vegan
+    - r-lattice
     - r-rgl
+    - r-mgcv
+    - r-mass
     - r-brglm
     - r-princurve
   run:
     - r
     - r-vegan
+    - r-lattice
     - r-rgl
+    - r-mgcv
+    - r-mass
     - r-brglm
     - r-princurve
 

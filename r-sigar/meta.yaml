@@ -8,7 +8,7 @@ source:
   md5: 149e2fa37fe47c32e044198b47f5b04e
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - r-corpcor
     - r-igraph
     - r-marray
+    - r-mass
     - r-quadprog
     - r-snowfall
   run:
@@ -31,6 +32,7 @@ requirements:
     - r-corpcor
     - r-igraph
     - r-marray
+    - r-mass
     - r-quadprog
     - r-snowfall
 

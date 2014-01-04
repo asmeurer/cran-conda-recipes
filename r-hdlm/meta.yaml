@@ -14,11 +14,13 @@ requirements:
     - r
     - r-glmnet
     - r-foreach
+    - r-mass
     - r-iterators
   run:
     - r
     - r-glmnet
     - r-foreach
+    - r-mass
     - r-iterators
 
 about:

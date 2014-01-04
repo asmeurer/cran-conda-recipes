@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/Wats_0.2-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-boot
     - r-colorspace
     - r-ggplot2
     - r-lubridate
@@ -22,6 +23,7 @@ requirements:
     - r-zoo
   run:
     - r
+    - r-boot
     - r-colorspace
     - r-ggplot2
     - r-lubridate

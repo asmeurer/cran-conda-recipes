@@ -13,6 +13,7 @@ requirements:
   build:
     - r
     - r-e1071
+    - r-mass
     - r-corpcor
     - r-statmod
     - r-tgp
@@ -21,6 +22,7 @@ requirements:
   run:
     - r
     - r-e1071
+    - r-mass
     - r-corpcor
     - r-statmod
     - r-tgp

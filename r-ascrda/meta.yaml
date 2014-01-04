@@ -12,13 +12,19 @@ build:
 requirements:
   build:
     - r
+    - r-class
+    - r-nnet
     - r-rda
+    - r-mass
     - r-sfsmisc
     - r-e1071
     - r-pamr
   run:
     - r
+    - r-class
+    - r-nnet
     - r-rda
+    - r-mass
     - r-sfsmisc
     - r-e1071
     - r-pamr

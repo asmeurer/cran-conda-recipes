@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-moments
   run:
     - r
+    - r-lattice
     - r-moments
 
 about:

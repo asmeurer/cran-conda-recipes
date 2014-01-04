@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/pec_2.2.9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-prodlim
+    - r-survival
     - r-rms
     - r-foreach
   run:
     - r
     - r-prodlim
+    - r-survival
     - r-rms
     - r-foreach
 

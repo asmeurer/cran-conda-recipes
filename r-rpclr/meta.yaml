@@ -12,8 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
+    - r-survival
   run:
     - r
+    - r-mass
+    - r-survival
 
 about:
   license: GPL-2

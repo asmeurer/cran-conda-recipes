@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/CommonTrend_0.7-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-urca
   run:
     - r
+    - r-mass
     - r-urca
 
 about:

@@ -7,13 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/calmate_0.11.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-r.utils
     - r-aroma.core
+    - r-mass
     - r-r.methodss3
     - r-r.oo
     - r-matrixstats
@@ -22,6 +23,7 @@ requirements:
     - r
     - r-r.utils
     - r-aroma.core
+    - r-mass
     - r-r.methodss3
     - r-r.oo
     - r-matrixstats

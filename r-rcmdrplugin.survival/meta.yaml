@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/RcmdrPlugin.survival_1.0-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-date
     - r-rcmdr
   run:
     - r
+    - r-survival
     - r-date
     - r-rcmdr
 

@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/RGraphics_2.0-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-ggplot2
   run:
     - r
+    - r-lattice
     - r-ggplot2
 
 about:

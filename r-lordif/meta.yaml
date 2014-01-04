@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/lordif_0.2-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-msm
     - r-mvtnorm
     - r-polycor
@@ -21,6 +22,7 @@ requirements:
     - r-rms
   run:
     - r
+    - r-mass
     - r-msm
     - r-mvtnorm
     - r-polycor

@@ -7,14 +7,24 @@ source:
   url: http://cran.r-project.org/src/contrib/ipred_0.9-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-rpart
+    - r-mass
+    - r-survival
+    - r-nnet
+    - r-class
     - r-prodlim
   run:
     - r
+    - r-rpart
+    - r-mass
+    - r-survival
+    - r-nnet
+    - r-class
     - r-prodlim
 
 about:

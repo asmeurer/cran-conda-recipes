@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/ndtv_0.4.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-animation
     - r-sna
     - r-statnet.common
+    - r-mass
   run:
     - r
     - r-network
@@ -24,6 +25,7 @@ requirements:
     - r-animation
     - r-sna
     - r-statnet.common
+    - r-mass
 
 about:
   license: GPL-3 + file LICENSE

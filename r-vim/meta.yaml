@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/VIM_4.0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -17,6 +17,8 @@ requirements:
     - r-robustbase
     - r-sp
     - r-vcd
+    - r-mass
+    - r-nnet
     - r-e1071
     - r-rcpp
     - r-glmnet
@@ -27,6 +29,8 @@ requirements:
     - r-robustbase
     - r-sp
     - r-vcd
+    - r-mass
+    - r-nnet
     - r-e1071
     - r-rcpp
     - r-glmnet

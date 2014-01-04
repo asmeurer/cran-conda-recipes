@@ -7,13 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/epicalc_2.15.1.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-foreign
+    - r-survival
+    - r-mass
+    - r-nnet
   run:
     - r
+    - r-foreign
+    - r-survival
+    - r-mass
+    - r-nnet
 
 about:
   license: GPL (>= 2)

@@ -7,27 +7,35 @@ source:
   url: http://cran.r-project.org/src/contrib/opm_1.0.24.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-boot
     - r-hwriter
     - r-plotrix
     - r-ckmeans.1d.dp
     - r-pkgutils
     - r-yaml
+    - r-mgcv
     - r-grofit
     - r-rjson
+    - r-nlme
   run:
     - r
+    - r-lattice
+    - r-boot
     - r-hwriter
     - r-plotrix
     - r-ckmeans.1d.dp
     - r-pkgutils
     - r-yaml
+    - r-mgcv
     - r-grofit
     - r-rjson
+    - r-nlme
 
 about:
   license: GPL (>= 2)

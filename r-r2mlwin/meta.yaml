@@ -7,16 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/R2MLwiN_0.1-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-coda
+    - r-foreign
     - r-rbugs
   run:
     - r
+    - r-lattice
     - r-coda
+    - r-foreign
     - r-rbugs
 
 about:

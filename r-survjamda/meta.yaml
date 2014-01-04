@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/survJamda_1.1.2.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
+    - r-survival
     - r-survivalroc
     - r-ecodist
     - r-survcomp
     - r-survjamda.data
   run:
     - r
+    - r-survival
     - r-survivalroc
     - r-ecodist
     - r-survcomp

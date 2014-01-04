@@ -14,11 +14,13 @@ requirements:
     - r
     - r-dicekriging
     - r-rgenoud
+    - r-mass
     - r-lhs
   run:
     - r
     - r-dicekriging
     - r-rgenoud
+    - r-mass
     - r-lhs
 
 about:

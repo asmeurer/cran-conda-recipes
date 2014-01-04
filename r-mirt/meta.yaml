@@ -12,12 +12,16 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
+    - r-mass
     - r-gparotation
     - r-mvtnorm
     - r-rcpp
     - r-numderiv
   run:
     - r
+    - r-lattice
+    - r-mass
     - r-gparotation
     - r-mvtnorm
     - r-rcpp

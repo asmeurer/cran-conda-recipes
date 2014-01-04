@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-gsl
+    - r-matrix
   run:
     - r
     - r-gsl
+    - r-matrix
 
 about:
   license: GPL-3

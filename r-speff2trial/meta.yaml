@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/speff2trial_1.0.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-leaps
+    - r-survival
   run:
     - r
     - r-leaps
+    - r-survival
 
 about:
   license: GPL-2

@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/LEAPFrOG_1.0.6.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-alabama
+    - r-mass
   run:
     - r
     - r-alabama
+    - r-mass
 
 about:
   license: GPL

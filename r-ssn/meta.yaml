@@ -7,22 +7,26 @@ source:
   url: http://cran.r-project.org/src/contrib/SSN_1.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rsqlite
+    - r-mass
     - r-bh
     - r-igraph
     - r-maptools
+    - r-lattice
     - r-sp
   run:
     - r
     - r-rsqlite
+    - r-mass
     - r-bh
     - r-igraph
     - r-maptools
+    - r-lattice
     - r-sp
 
 about:

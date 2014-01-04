@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/RcmdrPlugin.KMggplot2_0.2-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-rcmdr
     - r-rcolorbrewer
     - r-scales
+    - r-survival
     - r-tcltk2
   run:
     - r
@@ -29,6 +30,7 @@ requirements:
     - r-rcmdr
     - r-rcolorbrewer
     - r-scales
+    - r-survival
     - r-tcltk2
 
 about:

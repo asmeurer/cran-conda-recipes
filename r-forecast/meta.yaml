@@ -17,6 +17,7 @@ requirements:
     - r-zoo
     - r-rcpp
     - r-rcpparmadillo
+    - r-nnet
     - r-colorspace
   run:
     - r
@@ -25,6 +26,7 @@ requirements:
     - r-zoo
     - r-rcpp
     - r-rcpparmadillo
+    - r-nnet
     - r-colorspace
 
 about:

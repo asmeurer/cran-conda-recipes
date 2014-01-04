@@ -14,10 +14,12 @@ requirements:
     - r
     - r-ape
     - r-ouch
+    - r-mass
   run:
     - r
     - r-ape
     - r-ouch
+    - r-mass
 
 about:
   license: GPL (>= 2)

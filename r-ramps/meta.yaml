@@ -7,18 +7,22 @@ source:
   url: http://cran.r-project.org/src/contrib/ramps_0.6-12.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-coda
     - r-maps
+    - r-matrix
+    - r-nlme
     - r-fields
   run:
     - r
     - r-coda
     - r-maps
+    - r-matrix
+    - r-nlme
     - r-fields
 
 about:

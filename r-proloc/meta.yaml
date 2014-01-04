@@ -8,7 +8,7 @@ source:
   md5: 066efe82eef8d692b253f0aee2a1d624
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -21,14 +21,19 @@ requirements:
     - r-caret
     - r-e1071
     - r-sampling
+    - r-class
     - r-kernlab
+    - r-lattice
+    - r-nnet
     - r-randomforest
     - r-proxy
     - r-fnn
     - r-biocgenerics
     - r-rcolorbrewer
     - r-scales
+    - r-mass
     - r-knitr
+    - r-rcpparmadillo
   run:
     - r
     - r-msnbase
@@ -39,14 +44,19 @@ requirements:
     - r-caret
     - r-e1071
     - r-sampling
+    - r-class
     - r-kernlab
+    - r-lattice
+    - r-nnet
     - r-randomforest
     - r-proxy
     - r-fnn
     - r-biocgenerics
     - r-rcolorbrewer
     - r-scales
+    - r-mass
     - r-knitr
+    - r-rcpparmadillo
 
 about:
   license: GPL-2

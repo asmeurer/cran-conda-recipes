@@ -17,6 +17,9 @@ requirements:
     - r-mvoutlier
     - r-robustbase
     - r-rgtk2
+    - r-mass
+    - r-nnet
+    - r-boot
   run:
     - r
     - r-robcompositions
@@ -24,6 +27,9 @@ requirements:
     - r-mvoutlier
     - r-robustbase
     - r-rgtk2
+    - r-mass
+    - r-nnet
+    - r-boot
 
 about:
   license: GPL (>= 2)

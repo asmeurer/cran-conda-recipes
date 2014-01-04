@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/globalboosttest_1.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-mboost
+    - r-survival
   run:
     - r
     - r-mboost
+    - r-survival
 
 about:
   license: GPL (>= 2)

@@ -8,15 +8,17 @@ source:
   md5: 7b44369e5bd739ca22c6c1d61e599f57
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-kernsmooth
   run:
     - r
     - r-biobase
+    - r-kernsmooth
 
 about:
   license: Artistic-2.0

@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-pamr
+    - r-mass
+    - r-matrix
   run:
     - r
     - r-pamr
+    - r-mass
+    - r-matrix
 
 about:
   license: GPL

@@ -8,7 +8,7 @@ source:
   md5: d0a2ba1f8aa5bb774b6523deb2d0369c
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,12 +16,14 @@ requirements:
     - r-clst
     - r-rjson
     - r-ape
+    - r-lattice
     - r-rsqlite
   run:
     - r
     - r-clst
     - r-rjson
     - r-ape
+    - r-lattice
     - r-rsqlite
 
 about:

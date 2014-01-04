@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/postCP_1.7.2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-segmentor3isback
   run:
     - r
+    - r-mass
     - r-segmentor3isback
 
 about:

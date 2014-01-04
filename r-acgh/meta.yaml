@@ -8,15 +8,19 @@ source:
   md5: b70eac05f243efb9674113aa27ca4de4
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-cluster
+    - r-survival
     - r-multtest
     - r-biobase
   run:
     - r
+    - r-cluster
+    - r-survival
     - r-multtest
     - r-biobase
 

@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/gamlss.cens_4.2.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gamlss
     - r-gamlss.dist
+    - r-survival
   run:
     - r
     - r-gamlss
     - r-gamlss.dist
+    - r-survival
 
 about:
   license: GPL-2 | GPL-3

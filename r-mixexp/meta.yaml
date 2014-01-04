@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/mixexp_1.0-5.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-gdata
+    - r-lattice
   run:
     - r
     - r-gdata
+    - r-lattice
 
 about:
   license: GPL-2

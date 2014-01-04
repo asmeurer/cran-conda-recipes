@@ -12,12 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-geomap
     - r-rpmg
     - r-rseis
     - r-splancs
   run:
     - r
+    - r-mass
     - r-geomap
     - r-rpmg
     - r-rseis

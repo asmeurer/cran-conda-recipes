@@ -13,13 +13,17 @@ requirements:
   build:
     - r
     - r-ggplot2
+    - r-mass
     - r-sp
     - r-igraph
+    - r-matrix
   run:
     - r
     - r-ggplot2
+    - r-mass
     - r-sp
     - r-igraph
+    - r-matrix
 
 about:
   license: GPL (>= 2)

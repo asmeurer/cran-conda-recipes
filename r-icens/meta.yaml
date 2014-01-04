@@ -8,13 +8,15 @@ source:
   md5: f43ac0c84159ae0887d00712a312cf42
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - r
+    - r-survival
   run:
     - r
+    - r-survival
 
 about:
   license: Artistic-2.0

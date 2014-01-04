@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/zooimage_3.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-jpeg
     - r-png
     - r-ipred
+    - r-rpart
     - r-e1071
     - r-tree
   run:
@@ -30,6 +31,7 @@ requirements:
     - r-jpeg
     - r-png
     - r-ipred
+    - r-rpart
     - r-e1071
     - r-tree
 

@@ -12,6 +12,7 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-km.ci
     - r-ggplot2
     - r-data.table
@@ -24,6 +25,7 @@ requirements:
     - r-gam
   run:
     - r
+    - r-survival
     - r-km.ci
     - r-ggplot2
     - r-data.table

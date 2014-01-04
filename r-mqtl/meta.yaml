@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-qtl
+    - r-mass
     - r-outliers
   run:
     - r
     - r-qtl
+    - r-mass
     - r-outliers
 
 about:

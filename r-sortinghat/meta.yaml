@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-bdsmatrix
     - r-mvtnorm
   run:
     - r
+    - r-mass
     - r-bdsmatrix
     - r-mvtnorm
 

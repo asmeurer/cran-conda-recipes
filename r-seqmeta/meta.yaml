@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-survival
+    - r-matrix
     - r-coxme
     - r-compquadform
   run:
     - r
+    - r-survival
+    - r-matrix
     - r-coxme
     - r-compquadform
 

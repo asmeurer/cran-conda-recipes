@@ -8,7 +8,7 @@ source:
   md5: 76137819d1edbb2c44fe5534495b47f1
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-hwriter
     - r-tcltk2
     - r-rcolorbrewer
+    - r-lattice
     - r-qvalue
     - r-multtest
     - r-biobase
@@ -27,6 +28,7 @@ requirements:
     - r-hwriter
     - r-tcltk2
     - r-rcolorbrewer
+    - r-lattice
     - r-qvalue
     - r-multtest
     - r-biobase

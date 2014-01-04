@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-randomforest
+    - r-rpart
     - r-doparallel
   run:
     - r
     - r-randomforest
+    - r-rpart
     - r-doparallel
 
 about:

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/swamp_1.2.3.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-impute
     - r-amap
     - r-gplots
+    - r-mass
   run:
     - r
     - r-impute
     - r-amap
     - r-gplots
+    - r-mass
 
 about:
   license: GPL (>= 2)

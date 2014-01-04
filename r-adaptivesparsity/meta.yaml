@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-rcpp
+    - r-rcpparmadillo
   run:
     - r
     - r-rcpp
+    - r-rcpparmadillo
 
 about:
   license: LGPL (>= 3.0)

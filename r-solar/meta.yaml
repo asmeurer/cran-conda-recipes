@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-latticeextra
     - r-zoo
   run:
     - r
+    - r-lattice
     - r-latticeextra
     - r-zoo
 

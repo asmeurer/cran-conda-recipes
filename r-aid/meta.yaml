@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-tseries
     - r-nortest
   run:
     - r
+    - r-mass
     - r-tseries
     - r-nortest
 

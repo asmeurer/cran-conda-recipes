@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/ChemoSpec_1.61-3.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -24,9 +24,11 @@ requirements:
     - r-rgl
     - r-r.utils
     - r-mclust
+    - r-mass
     - r-baseline
     - r-idpmisc
     - r-gsubfn
+    - r-lattice
     - r-seriation
   run:
     - r
@@ -42,9 +44,11 @@ requirements:
     - r-rgl
     - r-r.utils
     - r-mclust
+    - r-mass
     - r-baseline
     - r-idpmisc
     - r-gsubfn
+    - r-lattice
     - r-seriation
 
 about:

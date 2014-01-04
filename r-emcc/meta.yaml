@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-mclust
     - r-emc
   run:
     - r
+    - r-mass
     - r-mclust
     - r-emc
 

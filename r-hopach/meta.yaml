@@ -8,15 +8,17 @@ source:
   md5: 473f591ceb9c818a461ac2eba59c6e9c
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-cluster
     - r-biobase
     - r-biocgenerics
   run:
     - r
+    - r-cluster
     - r-biobase
     - r-biocgenerics
 

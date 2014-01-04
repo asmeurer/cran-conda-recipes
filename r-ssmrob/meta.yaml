@@ -15,11 +15,13 @@ requirements:
     - r-sampleselection
     - r-robustbase
     - r-mvtnorm
+    - r-mass
   run:
     - r
     - r-sampleselection
     - r-robustbase
     - r-mvtnorm
+    - r-mass
 
 about:
   license: GPL-2

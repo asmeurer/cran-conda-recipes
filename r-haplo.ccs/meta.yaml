@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/haplo.ccs_1.3.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-haplo.stats
+    - r-survival
   run:
     - r
     - r-haplo.stats
+    - r-survival
 
 about:
   license: GPL (>= 2)

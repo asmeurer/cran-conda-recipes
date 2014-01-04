@@ -15,12 +15,14 @@ requirements:
     - r-mvoutlier
     - r-mgraph
     - r-pvclust
+    - r-cluster
     - r-maptools
   run:
     - r
     - r-mvoutlier
     - r-mgraph
     - r-pvclust
+    - r-cluster
     - r-maptools
 
 about:

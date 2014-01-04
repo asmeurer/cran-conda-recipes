@@ -8,7 +8,7 @@ source:
   md5: 9dc8ec21b8aa9f4834a946822f79e643
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -18,6 +18,7 @@ requirements:
     - r-reshape2
     - r-ggplot2
     - r-matrixstats
+    - r-lattice
     - r-annotate
     - r-genefilter
     - r-annotationdbi
@@ -30,6 +31,7 @@ requirements:
     - r-reshape2
     - r-ggplot2
     - r-matrixstats
+    - r-lattice
     - r-annotate
     - r-genefilter
     - r-annotationdbi

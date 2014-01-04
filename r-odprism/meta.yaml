@@ -14,11 +14,13 @@ requirements:
     - r
     - r-lme4
     - r-mvtnorm
+    - r-matrix
     - r-fields
   run:
     - r
     - r-lme4
     - r-mvtnorm
+    - r-matrix
     - r-fields
 
 about:

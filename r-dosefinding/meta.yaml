@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/DoseFinding_0.9-10.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-mvtnorm
   run:
     - r
+    - r-lattice
     - r-mvtnorm
 
 about:

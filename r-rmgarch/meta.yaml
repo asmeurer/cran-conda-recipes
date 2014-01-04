@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/rmgarch_1.2-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,6 +16,8 @@ requirements:
     - r-rcpparmadillo
     - r-rugarch
     - r-rsolnp
+    - r-mass
+    - r-matrix
     - r-zoo
     - r-xts
     - r-bessel
@@ -30,6 +32,8 @@ requirements:
     - r-rcpparmadillo
     - r-rugarch
     - r-rsolnp
+    - r-mass
+    - r-matrix
     - r-zoo
     - r-xts
     - r-bessel

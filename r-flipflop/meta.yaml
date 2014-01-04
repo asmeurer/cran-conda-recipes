@@ -8,15 +8,17 @@ source:
   md5: 9b10511af759e5d8a3b74ea3e4d123b8
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-iranges
     - r-genomicranges
   run:
     - r
+    - r-matrix
     - r-iranges
     - r-genomicranges
 

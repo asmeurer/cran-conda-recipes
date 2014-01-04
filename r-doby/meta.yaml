@@ -7,14 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/doBy_4.5-10.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-mass
+    - r-matrix
     - r-lme4
   run:
     - r
+    - r-survival
+    - r-mass
+    - r-matrix
     - r-lme4
 
 about:

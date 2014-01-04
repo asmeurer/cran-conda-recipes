@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/portfolio_0.4-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-nlme
   run:
     - r
+    - r-lattice
+    - r-nlme
 
 about:
   license: GPL (>= 2)

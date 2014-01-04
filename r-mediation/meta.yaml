@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-mass
+    - r-matrix
     - r-lpsolve
     - r-sandwich
   run:
     - r
+    - r-mass
+    - r-matrix
     - r-lpsolve
     - r-sandwich
 

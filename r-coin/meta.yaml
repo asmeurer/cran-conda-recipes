@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/coin_1.0-23.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-modeltools
     - r-mvtnorm
   run:
     - r
+    - r-survival
     - r-modeltools
     - r-mvtnorm
 

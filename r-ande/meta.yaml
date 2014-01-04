@@ -14,11 +14,13 @@ requirements:
     - r
     - r-discretization
     - r-functional
+    - r-foreign
     - r-stringr
   run:
     - r
     - r-discretization
     - r-functional
+    - r-foreign
     - r-stringr
 
 about:

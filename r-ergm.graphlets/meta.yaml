@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/ergm.graphlets_1.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-statnet
+    - r-ergm
   run:
     - r
     - r-statnet
+    - r-ergm
 
 about:
   license: GPL (>= 2)

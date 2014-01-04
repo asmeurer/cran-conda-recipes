@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-haplosim
     - r-reshape
   run:
     - r
+    - r-matrix
     - r-haplosim
     - r-reshape
 

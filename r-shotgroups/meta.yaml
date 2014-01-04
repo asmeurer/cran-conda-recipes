@@ -7,21 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/shotGroups_0.2-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-boot
     - r-coin
     - r-energy
     - r-mvoutlier
     - r-robustbase
+    - r-kernsmooth
   run:
     - r
+    - r-boot
     - r-coin
     - r-energy
     - r-mvoutlier
     - r-robustbase
+    - r-kernsmooth
 
 about:
   license: GPL (>= 2)

@@ -8,7 +8,7 @@ source:
   md5: 14626aa686088d59c4c1713f1812bfa0
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-flowcore
     - r-flowstats
     - r-flowclust
+    - r-mass
     - r-clue
     - r-plyr
     - r-rbgl
@@ -27,6 +28,7 @@ requirements:
     - r-data.table
     - r-ks
     - r-rcolorbrewer
+    - r-lattice
     - r-rrcov
   run:
     - r
@@ -36,6 +38,7 @@ requirements:
     - r-flowcore
     - r-flowstats
     - r-flowclust
+    - r-mass
     - r-clue
     - r-plyr
     - r-rbgl
@@ -44,6 +47,7 @@ requirements:
     - r-data.table
     - r-ks
     - r-rcolorbrewer
+    - r-lattice
     - r-rrcov
 
 about:

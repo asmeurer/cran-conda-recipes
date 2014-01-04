@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-nlme
   run:
     - r
+    - r-nlme
 
 about:
   license: GPL

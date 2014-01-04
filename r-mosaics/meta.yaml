@@ -8,16 +8,20 @@ source:
   md5: 8db3b98896abfb4c318dce8dbaec1439
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-rcpp
+    - r-mass
+    - r-lattice
     - r-iranges
   run:
     - r
     - r-rcpp
+    - r-mass
+    - r-lattice
     - r-iranges
 
 about:

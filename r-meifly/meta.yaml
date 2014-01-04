@@ -14,10 +14,12 @@ requirements:
     - r
     - r-plyr
     - r-leaps
+    - r-mass
   run:
     - r
     - r-plyr
     - r-leaps
+    - r-mass
 
 about:
   license: GPL

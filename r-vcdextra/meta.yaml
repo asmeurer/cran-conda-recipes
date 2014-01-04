@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/vcdExtra_0.5-11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-vcd
     - r-gnm
+    - r-mass
   run:
     - r
     - r-vcd
     - r-gnm
+    - r-mass
 
 about:
   license: GPL (>= 2)

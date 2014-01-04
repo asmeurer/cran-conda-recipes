@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/ggtern_1.0.2.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -18,6 +18,7 @@ requirements:
     - r-scales
     - r-reshape2
     - r-proto
+    - r-mass
     - r-sp
   run:
     - r
@@ -27,6 +28,7 @@ requirements:
     - r-scales
     - r-reshape2
     - r-proto
+    - r-mass
     - r-sp
 
 about:

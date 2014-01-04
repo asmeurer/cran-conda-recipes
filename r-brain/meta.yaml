@@ -8,17 +8,19 @@ source:
   md5: 8d90eb93569f446145972496d5450970
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-polynomf
     - r-biostrings
+    - r-lattice
   run:
     - r
     - r-polynomf
     - r-biostrings
+    - r-lattice
 
 about:
   license: GPL-2

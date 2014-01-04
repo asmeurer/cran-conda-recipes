@@ -7,17 +7,23 @@ source:
   url: http://cran.r-project.org/src/contrib/gamlss.add_4.2-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gamlss
+    - r-mgcv
+    - r-nnet
     - r-gamlss.nl
+    - r-lattice
   run:
     - r
     - r-gamlss
+    - r-mgcv
+    - r-nnet
     - r-gamlss.nl
+    - r-lattice
 
 about:
   license: GPL-2 | GPL-3

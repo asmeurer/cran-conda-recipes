@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/mutoss_0.1-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-multcomp
     - r-plotrix
+    - r-lattice
     - r-multtest
   run:
     - r
     - r-multcomp
     - r-plotrix
+    - r-lattice
     - r-multtest
 
 about:

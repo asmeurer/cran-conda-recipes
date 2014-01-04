@@ -12,12 +12,18 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-quantreg
+    - r-nlme
+    - r-mgcv
     - r-stringr
     - r-magic
   run:
     - r
+    - r-mass
     - r-quantreg
+    - r-nlme
+    - r-mgcv
     - r-stringr
     - r-magic
 

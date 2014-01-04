@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/LogConcDEAD_1.5-8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-mvtnorm
   run:
     - r
+    - r-mass
     - r-mvtnorm
 
 about:

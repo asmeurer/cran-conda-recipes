@@ -8,16 +8,18 @@ source:
   md5: 6a67655c732c0dc14fd56ffb57a9bf18
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-affy
+    - r-mass
     - r-biobase
   run:
     - r
     - r-affy
+    - r-mass
     - r-biobase
 
 about:

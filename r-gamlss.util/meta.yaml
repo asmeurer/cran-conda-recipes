@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/gamlss.util_4.2-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gamlss
     - r-colorspace
+    - r-matrix
+    - r-mass
     - r-rgenoud
     - r-zoo
     - r-gamlss.add
@@ -22,6 +24,8 @@ requirements:
     - r
     - r-gamlss
     - r-colorspace
+    - r-matrix
+    - r-mass
     - r-rgenoud
     - r-zoo
     - r-gamlss.add

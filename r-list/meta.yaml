@@ -15,6 +15,7 @@ requirements:
     - r-vgam
     - r-magic
     - r-gamlss.dist
+    - r-mass
     - r-quadprog
     - r-arm
     - r-corpcor
@@ -26,6 +27,7 @@ requirements:
     - r-vgam
     - r-magic
     - r-gamlss.dist
+    - r-mass
     - r-quadprog
     - r-arm
     - r-corpcor

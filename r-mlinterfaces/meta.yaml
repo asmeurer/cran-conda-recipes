@@ -8,15 +8,18 @@ source:
   md5: 29992d2d8641defd5c471e6a95c09d01
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-mass
     - r-genefilter
+    - r-rpart
     - r-rda
     - r-annotate
+    - r-cluster
     - r-sfsmisc
     - r-mboost
     - r-gdata
@@ -24,9 +27,12 @@ requirements:
   run:
     - r
     - r-biobase
+    - r-mass
     - r-genefilter
+    - r-rpart
     - r-rda
     - r-annotate
+    - r-cluster
     - r-sfsmisc
     - r-mboost
     - r-gdata

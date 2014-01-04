@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/RLRsim_2.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mgcv
   run:
     - r
+    - r-mgcv
 
 about:
   license: GPL

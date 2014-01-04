@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/metRology_0.9-16.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-numderiv
   run:
     - r
+    - r-mass
     - r-numderiv
 
 about:

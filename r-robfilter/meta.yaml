@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-robustbase
+    - r-mass
+    - r-lattice
   run:
     - r
     - r-robustbase
+    - r-mass
+    - r-lattice
 
 about:
   license: GPL (>= 2)

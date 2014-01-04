@@ -8,7 +8,7 @@ source:
   md5: 4d282ce57c767fc70c285f1e0fa284c6
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -18,6 +18,7 @@ requirements:
     - r-genomicranges
     - r-bsgenome
     - r-gplots
+    - r-mass
     - r-gsmoothr
     - r-edger
     - r-dnacopy
@@ -26,6 +27,7 @@ requirements:
     - r-rsolnp
     - r-biostrings
     - r-rsamtools
+    - r-cluster
   run:
     - r
     - r-biocgenerics
@@ -33,6 +35,7 @@ requirements:
     - r-genomicranges
     - r-bsgenome
     - r-gplots
+    - r-mass
     - r-gsmoothr
     - r-edger
     - r-dnacopy
@@ -41,6 +44,7 @@ requirements:
     - r-rsolnp
     - r-biostrings
     - r-rsamtools
+    - r-cluster
 
 about:
   license: LGPL (>= 2)

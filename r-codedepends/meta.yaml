@@ -8,14 +8,16 @@ source:
   md5: e2ec3505f9db1a96919a72f07673a2d8
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-codetools
     - r-xml
   run:
     - r
+    - r-codetools
     - r-xml
 
 about:

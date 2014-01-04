@@ -15,11 +15,13 @@ requirements:
     - r-mvtnorm
     - r-corpcor
     - r-psych
+    - r-matrix
   run:
     - r
     - r-mvtnorm
     - r-corpcor
     - r-psych
+    - r-matrix
 
 about:
   license: GPL-2

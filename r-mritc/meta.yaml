@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/mritc_0.4-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-misc3d
     - r-fmri
     - r-analyzefmri
   run:
     - r
+    - r-lattice
     - r-misc3d
     - r-fmri
     - r-analyzefmri

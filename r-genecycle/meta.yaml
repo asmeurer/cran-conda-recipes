@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/GeneCycle_1.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-longitudinal
     - r-fdrtool
   run:
     - r
+    - r-mass
     - r-longitudinal
     - r-fdrtool
 

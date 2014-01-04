@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/mi_0.09-18.03.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -15,14 +15,22 @@ requirements:
     - r-arm
     - r-abind
     - r-car
+    - r-foreign
     - r-lme4
+    - r-mass
+    - r-matrix
+    - r-nnet
     - r-r2winbugs
   run:
     - r
     - r-arm
     - r-abind
     - r-car
+    - r-foreign
     - r-lme4
+    - r-mass
+    - r-matrix
+    - r-nnet
     - r-r2winbugs
 
 about:

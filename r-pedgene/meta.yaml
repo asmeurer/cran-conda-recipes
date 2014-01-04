@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-compquadform
     - r-kinship2
   run:
     - r
+    - r-matrix
     - r-compquadform
     - r-kinship2
 

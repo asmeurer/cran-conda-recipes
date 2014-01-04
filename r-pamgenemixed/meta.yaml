@@ -12,11 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-mgcv
     - r-gplots
+    - r-nlme
     - r-biobase
   run:
     - r
+    - r-mgcv
     - r-gplots
+    - r-nlme
     - r-biobase
 
 about:

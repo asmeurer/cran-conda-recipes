@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-fda
+    - r-lattice
     - r-sdmtools
   run:
     - r
     - r-fda
+    - r-lattice
     - r-sdmtools
 
 about:

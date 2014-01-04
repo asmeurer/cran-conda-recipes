@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/luca_1.0-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-genetics
   run:
     - r
+    - r-survival
     - r-genetics
 
 about:

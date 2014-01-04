@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-ggplot2
+    - r-boot
   run:
     - r
     - r-ggplot2
+    - r-boot
 
 about:
   license: GPL-3

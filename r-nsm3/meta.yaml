@@ -13,7 +13,9 @@ requirements:
   build:
     - r
     - r-combinat
+    - r-mass
     - r-partitions
+    - r-survival
     - r-agricolae
     - r-ash
     - r-binom
@@ -35,7 +37,9 @@ requirements:
   run:
     - r
     - r-combinat
+    - r-mass
     - r-partitions
+    - r-survival
     - r-agricolae
     - r-ash
     - r-binom

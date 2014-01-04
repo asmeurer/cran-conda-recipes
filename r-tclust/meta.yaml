@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/tclust_1.1-03.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-mvtnorm
     - r-sn
     - r-mclust
+    - r-cluster
   run:
     - r
     - r-mvtnorm
     - r-sn
     - r-mclust
+    - r-cluster
 
 about:
   license: GPL-3

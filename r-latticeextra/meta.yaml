@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/latticeExtra_0.6-26.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rcolorbrewer
+    - r-lattice
   run:
     - r
     - r-rcolorbrewer
+    - r-lattice
 
 about:
   license: GPL (>= 2)

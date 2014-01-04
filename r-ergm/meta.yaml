@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/ergm_3.1.1.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-robustbase
     - r-coda
     - r-trust
+    - r-matrix
   run:
     - r
     - r-statnet.common
@@ -24,6 +25,7 @@ requirements:
     - r-robustbase
     - r-coda
     - r-trust
+    - r-matrix
 
 about:
   license: GPL-3 + file LICENSE

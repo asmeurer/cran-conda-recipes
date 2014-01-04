@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/rpartScore_1.0-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-rpart
   run:
     - r
+    - r-rpart
 
 about:
   license: GPL (>= 2)

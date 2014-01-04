@@ -15,6 +15,7 @@ requirements:
     - r-ggm
     - r-igraph
     - r-ppls
+    - r-mass
     - r-corpcor
     - r-glmnet
     - r-mvtnorm
@@ -24,6 +25,7 @@ requirements:
     - r-ggm
     - r-igraph
     - r-ppls
+    - r-mass
     - r-corpcor
     - r-glmnet
     - r-mvtnorm

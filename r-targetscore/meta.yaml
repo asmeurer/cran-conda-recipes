@@ -8,15 +8,17 @@ source:
   md5: f20670e159b86c74400d3b16ad7179a1
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-pracma
+    - r-matrix
   run:
     - r
     - r-pracma
+    - r-matrix
 
 about:
   license: GPL-2

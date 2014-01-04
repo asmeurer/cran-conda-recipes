@@ -14,10 +14,12 @@ requirements:
     - r
     - r-rglpk
     - r-quadprog
+    - r-matrix
   run:
     - r
     - r-rglpk
     - r-quadprog
+    - r-matrix
 
 about:
   license: GPL-3

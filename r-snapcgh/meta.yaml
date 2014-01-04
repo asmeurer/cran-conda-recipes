@@ -8,7 +8,7 @@ source:
   md5: d84ff68e1f526ba4b4a292714d848c63
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-limma
     - r-dnacopy
     - r-acgh
+    - r-cluster
     - r-glad
     - r-tilingarray
   run:
@@ -23,6 +24,7 @@ requirements:
     - r-limma
     - r-dnacopy
     - r-acgh
+    - r-cluster
     - r-glad
     - r-tilingarray
 

@@ -12,14 +12,18 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-mvtnorm
     - r-corpcor
     - r-numderiv
+    - r-boot
   run:
     - r
+    - r-mass
     - r-mvtnorm
     - r-corpcor
     - r-numderiv
+    - r-boot
 
 about:
   license: Unlimited

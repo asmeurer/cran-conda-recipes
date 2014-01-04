@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/DSpat_0.1.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-spatstat
     - r-randomfields
+    - r-mgcv
     - r-rgeos
   run:
     - r
     - r-spatstat
     - r-randomfields
+    - r-mgcv
     - r-rgeos
 
 about:

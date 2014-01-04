@@ -7,19 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/plsRbeta_0.1.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-plsrglm
     - r-mvtnorm
+    - r-boot
     - r-formula
     - r-plsdof
   run:
     - r
     - r-plsrglm
     - r-mvtnorm
+    - r-boot
     - r-formula
     - r-plsdof
 

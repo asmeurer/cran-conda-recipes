@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/hmmm_1.0-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-quadprog
+    - r-mass
   run:
     - r
     - r-quadprog
+    - r-mass
 
 about:
   license: GPL (>= 2)

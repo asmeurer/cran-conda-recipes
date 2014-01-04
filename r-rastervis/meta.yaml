@@ -13,6 +13,7 @@ requirements:
   build:
     - r
     - r-raster
+    - r-lattice
     - r-latticeextra
     - r-hexbin
     - r-sp
@@ -21,6 +22,7 @@ requirements:
   run:
     - r
     - r-raster
+    - r-lattice
     - r-latticeextra
     - r-hexbin
     - r-sp

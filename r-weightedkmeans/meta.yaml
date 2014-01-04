@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/weightedKmeans_1.2.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-latticeextra
     - r-clv
   run:
     - r
+    - r-lattice
     - r-latticeextra
     - r-clv
 

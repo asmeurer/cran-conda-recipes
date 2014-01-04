@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-abind
   run:
     - r
+    - r-mass
     - r-abind
 
 about:

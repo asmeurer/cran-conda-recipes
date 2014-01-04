@@ -7,16 +7,22 @@ source:
   url: http://cran.r-project.org/src/contrib/mlearning_1.0-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-class
+    - r-nnet
+    - r-mass
     - r-e1071
     - r-randomforest
     - r-ipred
   run:
     - r
+    - r-class
+    - r-nnet
+    - r-mass
     - r-e1071
     - r-randomforest
     - r-ipred

@@ -14,11 +14,13 @@ requirements:
     - r
     - r-rgl
     - r-mvtnorm
+    - r-mass
     - r-lasso2
   run:
     - r
     - r-rgl
     - r-mvtnorm
+    - r-mass
     - r-lasso2
 
 about:

@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-penalized
     - r-survivalroc
   run:
     - r
+    - r-survival
     - r-penalized
     - r-survivalroc
 

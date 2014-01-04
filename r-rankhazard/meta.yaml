@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/rankhazard_0.8-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
   run:
     - r
+    - r-survival
 
 about:
   license: GPL-2

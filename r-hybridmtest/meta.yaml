@@ -8,17 +8,21 @@ source:
   md5: 230472846bc9c471e253f5542182318a
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
     - r-fdrtool
+    - r-mass
+    - r-survival
   run:
     - r
     - r-biobase
     - r-fdrtool
+    - r-mass
+    - r-survival
 
 about:
   license: GPL (>= 2)

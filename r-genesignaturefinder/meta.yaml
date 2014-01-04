@@ -7,15 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/geneSignatureFinder_2012.08.20.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-cluster
+    - r-class
     - r-gplots
     - r-snow
   run:
     - r
+    - r-survival
+    - r-cluster
+    - r-class
     - r-gplots
     - r-snow
 

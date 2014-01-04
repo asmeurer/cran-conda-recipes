@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/coloc_2.3-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-colorspace
+    - r-mass
     - r-bma
   run:
     - r
     - r-colorspace
+    - r-mass
     - r-bma
 
 about:

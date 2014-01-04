@@ -15,11 +15,13 @@ requirements:
     - r-s20x
     - r-leaps
     - r-rgl
+    - r-lattice
   run:
     - r
     - r-s20x
     - r-leaps
     - r-rgl
+    - r-lattice
 
 about:
   license: GPL-2

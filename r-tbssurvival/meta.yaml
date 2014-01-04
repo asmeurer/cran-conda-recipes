@@ -14,6 +14,7 @@ requirements:
     - r
     - r-mcmc
     - r-coda
+    - r-survival
     - r-normalp
     - r-r.utils
     - r-bms
@@ -21,6 +22,7 @@ requirements:
     - r
     - r-mcmc
     - r-coda
+    - r-survival
     - r-normalp
     - r-r.utils
     - r-bms

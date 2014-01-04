@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-plyr
     - r-bbmisc
   run:
     - r
+    - r-mass
     - r-plyr
     - r-bbmisc
 

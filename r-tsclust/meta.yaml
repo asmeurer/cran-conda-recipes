@@ -13,12 +13,14 @@ requirements:
   build:
     - r
     - r-locpol
+    - r-kernsmooth
     - r-dtw
     - r-longitudinaldata
     - r-wmtsa
   run:
     - r
     - r-locpol
+    - r-kernsmooth
     - r-dtw
     - r-longitudinaldata
     - r-wmtsa

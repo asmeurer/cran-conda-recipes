@@ -17,6 +17,7 @@ requirements:
     - r-biocgenerics
     - r-biobase
     - r-beadarray
+    - r-lattice
     - r-rcolorbrewer
     - r-distr
   run:
@@ -26,6 +27,7 @@ requirements:
     - r-biocgenerics
     - r-biobase
     - r-beadarray
+    - r-lattice
     - r-rcolorbrewer
     - r-distr
 

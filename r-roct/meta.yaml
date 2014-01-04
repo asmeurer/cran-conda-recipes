@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-date
+    - r-survival
     - r-relsurv
   run:
     - r
     - r-date
+    - r-survival
     - r-relsurv
 
 about:

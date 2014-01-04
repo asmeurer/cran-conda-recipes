@@ -8,7 +8,7 @@ source:
   md5: 97179b12d515c562c09679b2b7929301
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -21,6 +21,7 @@ requirements:
     - r-rsqlite
     - r-gwasexacthw
     - r-dnacopy
+    - r-survival
     - r-lmtest
     - r-quantsmooth
   run:
@@ -33,6 +34,7 @@ requirements:
     - r-rsqlite
     - r-gwasexacthw
     - r-dnacopy
+    - r-survival
     - r-lmtest
     - r-quantsmooth
 

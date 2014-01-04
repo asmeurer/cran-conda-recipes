@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/ZeligGAM_0.7-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-zelig
+    - r-mgcv
   run:
     - r
     - r-zelig
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/seawaveQ_1.0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-nada
     - r-lubridate
   run:
     - r
+    - r-survival
     - r-nada
     - r-lubridate
 

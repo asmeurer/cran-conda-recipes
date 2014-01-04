@@ -14,10 +14,12 @@ requirements:
     - r
     - r-partykit
     - r-formula
+    - r-rpart
   run:
     - r
     - r-partykit
     - r-formula
+    - r-rpart
 
 about:
   license: GPL-2

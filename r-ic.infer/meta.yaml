@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/ic.infer_1.1-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-quadprog
     - r-mvtnorm
+    - r-boot
     - r-kappalab
   run:
     - r
     - r-quadprog
     - r-mvtnorm
+    - r-boot
     - r-kappalab
 
 about:

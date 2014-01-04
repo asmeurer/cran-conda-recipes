@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/marked_1.1.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-coda
     - r-optimx
     - r-ggplot2
+    - r-matrix
     - r-numderiv
     - r-rcpp
     - r-plyr
@@ -27,6 +28,7 @@ requirements:
     - r-coda
     - r-optimx
     - r-ggplot2
+    - r-matrix
     - r-numderiv
     - r-rcpp
     - r-plyr

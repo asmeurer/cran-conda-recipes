@@ -8,7 +8,7 @@ source:
   md5: 12f8c8ed73409c482b5647830cf4c396
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,12 +17,14 @@ requirements:
     - r-rcolorbrewer
     - r-rrcov
     - r-biocgenerics
+    - r-mass
   run:
     - r
     - r-biobase
     - r-rcolorbrewer
     - r-rrcov
     - r-biocgenerics
+    - r-mass
 
 about:
   license: LGPL

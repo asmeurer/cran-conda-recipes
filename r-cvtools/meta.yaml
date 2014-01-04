@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/cvTools_0.3.2.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-robustbase
   run:
     - r
+    - r-lattice
     - r-robustbase
 
 about:

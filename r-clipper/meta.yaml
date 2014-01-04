@@ -8,11 +8,12 @@ source:
   md5: aad172328ae4d343c3fad26eabe796e4
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-graph
     - r-biobase
     - r-igraph
@@ -23,6 +24,7 @@ requirements:
     - r-rbgl
   run:
     - r
+    - r-matrix
     - r-graph
     - r-biobase
     - r-igraph

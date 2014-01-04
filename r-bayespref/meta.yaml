@@ -13,11 +13,15 @@ requirements:
   build:
     - r
     - r-coda
+    - r-lattice
+    - r-mass
     - r-mcmcpack
     - r-rcolorbrewer
   run:
     - r
     - r-coda
+    - r-lattice
+    - r-mass
     - r-mcmcpack
     - r-rcolorbrewer
 

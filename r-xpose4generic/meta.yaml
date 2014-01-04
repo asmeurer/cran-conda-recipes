@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/xpose4generic_4.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-xpose4data
   run:
     - r
+    - r-lattice
     - r-xpose4data
 
 about:

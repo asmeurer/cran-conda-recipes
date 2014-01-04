@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/logcondiscr_1.0.4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-mvtnorm
     - r-cobs
   run:
     - r
+    - r-matrix
     - r-mvtnorm
     - r-cobs
 

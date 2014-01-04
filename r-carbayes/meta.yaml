@@ -12,12 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-rcpp
     - r-truncdist
     - r-spam
     - r-coda
   run:
     - r
+    - r-mass
     - r-rcpp
     - r-truncdist
     - r-spam

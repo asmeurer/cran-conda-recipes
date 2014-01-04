@@ -15,11 +15,15 @@ requirements:
     - r-qtl
     - r-ibdreg
     - r-wgaim
+    - r-nlme
+    - r-mgcv
   run:
     - r
     - r-qtl
     - r-ibdreg
     - r-wgaim
+    - r-nlme
+    - r-mgcv
 
 about:
   license: GPL-2

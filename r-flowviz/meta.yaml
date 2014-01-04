@@ -8,22 +8,28 @@ source:
   md5: 4ff7289964988c492849b92bd53d900e
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-flowcore
+    - r-lattice
     - r-biobase
+    - r-kernsmooth
     - r-latticeextra
+    - r-mass
     - r-rcolorbrewer
     - r-hexbin
     - r-idpmisc
   run:
     - r
     - r-flowcore
+    - r-lattice
     - r-biobase
+    - r-kernsmooth
     - r-latticeextra
+    - r-mass
     - r-rcolorbrewer
     - r-hexbin
     - r-idpmisc

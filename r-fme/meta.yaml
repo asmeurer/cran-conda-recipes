@@ -15,12 +15,14 @@ requirements:
     - r-desolve
     - r-rootsolve
     - r-minpack.lm
+    - r-mass
     - r-coda
   run:
     - r
     - r-desolve
     - r-rootsolve
     - r-minpack.lm
+    - r-mass
     - r-coda
 
 about:

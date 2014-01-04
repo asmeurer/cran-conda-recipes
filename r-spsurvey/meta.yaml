@@ -14,11 +14,15 @@ requirements:
     - r
     - r-sp
     - r-deldir
+    - r-foreign
+    - r-mass
     - r-rgeos
   run:
     - r
     - r-sp
     - r-deldir
+    - r-foreign
+    - r-mass
     - r-rgeos
 
 about:

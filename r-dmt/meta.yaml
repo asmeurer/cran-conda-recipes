@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/dmt_0.8.20.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-mvtnorm
+    - r-mass
+    - r-matrix
   run:
     - r
     - r-mvtnorm
+    - r-mass
+    - r-matrix
 
 about:
   license: BSD_2_clause + file LICENSE

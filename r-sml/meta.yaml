@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-glmnet
+    - r-matrix
+    - r-lattice
   run:
     - r
     - r-glmnet
+    - r-matrix
+    - r-lattice
 
 about:
   license: GPL-2

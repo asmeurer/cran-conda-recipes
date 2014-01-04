@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-rmosek
+    - r-matrix
     - r-sparsem
   run:
     - r
     - r-rmosek
+    - r-matrix
     - r-sparsem
 
 about:

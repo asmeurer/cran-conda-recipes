@@ -16,6 +16,7 @@ requirements:
     - r-shapes
     - r-e1071
     - r-pcamethods
+    - r-mass
     - r-misctools
   run:
     - r
@@ -23,6 +24,7 @@ requirements:
     - r-shapes
     - r-e1071
     - r-pcamethods
+    - r-mass
     - r-misctools
 
 about:

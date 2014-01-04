@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-rpart
   run:
     - r
+    - r-rpart
 
 about:
   license: GPL-2

@@ -14,12 +14,14 @@ requirements:
     - r
     - r-sna
     - r-network
+    - r-mass
     - r-stringr
     - r-xlsx
   run:
     - r
     - r-sna
     - r-network
+    - r-mass
     - r-stringr
     - r-xlsx
 

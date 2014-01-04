@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/tergm_3.1.2.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -18,6 +18,7 @@ requirements:
     - r-networkdynamic
     - r-robustbase
     - r-coda
+    - r-nlme
   run:
     - r
     - r-statnet.common
@@ -26,6 +27,7 @@ requirements:
     - r-networkdynamic
     - r-robustbase
     - r-coda
+    - r-nlme
 
 about:
   license: GPL-3 + file LICENSE

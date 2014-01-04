@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/x12GUI_0.10.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-hmisc
     - r-rgtk2
     - r-cairodevice
+    - r-lattice
     - r-stringr
   run:
     - r
@@ -23,6 +24,7 @@ requirements:
     - r-hmisc
     - r-rgtk2
     - r-cairodevice
+    - r-lattice
     - r-stringr
 
 about:

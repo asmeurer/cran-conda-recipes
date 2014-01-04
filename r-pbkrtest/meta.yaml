@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/pbkrtest_0.3-8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-lme4
+    - r-matrix
   run:
     - r
+    - r-mass
     - r-lme4
+    - r-matrix
 
 about:
   license: GPL (>= 2)

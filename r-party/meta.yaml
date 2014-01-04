@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/party_1.0-11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-sandwich
     - r-strucchange
     - r-modeltools
+    - r-survival
     - r-coin
   run:
     - r
@@ -23,6 +24,7 @@ requirements:
     - r-sandwich
     - r-strucchange
     - r-modeltools
+    - r-survival
     - r-coin
 
 about:

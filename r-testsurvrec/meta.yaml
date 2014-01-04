@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/TestSurvRec_1.2.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-survrec
+    - r-boot
   run:
     - r
     - r-survrec
+    - r-boot
 
 about:
   license: GPL-2

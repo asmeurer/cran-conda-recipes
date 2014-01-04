@@ -7,12 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/pi0_1.3-250.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-lowrankqp
+    - r-matrix
     - r-numderiv
     - r-limsolve
     - r-rgl
@@ -24,6 +25,7 @@ requirements:
   run:
     - r
     - r-lowrankqp
+    - r-matrix
     - r-numderiv
     - r-limsolve
     - r-rgl

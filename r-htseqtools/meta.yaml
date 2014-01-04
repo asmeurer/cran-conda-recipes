@@ -8,7 +8,7 @@ source:
   md5: 4a81999d2917430b1365b0852eaf2f23
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-biocgenerics
     - r-biobase
     - r-iranges
+    - r-mass
     - r-bsgenome
     - r-genomicranges
   run:
@@ -23,6 +24,7 @@ requirements:
     - r-biocgenerics
     - r-biobase
     - r-iranges
+    - r-mass
     - r-bsgenome
     - r-genomicranges
 

@@ -12,12 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-timedate
     - r-timeseries
     - r-stabledist
     - r-gss
   run:
     - r
+    - r-mass
     - r-timedate
     - r-timeseries
     - r-stabledist

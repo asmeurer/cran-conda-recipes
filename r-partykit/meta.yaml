@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/partykit_0.1-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-rweka
   run:
     - r
+    - r-survival
     - r-rweka
 
 about:

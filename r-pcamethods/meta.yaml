@@ -8,7 +8,7 @@ source:
   md5: 810f6f792d072fabee4dea65d8349ebc
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,11 +16,13 @@ requirements:
     - r-biobase
     - r-rcpp
     - r-biocgenerics
+    - r-mass
   run:
     - r
     - r-biobase
     - r-rcpp
     - r-biocgenerics
+    - r-mass
 
 about:
   license: GPL (>= 3)

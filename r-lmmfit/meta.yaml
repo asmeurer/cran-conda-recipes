@@ -12,8 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-nlme
+    - r-mass
   run:
     - r
+    - r-nlme
+    - r-mass
 
 about:
   license: GPL-2

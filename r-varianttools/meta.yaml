@@ -8,7 +8,7 @@ source:
   md5: 92564f19c586ba034e8be7b3e7f971eb
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -21,6 +21,7 @@ requirements:
     - r-biostrings
     - r-gmapr
     - r-genomicfeatures
+    - r-matrix
     - r-rtracklayer
     - r-biocparallel
   run:
@@ -33,6 +34,7 @@ requirements:
     - r-biostrings
     - r-gmapr
     - r-genomicfeatures
+    - r-matrix
     - r-rtracklayer
     - r-biocparallel
 

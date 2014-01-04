@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/bc3net_1.0.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,15 @@ requirements:
     - r-c3net
     - r-infotheo
     - r-igraph
+    - r-matrix
+    - r-lattice
   run:
     - r
     - r-c3net
     - r-infotheo
     - r-igraph
+    - r-matrix
+    - r-lattice
 
 about:
   license: GPL (>= 2)

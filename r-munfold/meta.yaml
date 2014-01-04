@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/munfold_0.3-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-memisc
+    - r-mass
   run:
     - r
     - r-memisc
+    - r-mass
 
 about:
   license: GPL-2

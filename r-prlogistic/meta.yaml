@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-boot
     - r-lme4
     - r-hmisc
   run:
     - r
+    - r-boot
     - r-lme4
     - r-hmisc
 

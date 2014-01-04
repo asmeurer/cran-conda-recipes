@@ -8,7 +8,7 @@ source:
   md5: 9b368a3942b705cc1547c2c36ddc23ee
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,11 +16,13 @@ requirements:
     - r-annotationdbi
     - r-annotate
     - r-biobase
+    - r-survival
   run:
     - r
     - r-annotationdbi
     - r-annotate
     - r-biobase
+    - r-survival
 
 about:
   license: Artistic-2.0

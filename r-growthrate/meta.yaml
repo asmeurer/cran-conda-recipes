@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-clime
     - r-mvtnorm
   run:
     - r
+    - r-matrix
     - r-clime
     - r-mvtnorm
 

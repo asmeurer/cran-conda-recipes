@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/irlba_1.0.2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-matrix
   run:
     - r
+    - r-matrix
 
 about:
   license: GPL

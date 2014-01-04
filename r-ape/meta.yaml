@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/ape_3.0-11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
+    - r-lattice
   run:
     - r
+    - r-nlme
+    - r-lattice
 
 about:
   license: GPL (>= 2)

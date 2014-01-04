@@ -8,13 +8,15 @@ source:
   md5: efe9f80dc869a9decaf1a0eade95a3ff
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
   run:
     - r
+    - r-mass
 
 about:
   license: LGPL (>= 2)

@@ -15,11 +15,13 @@ requirements:
     - r-rglpk
     - r-rgl
     - r-corrplot
+    - r-lattice
   run:
     - r
     - r-rglpk
     - r-rgl
     - r-corrplot
+    - r-lattice
 
 about:
   license: GPL-2

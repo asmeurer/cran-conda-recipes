@@ -12,11 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-mass
+    - r-mgcv
     - r-genabel
     - r-databel
     - r-filehash
   run:
     - r
+    - r-mass
+    - r-mgcv
     - r-genabel
     - r-databel
     - r-filehash

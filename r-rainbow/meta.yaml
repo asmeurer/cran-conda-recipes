@@ -12,14 +12,18 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-pcapp
     - r-hdrcde
+    - r-cluster
     - r-colorspace
     - r-ks
   run:
     - r
+    - r-mass
     - r-pcapp
     - r-hdrcde
+    - r-cluster
     - r-colorspace
     - r-ks
 

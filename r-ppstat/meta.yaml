@@ -15,11 +15,13 @@ requirements:
     - r-processdata
     - r-reshape2
     - r-ggplot2
+    - r-matrix
   run:
     - r
     - r-processdata
     - r-reshape2
     - r-ggplot2
+    - r-matrix
 
 about:
   license: GPL (>= 2)

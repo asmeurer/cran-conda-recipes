@@ -8,7 +8,7 @@ source:
   md5: 75d343ca7ea382b48be7aac2906d934d
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - r-affy
     - r-affyio
     - r-foreach
+    - r-mass
   run:
     - r
     - r-biobase
@@ -29,6 +30,7 @@ requirements:
     - r-affy
     - r-affyio
     - r-foreach
+    - r-mass
 
 about:
   license: MIT

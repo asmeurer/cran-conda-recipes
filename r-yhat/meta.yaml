@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/yhat_2.0-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-yacca
     - r-misctools
     - r-plotrix
+    - r-boot
   run:
     - r
     - r-yacca
     - r-misctools
     - r-plotrix
+    - r-boot
 
 about:
   license: GPL (>= 2)

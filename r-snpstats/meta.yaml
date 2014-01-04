@@ -8,14 +8,18 @@ source:
   md5: 05608e57a73258fc13f8a7600e23e527
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-matrix
     - r-biocgenerics
   run:
     - r
+    - r-survival
+    - r-matrix
     - r-biocgenerics
 
 about:

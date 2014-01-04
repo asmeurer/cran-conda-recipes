@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/mixstock_0.9.5.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-coda
     - r-plotrix
     - r-abind
+    - r-lattice
   run:
     - r
     - r-coda
     - r-plotrix
     - r-abind
+    - r-lattice
 
 about:
   license: GPL

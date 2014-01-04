@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/multinomRob_1.8-6.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rgenoud
+    - r-mass
     - r-mvtnorm
   run:
     - r
     - r-rgenoud
+    - r-mass
     - r-mvtnorm
 
 about:

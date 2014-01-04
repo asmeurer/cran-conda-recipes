@@ -8,22 +8,26 @@ source:
   md5: 4919c5b37b5c1ed395860c7a483c3ef3
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-flowcore
     - r-flowviz
+    - r-lattice
     - r-latticeextra
     - r-biobase
+    - r-mass
     - r-robustbase
   run:
     - r
     - r-flowcore
     - r-flowviz
+    - r-lattice
     - r-latticeextra
     - r-biobase
+    - r-mass
     - r-robustbase
 
 about:

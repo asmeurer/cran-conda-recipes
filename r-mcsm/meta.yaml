@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-coda
   run:
     - r
+    - r-mass
     - r-coda
 
 about:

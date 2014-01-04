@@ -14,11 +14,13 @@ requirements:
     - r
     - r-lpsolve
     - r-sampling
+    - r-mass
     - r-rcmdr
   run:
     - r
     - r-lpsolve
     - r-sampling
+    - r-mass
     - r-rcmdr
 
 about:

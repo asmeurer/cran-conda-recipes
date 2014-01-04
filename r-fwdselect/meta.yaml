@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-mgcv
   run:
     - r
+    - r-mgcv
 
 about:
   license: GPL

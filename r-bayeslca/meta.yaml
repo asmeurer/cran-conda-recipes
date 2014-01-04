@@ -15,11 +15,13 @@ requirements:
     - r-e1071
     - r-mcmcpack
     - r-fields
+    - r-nlme
   run:
     - r
     - r-e1071
     - r-mcmcpack
     - r-fields
+    - r-nlme
 
 about:
   license: GPL (>= 2)

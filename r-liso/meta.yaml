@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-iso
   run:
     - r
+    - r-mass
     - r-iso
 
 about:

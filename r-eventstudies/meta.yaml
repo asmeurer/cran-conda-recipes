@@ -14,10 +14,12 @@ requirements:
     - r
     - r-zoo
     - r-xts
+    - r-boot
   run:
     - r
     - r-zoo
     - r-xts
+    - r-boot
 
 about:
   license: GPL-2

@@ -7,14 +7,22 @@ source:
   url: http://cran.r-project.org/src/contrib/season_0.3-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-mass
+    - r-mgcv
+    - r-survival
     - r-coda
   run:
     - r
+    - r-lattice
+    - r-mass
+    - r-mgcv
+    - r-survival
     - r-coda
 
 about:

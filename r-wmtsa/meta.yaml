@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/wmtsa_2.0-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-splus2r
     - r-ifultools
+    - r-mass
   run:
     - r
     - r-splus2r
     - r-ifultools
+    - r-mass
 
 about:
   license: GPL-2

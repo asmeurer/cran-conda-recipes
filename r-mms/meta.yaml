@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-glmnet
+    - r-matrix
     - r-mht
   run:
     - r
     - r-glmnet
+    - r-matrix
     - r-mht
 
 about:

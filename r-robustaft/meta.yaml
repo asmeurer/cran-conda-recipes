@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-robustbase
+    - r-survival
   run:
     - r
     - r-robustbase
+    - r-survival
 
 about:
   license: GPL (>= 2)

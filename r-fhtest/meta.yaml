@@ -15,12 +15,14 @@ requirements:
     - r-icens
     - r-interval
     - r-mlecens
+    - r-mass
     - r-kmsurv
   run:
     - r
     - r-icens
     - r-interval
     - r-mlecens
+    - r-mass
     - r-kmsurv
 
 about:

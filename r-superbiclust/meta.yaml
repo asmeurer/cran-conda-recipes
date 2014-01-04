@@ -14,10 +14,12 @@ requirements:
     - r
     - r-biclust
     - r-fabia
+    - r-matrix
   run:
     - r
     - r-biclust
     - r-fabia
+    - r-matrix
 
 about:
   license: GPL (>= 2)

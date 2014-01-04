@@ -12,11 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-mgcv
     - r-mvtnorm
+    - r-boot
     - r-numderiv
   run:
     - r
+    - r-mgcv
     - r-mvtnorm
+    - r-boot
     - r-numderiv
 
 about:

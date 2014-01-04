@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/ProgGUIinR_0.0-3.tar.gz
 
 build:
-  number: 4
+  number: 5
 
 requirements:
   build:
     - r
     - r-ggplot2
     - r-svmisc
+    - r-mass
   run:
     - r
     - r-ggplot2
     - r-svmisc
+    - r-mass
 
 about:
   license: GPL (>= 2)

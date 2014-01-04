@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/phenmod_1.2-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gstat
     - r-rcolorbrewer
+    - r-lattice
     - r-pheno
   run:
     - r
     - r-gstat
     - r-rcolorbrewer
+    - r-lattice
     - r-pheno
 
 about:

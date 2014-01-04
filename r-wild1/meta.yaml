@@ -13,6 +13,7 @@ requirements:
   build:
     - r
     - r-chron
+    - r-survival
     - r-sp
     - r-maptools
     - r-spatstat
@@ -21,6 +22,7 @@ requirements:
   run:
     - r
     - r-chron
+    - r-survival
     - r-sp
     - r-maptools
     - r-spatstat

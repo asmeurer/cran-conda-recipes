@@ -8,13 +8,14 @@ source:
   md5: ecf8ac4b7fc3a7d3fee058a9735c1b1a
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
     - r-oligoclasses
+    - r-lattice
     - r-iranges
     - r-msm
     - r-iterators
@@ -25,6 +26,7 @@ requirements:
     - r
     - r-biobase
     - r-oligoclasses
+    - r-lattice
     - r-iranges
     - r-msm
     - r-iterators

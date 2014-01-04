@@ -13,11 +13,15 @@ requirements:
   build:
     - r
     - r-reshape
+    - r-lattice
     - r-xml
+    - r-mass
   run:
     - r
     - r-reshape
+    - r-lattice
     - r-xml
+    - r-mass
 
 about:
   license: GPL

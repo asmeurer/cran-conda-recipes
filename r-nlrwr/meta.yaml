@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/nlrwr_1.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,8 +16,11 @@ requirements:
     - r-car
     - r-drc
     - r-hydrome
+    - r-lattice
     - r-lmtest
+    - r-mass
     - r-nistnls
+    - r-nlme
     - r-nls2
     - r-nlstools
     - r-nraia
@@ -28,8 +31,11 @@ requirements:
     - r-car
     - r-drc
     - r-hydrome
+    - r-lattice
     - r-lmtest
+    - r-mass
     - r-nistnls
+    - r-nlme
     - r-nls2
     - r-nlstools
     - r-nraia

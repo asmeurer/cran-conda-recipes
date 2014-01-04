@@ -12,8 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-cluster
+    - r-mass
   run:
     - r
+    - r-cluster
+    - r-mass
 
 about:
   license: GPL

@@ -12,9 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-survival
+    - r-boot
+    - r-mass
     - r-survc1
   run:
     - r
+    - r-survival
+    - r-boot
+    - r-mass
     - r-survc1
 
 about:

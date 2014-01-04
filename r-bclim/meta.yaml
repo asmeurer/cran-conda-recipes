@@ -15,11 +15,13 @@ requirements:
     - r-mclust
     - r-hdrcde
     - r-statmod
+    - r-mass
   run:
     - r
     - r-mclust
     - r-hdrcde
     - r-statmod
+    - r-mass
 
 about:
   license: GPL (>= 2)

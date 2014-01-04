@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-reshape
+    - r-lattice
   run:
     - r
     - r-reshape
+    - r-lattice
 
 about:
   license: GPL-2

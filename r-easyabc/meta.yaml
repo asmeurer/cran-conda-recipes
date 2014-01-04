@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/EasyABC_1.2.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,12 +15,14 @@ requirements:
     - r-lhs
     - r-pls
     - r-mnormt
+    - r-mass
     - r-abc
   run:
     - r
     - r-lhs
     - r-pls
     - r-mnormt
+    - r-mass
     - r-abc
 
 about:

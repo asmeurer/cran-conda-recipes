@@ -7,14 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/plink_1.3-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-mass
     - r-statmod
   run:
     - r
+    - r-lattice
+    - r-mass
     - r-statmod
 
 about:

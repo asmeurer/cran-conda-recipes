@@ -7,13 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/titan_1.0-16.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-boot
+    - r-lattice
   run:
     - r
+    - r-mass
+    - r-boot
+    - r-lattice
 
 about:
   license: GPL (>= 2)

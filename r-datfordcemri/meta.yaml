@@ -17,6 +17,7 @@ requirements:
     - r-r.oo
     - r-r.methodss3
     - r-matlab
+    - r-lattice
     - r-locfit
   run:
     - r
@@ -25,6 +26,7 @@ requirements:
     - r-r.oo
     - r-r.methodss3
     - r-matlab
+    - r-lattice
     - r-locfit
 
 about:

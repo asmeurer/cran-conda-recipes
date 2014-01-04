@@ -14,12 +14,14 @@ requirements:
     - r
     - r-hdrcde
     - r-coda
+    - r-mass
     - r-ellipse
     - r-svdialogs
   run:
     - r
     - r-hdrcde
     - r-coda
+    - r-mass
     - r-ellipse
     - r-svdialogs
 

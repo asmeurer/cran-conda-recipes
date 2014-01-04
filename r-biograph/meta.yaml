@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/Biograph_2.0.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-lubridate
     - r-reshape
     - r-plyr
+    - r-survival
     - r-mstate
     - r-ggplot2
   run:
@@ -30,6 +31,7 @@ requirements:
     - r-lubridate
     - r-reshape
     - r-plyr
+    - r-survival
     - r-mstate
     - r-ggplot2
 

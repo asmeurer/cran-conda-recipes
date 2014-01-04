@@ -7,20 +7,24 @@ source:
   url: http://cran.r-project.org/src/contrib/plm_1.4-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-formula
+    - r-mass
     - r-bdsmatrix
     - r-zoo
+    - r-nlme
     - r-sandwich
   run:
     - r
     - r-formula
+    - r-mass
     - r-bdsmatrix
     - r-zoo
+    - r-nlme
     - r-sandwich
 
 about:

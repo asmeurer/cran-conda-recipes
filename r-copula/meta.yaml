@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/copula_0.999-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-gsl
     - r-adgoftest
     - r-stabledist
@@ -19,6 +20,7 @@ requirements:
     - r-pspline
   run:
     - r
+    - r-matrix
     - r-gsl
     - r-adgoftest
     - r-stabledist

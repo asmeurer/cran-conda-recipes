@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/skmeans_0.2-4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-slam
     - r-clue
+    - r-cluster
   run:
     - r
     - r-slam
     - r-clue
+    - r-cluster
 
 about:
   license: GPL-2

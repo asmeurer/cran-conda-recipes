@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/robustHD_0.4.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-perry
     - r-rcpp
     - r-rcpparmadillo
+    - r-mass
     - r-pcapp
     - r-robustbase
   run:
@@ -24,6 +25,7 @@ requirements:
     - r-perry
     - r-rcpp
     - r-rcpparmadillo
+    - r-mass
     - r-pcapp
     - r-robustbase
 

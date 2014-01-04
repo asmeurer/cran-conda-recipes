@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/rasclass_0.2.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-car
+    - r-nnet
     - r-rsnns
     - r-e1071
     - r-randomforest
   run:
     - r
     - r-car
+    - r-nnet
     - r-rsnns
     - r-e1071
     - r-randomforest

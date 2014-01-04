@@ -7,13 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/mboost_2.2-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-matrix
+    - r-lattice
   run:
     - r
+    - r-survival
+    - r-matrix
+    - r-lattice
 
 about:
   license: GPL-2

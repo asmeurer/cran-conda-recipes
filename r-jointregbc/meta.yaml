@@ -7,13 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/JointRegBC_0.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
+    - r-mass
+    - r-survival
   run:
     - r
+    - r-nlme
+    - r-mass
+    - r-survival
 
 about:
   license: GPL (>= 2)

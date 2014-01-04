@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-rpart
     - r-mlbench
     - r-caret
   run:
     - r
+    - r-rpart
     - r-mlbench
     - r-caret
 

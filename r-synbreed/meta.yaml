@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/synbreed_0.9-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,7 +16,9 @@ requirements:
     - r-blr
     - r-regress
     - r-abind
+    - r-lattice
     - r-igraph
+    - r-mass
     - r-ldheatmap
     - r-qtl
     - r-synbreeddata
@@ -26,7 +28,9 @@ requirements:
     - r-blr
     - r-regress
     - r-abind
+    - r-lattice
     - r-igraph
+    - r-mass
     - r-ldheatmap
     - r-qtl
     - r-synbreeddata

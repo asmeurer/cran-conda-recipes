@@ -7,21 +7,27 @@ source:
   url: http://cran.r-project.org/src/contrib/drc_2.3-96.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-car
     - r-gtools
+    - r-mass
     - r-magic
     - r-plotrix
+    - r-lattice
+    - r-nlme
   run:
     - r
     - r-car
     - r-gtools
+    - r-mass
     - r-magic
     - r-plotrix
+    - r-lattice
+    - r-nlme
 
 about:
   license: GPL-2 | file LICENCE

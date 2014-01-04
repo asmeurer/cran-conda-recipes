@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-lars
     - r-ncvreg
   run:
     - r
+    - r-mass
     - r-lars
     - r-ncvreg
 

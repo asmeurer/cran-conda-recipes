@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/spatstat_1.35-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mgcv
     - r-deldir
     - r-abind
     - r-tensor
     - r-polyclip
   run:
     - r
+    - r-mgcv
     - r-deldir
     - r-abind
     - r-tensor

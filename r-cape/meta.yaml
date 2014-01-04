@@ -15,6 +15,7 @@ requirements:
     - r-corpcor
     - r-evd
     - r-qpcr
+    - r-matrix
     - r-igraph
     - r-fdrtool
   run:
@@ -22,6 +23,7 @@ requirements:
     - r-corpcor
     - r-evd
     - r-qpcr
+    - r-matrix
     - r-igraph
     - r-fdrtool
 

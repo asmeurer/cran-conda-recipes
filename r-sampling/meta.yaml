@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-lpsolve
   run:
     - r
+    - r-mass
     - r-lpsolve
 
 about:

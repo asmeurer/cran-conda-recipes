@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/HapEstXXR_0.1-6.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
   run:
     - r
+    - r-survival
 
 about:
   license: LGPL (>= 2.1)

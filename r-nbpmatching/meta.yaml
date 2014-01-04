@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/nbpMatching_1.4.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-hmisc
+    - r-mass
   run:
     - r
     - r-hmisc
+    - r-mass
 
 about:
   license: GPL (>= 2)

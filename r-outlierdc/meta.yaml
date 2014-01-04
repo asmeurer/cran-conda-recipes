@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/OutlierDC_0.2.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-quantreg
+    - r-survival
     - r-formula
   run:
     - r
     - r-quantreg
+    - r-survival
     - r-formula
 
 about:

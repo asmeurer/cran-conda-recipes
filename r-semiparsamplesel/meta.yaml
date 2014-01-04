@@ -13,12 +13,14 @@ requirements:
   build:
     - r
     - r-magic
+    - r-mgcv
     - r-trust
     - r-mvtnorm
     - r-copula
   run:
     - r
     - r-magic
+    - r-mgcv
     - r-trust
     - r-mvtnorm
     - r-copula

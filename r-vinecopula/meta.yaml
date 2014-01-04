@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-mvtnorm
     - r-igraph
   run:
     - r
+    - r-mass
     - r-mvtnorm
     - r-igraph
 

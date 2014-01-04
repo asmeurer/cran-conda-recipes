@@ -14,10 +14,14 @@ requirements:
     - r
     - r-gparotation
     - r-threeway
+    - r-mass
+    - r-matrix
   run:
     - r
     - r-gparotation
     - r-threeway
+    - r-mass
+    - r-matrix
 
 about:
   license: GPL (>= 2)

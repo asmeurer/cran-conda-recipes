@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/AER_1.2-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,6 +15,7 @@ requirements:
     - r-car
     - r-lmtest
     - r-sandwich
+    - r-survival
     - r-zoo
     - r-formula
   run:
@@ -22,6 +23,7 @@ requirements:
     - r-car
     - r-lmtest
     - r-sandwich
+    - r-survival
     - r-zoo
     - r-formula
 

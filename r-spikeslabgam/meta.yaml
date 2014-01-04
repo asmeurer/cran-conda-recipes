@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/spikeSlabGAM_1.1-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -18,9 +18,11 @@ requirements:
     - r-scales
     - r-akima
     - r-gridextra
+    - r-mass
     - r-mcmcpack
     - r-coda
     - r-mvtnorm
+    - r-cluster
   run:
     - r
     - r-ggplot2
@@ -29,9 +31,11 @@ requirements:
     - r-scales
     - r-akima
     - r-gridextra
+    - r-mass
     - r-mcmcpack
     - r-coda
     - r-mvtnorm
+    - r-cluster
 
 about:
   license: CC BY-NC-SA 3.0

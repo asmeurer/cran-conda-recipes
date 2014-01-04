@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-effectsrelbaseline
+    - r-boot
   run:
     - r
     - r-effectsrelbaseline
+    - r-boot
 
 about:
   license: GPL (>= 3)

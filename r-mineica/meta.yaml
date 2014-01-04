@@ -8,7 +8,7 @@ source:
   md5: 119321ecd43ac1922b8bf3db76aeb14e
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -22,6 +22,7 @@ requirements:
     - r-biomart
     - r-gtools
     - r-gostats
+    - r-cluster
     - r-marray
     - r-mclust
     - r-rcolorbrewer
@@ -48,6 +49,7 @@ requirements:
     - r-biomart
     - r-gtools
     - r-gostats
+    - r-cluster
     - r-marray
     - r-mclust
     - r-rcolorbrewer

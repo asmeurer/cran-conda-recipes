@@ -8,15 +8,17 @@ source:
   md5: 2e7976e8ec8dc0e8c4953cd861fc5228
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-survival
   run:
     - r
     - r-biobase
+    - r-survival
 
 about:
   license: GPL (>= 2)

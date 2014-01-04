@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-numderiv
+    - r-survival
   run:
     - r
+    - r-matrix
     - r-numderiv
+    - r-survival
 
 about:
   license: Unlimited

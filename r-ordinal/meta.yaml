@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/ordinal_2013.9-30.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-ucminf
+    - r-mass
+    - r-matrix
   run:
     - r
     - r-ucminf
+    - r-mass
+    - r-matrix
 
 about:
   license: GPL (>= 2)

@@ -17,6 +17,7 @@ requirements:
     - r-picante
     - r-phangorn
     - r-phytools
+    - r-cluster
   run:
     - r
     - r-vegan
@@ -24,6 +25,7 @@ requirements:
     - r-picante
     - r-phangorn
     - r-phytools
+    - r-cluster
 
 about:
   license: GPL (>= 2.0)

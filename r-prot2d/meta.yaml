@@ -8,7 +8,7 @@ source:
   md5: 5fe45b000c416100c02547b2111443b6
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - r-limma
     - r-mulcom
     - r-impute
+    - r-mass
     - r-qvalue
   run:
     - r
@@ -30,6 +31,7 @@ requirements:
     - r-limma
     - r-mulcom
     - r-impute
+    - r-mass
     - r-qvalue
 
 about:

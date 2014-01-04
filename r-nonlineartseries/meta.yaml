@@ -12,11 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-rgl
     - r-tseries
     - r-tsa
   run:
     - r
+    - r-matrix
     - r-rgl
     - r-tseries
     - r-tsa

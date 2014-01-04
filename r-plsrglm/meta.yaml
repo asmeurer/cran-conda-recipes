@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/plsRglm_0.8.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-mvtnorm
+    - r-boot
     - r-bipartite
   run:
     - r
     - r-mvtnorm
+    - r-boot
     - r-bipartite
 
 about:

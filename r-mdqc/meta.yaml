@@ -8,13 +8,17 @@ source:
   md5: 45bb701a55de42aa2c5ca6c7659ca25d
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-cluster
+    - r-mass
   run:
     - r
+    - r-cluster
+    - r-mass
 
 about:
   license: LGPL (>= 2)

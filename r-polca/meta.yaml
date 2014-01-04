@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-scatterplot3d
+    - r-mass
   run:
     - r
     - r-scatterplot3d
+    - r-mass
 
 about:
   license: GPL (>= 2)

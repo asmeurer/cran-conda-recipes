@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/gamlss.nl_4.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gamlss
+    - r-survival
   run:
     - r
     - r-gamlss
+    - r-survival
 
 about:
   license: GPL-2 | GPL-3

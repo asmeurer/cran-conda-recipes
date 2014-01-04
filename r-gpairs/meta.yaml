@@ -13,12 +13,16 @@ requirements:
   build:
     - r
     - r-barcode
+    - r-lattice
     - r-vcd
+    - r-mass
     - r-colorspace
   run:
     - r
     - r-barcode
+    - r-lattice
     - r-vcd
+    - r-mass
     - r-colorspace
 
 about:

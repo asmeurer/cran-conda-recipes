@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/sem_3.1-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-matrixcalc
   run:
     - r
+    - r-mass
     - r-matrixcalc
 
 about:

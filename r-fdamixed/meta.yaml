@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-formula
+    - r-rcpp
+    - r-rcpparmadillo
   run:
     - r
     - r-formula
+    - r-rcpp
+    - r-rcpparmadillo
 
 about:
   license: GPL-2

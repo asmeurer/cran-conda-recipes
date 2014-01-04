@@ -15,11 +15,13 @@ requirements:
     - r-mvtnorm
     - r-tmvtnorm
     - r-fcertificates
+    - r-matrix
   run:
     - r
     - r-mvtnorm
     - r-tmvtnorm
     - r-fcertificates
+    - r-matrix
 
 about:
   license: GPL (>= 2)

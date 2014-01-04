@@ -15,11 +15,13 @@ requirements:
     - r-flsa
     - r-igraph
     - r-dse
+    - r-matrix
   run:
     - r
     - r-flsa
     - r-igraph
     - r-dse
+    - r-matrix
 
 about:
   license: GPL-2

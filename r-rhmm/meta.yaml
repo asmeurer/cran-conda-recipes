@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/RHmm_2.0.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-nlme
   run:
     - r
+    - r-mass
+    - r-nlme
 
 about:
   license: GPL (>= 2)

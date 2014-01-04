@@ -8,17 +8,19 @@ source:
   md5: 6e025db30c342d7eb02925a57badba1a
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
     - r-lpe
+    - r-mass
   run:
     - r
     - r-biobase
     - r-lpe
+    - r-mass
 
 about:
   license: GPL (>= 2)

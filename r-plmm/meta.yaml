@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/plmm_0.1-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-sm
     - r-formula
+    - r-nlme
   run:
     - r
     - r-sm
     - r-formula
+    - r-nlme
 
 about:
   license: GPL (>= 2)

@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/foreach_1.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-codetools
     - r-iterators
   run:
     - r
+    - r-codetools
     - r-iterators
 
 about:

@@ -12,13 +12,17 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-dr
     - r-np
+    - r-boot
     - r-cubature
   run:
     - r
+    - r-mass
     - r-dr
     - r-np
+    - r-boot
     - r-cubature
 
 about:

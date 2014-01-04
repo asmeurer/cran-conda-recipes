@@ -17,6 +17,7 @@ requirements:
     - r-fbasics
     - r-fcopulae
     - r-sn
+    - r-mass
     - r-robustbase
   run:
     - r
@@ -25,6 +26,7 @@ requirements:
     - r-fbasics
     - r-fcopulae
     - r-sn
+    - r-mass
     - r-robustbase
 
 about:

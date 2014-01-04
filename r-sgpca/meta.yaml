@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-fields
   run:
     - r
+    - r-matrix
     - r-fields
 
 about:

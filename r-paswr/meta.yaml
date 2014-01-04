@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-e1071
+    - r-mass
+    - r-lattice
   run:
     - r
     - r-e1071
+    - r-mass
+    - r-lattice
 
 about:
   license: GPL (>= 2)

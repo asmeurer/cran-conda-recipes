@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/random.polychor.pa_1.1.3.6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,12 +15,14 @@ requirements:
     - r-psych
     - r-nfactors
     - r-mvtnorm
+    - r-mass
     - r-sfsmisc
   run:
     - r
     - r-psych
     - r-nfactors
     - r-mvtnorm
+    - r-mass
     - r-sfsmisc
 
 about:

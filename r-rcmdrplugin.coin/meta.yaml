@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/RcmdrPlugin.coin_1.0-21.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rcmdr
     - r-coin
+    - r-survival
     - r-multcomp
   run:
     - r
     - r-rcmdr
     - r-coin
+    - r-survival
     - r-multcomp
 
 about:

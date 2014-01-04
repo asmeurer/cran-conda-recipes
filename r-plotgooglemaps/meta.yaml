@@ -15,11 +15,13 @@ requirements:
     - r-sp
     - r-rgdal
     - r-maptools
+    - r-lattice
   run:
     - r
     - r-sp
     - r-rgdal
     - r-maptools
+    - r-lattice
 
 about:
   license: GPL

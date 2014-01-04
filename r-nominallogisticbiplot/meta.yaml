@@ -14,10 +14,12 @@ requirements:
     - r
     - r-mirt
     - r-gmodels
+    - r-mass
   run:
     - r
     - r-mirt
     - r-gmodels
+    - r-mass
 
 about:
   license: GPL (>= 2)

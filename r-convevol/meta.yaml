@@ -7,16 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/convevol_0.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-phytools
+    - r-cluster
+    - r-mass
     - r-geiger
   run:
     - r
     - r-phytools
+    - r-cluster
+    - r-mass
     - r-geiger
 
 about:

@@ -14,12 +14,20 @@ requirements:
     - r
     - r-bayesm
     - r-coda
+    - r-mass
     - r-mice
+    - r-survival
+    - r-foreign
+    - r-nnet
   run:
     - r
     - r-bayesm
     - r-coda
+    - r-mass
     - r-mice
+    - r-survival
+    - r-foreign
+    - r-nnet
 
 about:
   license: GPL

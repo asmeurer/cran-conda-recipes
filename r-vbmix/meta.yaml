@@ -7,19 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/VBmix_0.2.13.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-e1071
+    - r-lattice
+    - r-nnet
     - r-pixmap
     - r-mnormt
+    - r-mass
   run:
     - r
     - r-e1071
+    - r-lattice
+    - r-nnet
     - r-pixmap
     - r-mnormt
+    - r-mass
 
 about:
   license: GPL-2 | GPL-3

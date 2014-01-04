@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-bdsmatrix
+    - r-matrix
   run:
     - r
     - r-bdsmatrix
+    - r-matrix
 
 about:
   license: GPL (>= 2)

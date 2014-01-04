@@ -7,21 +7,27 @@ source:
   url: http://cran.r-project.org/src/contrib/gRbase_1.6-12.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-graph
     - r-rcpp
+    - r-matrix
     - r-rbgl
     - r-igraph
+    - r-rcpparmadillo
+    - r-rcppeigen
   run:
     - r
     - r-graph
     - r-rcpp
+    - r-matrix
     - r-rbgl
     - r-igraph
+    - r-rcpparmadillo
+    - r-rcppeigen
 
 about:
   license: GPL (>= 2)

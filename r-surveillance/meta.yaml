@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/surveillance_1.7-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,6 +16,8 @@ requirements:
     - r-sp
     - r-xtable
     - r-polycub
+    - r-mass
+    - r-matrix
     - r-spatstat
   run:
     - r
@@ -23,6 +25,8 @@ requirements:
     - r-sp
     - r-xtable
     - r-polycub
+    - r-mass
+    - r-matrix
     - r-spatstat
 
 about:

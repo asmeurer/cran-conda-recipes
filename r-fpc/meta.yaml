@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/fpc_2.1-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-cluster
     - r-mclust
     - r-flexmix
   run:
     - r
+    - r-mass
+    - r-cluster
     - r-mclust
     - r-flexmix
 

@@ -13,11 +13,13 @@ requirements:
   build:
     - r
     - r-plyr
+    - r-survival
     - r-hmisc
     - r-ascii
   run:
     - r
     - r-plyr
+    - r-survival
     - r-hmisc
     - r-ascii
 

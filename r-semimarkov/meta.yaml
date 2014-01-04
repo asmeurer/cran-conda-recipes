@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-numderiv
+    - r-mass
     - r-alabama
   run:
     - r
     - r-numderiv
+    - r-mass
     - r-alabama
 
 about:

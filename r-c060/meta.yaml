@@ -13,6 +13,7 @@ requirements:
   build:
     - r
     - r-glmnet
+    - r-survival
     - r-mlegp
     - r-tgp
     - r-peperr
@@ -20,6 +21,7 @@ requirements:
   run:
     - r
     - r-glmnet
+    - r-survival
     - r-mlegp
     - r-tgp
     - r-peperr

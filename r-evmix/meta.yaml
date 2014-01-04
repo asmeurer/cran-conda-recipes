@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-gsl
   run:
     - r
+    - r-mass
     - r-gsl
 
 about:

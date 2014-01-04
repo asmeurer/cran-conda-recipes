@@ -14,12 +14,16 @@ requirements:
     - r
     - r-waveslim
     - r-fields
+    - r-boot
     - r-circstats
+    - r-mass
   run:
     - r
     - r-waveslim
     - r-fields
+    - r-boot
     - r-circstats
+    - r-mass
 
 about:
   license: GPL (>= 2)

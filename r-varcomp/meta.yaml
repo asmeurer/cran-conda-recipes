@@ -7,23 +7,29 @@ source:
   url: http://cran.r-project.org/src/contrib/varComp_0.1-317.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-quadprog
+    - r-matrix
+    - r-mass
     - r-compquadform
     - r-rlrsim
     - r-spa3g
     - r-mvtnorm
+    - r-nlme
   run:
     - r
     - r-quadprog
+    - r-matrix
+    - r-mass
     - r-compquadform
     - r-rlrsim
     - r-spa3g
     - r-mvtnorm
+    - r-nlme
 
 about:
   license: GPL-3

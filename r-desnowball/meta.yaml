@@ -14,10 +14,14 @@ requirements:
     - r
     - r-clue
     - r-combinat
+    - r-mass
+    - r-cluster
   run:
     - r
     - r-clue
     - r-combinat
+    - r-mass
+    - r-cluster
 
 about:
   license: GPL-3

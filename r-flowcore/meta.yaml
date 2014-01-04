@@ -8,7 +8,7 @@ source:
   md5: 24ebc137d764b7732976836f53bd2ce2
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-biocgenerics
     - r-feature
     - r-graph
+    - r-mass
     - r-rrcov
   run:
     - r
@@ -24,6 +25,7 @@ requirements:
     - r-biocgenerics
     - r-feature
     - r-graph
+    - r-mass
     - r-rrcov
 
 about:

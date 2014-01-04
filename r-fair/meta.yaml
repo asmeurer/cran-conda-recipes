@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/FAiR_0.4-14.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-rgenoud
     - r-gwidgetsrgtk2
     - r-rrcov
+    - r-matrix
   run:
     - r
     - r-rgenoud
     - r-gwidgetsrgtk2
     - r-rrcov
+    - r-matrix
 
 about:
   license: AGPL (>= 3) + file LICENSE

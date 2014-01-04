@@ -14,10 +14,12 @@ requirements:
     - r
     - r-rcpp
     - r-disclap
+    - r-cluster
   run:
     - r
     - r-rcpp
     - r-disclap
+    - r-cluster
 
 about:
   license: GPL-2

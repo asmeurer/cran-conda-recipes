@@ -16,12 +16,14 @@ requirements:
     - r-locfit
     - r-ash
     - r-ks
+    - r-kernsmooth
   run:
     - r
     - r-mvtnorm
     - r-locfit
     - r-ash
     - r-ks
+    - r-kernsmooth
 
 about:
   license: GPL (>= 2)

@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-plyr
   run:
     - r
+    - r-lattice
     - r-plyr
 
 about:

@@ -7,21 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/QRM_0.4-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gsl
+    - r-matrix
     - r-mvtnorm
     - r-numderiv
     - r-timeseries
+    - r-mgcv
   run:
     - r
     - r-gsl
+    - r-matrix
     - r-mvtnorm
     - r-numderiv
     - r-timeseries
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

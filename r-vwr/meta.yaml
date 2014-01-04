@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/vwr_0.3.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-stringdist
+    - r-lattice
     - r-latticeextra
   run:
     - r
     - r-stringdist
+    - r-lattice
     - r-latticeextra
 
 about:

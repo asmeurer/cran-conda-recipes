@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/gsbDesign_0.96-2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-gsdesign
+    - r-lattice
   run:
     - r
     - r-gsdesign
+    - r-lattice
 
 about:
   license: GPL-3

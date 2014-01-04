@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-coda
+    - r-matrix
   run:
     - r
     - r-coda
+    - r-matrix
 
 about:
   license: GPL (>= 2)

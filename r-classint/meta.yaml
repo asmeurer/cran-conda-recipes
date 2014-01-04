@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/classInt_0.1-21.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-e1071
+    - r-class
   run:
     - r
     - r-e1071
+    - r-class
 
 about:
   license: GPL (>= 2)

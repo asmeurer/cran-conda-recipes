@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-leaps
+    - r-mgcv
   run:
     - r
     - r-leaps
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

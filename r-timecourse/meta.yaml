@@ -8,16 +8,18 @@ source:
   md5: 97fd9ed17ea253c9aca0de3c3c23eab7
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-biobase
     - r-limma
     - r-marray
   run:
     - r
+    - r-mass
     - r-biobase
     - r-limma
     - r-marray

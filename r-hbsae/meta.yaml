@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-arm
   run:
     - r
+    - r-matrix
     - r-arm
 
 about:

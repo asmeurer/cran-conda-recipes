@@ -12,9 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
+    - r-mass
     - r-igraph
   run:
     - r
+    - r-matrix
+    - r-mass
     - r-igraph
 
 about:

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/far_0.6-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
   run:
     - r
+    - r-nlme
 
 about:
   license: LGPL-2.1

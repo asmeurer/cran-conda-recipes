@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/polyapost_1.1-2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-boot
   run:
     - r
+    - r-boot
 
 about:
   license: GPL (>= 2)

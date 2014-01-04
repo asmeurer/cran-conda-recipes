@@ -12,17 +12,21 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-pracma
     - r-bvls
     - r-rseis
     - r-signal
+    - r-mass
     - r-nnls
   run:
     - r
+    - r-matrix
     - r-pracma
     - r-bvls
     - r-rseis
     - r-signal
+    - r-mass
     - r-nnls
 
 about:

@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/Skillings.Mack_1.0-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-gregmisc
     - r-matrixcalc
     - r-gtools
   run:
     - r
+    - r-mass
     - r-gregmisc
     - r-matrixcalc
     - r-gtools

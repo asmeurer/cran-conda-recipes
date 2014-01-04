@@ -8,15 +8,19 @@ source:
   md5: 265ed65e1e7b6c1796a5bbb22519fd18
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-survival
+    - r-mass
   run:
     - r
     - r-biobase
+    - r-survival
+    - r-mass
 
 about:
   license: LGPL

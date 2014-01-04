@@ -8,7 +8,7 @@ source:
   md5: 60b9bc282d60e67d26eb500c0963aa2b
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - r-gplots
     - r-iranges
     - r-zlibbioc
+    - r-rsamtools
   run:
     - r
     - r-genomicranges
@@ -29,6 +30,7 @@ requirements:
     - r-gplots
     - r-iranges
     - r-zlibbioc
+    - r-rsamtools
 
 about:
   license: Artistic-2.0

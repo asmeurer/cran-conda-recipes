@@ -7,11 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/msr_0.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
+    - r-class
     - r-glmnet
     - r-e1071
     - r-rgl
@@ -19,6 +21,8 @@ requirements:
     - r-colorspace
   run:
     - r
+    - r-matrix
+    - r-class
     - r-glmnet
     - r-e1071
     - r-rgl

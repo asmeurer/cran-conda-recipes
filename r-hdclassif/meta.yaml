@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/HDclassif_1.2.2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
   run:
     - r
+    - r-mass
 
 about:
   license: GPL-2

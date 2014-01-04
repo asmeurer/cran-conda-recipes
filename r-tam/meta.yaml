@@ -7,23 +7,29 @@ source:
   url: http://cran.r-project.org/src/contrib/TAM_1.0-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-mvtnorm
     - r-tensor
     - r-sfsmisc
     - r-gparotation
     - r-psych
+    - r-rcpp
+    - r-rcpparmadillo
   run:
     - r
+    - r-mass
     - r-mvtnorm
     - r-tensor
     - r-sfsmisc
     - r-gparotation
     - r-psych
+    - r-rcpp
+    - r-rcpparmadillo
 
 about:
   license: GPL (>= 2)

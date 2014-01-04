@@ -8,16 +8,18 @@ source:
   md5: cf3535bef0a7cc20e91ce7b2960a6043
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-igraph
+    - r-mass
     - r-pvclust
   run:
     - r
     - r-igraph
+    - r-mass
     - r-pvclust
 
 about:

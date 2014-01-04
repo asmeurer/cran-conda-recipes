@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-kmsurv
   run:
     - r
+    - r-survival
     - r-kmsurv
 
 about:

@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-soiltexture
+    - r-lattice
   run:
     - r
     - r-soiltexture
+    - r-lattice
 
 about:
   license: GPL (>= 2.0)

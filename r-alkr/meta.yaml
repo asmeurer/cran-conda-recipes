@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/ALKr_0.5.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rcpp
+    - r-mass
   run:
     - r
     - r-rcpp
+    - r-mass
 
 about:
   license: BSD

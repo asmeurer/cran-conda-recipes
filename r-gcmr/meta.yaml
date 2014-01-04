@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/gcmr_0.6.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
     - r-sandwich
     - r-geor
     - r-betareg
     - r-formula
   run:
     - r
+    - r-nlme
     - r-sandwich
     - r-geor
     - r-betareg

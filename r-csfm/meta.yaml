@@ -13,12 +13,16 @@ requirements:
   build:
     - r
     - r-sn
+    - r-mgcv
     - r-mnormt
+    - r-mass
     - r-moments
   run:
     - r
     - r-sn
+    - r-mgcv
     - r-mnormt
+    - r-mass
     - r-moments
 
 about:

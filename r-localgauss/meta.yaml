@@ -13,11 +13,13 @@ requirements:
   build:
     - r
     - r-ggplot2
+    - r-mass
     - r-foreach
     - r-matrixstats
   run:
     - r
     - r-ggplot2
+    - r-mass
     - r-foreach
     - r-matrixstats
 

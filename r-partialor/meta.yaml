@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-nnet
   run:
     - r
+    - r-nnet
 
 about:
   license: GPL (>= 2)

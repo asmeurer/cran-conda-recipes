@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/roxygen2_3.0.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,15 @@ requirements:
     - r-stringr
     - r-brew
     - r-digest
+    - r-codetools
+    - r-rcpp
   run:
     - r
     - r-stringr
     - r-brew
     - r-digest
+    - r-codetools
+    - r-rcpp
 
 about:
   license: GPL (>= 2)

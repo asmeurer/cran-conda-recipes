@@ -14,11 +14,13 @@ requirements:
     - r
     - r-data.table
     - r-rcurl
+    - r-foreign
     - r-sascii
   run:
     - r
     - r-data.table
     - r-rcurl
+    - r-foreign
     - r-sascii
 
 about:

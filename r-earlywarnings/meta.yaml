@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/earlywarnings_1.0.38.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,6 +15,7 @@ requirements:
     - r-fields
     - r-ggplot2
     - r-kendall
+    - r-kernsmooth
     - r-lmtest
     - r-moments
     - r-nortest
@@ -28,6 +29,7 @@ requirements:
     - r-fields
     - r-ggplot2
     - r-kendall
+    - r-kernsmooth
     - r-lmtest
     - r-moments
     - r-nortest

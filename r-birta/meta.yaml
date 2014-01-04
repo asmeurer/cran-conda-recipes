@@ -8,16 +8,18 @@ source:
   md5: 51ffd86e934ac4c576428950de879607
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-limma
+    - r-mass
     - r-biobase
   run:
     - r
     - r-limma
+    - r-mass
     - r-biobase
 
 about:

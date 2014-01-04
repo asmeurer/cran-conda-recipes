@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-qcc
+    - r-mass
     - r-micecon
   run:
     - r
     - r-qcc
+    - r-mass
     - r-micecon
 
 about:

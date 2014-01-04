@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/VIMGUI_0.9.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-vim
     - r-survey
     - r-gwidgetsrgtk2
+    - r-foreign
     - r-rgtk2
     - r-cairo
     - r-hmisc
@@ -25,6 +26,7 @@ requirements:
     - r-vim
     - r-survey
     - r-gwidgetsrgtk2
+    - r-foreign
     - r-rgtk2
     - r-cairo
     - r-hmisc

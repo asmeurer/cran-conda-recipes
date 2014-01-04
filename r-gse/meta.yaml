@@ -14,11 +14,13 @@ requirements:
     - r
     - r-rcpp
     - r-rcpparmadillo
+    - r-mass
     - r-ggplot2
   run:
     - r
     - r-rcpp
     - r-rcpparmadillo
+    - r-mass
     - r-ggplot2
 
 about:

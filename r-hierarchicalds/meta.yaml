@@ -13,7 +13,9 @@ requirements:
   build:
     - r
     - r-truncnorm
+    - r-mass
     - r-mvtnorm
+    - r-matrix
     - r-coda
     - r-spsurvey
     - r-mcmcpack
@@ -22,7 +24,9 @@ requirements:
   run:
     - r
     - r-truncnorm
+    - r-mass
     - r-mvtnorm
+    - r-matrix
     - r-coda
     - r-spsurvey
     - r-mcmcpack

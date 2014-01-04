@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/qtlhot_0.9.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-qtl
+    - r-lattice
     - r-corpcor
     - r-mnormt
   run:
     - r
     - r-qtl
+    - r-lattice
     - r-corpcor
     - r-mnormt
 

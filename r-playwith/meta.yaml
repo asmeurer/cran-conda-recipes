@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/playwith_0.9-54.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-cairodevice
     - r-gwidgetsrgtk2
     - r-rgtk2
@@ -19,6 +20,7 @@ requirements:
     - r-gridbase
   run:
     - r
+    - r-lattice
     - r-cairodevice
     - r-gwidgetsrgtk2
     - r-rgtk2

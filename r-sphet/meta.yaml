@@ -12,11 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-nlme
     - r-spdep
+    - r-matrix
     - r-sp
   run:
     - r
+    - r-nlme
     - r-spdep
+    - r-matrix
     - r-sp
 
 about:

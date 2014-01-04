@@ -14,6 +14,7 @@ requirements:
     - r
     - r-lavaan
     - r-ggplot2
+    - r-lattice
     - r-gridextra
     - r-plyr
     - r-rcolorbrewer
@@ -21,6 +22,7 @@ requirements:
     - r
     - r-lavaan
     - r-ggplot2
+    - r-lattice
     - r-gridextra
     - r-plyr
     - r-rcolorbrewer

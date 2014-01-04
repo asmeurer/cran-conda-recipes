@@ -12,8 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-survival
+    - r-matrix
   run:
     - r
+    - r-survival
+    - r-matrix
 
 about:
   license: GPL-2

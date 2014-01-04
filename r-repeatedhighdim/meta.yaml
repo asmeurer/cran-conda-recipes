@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/RepeatedHighDim_2.0.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-nlme
   run:
     - r
+    - r-mass
+    - r-nlme
 
 about:
   license: GPL-2

@@ -12,11 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-boot
     - r-mvtnorm
     - r-rms
     - r-kinship2
   run:
     - r
+    - r-boot
     - r-mvtnorm
     - r-rms
     - r-kinship2

@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-lme4
   run:
     - r
+    - r-matrix
     - r-lme4
 
 about:

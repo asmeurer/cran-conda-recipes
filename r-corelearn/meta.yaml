@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/CORElearn_0.9.42.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-cluster
+    - r-rpart
   run:
     - r
+    - r-cluster
+    - r-rpart
 
 about:
   license: GPL-3

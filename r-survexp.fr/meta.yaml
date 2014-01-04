@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-survival
   run:
     - r
+    - r-survival
 
 about:
   license: GPL (>= 2)

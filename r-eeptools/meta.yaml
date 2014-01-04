@@ -13,6 +13,7 @@ requirements:
   build:
     - r
     - r-ggplot2
+    - r-mass
     - r-stringr
     - r-maptools
     - r-arm
@@ -21,6 +22,7 @@ requirements:
   run:
     - r
     - r-ggplot2
+    - r-mass
     - r-stringr
     - r-maptools
     - r-arm

@@ -14,11 +14,13 @@ requirements:
     - r
     - r-lme4
     - r-geepack
+    - r-matrix
     - r-ncdf
   run:
     - r
     - r-lme4
     - r-geepack
+    - r-matrix
     - r-ncdf
 
 about:

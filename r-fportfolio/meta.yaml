@@ -12,6 +12,7 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-robustbase
     - r-timedate
     - r-timeseries
@@ -21,6 +22,7 @@ requirements:
     - r-rglpk
   run:
     - r
+    - r-mass
     - r-robustbase
     - r-timedate
     - r-timeseries

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/aroma.affymetrix_2.11.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-r.cache
     - r-r.filesets
     - r-aroma.apd
+    - r-mass
     - r-matrixstats
   run:
     - r
@@ -29,6 +30,7 @@ requirements:
     - r-r.cache
     - r-r.filesets
     - r-aroma.apd
+    - r-mass
     - r-matrixstats
 
 about:

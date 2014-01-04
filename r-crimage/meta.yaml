@@ -8,7 +8,7 @@ source:
   md5: 3d591dc4784979d768b73c1f32df2c84
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-ebimage
     - r-dnacopy
     - r-acgh
+    - r-mass
     - r-e1071
     - r-foreach
     - r-sgeostat
@@ -24,6 +25,7 @@ requirements:
     - r-ebimage
     - r-dnacopy
     - r-acgh
+    - r-mass
     - r-e1071
     - r-foreach
     - r-sgeostat

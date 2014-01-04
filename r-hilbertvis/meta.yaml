@@ -8,13 +8,15 @@ source:
   md5: dde69cd4cfcac618cfbe7faba6d01d3a
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-lattice
   run:
     - r
+    - r-lattice
 
 about:
   license: GPL (>= 3)

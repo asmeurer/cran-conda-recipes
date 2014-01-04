@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-coneproj
+    - r-matrix
+    - r-mass
   run:
     - r
     - r-coneproj
+    - r-matrix
+    - r-mass
 
 about:
   license: GPL-2 | GPL-3

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/micEconSNQP_0.6-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-systemfit
     - r-misctools
     - r-micecon
+    - r-mass
   run:
     - r
     - r-systemfit
     - r-misctools
     - r-micecon
+    - r-mass
 
 about:
   license: GPL (>= 2)

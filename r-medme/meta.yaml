@@ -8,16 +8,18 @@ source:
   md5: cd435185ec922553146c3cb352368be6
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biostrings
+    - r-mass
     - r-drc
   run:
     - r
     - r-biostrings
+    - r-mass
     - r-drc
 
 about:

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/Deducer_0.7-6.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,8 +19,10 @@ requirements:
     - r-car
     - r-multcomp
     - r-effects
+    - r-foreign
     - r-plyr
     - r-e1071
+    - r-mass
   run:
     - r
     - r-rjava
@@ -30,8 +32,10 @@ requirements:
     - r-car
     - r-multcomp
     - r-effects
+    - r-foreign
     - r-plyr
     - r-e1071
+    - r-mass
 
 about:
   license: GPL-2

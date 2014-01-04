@@ -12,16 +12,20 @@ build:
 requirements:
   build:
     - r
+    - r-boot
     - r-plsrglm
     - r-lars
+    - r-survival
     - r-pls
     - r-spls
     - r-kernlab
     - r-mixomics
   run:
     - r
+    - r-boot
     - r-plsrglm
     - r-lars
+    - r-survival
     - r-pls
     - r-spls
     - r-kernlab

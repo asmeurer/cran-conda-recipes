@@ -8,7 +8,7 @@ source:
   md5: 4e73b8d528715f19067e89ad767a4b24
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,8 @@ requirements:
     - r-biobase
     - r-rcolorbrewer
     - r-limma
+    - r-matrix
+    - r-lattice
     - r-biocgenerics
     - r-genefilter
     - r-vsn
@@ -24,6 +26,8 @@ requirements:
     - r-biobase
     - r-rcolorbrewer
     - r-limma
+    - r-matrix
+    - r-lattice
     - r-biocgenerics
     - r-genefilter
     - r-vsn

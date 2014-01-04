@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/recommenderlab_0.1-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-registry
     - r-arules
     - r-proxy
   run:
     - r
+    - r-matrix
     - r-registry
     - r-arules
     - r-proxy

@@ -8,18 +8,20 @@ source:
   md5: e85273c688c059e774826f9ab5c4458c
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-survival
     - r-annotationdbi
     - r-annotate
     - r-multtest
   run:
     - r
     - r-biobase
+    - r-survival
     - r-annotationdbi
     - r-annotate
     - r-multtest

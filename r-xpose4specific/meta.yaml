@@ -7,21 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/xpose4specific_4.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-gam
     - r-xpose4data
     - r-xpose4generic
     - r-hmisc
+    - r-survival
   run:
     - r
+    - r-lattice
     - r-gam
     - r-xpose4data
     - r-xpose4generic
     - r-hmisc
+    - r-survival
 
 about:
   license: LGPL (>= 3)

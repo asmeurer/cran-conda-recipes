@@ -8,7 +8,7 @@ source:
   md5: 9db37b2c04e5b169f60df6044bcd9acd
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-xtable
     - r-limma
     - r-statmod
+    - r-lattice
     - r-vsn
   run:
     - r
@@ -24,6 +25,7 @@ requirements:
     - r-xtable
     - r-limma
     - r-statmod
+    - r-lattice
     - r-vsn
 
 about:

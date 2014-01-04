@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-mitools
   run:
     - r
+    - r-survival
     - r-mitools
 
 about:

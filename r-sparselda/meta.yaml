@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/sparseLDA_0.1-6.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-lars
     - r-elasticnet
+    - r-mass
     - r-mda
   run:
     - r
     - r-lars
     - r-elasticnet
+    - r-mass
     - r-mda
 
 about:

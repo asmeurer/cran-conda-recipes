@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/SemiParBIVProbit_3.2-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-cdvine
     - r-vgam
+    - r-mgcv
     - r-mvtnorm
+    - r-mass
     - r-magic
     - r-statmod
     - r-polycor
@@ -26,7 +28,9 @@ requirements:
     - r
     - r-cdvine
     - r-vgam
+    - r-mgcv
     - r-mvtnorm
+    - r-mass
     - r-magic
     - r-statmod
     - r-polycor

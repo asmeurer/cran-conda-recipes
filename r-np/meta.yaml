@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/np_0.50-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-boot
     - r-cubature
   run:
     - r
+    - r-boot
     - r-cubature
 
 about:

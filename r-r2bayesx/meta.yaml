@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/R2BayesX_0.3-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-bayesxsrc
     - r-colorspace
+    - r-mgcv
   run:
     - r
     - r-bayesxsrc
     - r-colorspace
+    - r-mgcv
 
 about:
   license: GPL-2 | GPL-3

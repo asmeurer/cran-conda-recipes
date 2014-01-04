@@ -12,12 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-coda
     - r-mvtnorm
     - r-mcmcpack
     - r-spatstat
   run:
     - r
+    - r-matrix
     - r-coda
     - r-mvtnorm
     - r-mcmcpack

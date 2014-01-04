@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/FastPCS_0.0.7.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-matrixstats
+    - r-rcpp
+    - r-rcppeigen
   run:
     - r
     - r-matrixstats
+    - r-rcpp
+    - r-rcppeigen
 
 about:
   license: GPL (>= 2)

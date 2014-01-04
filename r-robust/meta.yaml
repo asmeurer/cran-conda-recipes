@@ -7,17 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/robust_0.4-15.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - r
     - r-fit.models
+    - r-mass
+    - r-lattice
     - r-robustbase
     - r-rrcov
   run:
     - r
     - r-fit.models
+    - r-mass
+    - r-lattice
     - r-robustbase
     - r-rrcov
 

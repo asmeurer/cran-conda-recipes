@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-boot
   run:
     - r
+    - r-boot
 
 about:
   license: GPL-2

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/kobe_1.2.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,6 +15,7 @@ requirements:
     - r-ggplot2
     - r-reshape
     - r-plyr
+    - r-mass
     - r-coda
     - r-emdbook
     - r-tables
@@ -25,6 +26,7 @@ requirements:
     - r-ggplot2
     - r-reshape
     - r-plyr
+    - r-mass
     - r-coda
     - r-emdbook
     - r-tables

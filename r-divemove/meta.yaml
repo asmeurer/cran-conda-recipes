@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/diveMove_1.3.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-catools
+    - r-kernsmooth
     - r-quantreg
     - r-geosphere
   run:
     - r
     - r-catools
+    - r-kernsmooth
     - r-quantreg
     - r-geosphere
 

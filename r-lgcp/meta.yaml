@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/lgcp_1.3-2.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
@@ -21,8 +21,10 @@ requirements:
     - r-rpanel
     - r-fields
     - r-maptools
+    - r-matrix
     - r-raster
     - r-rgeos
+    - r-nlme
   run:
     - r
     - r-spatstat
@@ -34,8 +36,10 @@ requirements:
     - r-rpanel
     - r-fields
     - r-maptools
+    - r-matrix
     - r-raster
     - r-rgeos
+    - r-nlme
 
 about:
   license: GPL-3

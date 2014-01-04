@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/gdistance_1.1-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-raster
     - r-igraph
+    - r-matrix
     - r-sp
   run:
     - r
     - r-raster
     - r-igraph
+    - r-matrix
     - r-sp
 
 about:

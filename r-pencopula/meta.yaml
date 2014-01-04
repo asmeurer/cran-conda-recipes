@@ -7,21 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/pencopula_0.3.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-fda
     - r-quadprog
     - r-spam
     - r-latticeextra
+    - r-mass
   run:
     - r
+    - r-lattice
     - r-fda
     - r-quadprog
     - r-spam
     - r-latticeextra
+    - r-mass
 
 about:
   license: GPL (>= 2)

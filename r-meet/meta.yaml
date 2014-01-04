@@ -7,22 +7,26 @@ source:
   url: http://cran.r-project.org/src/contrib/MEET_5.1.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-seqinr
     - r-pcamethods
+    - r-matrix
     - r-rocr
     - r-hmisc
+    - r-kernsmooth
     - r-seqlogo
   run:
     - r
     - r-seqinr
     - r-pcamethods
+    - r-matrix
     - r-rocr
     - r-hmisc
+    - r-kernsmooth
     - r-seqlogo
 
 about:

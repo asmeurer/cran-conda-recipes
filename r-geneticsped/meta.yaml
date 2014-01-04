@@ -8,17 +8,19 @@ source:
   md5: dd3f093a3955b65c698890dc9167481d
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-gdata
     - r-genetics
+    - r-mass
   run:
     - r
     - r-gdata
     - r-genetics
+    - r-mass
 
 about:
   license: LGPL (>= 2.1)

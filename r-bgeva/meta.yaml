@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mgcv
     - r-magic
     - r-trust
   run:
     - r
+    - r-mgcv
     - r-magic
     - r-trust
 

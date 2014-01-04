@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/StateTrace_1.0-4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-kernsmooth
     - r-coda
     - r-fgui
   run:
     - r
+    - r-kernsmooth
     - r-coda
     - r-fgui
 

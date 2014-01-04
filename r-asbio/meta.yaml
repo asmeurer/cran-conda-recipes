@@ -18,6 +18,7 @@ requirements:
     - r-plotrix
     - r-mvtnorm
     - r-desolve
+    - r-lattice
   run:
     - r
     - r-scatterplot3d
@@ -26,6 +27,7 @@ requirements:
     - r-plotrix
     - r-mvtnorm
     - r-desolve
+    - r-lattice
 
 about:
   license: GPL (>= 2)

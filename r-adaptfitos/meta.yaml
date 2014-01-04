@@ -13,9 +13,17 @@ requirements:
   build:
     - r
     - r-semipar
+    - r-mass
+    - r-nlme
+    - r-cluster
+    - r-mgcv
   run:
     - r
     - r-semipar
+    - r-mass
+    - r-nlme
+    - r-cluster
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/kohonen_2.0.14.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-class
+    - r-mass
   run:
     - r
+    - r-class
+    - r-mass
 
 about:
   license: GPL (>= 2)

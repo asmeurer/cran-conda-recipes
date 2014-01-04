@@ -8,7 +8,7 @@ source:
   md5: 63ce91940ff6b385e3b08e20011c9b77
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -21,6 +21,7 @@ requirements:
     - r-genefilter
     - r-hmisc
     - r-hwriter
+    - r-lattice
     - r-latticeextra
     - r-limma
     - r-rcolorbrewer
@@ -39,6 +40,7 @@ requirements:
     - r-genefilter
     - r-hmisc
     - r-hwriter
+    - r-lattice
     - r-latticeextra
     - r-limma
     - r-rcolorbrewer

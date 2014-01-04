@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/hybridHclust_1.0-4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-cluster
   run:
     - r
+    - r-cluster
 
 about:
   license: GPL-2

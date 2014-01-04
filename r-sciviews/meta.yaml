@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/SciViews_0.9-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-ellipse
   run:
     - r
+    - r-mass
     - r-ellipse
 
 about:

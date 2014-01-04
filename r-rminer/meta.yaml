@@ -7,19 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/rminer_1.3.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-nnet
     - r-kknn
     - r-kernlab
+    - r-rpart
     - r-plotrix
+    - r-lattice
   run:
     - r
+    - r-nnet
     - r-kknn
     - r-kernlab
+    - r-rpart
     - r-plotrix
+    - r-lattice
 
 about:
   license: GPL (>= 2)

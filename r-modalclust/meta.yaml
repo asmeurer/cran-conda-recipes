@@ -14,10 +14,12 @@ requirements:
     - r
     - r-mvtnorm
     - r-zoo
+    - r-class
   run:
     - r
     - r-mvtnorm
     - r-zoo
+    - r-class
 
 about:
   license: GPL-2

@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/migui_0.00-09.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-tkrplot
     - r-mi
+    - r-foreign
   run:
     - r
     - r-tkrplot
     - r-mi
+    - r-foreign
 
 about:
   license: GPL (>= 2)

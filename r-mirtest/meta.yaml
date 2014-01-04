@@ -17,6 +17,7 @@ requirements:
     - r-limma
     - r-repeatedhighdim
     - r-corpcor
+    - r-mass
   run:
     - r
     - r-globaltest
@@ -24,6 +25,7 @@ requirements:
     - r-limma
     - r-repeatedhighdim
     - r-corpcor
+    - r-mass
 
 about:
   license: GPL

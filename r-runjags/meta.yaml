@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/runjags_1.2.0-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-coda
   run:
     - r
+    - r-lattice
     - r-coda
 
 about:

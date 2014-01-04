@@ -7,19 +7,23 @@ source:
   url: http://cran.r-project.org/src/contrib/penDvine_0.2.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-quadprog
     - r-tsp
     - r-fda
+    - r-matrix
   run:
     - r
+    - r-lattice
     - r-quadprog
     - r-tsp
     - r-fda
+    - r-matrix
 
 about:
   license: GPL (>= 2)

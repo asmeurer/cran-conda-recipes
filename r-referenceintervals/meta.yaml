@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-boot
     - r-extremevalues
   run:
     - r
+    - r-boot
     - r-extremevalues
 
 about:

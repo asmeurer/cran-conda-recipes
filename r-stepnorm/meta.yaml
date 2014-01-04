@@ -8,15 +8,17 @@ source:
   md5: 2c48d08833cc72bb83089550dfe0b572
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-marray
+    - r-mass
   run:
     - r
     - r-marray
+    - r-mass
 
 about:
   license: LGPL

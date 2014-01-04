@@ -12,10 +12,18 @@ build:
 requirements:
   build:
     - r
+    - r-rpart
+    - r-mass
+    - r-nnet
+    - r-class
     - r-e1071
     - r-reshape
   run:
     - r
+    - r-rpart
+    - r-mass
+    - r-nnet
+    - r-class
     - r-e1071
     - r-reshape
 

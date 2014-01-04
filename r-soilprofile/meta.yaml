@@ -13,11 +13,13 @@ requirements:
   build:
     - r
     - r-aqp
+    - r-lattice
     - r-munsell
     - r-splancs
   run:
     - r
     - r-aqp
+    - r-lattice
     - r-munsell
     - r-splancs
 

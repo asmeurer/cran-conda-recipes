@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/ARAMIS_1.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-learnbayes
   run:
     - r
+    - r-mass
     - r-learnbayes
 
 about:

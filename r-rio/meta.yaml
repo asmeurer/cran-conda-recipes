@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/rio_0.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-stringr
+    - r-foreign
     - r-testthat
   run:
     - r
     - r-stringr
+    - r-foreign
     - r-testthat
 
 about:

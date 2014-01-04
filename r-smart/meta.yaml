@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/smart_1.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-gplots
     - r-gtools
     - r-pma
@@ -20,6 +21,7 @@ requirements:
     - r-igraph
   run:
     - r
+    - r-matrix
     - r-gplots
     - r-gtools
     - r-pma

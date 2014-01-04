@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/soiltexture_1.2.9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-sp
+    - r-mass
   run:
     - r
     - r-sp
+    - r-mass
 
 about:
   license: AGPL (>= 3)

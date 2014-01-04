@@ -14,7 +14,10 @@ requirements:
     - r
     - r-car
     - r-effects
+    - r-lattice
     - r-sm
+    - r-mass
+    - r-nnet
     - r-pscl
     - r-gdata
     - r-xtable
@@ -22,7 +25,10 @@ requirements:
     - r
     - r-car
     - r-effects
+    - r-lattice
     - r-sm
+    - r-mass
+    - r-nnet
     - r-pscl
     - r-gdata
     - r-xtable

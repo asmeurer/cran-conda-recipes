@@ -14,12 +14,20 @@ requirements:
     - r
     - r-labdsv
     - r-vegan
+    - r-cluster
+    - r-nnet
     - r-tree
+    - r-rpart
+    - r-mass
   run:
     - r
     - r-labdsv
     - r-vegan
+    - r-cluster
+    - r-nnet
     - r-tree
+    - r-rpart
+    - r-mass
 
 about:
   license: LGPL (>= 2.0)

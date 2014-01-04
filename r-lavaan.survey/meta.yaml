@@ -14,10 +14,14 @@ requirements:
     - r
     - r-lavaan
     - r-survey
+    - r-mass
+    - r-matrix
   run:
     - r
     - r-lavaan
     - r-survey
+    - r-mass
+    - r-matrix
 
 about:
   license: GPL (>= 2)

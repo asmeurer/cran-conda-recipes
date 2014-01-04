@@ -8,7 +8,7 @@ source:
   md5: b1f62d8c4d189ac37b71f9f958705877
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,11 +16,13 @@ requirements:
     - r-genomicranges
     - r-biostrings
     - r-zlibbioc
+    - r-rsamtools
   run:
     - r
     - r-genomicranges
     - r-biostrings
     - r-zlibbioc
+    - r-rsamtools
 
 about:
   license: LGPL-3

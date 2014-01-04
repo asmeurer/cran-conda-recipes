@@ -8,7 +8,7 @@ source:
   md5: 3bfb5e0b4060305f97f5b88c0a098990
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-biobase
     - r-xml
     - r-rsqlite
+    - r-mass
     - r-heatplus
     - r-rcolorbrewer
     - r-rbgl
@@ -30,6 +31,7 @@ requirements:
     - r-biobase
     - r-xml
     - r-rsqlite
+    - r-mass
     - r-heatplus
     - r-rcolorbrewer
     - r-rbgl

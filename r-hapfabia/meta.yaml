@@ -8,17 +8,19 @@ source:
   md5: 8a9cdb8e984624340ddd922abd6b1092
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
     - r-fabia
+    - r-kernsmooth
   run:
     - r
     - r-biobase
     - r-fabia
+    - r-kernsmooth
 
 about:
   license: LGPL (>= 2.1)

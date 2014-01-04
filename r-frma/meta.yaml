@@ -8,12 +8,13 @@ source:
   md5: 52fa2bf38c4590957f238d7a12400ffe
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-mass
     - r-dbi
     - r-affy
     - r-oligo
@@ -23,6 +24,7 @@ requirements:
   run:
     - r
     - r-biobase
+    - r-mass
     - r-dbi
     - r-affy
     - r-oligo

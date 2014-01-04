@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-rcolorbrewer
   run:
     - r
+    - r-mass
     - r-rcolorbrewer
 
 about:

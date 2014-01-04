@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/waterfall_0.9.9.20121030.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
   run:
     - r
+    - r-lattice
 
 about:
   license: BSD

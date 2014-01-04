@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-car
+    - r-kernsmooth
     - r-gplots
   run:
     - r
     - r-car
+    - r-kernsmooth
     - r-gplots
 
 about:

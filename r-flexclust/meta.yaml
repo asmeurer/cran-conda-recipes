@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/flexclust_1.3-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-modeltools
   run:
     - r
+    - r-lattice
     - r-modeltools
 
 about:

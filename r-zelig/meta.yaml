@@ -7,14 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/Zelig_4.2-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-boot
+    - r-mass
     - r-sandwich
   run:
     - r
+    - r-boot
+    - r-mass
     - r-sandwich
 
 about:

@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-hmisc
+    - r-cluster
   run:
     - r
     - r-hmisc
+    - r-cluster
 
 about:
   license: GPL (>= 2)

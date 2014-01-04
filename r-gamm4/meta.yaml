@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/gamm4_0.2-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-lme4
+    - r-mgcv
   run:
     - r
+    - r-matrix
     - r-lme4
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

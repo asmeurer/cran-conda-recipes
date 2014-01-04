@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/rugarch_1.2-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -21,6 +21,8 @@ requirements:
     - r-zoo
     - r-chron
     - r-skewhyperbolic
+    - r-rcpp
+    - r-rcpparmadillo
   run:
     - r
     - r-rsolnp
@@ -32,6 +34,8 @@ requirements:
     - r-zoo
     - r-chron
     - r-skewhyperbolic
+    - r-rcpp
+    - r-rcpparmadillo
 
 about:
   license: GPL-3

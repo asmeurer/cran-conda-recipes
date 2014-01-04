@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/georob_0.1-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,6 +15,7 @@ requirements:
     - r-sp
     - r-constrainedkriging
     - r-lmtest
+    - r-nlme
     - r-nleqslv
     - r-quantreg
     - r-randomfields
@@ -24,6 +25,7 @@ requirements:
     - r-sp
     - r-constrainedkriging
     - r-lmtest
+    - r-nlme
     - r-nleqslv
     - r-quantreg
     - r-randomfields

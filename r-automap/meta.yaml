@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/automap_1.0-14.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-sp
     - r-gstat
+    - r-lattice
     - r-reshape
   run:
     - r
     - r-sp
     - r-gstat
+    - r-lattice
     - r-reshape
 
 about:

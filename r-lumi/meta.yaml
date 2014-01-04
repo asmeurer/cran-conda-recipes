@@ -8,7 +8,7 @@ source:
   md5: 3234691e9102c40ad70d2f2e603543dc
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -19,11 +19,15 @@ requirements:
     - r-genomicfeatures
     - r-genomicranges
     - r-annotate
+    - r-lattice
+    - r-mgcv
     - r-nleqslv
+    - r-kernsmooth
     - r-preprocesscore
     - r-rsqlite
     - r-dbi
     - r-annotationdbi
+    - r-mass
   run:
     - r
     - r-biobase
@@ -32,11 +36,15 @@ requirements:
     - r-genomicfeatures
     - r-genomicranges
     - r-annotate
+    - r-lattice
+    - r-mgcv
     - r-nleqslv
+    - r-kernsmooth
     - r-preprocesscore
     - r-rsqlite
     - r-dbi
     - r-annotationdbi
+    - r-mass
 
 about:
   license: LGPL (>= 2)

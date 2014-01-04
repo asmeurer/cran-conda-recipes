@@ -13,12 +13,14 @@ requirements:
   build:
     - r
     - r-tensora
+    - r-matrix
     - r-coda
     - r-ape
     - r-corpcor
   run:
     - r
     - r-tensora
+    - r-matrix
     - r-coda
     - r-ape
     - r-corpcor

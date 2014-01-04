@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-muhaz
     - r-mvtnorm
   run:
     - r
+    - r-survival
     - r-muhaz
     - r-mvtnorm
 

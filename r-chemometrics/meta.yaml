@@ -7,27 +7,35 @@ source:
   url: http://cran.r-project.org/src/contrib/chemometrics_1.3.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-class
     - r-e1071
     - r-gclus
     - r-lars
+    - r-mass
     - r-mclust
+    - r-nnet
     - r-pcapp
     - r-pls
+    - r-rpart
     - r-robustbase
     - r-som
   run:
     - r
+    - r-class
     - r-e1071
     - r-gclus
     - r-lars
+    - r-mass
     - r-mclust
+    - r-nnet
     - r-pcapp
     - r-pls
+    - r-rpart
     - r-robustbase
     - r-som
 

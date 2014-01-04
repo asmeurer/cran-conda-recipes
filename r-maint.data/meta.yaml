@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-sn
     - r-misctools
   run:
     - r
+    - r-mass
     - r-sn
     - r-misctools
 

@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-memisc
+    - r-foreign
     - r-plyr
   run:
     - r
     - r-memisc
+    - r-foreign
     - r-plyr
 
 about:

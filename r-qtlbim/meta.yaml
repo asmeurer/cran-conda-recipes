@@ -7,17 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/qtlbim_2.0.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-qtl
+    - r-lattice
     - r-coda
+    - r-mass
   run:
     - r
     - r-qtl
+    - r-lattice
     - r-coda
+    - r-mass
 
 about:
   license: GPL (>= 2)

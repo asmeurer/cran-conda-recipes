@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-boot
     - r-vegan
     - r-permute
   run:
     - r
+    - r-boot
     - r-vegan
     - r-permute
 

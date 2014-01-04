@@ -14,10 +14,12 @@ requirements:
     - r
     - r-rgl
     - r-misc3d
+    - r-mass
   run:
     - r
     - r-rgl
     - r-misc3d
+    - r-mass
 
 about:
   license: GPL-3

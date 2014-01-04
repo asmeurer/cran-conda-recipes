@@ -14,10 +14,12 @@ requirements:
     - r
     - r-r2jags
     - r-matching
+    - r-boot
   run:
     - r
     - r-r2jags
     - r-matching
+    - r-boot
 
 about:
   license: GPL-3

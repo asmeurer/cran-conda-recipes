@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
     - r-numderiv
+    - r-boot
   run:
     - r
+    - r-matrix
     - r-numderiv
+    - r-boot
 
 about:
   license: Unlimited

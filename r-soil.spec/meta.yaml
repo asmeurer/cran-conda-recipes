@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/soil.spec_2.1.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-kernsmooth
     - r-wavelets
     - r-hexview
     - r-pls
   run:
     - r
+    - r-kernsmooth
     - r-wavelets
     - r-hexview
     - r-pls

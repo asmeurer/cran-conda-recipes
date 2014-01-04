@@ -8,16 +8,18 @@ source:
   md5: 03aa9528c9581ea0b79bfd867b780278
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-qvalue
+    - r-lattice
     - r-limma
   run:
     - r
     - r-qvalue
+    - r-lattice
     - r-limma
 
 about:

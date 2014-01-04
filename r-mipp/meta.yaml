@@ -8,17 +8,19 @@ source:
   md5: be8470fdb180ab0e6464bd204cd07111
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
     - r-e1071
+    - r-mass
   run:
     - r
     - r-biobase
     - r-e1071
+    - r-mass
 
 about:
   license: GPL (>= 2)

@@ -7,20 +7,24 @@ source:
   url: http://cran.r-project.org/src/contrib/lmerTest_2.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-lme4
     - r-numderiv
+    - r-mass
     - r-hmisc
     - r-gplots
     - r-pbkrtest
   run:
     - r
+    - r-matrix
     - r-lme4
     - r-numderiv
+    - r-mass
     - r-hmisc
     - r-gplots
     - r-pbkrtest

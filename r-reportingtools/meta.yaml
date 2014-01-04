@@ -8,7 +8,7 @@ source:
   md5: e97be8a67fdfa714b6860c2dd2bdcdf3
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -19,6 +19,7 @@ requirements:
     - r-category
     - r-gostats
     - r-limma
+    - r-lattice
     - r-annotationdbi
     - r-edger
     - r-annotate
@@ -39,6 +40,7 @@ requirements:
     - r-category
     - r-gostats
     - r-limma
+    - r-lattice
     - r-annotationdbi
     - r-edger
     - r-annotate

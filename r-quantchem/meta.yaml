@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-outliers
   run:
     - r
+    - r-mass
     - r-outliers
 
 about:

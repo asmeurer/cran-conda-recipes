@@ -7,25 +7,37 @@ source:
   url: http://cran.r-project.org/src/contrib/refund_0.1-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-boot
+    - r-mgcv
     - r-fda
+    - r-mass
     - r-glmnet
     - r-magic
+    - r-nlme
     - r-wavethresh
+    - r-matrix
     - r-gamm4
     - r-matrixstats
     - r-lme4
     - r-rlrsim
   run:
     - r
+    - r-lattice
+    - r-boot
+    - r-mgcv
     - r-fda
+    - r-mass
     - r-glmnet
     - r-magic
+    - r-nlme
     - r-wavethresh
+    - r-matrix
     - r-gamm4
     - r-matrixstats
     - r-lme4

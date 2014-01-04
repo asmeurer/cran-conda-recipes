@@ -16,12 +16,14 @@ requirements:
     - r-e1071
     - r-gee
     - r-geepack
+    - r-matrix
   run:
     - r
     - r-compquadform
     - r-e1071
     - r-gee
     - r-geepack
+    - r-matrix
 
 about:
   license: GPL (>= 2)

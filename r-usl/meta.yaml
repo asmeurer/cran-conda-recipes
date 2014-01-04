@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/usl_1.2.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-boot
     - r-nlmrt
   run:
     - r
+    - r-boot
     - r-nlmrt
 
 about:

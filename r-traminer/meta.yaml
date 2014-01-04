@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/TraMineR_1.8-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rcolorbrewer
+    - r-boot
   run:
     - r
     - r-rcolorbrewer
+    - r-boot
 
 about:
   license: GPL (>= 2)

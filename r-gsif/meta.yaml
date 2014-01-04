@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/GSIF_0.3-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -20,8 +20,11 @@ requirements:
     - r-aqp
     - r-plotkml
     - r-gstat
+    - r-boot
+    - r-rpart
     - r-quantregforest
     - r-randomforest
+    - r-nlme
   run:
     - r
     - r-sp
@@ -32,8 +35,11 @@ requirements:
     - r-aqp
     - r-plotkml
     - r-gstat
+    - r-boot
+    - r-rpart
     - r-quantregforest
     - r-randomforest
+    - r-nlme
 
 about:
   license: GPL

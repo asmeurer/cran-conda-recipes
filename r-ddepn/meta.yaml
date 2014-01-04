@@ -12,6 +12,7 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-coda
     - r-igraph
     - r-graph
@@ -20,6 +21,7 @@ requirements:
     - r-gplots
   run:
     - r
+    - r-lattice
     - r-coda
     - r-igraph
     - r-graph

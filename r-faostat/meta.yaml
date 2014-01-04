@@ -16,6 +16,7 @@ requirements:
     - r-plyr
     - r-reshape2
     - r-data.table
+    - r-mass
     - r-classint
     - r-ggplot2
     - r-labeling
@@ -26,6 +27,7 @@ requirements:
     - r-plyr
     - r-reshape2
     - r-data.table
+    - r-mass
     - r-classint
     - r-ggplot2
     - r-labeling

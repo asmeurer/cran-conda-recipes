@@ -8,7 +8,7 @@ source:
   md5: c914b48033f2a1896970253f78fdea0b
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -23,6 +23,7 @@ requirements:
     - r-geneplotter
     - r-gplots
     - r-hwriter
+    - r-lattice
     - r-latticeextra
     - r-limma
     - r-splots
@@ -38,6 +39,7 @@ requirements:
     - r-geneplotter
     - r-gplots
     - r-hwriter
+    - r-lattice
     - r-latticeextra
     - r-limma
     - r-splots

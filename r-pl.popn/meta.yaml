@@ -12,11 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-mgcv
     - r-simex
+    - r-mass
     - r-sm
   run:
     - r
+    - r-mgcv
     - r-simex
+    - r-mass
     - r-sm
 
 about:

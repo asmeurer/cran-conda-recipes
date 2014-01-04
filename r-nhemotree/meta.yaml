@@ -15,11 +15,13 @@ requirements:
     - r-partykit
     - r-emoa
     - r-sets
+    - r-rpart
   run:
     - r
     - r-partykit
     - r-emoa
     - r-sets
+    - r-rpart
 
 about:
   license: GPL-3

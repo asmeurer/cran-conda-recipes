@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-desolve
+    - r-nlme
+    - r-lattice
   run:
     - r
     - r-desolve
+    - r-nlme
+    - r-lattice
 
 about:
   license: LGPL (>= 2.1)

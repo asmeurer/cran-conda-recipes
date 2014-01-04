@@ -7,13 +7,14 @@ source:
   url: http://cran.r-project.org/src/contrib/structSSI_1.0.5.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-multtest
     - r-igraph
+    - r-matrix
     - r-rgraphviz
     - r-rcolorbrewer
     - r-classint
@@ -22,6 +23,7 @@ requirements:
     - r
     - r-multtest
     - r-igraph
+    - r-matrix
     - r-rgraphviz
     - r-rcolorbrewer
     - r-classint

@@ -13,6 +13,7 @@ requirements:
   build:
     - r
     - r-reshape
+    - r-survival
     - r-xtable
     - r-aod
     - r-cmprsk
@@ -21,6 +22,7 @@ requirements:
   run:
     - r
     - r-reshape
+    - r-survival
     - r-xtable
     - r-aod
     - r-cmprsk

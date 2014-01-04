@@ -16,6 +16,7 @@ requirements:
     - r-rainbow
     - r-ftsa
     - r-cobs
+    - r-mgcv
     - r-strucchange
     - r-rcurl
   run:
@@ -24,6 +25,7 @@ requirements:
     - r-rainbow
     - r-ftsa
     - r-cobs
+    - r-mgcv
     - r-strucchange
     - r-rcurl
 

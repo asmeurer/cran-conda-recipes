@@ -7,16 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/simPopulation_0.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nnet
     - r-pot
+    - r-lattice
     - r-vcd
   run:
     - r
+    - r-nnet
     - r-pot
+    - r-lattice
     - r-vcd
 
 about:

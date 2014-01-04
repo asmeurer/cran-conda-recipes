@@ -7,13 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/splm_1.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-nlme
     - r-spdep
     - r-plm
+    - r-matrix
     - r-bdsmatrix
     - r-spam
     - r-ibdreg
@@ -23,8 +26,11 @@ requirements:
     - r-maxlik
   run:
     - r
+    - r-mass
+    - r-nlme
     - r-spdep
     - r-plm
+    - r-matrix
     - r-bdsmatrix
     - r-spam
     - r-ibdreg

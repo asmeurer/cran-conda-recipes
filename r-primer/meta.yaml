@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-desolve
+    - r-lattice
   run:
     - r
     - r-desolve
+    - r-lattice
 
 about:
   license: GPL

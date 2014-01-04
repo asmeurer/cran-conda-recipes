@@ -8,7 +8,7 @@ source:
   md5: ad4fb8599aaaf00316603e746468ba26
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -23,6 +23,7 @@ requirements:
     - r-oligo
     - r-dnacopy
     - r-preprocesscore
+    - r-lattice
   run:
     - r
     - r-biobase
@@ -35,6 +36,7 @@ requirements:
     - r-oligo
     - r-dnacopy
     - r-preprocesscore
+    - r-lattice
 
 about:
   license: LGPL (>= 2.0)

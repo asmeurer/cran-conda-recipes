@@ -8,7 +8,7 @@ source:
   md5: 601a86462519db3b145c54aec260d4d7
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -21,6 +21,7 @@ requirements:
     - r-biobase
     - r-biocgenerics
     - r-graph
+    - r-lattice
     - r-rbgl
     - r-xml
     - r-idpmisc
@@ -37,6 +38,7 @@ requirements:
     - r-biobase
     - r-biocgenerics
     - r-graph
+    - r-lattice
     - r-rbgl
     - r-xml
     - r-idpmisc

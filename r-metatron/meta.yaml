@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/Metatron_0.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-lme4
     - r-mpt
+    - r-matrix
   run:
     - r
     - r-lme4
     - r-mpt
+    - r-matrix
 
 about:
   license: GPL (>= 2)

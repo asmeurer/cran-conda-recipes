@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/DierckxSpline_1.1-9.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-polynomf
     - r-fda
   run:
     - r
+    - r-lattice
     - r-polynomf
     - r-fda
 

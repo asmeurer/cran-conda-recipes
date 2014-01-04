@@ -14,10 +14,12 @@ requirements:
     - r
     - r-maptools
     - r-sp
+    - r-foreign
   run:
     - r
     - r-maptools
     - r-sp
+    - r-foreign
 
 about:
   license: GPL (>= 2)

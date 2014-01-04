@@ -16,6 +16,7 @@ requirements:
     - r-sna
     - r-fields
     - r-igraph
+    - r-mass
     - r-permute
   run:
     - r
@@ -23,6 +24,7 @@ requirements:
     - r-sna
     - r-fields
     - r-igraph
+    - r-mass
     - r-permute
 
 about:

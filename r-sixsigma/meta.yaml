@@ -7,11 +7,12 @@ source:
   url: http://cran.r-project.org/src/contrib/SixSigma_0.7-0.tar.gz
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-ggplot2
     - r-nortest
     - r-reshape2
@@ -20,6 +21,7 @@ requirements:
     - r-qcc
   run:
     - r
+    - r-lattice
     - r-ggplot2
     - r-nortest
     - r-reshape2

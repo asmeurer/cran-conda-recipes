@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/lava.tobit_0.4-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-lava
     - r-mvtnorm
+    - r-survival
   run:
     - r
     - r-lava
     - r-mvtnorm
+    - r-survival
 
 about:
   license: GPL-3

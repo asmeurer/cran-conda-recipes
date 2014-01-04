@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-cmprsk
   run:
     - r
+    - r-survival
     - r-cmprsk
 
 about:

@@ -8,16 +8,18 @@ source:
   md5: 2154bab4a91402227d9faa94e8eee945
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-flowcore
     - r-xml
     - r-biobase
   run:
     - r
+    - r-mass
     - r-flowcore
     - r-xml
     - r-biobase

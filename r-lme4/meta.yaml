@@ -7,15 +7,27 @@ source:
   url: http://cran.r-project.org/src/contrib/lme4_1.0-5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-matrix
+    - r-mass
+    - r-nlme
     - r-minqa
+    - r-rcpp
+    - r-rcppeigen
   run:
     - r
+    - r-lattice
+    - r-matrix
+    - r-mass
+    - r-nlme
     - r-minqa
+    - r-rcpp
+    - r-rcppeigen
 
 about:
   license: GPL (>= 2)

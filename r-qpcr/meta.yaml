@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/qpcR_1.3-7.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-minpack.lm
     - r-rgl
     - r-robustbase
   run:
     - r
+    - r-mass
     - r-minpack.lm
     - r-rgl
     - r-robustbase

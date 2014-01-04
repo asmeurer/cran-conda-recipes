@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/ltm_1.0-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-msm
     - r-polycor
   run:
     - r
+    - r-mass
     - r-msm
     - r-polycor
 

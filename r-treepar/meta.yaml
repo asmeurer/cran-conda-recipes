@@ -13,12 +13,14 @@ requirements:
   build:
     - r
     - r-ape
+    - r-matrix
     - r-subplex
     - r-treesim
     - r-desolve
   run:
     - r
     - r-ape
+    - r-matrix
     - r-subplex
     - r-treesim
     - r-desolve

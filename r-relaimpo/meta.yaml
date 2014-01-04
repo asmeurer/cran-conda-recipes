@@ -7,16 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/relaimpo_2.2-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-boot
     - r-survey
     - r-mitools
     - r-corpcor
   run:
     - r
+    - r-mass
+    - r-boot
     - r-survey
     - r-mitools
     - r-corpcor

@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/lcd_0.7-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-igraph
+    - r-mass
     - r-ggm
   run:
     - r
     - r-igraph
+    - r-mass
     - r-ggm
 
 about:

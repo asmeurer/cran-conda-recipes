@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/limSolve_1.5.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-quadprog
     - r-lpsolve
+    - r-mass
   run:
     - r
     - r-quadprog
     - r-lpsolve
+    - r-mass
 
 about:
   license: GPL

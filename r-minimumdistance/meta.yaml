@@ -8,7 +8,7 @@ source:
   md5: 0145be1e5b981bc936da3716f590dbcf
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-iranges
     - r-dnacopy
     - r-msm
+    - r-lattice
     - r-vanillaice
     - r-ff
     - r-biobase
@@ -30,6 +31,7 @@ requirements:
     - r-iranges
     - r-dnacopy
     - r-msm
+    - r-lattice
     - r-vanillaice
     - r-ff
     - r-biobase

@@ -7,19 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/arm_1.6-10.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-matrix
     - r-lme4
     - r-abind
     - r-coda
+    - r-nlme
   run:
     - r
+    - r-mass
+    - r-matrix
     - r-lme4
     - r-abind
     - r-coda
+    - r-nlme
 
 about:
   license: GPL (>= 2)

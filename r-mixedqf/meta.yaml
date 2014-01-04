@@ -12,8 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-nnet
+    - r-mass
   run:
     - r
+    - r-nnet
+    - r-mass
 
 about:
   license: FreeBSD

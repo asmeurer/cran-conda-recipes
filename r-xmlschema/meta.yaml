@@ -8,17 +8,19 @@ source:
   md5: 080c2fb4e502ad04e8c1dec4cbcb32b8
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-xml
     - r-rcurl
+    - r-codetools
   run:
     - r
     - r-xml
     - r-rcurl
+    - r-codetools
 
 about:
   license: GPL-2

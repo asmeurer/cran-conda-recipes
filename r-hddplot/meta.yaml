@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-multtest
   run:
     - r
+    - r-mass
     - r-multtest
 
 about:

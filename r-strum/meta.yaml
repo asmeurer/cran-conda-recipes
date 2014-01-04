@@ -13,9 +13,15 @@ requirements:
   build:
     - r
     - r-pedigree
+    - r-mass
+    - r-rcpp
+    - r-rcpparmadillo
   run:
     - r
     - r-pedigree
+    - r-mass
+    - r-rcpp
+    - r-rcpparmadillo
 
 about:
   license: GPL (>= 2)

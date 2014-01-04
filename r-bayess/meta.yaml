@@ -12,11 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-mnormt
     - r-gplots
     - r-combinat
   run:
     - r
+    - r-mass
     - r-mnormt
     - r-gplots
     - r-combinat

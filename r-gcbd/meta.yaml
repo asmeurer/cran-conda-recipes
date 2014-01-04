@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/gcbd_0.2.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-rsqlite
     - r-plyr
     - r-reshape
+    - r-lattice
   run:
     - r
     - r-rsqlite
     - r-plyr
     - r-reshape
+    - r-lattice
 
 about:
   license: GPL (>= 2)

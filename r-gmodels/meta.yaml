@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/gmodels_2.15.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-gdata
   run:
     - r
+    - r-mass
     - r-gdata
 
 about:

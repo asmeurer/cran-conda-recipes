@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/PReMiuM_3.0.21.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-rcpp
     - r-ggplot2
     - r-rcppeigen
+    - r-cluster
   run:
     - r
     - r-rcpp
     - r-ggplot2
     - r-rcppeigen
+    - r-cluster
 
 about:
   license: GPL-2

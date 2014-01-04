@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-multilevel
+    - r-nlme
   run:
     - r
     - r-multilevel
+    - r-nlme
 
 about:
   license: GPL (>= 2)

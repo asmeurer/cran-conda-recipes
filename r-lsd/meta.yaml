@@ -12,6 +12,7 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-gtools
     - r-rcolorbrewer
     - r-colorramps
@@ -19,6 +20,7 @@ requirements:
     - r-ellipse
   run:
     - r
+    - r-mass
     - r-gtools
     - r-rcolorbrewer
     - r-colorramps

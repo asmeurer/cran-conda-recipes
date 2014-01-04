@@ -15,11 +15,13 @@ requirements:
     - r-data.table
     - r-fda
     - r-spam
+    - r-mass
   run:
     - r
     - r-data.table
     - r-fda
     - r-spam
+    - r-mass
 
 about:
   license: GPL-3

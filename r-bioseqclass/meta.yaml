@@ -8,7 +8,7 @@ source:
   md5: 9352fbae23c13a7241aa388973910d3b
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -19,8 +19,12 @@ requirements:
     - r-e1071
     - r-klar
     - r-randomforest
+    - r-class
     - r-tree
+    - r-nnet
+    - r-rpart
     - r-party
+    - r-foreign
     - r-biobase
   run:
     - r
@@ -30,8 +34,12 @@ requirements:
     - r-e1071
     - r-klar
     - r-randomforest
+    - r-class
     - r-tree
+    - r-nnet
+    - r-rpart
     - r-party
+    - r-foreign
     - r-biobase
 
 about:

@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/bayesGDS_0.6.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
   run:
     - r
+    - r-matrix
 
 about:
   license: MPL (== 2.0)

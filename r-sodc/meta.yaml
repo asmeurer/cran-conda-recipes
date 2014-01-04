@@ -15,11 +15,13 @@ requirements:
     - r-magic
     - r-ppls
     - r-psych
+    - r-mass
   run:
     - r
     - r-magic
     - r-ppls
     - r-psych
+    - r-mass
 
 about:
   license: GPL-2

@@ -14,7 +14,9 @@ requirements:
     - r
     - r-xml
     - r-ggplot2
+    - r-mass
     - r-rgl
+    - r-mgcv
     - r-hexbin
     - r-lubridate
     - r-stringr
@@ -23,7 +25,9 @@ requirements:
     - r
     - r-xml
     - r-ggplot2
+    - r-mass
     - r-rgl
+    - r-mgcv
     - r-hexbin
     - r-lubridate
     - r-stringr

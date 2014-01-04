@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/GeoXp_1.6.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,6 +15,7 @@ requirements:
     - r-quantreg
     - r-rgl
     - r-spdep
+    - r-kernsmooth
     - r-rgeos
     - r-robustbase
     - r-splancs
@@ -23,6 +24,7 @@ requirements:
     - r-quantreg
     - r-rgl
     - r-spdep
+    - r-kernsmooth
     - r-rgeos
     - r-robustbase
     - r-splancs

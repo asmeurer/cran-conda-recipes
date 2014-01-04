@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/icaOcularCorrection_3.0.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-fastica
+    - r-mgcv
   run:
     - r
     - r-fastica
+    - r-mgcv
 
 about:
   license: GPL-2

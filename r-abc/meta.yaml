@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-nnet
     - r-quantreg
+    - r-mass
   run:
     - r
+    - r-nnet
     - r-quantreg
+    - r-mass
 
 about:
   license: GPL (>= 3)

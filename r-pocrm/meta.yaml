@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-dfcrm
+    - r-nnet
   run:
     - r
     - r-dfcrm
+    - r-nnet
 
 about:
   license: GPL-2

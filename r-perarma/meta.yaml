@@ -15,12 +15,14 @@ requirements:
     - r-corpcor
     - r-gnm
     - r-matlab
+    - r-matrix
     - r-signal
   run:
     - r
     - r-corpcor
     - r-gnm
     - r-matlab
+    - r-matrix
     - r-signal
 
 about:

@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-elasticnet
   run:
     - r
+    - r-mass
     - r-elasticnet
 
 about:

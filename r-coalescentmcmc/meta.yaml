@@ -14,11 +14,13 @@ requirements:
     - r
     - r-ape
     - r-coda
+    - r-matrix
     - r-phangorn
   run:
     - r
     - r-ape
     - r-coda
+    - r-matrix
     - r-phangorn
 
 about:

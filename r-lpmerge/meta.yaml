@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-rglpk
+    - r-matrix
   run:
     - r
     - r-rglpk
+    - r-matrix
 
 about:
   license: GPL-3

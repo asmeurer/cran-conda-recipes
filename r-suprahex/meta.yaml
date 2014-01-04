@@ -8,16 +8,18 @@ source:
   md5: 5a0d010b61abeb0b963b3bbb1f975c01
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-hexbin
+    - r-mass
     - r-biobase
   run:
     - r
     - r-hexbin
+    - r-mass
     - r-biobase
 
 about:

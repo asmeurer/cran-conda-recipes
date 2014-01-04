@@ -15,15 +15,21 @@ requirements:
     - r-fbasics
     - r-ftrading
     - r-fmultivar
+    - r-mgcv
+    - r-nnet
     - r-polspline
     - r-lmtest
+    - r-mass
   run:
     - r
     - r-fbasics
     - r-ftrading
     - r-fmultivar
+    - r-mgcv
+    - r-nnet
     - r-polspline
     - r-lmtest
+    - r-mass
 
 about:
   license: GPL (>= 2)

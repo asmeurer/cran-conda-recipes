@@ -7,21 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/MSBVAR_0.7-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-kernsmooth
     - r-xtable
     - r-coda
     - r-bit
     - r-mvtnorm
+    - r-lattice
   run:
     - r
+    - r-kernsmooth
     - r-xtable
     - r-coda
     - r-bit
     - r-mvtnorm
+    - r-lattice
 
 about:
   license: GPL (>= 2)

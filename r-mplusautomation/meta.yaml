@@ -7,21 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/MplusAutomation_0.6-2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-plyr
+    - r-boot
     - r-gsubfn
     - r-coda
     - r-xtable
+    - r-lattice
   run:
     - r
     - r-plyr
+    - r-boot
     - r-gsubfn
     - r-coda
     - r-xtable
+    - r-lattice
 
 about:
   license: LGPL-3

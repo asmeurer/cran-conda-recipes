@@ -8,13 +8,14 @@ source:
   md5: 0bff1a0c15ae95c0bb7b5e8bacfa13ce
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-r.oo
     - r-rchoicedialogs
+    - r-boot
     - r-mclust
     - r-rcolorbrewer
     - r-biobase
@@ -22,6 +23,7 @@ requirements:
     - r
     - r-r.oo
     - r-rchoicedialogs
+    - r-boot
     - r-mclust
     - r-rcolorbrewer
     - r-biobase

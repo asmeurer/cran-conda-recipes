@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/rangeMapper_0.2-4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -18,6 +18,7 @@ requirements:
     - r-raster
     - r-maptools
     - r-rsqlite.extfuns
+    - r-lattice
     - r-rcolorbrewer
     - r-classint
   run:
@@ -28,6 +29,7 @@ requirements:
     - r-raster
     - r-maptools
     - r-rsqlite.extfuns
+    - r-lattice
     - r-rcolorbrewer
     - r-classint
 

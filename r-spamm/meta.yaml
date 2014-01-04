@@ -12,9 +12,15 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
+    - r-mass
+    - r-boot
     - r-lpsolveapi
   run:
     - r
+    - r-matrix
+    - r-mass
+    - r-boot
     - r-lpsolveapi
 
 about:

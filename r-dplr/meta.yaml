@@ -7,19 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/dplR_1.5.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-gmp
     - r-digest
+    - r-lattice
     - r-stringr
     - r-xml
   run:
     - r
     - r-gmp
     - r-digest
+    - r-lattice
     - r-stringr
     - r-xml
 

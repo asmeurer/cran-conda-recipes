@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-boot
     - r-rgl
     - r-evd
   run:
     - r
+    - r-boot
     - r-rgl
     - r-evd
 

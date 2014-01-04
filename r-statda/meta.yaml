@@ -7,15 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/StatDA_1.6.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-geor
     - r-sgeostat
+    - r-cluster
     - r-e1071
+    - r-mass
     - r-mba
+    - r-mgcv
     - r-rgl
     - r-robustbase
     - r-xtable
@@ -23,8 +26,11 @@ requirements:
     - r
     - r-geor
     - r-sgeostat
+    - r-cluster
     - r-e1071
+    - r-mass
     - r-mba
+    - r-mgcv
     - r-rgl
     - r-robustbase
     - r-xtable

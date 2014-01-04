@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/lymphclon_1.2.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-vgam
+    - r-mass
     - r-expm
     - r-corpcor
   run:
     - r
     - r-vgam
+    - r-mass
     - r-expm
     - r-corpcor
 

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/landsat_1.0.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-rgdal
     - r-sp
     - r-lmodel2
+    - r-mgcv
   run:
     - r
     - r-rgdal
     - r-sp
     - r-lmodel2
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

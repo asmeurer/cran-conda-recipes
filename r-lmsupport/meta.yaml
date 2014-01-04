@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/lmSupport_1.07.1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,12 +16,14 @@ requirements:
     - r-psych
     - r-gplots
     - r-gvlma
+    - r-mass
   run:
     - r
     - r-car
     - r-psych
     - r-gplots
     - r-gvlma
+    - r-mass
 
 about:
   license: GPL (>= 2)

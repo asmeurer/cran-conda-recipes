@@ -7,13 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/DPpackage_1.1-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-nlme
+    - r-survival
   run:
     - r
+    - r-mass
+    - r-nlme
+    - r-survival
 
 about:
   license: GPL (>= 2)

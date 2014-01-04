@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/mRMRe_2.0.4.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
     - r-igraph
   run:
     - r
+    - r-survival
     - r-igraph
 
 about:

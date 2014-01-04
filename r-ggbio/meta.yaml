@@ -8,7 +8,7 @@ source:
   md5: b7863222335f0a86001c143d0907de14
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,7 @@ requirements:
     - r-biovizbase
     - r-reshape2
     - r-gtable
+    - r-lattice
     - r-biocgenerics
     - r-biobase
     - r-iranges
@@ -36,6 +37,7 @@ requirements:
     - r-biovizbase
     - r-reshape2
     - r-gtable
+    - r-lattice
     - r-biocgenerics
     - r-biobase
     - r-iranges

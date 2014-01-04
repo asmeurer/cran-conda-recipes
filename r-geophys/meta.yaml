@@ -7,17 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/geophys_1.2-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-rpmg
     - r-rfoc
+    - r-mass
+    - r-cluster
   run:
     - r
     - r-rpmg
     - r-rfoc
+    - r-mass
+    - r-cluster
 
 about:
   license: GPL

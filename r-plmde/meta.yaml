@@ -12,10 +12,12 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-limma
     - r-r.oo
   run:
     - r
+    - r-mass
     - r-limma
     - r-r.oo
 

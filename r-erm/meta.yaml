@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/eRm_0.15-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-matrix
   run:
     - r
+    - r-mass
+    - r-matrix
 
 about:
   license: GPL-2

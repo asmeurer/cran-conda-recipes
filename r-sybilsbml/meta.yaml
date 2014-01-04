@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/sybilSBML_2.0.7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-sybil
   run:
     - r
+    - r-matrix
     - r-sybil
 
 about:

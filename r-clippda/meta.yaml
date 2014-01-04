@@ -8,7 +8,7 @@ source:
   md5: 2bc9528bb89635450cbf894306cfe32b
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-limma
     - r-statmod
     - r-rgl
+    - r-lattice
     - r-scatterplot3d
     - r-biobase
   run:
@@ -23,6 +24,7 @@ requirements:
     - r-limma
     - r-statmod
     - r-rgl
+    - r-lattice
     - r-scatterplot3d
     - r-biobase
 

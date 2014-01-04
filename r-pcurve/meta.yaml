@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/pcurve_0.6-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mgcv
     - r-vegan
+    - r-mass
   run:
     - r
+    - r-mgcv
     - r-vegan
+    - r-mass
 
 about:
   license: GPL

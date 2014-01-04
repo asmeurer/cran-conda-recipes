@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-reshape2
   run:
     - r
+    - r-lattice
     - r-reshape2
 
 about:

@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-matrix
   run:
     - r
+    - r-matrix
 
 about:
   license: GPL-3

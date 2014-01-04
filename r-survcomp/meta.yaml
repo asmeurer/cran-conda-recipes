@@ -8,22 +8,26 @@ source:
   md5: 50e44a0771e01c1d0d193a078dac2f14
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
     - r-prodlim
     - r-ipred
     - r-suppdists
+    - r-kernsmooth
     - r-survivalroc
     - r-bootstrap
     - r-rmeta
   run:
     - r
+    - r-survival
     - r-prodlim
     - r-ipred
     - r-suppdists
+    - r-kernsmooth
     - r-survivalroc
     - r-bootstrap
     - r-rmeta

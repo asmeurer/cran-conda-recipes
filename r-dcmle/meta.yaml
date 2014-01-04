@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/dcmle_0.2-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-dclone
     - r-rjags
     - r-coda
+    - r-lattice
   run:
     - r
     - r-dclone
     - r-rjags
     - r-coda
+    - r-lattice
 
 about:
   license: GPL-2

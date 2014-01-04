@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/spsmooth_1.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mgcv
   run:
     - r
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

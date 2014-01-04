@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/simPH_0.8.5.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - r-plyr
     - r-reshape2
     - r-stringr
+    - r-survival
     - r-quadprog
   run:
     - r
@@ -31,6 +32,7 @@ requirements:
     - r-plyr
     - r-reshape2
     - r-stringr
+    - r-survival
     - r-quadprog
 
 about:

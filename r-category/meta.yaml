@@ -8,7 +8,7 @@ source:
   md5: df3a4c6b3719932e0cbff905c4f3a8fc
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-biocgenerics
     - r-annotationdbi
     - r-biobase
+    - r-matrix
     - r-go.db
     - r-graph
     - r-rbgl
@@ -27,6 +28,7 @@ requirements:
     - r-biocgenerics
     - r-annotationdbi
     - r-biobase
+    - r-matrix
     - r-go.db
     - r-graph
     - r-rbgl

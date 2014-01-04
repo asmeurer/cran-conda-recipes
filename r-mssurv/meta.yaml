@@ -7,15 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/msSurv_1.1-2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-class
     - r-graph
+    - r-lattice
   run:
     - r
+    - r-class
     - r-graph
+    - r-lattice
 
 about:
   license: GPL-2

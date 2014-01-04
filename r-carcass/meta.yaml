@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-arm
+    - r-survival
   run:
     - r
     - r-arm
+    - r-survival
 
 about:
   license: GPL-2

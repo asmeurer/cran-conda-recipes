@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/BGPhazard_0.9.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
   run:
     - r
+    - r-survival
 
 about:
   license: GPL (>= 2)

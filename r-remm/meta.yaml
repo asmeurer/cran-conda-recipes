@@ -7,17 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/rEMM_1.0-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-proxy
+    - r-cluster
+    - r-mass
     - r-clustergeneration
     - r-igraph
   run:
     - r
     - r-proxy
+    - r-cluster
+    - r-mass
     - r-clustergeneration
     - r-igraph
 

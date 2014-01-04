@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/risksetROC_1.0.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-mass
   run:
     - r
+    - r-survival
+    - r-mass
 
 about:
   license: GPL (>= 2)

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/bios2mds_1.2.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,12 +15,14 @@ requirements:
     - r-amap
     - r-e1071
     - r-scales
+    - r-cluster
     - r-rgl
   run:
     - r
     - r-amap
     - r-e1071
     - r-scales
+    - r-cluster
     - r-rgl
 
 about:

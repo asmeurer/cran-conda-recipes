@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-trust
   run:
     - r
+    - r-mass
     - r-trust
 
 about:

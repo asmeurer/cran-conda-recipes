@@ -14,10 +14,12 @@ requirements:
     - r
     - r-lavaan
     - r-numderiv
+    - r-mass
   run:
     - r
     - r-lavaan
     - r-numderiv
+    - r-mass
 
 about:
   license: GPL

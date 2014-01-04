@@ -8,7 +8,7 @@ source:
   md5: a820e172f60067cdc1aa9cc2fc81bff9
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -21,7 +21,9 @@ requirements:
     - r-plyr
     - r-gaga
     - r-vgam
+    - r-mgcv
     - r-genomicfeatures
+    - r-survival
     - r-sqldf
   run:
     - r
@@ -33,7 +35,9 @@ requirements:
     - r-plyr
     - r-gaga
     - r-vgam
+    - r-mgcv
     - r-genomicfeatures
+    - r-survival
     - r-sqldf
 
 about:

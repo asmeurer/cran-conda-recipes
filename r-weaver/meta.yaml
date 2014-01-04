@@ -8,15 +8,17 @@ source:
   md5: a16c51036cdbc9bd75b0e57c68bb91cb
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-digest
+    - r-codetools
   run:
     - r
     - r-digest
+    - r-codetools
 
 about:
   license: GPL-2

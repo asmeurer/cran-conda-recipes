@@ -7,13 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/clValid_0.6-4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-cluster
+    - r-class
   run:
     - r
+    - r-cluster
+    - r-class
 
 about:
   license: LGPL-3

@@ -8,11 +8,12 @@ source:
   md5: f1f58d532c5e721ff84c699b3f1e2fe4
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-matrix
     - r-annotate
     - r-graph
     - r-biobase
@@ -23,6 +24,7 @@ requirements:
     - r-rgraphviz
   run:
     - r
+    - r-matrix
     - r-annotate
     - r-graph
     - r-biobase

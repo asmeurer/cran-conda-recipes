@@ -12,11 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-lmom
     - r-lmomrfa
     - r-latticeextra
   run:
     - r
+    - r-lattice
     - r-lmom
     - r-lmomrfa
     - r-latticeextra

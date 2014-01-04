@@ -7,14 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/depmixS4_1.3-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nnet
+    - r-mass
     - r-rsolnp
   run:
     - r
+    - r-nnet
+    - r-mass
     - r-rsolnp
 
 about:

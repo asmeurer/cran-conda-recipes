@@ -14,10 +14,12 @@ requirements:
     - r
     - r-coda
     - r-actuar
+    - r-boot
   run:
     - r
     - r-coda
     - r-actuar
+    - r-boot
 
 about:
   license: GPL (>= 2)

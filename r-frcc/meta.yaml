@@ -13,11 +13,13 @@ requirements:
   build:
     - r
     - r-ccp
+    - r-mass
     - r-calibrate
     - r-corpcor
   run:
     - r
     - r-ccp
+    - r-mass
     - r-calibrate
     - r-corpcor
 

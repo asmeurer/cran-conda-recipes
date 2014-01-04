@@ -7,12 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/bear_2.6.0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-reshape
+    - r-nlme
     - r-gdata
     - r-icsnp
     - r-sciplot
@@ -22,6 +23,7 @@ requirements:
   run:
     - r
     - r-reshape
+    - r-nlme
     - r-gdata
     - r-icsnp
     - r-sciplot

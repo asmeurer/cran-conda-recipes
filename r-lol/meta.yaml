@@ -8,15 +8,17 @@ source:
   md5: c451032c54eb9f8f3d698509a8abcff1
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-penalized
+    - r-matrix
   run:
     - r
     - r-penalized
+    - r-matrix
 
 about:
   license: GPL-2

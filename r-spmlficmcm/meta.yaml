@@ -14,10 +14,12 @@ requirements:
     - r
     - r-numderiv
     - r-nleqslv
+    - r-boot
   run:
     - r
     - r-numderiv
     - r-nleqslv
+    - r-boot
 
 about:
   license: GPL-2

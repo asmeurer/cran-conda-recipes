@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/Rssa_0.10-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-svd
     - r-forecast
+    - r-lattice
   run:
     - r
     - r-svd
     - r-forecast
+    - r-lattice
 
 about:
   license: GPL (>= 2)

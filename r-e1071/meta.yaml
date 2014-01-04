@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/e1071_1.6-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-class
   run:
     - r
+    - r-class
 
 about:
   license: GPL-2

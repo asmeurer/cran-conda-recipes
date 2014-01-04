@@ -7,22 +7,28 @@ source:
   url: http://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
     - r-xts
     - r-quantmod
     - r-zoo
     - r-abind
+    - r-rpart
+    - r-class
     - r-rocr
   run:
     - r
+    - r-lattice
     - r-xts
     - r-quantmod
     - r-zoo
     - r-abind
+    - r-rpart
+    - r-class
     - r-rocr
 
 about:

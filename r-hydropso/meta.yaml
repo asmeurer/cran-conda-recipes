@@ -7,18 +7,20 @@ source:
   url: http://cran.r-project.org/src/contrib/hydroPSO_0.3-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-hmisc
     - r-sp
+    - r-lattice
     - r-zoo
   run:
     - r
     - r-hmisc
     - r-sp
+    - r-lattice
     - r-zoo
 
 about:

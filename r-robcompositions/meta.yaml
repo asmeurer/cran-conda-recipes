@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/robCompositions_1.6.4.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -15,12 +15,14 @@ requirements:
     - r-robustbase
     - r-rrcov
     - r-car
+    - r-mass
     - r-pls
   run:
     - r
     - r-robustbase
     - r-rrcov
     - r-car
+    - r-mass
     - r-pls
 
 about:

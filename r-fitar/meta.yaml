@@ -12,11 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-leaps
     - r-ltsa
     - r-bestglm
   run:
     - r
+    - r-lattice
     - r-leaps
     - r-ltsa
     - r-bestglm

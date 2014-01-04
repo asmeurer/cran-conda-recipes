@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/blockTools_0.5-7.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-mass
     - r-gtools
   run:
     - r
+    - r-mass
     - r-gtools
 
 about:

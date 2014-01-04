@@ -8,7 +8,7 @@ source:
   md5: b92a4d128a1bbda2cd51e1109ebbc5de
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,12 +17,14 @@ requirements:
     - r-limma
     - r-marray
     - r-affy
+    - r-lattice
   run:
     - r
     - r-convert
     - r-limma
     - r-marray
     - r-affy
+    - r-lattice
 
 about:
   license: LGPL

@@ -14,11 +14,13 @@ requirements:
     - r
     - r-mvtnorm
     - r-car
+    - r-lattice
     - r-combinat
   run:
     - r
     - r-mvtnorm
     - r-car
+    - r-lattice
     - r-combinat
 
 about:

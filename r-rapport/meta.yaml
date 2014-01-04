@@ -12,12 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-plyr
     - r-pander
     - r-yaml
     - r-reshape
   run:
     - r
+    - r-lattice
     - r-plyr
     - r-pander
     - r-yaml

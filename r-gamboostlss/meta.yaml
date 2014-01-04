@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/gamboostLSS_1.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
     - r-mboost
   run:
     - r
+    - r-survival
     - r-mboost
 
 about:

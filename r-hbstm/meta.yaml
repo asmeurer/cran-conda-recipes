@@ -12,11 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-msm
     - r-fbasics
     - r-maps
   run:
     - r
+    - r-mass
     - r-msm
     - r-fbasics
     - r-maps

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/stylo_0.5.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -16,12 +16,16 @@ requirements:
     - r-ape
     - r-pamr
     - r-e1071
+    - r-class
+    - r-lattice
   run:
     - r
     - r-tcltk2
     - r-ape
     - r-pamr
     - r-e1071
+    - r-class
+    - r-lattice
 
 about:
   license: GPL (>= 3)

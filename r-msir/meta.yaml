@@ -14,10 +14,12 @@ requirements:
     - r
     - r-mclust
     - r-rgl
+    - r-mass
   run:
     - r
     - r-mclust
     - r-rgl
+    - r-mass
 
 about:
   license: GPL (>= 2)

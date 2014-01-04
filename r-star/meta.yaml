@@ -7,17 +7,23 @@ source:
   url: http://cran.r-project.org/src/contrib/STAR_0.3-7.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-survival
+    - r-mgcv
     - r-r2html
     - r-gss
+    - r-codetools
   run:
     - r
+    - r-survival
+    - r-mgcv
     - r-r2html
     - r-gss
+    - r-codetools
 
 about:
   license: GPL (>= 2)

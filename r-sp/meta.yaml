@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/sp_1.0-14.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-lattice
   run:
     - r
+    - r-lattice
 
 about:
   license: GPL (>= 2)

@@ -13,9 +13,11 @@ requirements:
   build:
     - r
     - r-mvtnorm
+    - r-mass
   run:
     - r
     - r-mvtnorm
+    - r-mass
 
 about:
   license: GPL-2

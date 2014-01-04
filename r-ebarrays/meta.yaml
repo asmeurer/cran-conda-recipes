@@ -8,15 +8,19 @@ source:
   md5: 78d0e62674b879e1e26dc058b8c9010f
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-biobase
+    - r-lattice
+    - r-cluster
   run:
     - r
     - r-biobase
+    - r-lattice
+    - r-cluster
 
 about:
   license: GPL (>= 2)

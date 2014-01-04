@@ -7,15 +7,25 @@ source:
   url: http://cran.r-project.org/src/contrib/joineR_1.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-nlme
+    - r-mass
+    - r-boot
+    - r-survival
+    - r-lattice
     - r-statmod
     - r-gdata
   run:
     - r
+    - r-nlme
+    - r-mass
+    - r-boot
+    - r-survival
+    - r-lattice
     - r-statmod
     - r-gdata
 

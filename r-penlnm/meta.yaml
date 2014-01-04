@@ -13,9 +13,13 @@ requirements:
   build:
     - r
     - r-remmap
+    - r-mass
+    - r-matrix
   run:
     - r
     - r-remmap
+    - r-mass
+    - r-matrix
 
 about:
   license: GPL-2

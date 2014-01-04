@@ -7,16 +7,18 @@ source:
   url: http://cran.r-project.org/src/contrib/wasim_1.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-qualv
     - r-tiger
     - r-fast
   run:
     - r
+    - r-mass
     - r-qualv
     - r-tiger
     - r-fast

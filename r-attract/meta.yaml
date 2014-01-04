@@ -8,7 +8,7 @@ source:
   md5: c08fe1b9295c5efc10519f3fee60d631
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,6 +16,7 @@ requirements:
     - r-annotationdbi
     - r-kegg.db
     - r-limma
+    - r-cluster
     - r-gostats
     - r-biobase
   run:
@@ -23,6 +24,7 @@ requirements:
     - r-annotationdbi
     - r-kegg.db
     - r-limma
+    - r-cluster
     - r-gostats
     - r-biobase
 

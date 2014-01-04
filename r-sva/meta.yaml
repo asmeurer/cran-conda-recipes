@@ -8,15 +8,17 @@ source:
   md5: c00e486a5ffff7f00bfaa27cea809b13
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-corpcor
+    - r-mgcv
   run:
     - r
     - r-corpcor
+    - r-mgcv
 
 about:
   license: Artistic-2.0

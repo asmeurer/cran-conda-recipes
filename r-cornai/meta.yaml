@@ -8,7 +8,7 @@ source:
   md5: 32a41ddc00523ecd212bed4f271df7b1
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,13 +16,17 @@ requirements:
     - r-cellhts2
     - r-limma
     - r-locfit
+    - r-mass
     - r-gplots
+    - r-lattice
   run:
     - r
     - r-cellhts2
     - r-limma
     - r-locfit
+    - r-mass
     - r-gplots
+    - r-lattice
 
 about:
   license: Artistic-2.0

@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/aods3_0.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-lme4
+    - r-boot
   run:
     - r
     - r-lme4
+    - r-boot
 
 about:
   license: GPL (>= 2)

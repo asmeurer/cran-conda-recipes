@@ -12,8 +12,10 @@ build:
 requirements:
   build:
     - r
+    - r-cluster
   run:
     - r
+    - r-cluster
 
 about:
   license: GPL (>= 2)

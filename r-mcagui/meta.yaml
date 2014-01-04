@@ -8,12 +8,15 @@ source:
   md5: 7e5c4183a2e25ececc1d1adb609ceec5
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-lattice
+    - r-mass
     - r-proto
+    - r-foreign
     - r-gwidgets
     - r-gwidgetsrgtk2
     - r-otubase
@@ -21,7 +24,10 @@ requirements:
     - r-bpca
   run:
     - r
+    - r-lattice
+    - r-mass
     - r-proto
+    - r-foreign
     - r-gwidgets
     - r-gwidgetsrgtk2
     - r-otubase

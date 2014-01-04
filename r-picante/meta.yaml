@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/picante_1.6-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-ape
     - r-vegan
+    - r-nlme
   run:
     - r
     - r-ape
     - r-vegan
+    - r-nlme
 
 about:
   license: GPL-2

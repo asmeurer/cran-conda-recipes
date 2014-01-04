@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-ggplot2
   run:
     - r
+    - r-survival
     - r-ggplot2
 
 about:

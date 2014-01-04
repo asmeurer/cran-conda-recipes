@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/biom_0.3.11.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-plyr
     - r-rjsonio
+    - r-matrix
   run:
     - r
     - r-plyr
     - r-rjsonio
+    - r-matrix
 
 about:
   license: GPL-2

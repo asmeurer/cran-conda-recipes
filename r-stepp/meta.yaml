@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/stepp_2.3-2.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-cmprsk
+    - r-survival
   run:
     - r
     - r-cmprsk
+    - r-survival
 
 about:
   license: GPL (>= 2)

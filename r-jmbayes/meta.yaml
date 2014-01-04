@@ -7,15 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/JMbayes_0.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
+    - r-nlme
+    - r-survival
     - r-rjags
     - r-coda
   run:
     - r
+    - r-mass
+    - r-nlme
+    - r-survival
     - r-rjags
     - r-coda
 

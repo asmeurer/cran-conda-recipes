@@ -12,9 +12,13 @@ build:
 requirements:
   build:
     - r
+    - r-survival
+    - r-matrix
     - r-prodlim
   run:
     - r
+    - r-survival
+    - r-matrix
     - r-prodlim
 
 about:

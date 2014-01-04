@@ -8,7 +8,7 @@ source:
   md5: d5c9e944fa162c2e03a80800584f94b0
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -16,14 +16,18 @@ requirements:
     - r-ringo
     - r-affy
     - r-affxparser
+    - r-lattice
     - r-pspline
+    - r-mass
     - r-zlibbioc
   run:
     - r
     - r-ringo
     - r-affy
     - r-affxparser
+    - r-lattice
     - r-pspline
+    - r-mass
     - r-zlibbioc
 
 about:

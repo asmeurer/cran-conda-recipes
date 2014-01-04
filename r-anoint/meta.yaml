@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-survival
     - r-glmnet
+    - r-mass
   run:
     - r
+    - r-survival
     - r-glmnet
+    - r-mass
 
 about:
   license: GPL (>= 2)

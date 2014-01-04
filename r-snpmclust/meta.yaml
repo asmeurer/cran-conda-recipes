@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-mclust
   run:
     - r
+    - r-mass
     - r-mclust
 
 about:

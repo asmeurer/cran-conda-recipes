@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/DSsim_1.0.0.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -15,11 +15,13 @@ requirements:
     - r-shapefiles
     - r-splancs
     - r-mrds
+    - r-mgcv
   run:
     - r
     - r-shapefiles
     - r-splancs
     - r-mrds
+    - r-mgcv
 
 about:
   license: GPL (>= 2)

@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/dbstats_1.0.3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-cluster
     - r-pls
   run:
     - r
+    - r-cluster
     - r-pls
 
 about:

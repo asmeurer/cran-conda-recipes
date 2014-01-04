@@ -8,18 +8,20 @@ source:
   md5: d6e1b2c599e9fede81bde77706b2fc54
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
     - r-siggenes
     - r-multtest
+    - r-kernsmooth
     - r-biocgenerics
   run:
     - r
     - r-siggenes
     - r-multtest
+    - r-kernsmooth
     - r-biocgenerics
 
 about:

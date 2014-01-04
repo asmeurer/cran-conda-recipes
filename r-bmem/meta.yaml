@@ -13,12 +13,14 @@ requirements:
   build:
     - r
     - r-amelia
+    - r-mass
     - r-lavaan
     - r-sem
     - r-snowfall
   run:
     - r
     - r-amelia
+    - r-mass
     - r-lavaan
     - r-sem
     - r-snowfall

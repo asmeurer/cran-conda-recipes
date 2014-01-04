@@ -12,10 +12,14 @@ build:
 requirements:
   build:
     - r
+    - r-mass
     - r-lme4
+    - r-matrix
   run:
     - r
+    - r-mass
     - r-lme4
+    - r-matrix
 
 about:
   license: GPL (>= 2)

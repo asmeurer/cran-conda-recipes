@@ -7,18 +7,26 @@ source:
   url: http://cran.r-project.org/src/contrib/cg_0.9-6.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-hmisc
+    - r-lattice
+    - r-mass
+    - r-survival
     - r-multcomp
+    - r-nlme
     - r-vgam
   run:
     - r
     - r-hmisc
+    - r-lattice
+    - r-mass
+    - r-survival
     - r-multcomp
+    - r-nlme
     - r-vgam
 
 about:

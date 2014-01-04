@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-glmnet
+    - r-mass
     - r-combinat
   run:
     - r
     - r-glmnet
+    - r-mass
     - r-combinat
 
 about:

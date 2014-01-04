@@ -14,10 +14,12 @@ requirements:
     - r
     - r-rcpp
     - r-minqa
+    - r-nlme
   run:
     - r
     - r-rcpp
     - r-minqa
+    - r-nlme
 
 about:
   license: GPL-2

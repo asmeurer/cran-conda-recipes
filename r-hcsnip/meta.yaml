@@ -8,11 +8,12 @@ source:
   md5: 91c1edb87d7853f2e62cf2a471abb893
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
     - r
+    - r-survival
     - r-coin
     - r-fpc
     - r-clusterrepro
@@ -23,6 +24,7 @@ requirements:
     - r-biobase
   run:
     - r
+    - r-survival
     - r-coin
     - r-fpc
     - r-clusterrepro

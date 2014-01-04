@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-lattice
     - r-betareg
   run:
     - r
+    - r-lattice
     - r-betareg
 
 about:

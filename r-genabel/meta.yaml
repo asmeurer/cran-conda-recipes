@@ -7,14 +7,16 @@ source:
   url: http://cran.r-project.org/src/contrib/GenABEL_1.8-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-mass
     - r-genabel.data
   run:
     - r
+    - r-mass
     - r-genabel.data
 
 about:

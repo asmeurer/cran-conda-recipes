@@ -7,13 +7,15 @@ source:
   url: http://cran.r-project.org/src/contrib/lancet.iraqmortality_0.2-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
+    - r-foreign
   run:
     - r
+    - r-foreign
 
 about:
   license: GPL (>= 2)

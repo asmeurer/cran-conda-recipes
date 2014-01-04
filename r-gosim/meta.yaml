@@ -8,7 +8,7 @@ source:
   md5: bacbf5c2aa7af17bfda5ee0cbf70bdb2
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -19,9 +19,11 @@ requirements:
     - r-org.hs.eg.db
     - r-annotationdbi
     - r-topgo
+    - r-cluster
     - r-flexmix
     - r-rbgl
     - r-graph
+    - r-matrix
     - r-corpcor
     - r-rcpp
   run:
@@ -32,9 +34,11 @@ requirements:
     - r-org.hs.eg.db
     - r-annotationdbi
     - r-topgo
+    - r-cluster
     - r-flexmix
     - r-rbgl
     - r-graph
+    - r-matrix
     - r-corpcor
     - r-rcpp
 

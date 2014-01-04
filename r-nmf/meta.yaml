@@ -15,6 +15,7 @@ requirements:
     - r-pkgmaker
     - r-registry
     - r-rngtools
+    - r-cluster
     - r-stringr
     - r-digest
     - r-gridbase
@@ -29,6 +30,7 @@ requirements:
     - r-pkgmaker
     - r-registry
     - r-rngtools
+    - r-cluster
     - r-stringr
     - r-digest
     - r-gridbase

@@ -7,15 +7,17 @@ source:
   url: http://cran.r-project.org/src/contrib/sybilEFBA_1.0.1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-sybil
+    - r-matrix
   run:
     - r
     - r-sybil
+    - r-matrix
 
 about:
   license: GPL-3

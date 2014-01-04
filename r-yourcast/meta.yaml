@@ -12,14 +12,18 @@ build:
 requirements:
   build:
     - r
+    - r-foreign
     - r-ggplot2
     - r-reshape2
     - r-gridextra
+    - r-lattice
   run:
     - r
+    - r-foreign
     - r-ggplot2
     - r-reshape2
     - r-gridextra
+    - r-lattice
 
 about:
   license: GPL (>= 2)

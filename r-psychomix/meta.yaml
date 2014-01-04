@@ -7,19 +7,21 @@ source:
   url: http://cran.r-project.org/src/contrib/psychomix_1.1-0.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-flexmix
     - r-psychotools
+    - r-lattice
     - r-formula
     - r-modeltools
   run:
     - r
     - r-flexmix
     - r-psychotools
+    - r-lattice
     - r-formula
     - r-modeltools
 

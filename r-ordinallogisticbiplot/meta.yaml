@@ -13,10 +13,12 @@ requirements:
   build:
     - r
     - r-mirt
+    - r-mass
     - r-nominallogisticbiplot
   run:
     - r
     - r-mirt
+    - r-mass
     - r-nominallogisticbiplot
 
 about:
