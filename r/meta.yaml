@@ -7,9 +7,10 @@ source:
   url: http://rweb.quant.ku.edu/cran/src/base/R-3/R-3.0.2.tar.gz
   patches:
     - modules-lapack-Makefile.in.patch
+    - share-make-vars.mk.patch
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
