@@ -7,7 +7,7 @@ source:
   url: https://pypi.python.org/packages/source/r/rpy2/rpy2-2.3.8.tar.gz
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:

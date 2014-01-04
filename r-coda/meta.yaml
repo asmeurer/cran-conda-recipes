@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/coda_0.16-1.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
