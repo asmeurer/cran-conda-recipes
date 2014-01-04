@@ -4,9 +4,20 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adehabitatlt
+    - r-gstat
+    - r-randomfields
+    - r-raster
+    - r-sp
+    - r-spacetime
+    - r-stpp
+    - r-surveillance
+    - r-trip
+    - r-xts
   run:
     - r-adehabitatlt
     - r-gstat

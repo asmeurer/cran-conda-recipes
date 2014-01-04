@@ -4,9 +4,15 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-lattice
+    - r-nlmeode
+    - r-pk
+    - r-pkfit
+    - r-pktools
   run:
     - r-lattice
     - r-nlmeode

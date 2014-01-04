@@ -4,9 +4,89 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-acepack
+    - r-alr3
+    - r-aod
+    - r-bma
+    - r-boot
+    - r-bootstrap
+    - r-bradleyterry2
+    - r-brglm
+    - r-car
+    - r-class
+    - r-dr
+    - r-dyn
+    - r-dynlm
+    - r-effects
+    - r-eha
+    - r-exactloglintest
+    - r-forward
+    - r-frailtypack
+    - r-gam
+    - r-gee
+    - r-geepack
+    - r-gmodels
+    - r-gnm
+    - r-gparotation
+    - r-gss
+    - r-hmisc
+    - r-irr
+    - r-latentnet
+    - r-lattice
+    - r-leaps
+    - r-lme4
+    - r-lmesplines
+    - r-lmm
+    - r-lmtest
+    - r-locfit
+    - r-ltm
+    - r-mass
+    - r-matching
+    - r-matchit
+    - r-matrix
+    - r-meta
+    - r-mgcv
+    - r-mice
+    - r-micecon
+    - r-mitools
+    - r-mix
+    - r-mnp
+    - r-multcomp
+    - r-multinomrob
+    - r-mvnmle
+    - r-network
+    - r-nlme
+    - r-nnet
+    - r-optmatch
+    - r-pan
+    - r-perturb
+    - r-pls
+    - r-polycor
+    - r-pscl
+    - r-psy
+    - r-quantreg
+    - r-qvcalc
+    - r-rgl
+    - r-rmeta
+    - r-rms
+    - r-robust
+    - r-robustbase
+    - r-sampling
+    - r-sandwich
+    - r-sem
+    - r-sm
+    - r-sna
+    - r-spatial
+    - r-survey
+    - r-survival
+    - r-survrec
+    - r-systemfit
+    - r-vcd
+    - r-zelig
   run:
     - r-acepack
     - r-alr3

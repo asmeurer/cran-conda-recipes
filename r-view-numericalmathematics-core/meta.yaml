@@ -4,9 +4,14 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-gsl
+    - r-matrix
+    - r-numderiv
+    - r-polynom
   run:
     - r-gsl
     - r-matrix

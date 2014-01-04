@@ -4,9 +4,36 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adapttest
+    - r-asd
+    - r-bcrm
+    - r-bifactorial
+    - r-blockrand
+    - r-clinfun
+    - r-clinicalrobustpriors
+    - r-crtsize
+    - r-dfcrm
+    - r-experiment
+    - r-groupseq
+    - r-gsdesign
+    - r-hmisc
+    - r-ldbounds
+    - r-mchtest
+    - r-pips
+    - r-powertost
+    - r-pwr
+    - r-pwrgsd
+    - r-qtldesign
+    - r-samplesize
+    - r-seqmon
+    - r-speff2trial
+    - r-survival
+    - r-teqr
+    - r-trialsize
   run:
     - r-adapttest
     - r-asd

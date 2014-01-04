@@ -4,9 +4,17 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-agricolae
+    - r-algdesign
+    - r-conf.design
+    - r-doe.base
+    - r-doe.wrapper
+    - r-frf2
+    - r-rsm
   run:
     - r-agricolae
     - r-algdesign

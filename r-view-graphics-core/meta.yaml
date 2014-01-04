@@ -4,9 +4,16 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-ggplot2
+    - r-lattice
+    - r-plotrix
+    - r-rcolorbrewer
+    - r-rgl
+    - r-vcd
   run:
     - r-ggplot2
     - r-lattice

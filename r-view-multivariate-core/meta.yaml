@@ -4,9 +4,14 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-ade4
+    - r-cluster
+    - r-mass
+    - r-vegan
   run:
     - r-ade4
     - r-cluster

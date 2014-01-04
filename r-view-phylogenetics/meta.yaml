@@ -4,9 +4,49 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adephylo
+    - r-ape
+    - r-aptreeshape
+    - r-caper
+    - r-convevol
+    - r-corhmm
+    - r-ddd
+    - r-distory
+    - r-diversitree
+    - r-evobir
+    - r-geiger
+    - r-geomorph
+    - r-gunifrac
+    - r-hmptrees
+    - r-iterates
+    - r-mcmcglmm
+    - r-metafor
+    - r-ouch
+    - r-ouwie
+    - r-paleotree
+    - r-paleots
+    - r-phangorn
+    - r-phyclust
+    - r-phylobase
+    - r-phyloclim
+    - r-phylolm
+    - r-phylosim
+    - r-phylotools
+    - r-phytools
+    - r-picante
+    - r-pvr
+    - r-scaleboot
+    - r-spider
+    - r-syncsa
+    - r-tess
+    - r-treebase
+    - r-treepar
+    - r-treesim
+    - r-vegan
   run:
     - r-adephylo
     - r-ape

@@ -4,9 +4,13 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-forecast
+    - r-tseries
+    - r-zoo
   run:
     - r-forecast
     - r-tseries

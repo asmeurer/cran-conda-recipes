@@ -4,9 +4,14 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-mass
+    - r-robust
+    - r-robustbase
+    - r-rrcov
   run:
     - r-mass
     - r-robust

@@ -4,9 +4,34 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-farma
+    - r-fasianoptions
+    - r-fassets
+    - r-fbasics
+    - r-fbonds
+    - r-fcopulae
+    - r-fexoticoptions
+    - r-fextremes
+    - r-fgarch
+    - r-fimport
+    - r-fmultivar
+    - r-fnonlinear
+    - r-foptions
+    - r-fportfolio
+    - r-fregression
+    - r-ftrading
+    - r-funitroots
+    - r-performanceanalytics
+    - r-timedate
+    - r-timeseries
+    - r-tseries
+    - r-urca
+    - r-xts
+    - r-zoo
   run:
     - r-farma
     - r-fasianoptions

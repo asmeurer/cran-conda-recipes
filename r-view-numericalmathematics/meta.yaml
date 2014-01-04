@@ -4,9 +4,61 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-akima
+    - r-appell
+    - r-bb
+    - r-bessel
+    - r-combinat
+    - r-contfrac
+    - r-cubature
+    - r-eigeninv
+    - r-elliptic
+    - r-expm
+    - r-features
+    - r-gaussquad
+    - r-gmp
+    - r-gsl
+    - r-hypergeo
+    - r-irlba
+    - r-magic
+    - r-mass
+    - r-matlab
+    - r-matrix
+    - r-monopoly
+    - r-mpoly
+    - r-multipol
+    - r-nleqslv
+    - r-numbers
+    - r-numderiv
+    - r-onion
+    - r-orthopolynom
+    - r-partitions
+    - r-pcenum
+    - r-polycub
+    - r-polynom
+    - r-polynomf
+    - r-pracma
+    - r-r.matlab
+    - r-r2cuba
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-rcppeigen
+    - r-rcppoctave
+    - r-rmpfr
+    - r-rpython
+    - r-rsympy
+    - r-ryacas
+    - r-signal
+    - r-sparsegrid
+    - r-sphericalcubature
+    - r-ssvd
+    - r-statmod
+    - r-stinepack
+    - r-svd
   run:
     - r-akima
     - r-appell

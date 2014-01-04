@@ -4,9 +4,44 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adegenet
+    - r-ape
+    - r-biodem
+    - r-bqtl
+    - r-dlmap
+    - r-gap
+    - r-genabel
+    - r-geneland
+    - r-genetics
+    - r-hapassoc
+    - r-haplo.ccs
+    - r-haplo.stats
+    - r-hapsim
+    - r-hardyweinberg
+    - r-hierfstat
+    - r-hwde
+    - r-ibdreg
+    - r-lddesign
+    - r-ldheatmap
+    - r-luca
+    - r-multic
+    - r-ouch
+    - r-pbatr
+    - r-phangorn
+    - r-qtl
+    - r-qtlbim
+    - r-rmetasim
+    - r-seqinr
+    - r-snp.plotter
+    - r-snpmaxsel
+    - r-stepwise
+    - r-tdthap
+    - r-untb
+    - r-wgaim
   run:
     - r-adegenet
     - r-ape

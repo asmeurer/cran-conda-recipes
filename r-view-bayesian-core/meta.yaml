@@ -4,9 +4,19 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-arm
+    - r-bacco
+    - r-bayesm
+    - r-bayessurv
+    - r-boa
+    - r-coda
+    - r-dppackage
+    - r-mcmc
+    - r-mcmcpack
   run:
     - r-arm
     - r-bacco

@@ -4,9 +4,12 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-rmpi
+    - r-snow
   run:
     - r-rmpi
     - r-snow

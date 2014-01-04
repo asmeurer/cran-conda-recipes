@@ -4,9 +4,31 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-ade4
+    - r-anacor
+    - r-ca
+    - r-ctt
+    - r-erm
+    - r-fair
+    - r-homals
+    - r-lavaan
+    - r-lme4
+    - r-ltm
+    - r-mirt
+    - r-miscpsycho
+    - r-mokken
+    - r-plink
+    - r-prefmod
+    - r-psy
+    - r-psych
+    - r-sem
+    - r-smacof
+    - r-tam
+    - r-vegan
   run:
     - r-ade4
     - r-anacor

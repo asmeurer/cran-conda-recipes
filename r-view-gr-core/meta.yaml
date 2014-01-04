@@ -4,9 +4,11 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-grbase
   run:
     - r-grbase
 

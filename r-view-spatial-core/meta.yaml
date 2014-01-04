@@ -4,9 +4,26 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-classint
+    - r-dcluster
+    - r-deldir
+    - r-geor
+    - r-gstat
+    - r-maptools
+    - r-randomfields
+    - r-raster
+    - r-rcolorbrewer
+    - r-rgdal
+    - r-rgeos
+    - r-sp
+    - r-spacetime
+    - r-spatstat
+    - r-spdep
+    - r-splancs
   run:
     - r-classint
     - r-dcluster

@@ -4,9 +4,13 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-gap
+    - r-genetics
+    - r-haplo.stats
   run:
     - r-gap
     - r-genetics

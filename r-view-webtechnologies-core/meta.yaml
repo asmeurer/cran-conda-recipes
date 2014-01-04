@@ -4,9 +4,16 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-httr
+    - r-rcurl
+    - r-rjson
+    - r-rjsonio
+    - r-shiny
+    - r-xml
   run:
     - r-httr
     - r-rcurl

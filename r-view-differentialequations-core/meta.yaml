@@ -4,9 +4,14 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-bvpsolve
+    - r-desolve
+    - r-rootsolve
+    - r-sde
   run:
     - r-bvpsolve
     - r-desolve

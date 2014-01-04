@@ -4,9 +4,15 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-hmisc
+    - r-knitr
+    - r-r2html
+    - r-rms
+    - r-xtable
   run:
     - r-hmisc
     - r-knitr

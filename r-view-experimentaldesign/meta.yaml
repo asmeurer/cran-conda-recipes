@@ -4,9 +4,55 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-agricolae
+    - r-algdesign
+    - r-asd
+    - r-batchexperiments
+    - r-bhh2
+    - r-blocktools
+    - r-bsmd
+    - r-conf.design
+    - r-crossdes
+    - r-dae
+    - r-desirability
+    - r-dicedesign
+    - r-diceeval
+    - r-dicekriging
+    - r-diceview
+    - r-displayhts
+    - r-doe.base
+    - r-doe.wrapper
+    - r-dosefinding
+    - r-dynatree
+    - r-experiment
+    - r-frf2
+    - r-frf2.catlg128
+    - r-gad
+    - r-granova
+    - r-gsbdesign
+    - r-gsdesign
+    - r-lddesign
+    - r-lhs
+    - r-mixexp
+    - r-mkssd
+    - r-mxkssd
+    - r-odprism
+    - r-osdesign
+    - r-planor
+    - r-plgp
+    - r-qtldesign
+    - r-qualitytools
+    - r-rcmdrplugin.doe
+    - r-rsm
+    - r-sensominer
+    - r-support.ces
+    - r-teqr
+    - r-tgp
+    - r-vdgraph
   run:
     - r-agricolae
     - r-algdesign

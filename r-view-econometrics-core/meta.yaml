@@ -4,9 +4,18 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-aer
+    - r-car
+    - r-lmtest
+    - r-plm
+    - r-sandwich
+    - r-tseries
+    - r-urca
+    - r-zoo
   run:
     - r-aer
     - r-car

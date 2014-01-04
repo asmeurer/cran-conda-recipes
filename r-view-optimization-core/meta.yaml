@@ -4,9 +4,19 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-lpsolve
+    - r-minqa
+    - r-optimx
+    - r-quadprog
+    - r-rglpk
+    - r-roi
+    - r-rsolnp
+    - r-rsymphony
+    - r-tsp
   run:
     - r-lpsolve
     - r-minqa

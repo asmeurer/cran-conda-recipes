@@ -4,9 +4,33 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adaptivetau
+    - r-bvpsolve
+    - r-collocinfer
+    - r-desolve
+    - r-detestset
+    - r-ecolmod
+    - r-fme
+    - r-gillespiessa
+    - r-mkin
+    - r-nlmeode
+    - r-pbsddesolve
+    - r-pbsmodelling
+    - r-pkfit
+    - r-pktools
+    - r-pomp
+    - r-pracma
+    - r-primer
+    - r-psm
+    - r-reactran
+    - r-rootsolve
+    - r-scarabee
+    - r-sde
+    - r-simecol
   run:
     - r-adaptivetau
     - r-bvpsolve

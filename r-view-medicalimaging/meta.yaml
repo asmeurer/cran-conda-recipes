@@ -4,9 +4,34 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adimpro
+    - r-analyzefmri
+    - r-arf3ds4
+    - r-bayesm
+    - r-brainwaver
+    - r-cudabayesreg
+    - r-datfordcemri
+    - r-dcemris4
+    - r-dpmixsim
+    - r-dti
+    - r-fmri
+    - r-gdimap
+    - r-mmand
+    - r-mritc
+    - r-neurosim
+    - r-occ
+    - r-oro.dicom
+    - r-oro.nifti
+    - r-pet
+    - r-ptak
+    - r-rniftilib
+    - r-rniftyreg
+    - r-tractor.base
+    - r-waveslim
   run:
     - r-adimpro
     - r-analyzefmri

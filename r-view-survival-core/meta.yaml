@@ -4,9 +4,16 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-cmprsk
+    - r-eha
+    - r-muhaz
+    - r-rms
+    - r-survival
+    - r-timereg
   run:
     - r-cmprsk
     - r-eha

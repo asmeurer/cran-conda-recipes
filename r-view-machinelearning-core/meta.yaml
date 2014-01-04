@@ -4,9 +4,17 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-e1071
+    - r-gbm
+    - r-kernlab
+    - r-mboost
+    - r-nnet
+    - r-randomforest
+    - r-rpart
   run:
     - r-e1071
     - r-gbm

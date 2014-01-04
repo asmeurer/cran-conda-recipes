@@ -4,9 +4,30 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-alr3
+    - r-boot
+    - r-car
+    - r-gam
+    - r-lmtest
+    - r-mass
+    - r-matrix
+    - r-mgcv
+    - r-mice
+    - r-mitools
+    - r-mix
+    - r-nlme
+    - r-pan
+    - r-quantreg
+    - r-sandwich
+    - r-sem
+    - r-survey
+    - r-survival
+    - r-systemfit
+    - r-zelig
   run:
     - r-alr3
     - r-boot

@@ -4,9 +4,82 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-ahaz
+    - r-arules
+    - r-bayestree
+    - r-bigrf
+    - r-bigrr
+    - r-bmrm
+    - r-boruta
+    - r-bst
+    - r-c50
+    - r-caret
+    - r-corelearn
+    - r-coxboost
+    - r-cubist
+    - r-e1071
+    - r-earth
+    - r-elasticnet
+    - r-elemstatlearn
+    - r-evtree
+    - r-frbs
+    - r-gamboost
+    - r-gamboostlss
+    - r-gbm
+    - r-glmnet
+    - r-glmpath
+    - r-gmmboost
+    - r-grplasso
+    - r-grpreg
+    - r-hda
+    - r-ipred
+    - r-kernlab
+    - r-klar
+    - r-lars
+    - r-lasso2
+    - r-liblinear
+    - r-logicreg
+    - r-maptree
+    - r-mboost
+    - r-mvpart
+    - r-ncvreg
+    - r-nnet
+    - r-oblique.tree
+    - r-pamr
+    - r-party
+    - r-partykit
+    - r-penalized
+    - r-penalizedlda
+    - r-penalizedsvm
+    - r-quantregforest
+    - r-randomforest
+    - r-randomsurvivalforest
+    - r-rattle
+    - r-rda
+    - r-rdetools
+    - r-reemtree
+    - r-relaxo
+    - r-rgenoud
+    - r-rgp
+    - r-rmalschains
+    - r-rminer
+    - r-rocr
+    - r-rpart
+    - r-rpmm
+    - r-rsnns
+    - r-rweka
+    - r-rxshrink
+    - r-sda
+    - r-sdda
+    - r-svmpath
+    - r-tgp
+    - r-tree
+    - r-twix
+    - r-varselrf
   run:
     - r-ahaz
     - r-arules

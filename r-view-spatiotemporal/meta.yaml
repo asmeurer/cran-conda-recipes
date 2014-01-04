@@ -4,9 +4,59 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-adehabitatlt
+    - r-animaltrack
+    - r-argosfilter
+    - r-bbmm
+    - r-bcpa
+    - r-crawl
+    - r-cshapes
+    - r-divemove
+    - r-geolight
+    - r-googlevis
+    - r-gstat
+    - r-lgcp
+    - r-lme4
+    - r-m3
+    - r-move
+    - r-mvtsplot
+    - r-ncdf
+    - r-ncdf4
+    - r-nlme
+    - r-openair
+    - r-pastecs
+    - r-pbdncdf4
+    - r-plm
+    - r-plotkml
+    - r-randomfields
+    - r-raster
+    - r-rastervis
+    - r-rgl
+    - r-rnetcdf
+    - r-smam
+    - r-solar
+    - r-sp
+    - r-spacetime
+    - r-spate
+    - r-spatiotemporal
+    - r-spatstat
+    - r-spbayes
+    - r-sphet
+    - r-splancs
+    - r-splm
+    - r-sptimer
+    - r-stam
+    - r-stem
+    - r-stpp
+    - r-stppresid
+    - r-surveillance
+    - r-trip
+    - r-tripestimation
+    - r-xts
   run:
     - r-adehabitatlt
     - r-animaltrack

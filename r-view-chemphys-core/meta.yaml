@@ -4,9 +4,17 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-als
+    - r-chemcal
+    - r-iso
+    - r-kohonen
+    - r-nnls
+    - r-pls
+    - r-ptak
   run:
     - r-als
     - r-chemcal

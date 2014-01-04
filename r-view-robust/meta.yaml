@@ -4,9 +4,39 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-covrobust
+    - r-coxrobust
+    - r-distr
+    - r-frb
+    - r-lqmm
+    - r-mass
+    - r-multinomrob
+    - r-mvoutlier
+    - r-quantreg
+    - r-randvar
+    - r-rgam
+    - r-robastbase
+    - r-robfilter
+    - r-roblox
+    - r-robloxbioc
+    - r-robrex
+    - r-robust
+    - r-robustaft
+    - r-robustbase
+    - r-robustlmm
+    - r-robustx
+    - r-roptest
+    - r-roptregts
+    - r-rrcov
+    - r-rrcovhd
+    - r-rrcovna
+    - r-rskc
+    - r-sandwich
+    - r-wle
   run:
     - r-covrobust
     - r-coxrobust

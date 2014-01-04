@@ -4,9 +4,54 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-bamdit
+    - r-bspmma
+    - r-caman
+    - r-compute.es
+    - r-copas
+    - r-crtsize
+    - r-dosresmeta
+    - r-epir
+    - r-exactmeta
+    - r-gap
+    - r-gemtc
+    - r-hsroc
+    - r-mac
+    - r-mad
+    - r-mada
+    - r-madam
+    - r-mama
+    - r-meta
+    - r-metabel
+    - r-metacor
+    - r-metade
+    - r-metafor
+    - r-metagen
+    - r-metalik
+    - r-metama
+    - r-metamisc
+    - r-metapca
+    - r-metaqc
+    - r-metaskat
+    - r-metatest
+    - r-metatron
+    - r-mmeta
+    - r-mvmeta
+    - r-mvtmeta
+    - r-netmeta
+    - r-psychometric
+    - r-pubbias
+    - r-rcmdrplugin.ma
+    - r-rmeta
+    - r-samurai
+    - r-scma
+    - r-selectmeta
+    - r-seqmeta
+    - r-skatmeta
   run:
     - r-bamdit
     - r-bspmma

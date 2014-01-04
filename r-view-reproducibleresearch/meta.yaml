@@ -4,9 +4,43 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-animation
+    - r-apsrtable
+    - r-ascii
+    - r-brew
+    - r-cacher
+    - r-cachesweave
+    - r-exams
+    - r-hmisc
+    - r-hwriter
+    - r-installr
+    - r-knitr
+    - r-markdown
+    - r-memisc
+    - r-odfweave
+    - r-odfweave.survey
+    - r-pander
+    - r-quantreg
+    - r-r.cache
+    - r-r.rsp
+    - r-r2html
+    - r-r2lh
+    - r-r2ppt
+    - r-r2wd
+    - r-rapport
+    - r-reporttools
+    - r-rms
+    - r-rtf
+    - r-srpm
+    - r-svsweave
+    - r-sweavelistingutils
+    - r-tables
+    - r-teachingsampling
+    - r-xtable
   run:
     - r-animation
     - r-apsrtable

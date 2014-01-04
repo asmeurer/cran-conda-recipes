@@ -4,9 +4,15 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-cluster
+    - r-flexclust
+    - r-flexmix
+    - r-mclust
+    - r-rmixmod
   run:
     - r-cluster
     - r-flexclust

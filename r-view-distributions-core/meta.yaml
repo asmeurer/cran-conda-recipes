@@ -4,9 +4,23 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-actuar
+    - r-actudistns
+    - r-copula
+    - r-distr
+    - r-fcopulae
+    - r-gamlss.dist
+    - r-lmomco
+    - r-mnormt
+    - r-mvtnorm
+    - r-pearsonds
+    - r-reliar
+    - r-suppdists
+    - r-vgam
   run:
     - r-actuar
     - r-actudistns

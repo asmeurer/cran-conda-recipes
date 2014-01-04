@@ -4,9 +4,38 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-corpora
+    - r-gsubfn
+    - r-kernlab
+    - r-konlp
+    - r-korpus
+    - r-lda
+    - r-lsa
+    - r-maxent
+    - r-movmf
+    - r-opennlp
+    - r-qdap
+    - r-rcmdrplugin.temis
+    - r-rkea
+    - r-rweka
+    - r-skmeans
+    - r-snowball
+    - r-snowballc
+    - r-tau
+    - r-textcat
+    - r-textir
+    - r-tm
+    - r-tm.plugin.dc
+    - r-tm.plugin.factiva
+    - r-tm.plugin.mail
+    - r-topicmodels
+    - r-wordcloud
+    - r-wordnet
+    - r-zipfr
   run:
     - r-corpora
     - r-gsubfn

@@ -4,9 +4,20 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-desolve
+    - r-drc
+    - r-lattice
+    - r-mass
+    - r-nlme
+    - r-nlmeode
+    - r-pk
+    - r-pkfit
+    - r-pkpdmodels
+    - r-pktools
   run:
     - r-desolve
     - r-drc

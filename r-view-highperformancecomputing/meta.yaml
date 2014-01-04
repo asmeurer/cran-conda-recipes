@@ -4,9 +4,91 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-batch
+    - r-batchexperiments
+    - r-batchjobs
+    - r-bayesm
+    - r-bcp
+    - r-biglars
+    - r-biglm
+    - r-bigmemory
+    - r-bigrf
+    - r-biopara
+    - r-bnlearn
+    - r-caret
+    - r-cudabayesreg
+    - r-data.table
+    - r-dclone
+    - r-domc
+    - r-dompi
+    - r-doredis
+    - r-dorng
+    - r-dosnow
+    - r-ff
+    - r-foreach
+    - r-fork
+    - r-gamboost
+    - r-gcbd
+    - r-geneland
+    - r-gputools
+    - r-hadoopstreaming
+    - r-harvestr
+    - r-hiplarm
+    - r-histogramtools
+    - r-inline
+    - r-latentnet
+    - r-lga
+    - r-magma
+    - r-matching
+    - r-mchof
+    - r-monetdb.r
+    - r-multicore
+    - r-nws
+    - r-opencl
+    - r-orloca
+    - r-partdsa
+    - r-pbdbase
+    - r-pbddemo
+    - r-pbddmat
+    - r-pbdmpi
+    - r-pbdncdf4
+    - r-pbdprof
+    - r-pbdslap
+    - r-peperr
+    - r-permgpu
+    - r-pls
+    - r-pmclust
+    - r-profr
+    - r-proftools
+    - r-pvclust
+    - r-rcpp
+    - r-rdsm
+    - r-rgenoud
+    - r-rhpc
+    - r-rhpcblasctl
+    - r-rinside
+    - r-rjava
+    - r-rlecuyer
+    - r-rmpi
+    - r-rprotobuf
+    - r-rpud
+    - r-rredis
+    - r-rsprng
+    - r-scaleboot
+    - r-snow
+    - r-snowfall
+    - r-snowft
+    - r-speedglm
+    - r-sqldf
+    - r-star
+    - r-tm
+    - r-varselrf
+    - r-widelm
+    - r-xgrid
   run:
     - r-batch
     - r-batchexperiments

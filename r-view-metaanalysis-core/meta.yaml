@@ -4,9 +4,12 @@ package:
 
 
 build:
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - r-meta
+    - r-metafor
   run:
     - r-meta
     - r-metafor
