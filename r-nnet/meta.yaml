@@ -7,13 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/nnet_7.3-7.tar.gz
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
-    - r
+    - r_base
   run:
-    - r
+    - r_base
 
 about:
   license: GPL-2 | GPL-3

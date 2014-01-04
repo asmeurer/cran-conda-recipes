@@ -1,5 +1,5 @@
 package:
-  name: r
+  name: r_base
   version: 3.0.2
 
 source:
@@ -10,7 +10,7 @@ source:
     - share-make-vars.mk.patch
 
 build:
-  number: 3
+  number: 0
 
 requirements:
   build:
