@@ -39,4 +39,12 @@ fi
 make
 make install
 
+# We add symlinks to libR.so and friends because without them, dependent
+# packages like rpy2 pick up the wrong library.  (Even with our fixed
+# RPATH logic.)
+cd $PREFIX/lib
+for _f in R Rblas Rlapack; do
+    ln -sf ../lib$ARCH/R/lib/lib$_f.so lib$_f.so
+done
+
 # vim:set ts=8 sw=4 sts=4 tw=78 et:
