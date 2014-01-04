@@ -2,13 +2,6 @@
 
 _rb_depth=0
 
-_rb_missing_sed="s/^Error: No packages found matching: ([a-z_-]+)$/\1/g"
-
-_rb_cmd() {
-    echo $*
-    eval $*
-}
-
 rb_try_build() {
     local _name=$1
     local _err=$_name.err
@@ -28,27 +21,22 @@ rb_try_build() {
 
     _rb_depth=$(($_rb_depth + 1))
 
-    while [ 1 ]; do
+    while [ $_rb_depth -lt 50 ]; do
         _attempt=$(($_attempt + 1))
-        echo attempt: $_attempt, rb_depth: $_rb_depth, name: $_name
-        echo cmd: $_cmd
         conda build $_name
         _conda_retval=$?
         if [ $_conda_retval -eq 0 ]; then
-            echo success on attempt $_attempt
             _retval=0
             break
         elif [ $_conda_retval -eq 2 ]; then
             _failed_package=$(cat conda-missing-package.txt)
             rm conda-missing-package.txt
-            echo missing package: $_failed_package
-            echo attempting to build recursively...
             if ! rb_try_build $_failed_package ; then
                 echo failed to build $_failed_package recursively, giving up
                 _retval=1
                 break
             else
-                echo built our dependency successfully
+                echo built dependency $_failed_package successfully
                 echo re-attempting another build of $_name
                 _retval=
                 continue
