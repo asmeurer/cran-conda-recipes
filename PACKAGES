@@ -141,6 +141,13 @@ Depends: rJava
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: acm4r
+Site: cran
+Version: 1.0
+Depends: MASS
+License: GPL
+NeedsCompilation: no
+
 Package: ACNE
 Site: cran
 Version: 0.7.0
@@ -243,9 +250,9 @@ NeedsCompilation: yes
 
 Package: AdaptiveSparsity
 Site: cran
-Version: 1.3
-Depends: Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.0)
-LinkingTo: Rcpp, RcppArmadillo
+Version: 1.4
+Depends: R (>= 3.0.2), Rcpp (>= 0.8.0)
+LinkingTo: Rcpp, RcppArmadillo (>= 0.2.0)
 Suggests: MASS, Matrix
 License: LGPL (>= 3.0)
 NeedsCompilation: yes
@@ -1664,7 +1671,7 @@ Package: BayesComm
 Site: cran
 Version: 0.1-0
 Depends: Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.2.4), coda
-LinkingTo: Rcpp, RcppArmadillo, coda
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -2359,7 +2366,7 @@ NeedsCompilation: no
 
 Package: BH
 Site: cran
-Version: 1.51.0-3
+Version: 1.51.0-4
 License: BSL-1.0
 NeedsCompilation: no
 
@@ -2386,7 +2393,7 @@ NeedsCompilation: no
 
 Package: BiasedUrn
 Site: cran
-Version: 1.06
+Version: 1.06.1
 License: GPL-3
 NeedsCompilation: yes
 
@@ -2578,9 +2585,8 @@ NeedsCompilation: no
 
 Package: binom
 Site: cran
-Version: 1.0-5
-Depends: lattice
-Suggests: polynom, tcltk
+Version: 1.1-1
+Suggests: lattice, polynom, tcltk, ggplot2
 License: GPL
 NeedsCompilation: yes
 
@@ -2636,7 +2642,6 @@ Site: cran
 Version: 0.2.1
 Depends: rexpokit, cladoRcpp, ape, phylobase, methods
 Imports: optimx, FD, parallel, xtable, plotrix, gdata
-LinkingTo: ape
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -2742,6 +2747,13 @@ Depends: vegan, sna
 Imports: fields, igraph, MASS, methods, permute
 License: GPL
 NeedsCompilation: yes
+
+Package: biplotbootGUI
+Site: cran
+Version: 1.0
+Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot (>= 0.0-23), vegan (>= 2.0-7), tcltk2 (>= 1.2-5)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: BiplotGUI
 Site: cran
@@ -3084,7 +3096,7 @@ NeedsCompilation: no
 
 Package: bootruin
 Site: cran
-Version: 1.1-579
+Version: 1.2-0
 License: AGPL-3
 NeedsCompilation: yes
 
@@ -3651,9 +3663,10 @@ NeedsCompilation: no
 
 Package: caret
 Site: cran
-Version: 5.17-7
-Depends: R (>= 2.10), cluster, foreach, lattice (>= 0.20), methods, plyr, reshape2, stats
-Suggests: ada, affy, arm, Boruta, bst, C50, car, caTools, class, Cubist, e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree, extraTrees, fastICA, foba, gam, gbm (>= 2.1), glmnet (>= 1.8), gpls, grid, hda, HDclassif, HiDimDA, Hmisc, ipred, kernlab, kknn, klaR, kohonen, KRLS, lars, leaps, LogicForest, logicFS, LogicReg, MASS, mboost, mda, mgcv, mlbench, neuralnet, nnet, nodeHarvest, obliqueRF, pamr, partDSA, party (>= 0.9-99992), penalized, penalizedLDA, pls, pROC, protoclass, proxy, qrnn, quantregForest, randomForest, RANN, relaxo, rFerns, rocc, rpart, rrcov, RRF, rrlda, RSNNS, RWeka (>= 0.4-1), sda, SDDA, sparseLDA (>= 0.1-1), spls, stepPlr, superpc, vbmp
+Version: 6.0-21
+Depends: R (>= 2.10), stats, lattice (>= 0.20), ggplot2
+Imports: car, reshape2, foreach, methods, plyr
+Suggests: e1071, earth (>= 2.2-3), ellipse, fastICA, gam, ipred, kernlab, klaR, MASS, mda, mgcv, mlbench, nnet, party (>= 0.9-99992), pls, pROC, proxy, randomForest, RANN, spls, affy
 License: GPL-2
 NeedsCompilation: yes
 
@@ -4610,7 +4623,7 @@ NeedsCompilation: no
 
 Package: clustrd
 Site: cran
-Version: 0.1.1
+Version: 0.1.2
 Depends: corpcor, e1071, ggplot2, irlba
 License: GPL
 NeedsCompilation: no
@@ -5029,7 +5042,7 @@ NeedsCompilation: no
 
 Package: compHclust
 Site: cran
-Version: 1.0-1
+Version: 1.0-2
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -5062,8 +5075,9 @@ NeedsCompilation: no
 
 Package: compositions
 Site: cran
-Version: 1.30-1
-Depends: R (>= 2.2.0), rgl, tensorA, robustbase, energy
+Version: 1.30-2
+Depends: R (>= 2.2.0), tensorA
+Imports: energy, rgl, robustbase
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -5437,6 +5451,13 @@ Version: 1.0-1
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: cosmosR
+Site: cran
+Version: 1.0
+Depends: xlsx
+License: GPL-3
+NeedsCompilation: no
+
 Package: cosso
 Site: cran
 Version: 2.1-1
@@ -5584,7 +5605,7 @@ NeedsCompilation: no
 
 Package: cpk
 Site: cran
-Version: 1.3
+Version: 1.3-1
 Depends: R (>= 2.10.0)
 License: GPL-2
 NeedsCompilation: no
@@ -5747,8 +5768,9 @@ NeedsCompilation: no
 
 Package: crs
 Site: cran
-Version: 0.15-18
-Suggests: np, npRmpi, rgl, quadprog, quantreg
+Version: 0.15-20
+Imports: boot, stats
+Suggests: np, npRmpi, rgl, quadprog, quantreg, logspline
 License: GPL
 NeedsCompilation: yes
 
@@ -6152,6 +6174,15 @@ Depends: R (>= 2.0.0)
 License: MIT
 NeedsCompilation: no
 
+Package: datalist
+Site: cran
+Version: 0.2
+Depends: R (>= 3.0.2)
+Imports: assertthat
+Suggests: testthat
+License: GPL-2
+NeedsCompilation: no
+
 Package: datamap
 Site: cran
 Version: 0.1-1
@@ -6315,15 +6346,16 @@ NeedsCompilation: no
 
 Package: dcemriS4
 Site: cran
-Version: 0.50
-Depends: R (>= 2.14.0), grDevices, graphics, methods, oro.nifti (>= 0.3.0), parallel, utils
-Suggests: bitops, minpack.lm, splines, XML, oro.dicom
-License: BSD
+Version: 0.51
+Depends: R (>= 2.14.0), oro.nifti (>= 0.3.9)
+Imports: grDevices, graphics, methods, parallel, utils
+Suggests: bitops, minpack.lm, splines, XML, oro.dicom (>= 0.3.7)
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
 
 Package: DCGL
 Site: cran
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 2.10)
 Imports: igraph, limma
 License: GPL (> 2)
@@ -6707,6 +6739,14 @@ Version: 1.0.7
 Depends: R (>= 2.9.0), loglognorm
 License: GPL-2
 NeedsCompilation: yes
+
+Package: DESnowball
+Site: cran
+Version: 1.0
+Depends: R (>= 3.0.0)
+Imports: clue, combinat, MASS, parallel, cluster
+License: GPL-3
+NeedsCompilation: no
 
 Package: deSolve
 Site: cran
@@ -7792,6 +7832,12 @@ Package: DTR
 Site: cran
 Version: 1.2
 Depends: survival, ggplot2, grid, R (>= 3.0.1)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: dtt
+Site: cran
+Version: 0.1-2
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9085,12 +9131,6 @@ Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: ExactSampling
-Site: cran
-Version: 1.0
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: exams
 Site: cran
 Version: 1.9-6
@@ -9204,6 +9244,14 @@ Depends: R (>= 2.12.0), ape, deSolve
 License: BSD_3_clause + file LICENCE
 NeedsCompilation: yes
 
+Package: expp
+Site: cran
+Version: 1.0
+Depends: methods, sp, spdep, rgeos, deldir
+Suggests: knitr, spatstat, lme4
+License: GPL-3
+NeedsCompilation: no
+
 Package: expsmooth
 Site: cran
 Version: 2.02
@@ -9222,6 +9270,13 @@ Site: cran
 Version: 1.0
 Depends: R (>= 2.15.1), stringr, markdown
 License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: extfunnel
+Site: cran
+Version: 1.3
+Depends: rmeta
+License: GPL-2
 NeedsCompilation: no
 
 Package: extraBinomial
@@ -9302,13 +9357,6 @@ Site: cran
 Version: 0.5.3
 Depends: foreach, ggplot2, reshape, plyr, parallel, Jmisc, digest
 License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: factas
-Site: cran
-Version: 2.1
-Depends: Matrix, graphics, plotrix, datasets, FactoMineR
-License: GPL
 NeedsCompilation: no
 
 Package: FactMixtAnalysis
@@ -9401,7 +9449,6 @@ Package: FAMT
 Site: cran
 Version: 2.5
 Depends: mnormt, impute
-LinkingTo: mnormt
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -9708,9 +9755,9 @@ NeedsCompilation: no
 
 Package: fdaMixed
 Site: cran
-Version: 0.2
-Depends: Rcpp (>= 0.9.0), RcppArmadillo (>= 0.2.10), Formula (>= 1.0-0)
-LinkingTo: Rcpp, RcppArmadillo, Formula
+Version: 0.3
+Depends: R (>= 3.0.2), Formula (>= 1.0-0)
+LinkingTo: Rcpp (>= 0.9.0), RcppArmadillo (>= 0.2.10)
 License: GPL-2
 NeedsCompilation: yes
 
@@ -9979,6 +10026,13 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: financial
+Site: cran
+Version: 0.2
+Depends: R (>= 2.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: FinancialInstrument
 Site: cran
 Version: 1.1
@@ -10102,6 +10156,12 @@ Suggests: actuar, rgenoud, mc2d
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: fitDRC
+Site: cran
+Version: 1.1
+License: GPL-2
+NeedsCompilation: no
+
 Package: fit.models
 Site: cran
 Version: 0.5-10
@@ -10218,13 +10278,6 @@ Depends: R (>= 2.0.0)
 Suggests: testthat
 License: GPL-2
 NeedsCompilation: yes
-
-Package: flubase
-Site: cran
-Version: 1.0
-Depends: R (>= 2.7), forecast, FinTS
-License: GPL (>= 2)
-NeedsCompilation: no
 
 Package: FluOMatic
 Site: cran
@@ -10510,7 +10563,7 @@ NeedsCompilation: no
 
 Package: fptdApprox
 Site: cran
-Version: 1.2
+Version: 2.0
 License: GPL-2
 NeedsCompilation: no
 
@@ -10525,6 +10578,15 @@ Package: fracprolif
 Site: cran
 Version: 1.0.5
 Depends: emg (>= 1.0.5), numDeriv, methods
+License: GPL-2
+NeedsCompilation: no
+
+Package: fractal
+Site: cran
+Version: 2.0-0
+Depends: R (>= 3.0.2), splus2R (>= 1.2-0), ifultools (>= 2.0-0)
+Imports: sapa(>= 2.0-0), wmtsa (>= 2.0-0), scatterplot3d
+Suggests: akima
 License: GPL-2
 NeedsCompilation: no
 
@@ -10608,9 +10670,9 @@ NeedsCompilation: yes
 
 Package: fRegression
 Site: cran
-Version: 3010.79
-Depends: R (>= 2.4.0), fBasics, fTrading, fMultivar, nnet, mgcv
-Imports: methods, lmtest, polspline
+Version: 3010.80
+Depends: R (>= 2.4.0), fBasics, fTrading, fMultivar, mgcv, nnet
+Imports: methods, polspline, lmtest, MASS
 Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -10783,13 +10845,6 @@ Suggests: RUnit
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: FunNet
-Site: cran
-Version: 1.00-12
-Depends: R (>= 2.10), ade4, cluster, Hmisc, nlme, sna, Cairo
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: FusedPCA
 Site: cran
 Version: 0.2
@@ -10843,9 +10898,8 @@ NeedsCompilation: no
 
 Package: FuzzyNumbers
 Site: cran
-Version: 0.3-1
-Depends: R (>= 2.12.0), base, methods, grDevices, graphics, stats
-Suggests: testthat
+Version: 0.3-3
+Depends: R (>= 2.12.0), methods, grDevices, graphics, stats
 License: LGPL (>= 3)
 NeedsCompilation: no
 
@@ -11162,15 +11216,6 @@ Depends: R (>= 2.0.1), polynom, orthopolynom
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: gazetools
-Site: cran
-Version: 3.0
-Depends: R (>= 2.14), Matrix, methods,
-Imports: rgeos, maptools, deldir, sp, modeest, signal, zoo, Rmisc, reshape, plyr, spatstat, ggplot2
-Enhances: sp, ggplot2
-License: GPL-3
-NeedsCompilation: no
-
 Package: gb
 Site: cran
 Version: 1.1.8-8
@@ -11371,11 +11416,18 @@ NeedsCompilation: no
 
 Package: GenABEL
 Site: cran
-Version: 1.7-6
-Depends: R (>= 2.10.0), methods, MASS, utils
+Version: 1.8-0
+Depends: R (>= 2.15.0), methods, MASS, utils, GenABEL.data
 Suggests: qvalue, genetics, haplo.stats, DatABEL (>= 0.9-0), hglm, MetABEL, PredictABEL, VariABEL, bigRR
 License: GPL (>= 2)
 NeedsCompilation: yes
+
+Package: GenABEL.data
+Site: cran
+Version: 1.0.0
+Depends: R (>= 2.15.0)
+License: GPL (>= 2)
+NeedsCompilation: no
 
 Package: genalg
 Site: cran
@@ -11703,9 +11755,9 @@ NeedsCompilation: no
 
 Package: geozoo
 Site: cran
-Version: 0.4.2
-Depends: R (>= 1.8.0), bitops, tourr
-Enhances: rggobi
+Version: 0.4.3
+Depends: R (>= 1.8.0), bitops
+Suggests: tourr
 License: GPL-2
 NeedsCompilation: no
 
@@ -11770,10 +11822,10 @@ NeedsCompilation: no
 
 Package: GGally
 Site: cran
-Version: 0.4.4
+Version: 0.4.5
 Depends: R (>= 3.0), ggplot2 (>= 0.9.3.1), reshape (>= 0.8.4)
-Imports: grid (>= 3.0.0), gtable (>= 0.1.2), stringr (>= 0.6.2)
-Suggests: scagnostics, intergraph (>= 2.0-0), network (>= 1.7.2), RColorBrewer (>= 1.0-5), sna (>= 2.3-1)
+Imports: grid (>= 3.0.0), gtable (>= 0.1.2), plyr (>= 1.8), stringr (>= 0.6.2)
+Suggests: intergraph (>= 2.0-0), network (>= 1.7.2), RColorBrewer (>= 1.0-5), scales (>= 0.2.3), scagnostics (>= 0.2-4), sna (>= 2.3-1), survival (>= 2.37-4)
 License: GPL (>= 2.0)
 NeedsCompilation: no
 
@@ -11787,7 +11839,7 @@ NeedsCompilation: no
 
 Package: GGEBiplotGUI
 Site: cran
-Version: 1.0-6
+Version: 1.0-7
 Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot (>= 0.0-23)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -11881,7 +11933,7 @@ NeedsCompilation: no
 
 Package: ggtern
 Site: cran
-Version: 1.0.1.3
+Version: 1.0.2.0
 Depends: ggplot2(>= 0.9.3.1)
 Imports: plyr, gtable, scales, reshape2, proto, MASS, sp, grid
 License: GPL-2
@@ -12059,18 +12111,13 @@ Suggests: mvtnorm
 License: GPL-2
 NeedsCompilation: yes
 
-Package: glmmAK
-Site: cran
-Version: 1.7
-Depends: R (>= 2.10.0), smoothSurv, coda, mvtnorm
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: glmmBUGS
 Site: cran
-Version: 2.0
-Depends: R (>= 2.10), MASS, nlme, abind, spdep, RandomFields, raster
-Enhances: R2WinBUGS, BRugs, R2jags
+Version: 2.3
+Depends: R (>= 3.0.0)
+Imports: MASS, abind,
+Suggests: spdep
+Enhances: R2WinBUGS, R2OpenBUGS, BRugs, R2jags, sp, nlme
 License: GPL
 NeedsCompilation: no
 
@@ -12104,8 +12151,9 @@ NeedsCompilation: yes
 
 Package: glmnetcr
 Site: cran
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 2.10), glmnet
+Suggests: tools
 License: GPL-2
 NeedsCompilation: no
 
@@ -12118,8 +12166,9 @@ NeedsCompilation: yes
 
 Package: glmpathcr
 Site: cran
-Version: 1.0.2
+Version: 1.0.3
 Depends: R (>= 2.10), glmpath, mvtnorm
+Suggests: tools
 License: GPL-2
 NeedsCompilation: no
 
@@ -12271,7 +12320,7 @@ NeedsCompilation: yes
 
 Package: gnm
 Site: cran
-Version: 1.0-6
+Version: 1.0-7
 Depends: R (>= 2.3.0)
 Imports: MASS, stats, graphics, Matrix, nnet, qvcalc (>= 0.8-3), relimp
 Suggests: vcdExtra
@@ -12439,6 +12488,14 @@ Version: 0.4
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: GPFDA
+Site: cran
+Version: 1.0
+Depends: R (>= 3.0),data.table,fda,spam
+Imports: MASS
+License: GPL-3
+NeedsCompilation: no
+
 Package: GPfit
 Site: cran
 Version: 0.1-0
@@ -12530,7 +12587,6 @@ Package: GRaF
 Site: cran
 Version: 0.1-11
 Depends: dismo
-LinkingTo: dismo
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -12594,7 +12650,7 @@ NeedsCompilation: no
 Package: gRbase
 Site: cran
 Version: 1.6-12
-Depends: R (>= 2.15.2),methods,graph
+Depends: R (>= 2.15.2),methods,graph,Rcpp
 Imports: Matrix,RBGL,igraph
 LinkingTo: Rcpp,RcppArmadillo,RcppEigen
 Suggests: Rgraphviz
@@ -12720,7 +12776,7 @@ Package: growcurves
 Site: cran
 Version: 0.2.3.5
 Depends: Rcpp (>= 0.10.1), RcppArmadillo (>= 0.3.4.4), reshape2 (>= 1.2.1), scales (>= 0.2.0), ggplot2 (>= 0.9.2), Formula (>= 1.0-0), testthat (>= 0.5)
-LinkingTo: Rcpp, RcppArmadillo, reshape2, scales, ggplot2, Formula, testthat
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -12796,8 +12852,8 @@ NeedsCompilation: no
 
 Package: gsDesign
 Site: cran
-Version: 2.8-7
-Depends: ggplot2, xtable, stringr, RUnit, plyr
+Version: 2.8-8
+Depends: R (>= 3.0.0), ggplot2, xtable, stringr, RUnit, plyr
 Suggests: knitr
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -14231,6 +14287,12 @@ Suggests: wavethresh
 License: GPL-2
 NeedsCompilation: no
 
+Package: icapca
+Site: cran
+Version: 1.0
+License: Unlimited
+NeedsCompilation: yes
+
 Package: ICC
 Site: cran
 Version: 2.2.1
@@ -14359,8 +14421,8 @@ NeedsCompilation: yes
 
 Package: ifultools
 Site: cran
-Version: 1.1-3
-Depends: R (>= 2.14.0), splus2R (>= 1.1-0), MASS
+Version: 2.0-0
+Depends: R (>= 3.0.2), splus2R (>= 1.2-0), MASS
 License: GPL-2
 NeedsCompilation: yes
 
@@ -14491,7 +14553,7 @@ NeedsCompilation: yes
 
 Package: indicspecies
 Site: cran
-Version: 1.7.0
+Version: 1.7.1
 Depends: permute
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -14540,7 +14602,7 @@ NeedsCompilation: no
 
 Package: influence.SEM
 Site: cran
-Version: 1.1
+Version: 1.2
 Depends: lavaan
 Suggests: tcltk
 License: GPL (>= 2)
@@ -15004,13 +15066,6 @@ Suggests: testthat
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: iSubpathwayMiner
-Site: cran
-Version: 3.0
-Depends: R (>= 2.15.1),graph,RBGL,igraph,XML,utils
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: isva
 Site: cran
 Version: 1.8
@@ -15270,7 +15325,7 @@ NeedsCompilation: no
 
 Package: jsonlite
 Site: cran
-Version: 0.9.1
+Version: 0.9.3
 Depends: methods
 Suggests: testthat, knitr, reshape2, httr
 License: Apache License (== 2.0)
@@ -16162,7 +16217,7 @@ NeedsCompilation: no
 
 Package: ldr
 Site: cran
-Version: 1.2-1
+Version: 1.3
 Depends: R (>= 2.10), GrassmannOptim, Matrix
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -16231,7 +16286,7 @@ NeedsCompilation: yes
 
 Package: lessR
 Site: cran
-Version: 2.9.7
+Version: 3.0
 Depends: R (>= 2.15.0)
 Imports: car, leaps, foreign, MBESS, gdata
 License: GPL (>= 2)
@@ -16246,7 +16301,7 @@ NeedsCompilation: no
 
 Package: lfe
 Site: cran
-Version: 1.6-1163
+Version: 1.6-1180
 Depends: Matrix, R (>= 2.10.1)
 Suggests: compiler, igraph, knitr, Rcgmin
 License: Artistic-2.0
@@ -17135,13 +17190,13 @@ NeedsCompilation: no
 
 Package: lubridate
 Site: cran
-Version: 1.3.2
+Version: 1.3.3
 Depends: methods, R (>= 3.0.0)
 Imports: plyr, stringr, memoise
 Suggests: testthat, knitr
 Enhances: chron, timeDate, zoo, xts, its, tis, timeSeries, fts, tseries
 License: GPL
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: luca
 Site: cran
@@ -17221,7 +17276,7 @@ NeedsCompilation: no
 
 Package: mada
 Site: cran
-Version: 0.5.4
+Version: 0.5.5
 Depends: stats, mvtnorm, ellipse, mvmeta
 License: GPL-2
 NeedsCompilation: no
@@ -17513,7 +17568,7 @@ NeedsCompilation: no
 
 Package: markovchain
 Site: cran
-Version: 0.0.3
+Version: 0.0.5
 Depends: R (>= 2.14), methods
 Imports: igraph, Matrix, matlab, expm
 License: GPL-2
@@ -17630,7 +17685,7 @@ NeedsCompilation: no
 
 Package: Matrix
 Site: cran
-Version: 1.1-0
+Version: 1.1-1.1
 Priority: recommended
 Depends: R (>= 2.15.0), methods
 Imports: graphics, grid, stats, utils, lattice
@@ -17662,7 +17717,7 @@ NeedsCompilation: no
 
 Package: matrixpls
 Site: cran
-Version: 0.1.0
+Version: 0.2.0
 Suggests: assertive, matrixcalc, plspm, simsem, boot, psych, lavaan, MASS, RUnit, parallel
 License: GPL-3
 NeedsCompilation: no
@@ -17754,6 +17809,12 @@ Package: MBI
 Site: cran
 Version: 1.0
 License: GPL-2
+NeedsCompilation: no
+
+Package: mblm
+Site: cran
+Version: 0.12
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: MBmca
@@ -17923,7 +17984,7 @@ NeedsCompilation: no
 
 Package: MCMC.qpcr
 Site: cran
-Version: 1.0.1
+Version: 1.0.2
 Depends: MCMCglmm
 License: GPL-3
 NeedsCompilation: no
@@ -18275,13 +18336,6 @@ Depends: stats, mvtnorm, ellipse, bbmle, rjags, coda
 License: GPL-2
 NeedsCompilation: no
 
-Package: MetaPath
-Site: cran
-Version: 0.9
-Depends: R(>= 2.13.0),Biobase,AnnotationDbi,genefilter,GSEABase,limma,impute,qvalue
-License: GPL (>= 2.0)
-NeedsCompilation: no
-
 Package: MetaPCA
 Site: cran
 Version: 0.1.4
@@ -18349,7 +18403,7 @@ NeedsCompilation: no
 
 Package: metRology
 Site: cran
-Version: 0.9-16
+Version: 0.9-16.1
 Depends: R (>= 2.14.0), base, stats, graphics, MASS, numDeriv
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -18501,8 +18555,9 @@ NeedsCompilation: yes
 
 Package: mhurdle
 Site: cran
-Version: 0.1-3
+Version: 1.0-1
 Depends: R (>= 2.10), Formula, truncreg, maxLik, pbivnorm
+Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -18790,8 +18845,8 @@ NeedsCompilation: no
 
 Package: missForest
 Site: cran
-Version: 1.3-1
-Depends: randomForest
+Version: 1.4
+Depends: randomForest,foreach,itertools
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -19139,8 +19194,9 @@ NeedsCompilation: no
 
 Package: mlogit
 Site: cran
-Version: 0.2-3
-Depends: R (>= 2.10), Formula, statmod, lmtest, maxLik, zoo, MASS
+Version: 0.2-4
+Depends: R (>= 2.10), Formula, maxLik
+Imports: statmod, zoo, MASS, lmtest
 Suggests: car, nnet, lattice, AER
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19239,14 +19295,14 @@ NeedsCompilation: no
 
 Package: mmm
 Site: cran
-Version: 1.3
+Version: 1.4
 Depends: gee
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: mmm2
 Site: cran
-Version: 1.1
+Version: 1.2
 Depends: gee
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -19496,7 +19552,7 @@ NeedsCompilation: yes
 
 Package: moonsun
 Site: cran
-Version: 0.1.2
+Version: 0.1.3
 License: GPL-2
 NeedsCompilation: no
 
@@ -19524,7 +19580,7 @@ NeedsCompilation: no
 
 Package: MortalitySmooth
 Site: cran
-Version: 2.3.1
+Version: 2.3.2
 Depends: R (>= 2.10), svcm, lattice
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -20039,8 +20095,9 @@ NeedsCompilation: yes
 
 Package: multiDimBio
 Site: cran
-Version: 0.2.4
-Depends: ggplot2 (>= 0.9.3), pcaMethods (>= 1.48.0), MASS (>= 7.3.0), misc3d (>= 0.8-4), RColorBrewer (>= 1.0-5)
+Version: 0.3.2
+Imports: ggplot2 (>= 0.9.3.1), lme4 (>= 1.0-5), pcaMethods (>= 1.48.0), misc3d (>= 0.8-4), MASS (>= 7.3-29), foreach (>= 1.4.1), RColorBrewer(>= 1.0-5)
+Enhances: doMC(>= 1.3.2)
 License: GPL (>= 3.0)
 NeedsCompilation: no
 
@@ -20399,7 +20456,7 @@ NeedsCompilation: no
 
 Package: mvSLOUCH
 Site: cran
-Version: 1.0
+Version: 1.1
 Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
 License: GPL (>= 2) | file LICENCE
 NeedsCompilation: no
@@ -20439,6 +20496,13 @@ Site: cran
 Version: 1.1
 Depends: R(>= 2.13.0)
 License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: mycobacrvR
+Site: cran
+Version: 1.0
+Depends: R (>= 2.15), methods
+License: GPL-2
 NeedsCompilation: no
 
 Package: myepisodes
@@ -20637,13 +20701,6 @@ Suggests: tergm (>= 3.1),testthat
 License: GPL-3 + file LICENSE
 NeedsCompilation: no
 
-Package: ndvits
-Site: cran
-Version: 1.0.1
-Depends: R (>= 2.10), gstat, rgdal, bfast, RTisean, RColorBrewer, lattice
-License: GPL-2
-NeedsCompilation: no
-
 Package: neariso
 Site: cran
 Version: 1.0
@@ -20801,13 +20858,6 @@ Suggests: Hmisc
 License: GPL (>= 2)
 NeedsCompilation: yes
 
-Package: networkTomography
-Site: cran
-Version: 0.2
-Depends: R (>= 2.10.0), Rglpk (>= 0.3), coda (>= 0.11-3), MASS, KFAS (>= 0.9), limSolve (>= 1.4), igraph (>= 0.5), stringr, plyr
-License: LGPL-2
-NeedsCompilation: yes
-
 Package: neuralnet
 Site: cran
 Version: 1.32
@@ -20846,7 +20896,7 @@ NeedsCompilation: no
 
 Package: ngramr
 Site: cran
-Version: 1.4.0
+Version: 1.4.2
 Depends: R (>= 2.15)
 Imports: httr, RCurl, plyr, rjson, stringr, reshape2, ggplot2, scales
 License: GPL (>= 2)
@@ -21339,7 +21389,7 @@ NeedsCompilation: no
 
 Package: npRmpi
 Site: cran
-Version: 0.50-1
+Version: 0.50-1.1
 Depends: boot, cubature
 Suggests: quantreg, MASS, parallel
 License: GPL
@@ -21745,13 +21795,6 @@ Imports: methods, rjson, RCurl, reshape2, triangle, httpRequest, digest, xtable
 License: GPL-3
 NeedsCompilation: no
 
-Package: OPDOE
-Site: cran
-Version: 1.0-7
-Depends: orthopolynom, conf.design, mvtnorm, nlme, gmp, crossdes
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: OPE
 Site: cran
 Version: 0.7
@@ -22119,20 +22162,21 @@ NeedsCompilation: yes
 
 Package: oro.dicom
 Site: cran
-Version: 0.3.7
-Depends: oro.nifti (>= 0.3.0), R (>= 2.13.0), utils
+Version: 0.4.0
+Depends: R (>= 2.14.0)
+Imports: oro.nifti (>= 0.3.9), utils
 Suggests: hwriter
-License: BSD
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: oro.nifti
 Site: cran
-Version: 0.3.9
-Depends: R (>= 2.13.0), bitops, graphics, grDevices, methods, utils
-Imports: splines
+Version: 0.4.0
+Depends: R (>= 2.14.0)
+Imports: bitops, splines, graphics, grDevices, methods, utils
 Suggests: XML
 Enhances: fmri
-License: BSD
+License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
 
 Package: oro.pet
@@ -22198,7 +22242,7 @@ NeedsCompilation: yes
 
 Package: outbreaker
 Site: cran
-Version: 1.1-0
+Version: 1.1-1
 Depends: R (>= 3.0.0)
 Imports: utils, ape, igraph, adegenet, parallel
 Suggests: EpiEstim
@@ -22382,7 +22426,7 @@ NeedsCompilation: no
 
 Package: paleotree
 Site: cran
-Version: 1.8.2
+Version: 1.9
 Depends: R (>= 3.0.0), ape
 Imports: phangorn
 License: GPL (>= 2)
@@ -23020,7 +23064,7 @@ Package: PedCNV
 Site: cran
 Version: 0.1
 Depends: Rcpp (>= 0.10.4), RcppArmadillo (>= 0.3.900.0), ggplot2
-LinkingTo: Rcpp, RcppArmadillo, ggplot2
+LinkingTo: Rcpp, RcppArmadillo
 License: MIT + file LICENSE
 NeedsCompilation: yes
 
@@ -23174,6 +23218,13 @@ Suggests: Hmisc, MASS, tseries, quadprog, sn, robustbase, quantreg, gplots, ff
 License: GPL
 NeedsCompilation: no
 
+Package: performanceEstimation
+Site: cran
+Version: 0.1
+Depends: R(>= 3.0), methods, graphics, ggplot2 (>= 0.9.3)
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: perm
 Site: cran
 Version: 1.0-0.0
@@ -23283,8 +23334,9 @@ NeedsCompilation: no
 
 Package: pglm
 Site: cran
-Version: 0.1-0
-Depends: R (>= 1.8.0), maxLik, statmod, plm
+Version: 0.1-2
+Depends: R (>= 2.10), maxLik, plm
+Imports: statmod
 Suggests: lmtest, car
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -23328,7 +23380,6 @@ Site: cran
 Version: 1.99-5
 Depends: R (>= 2.15.0), ape (>= 3.0-11), rgl
 Imports: quadprog, igraph (>= 0.6), Matrix, fastmatch
-LinkingTo: ape
 Suggests: parallel, seqLogo, seqinr, xtable, flashClust, phytools
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -23416,14 +23467,6 @@ Suggests: lme4 (>= 1.0)
 License: GPL-3
 NeedsCompilation: yes
 
-Package: phom
-Site: cran
-Version: 1.0.2
-Depends: Rcpp (>= 0.9.7)
-LinkingTo: Rcpp
-License: BSD
-NeedsCompilation: yes
-
 Package: phonR
 Site: cran
 Version: 0.4-2
@@ -23433,7 +23476,7 @@ NeedsCompilation: no
 
 Package: phonTools
 Site: cran
-Version: 0.2-1
+Version: 0.2-1.1
 Depends: R (>= 2.15)
 License: BSD_2_clause + file LICENSE
 NeedsCompilation: no
@@ -23508,13 +23551,6 @@ Suggests: vegan
 License: GPL-2
 NeedsCompilation: no
 
-Package: phyloTop
-Site: cran
-Version: 1.0
-Depends: grid, graphics, grDevices, stats, utils, ape, phylobase, datasets, methods (>= 2.15.2)
-License: GPL-2
-NeedsCompilation: no
-
 Package: PhysicalActivity
 Site: cran
 Version: 0.1-1
@@ -23546,6 +23582,13 @@ Depends: ape, vegan, nlme
 Suggests: brglm, circular, corpcor, quantreg
 License: GPL-2
 NeedsCompilation: yes
+
+Package: PIGE
+Site: cran
+Version: 0.9
+Depends: snowfall,ARTP,xtable,survival
+License: GPL (>= 2.0)
+NeedsCompilation: no
 
 Package: PIN
 Site: cran
@@ -23748,9 +23791,10 @@ NeedsCompilation: no
 
 Package: plm
 Site: cran
-Version: 1.3-1
-Depends: R (>= 2.10), stats, bdsmatrix, nlme, Formula (>= 0.2-0), MASS, sandwich, zoo
-Suggests: lattice, lmtest, car, AER
+Version: 1.4-0
+Depends: R (>= 2.10), Formula (>= 0.2-0), stats
+Imports: MASS, bdsmatrix, zoo, nlme, sandwich
+Suggests: lattice, car, AER, lmtest
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -23849,7 +23893,7 @@ NeedsCompilation: no
 
 Package: PLRModels
 Site: cran
-Version: 1.0
+Version: 1.1
 License: GPL
 NeedsCompilation: no
 
@@ -24343,6 +24387,13 @@ Depends: R (>= 3.0), parallel
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: Power2Stage
+Site: cran
+Version: 0.0-6
+Depends: PowerTOST
+License: GPL (>= 2)
+NeedsCompilation: no
+
 Package: powerAnalysis
 Site: cran
 Version: 0.2
@@ -24388,15 +24439,16 @@ NeedsCompilation: no
 
 Package: PowerTOST
 Site: cran
-Version: 1.1-07
+Version: 1.1-08
 Depends: mvtnorm
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: PP
 Site: cran
-Version: 0.2
+Version: 0.2-1
 Depends: R (>= 2.15.0), splines
+Suggests: testthat
 License: GPL
 NeedsCompilation: no
 
@@ -24562,7 +24614,7 @@ NeedsCompilation: no
 
 Package: prevR
 Site: cran
-Version: 2.8
+Version: 2.9
 Depends: R (>= 2.10), methods, sp, gstat, GenKern, rgdal (>= 0.7-4), fields
 Suggests: foreign, tcltk, geoR, maptools
 License: CeCILL
@@ -24649,11 +24701,13 @@ NeedsCompilation: no
 
 Package: pROC
 Site: cran
-Version: 1.5.4
-Depends: plyr, R (>= 2.10), utils
-Suggests: tcltk, MASS, logcondens
+Version: 1.6.0.1
+Depends: R (>= 2.13)
+Imports: plyr, utils, methods, Rcpp
+LinkingTo: Rcpp
+Suggests: microbenchmark, tcltk, MASS, logcondens
 License: GPL (>= 3)
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: processdata
 Site: cran
@@ -25102,7 +25156,7 @@ NeedsCompilation: no
 
 Package: pumilioR
 Site: cran
-Version: 1.0
+Version: 1.1
 Depends: R(>= 2.12.1), XML
 License: GPL-3
 NeedsCompilation: no
@@ -25280,7 +25334,7 @@ NeedsCompilation: yes
 
 Package: qiimer
 Site: cran
-Version: 0.9.1
+Version: 0.9.2
 Imports: pheatmap
 Suggests: testthat, biom
 License: GPL (>= 2)
@@ -25337,7 +25391,7 @@ NeedsCompilation: no
 
 Package: qrfactor
 Site: cran
-Version: 1.3
+Version: 1.4
 Depends: R (>= 2.10), mvoutlier,mgraph,pvclust,cluster,maptools
 Suggests: MASS
 License: GPL-2
@@ -25362,14 +25416,6 @@ Site: cran
 Version: 1.3
 Depends: R (>= 2.10)
 License: GPL
-NeedsCompilation: no
-
-Package: QT
-Site: cran
-Version: 1.3
-Depends: R (>= 2.9.2), Hmisc, lattice, SASxport, grid
-Suggests: R2wd
-License: LGPL (>= 2.1)
 NeedsCompilation: no
 
 Package: qtbase
@@ -25756,6 +25802,13 @@ Depends: s20x, leaps, rgl, lattice
 License: GPL-2
 NeedsCompilation: no
 
+Package: R4CouchDB
+Site: cran
+Version: 0.4
+Depends: R (>= 2.7.0), bitops, RCurl (>= 1.95), RJSONIO (>= 1.0)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
 Package: R4dfp
 Site: cran
 Version: 0.2-4
@@ -25949,7 +26002,6 @@ Site: cran
 Version: 0.2-4
 Depends: R (>= 2.15.0), methods, utils, RSQLite, rgdal
 Imports: sp, raster, maptools, RSQLite.extfuns, lattice, RColorBrewer, classInt
-LinkingTo: rgdal
 Suggests: rgeos, shiny
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -26037,9 +26089,9 @@ NeedsCompilation: no
 
 Package: raster
 Site: cran
-Version: 2.1-66
-Depends: methods, sp (>= 1.0-11), R (>= 2.15.0)
-Suggests: rgdal (>= 0.8-10), rgeos (>= 0.2-3), ncdf, ncdf4, igraph, snow, tcltk, rasterVis
+Version: 2.2-5
+Depends: methods, sp (>= 1.0-13), R (>= 2.15.0)
+Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-1), ncdf, ncdf4, igraph, snow, tcltk, rasterVis
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -26154,8 +26206,8 @@ NeedsCompilation: no
 
 Package: Rbitcoin
 Site: cran
-Version: 0.6
-Imports: RJSONIO, RCurl, digest, data.table
+Version: 0.8
+Depends: RJSONIO, RCurl, digest, data.table
 License: MIT + file LICENSE
 NeedsCompilation: no
 
@@ -26200,7 +26252,6 @@ Package: RCA
 Site: cran
 Version: 1.4.5
 Depends: igraph, R (>= 2.15.1)
-LinkingTo: igraph
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -26832,10 +26883,10 @@ NeedsCompilation: no
 
 Package: R.devices
 Site: cran
-Version: 2.7.2
+Version: 2.8.2
 Depends: R (>= 2.10.0)
-Imports: R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>= 1.27.1)
-Suggests: digest (>= 0.6.3), base64enc (>= 0.1-1), R.rsp (>= 0.9.28)
+Imports: R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>= 1.28.4), base64enc (>= 0.1-1)
+Suggests: digest (>= 0.6.4), R.rsp (>= 0.9.28)
 License: LGPL (>= 2.1)
 NeedsCompilation: no
 
@@ -27628,7 +27679,7 @@ NeedsCompilation: no
 
 Package: rgabriel
 Site: cran
-Version: 0.4
+Version: 0.7
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -27636,7 +27687,7 @@ Package: rgam
 Site: cran
 Version: 0.6.1
 Depends: Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.1), stats
-LinkingTo: Rcpp, RcppArmadillo, stats
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 3)
 NeedsCompilation: yes
 
@@ -27916,14 +27967,6 @@ Site: cran
 Version: 1.1
 License: GPL-2 | GPL-3
 NeedsCompilation: no
-
-Package: RiDMC
-Site: cran
-Version: 0.10-15
-Depends: grid
-Suggests: tcltk
-License: GPL-2
-NeedsCompilation: yes
 
 Package: RIFS
 Site: cran
@@ -28720,7 +28763,7 @@ Package: robustgam
 Site: cran
 Version: 0.1.7
 Depends: Rcpp (>= 0.9.13), RcppArmadillo (>= 0.3.4.4) , mgcv (>= 1.7-20), robustbase (>= 0.9-3)
-LinkingTo: Rcpp, RcppArmadillo, mgcv, robustbase
+LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -28770,6 +28813,13 @@ Version: 1.1-4
 Depends: robustbase
 Suggests: MASS, lattice
 Enhances: ICS
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ROC632
+Site: cran
+Version: 0.6
+Depends: R (>= 2.10), splines, survival, penalized, survivalROC
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -29042,7 +29092,7 @@ NeedsCompilation: no
 
 Package: rpf
 Site: cran
-Version: 0.17
+Version: 0.18
 Depends: methods, mvtnorm, R (>= 2.14.0)
 Suggests: plink, testthat, roxygen2, ggplot2, reshape2, gridExtra, numDeriv, knitr, mirt
 License: GPL (>= 3)
@@ -29081,8 +29131,8 @@ NeedsCompilation: no
 
 Package: RPMG
 Site: cran
-Version: 2.1-4
-License: GPL
+Version: 2.1-5
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: RPMM
@@ -29244,7 +29294,7 @@ NeedsCompilation: yes
 
 Package: rrdf
 Site: cran
-Version: 2.0.0
+Version: 2.0.2
 Depends: R (>= 2.0.0), rJava, rrdflibs (>= 1.3.0)
 License: AGPL-3
 NeedsCompilation: no
@@ -29615,14 +29665,6 @@ Depends: R (>= 2.14), graphics
 License: GPL-3
 NeedsCompilation: no
 
-Package: RTDAmeritrade
-Site: cran
-Version: 0.0.1
-Depends: R (>= 2.9.1), xts, zoo, XML, RCurl, sfsmisc
-Suggests: snow
-License: GPL (>= 2)
-NeedsCompilation: no
-
 Package: rtematres
 Site: cran
 Version: 0.2
@@ -29630,13 +29672,6 @@ Imports: XML, RCurl, plyr, gdata
 Suggests: ggplot2,
 License: GPL-3
 NeedsCompilation: no
-
-Package: RTextTools
-Site: cran
-Version: 1.4.1
-Depends: R (>= 2.15.0), methods, SparseM, randomForest, tree, nnet, tm, e1071, ipred, caTools, maxent, glmnet, tau
-License: GPL-3
-NeedsCompilation: yes
 
 Package: rtf
 Site: cran
@@ -30114,7 +30149,7 @@ NeedsCompilation: no
 
 Package: samplingVarEst
 Site: cran
-Version: 0.9-7
+Version: 0.9-8
 Depends: R (>= 3.0.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -30158,8 +30193,8 @@ NeedsCompilation: no
 
 Package: sapa
 Site: cran
-Version: 1.1-0
-Depends: R (>= 2.5.1), ifultools (>= 1.1-0), splus2R (>= 1.1-0)
+Version: 2.0-0
+Depends: R (>= 3.0.2), ifultools (>= 2.0-0), splus2R (>= 1.2-0)
 License: GPL-2
 NeedsCompilation: yes
 
@@ -30215,7 +30250,7 @@ NeedsCompilation: yes
 
 Package: saves
 Site: cran
-Version: 0.4
+Version: 0.5
 License: AGPL-3
 NeedsCompilation: no
 
@@ -30628,7 +30663,7 @@ NeedsCompilation: yes
 
 Package: sdprisk
 Site: cran
-Version: 1.0-0
+Version: 1.0-3
 Imports: numDeriv, PolynomF, rootSolve
 License: AGPL-3
 NeedsCompilation: yes
@@ -30680,6 +30715,14 @@ Version: 0.20.2
 Imports: stringr
 Enhances: manipulate
 License: GPL-3
+NeedsCompilation: no
+
+Package: seawaveQ
+Site: cran
+Version: 1.0.0
+Depends: R (>= 2.15.3), survival, NADA, lubridate
+Suggests: waterData
+License: Unlimited
 NeedsCompilation: no
 
 Package: SEchart
@@ -30742,8 +30785,9 @@ NeedsCompilation: yes
 
 Package: seg
 Site: cran
-Version: 0.3-3
-Depends: R (>= 2.10.0), methods, stats, sp, raster, spatstat (>= 1.27.0)
+Version: 0.4-1
+Depends: R (>= 3.0.0), methods, stats, sp
+Imports: splancs
 Suggests: spdep
 License: GPL (>= 3)
 NeedsCompilation: yes
@@ -30988,13 +31032,6 @@ Version: 1.0
 Depends: MASS, RColorBrewer
 License: Artistic-2.0
 NeedsCompilation: no
-
-Package: seq2R
-Site: cran
-Version: 1.0
-Depends: R (>= 2.15.1), seqinr
-License: GPL
-NeedsCompilation: yes
 
 Package: seqCBS
 Site: cran
@@ -31260,8 +31297,8 @@ NeedsCompilation: no
 
 Package: SharpeR
 Site: cran
-Version: 0.1310
-Depends: R (>= 3.0.0), xtable
+Version: 0.1401
+Depends: R (>= 3.0.0), matrixcalc, xtable
 Suggests: quantmod, MASS, TTR, testthat, sandwich, knitr
 License: LGPL-3
 NeedsCompilation: no
@@ -31320,6 +31357,13 @@ Depends: R (>= 2.12), boot
 Imports: coin, energy, graphics, grDevices, mvoutlier, robustbase, stats, utils, KernSmooth
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: showtext
+Site: cran
+Version: 0.2
+Depends: sysfonts (>= 0.1)
+License: Apache License (>= 2.0)
+NeedsCompilation: yes
 
 Package: shrink
 Site: cran
@@ -31394,7 +31438,7 @@ NeedsCompilation: no
 
 Package: SigTree
 Site: cran
-Version: 1.3
+Version: 1.4
 Depends: ape, phylobase, phyext, RColorBrewer, phyloseq
 License: GPL-3
 NeedsCompilation: yes
@@ -31596,7 +31640,7 @@ NeedsCompilation: no
 
 Package: SIN
 Site: cran
-Version: 0.5
+Version: 0.6
 Depends: R (>= 1.8.0)
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -31639,13 +31683,6 @@ Version: 0.6
 Depends: survival, R (>= 2.0)
 License: GPL-2
 NeedsCompilation: yes
-
-Package: sisus
-Site: cran
-Version: 0.09-011
-Depends: R (>= 2.7.0), annotate, ash, Biobase, coda, ellipse, gclus, gdata, geneplotter, gplots, gtools, hdrcde, moments, mvtnorm, polyapost, rcdd, RColorBrewer, stats, sm
-License: GPL-3
-NeedsCompilation: no
 
 Package: sitools
 Site: cran
@@ -32047,13 +32084,6 @@ Depends: R (>= 2.13)
 License: GPL-2
 NeedsCompilation: no
 
-Package: snort
-Site: cran
-Version: 1.0
-Depends: network, sna
-License: MIT
-NeedsCompilation: no
-
 Package: snow
 Site: cran
 Version: 0.3-13
@@ -32265,6 +32295,15 @@ Site: cran
 Version: 1.0-1
 Depends: tcltk
 License: GPL-2
+NeedsCompilation: no
+
+Package: solr
+Site: cran
+Version: 0.1.0
+Depends: R (>= 3.0.2)
+Imports: plyr, httr, XML, data.table, assertthat, rjson
+Suggests: testthat, roxygen2, knitr
+License: MIT + file LICENSE
 NeedsCompilation: no
 
 Package: som
@@ -32602,7 +32641,7 @@ NeedsCompilation: yes
 
 Package: spate
 Site: cran
-Version: 1.2
+Version: 1.3
 Depends: mvtnorm, truncnorm
 License: GPL-2
 NeedsCompilation: yes
@@ -32927,8 +32966,8 @@ NeedsCompilation: no
 
 Package: spider
 Site: cran
-Version: 1.2-0
-Depends: R (>= 2.10), ape, pegas
+Version: 1.3-0
+Depends: ape, pegas
 License: GPL
 NeedsCompilation: no
 
@@ -33263,7 +33302,7 @@ NeedsCompilation: no
 
 Package: stab
 Site: cran
-Version: 0.1.7
+Version: 0.1.8
 Depends: R (>= 2.12.0), stats4, MASS, reshape
 License: GPL (>= 2)
 NeedsCompilation: no
@@ -33385,10 +33424,10 @@ NeedsCompilation: no
 
 Package: StatMatch
 Site: cran
-Version: 1.2.0
-Depends: R (>= 2.7.0), proxy, clue, survey
+Version: 1.2.1
+Depends: R (>= 2.7.0), proxy, clue, survey, RANN
 Suggests: lpSolve, SDaA, simPopulation, MASS, Hmisc
-License: EUPL
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: statmod
@@ -33669,7 +33708,7 @@ NeedsCompilation: no
 
 Package: stylo
 Site: cran
-Version: 0.5.2
+Version: 0.5.3
 Imports: tcltk, tcltk2, ape, pamr, e1071, class, lattice
 License: GPL (>= 3)
 NeedsCompilation: no
@@ -34266,6 +34305,12 @@ Suggests: rgenoud, LowRankQP
 License: GPL (>= 2)
 NeedsCompilation: no
 
+Package: sysfonts
+Site: cran
+Version: 0.1
+License: GPL-2
+NeedsCompilation: yes
+
 Package: systemfit
 Site: cran
 Version: 1.1-14
@@ -34325,15 +34370,6 @@ Version: 1.1
 License: GPL-2
 NeedsCompilation: no
 
-Package: tagcloud
-Site: cran
-Version: 0.1
-Depends: methods, Rcpp (>= 0.9.4), RColorBrewer
-LinkingTo: Rcpp
-Suggests: extrafont
-License: GPL (>= 2)
-NeedsCompilation: yes
-
 Package: TAHMMAnnot
 Site: cran
 Version: 2.0
@@ -34343,7 +34379,7 @@ NeedsCompilation: yes
 
 Package: TAM
 Site: cran
-Version: 0.99-7
+Version: 1.0-0
 Depends: R (>= 2.15.1), MASS
 Imports: mvtnorm, tensor, sfsmisc, GPArotation, psych
 LinkingTo: Rcpp, RcppArmadillo
@@ -34414,7 +34450,7 @@ NeedsCompilation: no
 
 Package: taxize
 Site: cran
-Version: 0.1.5
+Version: 0.1.8
 Depends: R (>= 3.0.1)
 Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), RJSONIO, foreach, ape, Taxonstand, reshape2, data.table, reshape
 Suggests: testthat, roxygen2, rjson, vegan, knitr
@@ -34627,7 +34663,7 @@ NeedsCompilation: no
 
 Package: texmex
 Site: cran
-Version: 2.0
+Version: 2.1
 Depends: mvtnorm
 Suggests: MASS, lattice, knitr
 License: GPL (>= 2)
@@ -34791,7 +34827,7 @@ NeedsCompilation: no
 
 Package: TiddlyWikiR
 Site: cran
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.14),
 Imports: methods
 Suggests: knitr
@@ -34902,7 +34938,7 @@ NeedsCompilation: no
 
 Package: timereg
 Site: cran
-Version: 1.8.2
+Version: 1.8.3
 Depends: survival, R (>= 2.4.0)
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -35113,14 +35149,6 @@ Depends: rgl, stats4
 License: GPL (>= 2)
 NeedsCompilation: no
 
-Package: tonymisc
-Site: cran
-Version: 1.1.1
-Depends: R (>= 2.12.0), memisc, AER, car, nlme
-Suggests: gmm, plm, Ecdat
-License: GPL-2
-NeedsCompilation: no
-
 Package: topicmodels
 Site: cran
 Version: 0.1-12
@@ -35264,7 +35292,6 @@ Package: transnet
 Site: cran
 Version: 0.1
 Depends: methods, rJava, plyr, reshape2
-LinkingTo: Rcpp
 Suggests: testthat (>= 0.5)
 License: GPL (>= 3.0)
 NeedsCompilation: no
@@ -35460,8 +35487,9 @@ NeedsCompilation: yes
 
 Package: truncreg
 Site: cran
-Version: 0.1-1
+Version: 0.2-1
 Depends: R (>= 1.8.0), maxLik
+Suggests: survival
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -35853,6 +35881,14 @@ Depends: R (>= 2.10), stats, graphics
 License: GPL (>= 2)
 NeedsCompilation: yes
 
+Package: tvm
+Site: cran
+Version: 0.1
+Depends: Rcpp (>= 0.10.6)
+LinkingTo: Rcpp
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
 Package: twang
 Site: cran
 Version: 1.3-20
@@ -36097,13 +36133,6 @@ Site: cran
 Version: 0.1-1
 Depends: foreach
 Suggests: RUnit
-License: GPL (>= 2)
-NeedsCompilation: no
-
-Package: validator
-Site: cran
-Version: 1.0
-Depends: clv, clValid, flexclust, mlbench
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36396,7 +36425,6 @@ Site: cran
 Version: 0.9.0
 Depends: R (>= 2.13), tcltk, tkrplot,VIM (>= 4.0.0),survey,gWidgetsRGtk2
 Imports: foreign,RGtk2,Cairo, Hmisc
-LinkingTo: Rcpp
 License: GPL (>= 2)
 NeedsCompilation: no
 
@@ -36628,6 +36656,15 @@ Site: cran
 Version: 0.9.9.20121030
 Depends: R (>= 2.14.0), lattice
 License: BSD
+NeedsCompilation: no
+
+Package: Wats
+Site: cran
+Version: 0.2-9
+Depends: R (>= 3.0.0), stats
+Imports: boot, colorspace, ggplot2, grid, lubridate, plyr, RColorBrewer, scales, testit, zoo
+Suggests: BayesSingleSub, devtools, knitr, testthat
+License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: waveband
@@ -36913,8 +36950,8 @@ NeedsCompilation: yes
 
 Package: wmtsa
 Site: cran
-Version: 1.1-1
-Depends: R (>= 2.5.1), splus2R (>= 1.1-0), ifultools (>= 1.1-1), graphics, stats, MASS
+Version: 2.0-0
+Depends: R (>= 3.0.2), splus2R (>= 1.2-0), ifultools (>= 2.0-0), MASS, graphics, stats
 License: GPL-2
 NeedsCompilation: no
 
@@ -37021,7 +37058,7 @@ NeedsCompilation: no
 
 Package: wtcrsk
 Site: cran
-Version: 1.0
+Version: 1.1
 License: GPL (>= 2)
 NeedsCompilation: yes
 
@@ -37034,19 +37071,28 @@ NeedsCompilation: no
 
 Package: x12
 Site: cran
-Version: 1.2-0
+Version: 1.3.0
 Depends: R (>= 2.14.0),stats,utils,grDevices
 Imports: stringr,methods
+Suggests: parallel
 License: GPL (>= 2)
 NeedsCompilation: no
 
 Package: x12GUI
 Site: cran
-Version: 0.9-3
-Depends: R (>= 2.14.0),stats,utils,grDevices,datasets,x12 (>= 1.1-0)
+Version: 0.10.0
+Depends: R (>= 2.14.0),stats,utils,grDevices,datasets,x12 (>= 1.3.0)
 Imports: methods,Hmisc,RGtk2, cairoDevice, grid, lattice,stringr
 License: GPL (>= 2)
 NeedsCompilation: no
+
+Package: XBRL
+Site: cran
+Version: 0.99.10
+Depends: Rcpp (>= 0.10.4)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+NeedsCompilation: yes
 
 Package: xgobi
 Site: cran
@@ -37080,8 +37126,9 @@ NeedsCompilation: no
 
 Package: XLConnect
 Site: cran
-Version: 0.2-5
-Depends: R (>= 2.10.0), rJava, utils, methods
+Version: 0.2-7
+Depends: R (>= 2.10.0)
+Imports: methods, rJava, utils
 Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), fImport, forecast, zoo, scales
 License: GPL-3
 NeedsCompilation: no
@@ -37178,7 +37225,6 @@ Package: xts
 Site: cran
 Version: 0.9-7
 Depends: zoo (>= 1.7-10)
-LinkingTo: zoo
 Suggests: timeSeries,timeDate,tseries,its,chron,fts,tis
 License: GPL (>= 2)
 NeedsCompilation: yes
@@ -37207,7 +37253,7 @@ NeedsCompilation: no
 
 Package: yaml
 Site: cran
-Version: 2.1.8
+Version: 2.1.10
 Suggests: testthat
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
@@ -39702,11 +39748,11 @@ NeedsCompilation: no
 
 Package: dexus
 Site: bioconductor
-Version: 1.2.1
+Version: 1.2.2
 Depends: R (>= 2.15), methods, BiocGenerics
 Suggests: parallel, statmod, stats, DESeq, RColorBrewer
 License: LGPL (>= 2.0)
-MD5sum: 471f6bf65412765fb0ff938a75fdd653
+MD5sum: f2854f7f57cd2adc10e8172211010e49
 NeedsCompilation: yes
 
 Package: DFP
@@ -39856,12 +39902,12 @@ NeedsCompilation: no
 
 Package: easyRNASeq
 Site: bioconductor
-Version: 1.8.3
+Version: 1.8.4
 Depends: genomeIntervals (>= 1.18.0), Biobase (>= 2.22.0), biomaRt (>= 2.18.0), edgeR (>= 3.4.0), Biostrings (>= 2.30.0), DESeq (>= 1.14.0), GenomicRanges (>= 1.14.3), IRanges (>= 1.20.5), Rsamtools (>= 1.14.1), ShortRead (>= 1.20.0)
 Imports: graphics, methods, parallel, utils, BiocGenerics (>= 0.8.0), LSD (>= 2.5)
-Suggests: BSgenome (>= 1.30.0), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.19), GenomicFeatures (>= 1.14.0), RnaSeqTutorial (>= 0.0.13)
+Suggests: BSgenome (>= 1.30.0), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.19), GenomicFeatures (>= 1.14.0), RnaSeqTutorial (>= 0.0.13), BiocStyle (>= 1.0.0)
 License: Artistic-2.0
-MD5sum: e1d1242a5d9d63682a967da3b4d002d4
+MD5sum: 43c370a2e6653f764722486fc03ca522
 NeedsCompilation: no
 
 Package: EBarrays
