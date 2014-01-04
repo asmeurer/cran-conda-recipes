@@ -1,0 +1,52 @@
+package:
+  name: r-view-phylogenetics
+  version: 2013.12.11
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-adephylo
+    - r-ape
+    - r-aptreeshape
+    - r-caper
+    - r-convevol
+    - r-corhmm
+    - r-ddd
+    - r-distory
+    - r-diversitree
+    - r-evobir
+    - r-geiger
+    - r-geomorph
+    - r-gunifrac
+    - r-hmptrees
+    - r-iterates
+    - r-mcmcglmm
+    - r-metafor
+    - r-ouch
+    - r-ouwie
+    - r-paleotree
+    - r-paleots
+    - r-phangorn
+    - r-phyclust
+    - r-phylobase
+    - r-phyloclim
+    - r-phylolm
+    - r-phylosim
+    - r-phylotools
+    - r-phytools
+    - r-picante
+    - r-pvr
+    - r-scaleboot
+    - r-spider
+    - r-syncsa
+    - r-tess
+    - r-treebase
+    - r-treepar
+    - r-treesim
+    - r-vegan
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,36 @@
+package:
+  name: r-view-differentialequations
+  version: 2013.08.08
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-adaptivetau
+    - r-bvpsolve
+    - r-collocinfer
+    - r-desolve
+    - r-detestset
+    - r-ecolmod
+    - r-fme
+    - r-gillespiessa
+    - r-mkin
+    - r-nlmeode
+    - r-pbsddesolve
+    - r-pbsmodelling
+    - r-pkfit
+    - r-pktools
+    - r-pomp
+    - r-pracma
+    - r-primer
+    - r-psm
+    - r-reactran
+    - r-rootsolve
+    - r-scarabee
+    - r-sde
+    - r-simecol
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,19 @@
+package:
+  name: r-view-graphics-core
+  version: 2013.01.29
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-ggplot2
+    - r-lattice
+    - r-plotrix
+    - r-rcolorbrewer
+    - r-rgl
+    - r-vcd
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

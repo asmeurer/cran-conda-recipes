@@ -1,0 +1,110 @@
+package:
+  name: r-view-cluster
+  version: 2013.12.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-amap
+    - r-apcluster
+    - r-bayesclust
+    - r-bayeslca
+    - r-bayesm
+    - r-bayesmcclust
+    - r-bayesmix
+    - r-bclust
+    - r-bgmm
+    - r-biclust
+    - r-bmix
+    - r-cba
+    - r-cclust
+    - r-chsharp
+    - r-clue
+    - r-cluster
+    - r-clustergeneration
+    - r-clusterrepro
+    - r-clustersim
+    - r-clustvarsel
+    - r-clv
+    - r-clvalid
+    - r-coclust
+    - r-comphclust
+    - r-depmix
+    - r-depmixs4
+    - r-dpmixsim
+    - r-dynamictreecut
+    - r-e1071
+    - r-emcluster
+    - r-factoclass
+    - r-fastcluster
+    - r-fisherem
+    - r-flashclust
+    - r-flexclust
+    - r-flexmix
+    - r-fpc
+    - r-funcluster
+    - r-gamlss.mx
+    - r-gcexplorer
+    - r-gldex
+    - r-gsm
+    - r-hdclassif
+    - r-hmmmix
+    - r-hybridhclust
+    - r-isopam
+    - r-kernlab
+    - r-kml
+    - r-kml3d
+    - r-latentnet
+    - r-lcmm
+    - r-longclust
+    - r-mcclust
+    - r-mclust
+    - r-metabolanalyze
+    - r-mfda
+    - r-mixak
+    - r-mixdist
+    - r-mixer
+    - r-mixphm
+    - r-mixrasch
+    - r-mixreg
+    - r-mixsim
+    - r-mixsmsn
+    - r-mixtools
+    - r-mixture
+    - r-mocca
+    - r-movmf
+    - r-mritc
+    - r-nnclust
+    - r-nor1mix
+    - r-optpart
+    - r-oriclust
+    - r-pdfcluster
+    - r-pendensity
+    - r-pgmm
+    - r-pmclust
+    - r-polca
+    - r-prabclus
+    - r-profdpm
+    - r-protoclust
+    - r-psychomix
+    - r-pvclust
+    - r-randomlca
+    - r-rjags
+    - r-rmixmod
+    - r-rmpi
+    - r-rpmm
+    - r-sdisc
+    - r-sigclust
+    - r-skmeans
+    - r-som
+    - r-sparcl
+    - r-tclust
+    - r-teigen
+    - r-trimcluster
+    - r-wle
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

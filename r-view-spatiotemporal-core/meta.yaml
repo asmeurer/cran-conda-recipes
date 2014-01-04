@@ -1,0 +1,23 @@
+package:
+  name: r-view-spatiotemporal-core
+  version: 2013.11.29
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-adehabitatlt
+    - r-gstat
+    - r-randomfields
+    - r-raster
+    - r-sp
+    - r-spacetime
+    - r-stpp
+    - r-surveillance
+    - r-trip
+    - r-xts
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

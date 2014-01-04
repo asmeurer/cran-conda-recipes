@@ -1,0 +1,18 @@
+package:
+  name: r-view-cluster-core
+  version: 2013.12.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-cluster
+    - r-flexclust
+    - r-flexmix
+    - r-mclust
+    - r-rmixmod
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

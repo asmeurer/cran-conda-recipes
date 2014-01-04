@@ -1,0 +1,86 @@
+package:
+  name: r-view-chemphys
+  version: 2013.12.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-als
+    - r-analyzefmri
+    - r-aquaenv
+    - r-astro
+    - r-astrofns
+    - r-bchron
+    - r-biomark
+    - r-bvls
+    - r-cda
+    - r-celestial
+    - r-cellularautomaton
+    - r-chemcal
+    - r-chemometrics
+    - r-chemometricswithr
+    - r-chemometricswithrdata
+    - r-chemospec
+    - r-chnosz
+    - r-clustvarsel
+    - r-cosmofns
+    - r-dielectric
+    - r-diffractometry
+    - r-drc
+    - r-drm
+    - r-elasticnet
+    - r-fastica
+    - r-fitsio
+    - r-fmri
+    - r-fpca
+    - r-fticrms
+    - r-homals
+    - r-hyperspec
+    - r-iso
+    - r-kohonen
+    - r-leaps
+    - r-lspls
+    - r-maldiquant
+    - r-minpack.lm
+    - r-moonsun
+    - r-nlme
+    - r-nmrs
+    - r-nnls
+    - r-orgmassspecr
+    - r-pcapp
+    - r-peaks
+    - r-pet
+    - r-planar
+    - r-pls
+    - r-plspm
+    - r-ppls
+    - r-prospectr
+    - r-psy
+    - r-ptak
+    - r-quantchem
+    - r-rcdk
+    - r-rcdklibs
+    - r-represent
+    - r-ringscale
+    - r-rpubchem
+    - r-sapa
+    - r-scepter
+    - r-scepterextras
+    - r-simecol
+    - r-solar
+    - r-som
+    - r-spls
+    - r-stellar
+    - r-stepplr
+    - r-subselect
+    - r-timp
+    - r-titan
+    - r-varselrf
+    - r-wccsom
+    - r-wilcoxcv
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,116 @@
+package:
+  name: r-view-environmetrics
+  version: 2013.12.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-ade4
+    - r-adehabitat
+    - r-amap
+    - r-analogue
+    - r-aod
+    - r-ape
+    - r-aqp
+    - r-biodiversityr
+    - r-boussinesq
+    - r-circstats
+    - r-circular
+    - r-cluster
+    - r-cocorresp
+    - r-divemove
+    - r-dse
+    - r-dspat
+    - r-dyn
+    - r-dynlm
+    - r-e1071
+    - r-earth
+    - r-eco
+    - r-ecodist
+    - r-ecohydrology
+    - r-equivalence
+    - r-evd
+    - r-evdbayes
+    - r-evir
+    - r-extremes
+    - r-fast
+    - r-fd
+    - r-flexmix
+    - r-forecast
+    - r-fso
+    - r-gam
+    - r-gamair
+    - r-hydrogof
+    - r-hydrome
+    - r-hydropso
+    - r-hydrotsm
+    - r-interpol.t
+    - r-ipred
+    - r-ismev
+    - r-its
+    - r-labdsv
+    - r-latticedensity
+    - r-lme4
+    - r-maptree
+    - r-mass
+    - r-mclust
+    - r-mda
+    - r-mefa
+    - r-metacom
+    - r-mgcv
+    - r-mra
+    - r-mvpart
+    - r-nlme
+    - r-nsrfa
+    - r-oce
+    - r-openair
+    - r-ouch
+    - r-party
+    - r-pastecs
+    - r-pcurve
+    - r-pgirmess
+    - r-popbio
+    - r-pot
+    - r-prabclus
+    - r-primer
+    - r-pscl
+    - r-pvclust
+    - r-qualv
+    - r-quantreg
+    - r-quantreggrowth
+    - r-randomforest
+    - r-rcapture
+    - r-rioja
+    - r-rmawgen
+    - r-rpart
+    - r-rtop
+    - r-seacarb
+    - r-seas
+    - r-secr
+    - r-segmented
+    - r-sensitivity
+    - r-simba
+    - r-simecol
+    - r-soiltexture
+    - r-spacecap
+    - r-spatialextremes
+    - r-streammetabolism
+    - r-strucchange
+    - r-surveillance
+    - r-tiger
+    - r-topmodel
+    - r-tseries
+    - r-unmarked
+    - r-untb
+    - r-vegan
+    - r-vegetarian
+    - r-vgam
+    - r-wasim
+    - r-wq
+    - r-zoo
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

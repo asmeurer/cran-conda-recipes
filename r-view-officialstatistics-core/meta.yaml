@@ -1,0 +1,14 @@
+package:
+  name: r-view-officialstatistics-core
+  version: 2013.12.10
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-survey
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

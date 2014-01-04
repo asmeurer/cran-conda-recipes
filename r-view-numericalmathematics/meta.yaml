@@ -1,0 +1,64 @@
+package:
+  name: r-view-numericalmathematics
+  version: 2013.11.02
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-akima
+    - r-appell
+    - r-bb
+    - r-bessel
+    - r-combinat
+    - r-contfrac
+    - r-cubature
+    - r-eigeninv
+    - r-elliptic
+    - r-expm
+    - r-features
+    - r-gaussquad
+    - r-gmp
+    - r-gsl
+    - r-hypergeo
+    - r-irlba
+    - r-magic
+    - r-mass
+    - r-matlab
+    - r-matrix
+    - r-monopoly
+    - r-mpoly
+    - r-multipol
+    - r-nleqslv
+    - r-numbers
+    - r-numderiv
+    - r-onion
+    - r-orthopolynom
+    - r-partitions
+    - r-pcenum
+    - r-polycub
+    - r-polynom
+    - r-polynomf
+    - r-pracma
+    - r-r.matlab
+    - r-r2cuba
+    - r-rcpp
+    - r-rcpparmadillo
+    - r-rcppeigen
+    - r-rcppoctave
+    - r-rmpfr
+    - r-rpython
+    - r-rsympy
+    - r-ryacas
+    - r-signal
+    - r-sparsegrid
+    - r-sphericalcubature
+    - r-ssvd
+    - r-statmod
+    - r-stinepack
+    - r-svd
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

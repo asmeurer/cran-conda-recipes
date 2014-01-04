@@ -1,0 +1,37 @@
+package:
+  name: r-view-medicalimaging
+  version: 2013.08.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-adimpro
+    - r-analyzefmri
+    - r-arf3ds4
+    - r-bayesm
+    - r-brainwaver
+    - r-cudabayesreg
+    - r-datfordcemri
+    - r-dcemris4
+    - r-dpmixsim
+    - r-dti
+    - r-fmri
+    - r-gdimap
+    - r-mmand
+    - r-mritc
+    - r-neurosim
+    - r-occ
+    - r-oro.dicom
+    - r-oro.nifti
+    - r-pet
+    - r-ptak
+    - r-rniftilib
+    - r-rniftyreg
+    - r-tractor.base
+    - r-waveslim
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

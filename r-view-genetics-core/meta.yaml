@@ -1,0 +1,16 @@
+package:
+  name: r-view-genetics-core
+  version: 2013.12.10
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-gap
+    - r-genetics
+    - r-haplo.stats
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

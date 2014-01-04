@@ -1,0 +1,23 @@
+package:
+  name: r-view-pharmacokinetics
+  version: 2013.05.21
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-desolve
+    - r-drc
+    - r-lattice
+    - r-mass
+    - r-nlme
+    - r-nlmeode
+    - r-pk
+    - r-pkfit
+    - r-pkpdmodels
+    - r-pktools
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

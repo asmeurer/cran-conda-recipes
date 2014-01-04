@@ -1,0 +1,58 @@
+package:
+  name: r-view-experimentaldesign
+  version: 2013.03.20
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-agricolae
+    - r-algdesign
+    - r-asd
+    - r-batchexperiments
+    - r-bhh2
+    - r-blocktools
+    - r-bsmd
+    - r-conf.design
+    - r-crossdes
+    - r-dae
+    - r-desirability
+    - r-dicedesign
+    - r-diceeval
+    - r-dicekriging
+    - r-diceview
+    - r-displayhts
+    - r-doe.base
+    - r-doe.wrapper
+    - r-dosefinding
+    - r-dynatree
+    - r-experiment
+    - r-frf2
+    - r-frf2.catlg128
+    - r-gad
+    - r-granova
+    - r-gsbdesign
+    - r-gsdesign
+    - r-lddesign
+    - r-lhs
+    - r-mixexp
+    - r-mkssd
+    - r-mxkssd
+    - r-odprism
+    - r-osdesign
+    - r-planor
+    - r-plgp
+    - r-qtldesign
+    - r-qualitytools
+    - r-rcmdrplugin.doe
+    - r-rsm
+    - r-sensominer
+    - r-support.ces
+    - r-teqr
+    - r-tgp
+    - r-vdgraph
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,41 @@
+package:
+  name: r-view-naturallanguageprocessing
+  version: 2014.01.01
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-corpora
+    - r-gsubfn
+    - r-kernlab
+    - r-konlp
+    - r-korpus
+    - r-lda
+    - r-lsa
+    - r-maxent
+    - r-movmf
+    - r-opennlp
+    - r-qdap
+    - r-rcmdrplugin.temis
+    - r-rkea
+    - r-rweka
+    - r-skmeans
+    - r-snowball
+    - r-snowballc
+    - r-tau
+    - r-textcat
+    - r-textir
+    - r-tm
+    - r-tm.plugin.dc
+    - r-tm.plugin.factiva
+    - r-tm.plugin.mail
+    - r-topicmodels
+    - r-wordcloud
+    - r-wordnet
+    - r-zipfr
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

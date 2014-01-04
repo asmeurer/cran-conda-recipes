@@ -1,0 +1,37 @@
+package:
+  name: r-view-finance-core
+  version: 2013.12.20
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-farma
+    - r-fasianoptions
+    - r-fassets
+    - r-fbasics
+    - r-fbonds
+    - r-fcopulae
+    - r-fexoticoptions
+    - r-fextremes
+    - r-fgarch
+    - r-fimport
+    - r-fmultivar
+    - r-fnonlinear
+    - r-foptions
+    - r-fportfolio
+    - r-fregression
+    - r-ftrading
+    - r-funitroots
+    - r-performanceanalytics
+    - r-timedate
+    - r-timeseries
+    - r-tseries
+    - r-urca
+    - r-xts
+    - r-zoo
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

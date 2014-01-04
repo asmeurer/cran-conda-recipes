@@ -1,0 +1,17 @@
+package:
+  name: r-view-multivariate-core
+  version: 2013.12.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-ade4
+    - r-cluster
+    - r-mass
+    - r-vegan
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

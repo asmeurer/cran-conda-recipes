@@ -1,0 +1,19 @@
+package:
+  name: r-view-webtechnologies-core
+  version: 2014.01.01
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-httr
+    - r-rcurl
+    - r-rjson
+    - r-rjsonio
+    - r-shiny
+    - r-xml
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,29 @@
+package:
+  name: r-view-spatial-core
+  version: 2013.12.16
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-classint
+    - r-dcluster
+    - r-deldir
+    - r-geor
+    - r-gstat
+    - r-maptools
+    - r-randomfields
+    - r-raster
+    - r-rcolorbrewer
+    - r-rgdal
+    - r-rgeos
+    - r-sp
+    - r-spacetime
+    - r-spatstat
+    - r-spdep
+    - r-splancs
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

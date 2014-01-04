@@ -1,0 +1,21 @@
+package:
+  name: r-view-econometrics-core
+  version: 2014.01.01
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-aer
+    - r-car
+    - r-lmtest
+    - r-plm
+    - r-sandwich
+    - r-tseries
+    - r-urca
+    - r-zoo
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

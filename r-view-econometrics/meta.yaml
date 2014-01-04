@@ -1,0 +1,108 @@
+package:
+  name: r-view-econometrics
+  version: 2014.01.01
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-aer
+    - r-aod
+    - r-apt
+    - r-autosearch
+    - r-bayesm
+    - r-betareg
+    - r-boot
+    - r-bootstrap
+    - r-cadftest
+    - r-car
+    - r-cdnmoney
+    - r-censreg
+    - r-crch
+    - r-dlm
+    - r-dse
+    - r-dyn
+    - r-dynlm
+    - r-ecdat
+    - r-effects
+    - r-erer
+    - r-expsmooth
+    - r-fints
+    - r-fma
+    - r-forecast
+    - r-frontier
+    - r-fxregime
+    - r-gam
+    - r-gamlss
+    - r-geepack
+    - r-gmm
+    - r-hmisc
+    - r-ineq
+    - r-intreg
+    - r-its
+    - r-larf
+    - r-lfe
+    - r-lme4
+    - r-lmtest
+    - r-mass
+    - r-matrix
+    - r-mcomp
+    - r-meboot
+    - r-mfilter
+    - r-mfx
+    - r-mgcv
+    - r-mhurdle
+    - r-micecon
+    - r-miceconaids
+    - r-miceconces
+    - r-miceconsnqp
+    - r-midasr
+    - r-mlogit
+    - r-mnlogit
+    - r-mnp
+    - r-msbvar
+    - r-mvprobit
+    - r-nlme
+    - r-nnet
+    - r-np
+    - r-ordinal
+    - r-partsm
+    - r-pcse
+    - r-plm
+    - r-pscl
+    - r-pwt
+    - r-pwt8
+    - r-quantreg
+    - r-reldist
+    - r-rms
+    - r-rsghb
+    - r-sampleselection
+    - r-sandwich
+    - r-sde
+    - r-segmented
+    - r-sem
+    - r-semiparsamplesel
+    - r-simpleboot
+    - r-sparsem
+    - r-spatialprobit
+    - r-spdep
+    - r-sphet
+    - r-splm
+    - r-strucchange
+    - r-survival
+    - r-systemfit
+    - r-timeseries
+    - r-truncreg
+    - r-tsdyn
+    - r-tseries
+    - r-tsfa
+    - r-urca
+    - r-vars
+    - r-vgam
+    - r-zelig
+    - r-zoo
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

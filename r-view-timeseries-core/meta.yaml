@@ -1,0 +1,16 @@
+package:
+  name: r-view-timeseries-core
+  version: 2013.12.22
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-forecast
+    - r-tseries
+    - r-zoo
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

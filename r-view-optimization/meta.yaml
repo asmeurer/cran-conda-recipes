@@ -1,0 +1,76 @@
+package:
+  name: r-view-optimization
+  version: 2013.02.14
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-adagio
+    - r-alabama
+    - r-bb
+    - r-boot
+    - r-clpapi
+    - r-clsocp
+    - r-clue
+    - r-cmaes
+    - r-cplexapi
+    - r-crs
+    - r-dclone
+    - r-deoptim
+    - r-desirability
+    - r-dfoptim
+    - r-dwd
+    - r-genalg
+    - r-gensa
+    - r-glpkapi
+    - r-goalprog
+    - r-gsl
+    - r-hydropso
+    - r-igraph
+    - r-kernlab
+    - r-limsolve
+    - r-linprog
+    - r-lowrankqp
+    - r-lpsolve
+    - r-lpsolveapi
+    - r-maxlik
+    - r-mcga
+    - r-mco
+    - r-minpack.lm
+    - r-minqa
+    - r-neldermead
+    - r-nleqslv
+    - r-nloptr
+    - r-optimx
+    - r-optmatch
+    - r-powell
+    - r-pso
+    - r-quadprog
+    - r-quantreg
+    - r-rcdd
+    - r-rcgmin
+    - r-rcplex
+    - r-rcppde
+    - r-rcsdp
+    - r-rgenoud
+    - r-rglpk
+    - r-rmalschains
+    - r-rmosek
+    - r-rneos
+    - r-roi
+    - r-rsolnp
+    - r-rsymphony
+    - r-rvmmin
+    - r-sna
+    - r-soma
+    - r-subplex
+    - r-trust
+    - r-trustoptim
+    - r-tsp
+    - r-ucminf
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

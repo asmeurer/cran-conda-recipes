@@ -1,0 +1,103 @@
+package:
+  name: r-view-webtechnologies
+  version: 2014.01.01
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-alm
+    - r-anametrix
+    - r-aws.tools
+    - r-bigml
+    - r-cgdsr
+    - r-chcn
+    - r-cimis
+    - r-crn
+    - r-datamart
+    - r-dataone
+    - r-decctools
+    - r-dismo
+    - r-dvn
+    - r-factualr
+    - r-faostat
+    - r-fimport
+    - r-flora
+    - r-ggmap
+    - r-googlepublicdata
+    - r-googlevis
+    - r-goojson
+    - r-govdat
+    - r-govstatjpn
+    - r-guardianr
+    - r-httpuv
+    - r-httr
+    - r-imgur
+    - r-mturkr
+    - r-ncbi2r
+    - r-ngramr
+    - r-nhlscrapr
+    - r-oaiharvester
+    - r-opencpu
+    - r-osmar
+    - r-pitchrx
+    - r-plotgooglemaps
+    - r-plotkml
+    - r-quandl
+    - r-quantmod
+    - r-raltmetric
+    - r-rcolombos
+    - r-rcurl
+    - r-rdatamarket
+    - r-rebird
+    - r-rentrez
+    - r-reol
+    - r-repmis
+    - r-rfacebook
+    - r-rfigshare
+    - r-rfishbase
+    - r-rfisheries
+    - r-rgauges
+    - r-rgbif
+    - r-rgooglemaps
+    - r-rjson
+    - r-rjsonio
+    - r-rlastfm
+    - r-rmendeley
+    - r-rncbi
+    - r-rncep
+    - r-roauth
+    - r-rook
+    - r-rplant
+    - r-rplos
+    - r-rpubchem
+    - r-rsitecatalyst
+    - r-rsnps
+    - r-rsocrata
+    - r-rvertnet
+    - r-rweather
+    - r-scholar
+    - r-scraper
+    - r-selectr
+    - r-seqinr
+    - r-servr
+    - r-shiny
+    - r-sos4r
+    - r-streamr
+    - r-synergizer
+    - r-taxize
+    - r-tfx
+    - r-translate
+    - r-treebase
+    - r-twitter
+    - r-waterdata
+    - r-wdi
+    - r-wethepeople
+    - r-xml
+    - r-yhatr
+    - r-zendeskr
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

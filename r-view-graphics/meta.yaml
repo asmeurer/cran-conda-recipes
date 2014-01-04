@@ -1,0 +1,54 @@
+package:
+  name: r-view-graphics
+  version: 2013.01.29
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-ade4
+    - r-animation
+    - r-ape
+    - r-aplpack
+    - r-ash
+    - r-biclust
+    - r-cairo
+    - r-cairodevice
+    - r-cba
+    - r-colorspace
+    - r-diagram
+    - r-dichromat
+    - r-gclus
+    - r-ggplot2
+    - r-gplots
+    - r-gridbase
+    - r-idpmisc
+    - r-igraph
+    - r-iplots
+    - r-javagd
+    - r-klar
+    - r-lattice
+    - r-latticeextra
+    - r-misc3d
+    - r-onion
+    - r-playwith
+    - r-plotrix
+    - r-rcolorbrewer
+    - r-rggobi
+    - r-rgl
+    - r-rgraphics
+    - r-rgtk2
+    - r-rsvgdevice
+    - r-rsvgtipsdevice
+    - r-scagnostics
+    - r-scatterplot3d
+    - r-seriation
+    - r-tkrplot
+    - r-vcd
+    - r-vioplot
+    - r-xgobi
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

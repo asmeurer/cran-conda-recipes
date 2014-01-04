@@ -1,0 +1,42 @@
+package:
+  name: r-view-robust
+  version: 2013.08.06
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-covrobust
+    - r-coxrobust
+    - r-distr
+    - r-frb
+    - r-lqmm
+    - r-mass
+    - r-multinomrob
+    - r-mvoutlier
+    - r-quantreg
+    - r-randvar
+    - r-rgam
+    - r-robastbase
+    - r-robfilter
+    - r-roblox
+    - r-robloxbioc
+    - r-robrex
+    - r-robust
+    - r-robustaft
+    - r-robustbase
+    - r-robustlmm
+    - r-robustx
+    - r-roptest
+    - r-roptregts
+    - r-rrcov
+    - r-rrcovhd
+    - r-rrcovna
+    - r-rskc
+    - r-sandwich
+    - r-wle
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

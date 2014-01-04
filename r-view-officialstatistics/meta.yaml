@@ -1,0 +1,71 @@
+package:
+  name: r-view-officialstatistics
+  version: 2013.12.10
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-amelia
+    - r-cat
+    - r-deducorrect
+    - r-editrules
+    - r-ever
+    - r-ffd
+    - r-hbsae
+    - r-hmisc
+    - r-ic2
+    - r-ineq
+    - r-josae
+    - r-laeken
+    - r-lavaan
+    - r-lavaan.survey
+    - r-lme4
+    - r-lpsolve
+    - r-matchit
+    - r-memisc
+    - r-mi
+    - r-mice
+    - r-micecon
+    - r-mimix
+    - r-missmda
+    - r-mitools
+    - r-mix
+    - r-nlme
+    - r-norm
+    - r-odfweave
+    - r-odfweave.survey
+    - r-pan
+    - r-pps
+    - r-pxr
+    - r-recordlinkage
+    - r-reweight
+    - r-robcompositions
+    - r-rrcovna
+    - r-sampling
+    - r-samplingbook
+    - r-samplingstrata
+    - r-samplingvarest
+    - r-sascii
+    - r-sdaa
+    - r-sdcmicro
+    - r-sdctable
+    - r-selemix
+    - r-simframe
+    - r-simpopulation
+    - r-spsurvey
+    - r-statmatch
+    - r-stratification
+    - r-survey
+    - r-tabplot
+    - r-teachingsampling
+    - r-treemap
+    - r-vim
+    - r-x12
+    - r-x12gui
+    - r-yaimpute
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

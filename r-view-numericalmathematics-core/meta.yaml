@@ -1,0 +1,17 @@
+package:
+  name: r-view-numericalmathematics-core
+  version: 2013.11.02
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-gsl
+    - r-matrix
+    - r-numderiv
+    - r-polynom
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

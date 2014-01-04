@@ -1,0 +1,15 @@
+package:
+  name: r-view-highperformancecomputing-core
+  version: 2013.12.18
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-rmpi
+    - r-snow
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

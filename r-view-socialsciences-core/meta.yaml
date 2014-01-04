@@ -1,0 +1,33 @@
+package:
+  name: r-view-socialsciences-core
+  version: 2013.12.10
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-alr3
+    - r-boot
+    - r-car
+    - r-gam
+    - r-lmtest
+    - r-mass
+    - r-matrix
+    - r-mgcv
+    - r-mice
+    - r-mitools
+    - r-mix
+    - r-nlme
+    - r-pan
+    - r-quantreg
+    - r-sandwich
+    - r-sem
+    - r-survey
+    - r-survival
+    - r-systemfit
+    - r-zelig
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

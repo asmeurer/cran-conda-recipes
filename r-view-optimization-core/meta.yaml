@@ -1,0 +1,22 @@
+package:
+  name: r-view-optimization-core
+  version: 2013.02.14
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-lpsolve
+    - r-minqa
+    - r-optimx
+    - r-quadprog
+    - r-rglpk
+    - r-roi
+    - r-rsolnp
+    - r-rsymphony
+    - r-tsp
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

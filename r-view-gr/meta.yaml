@@ -1,0 +1,46 @@
+package:
+  name: r-view-gr
+  version: 2013.07.26
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-abn
+    - r-bayesmix
+    - r-bnlearn
+    - r-boa
+    - r-brugs
+    - r-catnet
+    - r-coda
+    - r-dclone
+    - r-deal
+    - r-diagram
+    - r-dynamicgraph
+    - r-ergm
+    - r-genenet
+    - r-ggm
+    - r-giraph
+    - r-grain
+    - r-graphd
+    - r-grbase
+    - r-grc
+    - r-grim
+    - r-igraph
+    - r-lcd
+    - r-mathgraph
+    - r-network
+    - r-parcor
+    - r-pcalg
+    - r-qp
+    - r-quic
+    - r-r2openbugs
+    - r-r2winbugs
+    - r-rbugs
+    - r-rjags
+    - r-sin
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,14 @@
+package:
+  name: r-view-gr-core
+  version: 2013.07.26
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-grbase
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,17 @@
+package:
+  name: r-view-robust-core
+  version: 2013.08.06
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-mass
+    - r-robust
+    - r-robustbase
+    - r-rrcov
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

@@ -1,0 +1,22 @@
+package:
+  name: r-view-bayesian-core
+  version: 2013.12.12
+
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - r-arm
+    - r-bacco
+    - r-bayesm
+    - r-bayessurv
+    - r-boa
+    - r-coda
+    - r-dppackage
+    - r-mcmc
+    - r-mcmcpack
+
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
