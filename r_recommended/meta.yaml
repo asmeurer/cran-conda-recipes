@@ -1,0 +1,42 @@
+package:
+  name: r_recommended
+  version: 3.0.2
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r-mass
+    - r-lattice
+    - r-matrix
+    - r-nlme
+    - r-survival
+    - r-boot
+    - r-cluster
+    - r-codetools
+    - r-foreign
+    - r-kernsmooth
+    - r-rpart
+    - r-class
+    - r-nnet
+    - r-spatial
+    - r-mgcv
+  run:
+    - r-mass
+    - r-lattice
+    - r-matrix
+    - r-nlme
+    - r-survival
+    - r-boot
+    - r-cluster
+    - r-codetools
+    - r-foreign
+    - r-kernsmooth
+    - r-rpart
+    - r-class
+    - r-nnet
+    - r-spatial
+    - r-mgcv
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

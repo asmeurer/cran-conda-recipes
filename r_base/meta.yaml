@@ -1,0 +1,66 @@
+package:
+  name: r
+  version: 3.0.2
+
+source:
+  fn: R-3.0.2.tar.gz
+  url: http://rweb.quant.ku.edu/cran/src/base/R-3/R-3.0.2.tar.gz
+  patches:
+    - modules-lapack-Makefile.in.patch
+    - share-make-vars.mk.patch
+
+build:
+  number: 3
+
+requirements:
+  build:
+    - readline
+    - system    [linux]
+    - tk
+    - zlib
+    - gmp
+    - gsl
+    - cairo     [linux]
+    - freeglut  [linux]
+    - freetype
+    - imaging
+    - jpeg
+    - libpng
+    - libtiff
+    - libxml2
+    - libxslt
+    - lxml
+    - matplotlib
+    - vtk
+
+  run:
+    - readline
+    - system    [linux]
+    - tk
+    - zlib
+    - gmp
+    - gsl
+    - cairo     [linux]
+    - freeglut  [linux]
+    - freetype
+    - imaging
+    - jpeg
+    - libpng
+    - libtiff
+    - libxml2
+    - libxslt
+    - lxml
+    - matplotlib
+    - vtk
+
+test:
+  commands:
+    - R -h
+    - R --version
+    - Rscript --version
+
+about:
+  home: http://www.r-project.org/
+  license: GPL
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:
