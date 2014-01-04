@@ -1,0 +1,30 @@
+package:
+  name: jags
+  version: 3.4.0
+
+source:
+  fn: JAGS-3.4.0.tar.gz
+  url: http://downloads.sourceforge.net/project/mcmc-jags/JAGS/3.x/Source/JAGS-3.4.0.tar.gz
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - r
+    - system
+    - atlas
+  run:
+    - r
+    - system
+
+test:
+  files:
+    - exit.jags
+  commands:
+    - jags exit.jags
+
+about:
+  home: http://mcmc-jags.sourceforge.net/
+  license: GPL
+
