@@ -1,10 +1,10 @@
 package:
   name: r-lfe
-  version: 1.6.1163
+  version: 1.6.1180
 
 source:
-  fn: lfe_1.6-1163.tar.gz
-  url: http://cran.r-project.org/src/contrib/lfe_1.6-1163.tar.gz
+  fn: lfe_1.6-1180.tar.gz
+  url: http://cran.r-project.org/src/contrib/lfe_1.6-1180.tar.gz
 
 build:
   number: 0

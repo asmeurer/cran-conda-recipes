@@ -1,10 +1,10 @@
 package:
   name: r-statmatch
-  version: 1.2.0
+  version: 1.2.1
 
 source:
-  fn: StatMatch_1.2.0.tar.gz
-  url: http://cran.r-project.org/src/contrib/StatMatch_1.2.0.tar.gz
+  fn: StatMatch_1.2.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/StatMatch_1.2.1.tar.gz
 
 build:
   number: 0
@@ -15,13 +15,15 @@ requirements:
     - r-proxy
     - r-clue
     - r-survey
+    - r-rann
   run:
     - r
     - r-proxy
     - r-clue
     - r-survey
+    - r-rann
 
 about:
-  license: EUPL
+  license: GPL (>= 2)
 
 # vim:set ts=8 sw=2 sts=2 tw=78 et:

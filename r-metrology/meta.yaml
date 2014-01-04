@@ -1,10 +1,10 @@
 package:
   name: r-metrology
-  version: 0.9.16
+  version: 0.9.16.1
 
 source:
-  fn: metRology_0.9-16.tar.gz
-  url: http://cran.r-project.org/src/contrib/metRology_0.9-16.tar.gz
+  fn: metRology_0.9-16.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/metRology_0.9-16.1.tar.gz
 
 build:
   number: 0

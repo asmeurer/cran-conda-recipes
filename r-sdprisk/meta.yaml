@@ -1,13 +1,13 @@
 package:
   name: r-sdprisk
-  version: 1.0.0
+  version: 1.0.3
 
 source:
-  fn: sdprisk_1.0-0.tar.gz
-  url: http://cran.r-project.org/src/contrib/sdprisk_1.0-0.tar.gz
+  fn: sdprisk_1.0-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/sdprisk_1.0-3.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

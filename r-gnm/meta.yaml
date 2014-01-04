@@ -1,10 +1,10 @@
 package:
   name: r-gnm
-  version: 1.0.6
+  version: 1.0.7
 
 source:
-  fn: gnm_1.0-6.tar.gz
-  url: http://cran.r-project.org/src/contrib/gnm_1.0-6.tar.gz
+  fn: gnm_1.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/gnm_1.0-7.tar.gz
 
 build:
   number: 0

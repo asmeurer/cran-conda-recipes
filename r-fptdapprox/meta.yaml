@@ -1,10 +1,10 @@
 package:
   name: r-fptdapprox
-  version: 1.2
+  version: 2.0
 
 source:
-  fn: fptdApprox_1.2.tar.gz
-  url: http://cran.r-project.org/src/contrib/fptdApprox_1.2.tar.gz
+  fn: fptdApprox_2.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/fptdApprox_2.0.tar.gz
 
 build:
   number: 0

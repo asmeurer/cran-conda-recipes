@@ -1,13 +1,13 @@
 package:
   name: r-clustrd
-  version: 0.1.1
+  version: 0.1.2
 
 source:
-  fn: clustrd_0.1.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/clustrd_0.1.1.tar.gz
+  fn: clustrd_0.1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/clustrd_0.1.2.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

@@ -7,15 +7,13 @@ source:
   url: http://cran.r-project.org/src/contrib/fftw_1.0-3.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
-    - fftw
   run:
     - r
-    - fftw
 
 about:
   license: GPL-2

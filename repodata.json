@@ -330,6 +330,16 @@
       "name": "r-acgh.spline", 
       "version": "2.2"
     }, 
+    "r-acm4r-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-acm4r-1.0-0.tar.bz2", 
+      "name": "r-acm4r", 
+      "version": "1.0"
+    }, 
     "r-acme-2.18.0-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -526,17 +536,16 @@
       "name": "r-adaptfitos", 
       "version": "0.45"
     }, 
-    "r-adaptivesparsity-1.3-0.tar.bz2": {
+    "r-adaptivesparsity-1.4-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
-        "r-rcpp", 
-        "r-rcpparmadillo"
+        "r-rcpp"
       ], 
-      "fn": "r-adaptivesparsity-1.3-0.tar.bz2", 
+      "fn": "r-adaptivesparsity-1.4-0.tar.bz2", 
       "name": "r-adaptivesparsity", 
-      "version": "1.3"
+      "version": "1.4"
     }, 
     "r-adaptivetau-1.1.1-0.tar.bz2": {
       "build": "0", 
@@ -4799,15 +4808,15 @@
       "name": "r-bgx", 
       "version": "1.28.0"
     }, 
-    "r-bh-1.51.0.3-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-bh-1.51.0.4-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-bh-1.51.0.3-1.tar.bz2", 
+      "fn": "r-bh-1.51.0.4-0.tar.bz2", 
       "name": "r-bh", 
-      "version": "1.51.0.3"
+      "version": "1.51.0.4"
     }, 
     "r-bhat-0.9.10-1.tar.bz2": {
       "build": "1", 
@@ -4850,15 +4859,15 @@
       "name": "r-biasbetareg", 
       "version": "1.0"
     }, 
-    "r-biasedurn-1.06-0.tar.bz2": {
+    "r-biasedurn-1.06.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-biasedurn-1.06-0.tar.bz2", 
+      "fn": "r-biasedurn-1.06.1-0.tar.bz2", 
       "name": "r-biasedurn", 
-      "version": "1.06"
+      "version": "1.06.1"
     }, 
     "r-bibtex-0.3.6-0.tar.bz2": {
       "build": "0", 
@@ -5162,15 +5171,15 @@
       "name": "r-binnor", 
       "version": "2.0"
     }, 
-    "r-binom-1.0.5-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-binom-1.1.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-binom-1.0.5-1.tar.bz2", 
+      "fn": "r-binom-1.1.1-0.tar.bz2", 
       "name": "r-binom", 
-      "version": "1.0.5"
+      "version": "1.1.1"
     }, 
     "r-binomialcftp-1.0-0.tar.bz2": {
       "build": "0", 
@@ -5668,6 +5677,20 @@
       "fn": "r-bipartite-2.02-0.tar.bz2", 
       "name": "r-bipartite", 
       "version": "2.02"
+    }, 
+    "r-biplotbootgui-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-rgl", 
+        "r-tkrplot", 
+        "r-vegan", 
+        "r-tcltk2"
+      ], 
+      "fn": "r-biplotbootgui-1.0-0.tar.bz2", 
+      "name": "r-biplotbootgui", 
+      "version": "1.0"
     }, 
     "r-biplotgui-0.0.7-3.tar.bz2": {
       "build": "3", 
@@ -6248,15 +6271,15 @@
       "name": "r-bootres", 
       "version": "1.2.3"
     }, 
-    "r-bootruin-1.1.579-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-bootruin-1.2.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-bootruin-1.1.579-1.tar.bz2", 
+      "fn": "r-bootruin-1.2.0-0.tar.bz2", 
       "name": "r-bootruin", 
-      "version": "1.1.579"
+      "version": "1.2.0"
     }, 
     "r-bootspecdens-3.0-0.tar.bz2": {
       "build": "0", 
@@ -7882,18 +7905,20 @@
       "name": "r-care1", 
       "version": "1.1.0"
     }, 
-    "r-caret-5.17.7-0.tar.bz2": {
+    "r-caret-6.0.21-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
+        "r-ggplot2", 
+        "r-car", 
+        "r-reshape2", 
         "r-foreach", 
-        "r-plyr", 
-        "r-reshape2"
+        "r-plyr"
       ], 
-      "fn": "r-caret-5.17.7-0.tar.bz2", 
+      "fn": "r-caret-6.0.21-0.tar.bz2", 
       "name": "r-caret", 
-      "version": "5.17.7"
+      "version": "6.0.21"
     }, 
     "r-caribou-1.1-0.tar.bz2": {
       "build": "0", 
@@ -10000,9 +10025,9 @@
       "name": "r-clustofvar", 
       "version": "0.8"
     }, 
-    "r-clustrd-0.1.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-clustrd-0.1.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-corpcor", 
@@ -10010,9 +10035,9 @@
         "r-ggplot2", 
         "r-irlba"
       ], 
-      "fn": "r-clustrd-0.1.1-1.tar.bz2", 
+      "fn": "r-clustrd-0.1.2-0.tar.bz2", 
       "name": "r-clustrd", 
-      "version": "0.1.1"
+      "version": "0.1.2"
     }, 
     "r-clustsig-1.0-0.tar.bz2": {
       "build": "0", 
@@ -10887,15 +10912,15 @@
       "name": "r-compeir", 
       "version": "1.0"
     }, 
-    "r-comphclust-1.0.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-comphclust-1.0.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-comphclust-1.0.1-1.tar.bz2", 
+      "fn": "r-comphclust-1.0.2-0.tar.bz2", 
       "name": "r-comphclust", 
-      "version": "1.0.1"
+      "version": "1.0.2"
     }, 
     "r-complex.surv.dat.sim-2.0.0-0.tar.bz2": {
       "build": "0", 
@@ -10940,19 +10965,19 @@
       "name": "r-compoissonreg", 
       "version": "0.3.4"
     }, 
-    "r-compositions-1.30.1-0.tar.bz2": {
+    "r-compositions-1.30.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
-        "r-rgl", 
         "r-tensora", 
-        "r-robustbase", 
-        "r-energy"
+        "r-energy", 
+        "r-rgl", 
+        "r-robustbase"
       ], 
-      "fn": "r-compositions-1.30.1-0.tar.bz2", 
+      "fn": "r-compositions-1.30.2-0.tar.bz2", 
       "name": "r-compositions", 
-      "version": "1.30.1"
+      "version": "1.30.2"
     }, 
     "r-compositionsgui-1.0-0.tar.bz2": {
       "build": "0", 
@@ -11629,6 +11654,17 @@
       "name": "r-cosmofns", 
       "version": "1.0.1"
     }, 
+    "r-cosmosr-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-xlsx"
+      ], 
+      "fn": "r-cosmosr-1.0-0.tar.bz2", 
+      "name": "r-cosmosr", 
+      "version": "1.0"
+    }, 
     "r-cosso-2.1.1-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -11867,15 +11903,15 @@
       "name": "r-cphshape", 
       "version": "1.0"
     }, 
-    "r-cpk-1.3-0.tar.bz2": {
+    "r-cpk-1.3.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-cpk-1.3-0.tar.bz2", 
+      "fn": "r-cpk-1.3.1-0.tar.bz2", 
       "name": "r-cpk", 
-      "version": "1.3"
+      "version": "1.3.1"
     }, 
     "r-cplexapi-1.2.9-0.tar.bz2": {
       "build": "0", 
@@ -12172,15 +12208,15 @@
       "name": "r-crrstep", 
       "version": "2013.02.12"
     }, 
-    "r-crs-0.15.18-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-crs-0.15.20-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-crs-0.15.18-1.tar.bz2", 
+      "fn": "r-crs-0.15.20-0.tar.bz2", 
       "name": "r-crs", 
-      "version": "0.15.18"
+      "version": "0.15.20"
     }, 
     "r-crtsize-0.3-0.tar.bz2": {
       "build": "0", 
@@ -12961,6 +12997,17 @@
       "name": "r-dataframes2xls", 
       "version": "0.4.5"
     }, 
+    "r-datalist-0.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-assertthat"
+      ], 
+      "fn": "r-datalist-0.2-0.tar.bz2", 
+      "name": "r-datalist", 
+      "version": "0.2"
+    }, 
     "r-datamap-0.1.1-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -13228,18 +13275,18 @@
       "name": "r-dbstats", 
       "version": "1.0.3"
     }, 
-    "r-dcemris4-0.50-0.tar.bz2": {
+    "r-dcemris4-0.51-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-oro.nifti"
       ], 
-      "fn": "r-dcemris4-0.50-0.tar.bz2", 
+      "fn": "r-dcemris4-0.51-0.tar.bz2", 
       "name": "r-dcemris4", 
-      "version": "0.50"
+      "version": "0.51"
     }, 
-    "r-dcgl-2.1.0-0.tar.bz2": {
+    "r-dcgl-2.1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -13247,9 +13294,9 @@
         "r-igraph", 
         "r-limma"
       ], 
-      "fn": "r-dcgl-2.1.0-0.tar.bz2", 
+      "fn": "r-dcgl-2.1.1-0.tar.bz2", 
       "name": "r-dcgl", 
-      "version": "2.1.0"
+      "version": "2.1.1"
     }, 
     "r-dcl-0.1.0-1.tar.bz2": {
       "build": "1", 
@@ -14021,6 +14068,18 @@
       "name": "r-desire", 
       "version": "1.0.7"
     }, 
+    "r-desnowball-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-clue", 
+        "r-combinat"
+      ], 
+      "fn": "r-desnowball-1.0-0.tar.bz2", 
+      "name": "r-desnowball", 
+      "version": "1.0"
+    }, 
     "r-desolve-1.10.8-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -14139,16 +14198,16 @@
       "name": "r-dexseq", 
       "version": "1.8.0"
     }, 
-    "r-dexus-1.2.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-dexus-1.2.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-biocgenerics"
       ], 
-      "fn": "r-dexus-1.2.1-1.tar.bz2", 
+      "fn": "r-dexus-1.2.2-0.tar.bz2", 
       "name": "r-dexus", 
-      "version": "1.2.1"
+      "version": "1.2.2"
     }, 
     "r-df2json-0.0.2-0.tar.bz2": {
       "build": "0", 
@@ -15966,6 +16025,16 @@
       "name": "r-dtr", 
       "version": "1.2"
     }, 
+    "r-dtt-0.1.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-dtt-0.1.2-0.tar.bz2", 
+      "name": "r-dtt", 
+      "version": "0.1.2"
+    }, 
     "r-dtw-1.17.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -16324,9 +16393,9 @@
       "name": "r-easyqpcr", 
       "version": "1.5.0"
     }, 
-    "r-easyrnaseq-1.8.3-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-easyrnaseq-1.8.4-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-genomeintervals", 
@@ -16342,9 +16411,9 @@
         "r-biocgenerics", 
         "r-lsd"
       ], 
-      "fn": "r-easyrnaseq-1.8.3-1.tar.bz2", 
+      "fn": "r-easyrnaseq-1.8.4-0.tar.bz2", 
       "name": "r-easyrnaseq", 
-      "version": "1.8.3"
+      "version": "1.8.4"
     }, 
     "r-easystab-1.0-0.tar.bz2": {
       "build": "0", 
@@ -18281,16 +18350,6 @@
       "name": "r-exactranktests", 
       "version": "0.8.27"
     }, 
-    "r-exactsampling-1.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r"
-      ], 
-      "fn": "r-exactsampling-1.0-0.tar.bz2", 
-      "name": "r-exactsampling", 
-      "version": "1.0"
-    }, 
     "r-exams-1.9.6-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -18514,6 +18573,20 @@
       "name": "r-expotree", 
       "version": "1.0.1"
     }, 
+    "r-expp-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-sp", 
+        "r-spdep", 
+        "r-rgeos", 
+        "r-deldir"
+      ], 
+      "fn": "r-expp-1.0-0.tar.bz2", 
+      "name": "r-expp", 
+      "version": "1.0"
+    }, 
     "r-expressionview-1.14.0-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -18564,6 +18637,17 @@
       "fn": "r-exsic-1.0-0.tar.bz2", 
       "name": "r-exsic", 
       "version": "1.0"
+    }, 
+    "r-extfunnel-1.3-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-rmeta"
+      ], 
+      "fn": "r-extfunnel-1.3-0.tar.bz2", 
+      "name": "r-extfunnel", 
+      "version": "1.3"
     }, 
     "r-extrabinomial-2.1-0.tar.bz2": {
       "build": "0", 
@@ -18710,18 +18794,6 @@
       "fn": "r-fabia-2.8.0-1.tar.bz2", 
       "name": "r-fabia", 
       "version": "2.8.0"
-    }, 
-    "r-factas-2.1-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-plotrix", 
-        "r-factominer"
-      ], 
-      "fn": "r-factas-2.1-0.tar.bz2", 
-      "name": "r-factas", 
-      "version": "2.1"
     }, 
     "r-factdesign-1.38.0-1.tar.bz2": {
       "build": "1", 
@@ -19388,18 +19460,16 @@
       "name": "r-fdakma", 
       "version": "1.0"
     }, 
-    "r-fdamixed-0.2-0.tar.bz2": {
+    "r-fdamixed-0.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
-        "r-rcpp", 
-        "r-rcpparmadillo", 
         "r-formula"
       ], 
-      "fn": "r-fdamixed-0.2-0.tar.bz2", 
+      "fn": "r-fdamixed-0.3-0.tar.bz2", 
       "name": "r-fdamixed", 
-      "version": "0.2"
+      "version": "0.3"
     }, 
     "r-fdasrvf-1.4.1-0.tar.bz2": {
       "build": "0", 
@@ -19925,6 +19995,16 @@
       "name": "r-fimport", 
       "version": "3000.82"
     }, 
+    "r-financial-0.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-financial-0.2-0.tar.bz2", 
+      "name": "r-financial", 
+      "version": "0.2"
+    }, 
     "r-financialinstrument-1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -20128,6 +20208,16 @@
       "fn": "r-fitdistrplus-1.0.1-0.tar.bz2", 
       "name": "r-fitdistrplus", 
       "version": "1.0.1"
+    }, 
+    "r-fitdrc-1.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-fitdrc-1.1-0.tar.bz2", 
+      "name": "r-fitdrc", 
+      "version": "1.1"
     }, 
     "r-fitsio-2.0.0-0.tar.bz2": {
       "build": "0", 
@@ -20615,18 +20705,6 @@
       "name": "r-flsa", 
       "version": "1.05"
     }, 
-    "r-flubase-1.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-forecast", 
-        "r-fints"
-      ], 
-      "fn": "r-flubase-1.0-0.tar.bz2", 
-      "name": "r-flubase", 
-      "version": "1.0"
-    }, 
     "r-fluomatic-1.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -21086,15 +21164,15 @@
       "name": "r-fpp", 
       "version": "0.5"
     }, 
-    "r-fptdapprox-1.2-0.tar.bz2": {
+    "r-fptdapprox-2.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-fptdapprox-1.2-0.tar.bz2", 
+      "fn": "r-fptdapprox-2.0-0.tar.bz2", 
       "name": "r-fptdapprox", 
-      "version": "1.2"
+      "version": "2.0"
     }, 
     "r-fracdiff-1.4.2-1.tar.bz2": {
       "build": "1", 
@@ -21117,6 +21195,21 @@
       "fn": "r-fracprolif-1.0.5-1.tar.bz2", 
       "name": "r-fracprolif", 
       "version": "1.0.5"
+    }, 
+    "r-fractal-2.0.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-splus2r", 
+        "r-ifultools", 
+        "r-sapa", 
+        "r-wmtsa", 
+        "r-scatterplot3d"
+      ], 
+      "fn": "r-fractal-2.0.0-0.tar.bz2", 
+      "name": "r-fractal", 
+      "version": "2.0.0"
     }, 
     "r-fractaldim-0.8.1-0.tar.bz2": {
       "build": "0", 
@@ -21244,7 +21337,7 @@
       "name": "r-freeknotsplines", 
       "version": "1.0"
     }, 
-    "r-fregression-3010.79-0.tar.bz2": {
+    "r-fregression-3010.80-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -21252,12 +21345,12 @@
         "r-fbasics", 
         "r-ftrading", 
         "r-fmultivar", 
-        "r-lmtest", 
-        "r-polspline"
+        "r-polspline", 
+        "r-lmtest"
       ], 
-      "fn": "r-fregression-3010.79-0.tar.bz2", 
+      "fn": "r-fregression-3010.80-0.tar.bz2", 
       "name": "r-fregression", 
-      "version": "3010.79"
+      "version": "3010.80"
     }, 
     "r-freq-1.0-0.tar.bz2": {
       "build": "0", 
@@ -21559,20 +21652,6 @@
       "name": "r-funitroots", 
       "version": "3010.78"
     }, 
-    "r-funnet-1.00.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-ade4", 
-        "r-hmisc", 
-        "r-sna", 
-        "r-cairo"
-      ], 
-      "fn": "r-funnet-1.00.12-0.tar.bz2", 
-      "name": "r-funnet", 
-      "version": "1.00.12"
-    }, 
     "r-fusedpca-0.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -21652,15 +21731,15 @@
       "name": "r-fuzzyfdr", 
       "version": "1.0"
     }, 
-    "r-fuzzynumbers-0.3.1-0.tar.bz2": {
+    "r-fuzzynumbers-0.3.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-fuzzynumbers-0.3.1-0.tar.bz2", 
+      "fn": "r-fuzzynumbers-0.3.3-0.tar.bz2", 
       "name": "r-fuzzynumbers", 
-      "version": "0.3.1"
+      "version": "0.3.3"
     }, 
     "r-fuzzyranktests-0.3.5-0.tar.bz2": {
       "build": "0", 
@@ -22451,28 +22530,6 @@
       "name": "r-gaussquad", 
       "version": "1.0.2"
     }, 
-    "r-gazetools-3.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-rgeos", 
-        "r-maptools", 
-        "r-deldir", 
-        "r-sp", 
-        "r-modeest", 
-        "r-signal", 
-        "r-zoo", 
-        "r-rmisc", 
-        "r-reshape", 
-        "r-plyr", 
-        "r-spatstat", 
-        "r-ggplot2"
-      ], 
-      "fn": "r-gazetools-3.0-0.tar.bz2", 
-      "name": "r-gazetools", 
-      "version": "3.0"
-    }, 
     "r-gb-1.1.8.8-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -22824,15 +22881,26 @@
       "name": "r-gemtc.jar", 
       "version": "0.14.3"
     }, 
-    "r-genabel-1.7.6-0.tar.bz2": {
+    "r-genabel-1.8.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-genabel.data"
+      ], 
+      "fn": "r-genabel-1.8.0-0.tar.bz2", 
+      "name": "r-genabel", 
+      "version": "1.8.0"
+    }, 
+    "r-genabel.data-1.0.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-genabel-1.7.6-0.tar.bz2", 
-      "name": "r-genabel", 
-      "version": "1.7.6"
+      "fn": "r-genabel.data-1.0.0-0.tar.bz2", 
+      "name": "r-genabel.data", 
+      "version": "1.0.0"
     }, 
     "r-genalg-0.1.1-1.tar.bz2": {
       "build": "1", 
@@ -23749,17 +23817,16 @@
       "name": "r-geoxp", 
       "version": "1.6.2"
     }, 
-    "r-geozoo-0.4.2-0.tar.bz2": {
+    "r-geozoo-0.4.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
-        "r-bitops", 
-        "r-tourr"
+        "r-bitops"
       ], 
-      "fn": "r-geozoo-0.4.2-0.tar.bz2", 
+      "fn": "r-geozoo-0.4.3-0.tar.bz2", 
       "name": "r-geozoo", 
-      "version": "0.4.2"
+      "version": "0.4.3"
     }, 
     "r-gestr-0.1-0.tar.bz2": {
       "build": "0", 
@@ -23861,7 +23928,7 @@
       "name": "r-gexmap", 
       "version": "1.1.3"
     }, 
-    "r-ggally-0.4.4-0.tar.bz2": {
+    "r-ggally-0.4.5-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -23869,11 +23936,12 @@
         "r-ggplot2", 
         "r-reshape", 
         "r-gtable", 
+        "r-plyr", 
         "r-stringr"
       ], 
-      "fn": "r-ggally-0.4.4-0.tar.bz2", 
+      "fn": "r-ggally-0.4.5-0.tar.bz2", 
       "name": "r-ggally", 
-      "version": "0.4.4"
+      "version": "0.4.5"
     }, 
     "r-ggbase-3.24.0-1.tar.bz2": {
       "build": "1", 
@@ -23929,7 +23997,7 @@
       "name": "r-ggdendro", 
       "version": "0.1.14"
     }, 
-    "r-ggebiplotgui-1.0.6-0.tar.bz2": {
+    "r-ggebiplotgui-1.0.7-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -23937,9 +24005,9 @@
         "r-rgl", 
         "r-tkrplot"
       ], 
-      "fn": "r-ggebiplotgui-1.0.6-0.tar.bz2", 
+      "fn": "r-ggebiplotgui-1.0.7-0.tar.bz2", 
       "name": "r-ggebiplotgui", 
-      "version": "1.0.6"
+      "version": "1.0.7"
     }, 
     "r-gghorizon-0.1-0.tar.bz2": {
       "build": "0", 
@@ -24103,9 +24171,9 @@
       "name": "r-ggsubplot", 
       "version": "0.3.2"
     }, 
-    "r-ggtern-1.0.1.3-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-ggtern-1.0.2.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-ggplot2", 
@@ -24116,9 +24184,9 @@
         "r-proto", 
         "r-sp"
       ], 
-      "fn": "r-ggtern-1.0.1.3-1.tar.bz2", 
+      "fn": "r-ggtern-1.0.2.0-0.tar.bz2", 
       "name": "r-ggtern", 
-      "version": "1.0.1.3"
+      "version": "1.0.2.0"
     }, 
     "r-ggthemes-1.6.0-0.tar.bz2": {
       "build": "0", 
@@ -24433,32 +24501,16 @@
       "name": "r-glmlep", 
       "version": "0.1"
     }, 
-    "r-glmmak-1.7-0.tar.bz2": {
+    "r-glmmbugs-2.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
-        "r-smoothsurv", 
-        "r-coda", 
-        "r-mvtnorm"
+        "r-abind"
       ], 
-      "fn": "r-glmmak-1.7-0.tar.bz2", 
-      "name": "r-glmmak", 
-      "version": "1.7"
-    }, 
-    "r-glmmbugs-2.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-abind", 
-        "r-spdep", 
-        "r-randomfields", 
-        "r-raster"
-      ], 
-      "fn": "r-glmmbugs-2.0-0.tar.bz2", 
+      "fn": "r-glmmbugs-2.3-0.tar.bz2", 
       "name": "r-glmmbugs", 
-      "version": "2.0"
+      "version": "2.3"
     }, 
     "r-glmmgs-0.5.1-1.tar.bz2": {
       "build": "1", 
@@ -24501,16 +24553,16 @@
       "name": "r-glmnet", 
       "version": "1.9.5"
     }, 
-    "r-glmnetcr-1.0.1-0.tar.bz2": {
+    "r-glmnetcr-1.0.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-glmnet"
       ], 
-      "fn": "r-glmnetcr-1.0.1-0.tar.bz2", 
+      "fn": "r-glmnetcr-1.0.2-0.tar.bz2", 
       "name": "r-glmnetcr", 
-      "version": "1.0.1"
+      "version": "1.0.2"
     }, 
     "r-glmpath-0.97-0.tar.bz2": {
       "build": "0", 
@@ -24522,7 +24574,7 @@
       "name": "r-glmpath", 
       "version": "0.97"
     }, 
-    "r-glmpathcr-1.0.2-0.tar.bz2": {
+    "r-glmpathcr-1.0.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -24530,9 +24582,9 @@
         "r-glmpath", 
         "r-mvtnorm"
       ], 
-      "fn": "r-glmpathcr-1.0.2-0.tar.bz2", 
+      "fn": "r-glmpathcr-1.0.3-0.tar.bz2", 
       "name": "r-glmpathcr", 
-      "version": "1.0.2"
+      "version": "1.0.3"
     }, 
     "r-glmperm-1.0.5-1.tar.bz2": {
       "build": "1", 
@@ -24794,7 +24846,7 @@
       "name": "r-gmwt", 
       "version": "0.3"
     }, 
-    "r-gnm-1.0.6-0.tar.bz2": {
+    "r-gnm-1.0.7-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -24802,9 +24854,9 @@
         "r-qvcalc", 
         "r-relimp"
       ], 
-      "fn": "r-gnm-1.0.6-0.tar.bz2", 
+      "fn": "r-gnm-1.0.7-0.tar.bz2", 
       "name": "r-gnm", 
-      "version": "1.0.6"
+      "version": "1.0.7"
     }, 
     "r-gnmf-0.4-0.tar.bz2": {
       "build": "0", 
@@ -25173,6 +25225,19 @@
       "name": "r-gpdtest", 
       "version": "0.4"
     }, 
+    "r-gpfda-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-data.table", 
+        "r-fda", 
+        "r-spam"
+      ], 
+      "fn": "r-gpfda-1.0-0.tar.bz2", 
+      "name": "r-gpfda", 
+      "version": "1.0"
+    }, 
     "r-gpfit-0.1.0-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -25480,16 +25545,17 @@
       "name": "r-grassmannoptim", 
       "version": "2.0"
     }, 
-    "r-grbase-1.6.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-grbase-1.6.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r", 
         "r-graph", 
+        "r-rcpp", 
         "r-rbgl", 
         "r-igraph"
       ], 
-      "fn": "r-grbase-1.6.12-0.tar.bz2", 
+      "fn": "r-grbase-1.6.12-1.tar.bz2", 
       "name": "r-grbase", 
       "version": "1.6.12"
     }, 
@@ -25800,9 +25866,9 @@
       "name": "r-gsbdesign", 
       "version": "0.96.2"
     }, 
-    "r-gsdesign-2.8.7-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-gsdesign-2.8.8-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-ggplot2", 
@@ -25811,9 +25877,9 @@
         "r-runit", 
         "r-plyr"
       ], 
-      "fn": "r-gsdesign-2.8.7-1.tar.bz2", 
+      "fn": "r-gsdesign-2.8.8-0.tar.bz2", 
       "name": "r-gsdesign", 
-      "version": "2.8.7"
+      "version": "2.8.8"
     }, 
     "r-gse-3.0-0.tar.bz2": {
       "build": "0", 
@@ -30020,6 +30086,16 @@
       "name": "r-icaocularcorrection", 
       "version": "3.0.0"
     }, 
+    "r-icapca-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-icapca-1.0-0.tar.bz2", 
+      "name": "r-icapca", 
+      "version": "1.0"
+    }, 
     "r-icc-2.2.1-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -30268,16 +30344,16 @@
       "name": "r-ifs", 
       "version": "0.1.4"
     }, 
-    "r-ifultools-1.1.3-0.tar.bz2": {
+    "r-ifultools-2.0.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-splus2r"
       ], 
-      "fn": "r-ifultools-1.1.3-0.tar.bz2", 
+      "fn": "r-ifultools-2.0.0-0.tar.bz2", 
       "name": "r-ifultools", 
-      "version": "1.1.3"
+      "version": "2.0.0"
     }, 
     "r-igasso-1.1.1-0.tar.bz2": {
       "build": "0", 
@@ -30728,16 +30804,16 @@
       "name": "r-independencetests", 
       "version": "0.2"
     }, 
-    "r-indicspecies-1.7.0-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-indicspecies-1.7.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-permute"
       ], 
-      "fn": "r-indicspecies-1.7.0-1.tar.bz2", 
+      "fn": "r-indicspecies-1.7.1-0.tar.bz2", 
       "name": "r-indicspecies", 
-      "version": "1.7.0"
+      "version": "1.7.1"
     }, 
     "r-ineq-0.2.11-0.tar.bz2": {
       "build": "0", 
@@ -30801,16 +30877,16 @@
       "name": "r-influence.me", 
       "version": "0.9.3"
     }, 
-    "r-influence.sem-1.1-0.tar.bz2": {
+    "r-influence.sem-1.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-lavaan"
       ], 
-      "fn": "r-influence.sem-1.1-0.tar.bz2", 
+      "fn": "r-influence.sem-1.2-0.tar.bz2", 
       "name": "r-influence.sem", 
-      "version": "1.1"
+      "version": "1.2"
     }, 
     "r-infodecompute-0.5.1-0.tar.bz2": {
       "build": "0", 
@@ -31657,20 +31733,6 @@
       "name": "r-isoweek", 
       "version": "0.6.2"
     }, 
-    "r-isubpathwayminer-3.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-graph", 
-        "r-rbgl", 
-        "r-igraph", 
-        "r-xml"
-      ], 
-      "fn": "r-isubpathwayminer-3.0-0.tar.bz2", 
-      "name": "r-isubpathwayminer", 
-      "version": "3.0"
-    }, 
     "r-isva-1.8-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -32119,15 +32181,15 @@
       "name": "r-jpsurv", 
       "version": "1.0.1"
     }, 
-    "r-jsonlite-0.9.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-jsonlite-0.9.3-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-jsonlite-0.9.1-1.tar.bz2", 
+      "fn": "r-jsonlite-0.9.3-0.tar.bz2", 
       "name": "r-jsonlite", 
-      "version": "0.9.1"
+      "version": "0.9.3"
     }, 
     "r-jtrans-0.1-0.tar.bz2": {
       "build": "0", 
@@ -33584,16 +33646,16 @@
       "name": "r-ldod", 
       "version": "1.0"
     }, 
-    "r-ldr-1.2.1-0.tar.bz2": {
+    "r-ldr-1.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-grassmannoptim"
       ], 
-      "fn": "r-ldr-1.2.1-0.tar.bz2", 
+      "fn": "r-ldr-1.3-0.tar.bz2", 
       "name": "r-ldr", 
-      "version": "1.2.1"
+      "version": "1.3"
     }, 
     "r-ldtests-1.0-0.tar.bz2": {
       "build": "0", 
@@ -33707,7 +33769,7 @@
       "name": "r-les", 
       "version": "1.12.0"
     }, 
-    "r-lessr-2.9.7-0.tar.bz2": {
+    "r-lessr-3.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -33717,9 +33779,9 @@
         "r-mbess", 
         "r-gdata"
       ], 
-      "fn": "r-lessr-2.9.7-0.tar.bz2", 
+      "fn": "r-lessr-3.0-0.tar.bz2", 
       "name": "r-lessr", 
-      "version": "2.9.7"
+      "version": "3.0"
     }, 
     "r-lestat-1.8-0.tar.bz2": {
       "build": "0", 
@@ -33731,15 +33793,15 @@
       "name": "r-lestat", 
       "version": "1.8"
     }, 
-    "r-lfe-1.6.1163-0.tar.bz2": {
+    "r-lfe-1.6.1180-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-lfe-1.6.1163-0.tar.bz2", 
+      "fn": "r-lfe-1.6.1180-0.tar.bz2", 
       "name": "r-lfe", 
-      "version": "1.6.1163"
+      "version": "1.6.1180"
     }, 
     "r-lfstat-0.3-0.tar.bz2": {
       "build": "0", 
@@ -35204,7 +35266,7 @@
       "name": "r-ltsbase", 
       "version": "1.0.1"
     }, 
-    "r-lubridate-1.3.2-0.tar.bz2": {
+    "r-lubridate-1.3.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -35213,9 +35275,9 @@
         "r-stringr", 
         "r-memoise"
       ], 
-      "fn": "r-lubridate-1.3.2-0.tar.bz2", 
+      "fn": "r-lubridate-1.3.3-0.tar.bz2", 
       "name": "r-lubridate", 
-      "version": "1.3.2"
+      "version": "1.3.3"
     }, 
     "r-luca-1.0.5-0.tar.bz2": {
       "build": "0", 
@@ -35500,18 +35562,18 @@
       "name": "r-mad", 
       "version": "0.8"
     }, 
-    "r-mada-0.5.4-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-mada-0.5.5-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-mvtnorm", 
         "r-ellipse", 
         "r-mvmeta"
       ], 
-      "fn": "r-mada-0.5.4-1.tar.bz2", 
+      "fn": "r-mada-0.5.5-0.tar.bz2", 
       "name": "r-mada", 
-      "version": "0.5.4"
+      "version": "0.5.5"
     }, 
     "r-madam-1.2.2-0.tar.bz2": {
       "build": "0", 
@@ -36068,7 +36130,7 @@
       "name": "r-marketsim", 
       "version": "0.9.2"
     }, 
-    "r-markovchain-0.0.3-0.tar.bz2": {
+    "r-markovchain-0.0.5-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -36077,9 +36139,9 @@
         "r-matlab", 
         "r-expm"
       ], 
-      "fn": "r-markovchain-0.0.3-0.tar.bz2", 
+      "fn": "r-markovchain-0.0.5-0.tar.bz2", 
       "name": "r-markovchain", 
-      "version": "0.0.3"
+      "version": "0.0.5"
     }, 
     "r-marmap-0.7-0.tar.bz2": {
       "build": "0", 
@@ -36311,15 +36373,15 @@
       "name": "r-matlab", 
       "version": "0.8.9"
     }, 
-    "r-matrix-1.1.0-0.tar.bz2": {
+    "r-matrix-1.1.1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-matrix-1.1.0-0.tar.bz2", 
+      "fn": "r-matrix-1.1.1.1-0.tar.bz2", 
       "name": "r-matrix", 
-      "version": "1.1.0"
+      "version": "1.1.1.1"
     }, 
     "r-matrixcalc-1.0.3-0.tar.bz2": {
       "build": "0", 
@@ -36351,15 +36413,15 @@
       "name": "r-matrixmodels", 
       "version": "0.3.1"
     }, 
-    "r-matrixpls-0.1.0-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-matrixpls-0.2.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-matrixpls-0.1.0-1.tar.bz2", 
+      "fn": "r-matrixpls-0.2.0-0.tar.bz2", 
       "name": "r-matrixpls", 
-      "version": "0.1.0"
+      "version": "0.2.0"
     }, 
     "r-matrixstats-0.8.12-1.tar.bz2": {
       "build": "1", 
@@ -36503,6 +36565,16 @@
       "fn": "r-mbi-1.0-0.tar.bz2", 
       "name": "r-mbi", 
       "version": "1.0"
+    }, 
+    "r-mblm-0.12-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-mblm-0.12-0.tar.bz2", 
+      "name": "r-mblm", 
+      "version": "0.12"
     }, 
     "r-mbmca-0.0.2.1-0.tar.bz2": {
       "build": "0", 
@@ -36727,16 +36799,16 @@
       "name": "r-mcmc", 
       "version": "0.9.2"
     }, 
-    "r-mcmc.qpcr-1.0.1-0.tar.bz2": {
+    "r-mcmc.qpcr-1.0.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-mcmcglmm"
       ], 
-      "fn": "r-mcmc.qpcr-1.0.1-0.tar.bz2", 
+      "fn": "r-mcmc.qpcr-1.0.2-0.tar.bz2", 
       "name": "r-mcmc.qpcr", 
-      "version": "1.0.1"
+      "version": "1.0.2"
     }, 
     "r-mcmcglmm-2.17-0.tar.bz2": {
       "build": "0", 
@@ -37445,23 +37517,6 @@
       "name": "r-metamisc", 
       "version": "0.1.1"
     }, 
-    "r-metapath-0.9-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-biobase", 
-        "r-annotationdbi", 
-        "r-genefilter", 
-        "r-gseabase", 
-        "r-limma", 
-        "r-impute", 
-        "r-qvalue"
-      ], 
-      "fn": "r-metapath-0.9-0.tar.bz2", 
-      "name": "r-metapath", 
-      "version": "0.9"
-    }, 
     "r-metapca-0.1.4-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -37663,16 +37718,16 @@
       "name": "r-metrics", 
       "version": "0.1.1"
     }, 
-    "r-metrology-0.9.16-0.tar.bz2": {
+    "r-metrology-0.9.16.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-numderiv"
       ], 
-      "fn": "r-metrology-0.9.16-0.tar.bz2", 
+      "fn": "r-metrology-0.9.16.1-0.tar.bz2", 
       "name": "r-metrology", 
-      "version": "0.9.16"
+      "version": "0.9.16.1"
     }, 
     "r-metrumrg-5.54-0.tar.bz2": {
       "build": "0", 
@@ -38178,7 +38233,7 @@
       "name": "r-mht", 
       "version": "2.122"
     }, 
-    "r-mhurdle-0.1.3-0.tar.bz2": {
+    "r-mhurdle-1.0.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -38188,9 +38243,9 @@
         "r-maxlik", 
         "r-pbivnorm"
       ], 
-      "fn": "r-mhurdle-0.1.3-0.tar.bz2", 
+      "fn": "r-mhurdle-1.0.1-0.tar.bz2", 
       "name": "r-mhurdle", 
-      "version": "0.1.3"
+      "version": "1.0.1"
     }, 
     "r-mi-0.09.18.03-1.tar.bz2": {
       "build": "1", 
@@ -38848,16 +38903,18 @@
       "name": "r-misctools", 
       "version": "0.6.16"
     }, 
-    "r-missforest-1.3.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-missforest-1.4-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
-        "r-randomforest"
+        "r-randomforest", 
+        "r-foreach", 
+        "r-itertools"
       ], 
-      "fn": "r-missforest-1.3.1-1.tar.bz2", 
+      "fn": "r-missforest-1.4-0.tar.bz2", 
       "name": "r-missforest", 
-      "version": "1.3.1"
+      "version": "1.4"
     }, 
     "r-missingdatagui-0.1.5-1.tar.bz2": {
       "build": "1", 
@@ -39400,20 +39457,20 @@
       "name": "r-mlmrev", 
       "version": "1.0.5"
     }, 
-    "r-mlogit-0.2.3-0.tar.bz2": {
+    "r-mlogit-0.2.4-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-formula", 
-        "r-statmod", 
-        "r-lmtest", 
         "r-maxlik", 
-        "r-zoo"
+        "r-statmod", 
+        "r-zoo", 
+        "r-lmtest"
       ], 
-      "fn": "r-mlogit-0.2.3-0.tar.bz2", 
+      "fn": "r-mlogit-0.2.4-0.tar.bz2", 
       "name": "r-mlogit", 
-      "version": "0.2.3"
+      "version": "0.2.4"
     }, 
     "r-mlogitbma-0.1.6-0.tar.bz2": {
       "build": "0", 
@@ -39619,27 +39676,27 @@
       "name": "r-mmix", 
       "version": "1.2"
     }, 
-    "r-mmm-1.3-0.tar.bz2": {
+    "r-mmm-1.4-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-gee"
       ], 
-      "fn": "r-mmm-1.3-0.tar.bz2", 
+      "fn": "r-mmm-1.4-0.tar.bz2", 
       "name": "r-mmm", 
-      "version": "1.3"
+      "version": "1.4"
     }, 
-    "r-mmm2-1.1-0.tar.bz2": {
+    "r-mmm2-1.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-gee"
       ], 
-      "fn": "r-mmm2-1.1-0.tar.bz2", 
+      "fn": "r-mmm2-1.2-0.tar.bz2", 
       "name": "r-mmm2", 
-      "version": "1.1"
+      "version": "1.2"
     }, 
     "r-mmod-1.2-0.tar.bz2": {
       "build": "0", 
@@ -40247,15 +40304,15 @@
       "name": "r-monreg", 
       "version": "0.1.2"
     }, 
-    "r-moonsun-0.1.2-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-moonsun-0.1.3-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-moonsun-0.1.2-1.tar.bz2", 
+      "fn": "r-moonsun-0.1.3-0.tar.bz2", 
       "name": "r-moonsun", 
-      "version": "0.1.2"
+      "version": "0.1.3"
     }, 
     "r-mopsocd-0.5.1-1.tar.bz2": {
       "build": "1", 
@@ -40292,16 +40349,16 @@
       "name": "r-morsegen", 
       "version": "1.2"
     }, 
-    "r-mortalitysmooth-2.3.1-0.tar.bz2": {
+    "r-mortalitysmooth-2.3.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-svcm"
       ], 
-      "fn": "r-mortalitysmooth-2.3.1-0.tar.bz2", 
+      "fn": "r-mortalitysmooth-2.3.2-0.tar.bz2", 
       "name": "r-mortalitysmooth", 
-      "version": "2.3.1"
+      "version": "2.3.2"
     }, 
     "r-mosaic-0.8.3-0.tar.bz2": {
       "build": "0", 
@@ -41550,19 +41607,21 @@
       "name": "r-multicore", 
       "version": "0.1.7"
     }, 
-    "r-multidimbio-0.2.4-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-multidimbio-0.3.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-ggplot2", 
+        "r-lme4", 
         "r-pcamethods", 
         "r-misc3d", 
+        "r-foreach", 
         "r-rcolorbrewer"
       ], 
-      "fn": "r-multidimbio-0.2.4-1.tar.bz2", 
+      "fn": "r-multidimbio-0.3.2-0.tar.bz2", 
       "name": "r-multidimbio", 
-      "version": "0.2.4"
+      "version": "0.3.2"
     }, 
     "r-multilcirt-2.5-0.tar.bz2": {
       "build": "0", 
@@ -42163,7 +42222,7 @@
       "name": "r-mvshapirotest", 
       "version": "1.0"
     }, 
-    "r-mvslouch-1.0-0.tar.bz2": {
+    "r-mvslouch-1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -42174,9 +42233,9 @@
         "r-mvtnorm", 
         "r-corpcor"
       ], 
-      "fn": "r-mvslouch-1.0-0.tar.bz2", 
+      "fn": "r-mvslouch-1.1-0.tar.bz2", 
       "name": "r-mvslouch", 
-      "version": "1.0"
+      "version": "1.1"
     }, 
     "r-mvtbinaryep-1.0.1-1.tar.bz2": {
       "build": "1", 
@@ -42242,6 +42301,16 @@
       "fn": "r-mxkssd-1.1-0.tar.bz2", 
       "name": "r-mxkssd", 
       "version": "1.1"
+    }, 
+    "r-mycobacrvr-1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-mycobacrvr-1.0-0.tar.bz2", 
+      "name": "r-mycobacrvr", 
+      "version": "1.0"
     }, 
     "r-myepisodes-1.1.1-1.tar.bz2": {
       "build": "1", 
@@ -42601,21 +42670,6 @@
       "name": "r-ndtv", 
       "version": "0.4.0"
     }, 
-    "r-ndvits-1.0.1-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-gstat", 
-        "r-rgdal", 
-        "r-bfast", 
-        "r-rtisean", 
-        "r-rcolorbrewer"
-      ], 
-      "fn": "r-ndvits-1.0.1-0.tar.bz2", 
-      "name": "r-ndvits", 
-      "version": "1.0.1"
-    }, 
     "r-neagui-1.0.0-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -42928,23 +42982,6 @@
       "name": "r-networksis", 
       "version": "2.1.2"
     }, 
-    "r-networktomography-0.2-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-rglpk", 
-        "r-coda", 
-        "r-kfas", 
-        "r-limsolve", 
-        "r-igraph", 
-        "r-stringr", 
-        "r-plyr"
-      ], 
-      "fn": "r-networktomography-0.2-0.tar.bz2", 
-      "name": "r-networktomography", 
-      "version": "0.2"
-    }, 
     "r-neuralnet-1.32-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -42997,7 +43034,7 @@
       "name": "r-nfactors", 
       "version": "2.3.3"
     }, 
-    "r-ngramr-1.4.0-0.tar.bz2": {
+    "r-ngramr-1.4.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -43011,9 +43048,9 @@
         "r-ggplot2", 
         "r-scales"
       ], 
-      "fn": "r-ngramr-1.4.0-0.tar.bz2", 
+      "fn": "r-ngramr-1.4.2-0.tar.bz2", 
       "name": "r-ngramr", 
-      "version": "1.4.0"
+      "version": "1.4.2"
     }, 
     "r-ngspatial-1.0.3-1.tar.bz2": {
       "build": "1", 
@@ -43816,16 +43853,16 @@
       "name": "r-nppbib", 
       "version": "1.0.0"
     }, 
-    "r-nprmpi-0.50.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-nprmpi-0.50.1.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-cubature"
       ], 
-      "fn": "r-nprmpi-0.50.1-1.tar.bz2", 
+      "fn": "r-nprmpi-0.50.1.1-0.tar.bz2", 
       "name": "r-nprmpi", 
-      "version": "0.50.1"
+      "version": "0.50.1.1"
     }, 
     "r-npsimex-0.2.1-1.tar.bz2": {
       "build": "1", 
@@ -44717,21 +44754,6 @@
       "name": "r-opasnetutils", 
       "version": "1.0.0"
     }, 
-    "r-opdoe-1.0.7-2.tar.bz2": {
-      "build": "2", 
-      "build_number": 2, 
-      "depends": [
-        "r", 
-        "r-orthopolynom", 
-        "r-conf.design", 
-        "r-mvtnorm", 
-        "r-gmp", 
-        "r-crossdes"
-      ], 
-      "fn": "r-opdoe-1.0.7-2.tar.bz2", 
-      "name": "r-opdoe", 
-      "version": "1.0.7"
-    }, 
     "r-ope-0.7-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -45613,27 +45635,27 @@
       "name": "r-ormdr", 
       "version": "1.3.2"
     }, 
-    "r-oro.dicom-0.3.7-0.tar.bz2": {
+    "r-oro.dicom-0.4.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-oro.nifti"
       ], 
-      "fn": "r-oro.dicom-0.3.7-0.tar.bz2", 
+      "fn": "r-oro.dicom-0.4.0-0.tar.bz2", 
       "name": "r-oro.dicom", 
-      "version": "0.3.7"
+      "version": "0.4.0"
     }, 
-    "r-oro.nifti-0.3.9-0.tar.bz2": {
+    "r-oro.nifti-0.4.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-bitops"
       ], 
-      "fn": "r-oro.nifti-0.3.9-0.tar.bz2", 
+      "fn": "r-oro.nifti-0.4.0-0.tar.bz2", 
       "name": "r-oro.nifti", 
-      "version": "0.3.9"
+      "version": "0.4.0"
     }, 
     "r-oro.pet-0.2.1-0.tar.bz2": {
       "build": "0", 
@@ -45751,7 +45773,7 @@
       "name": "r-ouch", 
       "version": "2.8.2"
     }, 
-    "r-outbreaker-1.1.0-0.tar.bz2": {
+    "r-outbreaker-1.1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -45760,9 +45782,9 @@
         "r-igraph", 
         "r-adegenet"
       ], 
-      "fn": "r-outbreaker-1.1.0-0.tar.bz2", 
+      "fn": "r-outbreaker-1.1.1-0.tar.bz2", 
       "name": "r-outbreaker", 
-      "version": "1.1.0"
+      "version": "1.1.1"
     }, 
     "r-outlierd-1.26.0-1.tar.bz2": {
       "build": "1", 
@@ -46097,7 +46119,7 @@
       "name": "r-paleomas", 
       "version": "2.0.1"
     }, 
-    "r-paleotree-1.8.2-0.tar.bz2": {
+    "r-paleotree-1.9-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -46105,9 +46127,9 @@
         "r-ape", 
         "r-phangorn"
       ], 
-      "fn": "r-paleotree-1.8.2-0.tar.bz2", 
+      "fn": "r-paleotree-1.9-0.tar.bz2", 
       "name": "r-paleotree", 
-      "version": "1.8.2"
+      "version": "1.9"
     }, 
     "r-paleots-0.4.4-1.tar.bz2": {
       "build": "1", 
@@ -49689,6 +49711,17 @@
       "name": "r-performanceanalytics", 
       "version": "1.1.0"
     }, 
+    "r-performanceestimation-0.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-ggplot2"
+      ], 
+      "fn": "r-performanceestimation-0.1-0.tar.bz2", 
+      "name": "r-performanceestimation", 
+      "version": "0.1"
+    }, 
     "r-perm-1.0.0.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -49866,18 +49899,18 @@
       "name": "r-pgirmess", 
       "version": "1.5.8"
     }, 
-    "r-pglm-0.1.0-0.tar.bz2": {
+    "r-pglm-0.1.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-maxlik", 
-        "r-statmod", 
-        "r-plm"
+        "r-plm", 
+        "r-statmod"
       ], 
-      "fn": "r-pglm-0.1.0-0.tar.bz2", 
+      "fn": "r-pglm-0.1.2-0.tar.bz2", 
       "name": "r-pglm", 
-      "version": "0.1.0"
+      "version": "0.1.2"
     }, 
     "r-pgls-0.0.1-1.tar.bz2": {
       "build": "1", 
@@ -50143,17 +50176,6 @@
       "name": "r-phmm", 
       "version": "0.7.5"
     }, 
-    "r-phom-1.0.2-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
-      "depends": [
-        "r", 
-        "r-rcpp"
-      ], 
-      "fn": "r-phom-1.0.2-1.tar.bz2", 
-      "name": "r-phom", 
-      "version": "1.0.2"
-    }, 
     "r-phonr-0.4.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -50164,15 +50186,15 @@
       "name": "r-phonr", 
       "version": "0.4.2"
     }, 
-    "r-phontools-0.2.1-0.tar.bz2": {
+    "r-phontools-0.2.1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-phontools-0.2.1-0.tar.bz2", 
+      "fn": "r-phontools-0.2.1.1-0.tar.bz2", 
       "name": "r-phontools", 
-      "version": "0.2.1"
+      "version": "0.2.1.1"
     }, 
     "r-phtt-3.1-0.tar.bz2": {
       "build": "0", 
@@ -50309,18 +50331,6 @@
       "name": "r-phylotools", 
       "version": "0.1.2"
     }, 
-    "r-phylotop-1.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-ape", 
-        "r-phylobase"
-      ], 
-      "fn": "r-phylotop-1.0-0.tar.bz2", 
-      "name": "r-phylotop", 
-      "version": "1.0"
-    }, 
     "r-physicalactivity-0.1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -50432,6 +50442,19 @@
       "fn": "r-pig.db0-2.10.1-1.tar.bz2", 
       "name": "r-pig.db0", 
       "version": "2.10.1"
+    }, 
+    "r-pige-0.9-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-snowfall", 
+        "r-artp", 
+        "r-xtable"
+      ], 
+      "fn": "r-pige-0.9-0.tar.bz2", 
+      "name": "r-pige", 
+      "version": "0.9"
     }, 
     "r-pin-0.8-0.tar.bz2": {
       "build": "0", 
@@ -50871,19 +50894,19 @@
       "name": "r-plis", 
       "version": "1.1"
     }, 
-    "r-plm-1.3.1-0.tar.bz2": {
+    "r-plm-1.4.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
-        "r-bdsmatrix", 
         "r-formula", 
-        "r-sandwich", 
-        "r-zoo"
+        "r-bdsmatrix", 
+        "r-zoo", 
+        "r-sandwich"
       ], 
-      "fn": "r-plm-1.3.1-0.tar.bz2", 
+      "fn": "r-plm-1.4.0-0.tar.bz2", 
       "name": "r-plm", 
-      "version": "1.3.1"
+      "version": "1.4.0"
     }, 
     "r-plmde-1.0-0.tar.bz2": {
       "build": "0", 
@@ -51044,15 +51067,15 @@
       "name": "r-plrasch", 
       "version": "0.1"
     }, 
-    "r-plrmodels-1.0-0.tar.bz2": {
+    "r-plrmodels-1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-plrmodels-1.0-0.tar.bz2", 
+      "fn": "r-plrmodels-1.1-0.tar.bz2", 
       "name": "r-plrmodels", 
-      "version": "1.0"
+      "version": "1.1"
     }, 
     "r-plrs-1.2.0-1.tar.bz2": {
       "build": "1", 
@@ -51924,6 +51947,17 @@
       "name": "r-power", 
       "version": "1.0.1"
     }, 
+    "r-power2stage-0.0.6-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-powertost"
+      ], 
+      "fn": "r-power2stage-0.0.6-0.tar.bz2", 
+      "name": "r-power2stage", 
+      "version": "0.0.6"
+    }, 
     "r-poweranalysis-0.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -51985,26 +52019,26 @@
       "name": "r-powersurvepi", 
       "version": "0.0.6"
     }, 
-    "r-powertost-1.1.07-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-powertost-1.1.08-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-mvtnorm"
       ], 
-      "fn": "r-powertost-1.1.07-1.tar.bz2", 
+      "fn": "r-powertost-1.1.08-0.tar.bz2", 
       "name": "r-powertost", 
-      "version": "1.1.07"
+      "version": "1.1.08"
     }, 
-    "r-pp-0.2-0.tar.bz2": {
+    "r-pp-0.2.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-pp-0.2-0.tar.bz2", 
+      "fn": "r-pp-0.2.1-0.tar.bz2", 
       "name": "r-pp", 
-      "version": "0.2"
+      "version": "0.2.1"
     }, 
     "r-ppcor-1.0-0.tar.bz2": {
       "build": "0", 
@@ -52313,7 +52347,7 @@
       "name": "r-prevalence", 
       "version": "0.2.0"
     }, 
-    "r-prevr-2.8-0.tar.bz2": {
+    "r-prevr-2.9-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -52324,9 +52358,9 @@
         "r-rgdal", 
         "r-fields"
       ], 
-      "fn": "r-prevr-2.8-0.tar.bz2", 
+      "fn": "r-prevr-2.9-0.tar.bz2", 
       "name": "r-prevr", 
-      "version": "2.8"
+      "version": "2.9"
     }, 
     "r-prim-1.0.13-0.tar.bz2": {
       "build": "0", 
@@ -52482,16 +52516,17 @@
       "name": "r-probsvm", 
       "version": "1.00"
     }, 
-    "r-proc-1.5.4-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-proc-1.6.0.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
-        "r-plyr"
+        "r-plyr", 
+        "r-rcpp"
       ], 
-      "fn": "r-proc-1.5.4-1.tar.bz2", 
+      "fn": "r-proc-1.6.0.1-0.tar.bz2", 
       "name": "r-proc", 
-      "version": "1.5.4"
+      "version": "1.6.0.1"
     }, 
     "r-process-1.38.0-1.tar.bz2": {
       "build": "1", 
@@ -53307,16 +53342,16 @@
       "name": "r-puma", 
       "version": "3.4.0"
     }, 
-    "r-pumilior-1.0-0.tar.bz2": {
+    "r-pumilior-1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-xml"
       ], 
-      "fn": "r-pumilior-1.0-0.tar.bz2", 
+      "fn": "r-pumilior-1.1-0.tar.bz2", 
       "name": "r-pumilior", 
-      "version": "1.0"
+      "version": "1.1"
     }, 
     "r-purbayes-1.3-0.tar.bz2": {
       "build": "0", 
@@ -53649,16 +53684,16 @@
       "name": "r-qgraph", 
       "version": "1.2.3"
     }, 
-    "r-qiimer-0.9.1-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-qiimer-0.9.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-pheatmap"
       ], 
-      "fn": "r-qiimer-0.9.1-1.tar.bz2", 
+      "fn": "r-qiimer-0.9.2-0.tar.bz2", 
       "name": "r-qiimer", 
-      "version": "0.9.1"
+      "version": "0.9.2"
     }, 
     "r-qlearn-1.0-0.tar.bz2": {
       "build": "0", 
@@ -53767,7 +53802,7 @@
       "name": "r-qpgraph", 
       "version": "1.18.7"
     }, 
-    "r-qrfactor-1.3-0.tar.bz2": {
+    "r-qrfactor-1.4-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -53777,9 +53812,9 @@
         "r-pvclust", 
         "r-maptools"
       ], 
-      "fn": "r-qrfactor-1.3-0.tar.bz2", 
+      "fn": "r-qrfactor-1.4-0.tar.bz2", 
       "name": "r-qrfactor", 
-      "version": "1.3"
+      "version": "1.4"
     }, 
     "r-qrm-0.4.9-0.tar.bz2": {
       "build": "0", 
@@ -53832,18 +53867,6 @@
       ], 
       "fn": "r-qsardata-1.3-0.tar.bz2", 
       "name": "r-qsardata", 
-      "version": "1.3"
-    }, 
-    "r-qt-1.3-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-hmisc", 
-        "r-sasxport"
-      ], 
-      "fn": "r-qt-1.3-0.tar.bz2", 
-      "name": "r-qt", 
       "version": "1.3"
     }, 
     "r-qtbase-1.0.4-0.tar.bz2": {
@@ -54288,18 +54311,19 @@
       "name": "r-r.cache", 
       "version": "0.9.0"
     }, 
-    "r-r.devices-2.7.2-0.tar.bz2": {
+    "r-r.devices-2.8.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-r.methodss3", 
         "r-r.oo", 
-        "r-r.utils"
+        "r-r.utils", 
+        "r-base64enc"
       ], 
-      "fn": "r-r.devices-2.7.2-0.tar.bz2", 
+      "fn": "r-r.devices-2.8.2-0.tar.bz2", 
       "name": "r-r.devices", 
-      "version": "2.7.2"
+      "version": "2.8.2"
     }, 
     "r-r.filesets-2.3.0-0.tar.bz2": {
       "build": "0", 
@@ -54665,6 +54689,19 @@
       "fn": "r-r453plus1toolbox-1.12.0-1.tar.bz2", 
       "name": "r-r453plus1toolbox", 
       "version": "1.12.0"
+    }, 
+    "r-r4couchdb-0.4-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-bitops", 
+        "r-rcurl", 
+        "r-rjsonio"
+      ], 
+      "fn": "r-r4couchdb-0.4-0.tar.bz2", 
+      "name": "r-r4couchdb", 
+      "version": "0.4"
     }, 
     "r-r4dfp-0.2.4-1.tar.bz2": {
       "build": "1", 
@@ -55369,16 +55406,16 @@
       "name": "r-rasclass", 
       "version": "0.2.1"
     }, 
-    "r-raster-2.1.66-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-raster-2.2.5-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-sp"
       ], 
-      "fn": "r-raster-2.1.66-1.tar.bz2", 
+      "fn": "r-raster-2.2.5-0.tar.bz2", 
       "name": "r-raster", 
-      "version": "2.1.66"
+      "version": "2.2.5"
     }, 
     "r-rastervis-0.24-0.tar.bz2": {
       "build": "0", 
@@ -55704,7 +55741,7 @@
       "name": "r-rbison", 
       "version": "0.2.4"
     }, 
-    "r-rbitcoin-0.6-0.tar.bz2": {
+    "r-rbitcoin-0.8-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -55714,9 +55751,9 @@
         "r-digest", 
         "r-data.table"
       ], 
-      "fn": "r-rbitcoin-0.6-0.tar.bz2", 
+      "fn": "r-rbitcoin-0.8-0.tar.bz2", 
       "name": "r-rbitcoin", 
-      "version": "0.6"
+      "version": "0.8"
     }, 
     "r-rbmn-0.9.2-1.tar.bz2": {
       "build": "1", 
@@ -58373,15 +58410,15 @@
       "name": "r-rfpred", 
       "version": "1.0.0"
     }, 
-    "r-rgabriel-0.4-0.tar.bz2": {
+    "r-rgabriel-0.7-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-rgabriel-0.4-0.tar.bz2", 
+      "fn": "r-rgabriel-0.7-0.tar.bz2", 
       "name": "r-rgabriel", 
-      "version": "0.4"
+      "version": "0.7"
     }, 
     "r-rgadem-2.10.0-1.tar.bz2": {
       "build": "1", 
@@ -59171,16 +59208,6 @@
       "fn": "r-ridit-1.1-0.tar.bz2", 
       "name": "r-ridit", 
       "version": "1.1"
-    }, 
-    "r-ridmc-0.10.15-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
-      "depends": [
-        "r"
-      ], 
-      "fn": "r-ridmc-0.10.15-1.tar.bz2", 
-      "name": "r-ridmc", 
-      "version": "0.10.15"
     }, 
     "r-rifs-0.1.5-0.tar.bz2": {
       "build": "0", 
@@ -60792,6 +60819,18 @@
       "name": "r-roc", 
       "version": "1.38.0"
     }, 
+    "r-roc632-0.6-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-penalized", 
+        "r-survivalroc"
+      ], 
+      "fn": "r-roc632-0.6-0.tar.bz2", 
+      "name": "r-roc632", 
+      "version": "0.6"
+    }, 
     "r-rocc-1.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -61270,16 +61309,16 @@
       "name": "r-rpclr", 
       "version": "1.0"
     }, 
-    "r-rpf-0.17-0.tar.bz2": {
+    "r-rpf-0.18-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-mvtnorm"
       ], 
-      "fn": "r-rpf-0.17-0.tar.bz2", 
+      "fn": "r-rpf-0.18-0.tar.bz2", 
       "name": "r-rpf", 
-      "version": "0.17"
+      "version": "0.18"
     }, 
     "r-rphast-1.5-0.tar.bz2": {
       "build": "0", 
@@ -61336,15 +61375,15 @@
       "name": "r-rplotengine", 
       "version": "1.0.3"
     }, 
-    "r-rpmg-2.1.4-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-rpmg-2.1.5-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-rpmg-2.1.4-1.tar.bz2", 
+      "fn": "r-rpmg-2.1.5-0.tar.bz2", 
       "name": "r-rpmg", 
-      "version": "2.1.4"
+      "version": "2.1.5"
     }, 
     "r-rpmm-1.10-0.tar.bz2": {
       "build": "0", 
@@ -61616,7 +61655,7 @@
       "name": "r-rrcovna", 
       "version": "0.4.4"
     }, 
-    "r-rrdf-2.0.0-0.tar.bz2": {
+    "r-rrdf-2.0.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -61624,9 +61663,9 @@
         "r-rjava", 
         "r-rrdflibs"
       ], 
-      "fn": "r-rrdf-2.0.0-0.tar.bz2", 
+      "fn": "r-rrdf-2.0.2-0.tar.bz2", 
       "name": "r-rrdf", 
-      "version": "2.0.0"
+      "version": "2.0.2"
     }, 
     "r-rrdflibs-1.3.0-0.tar.bz2": {
       "build": "0", 
@@ -62300,21 +62339,6 @@
       "name": "r-rtconnect", 
       "version": "0.1.4"
     }, 
-    "r-rtdameritrade-0.0.1-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-xts", 
-        "r-zoo", 
-        "r-xml", 
-        "r-rcurl", 
-        "r-sfsmisc"
-      ], 
-      "fn": "r-rtdameritrade-0.0.1-0.tar.bz2", 
-      "name": "r-rtdameritrade", 
-      "version": "0.0.1"
-    }, 
     "r-rtematres-0.2-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -62328,26 +62352,6 @@
       "fn": "r-rtematres-0.2-0.tar.bz2", 
       "name": "r-rtematres", 
       "version": "0.2"
-    }, 
-    "r-rtexttools-1.4.1-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-sparsem", 
-        "r-randomforest", 
-        "r-tree", 
-        "r-tm", 
-        "r-e1071", 
-        "r-ipred", 
-        "r-catools", 
-        "r-maxent", 
-        "r-glmnet", 
-        "r-tau"
-      ], 
-      "fn": "r-rtexttools-1.4.1-0.tar.bz2", 
-      "name": "r-rtexttools", 
-      "version": "1.4.1"
     }, 
     "r-rtf-0.4.11-1.tar.bz2": {
       "build": "1", 
@@ -63281,15 +63285,15 @@
       "name": "r-samplingstrata", 
       "version": "1.0.1"
     }, 
-    "r-samplingvarest-0.9.7-0.tar.bz2": {
+    "r-samplingvarest-0.9.8-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-samplingvarest-0.9.7-0.tar.bz2", 
+      "fn": "r-samplingvarest-0.9.8-0.tar.bz2", 
       "name": "r-samplingvarest", 
-      "version": "0.9.7"
+      "version": "0.9.8"
     }, 
     "r-sampsurf-0.6.8-0.tar.bz2": {
       "build": "0", 
@@ -63371,7 +63375,7 @@
       "name": "r-santa", 
       "version": "1.2.0"
     }, 
-    "r-sapa-1.1.0-0.tar.bz2": {
+    "r-sapa-2.0.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -63379,9 +63383,9 @@
         "r-ifultools", 
         "r-splus2r"
       ], 
-      "fn": "r-sapa-1.1.0-0.tar.bz2", 
+      "fn": "r-sapa-2.0.0-0.tar.bz2", 
       "name": "r-sapa", 
-      "version": "1.1.0"
+      "version": "2.0.0"
     }, 
     "r-sapp-1.0.3-0.tar.bz2": {
       "build": "0", 
@@ -63478,15 +63482,15 @@
       "name": "r-save", 
       "version": "0.9.3.7"
     }, 
-    "r-saves-0.4-0.tar.bz2": {
+    "r-saves-0.5-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-saves-0.4-0.tar.bz2", 
+      "fn": "r-saves-0.5-0.tar.bz2", 
       "name": "r-saves", 
-      "version": "0.4"
+      "version": "0.5"
     }, 
     "r-saws-0.9.6.0-0.tar.bz2": {
       "build": "0", 
@@ -64161,18 +64165,18 @@
       "name": "r-sdnet", 
       "version": "2.01.2"
     }, 
-    "r-sdprisk-1.0.0-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-sdprisk-1.0.3-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-numderiv", 
         "r-polynomf", 
         "r-rootsolve"
       ], 
-      "fn": "r-sdprisk-1.0.0-1.tar.bz2", 
+      "fn": "r-sdprisk-1.0.3-0.tar.bz2", 
       "name": "r-sdprisk", 
-      "version": "1.0.0"
+      "version": "1.0.3"
     }, 
     "r-sdtoolkit-2.31-0.tar.bz2": {
       "build": "0", 
@@ -64256,6 +64260,18 @@
       "fn": "r-seasonal-0.20.2-1.tar.bz2", 
       "name": "r-seasonal", 
       "version": "0.20.2"
+    }, 
+    "r-seawaveq-1.0.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-nada", 
+        "r-lubridate"
+      ], 
+      "fn": "r-seawaveq-1.0.0-0.tar.bz2", 
+      "name": "r-seawaveq", 
+      "version": "1.0.0"
     }, 
     "r-sechart-0.1-0.tar.bz2": {
       "build": "0", 
@@ -64348,18 +64364,17 @@
       "name": "r-seewave", 
       "version": "1.7.2"
     }, 
-    "r-seg-0.3.3-0.tar.bz2": {
+    "r-seg-0.4.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-sp", 
-        "r-raster", 
-        "r-spatstat"
+        "r-splancs"
       ], 
-      "fn": "r-seg-0.3.3-0.tar.bz2", 
+      "fn": "r-seg-0.4.1-0.tar.bz2", 
       "name": "r-seg", 
-      "version": "0.3.3"
+      "version": "0.4.1"
     }, 
     "r-segmented-0.3.0.0-1.tar.bz2": {
       "build": "1", 
@@ -64744,17 +64759,6 @@
       ], 
       "fn": "r-separationplot-1.0-0.tar.bz2", 
       "name": "r-separationplot", 
-      "version": "1.0"
-    }, 
-    "r-seq2r-1.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-seqinr"
-      ], 
-      "fn": "r-seq2r-1.0-0.tar.bz2", 
-      "name": "r-seq2r", 
       "version": "1.0"
     }, 
     "r-seqarray-1.2.0-1.tar.bz2": {
@@ -65234,16 +65238,17 @@
       "name": "r-shapes", 
       "version": "1.1.9"
     }, 
-    "r-sharper-0.1310-0.tar.bz2": {
+    "r-sharper-0.1401-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
+        "r-matrixcalc", 
         "r-xtable"
       ], 
-      "fn": "r-sharper-0.1310-0.tar.bz2", 
+      "fn": "r-sharper-0.1401-0.tar.bz2", 
       "name": "r-sharper", 
-      "version": "0.1310"
+      "version": "0.1401"
     }, 
     "r-sharx-1.0.3-1.tar.bz2": {
       "build": "1", 
@@ -65373,6 +65378,17 @@
       "fn": "r-shotgroups-0.2.2-0.tar.bz2", 
       "name": "r-shotgroups", 
       "version": "0.2.2"
+    }, 
+    "r-showtext-0.2-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-sysfonts"
+      ], 
+      "fn": "r-showtext-0.2-0.tar.bz2", 
+      "name": "r-showtext", 
+      "version": "0.2"
     }, 
     "r-shrink-1.1-0.tar.bz2": {
       "build": "0", 
@@ -65555,7 +65571,7 @@
       "name": "r-sigpathway", 
       "version": "1.30.0"
     }, 
-    "r-sigtree-1.3-0.tar.bz2": {
+    "r-sigtree-1.4-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -65566,9 +65582,9 @@
         "r-rcolorbrewer", 
         "r-phyloseq"
       ], 
-      "fn": "r-sigtree-1.3-0.tar.bz2", 
+      "fn": "r-sigtree-1.4-0.tar.bz2", 
       "name": "r-sigtree", 
-      "version": "1.3"
+      "version": "1.4"
     }, 
     "r-sigwinr-1.0.2-1.tar.bz2": {
       "build": "1", 
@@ -65905,15 +65921,15 @@
       "name": "r-simultanr", 
       "version": "1.1"
     }, 
-    "r-sin-0.5-0.tar.bz2": {
+    "r-sin-0.6-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-sin-0.5-0.tar.bz2", 
+      "fn": "r-sin-0.6-0.tar.bz2", 
       "name": "r-sin", 
-      "version": "0.5"
+      "version": "0.6"
     }, 
     "r-sinartra-0.1.1-1.tar.bz2": {
       "build": "1", 
@@ -65987,33 +66003,6 @@
       "fn": "r-sis-0.6-0.tar.bz2", 
       "name": "r-sis", 
       "version": "0.6"
-    }, 
-    "r-sisus-0.09.011-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-annotate", 
-        "r-ash", 
-        "r-biobase", 
-        "r-coda", 
-        "r-ellipse", 
-        "r-gclus", 
-        "r-gdata", 
-        "r-geneplotter", 
-        "r-gplots", 
-        "r-gtools", 
-        "r-hdrcde", 
-        "r-moments", 
-        "r-mvtnorm", 
-        "r-polyapost", 
-        "r-rcdd", 
-        "r-rcolorbrewer", 
-        "r-sm"
-      ], 
-      "fn": "r-sisus-0.09.011-0.tar.bz2", 
-      "name": "r-sisus", 
-      "version": "0.09.011"
     }, 
     "r-sitools-1.4-0.tar.bz2": {
       "build": "0", 
@@ -66711,18 +66700,6 @@
       "name": "r-snm", 
       "version": "1.10.2"
     }, 
-    "r-snort-1.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-network", 
-        "r-sna"
-      ], 
-      "fn": "r-snort-1.0-0.tar.bz2", 
-      "name": "r-snort", 
-      "version": "1.0"
-    }, 
     "r-snow-0.3.13-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -67142,6 +67119,22 @@
       "fn": "r-solomon-1.0.1-1.tar.bz2", 
       "name": "r-solomon", 
       "version": "1.0.1"
+    }, 
+    "r-solr-0.1.0-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-plyr", 
+        "r-httr", 
+        "r-xml", 
+        "r-data.table", 
+        "r-assertthat", 
+        "r-rjson"
+      ], 
+      "fn": "r-solr-0.1.0-0.tar.bz2", 
+      "name": "r-solr", 
+      "version": "0.1.0"
     }, 
     "r-som-0.3.5-0.tar.bz2": {
       "build": "0", 
@@ -67741,7 +67734,7 @@
       "name": "r-spatcounts", 
       "version": "1.1"
     }, 
-    "r-spate-1.2-0.tar.bz2": {
+    "r-spate-1.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -67749,9 +67742,9 @@
         "r-mvtnorm", 
         "r-truncnorm"
       ], 
-      "fn": "r-spate-1.2-0.tar.bz2", 
+      "fn": "r-spate-1.3-0.tar.bz2", 
       "name": "r-spate", 
-      "version": "1.2"
+      "version": "1.3"
     }, 
     "r-spatgraphs-2.62-0.tar.bz2": {
       "build": "0", 
@@ -68279,7 +68272,7 @@
       "name": "r-spiassay", 
       "version": "1.0.0"
     }, 
-    "r-spider-1.2.0-0.tar.bz2": {
+    "r-spider-1.3.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -68287,9 +68280,9 @@
         "r-ape", 
         "r-pegas"
       ], 
-      "fn": "r-spider-1.2.0-0.tar.bz2", 
+      "fn": "r-spider-1.3.0-0.tar.bz2", 
       "name": "r-spider", 
-      "version": "1.2.0"
+      "version": "1.3.0"
     }, 
     "r-spidermonkey-0.2.0-1.tar.bz2": {
       "build": "1", 
@@ -69030,16 +69023,16 @@
       "name": "r-st", 
       "version": "1.2.1"
     }, 
-    "r-stab-0.1.7-0.tar.bz2": {
+    "r-stab-0.1.8-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-reshape"
       ], 
-      "fn": "r-stab-0.1.7-0.tar.bz2", 
+      "fn": "r-stab-0.1.8-0.tar.bz2", 
       "name": "r-stab", 
-      "version": "0.1.7"
+      "version": "0.1.8"
     }, 
     "r-stabledist-0.6.6-0.tar.bz2": {
       "build": "0", 
@@ -69254,18 +69247,19 @@
       "name": "r-statetrace", 
       "version": "1.0.4"
     }, 
-    "r-statmatch-1.2.0-0.tar.bz2": {
+    "r-statmatch-1.2.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-proxy", 
         "r-clue", 
-        "r-survey"
+        "r-survey", 
+        "r-rann"
       ], 
-      "fn": "r-statmatch-1.2.0-0.tar.bz2", 
+      "fn": "r-statmatch-1.2.1-0.tar.bz2", 
       "name": "r-statmatch", 
-      "version": "1.2.0"
+      "version": "1.2.1"
     }, 
     "r-statmod-1.4.18-0.tar.bz2": {
       "build": "0", 
@@ -69763,9 +69757,9 @@
       "name": "r-stvar", 
       "version": "1.0"
     }, 
-    "r-stylo-0.5.2-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-stylo-0.5.3-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-tcltk2", 
@@ -69773,9 +69767,9 @@
         "r-pamr", 
         "r-e1071"
       ], 
-      "fn": "r-stylo-0.5.2-1.tar.bz2", 
+      "fn": "r-stylo-0.5.3-0.tar.bz2", 
       "name": "r-stylo", 
-      "version": "0.5.2"
+      "version": "0.5.3"
     }, 
     "r-subcultcon-1.0-0.tar.bz2": {
       "build": "0", 
@@ -70786,6 +70780,16 @@
       "name": "r-synth", 
       "version": "1.1.4"
     }, 
+    "r-sysfonts-0.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r"
+      ], 
+      "fn": "r-sysfonts-0.1-0.tar.bz2", 
+      "name": "r-sysfonts", 
+      "version": "0.1"
+    }, 
     "r-systemfit-1.1.14-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -70877,18 +70881,6 @@
       "name": "r-tabusearch", 
       "version": "1.1"
     }, 
-    "r-tagcloud-0.1-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-rcpp", 
-        "r-rcolorbrewer"
-      ], 
-      "fn": "r-tagcloud-0.1-0.tar.bz2", 
-      "name": "r-tagcloud", 
-      "version": "0.1"
-    }, 
     "r-tahmmannot-2.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
@@ -70900,7 +70892,7 @@
       "name": "r-tahmmannot", 
       "version": "2.0"
     }, 
-    "r-tam-0.99.7-0.tar.bz2": {
+    "r-tam-1.0.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -70911,9 +70903,9 @@
         "r-gparotation", 
         "r-psych"
       ], 
-      "fn": "r-tam-0.99.7-0.tar.bz2", 
+      "fn": "r-tam-1.0.0-0.tar.bz2", 
       "name": "r-tam", 
-      "version": "0.99.7"
+      "version": "1.0.0"
     }, 
     "r-tanova-1.0.0-0.tar.bz2": {
       "build": "0", 
@@ -71054,9 +71046,9 @@
       "name": "r-tawny.types", 
       "version": "1.1.0"
     }, 
-    "r-taxize-0.1.5-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-taxize-0.1.8-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r", 
         "r-xml", 
@@ -71072,9 +71064,9 @@
         "r-data.table", 
         "r-reshape"
       ], 
-      "fn": "r-taxize-0.1.5-1.tar.bz2", 
+      "fn": "r-taxize-0.1.8-0.tar.bz2", 
       "name": "r-taxize", 
-      "version": "0.1.5"
+      "version": "0.1.8"
     }, 
     "r-taxonstand-1.2-0.tar.bz2": {
       "build": "0", 
@@ -71496,16 +71488,16 @@
       "name": "r-testthat", 
       "version": "0.7.1"
     }, 
-    "r-texmex-2.0-0.tar.bz2": {
+    "r-texmex-2.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-mvtnorm"
       ], 
-      "fn": "r-texmex-2.0-0.tar.bz2", 
+      "fn": "r-texmex-2.1-0.tar.bz2", 
       "name": "r-texmex", 
-      "version": "2.0"
+      "version": "2.1"
     }, 
     "r-texposition-2.6.10-1.tar.bz2": {
       "build": "1", 
@@ -71751,15 +71743,15 @@
       "name": "r-tibbrconnector", 
       "version": "1.5.0.71"
     }, 
-    "r-tiddlywikir-1.0.0-0.tar.bz2": {
+    "r-tiddlywikir-1.0.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-tiddlywikir-1.0.0-0.tar.bz2", 
+      "fn": "r-tiddlywikir-1.0.1-0.tar.bz2", 
       "name": "r-tiddlywikir", 
-      "version": "1.0.0"
+      "version": "1.0.1"
     }, 
     "r-tides-1.0-0.tar.bz2": {
       "build": "0", 
@@ -71962,15 +71954,15 @@
       "name": "r-timeprojection", 
       "version": "0.2.0"
     }, 
-    "r-timereg-1.8.2-0.tar.bz2": {
+    "r-timereg-1.8.3-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-timereg-1.8.2-0.tar.bz2", 
+      "fn": "r-timereg-1.8.3-0.tar.bz2", 
       "name": "r-timereg", 
-      "version": "1.8.2"
+      "version": "1.8.3"
     }, 
     "r-timeroc-0.2-0.tar.bz2": {
       "build": "0", 
@@ -72311,19 +72303,6 @@
       "fn": "r-tomatoprobe-2.13.0-1.tar.bz2", 
       "name": "r-tomatoprobe", 
       "version": "2.13.0"
-    }, 
-    "r-tonymisc-1.1.1-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-memisc", 
-        "r-aer", 
-        "r-car"
-      ], 
-      "fn": "r-tonymisc-1.1.1-0.tar.bz2", 
-      "name": "r-tonymisc", 
-      "version": "1.1.1"
     }, 
     "r-topgo-2.14.0-1.tar.bz2": {
       "build": "1", 
@@ -72945,16 +72924,16 @@
       "name": "r-truncnorm", 
       "version": "1.0.6"
     }, 
-    "r-truncreg-0.1.1-0.tar.bz2": {
+    "r-truncreg-0.2.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-maxlik"
       ], 
-      "fn": "r-truncreg-0.1.1-0.tar.bz2", 
+      "fn": "r-truncreg-0.2.1-0.tar.bz2", 
       "name": "r-truncreg", 
-      "version": "0.1.1"
+      "version": "0.2.1"
     }, 
     "r-truncsp-1.2.1-0.tar.bz2": {
       "build": "0", 
@@ -73600,6 +73579,17 @@
       "fn": "r-tuwmodel-0.1.2-0.tar.bz2", 
       "name": "r-tuwmodel", 
       "version": "0.1.2"
+    }, 
+    "r-tvm-0.1-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-rcpp"
+      ], 
+      "fn": "r-tvm-0.1-0.tar.bz2", 
+      "name": "r-tvm", 
+      "version": "0.1"
     }, 
     "r-twang-1.3.20-0.tar.bz2": {
       "build": "0", 
@@ -74272,20 +74262,6 @@
       "name": "r-vacem", 
       "version": "0.1.1"
     }, 
-    "r-validator-1.0-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
-      "depends": [
-        "r", 
-        "r-clv", 
-        "r-clvalid", 
-        "r-flexclust", 
-        "r-mlbench"
-      ], 
-      "fn": "r-validator-1.0-0.tar.bz2", 
-      "name": "r-validator", 
-      "version": "1.0"
-    }, 
     "r-vanillaice-1.24.0-1.tar.bz2": {
       "build": "1", 
       "build_number": 1, 
@@ -74775,9 +74751,9 @@
       "name": "r-videocomparison", 
       "version": "0.9.4"
     }, 
-    "r-view-bayesian-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-bayesian-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-abc", 
         "r-arm", 
@@ -74888,13 +74864,13 @@
         "r-varselectip", 
         "r-zic"
       ], 
-      "fn": "r-view-bayesian-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-bayesian-2013.12.12-1.tar.bz2", 
       "name": "r-view-bayesian", 
       "version": "2013.12.12"
     }, 
-    "r-view-bayesian-core-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-bayesian-core-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-arm", 
         "r-bacco", 
@@ -74906,13 +74882,13 @@
         "r-mcmc", 
         "r-mcmcpack"
       ], 
-      "fn": "r-view-bayesian-core-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-bayesian-core-2013.12.12-1.tar.bz2", 
       "name": "r-view-bayesian-core", 
       "version": "2013.12.12"
     }, 
-    "r-view-chemphys-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-chemphys-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-als", 
         "r-analyzefmri", 
@@ -74988,13 +74964,13 @@
         "r-wccsom", 
         "r-wilcoxcv"
       ], 
-      "fn": "r-view-chemphys-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-chemphys-2013.12.12-1.tar.bz2", 
       "name": "r-view-chemphys", 
       "version": "2013.12.12"
     }, 
-    "r-view-chemphys-core-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-chemphys-core-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-als", 
         "r-chemcal", 
@@ -75004,13 +74980,13 @@
         "r-pls", 
         "r-ptak"
       ], 
-      "fn": "r-view-chemphys-core-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-chemphys-core-2013.12.12-1.tar.bz2", 
       "name": "r-view-chemphys-core", 
       "version": "2013.12.12"
     }, 
-    "r-view-clinicaltrials-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-clinicaltrials-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adapttest", 
         "r-agsdest", 
@@ -75061,13 +75037,13 @@
         "r-teqr", 
         "r-trialsize"
       ], 
-      "fn": "r-view-clinicaltrials-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-clinicaltrials-2013.12.10-1.tar.bz2", 
       "name": "r-view-clinicaltrials", 
       "version": "2013.12.10"
     }, 
-    "r-view-clinicaltrials-core-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-clinicaltrials-core-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adapttest", 
         "r-asd", 
@@ -75096,13 +75072,13 @@
         "r-teqr", 
         "r-trialsize"
       ], 
-      "fn": "r-view-clinicaltrials-core-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-clinicaltrials-core-2013.12.10-1.tar.bz2", 
       "name": "r-view-clinicaltrials-core", 
       "version": "2013.12.10"
     }, 
-    "r-view-cluster-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-cluster-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-amap", 
         "r-apcluster", 
@@ -75202,13 +75178,13 @@
         "r-trimcluster", 
         "r-wle"
       ], 
-      "fn": "r-view-cluster-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-cluster-2013.12.12-1.tar.bz2", 
       "name": "r-view-cluster", 
       "version": "2013.12.12"
     }, 
-    "r-view-cluster-core-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-cluster-core-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-cluster", 
         "r-flexclust", 
@@ -75216,13 +75192,13 @@
         "r-mclust", 
         "r-rmixmod"
       ], 
-      "fn": "r-view-cluster-core-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-cluster-core-2013.12.12-1.tar.bz2", 
       "name": "r-view-cluster-core", 
       "version": "2013.12.12"
     }, 
-    "r-view-differentialequations-2013.08.08-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-differentialequations-2013.08.08-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adaptivetau", 
         "r-bvpsolve", 
@@ -75248,26 +75224,26 @@
         "r-sde", 
         "r-simecol"
       ], 
-      "fn": "r-view-differentialequations-2013.08.08-0.tar.bz2", 
+      "fn": "r-view-differentialequations-2013.08.08-1.tar.bz2", 
       "name": "r-view-differentialequations", 
       "version": "2013.08.08"
     }, 
-    "r-view-differentialequations-core-2013.08.08-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-differentialequations-core-2013.08.08-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-bvpsolve", 
         "r-desolve", 
         "r-rootsolve", 
         "r-sde"
       ], 
-      "fn": "r-view-differentialequations-core-2013.08.08-0.tar.bz2", 
+      "fn": "r-view-differentialequations-core-2013.08.08-1.tar.bz2", 
       "name": "r-view-differentialequations-core", 
       "version": "2013.08.08"
     }, 
-    "r-view-distributions-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-distributions-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-actuar", 
         "r-actudistns", 
@@ -75389,13 +75365,13 @@
         "r-vinecopula", 
         "r-zipfr"
       ], 
-      "fn": "r-view-distributions-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-distributions-2013.12.10-1.tar.bz2", 
       "name": "r-view-distributions", 
       "version": "2013.12.10"
     }, 
-    "r-view-distributions-core-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-distributions-core-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-actuar", 
         "r-actudistns", 
@@ -75411,13 +75387,13 @@
         "r-suppdists", 
         "r-vgam"
       ], 
-      "fn": "r-view-distributions-core-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-distributions-core-2013.12.10-1.tar.bz2", 
       "name": "r-view-distributions-core", 
       "version": "2013.12.10"
     }, 
-    "r-view-econometrics-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-econometrics-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-aer", 
         "r-aod", 
@@ -75515,13 +75491,13 @@
         "r-zelig", 
         "r-zoo"
       ], 
-      "fn": "r-view-econometrics-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-econometrics-2014.01.01-1.tar.bz2", 
       "name": "r-view-econometrics", 
       "version": "2014.01.01"
     }, 
-    "r-view-econometrics-core-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-econometrics-core-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-aer", 
         "r-car", 
@@ -75532,13 +75508,13 @@
         "r-urca", 
         "r-zoo"
       ], 
-      "fn": "r-view-econometrics-core-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-econometrics-core-2014.01.01-1.tar.bz2", 
       "name": "r-view-econometrics-core", 
       "version": "2014.01.01"
     }, 
-    "r-view-environmetrics-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-environmetrics-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-adehabitat", 
@@ -75644,13 +75620,13 @@
         "r-wq", 
         "r-zoo"
       ], 
-      "fn": "r-view-environmetrics-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-environmetrics-2013.12.12-1.tar.bz2", 
       "name": "r-view-environmetrics", 
       "version": "2013.12.12"
     }, 
-    "r-view-environmetrics-core-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-environmetrics-core-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-cluster", 
@@ -75660,13 +75636,13 @@
         "r-mvpart", 
         "r-vegan"
       ], 
-      "fn": "r-view-environmetrics-core-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-environmetrics-core-2013.12.12-1.tar.bz2", 
       "name": "r-view-environmetrics-core", 
       "version": "2013.12.12"
     }, 
-    "r-view-experimentaldesign-2013.03.20-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-experimentaldesign-2013.03.20-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-agricolae", 
         "r-algdesign", 
@@ -75714,13 +75690,13 @@
         "r-tgp", 
         "r-vdgraph"
       ], 
-      "fn": "r-view-experimentaldesign-2013.03.20-0.tar.bz2", 
+      "fn": "r-view-experimentaldesign-2013.03.20-1.tar.bz2", 
       "name": "r-view-experimentaldesign", 
       "version": "2013.03.20"
     }, 
-    "r-view-experimentaldesign-core-2013.03.20-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-experimentaldesign-core-2013.03.20-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-agricolae", 
         "r-algdesign", 
@@ -75730,13 +75706,13 @@
         "r-frf2", 
         "r-rsm"
       ], 
-      "fn": "r-view-experimentaldesign-core-2013.03.20-0.tar.bz2", 
+      "fn": "r-view-experimentaldesign-core-2013.03.20-1.tar.bz2", 
       "name": "r-view-experimentaldesign-core", 
       "version": "2013.03.20"
     }, 
-    "r-view-finance-2013.12.20-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-finance-2013.12.20-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-actuar", 
         "r-americancallopt", 
@@ -75855,13 +75831,13 @@
         "r-zelig", 
         "r-zoo"
       ], 
-      "fn": "r-view-finance-2013.12.20-0.tar.bz2", 
+      "fn": "r-view-finance-2013.12.20-1.tar.bz2", 
       "name": "r-view-finance", 
       "version": "2013.12.20"
     }, 
-    "r-view-finance-core-2013.12.20-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-finance-core-2013.12.20-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-farma", 
         "r-fasianoptions", 
@@ -75888,13 +75864,13 @@
         "r-xts", 
         "r-zoo"
       ], 
-      "fn": "r-view-finance-core-2013.12.20-0.tar.bz2", 
+      "fn": "r-view-finance-core-2013.12.20-1.tar.bz2", 
       "name": "r-view-finance-core", 
       "version": "2013.12.20"
     }, 
-    "r-view-genetics-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-genetics-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adegenet", 
         "r-ape", 
@@ -75931,25 +75907,25 @@
         "r-untb", 
         "r-wgaim"
       ], 
-      "fn": "r-view-genetics-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-genetics-2013.12.10-1.tar.bz2", 
       "name": "r-view-genetics", 
       "version": "2013.12.10"
     }, 
-    "r-view-genetics-core-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-genetics-core-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-gap", 
         "r-genetics", 
         "r-haplo.stats"
       ], 
-      "fn": "r-view-genetics-core-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-genetics-core-2013.12.10-1.tar.bz2", 
       "name": "r-view-genetics-core", 
       "version": "2013.12.10"
     }, 
-    "r-view-gr-2013.07.26-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-gr-2013.07.26-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-abn", 
         "r-bayesmix", 
@@ -75985,23 +75961,23 @@
         "r-rjags", 
         "r-sin"
       ], 
-      "fn": "r-view-gr-2013.07.26-0.tar.bz2", 
+      "fn": "r-view-gr-2013.07.26-1.tar.bz2", 
       "name": "r-view-gr", 
       "version": "2013.07.26"
     }, 
-    "r-view-gr-core-2013.07.26-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-gr-core-2013.07.26-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-grbase"
       ], 
-      "fn": "r-view-gr-core-2013.07.26-0.tar.bz2", 
+      "fn": "r-view-gr-core-2013.07.26-1.tar.bz2", 
       "name": "r-view-gr-core", 
       "version": "2013.07.26"
     }, 
-    "r-view-graphics-2013.01.29-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-graphics-2013.01.29-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-animation", 
@@ -76045,13 +76021,13 @@
         "r-vioplot", 
         "r-xgobi"
       ], 
-      "fn": "r-view-graphics-2013.01.29-0.tar.bz2", 
+      "fn": "r-view-graphics-2013.01.29-1.tar.bz2", 
       "name": "r-view-graphics", 
       "version": "2013.01.29"
     }, 
-    "r-view-graphics-core-2013.01.29-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-graphics-core-2013.01.29-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ggplot2", 
         "r-lattice", 
@@ -76060,13 +76036,13 @@
         "r-rgl", 
         "r-vcd"
       ], 
-      "fn": "r-view-graphics-core-2013.01.29-0.tar.bz2", 
+      "fn": "r-view-graphics-core-2013.01.29-1.tar.bz2", 
       "name": "r-view-graphics-core", 
       "version": "2013.01.29"
     }, 
-    "r-view-highperformancecomputing-2013.12.18-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-highperformancecomputing-2013.12.18-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-batch", 
         "r-batchexperiments", 
@@ -76150,24 +76126,24 @@
         "r-widelm", 
         "r-xgrid"
       ], 
-      "fn": "r-view-highperformancecomputing-2013.12.18-0.tar.bz2", 
+      "fn": "r-view-highperformancecomputing-2013.12.18-1.tar.bz2", 
       "name": "r-view-highperformancecomputing", 
       "version": "2013.12.18"
     }, 
-    "r-view-highperformancecomputing-core-2013.12.18-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-highperformancecomputing-core-2013.12.18-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-rmpi", 
         "r-snow"
       ], 
-      "fn": "r-view-highperformancecomputing-core-2013.12.18-0.tar.bz2", 
+      "fn": "r-view-highperformancecomputing-core-2013.12.18-1.tar.bz2", 
       "name": "r-view-highperformancecomputing-core", 
       "version": "2013.12.18"
     }, 
-    "r-view-machinelearning-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-machinelearning-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ahaz", 
         "r-arules", 
@@ -76242,13 +76218,13 @@
         "r-twix", 
         "r-varselrf"
       ], 
-      "fn": "r-view-machinelearning-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-machinelearning-2013.12.12-1.tar.bz2", 
       "name": "r-view-machinelearning", 
       "version": "2013.12.12"
     }, 
-    "r-view-machinelearning-core-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-machinelearning-core-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-e1071", 
         "r-gbm", 
@@ -76258,13 +76234,13 @@
         "r-randomforest", 
         "r-rpart"
       ], 
-      "fn": "r-view-machinelearning-core-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-machinelearning-core-2013.12.12-1.tar.bz2", 
       "name": "r-view-machinelearning-core", 
       "version": "2013.12.12"
     }, 
-    "r-view-medicalimaging-2013.08.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-medicalimaging-2013.08.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adimpro", 
         "r-analyzefmri", 
@@ -76291,13 +76267,13 @@
         "r-tractor.base", 
         "r-waveslim"
       ], 
-      "fn": "r-view-medicalimaging-2013.08.12-0.tar.bz2", 
+      "fn": "r-view-medicalimaging-2013.08.12-1.tar.bz2", 
       "name": "r-view-medicalimaging", 
       "version": "2013.08.12"
     }, 
-    "r-view-medicalimaging-core-2013.08.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-medicalimaging-core-2013.08.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adimpro", 
         "r-analyzefmri", 
@@ -76319,13 +76295,13 @@
         "r-rniftyreg", 
         "r-tractor.base"
       ], 
-      "fn": "r-view-medicalimaging-core-2013.08.12-0.tar.bz2", 
+      "fn": "r-view-medicalimaging-core-2013.08.12-1.tar.bz2", 
       "name": "r-view-medicalimaging-core", 
       "version": "2013.08.12"
     }, 
-    "r-view-metaanalysis-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-metaanalysis-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-bamdit", 
         "r-bspmma", 
@@ -76372,24 +76348,24 @@
         "r-seqmeta", 
         "r-skatmeta"
       ], 
-      "fn": "r-view-metaanalysis-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-metaanalysis-2014.01.01-1.tar.bz2", 
       "name": "r-view-metaanalysis", 
       "version": "2014.01.01"
     }, 
-    "r-view-metaanalysis-core-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-metaanalysis-core-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-meta", 
         "r-metafor"
       ], 
-      "fn": "r-view-metaanalysis-core-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-metaanalysis-core-2014.01.01-1.tar.bz2", 
       "name": "r-view-metaanalysis-core", 
       "version": "2014.01.01"
     }, 
-    "r-view-multivariate-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-multivariate-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-abind", 
         "r-ade4", 
@@ -76519,26 +76495,26 @@
         "r-xgobi", 
         "r-yaletoolkit"
       ], 
-      "fn": "r-view-multivariate-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-multivariate-2013.12.12-1.tar.bz2", 
       "name": "r-view-multivariate", 
       "version": "2013.12.12"
     }, 
-    "r-view-multivariate-core-2013.12.12-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-multivariate-core-2013.12.12-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-cluster", 
         "r-mass", 
         "r-vegan"
       ], 
-      "fn": "r-view-multivariate-core-2013.12.12-0.tar.bz2", 
+      "fn": "r-view-multivariate-core-2013.12.12-1.tar.bz2", 
       "name": "r-view-multivariate-core", 
       "version": "2013.12.12"
     }, 
-    "r-view-naturallanguageprocessing-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-naturallanguageprocessing-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-corpora", 
         "r-gsubfn", 
@@ -76569,23 +76545,23 @@
         "r-wordnet", 
         "r-zipfr"
       ], 
-      "fn": "r-view-naturallanguageprocessing-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-naturallanguageprocessing-2014.01.01-1.tar.bz2", 
       "name": "r-view-naturallanguageprocessing", 
       "version": "2014.01.01"
     }, 
-    "r-view-naturallanguageprocessing-core-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-naturallanguageprocessing-core-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-tm"
       ], 
-      "fn": "r-view-naturallanguageprocessing-core-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-naturallanguageprocessing-core-2014.01.01-1.tar.bz2", 
       "name": "r-view-naturallanguageprocessing-core", 
       "version": "2014.01.01"
     }, 
-    "r-view-numericalmathematics-2013.11.02-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-numericalmathematics-2013.11.02-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-akima", 
         "r-appell", 
@@ -76639,26 +76615,26 @@
         "r-stinepack", 
         "r-svd"
       ], 
-      "fn": "r-view-numericalmathematics-2013.11.02-0.tar.bz2", 
+      "fn": "r-view-numericalmathematics-2013.11.02-1.tar.bz2", 
       "name": "r-view-numericalmathematics", 
       "version": "2013.11.02"
     }, 
-    "r-view-numericalmathematics-core-2013.11.02-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-numericalmathematics-core-2013.11.02-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-gsl", 
         "r-matrix", 
         "r-numderiv", 
         "r-polynom"
       ], 
-      "fn": "r-view-numericalmathematics-core-2013.11.02-0.tar.bz2", 
+      "fn": "r-view-numericalmathematics-core-2013.11.02-1.tar.bz2", 
       "name": "r-view-numericalmathematics-core", 
       "version": "2013.11.02"
     }, 
-    "r-view-officialstatistics-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-officialstatistics-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-amelia", 
         "r-cat", 
@@ -76719,23 +76695,23 @@
         "r-x12gui", 
         "r-yaimpute"
       ], 
-      "fn": "r-view-officialstatistics-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-officialstatistics-2013.12.10-1.tar.bz2", 
       "name": "r-view-officialstatistics", 
       "version": "2013.12.10"
     }, 
-    "r-view-officialstatistics-core-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-officialstatistics-core-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-survey"
       ], 
-      "fn": "r-view-officialstatistics-core-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-officialstatistics-core-2013.12.10-1.tar.bz2", 
       "name": "r-view-officialstatistics-core", 
       "version": "2013.12.10"
     }, 
-    "r-view-optimization-2013.02.14-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-optimization-2013.02.14-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adagio", 
         "r-alabama", 
@@ -76801,13 +76777,13 @@
         "r-tsp", 
         "r-ucminf"
       ], 
-      "fn": "r-view-optimization-2013.02.14-0.tar.bz2", 
+      "fn": "r-view-optimization-2013.02.14-1.tar.bz2", 
       "name": "r-view-optimization", 
       "version": "2013.02.14"
     }, 
-    "r-view-optimization-core-2013.02.14-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-optimization-core-2013.02.14-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-lpsolve", 
         "r-minqa", 
@@ -76819,13 +76795,13 @@
         "r-rsymphony", 
         "r-tsp"
       ], 
-      "fn": "r-view-optimization-core-2013.02.14-0.tar.bz2", 
+      "fn": "r-view-optimization-core-2013.02.14-1.tar.bz2", 
       "name": "r-view-optimization-core", 
       "version": "2013.02.14"
     }, 
-    "r-view-pharmacokinetics-2013.05.21-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-pharmacokinetics-2013.05.21-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-desolve", 
         "r-drc", 
@@ -76838,13 +76814,13 @@
         "r-pkpdmodels", 
         "r-pktools"
       ], 
-      "fn": "r-view-pharmacokinetics-2013.05.21-0.tar.bz2", 
+      "fn": "r-view-pharmacokinetics-2013.05.21-1.tar.bz2", 
       "name": "r-view-pharmacokinetics", 
       "version": "2013.05.21"
     }, 
-    "r-view-pharmacokinetics-core-2013.05.21-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-pharmacokinetics-core-2013.05.21-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-lattice", 
         "r-nlmeode", 
@@ -76852,13 +76828,13 @@
         "r-pkfit", 
         "r-pktools"
       ], 
-      "fn": "r-view-pharmacokinetics-core-2013.05.21-0.tar.bz2", 
+      "fn": "r-view-pharmacokinetics-core-2013.05.21-1.tar.bz2", 
       "name": "r-view-pharmacokinetics-core", 
       "version": "2013.05.21"
     }, 
-    "r-view-phylogenetics-2013.12.11-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-phylogenetics-2013.12.11-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adephylo", 
         "r-ape", 
@@ -76900,23 +76876,23 @@
         "r-treesim", 
         "r-vegan"
       ], 
-      "fn": "r-view-phylogenetics-2013.12.11-0.tar.bz2", 
+      "fn": "r-view-phylogenetics-2013.12.11-1.tar.bz2", 
       "name": "r-view-phylogenetics", 
       "version": "2013.12.11"
     }, 
-    "r-view-phylogenetics-core-2013.12.11-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-phylogenetics-core-2013.12.11-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ape"
       ], 
-      "fn": "r-view-phylogenetics-core-2013.12.11-0.tar.bz2", 
+      "fn": "r-view-phylogenetics-core-2013.12.11-1.tar.bz2", 
       "name": "r-view-phylogenetics-core", 
       "version": "2013.12.11"
     }, 
-    "r-view-psychometrics-2013.12.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-psychometrics-2013.12.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-anacor", 
@@ -77033,13 +77009,13 @@
         "r-vgam", 
         "r-xgobi"
       ], 
-      "fn": "r-view-psychometrics-2013.12.01-0.tar.bz2", 
+      "fn": "r-view-psychometrics-2013.12.01-1.tar.bz2", 
       "name": "r-view-psychometrics", 
       "version": "2013.12.01"
     }, 
-    "r-view-psychometrics-core-2013.12.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-psychometrics-core-2013.12.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-anacor", 
@@ -77063,13 +77039,13 @@
         "r-tam", 
         "r-vegan"
       ], 
-      "fn": "r-view-psychometrics-core-2013.12.01-0.tar.bz2", 
+      "fn": "r-view-psychometrics-core-2013.12.01-1.tar.bz2", 
       "name": "r-view-psychometrics-core", 
       "version": "2013.12.01"
     }, 
-    "r-view-reproducibleresearch-2013.04.18-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-reproducibleresearch-2013.04.18-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-animation", 
         "r-apsrtable", 
@@ -77105,13 +77081,13 @@
         "r-teachingsampling", 
         "r-xtable"
       ], 
-      "fn": "r-view-reproducibleresearch-2013.04.18-0.tar.bz2", 
+      "fn": "r-view-reproducibleresearch-2013.04.18-1.tar.bz2", 
       "name": "r-view-reproducibleresearch", 
       "version": "2013.04.18"
     }, 
-    "r-view-reproducibleresearch-core-2013.04.18-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-reproducibleresearch-core-2013.04.18-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-hmisc", 
         "r-knitr", 
@@ -77119,13 +77095,13 @@
         "r-rms", 
         "r-xtable"
       ], 
-      "fn": "r-view-reproducibleresearch-core-2013.04.18-0.tar.bz2", 
+      "fn": "r-view-reproducibleresearch-core-2013.04.18-1.tar.bz2", 
       "name": "r-view-reproducibleresearch-core", 
       "version": "2013.04.18"
     }, 
-    "r-view-robust-2013.08.06-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-robust-2013.08.06-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-covrobust", 
         "r-coxrobust", 
@@ -77157,26 +77133,26 @@
         "r-sandwich", 
         "r-wle"
       ], 
-      "fn": "r-view-robust-2013.08.06-0.tar.bz2", 
+      "fn": "r-view-robust-2013.08.06-1.tar.bz2", 
       "name": "r-view-robust", 
       "version": "2013.08.06"
     }, 
-    "r-view-robust-core-2013.08.06-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-robust-core-2013.08.06-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-mass", 
         "r-robust", 
         "r-robustbase", 
         "r-rrcov"
       ], 
-      "fn": "r-view-robust-core-2013.08.06-0.tar.bz2", 
+      "fn": "r-view-robust-core-2013.08.06-1.tar.bz2", 
       "name": "r-view-robust-core", 
       "version": "2013.08.06"
     }, 
-    "r-view-socialsciences-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-socialsciences-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-acepack", 
         "r-alr3", 
@@ -77258,13 +77234,13 @@
         "r-vcd", 
         "r-zelig"
       ], 
-      "fn": "r-view-socialsciences-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-socialsciences-2013.12.10-1.tar.bz2", 
       "name": "r-view-socialsciences", 
       "version": "2013.12.10"
     }, 
-    "r-view-socialsciences-core-2013.12.10-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-socialsciences-core-2013.12.10-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-alr3", 
         "r-boot", 
@@ -77287,13 +77263,13 @@
         "r-systemfit", 
         "r-zelig"
       ], 
-      "fn": "r-view-socialsciences-core-2013.12.10-0.tar.bz2", 
+      "fn": "r-view-socialsciences-core-2013.12.10-1.tar.bz2", 
       "name": "r-view-socialsciences-core", 
       "version": "2013.12.10"
     }, 
-    "r-view-spatial-2013.12.16-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-spatial-2013.12.16-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-ade4", 
         "r-adehabitat", 
@@ -77422,13 +77398,13 @@
         "r-vec2dtransf", 
         "r-vegan"
       ], 
-      "fn": "r-view-spatial-2013.12.16-0.tar.bz2", 
+      "fn": "r-view-spatial-2013.12.16-1.tar.bz2", 
       "name": "r-view-spatial", 
       "version": "2013.12.16"
     }, 
-    "r-view-spatial-core-2013.12.16-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-spatial-core-2013.12.16-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-classint", 
         "r-dcluster", 
@@ -77447,13 +77423,13 @@
         "r-spdep", 
         "r-splancs"
       ], 
-      "fn": "r-view-spatial-core-2013.12.16-0.tar.bz2", 
+      "fn": "r-view-spatial-core-2013.12.16-1.tar.bz2", 
       "name": "r-view-spatial-core", 
       "version": "2013.12.16"
     }, 
-    "r-view-spatiotemporal-2013.11.29-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-spatiotemporal-2013.11.29-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adehabitatlt", 
         "r-animaltrack", 
@@ -77505,13 +77481,13 @@
         "r-tripestimation", 
         "r-xts"
       ], 
-      "fn": "r-view-spatiotemporal-2013.11.29-0.tar.bz2", 
+      "fn": "r-view-spatiotemporal-2013.11.29-1.tar.bz2", 
       "name": "r-view-spatiotemporal", 
       "version": "2013.11.29"
     }, 
-    "r-view-spatiotemporal-core-2013.11.29-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-spatiotemporal-core-2013.11.29-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-adehabitatlt", 
         "r-gstat", 
@@ -77524,13 +77500,13 @@
         "r-trip", 
         "r-xts"
       ], 
-      "fn": "r-view-spatiotemporal-core-2013.11.29-0.tar.bz2", 
+      "fn": "r-view-spatiotemporal-core-2013.11.29-1.tar.bz2", 
       "name": "r-view-spatiotemporal-core", 
       "version": "2013.11.29"
     }, 
-    "r-view-survival-2013.12.21-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-survival-2013.12.21-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-aer", 
         "r-ahaz", 
@@ -77705,13 +77681,13 @@
         "r-unicox", 
         "r-vgam"
       ], 
-      "fn": "r-view-survival-2013.12.21-0.tar.bz2", 
+      "fn": "r-view-survival-2013.12.21-1.tar.bz2", 
       "name": "r-view-survival", 
       "version": "2013.12.21"
     }, 
-    "r-view-survival-core-2013.12.21-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-survival-core-2013.12.21-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-cmprsk", 
         "r-eha", 
@@ -77720,13 +77696,13 @@
         "r-survival", 
         "r-timereg"
       ], 
-      "fn": "r-view-survival-core-2013.12.21-0.tar.bz2", 
+      "fn": "r-view-survival-core-2013.12.21-1.tar.bz2", 
       "name": "r-view-survival-core", 
       "version": "2013.12.21"
     }, 
-    "r-view-timeseries-2013.12.22-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-timeseries-2013.12.22-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-aer", 
         "r-ardec", 
@@ -77867,25 +77843,25 @@
         "r-xts", 
         "r-zoo"
       ], 
-      "fn": "r-view-timeseries-2013.12.22-0.tar.bz2", 
+      "fn": "r-view-timeseries-2013.12.22-1.tar.bz2", 
       "name": "r-view-timeseries", 
       "version": "2013.12.22"
     }, 
-    "r-view-timeseries-core-2013.12.22-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-timeseries-core-2013.12.22-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-forecast", 
         "r-tseries", 
         "r-zoo"
       ], 
-      "fn": "r-view-timeseries-core-2013.12.22-0.tar.bz2", 
+      "fn": "r-view-timeseries-core-2013.12.22-1.tar.bz2", 
       "name": "r-view-timeseries-core", 
       "version": "2013.12.22"
     }, 
-    "r-view-webtechnologies-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-webtechnologies-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-alm", 
         "r-anametrix", 
@@ -77978,13 +77954,13 @@
         "r-yhatr", 
         "r-zendeskr"
       ], 
-      "fn": "r-view-webtechnologies-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-webtechnologies-2014.01.01-1.tar.bz2", 
       "name": "r-view-webtechnologies", 
       "version": "2014.01.01"
     }, 
-    "r-view-webtechnologies-core-2014.01.01-0.tar.bz2": {
-      "build": "0", 
-      "build_number": 0, 
+    "r-view-webtechnologies-core-2014.01.01-1.tar.bz2": {
+      "build": "1", 
+      "build_number": 1, 
       "depends": [
         "r-httr", 
         "r-rcurl", 
@@ -77993,7 +77969,7 @@
         "r-shiny", 
         "r-xml"
       ], 
-      "fn": "r-view-webtechnologies-core-2014.01.01-0.tar.bz2", 
+      "fn": "r-view-webtechnologies-core-2014.01.01-1.tar.bz2", 
       "name": "r-view-webtechnologies-core", 
       "version": "2014.01.01"
     }, 
@@ -78504,6 +78480,24 @@
       "fn": "r-watermelon-1.2.2-1.tar.bz2", 
       "name": "r-watermelon", 
       "version": "1.2.2"
+    }, 
+    "r-wats-0.2.9-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-colorspace", 
+        "r-ggplot2", 
+        "r-lubridate", 
+        "r-plyr", 
+        "r-rcolorbrewer", 
+        "r-scales", 
+        "r-testit", 
+        "r-zoo"
+      ], 
+      "fn": "r-wats-0.2.9-0.tar.bz2", 
+      "name": "r-wats", 
+      "version": "0.2.9"
     }, 
     "r-waveband-4.6-0.tar.bz2": {
       "build": "0", 
@@ -79030,7 +79024,7 @@
       "name": "r-wmtregions", 
       "version": "3.2.6"
     }, 
-    "r-wmtsa-1.1.1-0.tar.bz2": {
+    "r-wmtsa-2.0.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -79038,9 +79032,9 @@
         "r-splus2r", 
         "r-ifultools"
       ], 
-      "fn": "r-wmtsa-1.1.1-0.tar.bz2", 
+      "fn": "r-wmtsa-2.0.0-0.tar.bz2", 
       "name": "r-wmtsa", 
-      "version": "1.1.1"
+      "version": "2.0.0"
     }, 
     "r-wnominate-0.98-0.tar.bz2": {
       "build": "0", 
@@ -79209,15 +79203,15 @@
       "name": "r-wsvm", 
       "version": "0.1.7"
     }, 
-    "r-wtcrsk-1.0-0.tar.bz2": {
+    "r-wtcrsk-1.1-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-wtcrsk-1.0-0.tar.bz2", 
+      "fn": "r-wtcrsk-1.1-0.tar.bz2", 
       "name": "r-wtcrsk", 
-      "version": "1.0"
+      "version": "1.1"
     }, 
     "r-wwgbook-1.0.1-0.tar.bz2": {
       "build": "0", 
@@ -79229,18 +79223,18 @@
       "name": "r-wwgbook", 
       "version": "1.0.1"
     }, 
-    "r-x12-1.2.0-0.tar.bz2": {
+    "r-x12-1.3.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-stringr"
       ], 
-      "fn": "r-x12-1.2.0-0.tar.bz2", 
+      "fn": "r-x12-1.3.0-0.tar.bz2", 
       "name": "r-x12", 
-      "version": "1.2.0"
+      "version": "1.3.0"
     }, 
-    "r-x12gui-0.9.3-0.tar.bz2": {
+    "r-x12gui-0.10.0-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
@@ -79251,9 +79245,20 @@
         "r-cairodevice", 
         "r-stringr"
       ], 
-      "fn": "r-x12gui-0.9.3-0.tar.bz2", 
+      "fn": "r-x12gui-0.10.0-0.tar.bz2", 
       "name": "r-x12gui", 
-      "version": "0.9.3"
+      "version": "0.10.0"
+    }, 
+    "r-xbrl-0.99.10-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
+      "depends": [
+        "r", 
+        "r-rcpp"
+      ], 
+      "fn": "r-xbrl-0.99.10-0.tar.bz2", 
+      "name": "r-xbrl", 
+      "version": "0.99.10"
     }, 
     "r-xcms-1.38.0-1.tar.bz2": {
       "build": "1", 
@@ -79392,16 +79397,16 @@
       "name": "r-xlaevis2probe", 
       "version": "2.13.0"
     }, 
-    "r-xlconnect-0.2.5-0.tar.bz2": {
+    "r-xlconnect-0.2.7-0.tar.bz2": {
       "build": "0", 
       "build_number": 0, 
       "depends": [
         "r", 
         "r-rjava"
       ], 
-      "fn": "r-xlconnect-0.2.5-0.tar.bz2", 
+      "fn": "r-xlconnect-0.2.7-0.tar.bz2", 
       "name": "r-xlconnect", 
-      "version": "0.2.5"
+      "version": "0.2.7"
     }, 
     "r-xlsx-0.5.5-1.tar.bz2": {
       "build": "1", 
@@ -79663,15 +79668,15 @@
       "name": "r-yaletoolkit", 
       "version": "4.1"
     }, 
-    "r-yaml-2.1.8-1.tar.bz2": {
-      "build": "1", 
-      "build_number": 1, 
+    "r-yaml-2.1.10-0.tar.bz2": {
+      "build": "0", 
+      "build_number": 0, 
       "depends": [
         "r"
       ], 
-      "fn": "r-yaml-2.1.8-1.tar.bz2", 
+      "fn": "r-yaml-2.1.10-0.tar.bz2", 
       "name": "r-yaml", 
-      "version": "2.1.8"
+      "version": "2.1.10"
     }, 
     "r-yaqcaffy-1.22.0-1.tar.bz2": {
       "build": "1", 

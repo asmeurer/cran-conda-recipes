@@ -1,13 +1,13 @@
 package:
   name: r-crs
-  version: 0.15.18
+  version: 0.15.20
 
 source:
-  fn: crs_0.15-18.tar.gz
-  url: http://cran.r-project.org/src/contrib/crs_0.15-18.tar.gz
+  fn: crs_0.15-20.tar.gz
+  url: http://cran.r-project.org/src/contrib/crs_0.15-20.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

@@ -1,10 +1,10 @@
 package:
   name: r-fuzzynumbers
-  version: 0.3.1
+  version: 0.3.3
 
 source:
-  fn: FuzzyNumbers_0.3-1.tar.gz
-  url: http://cran.r-project.org/src/contrib/FuzzyNumbers_0.3-1.tar.gz
+  fn: FuzzyNumbers_0.3-3.tar.gz
+  url: http://cran.r-project.org/src/contrib/FuzzyNumbers_0.3-3.tar.gz
 
 build:
   number: 0

@@ -7,17 +7,19 @@ source:
   url: http://cran.r-project.org/src/contrib/gRbase_1.6-12.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - r
     - r-graph
+    - r-rcpp
     - r-rbgl
     - r-igraph
   run:
     - r
     - r-graph
+    - r-rcpp
     - r-rbgl
     - r-igraph
 

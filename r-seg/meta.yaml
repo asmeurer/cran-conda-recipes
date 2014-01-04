@@ -1,10 +1,10 @@
 package:
   name: r-seg
-  version: 0.3.3
+  version: 0.4.1
 
 source:
-  fn: seg_0.3-3.tar.gz
-  url: http://cran.r-project.org/src/contrib/seg_0.3-3.tar.gz
+  fn: seg_0.4-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/seg_0.4-1.tar.gz
 
 build:
   number: 0
@@ -13,13 +13,11 @@ requirements:
   build:
     - r
     - r-sp
-    - r-raster
-    - r-spatstat
+    - r-splancs
   run:
     - r
     - r-sp
-    - r-raster
-    - r-spatstat
+    - r-splancs
 
 about:
   license: GPL (>= 3)

@@ -1,10 +1,10 @@
 package:
   name: r-tam
-  version: 0.99.7
+  version: 1.0.0
 
 source:
-  fn: TAM_0.99-7.tar.gz
-  url: http://cran.r-project.org/src/contrib/TAM_0.99-7.tar.gz
+  fn: TAM_1.0-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/TAM_1.0-0.tar.gz
 
 build:
   number: 0

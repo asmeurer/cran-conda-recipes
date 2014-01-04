@@ -1,10 +1,10 @@
 package:
   name: r-phontools
-  version: 0.2.1
+  version: 0.2.1.1
 
 source:
-  fn: phonTools_0.2-1.tar.gz
-  url: http://cran.r-project.org/src/contrib/phonTools_0.2-1.tar.gz
+  fn: phonTools_0.2-1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/phonTools_0.2-1.1.tar.gz
 
 build:
   number: 0

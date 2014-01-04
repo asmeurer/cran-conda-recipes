@@ -1,13 +1,13 @@
 package:
   name: r-bootruin
-  version: 1.1.579
+  version: 1.2.0
 
 source:
-  fn: bootruin_1.1-579.tar.gz
-  url: http://cran.r-project.org/src/contrib/bootruin_1.1-579.tar.gz
+  fn: bootruin_1.2-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/bootruin_1.2-0.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

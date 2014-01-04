@@ -1,10 +1,10 @@
 package:
   name: r-rgabriel
-  version: 0.4
+  version: 0.7
 
 source:
-  fn: rgabriel_0.4.tar.gz
-  url: http://cran.r-project.org/src/contrib/rgabriel_0.4.tar.gz
+  fn: rgabriel_0.7.tar.gz
+  url: http://cran.r-project.org/src/contrib/rgabriel_0.7.tar.gz
 
 build:
   number: 0

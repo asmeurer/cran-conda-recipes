@@ -1,10 +1,10 @@
 package:
   name: r-mortalitysmooth
-  version: 2.3.1
+  version: 2.3.2
 
 source:
-  fn: MortalitySmooth_2.3.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/MortalitySmooth_2.3.1.tar.gz
+  fn: MortalitySmooth_2.3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/MortalitySmooth_2.3.2.tar.gz
 
 build:
   number: 0

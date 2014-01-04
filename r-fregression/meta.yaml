@@ -1,10 +1,10 @@
 package:
   name: r-fregression
-  version: 3010.79
+  version: 3010.80
 
 source:
-  fn: fRegression_3010.79.tar.gz
-  url: http://cran.r-project.org/src/contrib/fRegression_3010.79.tar.gz
+  fn: fRegression_3010.80.tar.gz
+  url: http://cran.r-project.org/src/contrib/fRegression_3010.80.tar.gz
 
 build:
   number: 0
@@ -15,15 +15,15 @@ requirements:
     - r-fbasics
     - r-ftrading
     - r-fmultivar
-    - r-lmtest
     - r-polspline
+    - r-lmtest
   run:
     - r
     - r-fbasics
     - r-ftrading
     - r-fmultivar
-    - r-lmtest
     - r-polspline
+    - r-lmtest
 
 about:
   license: GPL (>= 2)

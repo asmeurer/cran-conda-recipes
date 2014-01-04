@@ -1,10 +1,10 @@
 package:
   name: r-pp
-  version: 0.2
+  version: 0.2.1
 
 source:
-  fn: PP_0.2.tar.gz
-  url: http://cran.r-project.org/src/contrib/PP_0.2.tar.gz
+  fn: PP_0.2-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/PP_0.2-1.tar.gz
 
 build:
   number: 0

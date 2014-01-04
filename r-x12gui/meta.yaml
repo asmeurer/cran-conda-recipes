@@ -1,10 +1,10 @@
 package:
   name: r-x12gui
-  version: 0.9.3
+  version: 0.10.0
 
 source:
-  fn: x12GUI_0.9-3.tar.gz
-  url: http://cran.r-project.org/src/contrib/x12GUI_0.9-3.tar.gz
+  fn: x12GUI_0.10.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/x12GUI_0.10.0.tar.gz
 
 build:
   number: 0

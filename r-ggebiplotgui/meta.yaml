@@ -1,10 +1,10 @@
 package:
   name: r-ggebiplotgui
-  version: 1.0.6
+  version: 1.0.7
 
 source:
-  fn: GGEBiplotGUI_1.0-6.tar.gz
-  url: http://cran.r-project.org/src/contrib/GGEBiplotGUI_1.0-6.tar.gz
+  fn: GGEBiplotGUI_1.0-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/GGEBiplotGUI_1.0-7.tar.gz
 
 build:
   number: 0

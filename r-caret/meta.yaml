@@ -1,10 +1,10 @@
 package:
   name: r-caret
-  version: 5.17.7
+  version: 6.0.21
 
 source:
-  fn: caret_5.17-7.tar.gz
-  url: http://cran.r-project.org/src/contrib/caret_5.17-7.tar.gz
+  fn: caret_6.0-21.tar.gz
+  url: http://cran.r-project.org/src/contrib/caret_6.0-21.tar.gz
 
 build:
   number: 0
@@ -12,14 +12,18 @@ build:
 requirements:
   build:
     - r
+    - r-ggplot2
+    - r-car
+    - r-reshape2
     - r-foreach
     - r-plyr
-    - r-reshape2
   run:
     - r
+    - r-ggplot2
+    - r-car
+    - r-reshape2
     - r-foreach
     - r-plyr
-    - r-reshape2
 
 about:
   license: GPL-2

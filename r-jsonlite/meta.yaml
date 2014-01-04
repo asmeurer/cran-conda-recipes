@@ -1,13 +1,13 @@
 package:
   name: r-jsonlite
-  version: 0.9.1
+  version: 0.9.3
 
 source:
-  fn: jsonlite_0.9.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/jsonlite_0.9.1.tar.gz
+  fn: jsonlite_0.9.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/jsonlite_0.9.3.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

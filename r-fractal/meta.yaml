@@ -1,0 +1,31 @@
+package:
+  name: r-fractal
+  version: 2.0.0
+
+source:
+  fn: fractal_2.0-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/fractal_2.0-0.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-splus2r
+    - r-ifultools
+    - r-sapa
+    - r-wmtsa
+    - r-scatterplot3d
+  run:
+    - r
+    - r-splus2r
+    - r-ifultools
+    - r-sapa
+    - r-wmtsa
+    - r-scatterplot3d
+
+about:
+  license: GPL-2
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

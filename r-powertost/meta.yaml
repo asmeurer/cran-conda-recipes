@@ -1,13 +1,13 @@
 package:
   name: r-powertost
-  version: 1.1.07
+  version: 1.1.08
 
 source:
-  fn: PowerTOST_1.1-07.tar.gz
-  url: http://cran.r-project.org/src/contrib/PowerTOST_1.1-07.tar.gz
+  fn: PowerTOST_1.1-08.tar.gz
+  url: http://cran.r-project.org/src/contrib/PowerTOST_1.1-08.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

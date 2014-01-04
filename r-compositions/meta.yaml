@@ -1,10 +1,10 @@
 package:
   name: r-compositions
-  version: 1.30.1
+  version: 1.30.2
 
 source:
-  fn: compositions_1.30-1.tar.gz
-  url: http://cran.r-project.org/src/contrib/compositions_1.30-1.tar.gz
+  fn: compositions_1.30-2.tar.gz
+  url: http://cran.r-project.org/src/contrib/compositions_1.30-2.tar.gz
 
 build:
   number: 0
@@ -12,16 +12,16 @@ build:
 requirements:
   build:
     - r
-    - r-rgl
     - r-tensora
-    - r-robustbase
     - r-energy
+    - r-rgl
+    - r-robustbase
   run:
     - r
-    - r-rgl
     - r-tensora
-    - r-robustbase
     - r-energy
+    - r-rgl
+    - r-robustbase
 
 about:
   license: GPL (>= 2)

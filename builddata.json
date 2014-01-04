@@ -649,9 +649,9 @@
     "fn": "r-acgh-1.40.0-1.tar.bz2", 
     "name": "r-acgh", 
     "reverse_depends": [
+      "r-adacgh2", 
       "r-snapcgh", 
-      "r-crimage", 
-      "r-adacgh2"
+      "r-crimage"
     ], 
     "version": "1.40.0"
   }, 
@@ -674,6 +674,25 @@
     "name": "r-acgh.spline", 
     "reverse_depends": [], 
     "version": "2.2"
+  }, 
+  "r-acm4r": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "MASS", 
+      "License": "GPL", 
+      "NeedsCompilation": "no", 
+      "Package": "acm4r", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-acm4r-1.0-0.tar.bz2", 
+    "name": "r-acm4r", 
+    "reverse_depends": [], 
+    "version": "1.0"
   }, 
   "r-acme": {
     "build": "1", 
@@ -1046,24 +1065,23 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.0)", 
+      "Depends": "R (>= 3.0.2), Rcpp (>= 0.8.0)", 
       "License": "LGPL (>= 3.0)", 
-      "LinkingTo": "Rcpp, RcppArmadillo", 
+      "LinkingTo": "Rcpp, RcppArmadillo (>= 0.2.0)", 
       "NeedsCompilation": "yes", 
       "Package": "AdaptiveSparsity", 
       "Site": "cran", 
       "Suggests": "MASS, Matrix", 
-      "Version": "1.3"
+      "Version": "1.4"
     }, 
     "depends": [
       "r", 
-      "r-rcpp", 
-      "r-rcpparmadillo"
+      "r-rcpp"
     ], 
-    "fn": "r-adaptivesparsity-1.3-0.tar.bz2", 
+    "fn": "r-adaptivesparsity-1.4-0.tar.bz2", 
     "name": "r-adaptivesparsity", 
     "reverse_depends": [], 
-    "version": "1.3"
+    "version": "1.4"
   }, 
   "r-adaptivetau": {
     "build": "0", 
@@ -1192,7 +1210,6 @@
       "r-restlos", 
       "r-adegenet", 
       "r-view-multivariate-core", 
-      "r-funnet", 
       "r-adehabitatlt", 
       "r-phyloseq", 
       "r-adehabitathr", 
@@ -1659,7 +1676,6 @@
     "name": "r-aer", 
     "reverse_depends": [
       "r-view-econometrics", 
-      "r-tonymisc", 
       "r-view-econometrics-core", 
       "r-view-survival", 
       "r-view-timeseries", 
@@ -3803,7 +3819,6 @@
       "r-globaltest", 
       "r-gcmap", 
       "r-rtrm", 
-      "r-sisus", 
       "r-methylumi", 
       "r-agi4x44preprocess", 
       "r-geneplotter", 
@@ -3915,7 +3930,6 @@
       "r-moe430b.db", 
       "r-ecolisakai.db0", 
       "r-rmir.hs.mirna", 
-      "r-org.cf.eg.db", 
       "r-ragene11stprobeset.db", 
       "r-hugene21sttranscriptcluster.db", 
       "r-gghumanmethcancerpanelv1.db", 
@@ -4019,10 +4033,12 @@
       "r-agprobe", 
       "r-illuminaratv1.db", 
       "r-gahgu95cprobe", 
+      "r-org.cf.eg.db", 
       "r-rat2302.db", 
       "r-fdb.ucsc.trnas", 
       "r-drosophila2.db", 
       "r-rgug4105a.db", 
+      "r-txdb.athaliana.biomart.plantsmart12", 
       "r-mgug4104a.db", 
       "r-hgug4100a.db", 
       "r-org.ce.eg.db", 
@@ -4118,7 +4134,6 @@
       "r-org.dr.eg.db", 
       "r-go.db", 
       "r-hthgu133pluspmprobe", 
-      "r-metapath", 
       "r-fdb.infiniummethylation.hg18", 
       "r-affylmgui", 
       "r-hwgcod.db", 
@@ -4249,7 +4264,6 @@
       "r-txdb.athaliana.biomart.plantsmart19", 
       "r-txdb.athaliana.biomart.plantsmart16", 
       "r-txdb.athaliana.biomart.plantsmart14", 
-      "r-txdb.athaliana.biomart.plantsmart12", 
       "r-txdb.athaliana.biomart.plantsmart10", 
       "r-hu35ksubc.db", 
       "r-mguatlas5k.db", 
@@ -4799,7 +4813,6 @@
       "r-gunifrac", 
       "r-phyloseq", 
       "r-geomorph", 
-      "r-phylotop", 
       "r-coalescentmcmc", 
       "r-phylotools", 
       "r-betapart", 
@@ -5789,7 +5802,9 @@
     ], 
     "fn": "r-artp-2.0.3-1.tar.bz2", 
     "name": "r-artp", 
-    "reverse_depends": [], 
+    "reverse_depends": [
+      "r-pige"
+    ], 
     "version": "2.0.3"
   }, 
   "r-arules": {
@@ -6023,7 +6038,6 @@
     "name": "r-ash", 
     "reverse_depends": [
       "r-hdrcde", 
-      "r-sisus", 
       "r-view-multivariate", 
       "r-nsm3", 
       "r-view-spatial", 
@@ -6134,6 +6148,8 @@
     "fn": "r-assertthat-0.1-0.tar.bz2", 
     "name": "r-assertthat", 
     "reverse_depends": [
+      "r-datalist", 
+      "r-solr", 
       "r-rfisheries"
     ], 
     "version": "0.1"
@@ -7315,6 +7331,7 @@
       "r-pki", 
       "r-readmzxmldata", 
       "r-sendmailr", 
+      "r-r.devices", 
       "r-maldiquantforeign"
     ], 
     "version": "0.1.1"
@@ -7599,7 +7616,7 @@
     "cran": {
       "Depends": "Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.2.4), coda", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "Rcpp, RcppArmadillo, coda", 
+      "LinkingTo": "Rcpp, RcppArmadillo", 
       "NeedsCompilation": "yes", 
       "Package": "BayesComm", 
       "Site": "cran", 
@@ -9788,7 +9805,6 @@
     "fn": "r-bfast-1.4.4-3.tar.bz2", 
     "name": "r-bfast", 
     "reverse_depends": [
-      "r-ndvits", 
       "r-view-timeseries"
     ], 
     "version": "1.4.4"
@@ -9989,19 +10005,19 @@
     "version": "1.28.0"
   }, 
   "r-bh": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "License": "BSL-1.0", 
       "NeedsCompilation": "no", 
       "Package": "BH", 
       "Site": "cran", 
-      "Version": "1.51.0-3"
+      "Version": "1.51.0-4"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-bh-1.51.0.3-1.tar.bz2", 
+    "fn": "r-bh-1.51.0.4-0.tar.bz2", 
     "name": "r-bh", 
     "reverse_depends": [
       "r-bigrf", 
@@ -10009,7 +10025,7 @@
       "r-ssn", 
       "r-synchronicity"
     ], 
-    "version": "1.51.0.3"
+    "version": "1.51.0.4"
   }, 
   "r-bhat": {
     "build": "1", 
@@ -10099,19 +10115,19 @@
       "NeedsCompilation": "yes", 
       "Package": "BiasedUrn", 
       "Site": "cran", 
-      "Version": "1.06"
+      "Version": "1.06.1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-biasedurn-1.06-0.tar.bz2", 
+    "fn": "r-biasedurn-1.06.1-0.tar.bz2", 
     "name": "r-biasedurn", 
     "reverse_depends": [
       "r-mpinet", 
       "r-goseq", 
       "r-view-distributions"
     ], 
-    "version": "1.06"
+    "version": "1.06.1"
   }, 
   "r-bibtex": {
     "build": "0", 
@@ -10726,21 +10742,20 @@
     "version": "2.0"
   }, 
   "r-binom": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "Depends": "lattice", 
       "License": "GPL", 
       "NeedsCompilation": "yes", 
       "Package": "binom", 
       "Site": "cran", 
-      "Suggests": "polynom, tcltk", 
-      "Version": "1.0-5"
+      "Suggests": "lattice, polynom, tcltk, ggplot2", 
+      "Version": "1.1-1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-binom-1.0.5-1.tar.bz2", 
+    "fn": "r-binom-1.1.1-0.tar.bz2", 
     "name": "r-binom", 
     "reverse_depends": [
       "r-dpcr", 
@@ -10748,7 +10763,7 @@
       "r-nsm3", 
       "r-binomsamsize"
     ], 
-    "version": "1.0.5"
+    "version": "1.1.1"
   }, 
   "r-binomialcftp": {
     "build": "0", 
@@ -11043,7 +11058,6 @@
       "r-gviz", 
       "r-variantannotation", 
       "r-copa", 
-      "r-sisus", 
       "r-refplus", 
       "r-methylumi", 
       "r-maanova", 
@@ -11087,7 +11101,6 @@
       "r-biodist", 
       "r-affyilm", 
       "r-suprahex", 
-      "r-metapath", 
       "r-rtreemix", 
       "r-idmappinganalysis", 
       "r-gaga", 
@@ -11611,7 +11624,6 @@
       "Depends": "rexpokit, cladoRcpp, ape, phylobase, methods", 
       "Imports": "optimx, FD, parallel, xtable, plotrix, gdata", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "ape", 
       "NeedsCompilation": "no", 
       "Package": "BioGeoBEARS", 
       "Site": "cran", 
@@ -12375,6 +12387,29 @@
     ], 
     "version": "2.02"
   }, 
+  "r-biplotbootgui": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot (>= 0.0-23), vegan (>= 2.0-7), tcltk2 (>= 1.2-5)", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "biplotbootGUI", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-rgl", 
+      "r-tkrplot", 
+      "r-vegan", 
+      "r-tcltk2"
+    ], 
+    "fn": "r-biplotbootgui-1.0-0.tar.bz2", 
+    "name": "r-biplotbootgui", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-biplotgui": {
     "build": "3", 
     "build_number": 3, 
@@ -12564,12 +12599,12 @@
     "name": "r-bit", 
     "reverse_depends": [
       "r-eigendog", 
+      "r-adacgh2", 
       "r-neff", 
       "r-ffbase", 
       "r-bit64", 
       "r-ff", 
       "r-msbvar", 
-      "r-adacgh2", 
       "r-ggtools"
     ], 
     "version": "1.1.11"
@@ -12625,6 +12660,7 @@
       "r-rsamtools", 
       "r-rgcctranslationunit", 
       "r-rcurl", 
+      "r-r4couchdb", 
       "r-muma", 
       "r-spidermonkey", 
       "r-expressionview", 
@@ -13533,22 +13569,22 @@
     "version": "1.2.3"
   }, 
   "r-bootruin": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "License": "AGPL-3", 
       "NeedsCompilation": "yes", 
       "Package": "bootruin", 
       "Site": "cran", 
-      "Version": "1.1-579"
+      "Version": "1.2-0"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-bootruin-1.1.579-1.tar.bz2", 
+    "fn": "r-bootruin-1.2.0-0.tar.bz2", 
     "name": "r-bootruin", 
     "reverse_depends": [], 
-    "version": "1.1.579"
+    "version": "1.2.0"
   }, 
   "r-bootspecdens": {
     "build": "0", 
@@ -16112,7 +16148,6 @@
       "r-htseqgenie", 
       "r-sgp", 
       "r-flowworkspace", 
-      "r-funnet", 
       "r-arrayqualitymetrics", 
       "r-view-graphics", 
       "r-fastrweb"
@@ -16742,7 +16777,6 @@
       "r-vim", 
       "r-genridge", 
       "r-view-econometrics", 
-      "r-tonymisc", 
       "r-pequod", 
       "r-drc", 
       "r-robcompositions", 
@@ -16769,6 +16803,7 @@
       "r-view-multivariate", 
       "r-specificity", 
       "r-stvar", 
+      "r-caret", 
       "r-mvinfluence", 
       "r-crypticibdcheck", 
       "r-alr3", 
@@ -16919,21 +16954,24 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10), cluster, foreach, lattice (>= 0.20), methods, plyr, reshape2, stats", 
+      "Depends": "R (>= 2.10), stats, lattice (>= 0.20), ggplot2", 
+      "Imports": "car, reshape2, foreach, methods, plyr", 
       "License": "GPL-2", 
       "NeedsCompilation": "yes", 
       "Package": "caret", 
       "Site": "cran", 
-      "Suggests": "ada, affy, arm, Boruta, bst, C50, car, caTools, class, Cubist, e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree, extraTrees, fastICA, foba, gam, gbm (>= 2.1), glmnet (>= 1.8), gpls, grid, hda, HDclassif, HiDimDA, Hmisc, ipred, kernlab, kknn, klaR, kohonen, KRLS, lars, leaps, LogicForest, logicFS, LogicReg, MASS, mboost, mda, mgcv, mlbench, neuralnet, nnet, nodeHarvest, obliqueRF, pamr, partDSA, party (>= 0.9-99992), penalized, penalizedLDA, pls, pROC, protoclass, proxy, qrnn, quantregForest, randomForest, RANN, relaxo, rFerns, rocc, rpart, rrcov, RRF, rrlda, RSNNS, RWeka (>= 0.4-1), sda, SDDA, sparseLDA (>= 0.1-1), spls, stepPlr, superpc, vbmp", 
-      "Version": "5.17-7"
+      "Suggests": "e1071, earth (>= 2.2-3), ellipse, fastICA, gam, ipred, kernlab, klaR, MASS, mda, mgcv, mlbench, nnet, party (>= 0.9-99992), pls, pROC, proxy, randomForest, RANN, spls, affy", 
+      "Version": "6.0-21"
     }, 
     "depends": [
       "r", 
+      "r-ggplot2", 
+      "r-car", 
+      "r-reshape2", 
       "r-foreach", 
-      "r-plyr", 
-      "r-reshape2"
+      "r-plyr"
     ], 
-    "fn": "r-caret-5.17.7-0.tar.bz2", 
+    "fn": "r-caret-6.0.21-0.tar.bz2", 
     "name": "r-caret", 
     "reverse_depends": [
       "r-ordbtl", 
@@ -16949,7 +16987,7 @@
       "r-ksplot", 
       "r-alfq"
     ], 
-    "version": "5.17.7"
+    "version": "6.0.21"
   }, 
   "r-caribou": {
     "build": "0", 
@@ -17296,7 +17334,6 @@
       "r-websockets", 
       "r-bdynsys", 
       "r-sseq", 
-      "r-rtexttools", 
       "r-climdex.pcic", 
       "r-divemove", 
       "r-muma", 
@@ -20720,6 +20757,7 @@
       "r-view-multivariate", 
       "r-flowclust", 
       "r-stream", 
+      "r-desnowball", 
       "r-opencyto", 
       "r-movmf"
     ], 
@@ -21043,15 +21081,15 @@
     "version": "0.8"
   }, 
   "r-clustrd": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "corpcor, e1071, ggplot2, irlba", 
       "License": "GPL", 
       "NeedsCompilation": "no", 
       "Package": "clustrd", 
       "Site": "cran", 
-      "Version": "0.1.1"
+      "Version": "0.1.2"
     }, 
     "depends": [
       "r", 
@@ -21060,10 +21098,10 @@
       "r-ggplot2", 
       "r-irlba"
     ], 
-    "fn": "r-clustrd-0.1.1-1.tar.bz2", 
+    "fn": "r-clustrd-0.1.2-0.tar.bz2", 
     "name": "r-clustrd", 
     "reverse_depends": [], 
-    "version": "0.1.1"
+    "version": "0.1.2"
   }, 
   "r-clustsig": {
     "build": "0", 
@@ -21157,7 +21195,6 @@
       "r-bca", 
       "r-weightedkmeans", 
       "r-kml3d", 
-      "r-validator", 
       "r-longitudinaldata"
     ], 
     "version": "0.3.2.1"
@@ -21182,7 +21219,6 @@
     "reverse_depends": [
       "r-view-cluster", 
       "r-rankaggreg", 
-      "r-validator", 
       "r-mseasy"
     ], 
     "version": "0.6.4"
@@ -22010,16 +22046,13 @@
       "r-isotoper", 
       "r-save", 
       "r-bmk", 
-      "r-glmmak", 
       "r-dcmle", 
       "r-mcmcglmm", 
       "r-prevalence", 
-      "r-sisus", 
       "r-tergm", 
       "r-baystar", 
       "r-bam", 
       "r-survbayes", 
-      "r-networktomography", 
       "r-ramps", 
       "r-elrm", 
       "r-geiger", 
@@ -22543,6 +22576,7 @@
       "r-qgraph", 
       "r-hh", 
       "r-mineica", 
+      "r-wats", 
       "r-gdimap", 
       "r-anacor", 
       "r-gamlss.util", 
@@ -22612,6 +22646,7 @@
       "r-view-numericalmathematics", 
       "r-traminerextras", 
       "r-bayess", 
+      "r-desnowball", 
       "r-abcextremes", 
       "r-prob"
     ], 
@@ -22944,24 +22979,24 @@
     "version": "1.0"
   }, 
   "r-comphclust": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "yes", 
       "Package": "compHclust", 
       "Site": "cran", 
-      "Version": "1.0-1"
+      "Version": "1.0-2"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-comphclust-1.0.1-1.tar.bz2", 
+    "fn": "r-comphclust-1.0.2-0.tar.bz2", 
     "name": "r-comphclust", 
     "reverse_depends": [
       "r-view-cluster"
     ], 
-    "version": "1.0.1"
+    "version": "1.0.2"
   }, 
   "r-complex.surv.dat.sim": {
     "build": "0", 
@@ -23052,28 +23087,29 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.2.0), rgl, tensorA, robustbase, energy", 
+      "Depends": "R (>= 2.2.0), tensorA", 
+      "Imports": "energy, rgl, robustbase", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "yes", 
       "Package": "compositions", 
       "Site": "cran", 
-      "Version": "1.30-1"
+      "Version": "1.30-2"
     }, 
     "depends": [
       "r", 
-      "r-rgl", 
       "r-tensora", 
-      "r-robustbase", 
-      "r-energy"
+      "r-energy", 
+      "r-rgl", 
+      "r-robustbase"
     ], 
-    "fn": "r-compositions-1.30.1-0.tar.bz2", 
+    "fn": "r-compositions-1.30.2-0.tar.bz2", 
     "name": "r-compositions", 
     "reverse_depends": [
       "r-compositionsgui", 
       "r-flowstats", 
       "r-mvoutlier"
     ], 
-    "version": "1.30.1"
+    "version": "1.30.2"
   }, 
   "r-compositionsgui": {
     "build": "0", 
@@ -23380,7 +23416,6 @@
       "r-view-experimentaldesign-core", 
       "r-view-experimentaldesign", 
       "r-doe.base", 
-      "r-opdoe", 
       "r-view-clinicaltrials", 
       "r-planor"
     ], 
@@ -24416,6 +24451,26 @@
     ], 
     "version": "1.0.1"
   }, 
+  "r-cosmosr": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "xlsx", 
+      "License": "GPL-3", 
+      "NeedsCompilation": "no", 
+      "Package": "cosmosR", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-xlsx"
+    ], 
+    "fn": "r-cosmosr-1.0-0.tar.bz2", 
+    "name": "r-cosmosr", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-cosso": {
     "build": "1", 
     "build_number": 1, 
@@ -24890,15 +24945,15 @@
       "NeedsCompilation": "no", 
       "Package": "cpk", 
       "Site": "cran", 
-      "Version": "1.3"
+      "Version": "1.3-1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-cpk-1.3-0.tar.bz2", 
+    "fn": "r-cpk-1.3.1-0.tar.bz2", 
     "name": "r-cpk", 
     "reverse_depends": [], 
-    "version": "1.3"
+    "version": "1.3.1"
   }, 
   "r-cplexapi": {
     "build": "0", 
@@ -25351,8 +25406,7 @@
     "fn": "r-crossdes-1.1.1-1.tar.bz2", 
     "name": "r-crossdes", 
     "reverse_depends": [
-      "r-view-experimentaldesign", 
-      "r-opdoe"
+      "r-view-experimentaldesign"
     ], 
     "version": "1.1.1"
   }, 
@@ -25463,25 +25517,26 @@
     "version": "2013.02.12"
   }, 
   "r-crs": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
+      "Imports": "boot, stats", 
       "License": "GPL", 
       "NeedsCompilation": "yes", 
       "Package": "crs", 
       "Site": "cran", 
-      "Suggests": "np, npRmpi, rgl, quadprog, quantreg", 
-      "Version": "0.15-18"
+      "Suggests": "np, npRmpi, rgl, quadprog, quantreg, logspline", 
+      "Version": "0.15-20"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-crs-0.15.18-1.tar.bz2", 
+    "fn": "r-crs-0.15.20-0.tar.bz2", 
     "name": "r-crs", 
     "reverse_depends": [
       "r-view-optimization"
     ], 
-    "version": "0.15.18"
+    "version": "0.15.20"
   }, 
   "r-crtsize": {
     "build": "0", 
@@ -26874,6 +26929,7 @@
       "r-rgauges", 
       "r-faostat", 
       "r-causata", 
+      "r-solr", 
       "r-treebase", 
       "r-survmisc", 
       "r-qualifier", 
@@ -26887,6 +26943,7 @@
       "r-sgp", 
       "r-ttwa", 
       "r-rtandem", 
+      "r-gpfda", 
       "r-recordlinkage", 
       "r-cager", 
       "r-pcrsim", 
@@ -26996,6 +27053,28 @@
     "name": "r-dataframes2xls", 
     "reverse_depends": [], 
     "version": "0.4.5"
+  }, 
+  "r-datalist": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 3.0.2)", 
+      "Imports": "assertthat", 
+      "License": "GPL-2", 
+      "NeedsCompilation": "no", 
+      "Package": "datalist", 
+      "Site": "cran", 
+      "Suggests": "testthat", 
+      "Version": "0.2"
+    }, 
+    "depends": [
+      "r", 
+      "r-assertthat"
+    ], 
+    "fn": "r-datalist-0.2-0.tar.bz2", 
+    "name": "r-datalist", 
+    "reverse_depends": [], 
+    "version": "0.2"
   }, 
   "r-datamap": {
     "build": "1", 
@@ -27704,25 +27783,26 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.14.0), grDevices, graphics, methods, oro.nifti (>= 0.3.0), parallel, utils", 
-      "License": "BSD", 
+      "Depends": "R (>= 2.14.0), oro.nifti (>= 0.3.9)", 
+      "Imports": "grDevices, graphics, methods, parallel, utils", 
+      "License": "BSD_3_clause + file LICENSE", 
       "NeedsCompilation": "yes", 
       "Package": "dcemriS4", 
       "Site": "cran", 
-      "Suggests": "bitops, minpack.lm, splines, XML, oro.dicom", 
-      "Version": "0.50"
+      "Suggests": "bitops, minpack.lm, splines, XML, oro.dicom (>= 0.3.7)", 
+      "Version": "0.51"
     }, 
     "depends": [
       "r", 
       "r-oro.nifti"
     ], 
-    "fn": "r-dcemris4-0.50-0.tar.bz2", 
+    "fn": "r-dcemris4-0.51-0.tar.bz2", 
     "name": "r-dcemris4", 
     "reverse_depends": [
       "r-view-medicalimaging-core", 
       "r-view-medicalimaging"
     ], 
-    "version": "0.50"
+    "version": "0.51"
   }, 
   "r-dcgl": {
     "build": "0", 
@@ -27734,17 +27814,17 @@
       "NeedsCompilation": "no", 
       "Package": "DCGL", 
       "Site": "cran", 
-      "Version": "2.1.0"
+      "Version": "2.1.1"
     }, 
     "depends": [
       "r", 
       "r-igraph", 
       "r-limma"
     ], 
-    "fn": "r-dcgl-2.1.0-0.tar.bz2", 
+    "fn": "r-dcgl-2.1.1-0.tar.bz2", 
     "name": "r-dcgl", 
     "reverse_depends": [], 
-    "version": "2.1.0"
+    "version": "2.1.1"
   }, 
   "r-dcl": {
     "build": "1", 
@@ -28612,12 +28692,12 @@
       "r-view-spatial-core", 
       "r-mfhd", 
       "r-biplotgui", 
+      "r-expp", 
       "r-stppresid", 
       "r-datautils", 
       "r-spsurvey", 
       "r-spatstat", 
       "r-adehabitathr", 
-      "r-gazetools", 
       "r-view-spatial", 
       "r-ecolmod"
     ], 
@@ -29217,6 +29297,28 @@
     "reverse_depends": [], 
     "version": "1.0.7"
   }, 
+  "r-desnowball": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 3.0.0)", 
+      "Imports": "clue, combinat, MASS, parallel, cluster", 
+      "License": "GPL-3", 
+      "NeedsCompilation": "no", 
+      "Package": "DESnowball", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-clue", 
+      "r-combinat"
+    ], 
+    "fn": "r-desnowball-1.0-0.tar.bz2", 
+    "name": "r-desnowball", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-desolve": {
     "build": "0", 
     "build_number": 0, 
@@ -29247,6 +29349,7 @@
       "r-expotree", 
       "r-diversitree", 
       "r-tserieschaos", 
+      "r-zebook", 
       "r-fme", 
       "r-tess", 
       "r-nlmeode", 
@@ -29254,7 +29357,6 @@
       "r-view-differentialequations-core", 
       "r-insiderode", 
       "r-neurosim", 
-      "r-zebook", 
       "r-mkin", 
       "r-geiger", 
       "r-epimodel", 
@@ -29481,26 +29583,26 @@
     "version": "1.8.0"
   }, 
   "r-dexus": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "R (>= 2.15), methods, BiocGenerics", 
       "License": "LGPL (>= 2.0)", 
-      "MD5sum": "471f6bf65412765fb0ff938a75fdd653", 
+      "MD5sum": "f2854f7f57cd2adc10e8172211010e49", 
       "NeedsCompilation": "yes", 
       "Package": "dexus", 
       "Site": "bioconductor", 
       "Suggests": "parallel, statmod, stats, DESeq, RColorBrewer", 
-      "Version": "1.2.1"
+      "Version": "1.2.2"
     }, 
     "depends": [
       "r", 
       "r-biocgenerics"
     ], 
-    "fn": "r-dexus-1.2.1-1.tar.bz2", 
+    "fn": "r-dexus-1.2.2-0.tar.bz2", 
     "name": "r-dexus", 
     "reverse_depends": [], 
-    "version": "1.2.1"
+    "version": "1.2.2"
   }, 
   "r-df2json": {
     "build": "0", 
@@ -30231,6 +30333,7 @@
       "r-cachesweave", 
       "r-profr", 
       "r-pander", 
+      "r-pkgmaker", 
       "r-dplr", 
       "r-ggplot2", 
       "r-monetdb.r", 
@@ -30241,7 +30344,6 @@
       "r-gwidgetstcltk", 
       "r-r.filesets", 
       "r-geiger", 
-      "r-pkgmaker", 
       "r-downloader", 
       "r-readmzxmldata", 
       "r-harvestr", 
@@ -31651,6 +31753,7 @@
       "r-pardnacopy", 
       "r-minimumdistance", 
       "r-cn.farms", 
+      "r-adacgh2", 
       "r-cnanorm", 
       "r-cnvrd2", 
       "r-snapcgh", 
@@ -31660,7 +31763,6 @@
       "r-clonality", 
       "r-champ", 
       "r-medips", 
-      "r-adacgh2", 
       "r-cghmcr", 
       "r-repitools", 
       "r-nsa", 
@@ -33160,6 +33262,24 @@
     "reverse_depends": [], 
     "version": "1.2"
   }, 
+  "r-dtt": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "dtt", 
+      "Site": "cran", 
+      "Version": "0.1-2"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-dtt-0.1.2-0.tar.bz2", 
+    "name": "r-dtt", 
+    "reverse_depends": [], 
+    "version": "0.1.2"
+  }, 
   "r-dtw": {
     "build": "0", 
     "build_number": 0, 
@@ -33696,7 +33816,6 @@
       "r-clustersim", 
       "r-mlearning", 
       "r-view-multivariate", 
-      "r-rtexttools", 
       "r-msr", 
       "r-imagehts", 
       "r-robsdat", 
@@ -33921,18 +34040,18 @@
     "version": "1.5.0"
   }, 
   "r-easyrnaseq": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "genomeIntervals (>= 1.18.0), Biobase (>= 2.22.0), biomaRt (>= 2.18.0), edgeR (>= 3.4.0), Biostrings (>= 2.30.0), DESeq (>= 1.14.0), GenomicRanges (>= 1.14.3), IRanges (>= 1.20.5), Rsamtools (>= 1.14.1), ShortRead (>= 1.20.0)", 
       "Imports": "graphics, methods, parallel, utils, BiocGenerics (>= 0.8.0), LSD (>= 2.5)", 
       "License": "Artistic-2.0", 
-      "MD5sum": "e1d1242a5d9d63682a967da3b4d002d4", 
+      "MD5sum": "43c370a2e6653f764722486fc03ca522", 
       "NeedsCompilation": "no", 
       "Package": "easyRNASeq", 
       "Site": "bioconductor", 
-      "Suggests": "BSgenome (>= 1.30.0), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.19), GenomicFeatures (>= 1.14.0), RnaSeqTutorial (>= 0.0.13)", 
-      "Version": "1.8.3"
+      "Suggests": "BSgenome (>= 1.30.0), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.19), GenomicFeatures (>= 1.14.0), RnaSeqTutorial (>= 0.0.13), BiocStyle (>= 1.0.0)", 
+      "Version": "1.8.4"
     }, 
     "depends": [
       "r", 
@@ -33949,10 +34068,10 @@
       "r-biocgenerics", 
       "r-lsd"
     ], 
-    "fn": "r-easyrnaseq-1.8.3-1.tar.bz2", 
+    "fn": "r-easyrnaseq-1.8.4-0.tar.bz2", 
     "name": "r-easyrnaseq", 
     "reverse_depends": [], 
-    "version": "1.8.3"
+    "version": "1.8.4"
   }, 
   "r-easystab": {
     "build": "0", 
@@ -35419,7 +35538,6 @@
       "r-lsd", 
       "r-smpracticals", 
       "r-rampath", 
-      "r-sisus", 
       "r-view-multivariate", 
       "r-flowclust", 
       "r-crypticibdcheck", 
@@ -37798,24 +37916,6 @@
     ], 
     "version": "0.8.27"
   }, 
-  "r-exactsampling": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "yes", 
-      "Package": "ExactSampling", 
-      "Site": "cran", 
-      "Version": "1.0"
-    }, 
-    "depends": [
-      "r"
-    ], 
-    "fn": "r-exactsampling-1.0-0.tar.bz2", 
-    "name": "r-exactsampling", 
-    "reverse_depends": [], 
-    "version": "1.0"
-  }, 
   "r-exams": {
     "build": "0", 
     "build_number": 0, 
@@ -38248,6 +38348,30 @@
     "reverse_depends": [], 
     "version": "1.0.1"
   }, 
+  "r-expp": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "methods, sp, spdep, rgeos, deldir", 
+      "License": "GPL-3", 
+      "NeedsCompilation": "no", 
+      "Package": "expp", 
+      "Site": "cran", 
+      "Suggests": "knitr, spatstat, lme4", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-sp", 
+      "r-spdep", 
+      "r-rgeos", 
+      "r-deldir"
+    ], 
+    "fn": "r-expp-1.0-0.tar.bz2", 
+    "name": "r-expp", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-expressionview": {
     "build": "1", 
     "build_number": 1, 
@@ -38340,6 +38464,26 @@
     "name": "r-exsic", 
     "reverse_depends": [], 
     "version": "1.0"
+  }, 
+  "r-extfunnel": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "rmeta", 
+      "License": "GPL-2", 
+      "NeedsCompilation": "no", 
+      "Package": "extfunnel", 
+      "Site": "cran", 
+      "Version": "1.3"
+    }, 
+    "depends": [
+      "r", 
+      "r-rmeta"
+    ], 
+    "fn": "r-extfunnel-1.3-0.tar.bz2", 
+    "name": "r-extfunnel", 
+    "reverse_depends": [], 
+    "version": "1.3"
   }, 
   "r-extrabinomial": {
     "build": "0", 
@@ -38617,27 +38761,6 @@
     ], 
     "version": "2.8.0"
   }, 
-  "r-factas": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "Matrix, graphics, plotrix, datasets, FactoMineR", 
-      "License": "GPL", 
-      "NeedsCompilation": "no", 
-      "Package": "factas", 
-      "Site": "cran", 
-      "Version": "2.1"
-    }, 
-    "depends": [
-      "r", 
-      "r-plotrix", 
-      "r-factominer"
-    ], 
-    "fn": "r-factas-2.1-0.tar.bz2", 
-    "name": "r-factas", 
-    "reverse_depends": [], 
-    "version": "2.1"
-  }, 
   "r-factdesign": {
     "build": "1", 
     "build_number": 1, 
@@ -38729,7 +38852,6 @@
       "r-view-psychometrics", 
       "r-ema", 
       "r-view-multivariate", 
-      "r-factas", 
       "r-rsda", 
       "r-sensominer", 
       "r-missmda", 
@@ -38940,7 +39062,6 @@
     "cran": {
       "Depends": "mnormt, impute", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "mnormt", 
       "NeedsCompilation": "no", 
       "Package": "FAMT", 
       "Site": "cran", 
@@ -39945,6 +40066,7 @@
       "r-mar1s", 
       "r-refund", 
       "r-switchnpreg", 
+      "r-gpfda", 
       "r-cyphid", 
       "r-flowstats", 
       "r-anacor", 
@@ -39997,24 +40119,22 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "Rcpp (>= 0.9.0), RcppArmadillo (>= 0.2.10), Formula (>= 1.0-0)", 
+      "Depends": "R (>= 3.0.2), Formula (>= 1.0-0)", 
       "License": "GPL-2", 
-      "LinkingTo": "Rcpp, RcppArmadillo, Formula", 
+      "LinkingTo": "Rcpp (>= 0.9.0), RcppArmadillo (>= 0.2.10)", 
       "NeedsCompilation": "yes", 
       "Package": "fdaMixed", 
       "Site": "cran", 
-      "Version": "0.2"
+      "Version": "0.3"
     }, 
     "depends": [
       "r", 
-      "r-rcpp", 
-      "r-rcpparmadillo", 
       "r-formula"
     ], 
-    "fn": "r-fdamixed-0.2-0.tar.bz2", 
+    "fn": "r-fdamixed-0.3-0.tar.bz2", 
     "name": "r-fdamixed", 
     "reverse_depends": [], 
-    "version": "0.2"
+    "version": "0.3"
   }, 
   "r-fdasrvf": {
     "build": "0", 
@@ -40541,6 +40661,7 @@
       "r-charm", 
       "r-minimumdistance", 
       "r-cn.farms", 
+      "r-adacgh2", 
       "r-popgenome", 
       "r-ffbase", 
       "r-etlutils", 
@@ -40548,7 +40669,6 @@
       "r-isogene", 
       "r-recordlinkage", 
       "r-oligoclasses", 
-      "r-adacgh2", 
       "r-ggtools"
     ], 
     "version": "2.2.12"
@@ -40573,8 +40693,8 @@
     "fn": "r-ffbase-0.10.1-1.tar.bz2", 
     "name": "r-ffbase", 
     "reverse_depends": [
-      "r-recordlinkage", 
       "r-adacgh2", 
+      "r-recordlinkage", 
       "r-tabplot"
     ], 
     "version": "0.10.1"
@@ -41121,6 +41241,25 @@
     ], 
     "version": "3000.82"
   }, 
+  "r-financial": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.0)", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "financial", 
+      "Site": "cran", 
+      "Version": "0.2"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-financial-0.2-0.tar.bz2", 
+    "name": "r-financial", 
+    "reverse_depends": [], 
+    "version": "0.2"
+  }, 
   "r-financialinstrument": {
     "build": "0", 
     "build_number": 0, 
@@ -41290,7 +41429,6 @@
     "reverse_depends": [
       "r-view-econometrics", 
       "r-view-timeseries", 
-      "r-flubase", 
       "r-view-finance"
     ], 
     "version": "0.4.4"
@@ -41516,6 +41654,24 @@
     ], 
     "version": "1.0.1"
   }, 
+  "r-fitdrc": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "License": "GPL-2", 
+      "NeedsCompilation": "no", 
+      "Package": "fitDRC", 
+      "Site": "cran", 
+      "Version": "1.1"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-fitdrc-1.1-0.tar.bz2", 
+    "name": "r-fitdrc", 
+    "reverse_depends": [], 
+    "version": "1.1"
+  }, 
   "r-fitsio": {
     "build": "0", 
     "build_number": 0, 
@@ -41652,7 +41808,6 @@
       "r-bca", 
       "r-conor", 
       "r-view-cluster-core", 
-      "r-validator", 
       "r-gcexplorer"
     ], 
     "version": "1.3.4"
@@ -42480,27 +42635,6 @@
     ], 
     "version": "1.05"
   }, 
-  "r-flubase": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.7), forecast, FinTS", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "no", 
-      "Package": "flubase", 
-      "Site": "cran", 
-      "Version": "1.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-forecast", 
-      "r-fints"
-    ], 
-    "fn": "r-flubase-1.0-0.tar.bz2", 
-    "name": "r-flubase", 
-    "reverse_depends": [], 
-    "version": "1.0"
-  }, 
   "r-fluomatic": {
     "build": "0", 
     "build_number": 0, 
@@ -42965,6 +43099,7 @@
       "r-domc", 
       "r-minimumdistance", 
       "r-bigrf", 
+      "r-multidimbio", 
       "r-localgauss", 
       "r-ampliqueso", 
       "r-survsnp", 
@@ -42976,6 +43111,7 @@
       "r-hdlm", 
       "r-pawl", 
       "r-dosnow", 
+      "r-missforest", 
       "r-caret", 
       "r-permgpu", 
       "r-modelgood", 
@@ -43077,7 +43213,6 @@
       "r-mcomp", 
       "r-rssa", 
       "r-hts", 
-      "r-flubase", 
       "r-demography", 
       "r-view-finance", 
       "r-bfast", 
@@ -43536,15 +43671,15 @@
       "NeedsCompilation": "no", 
       "Package": "fptdApprox", 
       "Site": "cran", 
-      "Version": "1.2"
+      "Version": "2.0"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-fptdapprox-1.2-0.tar.bz2", 
+    "fn": "r-fptdapprox-2.0-0.tar.bz2", 
     "name": "r-fptdapprox", 
     "reverse_depends": [], 
-    "version": "1.2"
+    "version": "2.0"
   }, 
   "r-fracdiff": {
     "build": "1", 
@@ -43589,6 +43724,32 @@
     "name": "r-fracprolif", 
     "reverse_depends": [], 
     "version": "1.0.5"
+  }, 
+  "r-fractal": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 3.0.2), splus2R (>= 1.2-0), ifultools (>= 2.0-0)", 
+      "Imports": "sapa(>= 2.0-0), wmtsa (>= 2.0-0), scatterplot3d", 
+      "License": "GPL-2", 
+      "NeedsCompilation": "no", 
+      "Package": "fractal", 
+      "Site": "cran", 
+      "Suggests": "akima", 
+      "Version": "2.0-0"
+    }, 
+    "depends": [
+      "r", 
+      "r-splus2r", 
+      "r-ifultools", 
+      "r-sapa", 
+      "r-wmtsa", 
+      "r-scatterplot3d"
+    ], 
+    "fn": "r-fractal-2.0.0-0.tar.bz2", 
+    "name": "r-fractal", 
+    "reverse_depends": [], 
+    "version": "2.0.0"
   }, 
   "r-fractaldim": {
     "build": "0", 
@@ -43833,30 +43994,30 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.4.0), fBasics, fTrading, fMultivar, nnet, mgcv", 
-      "Imports": "methods, lmtest, polspline", 
+      "Depends": "R (>= 2.4.0), fBasics, fTrading, fMultivar, mgcv, nnet", 
+      "Imports": "methods, polspline, lmtest, MASS", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "yes", 
       "Package": "fRegression", 
       "Site": "cran", 
       "Suggests": "RUnit", 
-      "Version": "3010.79"
+      "Version": "3010.80"
     }, 
     "depends": [
       "r", 
       "r-fbasics", 
       "r-ftrading", 
       "r-fmultivar", 
-      "r-lmtest", 
-      "r-polspline"
+      "r-polspline", 
+      "r-lmtest"
     ], 
-    "fn": "r-fregression-3010.79-0.tar.bz2", 
+    "fn": "r-fregression-3010.80-0.tar.bz2", 
     "name": "r-fregression", 
     "reverse_depends": [
       "r-view-finance-core", 
       "r-view-finance"
     ], 
-    "version": "3010.79"
+    "version": "3010.80"
   }, 
   "r-freq": {
     "build": "0", 
@@ -44438,29 +44599,6 @@
     ], 
     "version": "3010.78"
   }, 
-  "r-funnet": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.10), ade4, cluster, Hmisc, nlme, sna, Cairo", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "no", 
-      "Package": "FunNet", 
-      "Site": "cran", 
-      "Version": "1.00-12"
-    }, 
-    "depends": [
-      "r", 
-      "r-ade4", 
-      "r-hmisc", 
-      "r-sna", 
-      "r-cairo"
-    ], 
-    "fn": "r-funnet-1.00.12-0.tar.bz2", 
-    "name": "r-funnet", 
-    "reverse_depends": [], 
-    "version": "1.00.12"
-  }, 
   "r-fusedpca": {
     "build": "0", 
     "build_number": 0, 
@@ -44623,23 +44761,22 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.12.0), base, methods, grDevices, graphics, stats", 
+      "Depends": "R (>= 2.12.0), methods, grDevices, graphics, stats", 
       "License": "LGPL (>= 3)", 
       "NeedsCompilation": "no", 
       "Package": "FuzzyNumbers", 
       "Site": "cran", 
-      "Suggests": "testthat", 
-      "Version": "0.3-1"
+      "Version": "0.3-3"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-fuzzynumbers-0.3.1-0.tar.bz2", 
+    "fn": "r-fuzzynumbers-0.3.3-0.tar.bz2", 
     "name": "r-fuzzynumbers", 
     "reverse_depends": [
       "r-fuzzystatprob"
     ], 
-    "version": "0.3.1"
+    "version": "0.3.3"
   }, 
   "r-fuzzyranktests": {
     "build": "0", 
@@ -46211,39 +46348,6 @@
     ], 
     "version": "1.0.2"
   }, 
-  "r-gazetools": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.14), Matrix, methods,", 
-      "Enhances": "sp, ggplot2", 
-      "Imports": "rgeos, maptools, deldir, sp, modeest, signal, zoo, Rmisc, reshape, plyr, spatstat, ggplot2", 
-      "License": "GPL-3", 
-      "NeedsCompilation": "no", 
-      "Package": "gazetools", 
-      "Site": "cran", 
-      "Version": "3.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-rgeos", 
-      "r-maptools", 
-      "r-deldir", 
-      "r-sp", 
-      "r-modeest", 
-      "r-signal", 
-      "r-zoo", 
-      "r-rmisc", 
-      "r-reshape", 
-      "r-plyr", 
-      "r-spatstat", 
-      "r-ggplot2"
-    ], 
-    "fn": "r-gazetools-3.0-0.tar.bz2", 
-    "name": "r-gazetools", 
-    "reverse_depends": [], 
-    "version": "3.0"
-  }, 
   "r-gb": {
     "build": "0", 
     "build_number": 0, 
@@ -46473,7 +46577,6 @@
     "reverse_depends": [
       "r-timp", 
       "r-chemometrics", 
-      "r-sisus", 
       "r-view-multivariate", 
       "r-upclass", 
       "r-dendser", 
@@ -46679,7 +46782,6 @@
       "r-nonparaeff", 
       "r-gregmisc", 
       "r-weights", 
-      "r-sisus", 
       "r-lessr", 
       "r-comparegroups", 
       "r-qdap", 
@@ -46866,8 +46968,8 @@
     "reverse_depends": [
       "r-view-econometrics", 
       "r-gwaf", 
-      "r-liquidassociation", 
       "r-boss", 
+      "r-liquidassociation", 
       "r-pseudo", 
       "r-qlspack", 
       "r-ipw", 
@@ -47011,25 +47113,47 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10.0), methods, MASS, utils", 
+      "Depends": "R (>= 2.15.0), methods, MASS, utils, GenABEL.data", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "yes", 
       "Package": "GenABEL", 
       "Site": "cran", 
       "Suggests": "qvalue, genetics, haplo.stats, DatABEL (>= 0.9-0), hglm, MetABEL, PredictABEL, VariABEL, bigRR", 
-      "Version": "1.7-6"
+      "Version": "1.8-0"
     }, 
     "depends": [
-      "r"
+      "r", 
+      "r-genabel.data"
     ], 
-    "fn": "r-genabel-1.7.6-0.tar.bz2", 
+    "fn": "r-genabel-1.8.0-0.tar.bz2", 
     "name": "r-genabel", 
     "reverse_depends": [
       "r-view-genetics", 
       "r-ldlasso", 
       "r-haplin"
     ], 
-    "version": "1.7.6"
+    "version": "1.8.0"
+  }, 
+  "r-genabel.data": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.15.0)", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "GenABEL.data", 
+      "Site": "cran", 
+      "Version": "1.0.0"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-genabel.data-1.0.0-0.tar.bz2", 
+    "name": "r-genabel.data", 
+    "reverse_depends": [
+      "r-genabel"
+    ], 
+    "version": "1.0.0"
   }, 
   "r-genalg": {
     "build": "1", 
@@ -47286,7 +47410,6 @@
       "r-cellhts2", 
       "r-agi4x44preprocess", 
       "r-methyanalysis", 
-      "r-metapath", 
       "r-tilingarray", 
       "r-affycoretools", 
       "r-annmap", 
@@ -47521,7 +47644,6 @@
       "r-rnainteract", 
       "r-beadarraymsv", 
       "r-biocgraph", 
-      "r-sisus", 
       "r-flowq", 
       "r-hmmcopy", 
       "r-isogenegui", 
@@ -48097,6 +48219,7 @@
       "r-mus.musculus", 
       "r-txdb.scerevisiae.ucsc.saccer2.sgdgene", 
       "r-fdb.ucsc.trnas", 
+      "r-txdb.athaliana.biomart.plantsmart12", 
       "r-txdb.mmusculus.ucsc.mm10.knowngene", 
       "r-gviz", 
       "r-variantannotation", 
@@ -48122,7 +48245,6 @@
       "r-txdb.athaliana.biomart.plantsmart19", 
       "r-txdb.athaliana.biomart.plantsmart16", 
       "r-txdb.athaliana.biomart.plantsmart14", 
-      "r-txdb.athaliana.biomart.plantsmart12", 
       "r-txdb.athaliana.biomart.plantsmart10", 
       "r-txdb.rnorvegicus.ucsc.rn5.refgene", 
       "r-casper", 
@@ -49033,25 +49155,24 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 1.8.0), bitops, tourr", 
-      "Enhances": "rggobi", 
+      "Depends": "R (>= 1.8.0), bitops", 
       "License": "GPL-2", 
       "NeedsCompilation": "no", 
       "Package": "geozoo", 
       "Site": "cran", 
-      "Version": "0.4.2"
+      "Suggests": "tourr", 
+      "Version": "0.4.3"
     }, 
     "depends": [
       "r", 
-      "r-bitops", 
-      "r-tourr"
+      "r-bitops"
     ], 
-    "fn": "r-geozoo-0.4.2-0.tar.bz2", 
+    "fn": "r-geozoo-0.4.3-0.tar.bz2", 
     "name": "r-geozoo", 
     "reverse_depends": [
       "r-view-multivariate"
     ], 
-    "version": "0.4.2"
+    "version": "0.4.3"
   }, 
   "r-gestr": {
     "build": "0", 
@@ -49247,28 +49368,29 @@
     "build_number": 0, 
     "cran": {
       "Depends": "R (>= 3.0), ggplot2 (>= 0.9.3.1), reshape (>= 0.8.4)", 
-      "Imports": "grid (>= 3.0.0), gtable (>= 0.1.2), stringr (>= 0.6.2)", 
+      "Imports": "grid (>= 3.0.0), gtable (>= 0.1.2), plyr (>= 1.8), stringr (>= 0.6.2)", 
       "License": "GPL (>= 2.0)", 
       "NeedsCompilation": "no", 
       "Package": "GGally", 
       "Site": "cran", 
-      "Suggests": "scagnostics, intergraph (>= 2.0-0), network (>= 1.7.2), RColorBrewer (>= 1.0-5), sna (>= 2.3-1)", 
-      "Version": "0.4.4"
+      "Suggests": "intergraph (>= 2.0-0), network (>= 1.7.2), RColorBrewer (>= 1.0-5), scales (>= 0.2.3), scagnostics (>= 0.2-4), sna (>= 2.3-1), survival (>= 2.37-4)", 
+      "Version": "0.4.5"
     }, 
     "depends": [
       "r", 
       "r-ggplot2", 
       "r-reshape", 
       "r-gtable", 
+      "r-plyr", 
       "r-stringr"
     ], 
-    "fn": "r-ggally-0.4.4-0.tar.bz2", 
+    "fn": "r-ggally-0.4.5-0.tar.bz2", 
     "name": "r-ggally", 
     "reverse_depends": [
       "r-describedisplay", 
       "r-missingdatagui"
     ], 
-    "version": "0.4.4"
+    "version": "0.4.5"
   }, 
   "r-ggbase": {
     "build": "1", 
@@ -49372,17 +49494,17 @@
       "NeedsCompilation": "no", 
       "Package": "GGEBiplotGUI", 
       "Site": "cran", 
-      "Version": "1.0-6"
+      "Version": "1.0-7"
     }, 
     "depends": [
       "r", 
       "r-rgl", 
       "r-tkrplot"
     ], 
-    "fn": "r-ggebiplotgui-1.0.6-0.tar.bz2", 
+    "fn": "r-ggebiplotgui-1.0.7-0.tar.bz2", 
     "name": "r-ggebiplotgui", 
     "reverse_depends": [], 
-    "version": "1.0.6"
+    "version": "1.0.7"
   }, 
   "r-gghorizon": {
     "build": "0", 
@@ -49743,6 +49865,7 @@
       "r-qdap", 
       "r-gstudio", 
       "r-multilevelpsa", 
+      "r-caret", 
       "r-pcrcoal", 
       "r-diversity", 
       "r-quadrupen", 
@@ -49766,6 +49889,7 @@
       "r-perry", 
       "r-dsm", 
       "r-deconrnaseq", 
+      "r-performanceestimation", 
       "r-robustlmm", 
       "r-pcrsim", 
       "r-rfisheries", 
@@ -49775,10 +49899,10 @@
       "r-interactivedisplay", 
       "r-mineica", 
       "r-psaboot", 
-      "r-gazetools", 
       "r-cummerbund", 
       "r-fincal", 
       "r-deltagseg", 
+      "r-wats", 
       "r-missingdatagui", 
       "r-growcurves", 
       "r-deducer", 
@@ -49855,8 +49979,8 @@
     "version": "0.3.2"
   }, 
   "r-ggtern": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "ggplot2(>= 0.9.3.1)", 
       "Imports": "plyr, gtable, scales, reshape2, proto, MASS, sp, grid", 
@@ -49864,7 +49988,7 @@
       "NeedsCompilation": "no", 
       "Package": "ggtern", 
       "Site": "cran", 
-      "Version": "1.0.1.3"
+      "Version": "1.0.2.0"
     }, 
     "depends": [
       "r", 
@@ -49876,10 +50000,10 @@
       "r-proto", 
       "r-sp"
     ], 
-    "fn": "r-ggtern-1.0.1.3-1.tar.bz2", 
+    "fn": "r-ggtern-1.0.2.0-0.tar.bz2", 
     "name": "r-ggtern", 
     "reverse_depends": [], 
-    "version": "1.0.1.3"
+    "version": "1.0.2.0"
   }, 
   "r-ggthemes": {
     "build": "0", 
@@ -50226,11 +50350,11 @@
     "fn": "r-glad-2.26.0-1.tar.bz2", 
     "name": "r-glad", 
     "reverse_depends": [
+      "r-adacgh2", 
       "r-manor", 
       "r-snapcgh", 
       "r-italics", 
-      "r-seqcna", 
-      "r-adacgh2"
+      "r-seqcna"
     ], 
     "version": "2.26.0"
   }, 
@@ -50482,54 +50606,31 @@
     "reverse_depends": [], 
     "version": "0.1"
   }, 
-  "r-glmmak": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.10.0), smoothSurv, coda, mvtnorm", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "yes", 
-      "Package": "glmmAK", 
-      "Site": "cran", 
-      "Version": "1.7"
-    }, 
-    "depends": [
-      "r", 
-      "r-smoothsurv", 
-      "r-coda", 
-      "r-mvtnorm"
-    ], 
-    "fn": "r-glmmak-1.7-0.tar.bz2", 
-    "name": "r-glmmak", 
-    "reverse_depends": [], 
-    "version": "1.7"
-  }, 
   "r-glmmbugs": {
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10), MASS, nlme, abind, spdep, RandomFields, raster", 
-      "Enhances": "R2WinBUGS, BRugs, R2jags", 
+      "Depends": "R (>= 3.0.0)", 
+      "Enhances": "R2WinBUGS, R2OpenBUGS, BRugs, R2jags, sp, nlme", 
+      "Imports": "MASS, abind,", 
       "License": "GPL", 
       "NeedsCompilation": "no", 
       "Package": "glmmBUGS", 
       "Site": "cran", 
-      "Version": "2.0"
+      "Suggests": "spdep", 
+      "Version": "2.3"
     }, 
     "depends": [
       "r", 
-      "r-abind", 
-      "r-spdep", 
-      "r-randomfields", 
-      "r-raster"
+      "r-abind"
     ], 
-    "fn": "r-glmmbugs-2.0-0.tar.bz2", 
+    "fn": "r-glmmbugs-2.3-0.tar.bz2", 
     "name": "r-glmmbugs", 
     "reverse_depends": [
       "r-view-bayesian", 
       "r-view-spatial"
     ], 
-    "version": "2.0"
+    "version": "2.3"
   }, 
   "r-glmmgs": {
     "build": "1", 
@@ -50629,7 +50730,6 @@
       "r-hybridensemble", 
       "r-parcor", 
       "r-pas", 
-      "r-rtexttools", 
       "r-msr", 
       "r-pacose", 
       "r-a4classif", 
@@ -50659,16 +50759,17 @@
       "NeedsCompilation": "no", 
       "Package": "glmnetcr", 
       "Site": "cran", 
-      "Version": "1.0.1"
+      "Suggests": "tools", 
+      "Version": "1.0.2"
     }, 
     "depends": [
       "r", 
       "r-glmnet"
     ], 
-    "fn": "r-glmnetcr-1.0.1-0.tar.bz2", 
+    "fn": "r-glmnetcr-1.0.2-0.tar.bz2", 
     "name": "r-glmnetcr", 
     "reverse_depends": [], 
-    "version": "1.0.1"
+    "version": "1.0.2"
   }, 
   "r-glmpath": {
     "build": "0", 
@@ -50704,17 +50805,18 @@
       "NeedsCompilation": "no", 
       "Package": "glmpathcr", 
       "Site": "cran", 
-      "Version": "1.0.2"
+      "Suggests": "tools", 
+      "Version": "1.0.3"
     }, 
     "depends": [
       "r", 
       "r-glmpath", 
       "r-mvtnorm"
     ], 
-    "fn": "r-glmpathcr-1.0.2-0.tar.bz2", 
+    "fn": "r-glmpathcr-1.0.3-0.tar.bz2", 
     "name": "r-glmpathcr", 
     "reverse_depends": [], 
-    "version": "1.0.2"
+    "version": "1.0.3"
   }, 
   "r-glmperm": {
     "build": "1", 
@@ -51190,7 +51292,6 @@
     "name": "r-gmp", 
     "reverse_depends": [
       "r-dplr", 
-      "r-opdoe", 
       "r-partitions", 
       "r-rknn", 
       "r-cobindr", 
@@ -51255,14 +51356,14 @@
       "Package": "gnm", 
       "Site": "cran", 
       "Suggests": "vcdExtra", 
-      "Version": "1.0-6"
+      "Version": "1.0-7"
     }, 
     "depends": [
       "r", 
       "r-qvcalc", 
       "r-relimp"
     ], 
-    "fn": "r-gnm-1.0.6-0.tar.bz2", 
+    "fn": "r-gnm-1.0.7-0.tar.bz2", 
     "name": "r-gnm", 
     "reverse_depends": [
       "r-vcdextra", 
@@ -51273,7 +51374,7 @@
       "r-view-socialsciences", 
       "r-multgee"
     ], 
-    "version": "1.0.6"
+    "version": "1.0.7"
   }, 
   "r-gnmf": {
     "build": "0", 
@@ -52012,6 +52113,29 @@
     ], 
     "version": "0.4"
   }, 
+  "r-gpfda": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 3.0),data.table,fda,spam", 
+      "Imports": "MASS", 
+      "License": "GPL-3", 
+      "NeedsCompilation": "no", 
+      "Package": "GPFDA", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-data.table", 
+      "r-fda", 
+      "r-spam"
+    ], 
+    "fn": "r-gpfda-1.0-0.tar.bz2", 
+    "name": "r-gpfda", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-gpfit": {
     "build": "1", 
     "build_number": 1, 
@@ -52122,7 +52246,6 @@
       "r-ebseq", 
       "r-lmertest", 
       "r-srap", 
-      "r-sisus", 
       "r-rppanalyzer", 
       "r-datautils", 
       "r-msarc", 
@@ -52381,7 +52504,6 @@
     "cran": {
       "Depends": "dismo", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "dismo", 
       "NeedsCompilation": "no", 
       "Package": "GRaF", 
       "Site": "cran", 
@@ -52566,7 +52688,6 @@
       "r-ppistats", 
       "r-pkgdeptools", 
       "r-mineica", 
-      "r-isubpathwayminer", 
       "r-clipper", 
       "r-category", 
       "r-pathview", 
@@ -52765,10 +52886,10 @@
     "version": "2.0"
   }, 
   "r-grbase": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
-      "Depends": "R (>= 2.15.2),methods,graph", 
+      "Depends": "R (>= 2.15.2),methods,graph,Rcpp", 
       "Imports": "Matrix,RBGL,igraph", 
       "License": "GPL (>= 2)", 
       "LinkingTo": "Rcpp,RcppArmadillo,RcppEigen", 
@@ -52781,10 +52902,11 @@
     "depends": [
       "r", 
       "r-graph", 
+      "r-rcpp", 
       "r-rbgl", 
       "r-igraph"
     ], 
-    "fn": "r-grbase-1.6.12-0.tar.bz2", 
+    "fn": "r-grbase-1.6.12-1.tar.bz2", 
     "name": "r-grbase", 
     "reverse_depends": [
       "r-grain", 
@@ -53203,7 +53325,7 @@
     "cran": {
       "Depends": "Rcpp (>= 0.10.1), RcppArmadillo (>= 0.3.4.4), reshape2 (>= 1.2.1), scales (>= 0.2.0), ggplot2 (>= 0.9.2), Formula (>= 1.0-0), testthat (>= 0.5)", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "Rcpp, RcppArmadillo, reshape2, scales, ggplot2, Formula, testthat", 
+      "LinkingTo": "Rcpp, RcppArmadillo", 
       "NeedsCompilation": "yes", 
       "Package": "growcurves", 
       "Site": "cran", 
@@ -53437,16 +53559,16 @@
     "version": "0.96.2"
   }, 
   "r-gsdesign": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "Depends": "ggplot2, xtable, stringr, RUnit, plyr", 
+      "Depends": "R (>= 3.0.0), ggplot2, xtable, stringr, RUnit, plyr", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "yes", 
       "Package": "gsDesign", 
       "Site": "cran", 
       "Suggests": "knitr", 
-      "Version": "2.8-7"
+      "Version": "2.8-8"
     }, 
     "depends": [
       "r", 
@@ -53456,7 +53578,7 @@
       "r-runit", 
       "r-plyr"
     ], 
-    "fn": "r-gsdesign-2.8.7-1.tar.bz2", 
+    "fn": "r-gsdesign-2.8.8-0.tar.bz2", 
     "name": "r-gsdesign", 
     "reverse_depends": [
       "r-view-experimentaldesign", 
@@ -53464,7 +53586,7 @@
       "r-gsbdesign", 
       "r-view-clinicaltrials"
     ], 
-    "version": "2.8.7"
+    "version": "2.8.8"
   }, 
   "r-gse": {
     "build": "0", 
@@ -53524,7 +53646,6 @@
       "r-gsva", 
       "r-promise", 
       "r-cellhts2", 
-      "r-metapath", 
       "r-agdex", 
       "r-htsanalyzer", 
       "r-category", 
@@ -53844,7 +53965,6 @@
       "r-rtop", 
       "r-palaeosig", 
       "r-hydrotsm", 
-      "r-ndvits", 
       "r-view-spatiotemporal-core", 
       "r-automap", 
       "r-psgp", 
@@ -54047,7 +54167,6 @@
       "r-pairviz", 
       "r-mvtmeta", 
       "r-hier.part", 
-      "r-sisus", 
       "r-triogxe", 
       "r-datautils", 
       "r-reqs", 
@@ -55651,7 +55770,6 @@
       "r-bchron", 
       "r-curvhdr", 
       "r-bclim", 
-      "r-sisus", 
       "r-rainbow", 
       "r-simpletable", 
       "r-siar"
@@ -58096,7 +58214,6 @@
       "r-tinnr", 
       "r-nsm3", 
       "r-meet", 
-      "r-funnet", 
       "r-rtreemix", 
       "r-camera", 
       "r-remix", 
@@ -58120,7 +58237,6 @@
       "r-biovizbase", 
       "r-rms", 
       "r-enmisc", 
-      "r-qt", 
       "r-histogramtools", 
       "r-wppexplorer", 
       "r-hydropso"
@@ -59745,14 +59861,15 @@
       "r-rgauges", 
       "r-yhatr", 
       "r-opencpu", 
+      "r-solr", 
       "r-rsocrata", 
       "r-rsitecatalyst", 
       "r-rinat", 
-      "r-imgur", 
       "r-alm", 
       "r-knitcitations", 
       "r-rfigshare", 
       "r-rvertnet", 
+      "r-imgur", 
       "r-ropensnp", 
       "r-view-webtechnologies-core", 
       "r-rfisheries", 
@@ -61931,6 +62048,24 @@
     "reverse_depends": [], 
     "version": "3.0.0"
   }, 
+  "r-icapca": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "License": "Unlimited", 
+      "NeedsCompilation": "yes", 
+      "Package": "icapca", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-icapca-1.0-0.tar.bz2", 
+    "name": "r-icapca", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-icc": {
     "build": "1", 
     "build_number": 1, 
@@ -62421,24 +62556,25 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.14.0), splus2R (>= 1.1-0), MASS", 
+      "Depends": "R (>= 3.0.2), splus2R (>= 1.2-0), MASS", 
       "License": "GPL-2", 
       "NeedsCompilation": "yes", 
       "Package": "ifultools", 
       "Site": "cran", 
-      "Version": "1.1-3"
+      "Version": "2.0-0"
     }, 
     "depends": [
       "r", 
       "r-splus2r"
     ], 
-    "fn": "r-ifultools-1.1.3-0.tar.bz2", 
+    "fn": "r-ifultools-2.0.0-0.tar.bz2", 
     "name": "r-ifultools", 
     "reverse_depends": [
       "r-sapa", 
+      "r-fractal", 
       "r-wmtsa"
     ], 
-    "version": "1.1.3"
+    "version": "2.0.0"
   }, 
   "r-igasso": {
     "build": "0", 
@@ -62566,7 +62702,6 @@
       "r-adegenet", 
       "r-pacose", 
       "r-ramigo", 
-      "r-networktomography", 
       "r-rds", 
       "r-genereg", 
       "r-igraphtosonia", 
@@ -62602,7 +62737,6 @@
       "r-mineica", 
       "r-mldna", 
       "r-dart", 
-      "r-isubpathwayminer", 
       "r-clipper", 
       "r-sigar", 
       "r-grim", 
@@ -63314,7 +63448,6 @@
       "r-famt", 
       "r-hcsnip", 
       "r-pma", 
-      "r-metapath", 
       "r-wgcna", 
       "r-metade", 
       "r-prot2d", 
@@ -63456,26 +63589,26 @@
     "version": "0.2"
   }, 
   "r-indicspecies": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "permute", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "indicspecies", 
       "Site": "cran", 
-      "Version": "1.7.0"
+      "Version": "1.7.1"
     }, 
     "depends": [
       "r", 
       "r-permute"
     ], 
-    "fn": "r-indicspecies-1.7.0-1.tar.bz2", 
+    "fn": "r-indicspecies-1.7.1-0.tar.bz2", 
     "name": "r-indicspecies", 
     "reverse_depends": [
       "r-vegdata"
     ], 
-    "version": "1.7.0"
+    "version": "1.7.1"
   }, 
   "r-ineq": {
     "build": "0", 
@@ -63608,16 +63741,16 @@
       "Package": "influence.SEM", 
       "Site": "cran", 
       "Suggests": "tcltk", 
-      "Version": "1.1"
+      "Version": "1.2"
     }, 
     "depends": [
       "r", 
       "r-lavaan"
     ], 
-    "fn": "r-influence.sem-1.1-0.tar.bz2", 
+    "fn": "r-influence.sem-1.2-0.tar.bz2", 
     "name": "r-influence.sem", 
     "reverse_depends": [], 
-    "version": "1.1"
+    "version": "1.2"
   }, 
   "r-infodecompute": {
     "build": "0", 
@@ -64586,7 +64719,6 @@
       "r-view-environmetrics", 
       "r-survcomp", 
       "r-mlearning", 
-      "r-rtexttools", 
       "r-zooimage", 
       "r-recordlinkage", 
       "r-view-machinelearning", 
@@ -65544,29 +65676,6 @@
     "reverse_depends": [], 
     "version": "0.6.2"
   }, 
-  "r-isubpathwayminer": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.15.1),graph,RBGL,igraph,XML,utils", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "no", 
-      "Package": "iSubpathwayMiner", 
-      "Site": "cran", 
-      "Version": "3.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-graph", 
-      "r-rbgl", 
-      "r-igraph", 
-      "r-xml"
-    ], 
-    "fn": "r-isubpathwayminer-3.0-0.tar.bz2", 
-    "name": "r-isubpathwayminer", 
-    "reverse_depends": [], 
-    "version": "3.0"
-  }, 
   "r-isva": {
     "build": "0", 
     "build_number": 0, 
@@ -65769,7 +65878,8 @@
     "fn": "r-itertools-0.1.1-0.tar.bz2", 
     "name": "r-itertools", 
     "reverse_depends": [
-      "r-bumphunter"
+      "r-bumphunter", 
+      "r-missforest"
     ], 
     "version": "0.1.1"
   }, 
@@ -66475,8 +66585,8 @@
     "version": "1.0.1"
   }, 
   "r-jsonlite": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "methods", 
       "License": "Apache License (== 2.0)", 
@@ -66484,17 +66594,17 @@
       "Package": "jsonlite", 
       "Site": "cran", 
       "Suggests": "testthat, knitr, reshape2, httr", 
-      "Version": "0.9.1"
+      "Version": "0.9.3"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-jsonlite-0.9.1-1.tar.bz2", 
+    "fn": "r-jsonlite-0.9.3-0.tar.bz2", 
     "name": "r-jsonlite", 
     "reverse_depends": [
       "r-opencpu"
     ], 
-    "version": "0.9.1"
+    "version": "0.9.3"
   }, 
   "r-jtrans": {
     "build": "0", 
@@ -67163,8 +67273,7 @@
     "name": "r-kfas", 
     "reverse_depends": [
       "r-marss", 
-      "r-view-timeseries", 
-      "r-networktomography"
+      "r-view-timeseries"
     ], 
     "version": "1.0.2"
   }, 
@@ -69490,16 +69599,16 @@
       "NeedsCompilation": "no", 
       "Package": "ldr", 
       "Site": "cran", 
-      "Version": "1.2-1"
+      "Version": "1.3"
     }, 
     "depends": [
       "r", 
       "r-grassmannoptim"
     ], 
-    "fn": "r-ldr-1.2.1-0.tar.bz2", 
+    "fn": "r-ldr-1.3-0.tar.bz2", 
     "name": "r-ldr", 
     "reverse_depends": [], 
-    "version": "1.2.1"
+    "version": "1.3"
   }, 
   "r-ldtests": {
     "build": "0", 
@@ -69750,7 +69859,7 @@
       "NeedsCompilation": "yes", 
       "Package": "lessR", 
       "Site": "cran", 
-      "Version": "2.9.7"
+      "Version": "3.0"
     }, 
     "depends": [
       "r", 
@@ -69759,10 +69868,10 @@
       "r-mbess", 
       "r-gdata"
     ], 
-    "fn": "r-lessr-2.9.7-0.tar.bz2", 
+    "fn": "r-lessr-3.0-0.tar.bz2", 
     "name": "r-lessr", 
     "reverse_depends": [], 
-    "version": "2.9.7"
+    "version": "3.0"
   }, 
   "r-lestat": {
     "build": "0", 
@@ -69793,17 +69902,17 @@
       "Package": "lfe", 
       "Site": "cran", 
       "Suggests": "compiler, igraph, knitr, Rcgmin", 
-      "Version": "1.6-1163"
+      "Version": "1.6-1180"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-lfe-1.6.1163-0.tar.bz2", 
+    "fn": "r-lfe-1.6.1180-0.tar.bz2", 
     "name": "r-lfe", 
     "reverse_depends": [
       "r-view-econometrics"
     ], 
-    "version": "1.6.1163"
+    "version": "1.6.1180"
   }, 
   "r-lfstat": {
     "build": "0", 
@@ -70285,7 +70394,6 @@
       "r-cornai", 
       "r-sspa", 
       "r-tweedeseq", 
-      "r-metapath", 
       "r-affylmgui", 
       "r-eximir", 
       "r-masigpro", 
@@ -70370,7 +70478,6 @@
     "reverse_depends": [
       "r-geospt", 
       "r-view-optimization", 
-      "r-networktomography", 
       "r-bce", 
       "r-spaceext", 
       "r-pi0", 
@@ -70774,9 +70881,10 @@
       "r-odprism", 
       "r-ez", 
       "r-polytomous", 
+      "r-boss", 
+      "r-multidimbio", 
       "r-view-psychometrics-core", 
       "r-metatron", 
-      "r-boss", 
       "r-r2stats", 
       "r-difr", 
       "r-pamm", 
@@ -72876,11 +72984,11 @@
       "Enhances": "chron, timeDate, zoo, xts, its, tis, timeSeries, fts, tseries", 
       "Imports": "plyr, stringr, memoise", 
       "License": "GPL", 
-      "NeedsCompilation": "no", 
+      "NeedsCompilation": "yes", 
       "Package": "lubridate", 
       "Site": "cran", 
       "Suggests": "testthat, knitr", 
-      "Version": "1.3.2"
+      "Version": "1.3.3"
     }, 
     "depends": [
       "r", 
@@ -72888,7 +72996,7 @@
       "r-stringr", 
       "r-memoise"
     ], 
-    "fn": "r-lubridate-1.3.2-0.tar.bz2", 
+    "fn": "r-lubridate-1.3.3-0.tar.bz2", 
     "name": "r-lubridate", 
     "reverse_depends": [
       "r-rplos", 
@@ -72900,11 +73008,13 @@
       "r-alm", 
       "r-timeprojection", 
       "r-aoristic", 
+      "r-seawaveq", 
       "r-view-timeseries", 
+      "r-wats", 
       "r-primertree", 
       "r-pitchrx"
     ], 
-    "version": "1.3.2"
+    "version": "1.3.3"
   }, 
   "r-luca": {
     "build": "0", 
@@ -73460,15 +73570,15 @@
     "version": "0.8"
   }, 
   "r-mada": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "stats, mvtnorm, ellipse, mvmeta", 
       "License": "GPL-2", 
       "NeedsCompilation": "no", 
       "Package": "mada", 
       "Site": "cran", 
-      "Version": "0.5.4"
+      "Version": "0.5.5"
     }, 
     "depends": [
       "r", 
@@ -73476,12 +73586,12 @@
       "r-ellipse", 
       "r-mvmeta"
     ], 
-    "fn": "r-mada-0.5.4-1.tar.bz2", 
+    "fn": "r-mada-0.5.5-0.tar.bz2", 
     "name": "r-mada", 
     "reverse_depends": [
       "r-view-metaanalysis"
     ], 
-    "version": "0.5.4"
+    "version": "0.5.5"
   }, 
   "r-madam": {
     "build": "0", 
@@ -74345,7 +74455,6 @@
       "r-streammetabolism", 
       "r-rcarto", 
       "r-ssn", 
-      "r-gazetools", 
       "r-qrfactor", 
       "r-uscensus2010", 
       "r-view-spatial", 
@@ -74644,7 +74753,7 @@
       "NeedsCompilation": "no", 
       "Package": "markovchain", 
       "Site": "cran", 
-      "Version": "0.0.3"
+      "Version": "0.0.5"
     }, 
     "depends": [
       "r", 
@@ -74652,12 +74761,12 @@
       "r-matlab", 
       "r-expm"
     ], 
-    "fn": "r-markovchain-0.0.3-0.tar.bz2", 
+    "fn": "r-markovchain-0.0.5-0.tar.bz2", 
     "name": "r-markovchain", 
     "reverse_depends": [
       "r-view-finance"
     ], 
-    "version": "0.0.3"
+    "version": "0.0.5"
   }, 
   "r-marmap": {
     "build": "0", 
@@ -75164,12 +75273,12 @@
       "Priority": "recommended", 
       "Site": "cran", 
       "Suggests": "expm, MASS", 
-      "Version": "1.1-0"
+      "Version": "1.1-1.1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-matrix-1.1.0-0.tar.bz2", 
+    "fn": "r-matrix-1.1.1.1-0.tar.bz2", 
     "name": "r-matrix", 
     "reverse_depends": [
       "r-view-econometrics", 
@@ -75179,7 +75288,7 @@
       "r-view-socialsciences", 
       "r-view-numericalmathematics"
     ], 
-    "version": "1.1.0"
+    "version": "1.1.1.1"
   }, 
   "r-matrixcalc": {
     "build": "0", 
@@ -75207,6 +75316,7 @@
       "r-rmark", 
       "r-bedassle", 
       "r-pom", 
+      "r-sharper", 
       "r-bayesthresh", 
       "r-rrlda"
     ], 
@@ -75251,23 +75361,23 @@
     "version": "0.3.1"
   }, 
   "r-matrixpls": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "License": "GPL-3", 
       "NeedsCompilation": "no", 
       "Package": "matrixpls", 
       "Site": "cran", 
       "Suggests": "assertive, matrixcalc, plspm, simsem, boot, psych, lavaan, MASS, RUnit, parallel", 
-      "Version": "0.1.0"
+      "Version": "0.2.0"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-matrixpls-0.1.0-1.tar.bz2", 
+    "fn": "r-matrixpls-0.2.0-0.tar.bz2", 
     "name": "r-matrixpls", 
     "reverse_depends": [], 
-    "version": "0.1.0"
+    "version": "0.2.0"
   }, 
   "r-matrixstats": {
     "build": "1", 
@@ -75386,7 +75496,6 @@
     "fn": "r-maxent-1.3.3.1-0.tar.bz2", 
     "name": "r-maxent", 
     "reverse_depends": [
-      "r-rtexttools", 
       "r-view-naturallanguageprocessing"
     ], 
     "version": "1.3.3.1"
@@ -75602,6 +75711,24 @@
     "name": "r-mbi", 
     "reverse_depends": [], 
     "version": "1.0"
+  }, 
+  "r-mblm": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "mblm", 
+      "Site": "cran", 
+      "Version": "0.12"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-mblm-0.12-0.tar.bz2", 
+    "name": "r-mblm", 
+    "reverse_depends": [], 
+    "version": "0.12"
   }, 
   "r-mbmca": {
     "build": "0", 
@@ -76106,16 +76233,16 @@
       "NeedsCompilation": "no", 
       "Package": "MCMC.qpcr", 
       "Site": "cran", 
-      "Version": "1.0.1"
+      "Version": "1.0.2"
     }, 
     "depends": [
       "r", 
       "r-mcmcglmm"
     ], 
-    "fn": "r-mcmc.qpcr-1.0.1-0.tar.bz2", 
+    "fn": "r-mcmc.qpcr-1.0.2-0.tar.bz2", 
     "name": "r-mcmc.qpcr", 
     "reverse_depends": [], 
-    "version": "1.0.1"
+    "version": "1.0.2"
   }, 
   "r-mcmcglmm": {
     "build": "0", 
@@ -77009,7 +77136,6 @@
     "fn": "r-memisc-0.96.9-0.tar.bz2", 
     "name": "r-memisc", 
     "reverse_depends": [
-      "r-tonymisc", 
       "r-stratsel", 
       "r-munfold", 
       "r-view-officialstatistics", 
@@ -77536,32 +77662,6 @@
     ], 
     "version": "0.1.1"
   }, 
-  "r-metapath": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R(>= 2.13.0),Biobase,AnnotationDbi,genefilter,GSEABase,limma,impute,qvalue", 
-      "License": "GPL (>= 2.0)", 
-      "NeedsCompilation": "no", 
-      "Package": "MetaPath", 
-      "Site": "cran", 
-      "Version": "0.9"
-    }, 
-    "depends": [
-      "r", 
-      "r-biobase", 
-      "r-annotationdbi", 
-      "r-genefilter", 
-      "r-gseabase", 
-      "r-limma", 
-      "r-impute", 
-      "r-qvalue"
-    ], 
-    "fn": "r-metapath-0.9-0.tar.bz2", 
-    "name": "r-metapath", 
-    "reverse_depends": [], 
-    "version": "0.9"
-  }, 
   "r-metapca": {
     "build": "0", 
     "build_number": 0, 
@@ -77937,16 +78037,16 @@
       "NeedsCompilation": "no", 
       "Package": "metRology", 
       "Site": "cran", 
-      "Version": "0.9-16"
+      "Version": "0.9-16.1"
     }, 
     "depends": [
       "r", 
       "r-numderiv"
     ], 
-    "fn": "r-metrology-0.9.16-0.tar.bz2", 
+    "fn": "r-metrology-0.9.16.1-0.tar.bz2", 
     "name": "r-metrology", 
     "reverse_depends": [], 
-    "version": "0.9.16"
+    "version": "0.9.16.1"
   }, 
   "r-metrumrg": {
     "build": "0", 
@@ -78950,7 +79050,8 @@
       "NeedsCompilation": "no", 
       "Package": "mhurdle", 
       "Site": "cran", 
-      "Version": "0.1-3"
+      "Suggests": "survival", 
+      "Version": "1.0-1"
     }, 
     "depends": [
       "r", 
@@ -78959,12 +79060,12 @@
       "r-maxlik", 
       "r-pbivnorm"
     ], 
-    "fn": "r-mhurdle-0.1.3-0.tar.bz2", 
+    "fn": "r-mhurdle-1.0.1-0.tar.bz2", 
     "name": "r-mhurdle", 
     "reverse_depends": [
       "r-view-econometrics"
     ], 
-    "version": "0.1.3"
+    "version": "1.0.1"
   }, 
   "r-mi": {
     "build": "1", 
@@ -80271,26 +80372,28 @@
     "version": "0.6.16"
   }, 
   "r-missforest": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "Depends": "randomForest", 
+      "Depends": "randomForest,foreach,itertools", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "missForest", 
       "Site": "cran", 
-      "Version": "1.3-1"
+      "Version": "1.4"
     }, 
     "depends": [
       "r", 
-      "r-randomforest"
+      "r-randomforest", 
+      "r-foreach", 
+      "r-itertools"
     ], 
-    "fn": "r-missforest-1.3.1-1.tar.bz2", 
+    "fn": "r-missforest-1.4-0.tar.bz2", 
     "name": "r-missforest", 
     "reverse_depends": [
       "r-bartmachine"
     ], 
-    "version": "1.3.1"
+    "version": "1.4"
   }, 
   "r-missingdatagui": {
     "build": "1", 
@@ -81056,8 +81159,7 @@
     "name": "r-mlbench", 
     "reverse_depends": [
       "r-stream", 
-      "r-adabag", 
-      "r-validator"
+      "r-adabag"
     ], 
     "version": "2.1.1"
   }, 
@@ -81359,23 +81461,24 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10), Formula, statmod, lmtest, maxLik, zoo, MASS", 
+      "Depends": "R (>= 2.10), Formula, maxLik", 
+      "Imports": "statmod, zoo, MASS, lmtest", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "mlogit", 
       "Site": "cran", 
       "Suggests": "car, nnet, lattice, AER", 
-      "Version": "0.2-3"
+      "Version": "0.2-4"
     }, 
     "depends": [
       "r", 
       "r-formula", 
-      "r-statmod", 
-      "r-lmtest", 
       "r-maxlik", 
-      "r-zoo"
+      "r-statmod", 
+      "r-zoo", 
+      "r-lmtest"
     ], 
-    "fn": "r-mlogit-0.2.3-0.tar.bz2", 
+    "fn": "r-mlogit-0.2.4-0.tar.bz2", 
     "name": "r-mlogit", 
     "reverse_depends": [
       "r-view-econometrics", 
@@ -81383,7 +81486,7 @@
       "r-demerelate", 
       "r-nopp"
     ], 
-    "version": "0.2.3"
+    "version": "0.2.4"
   }, 
   "r-mlogitbma": {
     "build": "0", 
@@ -81773,16 +81876,16 @@
       "NeedsCompilation": "no", 
       "Package": "mmm", 
       "Site": "cran", 
-      "Version": "1.3"
+      "Version": "1.4"
     }, 
     "depends": [
       "r", 
       "r-gee"
     ], 
-    "fn": "r-mmm-1.3-0.tar.bz2", 
+    "fn": "r-mmm-1.4-0.tar.bz2", 
     "name": "r-mmm", 
     "reverse_depends": [], 
-    "version": "1.3"
+    "version": "1.4"
   }, 
   "r-mmm2": {
     "build": "0", 
@@ -81793,16 +81896,16 @@
       "NeedsCompilation": "no", 
       "Package": "mmm2", 
       "Site": "cran", 
-      "Version": "1.1"
+      "Version": "1.2"
     }, 
     "depends": [
       "r", 
       "r-gee"
     ], 
-    "fn": "r-mmm2-1.1-0.tar.bz2", 
+    "fn": "r-mmm2-1.2-0.tar.bz2", 
     "name": "r-mmm2", 
     "reverse_depends": [], 
-    "version": "1.1"
+    "version": "1.2"
   }, 
   "r-mmod": {
     "build": "0", 
@@ -82121,7 +82224,6 @@
     "fn": "r-modeest-2.1-0.tar.bz2", 
     "name": "r-modeest", 
     "reverse_depends": [
-      "r-gazetools", 
       "r-view-distributions"
     ], 
     "version": "2.1"
@@ -82855,7 +82957,6 @@
       "r-earlywarnings", 
       "r-irtprob", 
       "r-frontier", 
-      "r-sisus", 
       "r-stvar", 
       "r-lambertw", 
       "r-lihnpsd", 
@@ -83022,24 +83123,24 @@
     "version": "0.1.2"
   }, 
   "r-moonsun": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "License": "GPL-2", 
       "NeedsCompilation": "no", 
       "Package": "moonsun", 
       "Site": "cran", 
-      "Version": "0.1.2"
+      "Version": "0.1.3"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-moonsun-0.1.2-1.tar.bz2", 
+    "fn": "r-moonsun-0.1.3-0.tar.bz2", 
     "name": "r-moonsun", 
     "reverse_depends": [
       "r-view-chemphys"
     ], 
-    "version": "0.1.2"
+    "version": "0.1.3"
   }, 
   "r-mopsocd": {
     "build": "1", 
@@ -83113,16 +83214,16 @@
       "NeedsCompilation": "no", 
       "Package": "MortalitySmooth", 
       "Site": "cran", 
-      "Version": "2.3.1"
+      "Version": "2.3.2"
     }, 
     "depends": [
       "r", 
       "r-svcm"
     ], 
-    "fn": "r-mortalitysmooth-2.3.1-0.tar.bz2", 
+    "fn": "r-mortalitysmooth-2.3.2-0.tar.bz2", 
     "name": "r-mortalitysmooth", 
     "reverse_depends": [], 
-    "version": "2.3.1"
+    "version": "2.3.2"
   }, 
   "r-mosaic": {
     "build": "0", 
@@ -85582,27 +85683,30 @@
     "version": "0.1.7"
   }, 
   "r-multidimbio": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "Depends": "ggplot2 (>= 0.9.3), pcaMethods (>= 1.48.0), MASS (>= 7.3.0), misc3d (>= 0.8-4), RColorBrewer (>= 1.0-5)", 
+      "Enhances": "doMC(>= 1.3.2)", 
+      "Imports": "ggplot2 (>= 0.9.3.1), lme4 (>= 1.0-5), pcaMethods (>= 1.48.0), misc3d (>= 0.8-4), MASS (>= 7.3-29), foreach (>= 1.4.1), RColorBrewer(>= 1.0-5)", 
       "License": "GPL (>= 3.0)", 
       "NeedsCompilation": "no", 
       "Package": "multiDimBio", 
       "Site": "cran", 
-      "Version": "0.2.4"
+      "Version": "0.3.2"
     }, 
     "depends": [
       "r", 
       "r-ggplot2", 
+      "r-lme4", 
       "r-pcamethods", 
       "r-misc3d", 
+      "r-foreach", 
       "r-rcolorbrewer"
     ], 
-    "fn": "r-multidimbio-0.2.4-1.tar.bz2", 
+    "fn": "r-multidimbio-0.3.2-0.tar.bz2", 
     "name": "r-multidimbio", 
     "reverse_depends": [], 
-    "version": "0.2.4"
+    "version": "0.3.2"
   }, 
   "r-multilcirt": {
     "build": "0", 
@@ -86794,7 +86898,7 @@
       "NeedsCompilation": "no", 
       "Package": "mvSLOUCH", 
       "Site": "cran", 
-      "Version": "1.0"
+      "Version": "1.1"
     }, 
     "depends": [
       "r", 
@@ -86804,10 +86908,10 @@
       "r-mvtnorm", 
       "r-corpcor"
     ], 
-    "fn": "r-mvslouch-1.0-0.tar.bz2", 
+    "fn": "r-mvslouch-1.1-0.tar.bz2", 
     "name": "r-mvslouch", 
     "reverse_depends": [], 
-    "version": "1.0"
+    "version": "1.1"
   }, 
   "r-mvtbinaryep": {
     "build": "1", 
@@ -86943,7 +87047,6 @@
       "r-mcpan", 
       "r-bayessinglesub", 
       "r-rxcecolinf", 
-      "r-opdoe", 
       "r-maxstat", 
       "r-lmec", 
       "r-mvslouch", 
@@ -86961,14 +87064,12 @@
       "r-spatialprobit", 
       "r-bifactorial", 
       "r-reglogit", 
-      "r-glmmak", 
       "r-depend.truncation", 
       "r-ntw", 
       "r-mixsmsn", 
       "r-marss", 
       "r-snpmaxsel", 
       "r-hdrcde", 
-      "r-sisus", 
       "r-cdm", 
       "r-lsmontecarlo", 
       "r-licors", 
@@ -87154,6 +87255,25 @@
     ], 
     "version": "1.1"
   }, 
+  "r-mycobacrvr": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.15), methods", 
+      "License": "GPL-2", 
+      "NeedsCompilation": "no", 
+      "Package": "mycobacrvR", 
+      "Site": "cran", 
+      "Version": "1.0"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-mycobacrvr-1.0-0.tar.bz2", 
+    "name": "r-mycobacrvr", 
+    "reverse_depends": [], 
+    "version": "1.0"
+  }, 
   "r-myepisodes": {
     "build": "1", 
     "build_number": 1, 
@@ -87313,7 +87433,8 @@
     "fn": "r-nada-1.5.6-1.tar.bz2", 
     "name": "r-nada", 
     "reverse_depends": [
-      "r-view-survival"
+      "r-view-survival", 
+      "r-seawaveq"
     ], 
     "version": "1.5.6"
   }, 
@@ -87870,30 +87991,6 @@
     "reverse_depends": [], 
     "version": "0.4.0"
   }, 
-  "r-ndvits": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.10), gstat, rgdal, bfast, RTisean, RColorBrewer, lattice", 
-      "License": "GPL-2", 
-      "NeedsCompilation": "no", 
-      "Package": "ndvits", 
-      "Site": "cran", 
-      "Version": "1.0.1"
-    }, 
-    "depends": [
-      "r", 
-      "r-gstat", 
-      "r-rgdal", 
-      "r-bfast", 
-      "r-rtisean", 
-      "r-rcolorbrewer"
-    ], 
-    "fn": "r-ndvits-1.0.1-0.tar.bz2", 
-    "name": "r-ndvits", 
-    "reverse_depends": [], 
-    "version": "1.0.1"
-  }, 
   "r-neagui": {
     "build": "1", 
     "build_number": 1, 
@@ -88421,7 +88518,6 @@
       "r-view-socialsciences", 
       "r-enar", 
       "r-ergm", 
-      "r-snort", 
       "r-mpa", 
       "r-latentnet", 
       "r-bergm"
@@ -88497,32 +88593,6 @@
     "name": "r-networksis", 
     "reverse_depends": [], 
     "version": "2.1.2"
-  }, 
-  "r-networktomography": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.10.0), Rglpk (>= 0.3), coda (>= 0.11-3), MASS, KFAS (>= 0.9), limSolve (>= 1.4), igraph (>= 0.5), stringr, plyr", 
-      "License": "LGPL-2", 
-      "NeedsCompilation": "yes", 
-      "Package": "networkTomography", 
-      "Site": "cran", 
-      "Version": "0.2"
-    }, 
-    "depends": [
-      "r", 
-      "r-rglpk", 
-      "r-coda", 
-      "r-kfas", 
-      "r-limsolve", 
-      "r-igraph", 
-      "r-stringr", 
-      "r-plyr"
-    ], 
-    "fn": "r-networktomography-0.2-0.tar.bz2", 
-    "name": "r-networktomography", 
-    "reverse_depends": [], 
-    "version": "0.2"
   }, 
   "r-neuralnet": {
     "build": "0", 
@@ -88639,7 +88709,7 @@
       "NeedsCompilation": "no", 
       "Package": "ngramr", 
       "Site": "cran", 
-      "Version": "1.4.0"
+      "Version": "1.4.2"
     }, 
     "depends": [
       "r", 
@@ -88652,12 +88722,12 @@
       "r-ggplot2", 
       "r-scales"
     ], 
-    "fn": "r-ngramr-1.4.0-0.tar.bz2", 
+    "fn": "r-ngramr-1.4.2-0.tar.bz2", 
     "name": "r-ngramr", 
     "reverse_depends": [
       "r-view-webtechnologies"
     ], 
-    "version": "1.4.0"
+    "version": "1.4.2"
   }, 
   "r-ngspatial": {
     "build": "1", 
@@ -90248,8 +90318,8 @@
     "version": "1.0.0"
   }, 
   "r-nprmpi": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "boot, cubature", 
       "License": "GPL", 
@@ -90257,16 +90327,16 @@
       "Package": "npRmpi", 
       "Site": "cran", 
       "Suggests": "quantreg, MASS, parallel", 
-      "Version": "0.50-1"
+      "Version": "0.50-1.1"
     }, 
     "depends": [
       "r", 
       "r-cubature"
     ], 
-    "fn": "r-nprmpi-0.50.1-1.tar.bz2", 
+    "fn": "r-nprmpi-0.50.1.1-0.tar.bz2", 
     "name": "r-nprmpi", 
     "reverse_depends": [], 
-    "version": "0.50.1"
+    "version": "0.50.1.1"
   }, 
   "r-npsimex": {
     "build": "1", 
@@ -92297,30 +92367,6 @@
     "reverse_depends": [], 
     "version": "1.0.0"
   }, 
-  "r-opdoe": {
-    "build": "2", 
-    "build_number": 2, 
-    "cran": {
-      "Depends": "orthopolynom, conf.design, mvtnorm, nlme, gmp, crossdes", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "no", 
-      "Package": "OPDOE", 
-      "Site": "cran", 
-      "Version": "1.0-7"
-    }, 
-    "depends": [
-      "r", 
-      "r-orthopolynom", 
-      "r-conf.design", 
-      "r-mvtnorm", 
-      "r-gmp", 
-      "r-crossdes"
-    ], 
-    "fn": "r-opdoe-1.0.7-2.tar.bz2", 
-    "name": "r-opdoe", 
-    "reverse_depends": [], 
-    "version": "1.0.7"
-  }, 
   "r-ope": {
     "build": "0", 
     "build_number": 0, 
@@ -94245,19 +94291,20 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "oro.nifti (>= 0.3.0), R (>= 2.13.0), utils", 
-      "License": "BSD", 
+      "Depends": "R (>= 2.14.0)", 
+      "Imports": "oro.nifti (>= 0.3.9), utils", 
+      "License": "BSD_3_clause + file LICENSE", 
       "NeedsCompilation": "no", 
       "Package": "oro.dicom", 
       "Site": "cran", 
       "Suggests": "hwriter", 
-      "Version": "0.3.7"
+      "Version": "0.4.0"
     }, 
     "depends": [
       "r", 
       "r-oro.nifti"
     ], 
-    "fn": "r-oro.dicom-0.3.7-0.tar.bz2", 
+    "fn": "r-oro.dicom-0.4.0-0.tar.bz2", 
     "name": "r-oro.dicom", 
     "reverse_depends": [
       "r-dti", 
@@ -94265,27 +94312,27 @@
       "r-view-medicalimaging-core", 
       "r-view-medicalimaging"
     ], 
-    "version": "0.3.7"
+    "version": "0.4.0"
   }, 
   "r-oro.nifti": {
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.13.0), bitops, graphics, grDevices, methods, utils", 
+      "Depends": "R (>= 2.14.0)", 
       "Enhances": "fmri", 
-      "Imports": "splines", 
-      "License": "BSD", 
+      "Imports": "bitops, splines, graphics, grDevices, methods, utils", 
+      "License": "BSD_3_clause + file LICENSE", 
       "NeedsCompilation": "no", 
       "Package": "oro.nifti", 
       "Site": "cran", 
       "Suggests": "XML", 
-      "Version": "0.3.9"
+      "Version": "0.4.0"
     }, 
     "depends": [
       "r", 
       "r-bitops"
     ], 
-    "fn": "r-oro.nifti-0.3.9-0.tar.bz2", 
+    "fn": "r-oro.nifti-0.4.0-0.tar.bz2", 
     "name": "r-oro.nifti", 
     "reverse_depends": [
       "r-dti", 
@@ -94299,7 +94346,7 @@
       "r-gdimap", 
       "r-dpmixsim"
     ], 
-    "version": "0.3.9"
+    "version": "0.4.0"
   }, 
   "r-oro.pet": {
     "build": "0", 
@@ -94405,7 +94452,6 @@
     "name": "r-orthopolynom", 
     "reverse_depends": [
       "r-basar", 
-      "r-opdoe", 
       "r-ddst", 
       "r-gaussquad", 
       "r-view-numericalmathematics"
@@ -94547,7 +94593,7 @@
       "Package": "outbreaker", 
       "Site": "cran", 
       "Suggests": "EpiEstim", 
-      "Version": "1.1-0"
+      "Version": "1.1-1"
     }, 
     "depends": [
       "r", 
@@ -94555,10 +94601,10 @@
       "r-igraph", 
       "r-adegenet"
     ], 
-    "fn": "r-outbreaker-1.1.0-0.tar.bz2", 
+    "fn": "r-outbreaker-1.1.1-0.tar.bz2", 
     "name": "r-outbreaker", 
     "reverse_depends": [], 
-    "version": "1.1.0"
+    "version": "1.1.1"
   }, 
   "r-outlierd": {
     "build": "1", 
@@ -95186,19 +95232,19 @@
       "NeedsCompilation": "no", 
       "Package": "paleotree", 
       "Site": "cran", 
-      "Version": "1.8.2"
+      "Version": "1.9"
     }, 
     "depends": [
       "r", 
       "r-ape", 
       "r-phangorn"
     ], 
-    "fn": "r-paleotree-1.8.2-0.tar.bz2", 
+    "fn": "r-paleotree-1.9-0.tar.bz2", 
     "name": "r-paleotree", 
     "reverse_depends": [
       "r-view-phylogenetics"
     ], 
-    "version": "1.8.2"
+    "version": "1.9"
   }, 
   "r-paleots": {
     "build": "1", 
@@ -101179,7 +101225,7 @@
     "cran": {
       "Depends": "Rcpp (>= 0.10.4), RcppArmadillo (>= 0.3.900.0), ggplot2", 
       "License": "MIT + file LICENSE", 
-      "LinkingTo": "Rcpp, RcppArmadillo, ggplot2", 
+      "LinkingTo": "Rcpp, RcppArmadillo", 
       "NeedsCompilation": "yes", 
       "Package": "PedCNV", 
       "Site": "cran", 
@@ -101339,6 +101385,7 @@
       "r-predictionet", 
       "r-subtype", 
       "r-diflasso", 
+      "r-roc632", 
       "r-lmmlasso", 
       "r-lol", 
       "r-view-machinelearning", 
@@ -101671,6 +101718,26 @@
       "r-view-finance"
     ], 
     "version": "1.1.0"
+  }, 
+  "r-performanceestimation": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R(>= 3.0), methods, graphics, ggplot2 (>= 0.9.3)", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "performanceEstimation", 
+      "Site": "cran", 
+      "Version": "0.1"
+    }, 
+    "depends": [
+      "r", 
+      "r-ggplot2"
+    ], 
+    "fn": "r-performanceestimation-0.1-0.tar.bz2", 
+    "name": "r-performanceestimation", 
+    "reverse_depends": [], 
+    "version": "0.1"
   }, 
   "r-perm": {
     "build": "0", 
@@ -102027,24 +102094,25 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 1.8.0), maxLik, statmod, plm", 
+      "Depends": "R (>= 2.10), maxLik, plm", 
+      "Imports": "statmod", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "pglm", 
       "Site": "cran", 
       "Suggests": "lmtest, car", 
-      "Version": "0.1-0"
+      "Version": "0.1-2"
     }, 
     "depends": [
       "r", 
       "r-maxlik", 
-      "r-statmod", 
-      "r-plm"
+      "r-plm", 
+      "r-statmod"
     ], 
-    "fn": "r-pglm-0.1.0-0.tar.bz2", 
+    "fn": "r-pglm-0.1.2-0.tar.bz2", 
     "name": "r-pglm", 
     "reverse_depends": [], 
-    "version": "0.1.0"
+    "version": "0.1.2"
   }, 
   "r-pgls": {
     "build": "1", 
@@ -102204,7 +102272,6 @@
       "Depends": "R (>= 2.15.0), ape (>= 3.0-11), rgl", 
       "Imports": "quadprog, igraph (>= 0.6), Matrix, fastmatch", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "ape", 
       "NeedsCompilation": "yes", 
       "Package": "phangorn", 
       "Site": "cran", 
@@ -102544,27 +102611,6 @@
     ], 
     "version": "0.7.5"
   }, 
-  "r-phom": {
-    "build": "1", 
-    "build_number": 1, 
-    "cran": {
-      "Depends": "Rcpp (>= 0.9.7)", 
-      "License": "BSD", 
-      "LinkingTo": "Rcpp", 
-      "NeedsCompilation": "yes", 
-      "Package": "phom", 
-      "Site": "cran", 
-      "Version": "1.0.2"
-    }, 
-    "depends": [
-      "r", 
-      "r-rcpp"
-    ], 
-    "fn": "r-phom-1.0.2-1.tar.bz2", 
-    "name": "r-phom", 
-    "reverse_depends": [], 
-    "version": "1.0.2"
-  }, 
   "r-phonr": {
     "build": "0", 
     "build_number": 0, 
@@ -102593,15 +102639,15 @@
       "NeedsCompilation": "no", 
       "Package": "phonTools", 
       "Site": "cran", 
-      "Version": "0.2-1"
+      "Version": "0.2-1.1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-phontools-0.2.1-0.tar.bz2", 
+    "fn": "r-phontools-0.2.1.1-0.tar.bz2", 
     "name": "r-phontools", 
     "reverse_depends": [], 
-    "version": "0.2.1"
+    "version": "0.2.1.1"
   }, 
   "r-phtt": {
     "build": "0", 
@@ -102717,7 +102763,6 @@
     "reverse_depends": [
       "r-view-phylogenetics", 
       "r-adephylo", 
-      "r-phylotop", 
       "r-biogeobears", 
       "r-sigtree", 
       "r-phyext"
@@ -102861,27 +102906,6 @@
       "r-view-phylogenetics"
     ], 
     "version": "0.1.2"
-  }, 
-  "r-phylotop": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "grid, graphics, grDevices, stats, utils, ape, phylobase, datasets, methods (>= 2.15.2)", 
-      "License": "GPL-2", 
-      "NeedsCompilation": "no", 
-      "Package": "phyloTop", 
-      "Site": "cran", 
-      "Version": "1.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-ape", 
-      "r-phylobase"
-    ], 
-    "fn": "r-phylotop-1.0-0.tar.bz2", 
-    "name": "r-phylotop", 
-    "reverse_depends": [], 
-    "version": "1.0"
   }, 
   "r-physicalactivity": {
     "build": "0", 
@@ -103094,6 +103118,28 @@
     "name": "r-pig.db0", 
     "reverse_depends": [], 
     "version": "2.10.1"
+  }, 
+  "r-pige": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "snowfall,ARTP,xtable,survival", 
+      "License": "GPL (>= 2.0)", 
+      "NeedsCompilation": "no", 
+      "Package": "PIGE", 
+      "Site": "cran", 
+      "Version": "0.9"
+    }, 
+    "depends": [
+      "r", 
+      "r-snowfall", 
+      "r-artp", 
+      "r-xtable"
+    ], 
+    "fn": "r-pige-0.9-0.tar.bz2", 
+    "name": "r-pige", 
+    "reverse_depends": [], 
+    "version": "0.9"
   }, 
   "r-pin": {
     "build": "0", 
@@ -103948,22 +103994,23 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10), stats, bdsmatrix, nlme, Formula (>= 0.2-0), MASS, sandwich, zoo", 
+      "Depends": "R (>= 2.10), Formula (>= 0.2-0), stats", 
+      "Imports": "MASS, bdsmatrix, zoo, nlme, sandwich", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "plm", 
       "Site": "cran", 
-      "Suggests": "lattice, lmtest, car, AER", 
-      "Version": "1.3-1"
+      "Suggests": "lattice, car, AER, lmtest", 
+      "Version": "1.4-0"
     }, 
     "depends": [
       "r", 
-      "r-bdsmatrix", 
       "r-formula", 
-      "r-sandwich", 
-      "r-zoo"
+      "r-bdsmatrix", 
+      "r-zoo", 
+      "r-sandwich"
     ], 
-    "fn": "r-plm-1.3.1-0.tar.bz2", 
+    "fn": "r-plm-1.4.0-0.tar.bz2", 
     "name": "r-plm", 
     "reverse_depends": [
       "r-view-econometrics", 
@@ -103974,7 +104021,7 @@
       "r-meboot", 
       "r-pglm"
     ], 
-    "version": "1.3.1"
+    "version": "1.4.0"
   }, 
   "r-plmde": {
     "build": "0", 
@@ -104236,7 +104283,6 @@
       "r-asbio", 
       "r-htsdiff", 
       "r-biogeobears", 
-      "r-factas", 
       "r-rminer", 
       "r-astro", 
       "r-roleswitch", 
@@ -104319,15 +104365,15 @@
       "NeedsCompilation": "no", 
       "Package": "PLRModels", 
       "Site": "cran", 
-      "Version": "1.0"
+      "Version": "1.1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-plrmodels-1.0-0.tar.bz2", 
+    "fn": "r-plrmodels-1.1-0.tar.bz2", 
     "name": "r-plrmodels", 
     "reverse_depends": [], 
-    "version": "1.0"
+    "version": "1.1"
   }, 
   "r-plrs": {
     "build": "1", 
@@ -104720,6 +104766,8 @@
       "r-yhatr", 
       "r-conordata", 
       "r-sorvi", 
+      "r-solr", 
+      "r-ggally", 
       "r-mplusautomation", 
       "r-ez", 
       "r-rsitecatalyst", 
@@ -104790,7 +104838,6 @@
       "r-caret", 
       "r-hiver", 
       "r-mzid", 
-      "r-networktomography", 
       "r-gcbd", 
       "r-gosummaries", 
       "r-useful", 
@@ -104832,9 +104879,9 @@
       "r-alfq", 
       "r-lsmeans", 
       "r-mineica", 
-      "r-gazetools", 
       "r-cummerbund", 
       "r-govdat", 
+      "r-wats", 
       "r-missingdatagui", 
       "r-stack", 
       "r-deducer", 
@@ -105383,9 +105430,7 @@
     ], 
     "fn": "r-polyapost-1.1.2-1.tar.bz2", 
     "name": "r-polyapost", 
-    "reverse_depends": [
-      "r-sisus"
-    ], 
+    "reverse_depends": [], 
     "version": "1.1.2"
   }, 
   "r-polyclip": {
@@ -106258,6 +106303,26 @@
     "reverse_depends": [], 
     "version": "1.0.1"
   }, 
+  "r-power2stage": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "PowerTOST", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "Power2Stage", 
+      "Site": "cran", 
+      "Version": "0.0-6"
+    }, 
+    "depends": [
+      "r", 
+      "r-powertost"
+    ], 
+    "fn": "r-power2stage-0.0.6-0.tar.bz2", 
+    "name": "r-power2stage", 
+    "reverse_depends": [], 
+    "version": "0.0.6"
+  }, 
   "r-poweranalysis": {
     "build": "0", 
     "build_number": 0, 
@@ -106377,27 +106442,28 @@
     "version": "0.0.6"
   }, 
   "r-powertost": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "mvtnorm", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "PowerTOST", 
       "Site": "cran", 
-      "Version": "1.1-07"
+      "Version": "1.1-08"
     }, 
     "depends": [
       "r", 
       "r-mvtnorm"
     ], 
-    "fn": "r-powertost-1.1.07-1.tar.bz2", 
+    "fn": "r-powertost-1.1.08-0.tar.bz2", 
     "name": "r-powertost", 
     "reverse_depends": [
       "r-view-clinicaltrials-core", 
+      "r-power2stage", 
       "r-view-clinicaltrials"
     ], 
-    "version": "1.1.07"
+    "version": "1.1.08"
   }, 
   "r-pp": {
     "build": "0", 
@@ -106408,15 +106474,16 @@
       "NeedsCompilation": "no", 
       "Package": "PP", 
       "Site": "cran", 
-      "Version": "0.2"
+      "Suggests": "testthat", 
+      "Version": "0.2-1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-pp-0.2-0.tar.bz2", 
+    "fn": "r-pp-0.2.1-0.tar.bz2", 
     "name": "r-pp", 
     "reverse_depends": [], 
-    "version": "0.2"
+    "version": "0.2.1"
   }, 
   "r-ppcor": {
     "build": "0", 
@@ -107067,7 +107134,7 @@
       "Package": "prevR", 
       "Site": "cran", 
       "Suggests": "foreign, tcltk, geoR, maptools", 
-      "Version": "2.8"
+      "Version": "2.9"
     }, 
     "depends": [
       "r", 
@@ -107077,10 +107144,10 @@
       "r-rgdal", 
       "r-fields"
     ], 
-    "fn": "r-prevr-2.8-0.tar.bz2", 
+    "fn": "r-prevr-2.9-0.tar.bz2", 
     "name": "r-prevr", 
     "reverse_depends": [], 
-    "version": "2.8"
+    "version": "2.9"
   }, 
   "r-prim": {
     "build": "0", 
@@ -107368,29 +107435,32 @@
     "version": "1.00"
   }, 
   "r-proc": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "Depends": "plyr, R (>= 2.10), utils", 
+      "Depends": "R (>= 2.13)", 
+      "Imports": "plyr, utils, methods, Rcpp", 
       "License": "GPL (>= 3)", 
-      "NeedsCompilation": "no", 
+      "LinkingTo": "Rcpp", 
+      "NeedsCompilation": "yes", 
       "Package": "pROC", 
       "Site": "cran", 
-      "Suggests": "tcltk, MASS, logcondens", 
-      "Version": "1.5.4"
+      "Suggests": "microbenchmark, tcltk, MASS, logcondens", 
+      "Version": "1.6.0.1"
     }, 
     "depends": [
       "r", 
-      "r-plyr"
+      "r-plyr", 
+      "r-rcpp"
     ], 
-    "fn": "r-proc-1.5.4-1.tar.bz2", 
+    "fn": "r-proc-1.6.0.1-0.tar.bz2", 
     "name": "r-proc", 
     "reverse_depends": [
       "r-biomod2", 
       "r-bootfs", 
       "r-mldna"
     ], 
-    "version": "1.5.4"
+    "version": "1.6.0.1"
   }, 
   "r-process": {
     "build": "1", 
@@ -109047,16 +109117,16 @@
       "NeedsCompilation": "no", 
       "Package": "pumilioR", 
       "Site": "cran", 
-      "Version": "1.0"
+      "Version": "1.1"
     }, 
     "depends": [
       "r", 
       "r-xml"
     ], 
-    "fn": "r-pumilior-1.0-0.tar.bz2", 
+    "fn": "r-pumilior-1.1-0.tar.bz2", 
     "name": "r-pumilior", 
     "reverse_depends": [], 
-    "version": "1.0"
+    "version": "1.1"
   }, 
   "r-purbayes": {
     "build": "0", 
@@ -109692,8 +109762,8 @@
     "version": "1.2.3"
   }, 
   "r-qiimer": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Imports": "pheatmap", 
       "License": "GPL (>= 2)", 
@@ -109701,16 +109771,16 @@
       "Package": "qiimer", 
       "Site": "cran", 
       "Suggests": "testthat, biom", 
-      "Version": "0.9.1"
+      "Version": "0.9.2"
     }, 
     "depends": [
       "r", 
       "r-pheatmap"
     ], 
-    "fn": "r-qiimer-0.9.1-1.tar.bz2", 
+    "fn": "r-qiimer-0.9.2-0.tar.bz2", 
     "name": "r-qiimer", 
     "reverse_depends": [], 
-    "version": "0.9.1"
+    "version": "0.9.2"
   }, 
   "r-qlearn": {
     "build": "0", 
@@ -109924,7 +109994,7 @@
       "Package": "qrfactor", 
       "Site": "cran", 
       "Suggests": "MASS", 
-      "Version": "1.3"
+      "Version": "1.4"
     }, 
     "depends": [
       "r", 
@@ -109933,10 +110003,10 @@
       "r-pvclust", 
       "r-maptools"
     ], 
-    "fn": "r-qrfactor-1.3-0.tar.bz2", 
+    "fn": "r-qrfactor-1.4-0.tar.bz2", 
     "name": "r-qrfactor", 
     "reverse_depends": [], 
-    "version": "1.3"
+    "version": "1.4"
   }, 
   "r-qrm": {
     "build": "0", 
@@ -110027,28 +110097,6 @@
     ], 
     "fn": "r-qsardata-1.3-0.tar.bz2", 
     "name": "r-qsardata", 
-    "reverse_depends": [], 
-    "version": "1.3"
-  }, 
-  "r-qt": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.9.2), Hmisc, lattice, SASxport, grid", 
-      "License": "LGPL (>= 2.1)", 
-      "NeedsCompilation": "no", 
-      "Package": "QT", 
-      "Site": "cran", 
-      "Suggests": "R2wd", 
-      "Version": "1.3"
-    }, 
-    "depends": [
-      "r", 
-      "r-hmisc", 
-      "r-sasxport"
-    ], 
-    "fn": "r-qt-1.3-0.tar.bz2", 
-    "name": "r-qt", 
     "reverse_depends": [], 
     "version": "1.3"
   }, 
@@ -110962,7 +111010,6 @@
       "r-isva", 
       "r-sspa", 
       "r-tbest", 
-      "r-metapath", 
       "r-pi0", 
       "r-cancermutationanalysis", 
       "r-prot2d", 
@@ -111054,26 +111101,27 @@
     "build_number": 0, 
     "cran": {
       "Depends": "R (>= 2.10.0)", 
-      "Imports": "R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>= 1.27.1)", 
+      "Imports": "R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.utils (>= 1.28.4), base64enc (>= 0.1-1)", 
       "License": "LGPL (>= 2.1)", 
       "NeedsCompilation": "no", 
       "Package": "R.devices", 
       "Site": "cran", 
-      "Suggests": "digest (>= 0.6.3), base64enc (>= 0.1-1), R.rsp (>= 0.9.28)", 
-      "Version": "2.7.2"
+      "Suggests": "digest (>= 0.6.4), R.rsp (>= 0.9.28)", 
+      "Version": "2.8.2"
     }, 
     "depends": [
       "r", 
       "r-r.methodss3", 
       "r-r.oo", 
-      "r-r.utils"
+      "r-r.utils", 
+      "r-base64enc"
     ], 
-    "fn": "r-r.devices-2.7.2-0.tar.bz2", 
+    "fn": "r-r.devices-2.8.2-0.tar.bz2", 
     "name": "r-r.devices", 
     "reverse_depends": [
       "r-aroma.core"
     ], 
-    "version": "2.7.2"
+    "version": "2.8.2"
   }, 
   "r-r.filesets": {
     "build": "0", 
@@ -111897,6 +111945,28 @@
     "name": "r-r453plus1toolbox", 
     "reverse_depends": [], 
     "version": "1.12.0"
+  }, 
+  "r-r4couchdb": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.7.0), bitops, RCurl (>= 1.95), RJSONIO (>= 1.0)", 
+      "License": "MIT + file LICENSE", 
+      "NeedsCompilation": "no", 
+      "Package": "R4CouchDB", 
+      "Site": "cran", 
+      "Version": "0.4"
+    }, 
+    "depends": [
+      "r", 
+      "r-bitops", 
+      "r-rcurl", 
+      "r-rjsonio"
+    ], 
+    "fn": "r-r4couchdb-0.4-0.tar.bz2", 
+    "name": "r-r4couchdb", 
+    "reverse_depends": [], 
+    "version": "0.4"
   }, 
   "r-r4dfp": {
     "build": "1", 
@@ -112729,7 +112799,6 @@
       "r-probforecastgop", 
       "r-view-spatial-core", 
       "r-georob", 
-      "r-glmmbugs", 
       "r-lgcp", 
       "r-geneland", 
       "r-view-spatiotemporal-core", 
@@ -112779,7 +112848,6 @@
       "r-rfpermute", 
       "r-missforest", 
       "r-mlearning", 
-      "r-rtexttools", 
       "r-biomod2", 
       "r-nodeharvest", 
       "r-caliberrfimpute", 
@@ -113034,7 +113102,6 @@
       "Depends": "R (>= 2.15.0), methods, utils, RSQLite, rgdal", 
       "Imports": "sp, raster, maptools, RSQLite.extfuns, lattice, RColorBrewer, classInt", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "rgdal", 
       "NeedsCompilation": "no", 
       "Package": "rangeMapper", 
       "Site": "cran", 
@@ -113166,6 +113233,7 @@
     "fn": "r-rann-2.3.0-1.tar.bz2", 
     "name": "r-rann", 
     "reverse_depends": [
+      "r-statmatch", 
       "r-mcspatial"
     ], 
     "version": "2.3.0"
@@ -113321,22 +113389,22 @@
     "version": "0.2.1"
   }, 
   "r-raster": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "Depends": "methods, sp (>= 1.0-11), R (>= 2.15.0)", 
+      "Depends": "methods, sp (>= 1.0-13), R (>= 2.15.0)", 
       "License": "GPL (>= 3)", 
       "NeedsCompilation": "yes", 
       "Package": "raster", 
       "Site": "cran", 
-      "Suggests": "rgdal (>= 0.8-10), rgeos (>= 0.2-3), ncdf, ncdf4, igraph, snow, tcltk, rasterVis", 
-      "Version": "2.1-66"
+      "Suggests": "rgdal (>= 0.8-12), rgeos (>= 0.3-1), ncdf, ncdf4, igraph, snow, tcltk, rasterVis", 
+      "Version": "2.2-5"
     }, 
     "depends": [
       "r", 
       "r-sp"
     ], 
-    "fn": "r-raster-2.1.66-1.tar.bz2", 
+    "fn": "r-raster-2.2.5-0.tar.bz2", 
     "name": "r-raster", 
     "reverse_depends": [
       "r-clhs", 
@@ -113348,14 +113416,12 @@
       "r-move", 
       "r-view-spatial-core", 
       "r-rangemapper", 
-      "r-glmmbugs", 
       "r-openstreetmap", 
       "r-gsif", 
       "r-phyloclim", 
       "r-lgcp", 
       "r-view-spatiotemporal-core", 
       "r-hypervolume", 
-      "r-seg", 
       "r-rastervis", 
       "r-biomod2", 
       "r-geostatsp", 
@@ -113376,7 +113442,7 @@
       "r-mapmisc", 
       "r-insol"
     ], 
-    "version": "2.1.66"
+    "version": "2.2.5"
   }, 
   "r-rastervis": {
     "build": "0", 
@@ -113908,7 +113974,6 @@
       "r-grbase", 
       "r-perfmeas", 
       "r-pkgdeptools", 
-      "r-isubpathwayminer", 
       "r-clipper", 
       "r-category", 
       "r-opencyto", 
@@ -114036,12 +114101,12 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Imports": "RJSONIO, RCurl, digest, data.table", 
+      "Depends": "RJSONIO, RCurl, digest, data.table", 
       "License": "MIT + file LICENSE", 
       "NeedsCompilation": "no", 
       "Package": "Rbitcoin", 
       "Site": "cran", 
-      "Version": "0.6"
+      "Version": "0.8"
     }, 
     "depends": [
       "r", 
@@ -114050,10 +114115,10 @@
       "r-digest", 
       "r-data.table"
     ], 
-    "fn": "r-rbitcoin-0.6-0.tar.bz2", 
+    "fn": "r-rbitcoin-0.8-0.tar.bz2", 
     "name": "r-rbitcoin", 
     "reverse_depends": [], 
-    "version": "0.6"
+    "version": "0.8"
   }, 
   "r-rbmn": {
     "build": "1", 
@@ -114209,7 +114274,6 @@
     "cran": {
       "Depends": "igraph, R (>= 2.15.1)", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "igraph", 
       "NeedsCompilation": "yes", 
       "Package": "RCA", 
       "Site": "cran", 
@@ -114369,7 +114433,6 @@
     "name": "r-rcdd", 
     "reverse_depends": [
       "r-view-optimization", 
-      "r-sisus", 
       "r-hitandrun", 
       "r-betapart", 
       "r-pavo"
@@ -115546,7 +115609,6 @@
       "r-rarcinfo", 
       "r-pubmedwordcloud", 
       "r-mdsgui", 
-      "r-ndvits", 
       "r-linkcomm", 
       "r-r3cseq", 
       "r-lsd", 
@@ -115561,7 +115623,6 @@
       "r-roblox", 
       "r-gviz", 
       "r-wethepeople", 
-      "r-sisus", 
       "r-rcmdrplugin.sm", 
       "r-introgress", 
       "r-licors", 
@@ -115612,6 +115673,7 @@
       "r-arrayqualitymetrics", 
       "r-weightedcluster", 
       "r-squadd", 
+      "r-wats", 
       "r-cems", 
       "r-view-spatial", 
       "r-metagenomeseq", 
@@ -115628,8 +115690,7 @@
       "r-nmf", 
       "r-generegionscan", 
       "r-bayespref", 
-      "r-pathrender", 
-      "r-tagcloud"
+      "r-pathrender"
     ], 
     "version": "1.0.5"
   }, 
@@ -115736,6 +115797,7 @@
       "r-forecast", 
       "r-gosim", 
       "r-pcamethods", 
+      "r-tvm", 
       "r-clusteval", 
       "r-robusthd", 
       "r-inarmix", 
@@ -115754,7 +115816,6 @@
       "r-premium", 
       "r-rcppbdt", 
       "r-bayescomm", 
-      "r-fdamixed", 
       "r-apcluster", 
       "r-httpuv", 
       "r-clogitl1", 
@@ -115798,6 +115859,7 @@
       "r-quadrupen", 
       "r-climdex.pcic", 
       "r-rcppclassic", 
+      "r-xbrl", 
       "r-bcp", 
       "r-geiger", 
       "r-ecp", 
@@ -115819,7 +115881,6 @@
       "r-bcpa", 
       "r-rinside", 
       "r-mosaics", 
-      "r-phom", 
       "r-ddgraph", 
       "r-accelerometry", 
       "r-fastghquad", 
@@ -115829,6 +115890,7 @@
       "r-rgam", 
       "r-videocomparison", 
       "r-rcpparmadillo", 
+      "r-grbase", 
       "r-rquantlib", 
       "r-grenits", 
       "r-geocount", 
@@ -115869,7 +115931,7 @@
       "r-rclusterpp", 
       "r-sparseltseigen", 
       "r-rvowpalwabbit", 
-      "r-tagcloud", 
+      "r-proc", 
       "r-netsim"
     ], 
     "version": "0.10.6"
@@ -115903,7 +115965,6 @@
       "r-unmarked", 
       "r-spatialtools", 
       "r-bayescomm", 
-      "r-fdamixed", 
       "r-oem", 
       "r-robustgam", 
       "r-coneproj", 
@@ -115915,7 +115976,6 @@
       "r-deseq2", 
       "r-quadrupen", 
       "r-mvb", 
-      "r-adaptivesparsity", 
       "r-gse", 
       "r-prospectr", 
       "r-sbsa", 
@@ -116453,7 +116513,6 @@
       "r-rmendeley", 
       "r-brainstars", 
       "r-rforcecom", 
-      "r-rtdameritrade", 
       "r-tm.plugin.webmining", 
       "r-rhpcc", 
       "r-crn", 
@@ -116461,7 +116520,6 @@
       "r-rbefdata", 
       "r-customprodb", 
       "r-datamart", 
-      "r-imgur", 
       "r-basespacer", 
       "r-alm", 
       "r-rdstk", 
@@ -116504,6 +116562,7 @@
       "r-thinknum", 
       "r-ohmage", 
       "r-zendeskr", 
+      "r-imgur", 
       "r-rdatamarket", 
       "r-rubigraph", 
       "r-streamr", 
@@ -116511,6 +116570,7 @@
       "r-uniprot.ws", 
       "r-rhtmlforms", 
       "r-sradb", 
+      "r-r4couchdb", 
       "r-videocomparison", 
       "r-affycompatible", 
       "r-rflickr", 
@@ -118918,7 +118978,6 @@
       "r-hh", 
       "r-roleswitch", 
       "r-tripler", 
-      "r-gazetools", 
       "r-deltagseg", 
       "r-missingdatagui", 
       "r-qrqc", 
@@ -119712,15 +119771,15 @@
       "NeedsCompilation": "no", 
       "Package": "rgabriel", 
       "Site": "cran", 
-      "Version": "0.4"
+      "Version": "0.7"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-rgabriel-0.4-0.tar.bz2", 
+    "fn": "r-rgabriel-0.7-0.tar.bz2", 
     "name": "r-rgabriel", 
     "reverse_depends": [], 
-    "version": "0.4"
+    "version": "0.7"
   }, 
   "r-rgadem": {
     "build": "1", 
@@ -119785,7 +119844,7 @@
     "cran": {
       "Depends": "Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.1), stats", 
       "License": "GPL (>= 3)", 
-      "LinkingTo": "Rcpp, RcppArmadillo, stats", 
+      "LinkingTo": "Rcpp, RcppArmadillo", 
       "NeedsCompilation": "yes", 
       "Package": "rgam", 
       "Site": "cran", 
@@ -120031,7 +120090,6 @@
       "r-gsif", 
       "r-m3", 
       "r-pgirmess", 
-      "r-ndvits", 
       "r-mgraph", 
       "r-uscancer", 
       "r-plotgooglemaps", 
@@ -120120,9 +120178,9 @@
       "r-view-spatial-core", 
       "r-rsurvey", 
       "r-lgcp", 
+      "r-expp", 
       "r-spsurvey", 
       "r-dspat", 
-      "r-gazetools", 
       "r-view-spatial", 
       "r-grid2polygons", 
       "r-gistools", 
@@ -120227,6 +120285,7 @@
       "r-msir", 
       "r-shapes", 
       "r-symbolicda", 
+      "r-biplotbootgui", 
       "r-shinyrgl", 
       "r-grt", 
       "r-geoxp", 
@@ -120345,7 +120404,6 @@
       "r-abcdefba", 
       "r-parma", 
       "r-npbr", 
-      "r-networktomography", 
       "r-cosso", 
       "r-dagger", 
       "r-view-optimization-core", 
@@ -121470,26 +121528,6 @@
     "reverse_depends": [], 
     "version": "1.1"
   }, 
-  "r-ridmc": {
-    "build": "1", 
-    "build_number": 1, 
-    "cran": {
-      "Depends": "grid", 
-      "License": "GPL-2", 
-      "NeedsCompilation": "yes", 
-      "Package": "RiDMC", 
-      "Site": "cran", 
-      "Suggests": "tcltk", 
-      "Version": "0.10-15"
-    }, 
-    "depends": [
-      "r"
-    ], 
-    "fn": "r-ridmc-0.10.15-1.tar.bz2", 
-    "name": "r-ridmc", 
-    "reverse_depends": [], 
-    "version": "0.10.15"
-  }, 
   "r-rifs": {
     "build": "0", 
     "build_number": 0, 
@@ -122339,6 +122377,7 @@
       "r-causata", 
       "r-goojson", 
       "r-sorvi", 
+      "r-solr", 
       "r-rsocrata", 
       "r-rsitecatalyst", 
       "r-sinartra", 
@@ -122424,6 +122463,7 @@
       "r-ohmage", 
       "r-rdatamarket", 
       "r-gridsvg", 
+      "r-r4couchdb", 
       "r-videocomparison", 
       "r-ropensnp", 
       "r-view-webtechnologies-core", 
@@ -123149,6 +123189,7 @@
       "r-view-clinicaltrials", 
       "r-metacor", 
       "r-view-metaanalysis", 
+      "r-extfunnel", 
       "r-view-socialsciences"
     ], 
     "version": "2.16"
@@ -123329,9 +123370,7 @@
     ], 
     "fn": "r-rmisc-1.5-0.tar.bz2", 
     "name": "r-rmisc", 
-    "reverse_depends": [
-      "r-gazetools"
-    ], 
+    "reverse_depends": [], 
     "version": "1.5"
   }, 
   "r-rmixmod": {
@@ -124703,7 +124742,7 @@
     "cran": {
       "Depends": "Rcpp (>= 0.9.13), RcppArmadillo (>= 0.3.4.4) , mgcv (>= 1.7-20), robustbase (>= 0.9-3)", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "Rcpp, RcppArmadillo, mgcv, robustbase", 
+      "LinkingTo": "Rcpp, RcppArmadillo", 
       "NeedsCompilation": "yes", 
       "Package": "robustgam", 
       "Site": "cran", 
@@ -124884,6 +124923,27 @@
       "r-watermelon"
     ], 
     "version": "1.38.0"
+  }, 
+  "r-roc632": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.10), splines, survival, penalized, survivalROC", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "ROC632", 
+      "Site": "cran", 
+      "Version": "0.6"
+    }, 
+    "depends": [
+      "r", 
+      "r-penalized", 
+      "r-survivalroc"
+    ], 
+    "fn": "r-roc632-0.6-0.tar.bz2", 
+    "name": "r-roc632", 
+    "reverse_depends": [], 
+    "version": "0.6"
   }, 
   "r-rocc": {
     "build": "0", 
@@ -125862,18 +125922,18 @@
       "Package": "rpf", 
       "Site": "cran", 
       "Suggests": "plink, testthat, roxygen2, ggplot2, reshape2, gridExtra, numDeriv, knitr, mirt", 
-      "Version": "0.17"
+      "Version": "0.18"
     }, 
     "depends": [
       "r", 
       "r-mvtnorm"
     ], 
-    "fn": "r-rpf-0.17-0.tar.bz2", 
+    "fn": "r-rpf-0.18-0.tar.bz2", 
     "name": "r-rpf", 
     "reverse_depends": [
       "r-view-psychometrics"
     ], 
-    "version": "0.17"
+    "version": "0.18"
   }, 
   "r-rphast": {
     "build": "0", 
@@ -125976,19 +126036,19 @@
     "version": "1.0.3"
   }, 
   "r-rpmg": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
-      "License": "GPL", 
+      "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "RPMG", 
       "Site": "cran", 
-      "Version": "2.1-4"
+      "Version": "2.1-5"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-rpmg-2.1.4-1.tar.bz2", 
+    "fn": "r-rpmg-2.1.5-0.tar.bz2", 
     "name": "r-rpmg", 
     "reverse_depends": [
       "r-geomap", 
@@ -125998,7 +126058,7 @@
       "r-professr", 
       "r-rfoc"
     ], 
-    "version": "2.1.4"
+    "version": "2.1.5"
   }, 
   "r-rpmm": {
     "build": "0", 
@@ -126549,17 +126609,17 @@
       "NeedsCompilation": "no", 
       "Package": "rrdf", 
       "Site": "cran", 
-      "Version": "2.0.0"
+      "Version": "2.0.2"
     }, 
     "depends": [
       "r", 
       "r-rjava", 
       "r-rrdflibs"
     ], 
-    "fn": "r-rrdf-2.0.0-0.tar.bz2", 
+    "fn": "r-rrdf-2.0.2-0.tar.bz2", 
     "name": "r-rrdf", 
     "reverse_depends": [], 
-    "version": "2.0.0"
+    "version": "2.0.2"
   }, 
   "r-rrdflibs": {
     "build": "0", 
@@ -128100,31 +128160,6 @@
     "reverse_depends": [], 
     "version": "0.1.4"
   }, 
-  "r-rtdameritrade": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.9.1), xts, zoo, XML, RCurl, sfsmisc", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "no", 
-      "Package": "RTDAmeritrade", 
-      "Site": "cran", 
-      "Suggests": "snow", 
-      "Version": "0.0.1"
-    }, 
-    "depends": [
-      "r", 
-      "r-xts", 
-      "r-zoo", 
-      "r-xml", 
-      "r-rcurl", 
-      "r-sfsmisc"
-    ], 
-    "fn": "r-rtdameritrade-0.0.1-0.tar.bz2", 
-    "name": "r-rtdameritrade", 
-    "reverse_depends": [], 
-    "version": "0.0.1"
-  }, 
   "r-rtematres": {
     "build": "0", 
     "build_number": 0, 
@@ -128150,35 +128185,6 @@
       "r-rbefdata"
     ], 
     "version": "0.2"
-  }, 
-  "r-rtexttools": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.15.0), methods, SparseM, randomForest, tree, nnet, tm, e1071, ipred, caTools, maxent, glmnet, tau", 
-      "License": "GPL-3", 
-      "NeedsCompilation": "yes", 
-      "Package": "RTextTools", 
-      "Site": "cran", 
-      "Version": "1.4.1"
-    }, 
-    "depends": [
-      "r", 
-      "r-sparsem", 
-      "r-randomforest", 
-      "r-tree", 
-      "r-tm", 
-      "r-e1071", 
-      "r-ipred", 
-      "r-catools", 
-      "r-maxent", 
-      "r-glmnet", 
-      "r-tau"
-    ], 
-    "fn": "r-rtexttools-1.4.1-0.tar.bz2", 
-    "name": "r-rtexttools", 
-    "reverse_depends": [], 
-    "version": "1.4.1"
   }, 
   "r-rtf": {
     "build": "1", 
@@ -128287,7 +128293,6 @@
     "fn": "r-rtisean-3.0.14-0.tar.bz2", 
     "name": "r-rtisean", 
     "reverse_depends": [
-      "r-ndvits", 
       "r-view-timeseries"
     ], 
     "version": "3.0.14"
@@ -130039,18 +130044,18 @@
       "NeedsCompilation": "yes", 
       "Package": "samplingVarEst", 
       "Site": "cran", 
-      "Version": "0.9-7"
+      "Version": "0.9-8"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-samplingvarest-0.9.7-0.tar.bz2", 
+    "fn": "r-samplingvarest-0.9.8-0.tar.bz2", 
     "name": "r-samplingvarest", 
     "reverse_depends": [
       "r-samplingestimates", 
       "r-view-officialstatistics"
     ], 
-    "version": "0.9.7"
+    "version": "0.9.8"
   }, 
   "r-sampsurf": {
     "build": "0", 
@@ -130252,25 +130257,26 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.5.1), ifultools (>= 1.1-0), splus2R (>= 1.1-0)", 
+      "Depends": "R (>= 3.0.2), ifultools (>= 2.0-0), splus2R (>= 1.2-0)", 
       "License": "GPL-2", 
       "NeedsCompilation": "yes", 
       "Package": "sapa", 
       "Site": "cran", 
-      "Version": "1.1-0"
+      "Version": "2.0-0"
     }, 
     "depends": [
       "r", 
       "r-ifultools", 
       "r-splus2r"
     ], 
-    "fn": "r-sapa-1.1.0-0.tar.bz2", 
+    "fn": "r-sapa-2.0.0-0.tar.bz2", 
     "name": "r-sapa", 
     "reverse_depends": [
+      "r-fractal", 
       "r-foreca", 
       "r-view-chemphys"
     ], 
-    "version": "1.1.0"
+    "version": "2.0.0"
   }, 
   "r-sapp": {
     "build": "0", 
@@ -130388,9 +130394,7 @@
     ], 
     "fn": "r-sasxport-1.3.6-0.tar.bz2", 
     "name": "r-sasxport", 
-    "reverse_depends": [
-      "r-qt"
-    ], 
+    "reverse_depends": [], 
     "version": "1.3.6"
   }, 
   "r-saureuscdf": {
@@ -130464,15 +130468,15 @@
       "NeedsCompilation": "no", 
       "Package": "saves", 
       "Site": "cran", 
-      "Version": "0.4"
+      "Version": "0.5"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-saves-0.4-0.tar.bz2", 
+    "fn": "r-saves-0.5-0.tar.bz2", 
     "name": "r-saves", 
     "reverse_depends": [], 
-    "version": "0.4"
+    "version": "0.5"
   }, 
   "r-saws": {
     "build": "0", 
@@ -130711,6 +130715,7 @@
       "r-mineica", 
       "r-fincal", 
       "r-deltagseg", 
+      "r-wats", 
       "r-growcurves", 
       "r-deducer", 
       "r-primertree", 
@@ -130909,6 +130914,7 @@
       "r-made4", 
       "r-frf2", 
       "r-view-multivariate", 
+      "r-fractal", 
       "r-gpcsiv", 
       "r-phytools", 
       "r-diffeq", 
@@ -131847,15 +131853,15 @@
     "version": "2.01.2"
   }, 
   "r-sdprisk": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Imports": "numDeriv, PolynomF, rootSolve", 
       "License": "AGPL-3", 
       "NeedsCompilation": "yes", 
       "Package": "sdprisk", 
       "Site": "cran", 
-      "Version": "1.0-0"
+      "Version": "1.0-3"
     }, 
     "depends": [
       "r", 
@@ -131863,10 +131869,10 @@
       "r-polynomf", 
       "r-rootsolve"
     ], 
-    "fn": "r-sdprisk-1.0.0-1.tar.bz2", 
+    "fn": "r-sdprisk-1.0.3-0.tar.bz2", 
     "name": "r-sdprisk", 
     "reverse_depends": [], 
-    "version": "1.0.0"
+    "version": "1.0.3"
   }, 
   "r-sdtoolkit": {
     "build": "0", 
@@ -132030,6 +132036,28 @@
     "name": "r-seasonal", 
     "reverse_depends": [], 
     "version": "0.20.2"
+  }, 
+  "r-seawaveq": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 2.15.3), survival, NADA, lubridate", 
+      "License": "Unlimited", 
+      "NeedsCompilation": "no", 
+      "Package": "seawaveQ", 
+      "Site": "cran", 
+      "Suggests": "waterData", 
+      "Version": "1.0.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-nada", 
+      "r-lubridate"
+    ], 
+    "fn": "r-seawaveq-1.0.0-0.tar.bz2", 
+    "name": "r-seawaveq", 
+    "reverse_depends": [], 
+    "version": "1.0.0"
   }, 
   "r-sechart": {
     "build": "0", 
@@ -132207,24 +132235,24 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10.0), methods, stats, sp, raster, spatstat (>= 1.27.0)", 
+      "Depends": "R (>= 3.0.0), methods, stats, sp", 
+      "Imports": "splancs", 
       "License": "GPL (>= 3)", 
       "NeedsCompilation": "yes", 
       "Package": "seg", 
       "Site": "cran", 
       "Suggests": "spdep", 
-      "Version": "0.3-3"
+      "Version": "0.4-1"
     }, 
     "depends": [
       "r", 
       "r-sp", 
-      "r-raster", 
-      "r-spatstat"
+      "r-splancs"
     ], 
-    "fn": "r-seg-0.3.3-0.tar.bz2", 
+    "fn": "r-seg-0.4.1-0.tar.bz2", 
     "name": "r-seg", 
     "reverse_depends": [], 
-    "version": "0.3.3"
+    "version": "0.4.1"
   }, 
   "r-segmented": {
     "build": "1", 
@@ -132984,26 +133012,6 @@
     ], 
     "version": "1.0"
   }, 
-  "r-seq2r": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.15.1), seqinr", 
-      "License": "GPL", 
-      "NeedsCompilation": "yes", 
-      "Package": "seq2R", 
-      "Site": "cran", 
-      "Version": "1.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-seqinr"
-    ], 
-    "fn": "r-seq2r-1.0-0.tar.bz2", 
-    "name": "r-seq2r", 
-    "reverse_depends": [], 
-    "version": "1.0"
-  }, 
   "r-seqarray": {
     "build": "1", 
     "build_number": 1, 
@@ -133156,7 +133164,6 @@
       "r-rplant", 
       "r-view-genetics", 
       "r-cormut", 
-      "r-seq2r", 
       "r-meet", 
       "r-cobindr", 
       "r-evobir", 
@@ -133680,7 +133687,6 @@
       "r-distr", 
       "r-mlinterfaces", 
       "r-catirt", 
-      "r-rtdameritrade", 
       "r-demerelate", 
       "r-ascrda", 
       "r-tam", 
@@ -134014,24 +134020,25 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 3.0.0), xtable", 
+      "Depends": "R (>= 3.0.0), matrixcalc, xtable", 
       "License": "LGPL-3", 
       "NeedsCompilation": "no", 
       "Package": "SharpeR", 
       "Site": "cran", 
       "Suggests": "quantmod, MASS, TTR, testthat, sandwich, knitr", 
-      "Version": "0.1310"
+      "Version": "0.1401"
     }, 
     "depends": [
       "r", 
+      "r-matrixcalc", 
       "r-xtable"
     ], 
-    "fn": "r-sharper-0.1310-0.tar.bz2", 
+    "fn": "r-sharper-0.1401-0.tar.bz2", 
     "name": "r-sharper", 
     "reverse_depends": [
       "r-view-finance"
     ], 
-    "version": "0.1310"
+    "version": "0.1401"
   }, 
   "r-sharx": {
     "build": "1", 
@@ -134298,6 +134305,26 @@
     "name": "r-shotgroups", 
     "reverse_depends": [], 
     "version": "0.2.2"
+  }, 
+  "r-showtext": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "sysfonts (>= 0.1)", 
+      "License": "Apache License (>= 2.0)", 
+      "NeedsCompilation": "yes", 
+      "Package": "showtext", 
+      "Site": "cran", 
+      "Version": "0.2"
+    }, 
+    "depends": [
+      "r", 
+      "r-sysfonts"
+    ], 
+    "fn": "r-showtext-0.2-0.tar.bz2", 
+    "name": "r-showtext", 
+    "reverse_depends": [], 
+    "version": "0.2"
   }, 
   "r-shrink": {
     "build": "0", 
@@ -134585,7 +134612,6 @@
       "r-rivivc", 
       "r-perarma", 
       "r-psd", 
-      "r-gazetools", 
       "r-chippcr", 
       "r-view-numericalmathematics", 
       "r-tdd", 
@@ -134665,7 +134691,7 @@
       "NeedsCompilation": "yes", 
       "Package": "SigTree", 
       "Site": "cran", 
-      "Version": "1.3"
+      "Version": "1.4"
     }, 
     "depends": [
       "r", 
@@ -134675,10 +134701,10 @@
       "r-rcolorbrewer", 
       "r-phyloseq"
     ], 
-    "fn": "r-sigtree-1.3-0.tar.bz2", 
+    "fn": "r-sigtree-1.4-0.tar.bz2", 
     "name": "r-sigtree", 
     "reverse_depends": [], 
-    "version": "1.3"
+    "version": "1.4"
   }, 
   "r-sigwinr": {
     "build": "1", 
@@ -135332,17 +135358,17 @@
       "NeedsCompilation": "no", 
       "Package": "SIN", 
       "Site": "cran", 
-      "Version": "0.5"
+      "Version": "0.6"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-sin-0.5-0.tar.bz2", 
+    "fn": "r-sin-0.6-0.tar.bz2", 
     "name": "r-sin", 
     "reverse_depends": [
       "r-view-gr"
     ], 
-    "version": "0.5"
+    "version": "0.6"
   }, 
   "r-sinartra": {
     "build": "1", 
@@ -135467,42 +135493,6 @@
     "name": "r-sis", 
     "reverse_depends": [], 
     "version": "0.6"
-  }, 
-  "r-sisus": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.7.0), annotate, ash, Biobase, coda, ellipse, gclus, gdata, geneplotter, gplots, gtools, hdrcde, moments, mvtnorm, polyapost, rcdd, RColorBrewer, stats, sm", 
-      "License": "GPL-3", 
-      "NeedsCompilation": "no", 
-      "Package": "sisus", 
-      "Site": "cran", 
-      "Version": "0.09-011"
-    }, 
-    "depends": [
-      "r", 
-      "r-annotate", 
-      "r-ash", 
-      "r-biobase", 
-      "r-coda", 
-      "r-ellipse", 
-      "r-gclus", 
-      "r-gdata", 
-      "r-geneplotter", 
-      "r-gplots", 
-      "r-gtools", 
-      "r-hdrcde", 
-      "r-moments", 
-      "r-mvtnorm", 
-      "r-polyapost", 
-      "r-rcdd", 
-      "r-rcolorbrewer", 
-      "r-sm"
-    ], 
-    "fn": "r-sisus-0.09.011-0.tar.bz2", 
-    "name": "r-sisus", 
-    "reverse_depends": [], 
-    "version": "0.09.011"
   }, 
   "r-sitools": {
     "build": "0", 
@@ -136042,7 +136032,6 @@
     "name": "r-sm", 
     "reverse_depends": [
       "r-plmm", 
-      "r-sisus", 
       "r-sdd", 
       "r-hcsnip", 
       "r-fpca", 
@@ -136632,8 +136621,7 @@
     "name": "r-smoothsurv", 
     "reverse_depends": [
       "r-view-survival", 
-      "r-bayessurv", 
-      "r-glmmak"
+      "r-bayessurv"
     ], 
     "version": "1.3.2"
   }, 
@@ -136822,13 +136810,11 @@
       "r-bipartite", 
       "r-statnet", 
       "r-ndtv", 
-      "r-funnet", 
       "r-view-socialsciences", 
       "r-enar", 
       "r-rambo", 
       "r-vblpcm", 
       "r-egonet", 
-      "r-snort", 
       "r-latentnet"
     ], 
     "version": "2.3.1"
@@ -136902,27 +136888,6 @@
     "name": "r-snm", 
     "reverse_depends": [], 
     "version": "1.10.2"
-  }, 
-  "r-snort": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "network, sna", 
-      "License": "MIT", 
-      "NeedsCompilation": "no", 
-      "Package": "snort", 
-      "Site": "cran", 
-      "Version": "1.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-network", 
-      "r-sna"
-    ], 
-    "fn": "r-snort-1.0-0.tar.bz2", 
-    "name": "r-snort", 
-    "reverse_depends": [], 
-    "version": "1.0"
   }, 
   "r-snow": {
     "build": "0", 
@@ -137045,7 +137010,8 @@
       "r-mldna", 
       "r-sigar", 
       "r-rsgcc", 
-      "r-kcirt"
+      "r-kcirt", 
+      "r-pige"
     ], 
     "version": "1.84.6"
   }, 
@@ -137782,6 +137748,33 @@
     "reverse_depends": [], 
     "version": "1.0.1"
   }, 
+  "r-solr": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 3.0.2)", 
+      "Imports": "plyr, httr, XML, data.table, assertthat, rjson", 
+      "License": "MIT + file LICENSE", 
+      "NeedsCompilation": "no", 
+      "Package": "solr", 
+      "Site": "cran", 
+      "Suggests": "testthat, roxygen2, knitr", 
+      "Version": "0.1.0"
+    }, 
+    "depends": [
+      "r", 
+      "r-plyr", 
+      "r-httr", 
+      "r-xml", 
+      "r-data.table", 
+      "r-assertthat", 
+      "r-rjson"
+    ], 
+    "fn": "r-solr-0.1.0-0.tar.bz2", 
+    "name": "r-solr", 
+    "reverse_depends": [], 
+    "version": "0.1.0"
+  }, 
   "r-som": {
     "build": "0", 
     "build_number": 0, 
@@ -138247,6 +138240,7 @@
       "r-automap", 
       "r-ggtern", 
       "r-seg", 
+      "r-expp", 
       "r-rastervis", 
       "r-biomod2", 
       "r-geostatsp", 
@@ -138270,7 +138264,6 @@
       "r-adehabitathr", 
       "r-ssn", 
       "r-rworldxtra", 
-      "r-gazetools", 
       "r-sos4r", 
       "r-uscensus2010", 
       "r-view-spatial", 
@@ -138597,6 +138590,7 @@
       "r-view-multivariate", 
       "r-latticedensity", 
       "r-chillr", 
+      "r-gpfda", 
       "r-fields", 
       "r-gamlss.util"
     ], 
@@ -138917,7 +138911,6 @@
       "r-exporkit", 
       "r-mcspatial", 
       "r-view-multivariate", 
-      "r-rtexttools", 
       "r-maxent", 
       "r-gofunction", 
       "r-pawacc", 
@@ -139050,19 +139043,19 @@
       "NeedsCompilation": "yes", 
       "Package": "spate", 
       "Site": "cran", 
-      "Version": "1.2"
+      "Version": "1.3"
     }, 
     "depends": [
       "r", 
       "r-mvtnorm", 
       "r-truncnorm"
     ], 
-    "fn": "r-spate-1.2-0.tar.bz2", 
+    "fn": "r-spate-1.3-0.tar.bz2", 
     "name": "r-spate", 
     "reverse_depends": [
       "r-view-spatiotemporal"
     ], 
-    "version": "1.2"
+    "version": "1.3"
   }, 
   "r-spatgraphs": {
     "build": "0", 
@@ -139438,7 +139431,6 @@
       "r-dbmss", 
       "r-sparr", 
       "r-rcmdrplugin.seeg", 
-      "r-seg", 
       "r-aoristic", 
       "r-latticedensity", 
       "r-view-spatiotemporal", 
@@ -139447,7 +139439,6 @@
       "r-highriskzone", 
       "r-adaptsmofmri", 
       "r-spatialsegregation", 
-      "r-gazetools", 
       "r-sgcs", 
       "r-view-spatial", 
       "r-surveillance", 
@@ -139625,10 +139616,10 @@
       "r-sorvi", 
       "r-view-spatial-core", 
       "r-inlabma", 
-      "r-glmmbugs", 
       "r-digiroo2", 
       "r-pgirmess", 
       "r-splm", 
+      "r-expp", 
       "r-spatialprobit", 
       "r-latticedensity", 
       "r-view-spatial", 
@@ -140142,25 +140133,25 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10), ape, pegas", 
+      "Depends": "ape, pegas", 
       "License": "GPL", 
       "NeedsCompilation": "no", 
       "Package": "spider", 
       "Site": "cran", 
-      "Version": "1.2-0"
+      "Version": "1.3-0"
     }, 
     "depends": [
       "r", 
       "r-ape", 
       "r-pegas"
     ], 
-    "fn": "r-spider-1.2.0-0.tar.bz2", 
+    "fn": "r-spider-1.3.0-0.tar.bz2", 
     "name": "r-spider", 
     "reverse_depends": [
       "r-view-phylogenetics", 
       "r-adhoc"
     ], 
-    "version": "1.2.0"
+    "version": "1.3.0"
   }, 
   "r-spidermonkey": {
     "build": "1", 
@@ -140334,6 +140325,7 @@
       "r-pvr", 
       "r-pgirmess", 
       "r-aspace", 
+      "r-seg", 
       "r-soilprofile", 
       "r-stppresid", 
       "r-latticedensity", 
@@ -140580,6 +140572,7 @@
     "reverse_depends": [
       "r-ifultools", 
       "r-sapa", 
+      "r-fractal", 
       "r-wmtsa"
     ], 
     "version": "1.2.0"
@@ -141602,16 +141595,16 @@
       "NeedsCompilation": "no", 
       "Package": "stab", 
       "Site": "cran", 
-      "Version": "0.1.7"
+      "Version": "0.1.8"
     }, 
     "depends": [
       "r", 
       "r-reshape"
     ], 
-    "fn": "r-stab-0.1.7-0.tar.bz2", 
+    "fn": "r-stab-0.1.8-0.tar.bz2", 
     "name": "r-stab", 
     "reverse_depends": [], 
-    "version": "0.1.7"
+    "version": "0.1.8"
   }, 
   "r-stabledist": {
     "build": "0", 
@@ -142017,27 +142010,28 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.7.0), proxy, clue, survey", 
-      "License": "EUPL", 
+      "Depends": "R (>= 2.7.0), proxy, clue, survey, RANN", 
+      "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "StatMatch", 
       "Site": "cran", 
       "Suggests": "lpSolve, SDaA, simPopulation, MASS, Hmisc", 
-      "Version": "1.2.0"
+      "Version": "1.2.1"
     }, 
     "depends": [
       "r", 
       "r-proxy", 
       "r-clue", 
-      "r-survey"
+      "r-survey", 
+      "r-rann"
     ], 
-    "fn": "r-statmatch-1.2.0-0.tar.bz2", 
+    "fn": "r-statmatch-1.2.1-0.tar.bz2", 
     "name": "r-statmatch", 
     "reverse_depends": [
       "r-sparktable", 
       "r-view-officialstatistics"
     ], 
-    "version": "1.2.0"
+    "version": "1.2.1"
   }, 
   "r-statmod": {
     "build": "0", 
@@ -142915,6 +142909,7 @@
       "r-customprodb", 
       "r-tspmeta", 
       "r-simph", 
+      "r-pkgmaker", 
       "r-alm", 
       "r-dplr", 
       "r-ggsubplot", 
@@ -142929,11 +142924,9 @@
       "r-exsic", 
       "r-isoweek", 
       "r-surveydata", 
-      "r-networktomography", 
       "r-eqs2lavaan", 
       "r-ryouready", 
       "r-plotkml", 
-      "r-pkgmaker", 
       "r-scholar", 
       "r-acs", 
       "r-pxr", 
@@ -143107,15 +143100,15 @@
     "version": "1.0"
   }, 
   "r-stylo": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Imports": "tcltk, tcltk2, ape, pamr, e1071, class, lattice", 
       "License": "GPL (>= 3)", 
       "NeedsCompilation": "no", 
       "Package": "stylo", 
       "Site": "cran", 
-      "Version": "0.5.2"
+      "Version": "0.5.3"
     }, 
     "depends": [
       "r", 
@@ -143124,10 +143117,10 @@
       "r-pamr", 
       "r-e1071"
     ], 
-    "fn": "r-stylo-0.5.2-1.tar.bz2", 
+    "fn": "r-stylo-0.5.3-0.tar.bz2", 
     "name": "r-stylo", 
     "reverse_depends": [], 
-    "version": "0.5.2"
+    "version": "0.5.3"
   }, 
   "r-subcultcon": {
     "build": "0", 
@@ -143945,7 +143938,8 @@
     "reverse_depends": [
       "r-survjamda", 
       "r-view-survival", 
-      "r-survcomp"
+      "r-survcomp", 
+      "r-roc632"
     ], 
     "version": "1.0.3"
   }, 
@@ -145152,6 +145146,26 @@
     "reverse_depends": [], 
     "version": "1.1.4"
   }, 
+  "r-sysfonts": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "License": "GPL-2", 
+      "NeedsCompilation": "yes", 
+      "Package": "sysfonts", 
+      "Site": "cran", 
+      "Version": "0.1"
+    }, 
+    "depends": [
+      "r"
+    ], 
+    "fn": "r-sysfonts-0.1-0.tar.bz2", 
+    "name": "r-sysfonts", 
+    "reverse_depends": [
+      "r-showtext"
+    ], 
+    "version": "0.1"
+  }, 
   "r-systemfit": {
     "build": "0", 
     "build_number": 0, 
@@ -145339,29 +145353,6 @@
     ], 
     "version": "1.1"
   }, 
-  "r-tagcloud": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "methods, Rcpp (>= 0.9.4), RColorBrewer", 
-      "License": "GPL (>= 2)", 
-      "LinkingTo": "Rcpp", 
-      "NeedsCompilation": "yes", 
-      "Package": "tagcloud", 
-      "Site": "cran", 
-      "Suggests": "extrafont", 
-      "Version": "0.1"
-    }, 
-    "depends": [
-      "r", 
-      "r-rcpp", 
-      "r-rcolorbrewer"
-    ], 
-    "fn": "r-tagcloud-0.1-0.tar.bz2", 
-    "name": "r-tagcloud", 
-    "reverse_depends": [], 
-    "version": "0.1"
-  }, 
   "r-tahmmannot": {
     "build": "0", 
     "build_number": 0, 
@@ -145394,7 +145385,7 @@
       "Package": "TAM", 
       "Site": "cran", 
       "Suggests": "CDM, sirt", 
-      "Version": "0.99-7"
+      "Version": "1.0-0"
     }, 
     "depends": [
       "r", 
@@ -145404,14 +145395,14 @@
       "r-gparotation", 
       "r-psych"
     ], 
-    "fn": "r-tam-0.99.7-0.tar.bz2", 
+    "fn": "r-tam-1.0.0-0.tar.bz2", 
     "name": "r-tam", 
     "reverse_depends": [
       "r-view-psychometrics", 
       "r-view-psychometrics-core", 
       "r-sirt"
     ], 
-    "version": "0.99.7"
+    "version": "1.0.0"
   }, 
   "r-tanova": {
     "build": "0", 
@@ -145611,7 +145602,6 @@
     "name": "r-tau", 
     "reverse_depends": [
       "r-textcat", 
-      "r-rtexttools", 
       "r-view-naturallanguageprocessing", 
       "r-konlp"
     ], 
@@ -145689,8 +145679,8 @@
     "version": "1.1.0"
   }, 
   "r-taxize": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "Depends": "R (>= 3.0.1)", 
       "Imports": "XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), RJSONIO, foreach, ape, Taxonstand, reshape2, data.table, reshape", 
@@ -145699,7 +145689,7 @@
       "Package": "taxize", 
       "Site": "cran", 
       "Suggests": "testthat, roxygen2, rjson, vegan, knitr", 
-      "Version": "0.1.5"
+      "Version": "0.1.8"
     }, 
     "depends": [
       "r", 
@@ -145716,13 +145706,13 @@
       "r-data.table", 
       "r-reshape"
     ], 
-    "fn": "r-taxize-0.1.5-1.tar.bz2", 
+    "fn": "r-taxize-0.1.8-0.tar.bz2", 
     "name": "r-taxize", 
     "reverse_depends": [
       "r-view-webtechnologies", 
       "r-evobir"
     ], 
-    "version": "0.1.5"
+    "version": "0.1.8"
   }, 
   "r-taxonstand": {
     "build": "0", 
@@ -145882,6 +145872,7 @@
     "name": "r-tcltk2", 
     "reverse_depends": [
       "r-cagui", 
+      "r-biplotbootgui", 
       "r-rcmdr", 
       "r-anthropmmd", 
       "r-forensim", 
@@ -146489,7 +146480,9 @@
     ], 
     "fn": "r-testit-0.3-0.tar.bz2", 
     "name": "r-testit", 
-    "reverse_depends": [], 
+    "reverse_depends": [
+      "r-wats"
+    ], 
     "version": "0.3"
   }, 
   "r-testscorer": {
@@ -146577,16 +146570,16 @@
       "Package": "texmex", 
       "Site": "cran", 
       "Suggests": "MASS, lattice, knitr", 
-      "Version": "2.0"
+      "Version": "2.1"
     }, 
     "depends": [
       "r", 
       "r-mvtnorm"
     ], 
-    "fn": "r-texmex-2.0-0.tar.bz2", 
+    "fn": "r-texmex-2.1-0.tar.bz2", 
     "name": "r-texmex", 
     "reverse_depends": [], 
-    "version": "2.0"
+    "version": "2.1"
   }, 
   "r-texposition": {
     "build": "1", 
@@ -147113,15 +147106,15 @@
       "Package": "TiddlyWikiR", 
       "Site": "cran", 
       "Suggests": "knitr", 
-      "Version": "1.0.0"
+      "Version": "1.0.1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-tiddlywikir-1.0.0-0.tar.bz2", 
+    "fn": "r-tiddlywikir-1.0.1-0.tar.bz2", 
     "name": "r-tiddlywikir", 
     "reverse_depends": [], 
-    "version": "1.0.0"
+    "version": "1.0.1"
   }, 
   "r-tides": {
     "build": "0", 
@@ -147326,8 +147319,8 @@
     "fn": "r-tilingarray-1.40.0-1.tar.bz2", 
     "name": "r-tilingarray", 
     "reverse_depends": [
-      "r-snapcgh", 
-      "r-adacgh2"
+      "r-adacgh2", 
+      "r-snapcgh"
     ], 
     "version": "1.40.0"
   }, 
@@ -147534,12 +147527,12 @@
       "NeedsCompilation": "yes", 
       "Package": "timereg", 
       "Site": "cran", 
-      "Version": "1.8.2"
+      "Version": "1.8.3"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-timereg-1.8.2-0.tar.bz2", 
+    "fn": "r-timereg-1.8.3-0.tar.bz2", 
     "name": "r-timereg", 
     "reverse_depends": [
       "r-view-survival", 
@@ -147547,7 +147540,7 @@
       "r-mets", 
       "r-view-survival-core"
     ], 
-    "version": "1.8.2"
+    "version": "1.8.3"
   }, 
   "r-timeroc": {
     "build": "0", 
@@ -147909,6 +147902,7 @@
       "r-mlpastats", 
       "r-synet", 
       "r-convergenceconcepts", 
+      "r-biplotbootgui", 
       "r-vows", 
       "r-vimgui", 
       "r-rvideopoker", 
@@ -147936,8 +147930,8 @@
       "r-view-graphics", 
       "r-isogenegui", 
       "r-ggebiplotgui", 
-      "r-dynbiplotgui", 
-      "r-fisheyer"
+      "r-fisheyer", 
+      "r-dynbiplotgui"
     ], 
     "version": "0.0.23"
   }, 
@@ -148063,7 +148057,6 @@
       "r-tm.plugin.mail", 
       "r-wethepeople", 
       "r-qdap", 
-      "r-rtexttools", 
       "r-maxent", 
       "r-view-naturallanguageprocessing", 
       "r-deducertext", 
@@ -148297,29 +148290,6 @@
     "reverse_depends": [], 
     "version": "2.13.0"
   }, 
-  "r-tonymisc": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "R (>= 2.12.0), memisc, AER, car, nlme", 
-      "License": "GPL-2", 
-      "NeedsCompilation": "no", 
-      "Package": "tonymisc", 
-      "Site": "cran", 
-      "Suggests": "gmm, plm, Ecdat", 
-      "Version": "1.1.1"
-    }, 
-    "depends": [
-      "r", 
-      "r-memisc", 
-      "r-aer", 
-      "r-car"
-    ], 
-    "fn": "r-tonymisc-1.1.1-0.tar.bz2", 
-    "name": "r-tonymisc", 
-    "reverse_depends": [], 
-    "version": "1.1.1"
-  }, 
   "r-topgo": {
     "build": "1", 
     "build_number": 1, 
@@ -148458,7 +148428,6 @@
     "fn": "r-tourr-0.5.2-0.tar.bz2", 
     "name": "r-tourr", 
     "reverse_depends": [
-      "r-geozoo", 
       "r-tourrgui"
     ], 
     "version": "0.5.2"
@@ -148794,7 +148763,6 @@
     "cran": {
       "Depends": "methods, rJava, plyr, reshape2", 
       "License": "GPL (>= 3.0)", 
-      "LinkingTo": "Rcpp", 
       "NeedsCompilation": "no", 
       "Package": "transnet", 
       "Site": "cran", 
@@ -148883,7 +148851,6 @@
       "r-bigtsp", 
       "r-bioseqclass", 
       "r-oblique.tree", 
-      "r-rtexttools", 
       "r-zooimage", 
       "r-view-machinelearning", 
       "r-dave"
@@ -149152,8 +149119,8 @@
     "fn": "r-triangle-0.8-0.tar.bz2", 
     "name": "r-triangle", 
     "reverse_depends": [
-      "r-opasnetutils", 
       "r-zebook", 
+      "r-opasnetutils", 
       "r-view-distributions"
     ], 
     "version": "0.8"
@@ -149547,20 +149514,21 @@
       "NeedsCompilation": "no", 
       "Package": "truncreg", 
       "Site": "cran", 
-      "Version": "0.1-1"
+      "Suggests": "survival", 
+      "Version": "0.2-1"
     }, 
     "depends": [
       "r", 
       "r-maxlik"
     ], 
-    "fn": "r-truncreg-0.1.1-0.tar.bz2", 
+    "fn": "r-truncreg-0.2.1-0.tar.bz2", 
     "name": "r-truncreg", 
     "reverse_depends": [
       "r-view-econometrics", 
       "r-mhurdle", 
       "r-truncsp"
     ], 
-    "version": "0.1.1"
+    "version": "0.2.1"
   }, 
   "r-truncsp": {
     "build": "0", 
@@ -150847,6 +150815,27 @@
     "name": "r-tuwmodel", 
     "reverse_depends": [], 
     "version": "0.1.2"
+  }, 
+  "r-tvm": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "Rcpp (>= 0.10.6)", 
+      "License": "MIT + file LICENSE", 
+      "LinkingTo": "Rcpp", 
+      "NeedsCompilation": "yes", 
+      "Package": "tvm", 
+      "Site": "cran", 
+      "Version": "0.1"
+    }, 
+    "depends": [
+      "r", 
+      "r-rcpp"
+    ], 
+    "fn": "r-tvm-0.1-0.tar.bz2", 
+    "name": "r-tvm", 
+    "reverse_depends": [], 
+    "version": "0.1"
   }, 
   "r-twang": {
     "build": "0", 
@@ -152169,29 +152158,6 @@
     "reverse_depends": [], 
     "version": "0.1.1"
   }, 
-  "r-validator": {
-    "build": "0", 
-    "build_number": 0, 
-    "cran": {
-      "Depends": "clv, clValid, flexclust, mlbench", 
-      "License": "GPL (>= 2)", 
-      "NeedsCompilation": "no", 
-      "Package": "validator", 
-      "Site": "cran", 
-      "Version": "1.0"
-    }, 
-    "depends": [
-      "r", 
-      "r-clv", 
-      "r-clvalid", 
-      "r-flexclust", 
-      "r-mlbench"
-    ], 
-    "fn": "r-validator-1.0-0.tar.bz2", 
-    "name": "r-validator", 
-    "reverse_depends": [], 
-    "version": "1.0"
-  }, 
   "r-vanillaice": {
     "build": "1", 
     "build_number": 1, 
@@ -152941,6 +152907,7 @@
       "r-simba", 
       "r-isopam", 
       "r-rioja", 
+      "r-biplotbootgui", 
       "r-view-psychometrics", 
       "r-demerelate", 
       "r-view-psychometrics-core", 
@@ -153234,8 +153201,8 @@
     "version": "0.9.4"
   }, 
   "r-view-bayesian": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-abc", 
@@ -153460,14 +153427,14 @@
       "r-varselectip", 
       "r-zic"
     ], 
-    "fn": "r-view-bayesian-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-bayesian-2013.12.12-1.tar.bz2", 
     "name": "r-view-bayesian", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-bayesian-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-arm", 
@@ -153494,14 +153461,14 @@
       "r-mcmc", 
       "r-mcmcpack"
     ], 
-    "fn": "r-view-bayesian-core-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-bayesian-core-2013.12.12-1.tar.bz2", 
     "name": "r-view-bayesian-core", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-chemphys": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-als", 
@@ -153656,14 +153623,14 @@
       "r-wccsom", 
       "r-wilcoxcv"
     ], 
-    "fn": "r-view-chemphys-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-chemphys-2013.12.12-1.tar.bz2", 
     "name": "r-view-chemphys", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-chemphys-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-als", 
@@ -153686,14 +153653,14 @@
       "r-pls", 
       "r-ptak"
     ], 
-    "fn": "r-view-chemphys-core-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-chemphys-core-2013.12.12-1.tar.bz2", 
     "name": "r-view-chemphys-core", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-clinicaltrials": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adapttest", 
@@ -153798,14 +153765,14 @@
       "r-teqr", 
       "r-trialsize"
     ], 
-    "fn": "r-view-clinicaltrials-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-clinicaltrials-2013.12.10-1.tar.bz2", 
     "name": "r-view-clinicaltrials", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-clinicaltrials-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adapttest", 
@@ -153866,14 +153833,14 @@
       "r-teqr", 
       "r-trialsize"
     ], 
-    "fn": "r-view-clinicaltrials-core-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-clinicaltrials-core-2013.12.10-1.tar.bz2", 
     "name": "r-view-clinicaltrials-core", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-cluster": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-amap", 
@@ -154076,14 +154043,14 @@
       "r-trimcluster", 
       "r-wle"
     ], 
-    "fn": "r-view-cluster-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-cluster-2013.12.12-1.tar.bz2", 
     "name": "r-view-cluster", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-cluster-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-cluster", 
@@ -154102,14 +154069,14 @@
       "r-mclust", 
       "r-rmixmod"
     ], 
-    "fn": "r-view-cluster-core-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-cluster-core-2013.12.12-1.tar.bz2", 
     "name": "r-view-cluster-core", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-differentialequations": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adaptivetau", 
@@ -154164,14 +154131,14 @@
       "r-sde", 
       "r-simecol"
     ], 
-    "fn": "r-view-differentialequations-2013.08.08-0.tar.bz2", 
+    "fn": "r-view-differentialequations-2013.08.08-1.tar.bz2", 
     "name": "r-view-differentialequations", 
     "reverse_depends": [], 
     "version": "2013.08.08"
   }, 
   "r-view-differentialequations-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-bvpsolve", 
@@ -154188,14 +154155,14 @@
       "r-rootsolve", 
       "r-sde"
     ], 
-    "fn": "r-view-differentialequations-core-2013.08.08-0.tar.bz2", 
+    "fn": "r-view-differentialequations-core-2013.08.08-1.tar.bz2", 
     "name": "r-view-differentialequations-core", 
     "reverse_depends": [], 
     "version": "2013.08.08"
   }, 
   "r-view-distributions": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-actuar", 
@@ -154442,14 +154409,14 @@
       "r-vinecopula", 
       "r-zipfr"
     ], 
-    "fn": "r-view-distributions-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-distributions-2013.12.10-1.tar.bz2", 
     "name": "r-view-distributions", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-distributions-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-actuar", 
@@ -154484,14 +154451,14 @@
       "r-suppdists", 
       "r-vgam"
     ], 
-    "fn": "r-view-distributions-core-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-distributions-core-2013.12.10-1.tar.bz2", 
     "name": "r-view-distributions-core", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-econometrics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-aer", 
@@ -154690,14 +154657,14 @@
       "r-zelig", 
       "r-zoo"
     ], 
-    "fn": "r-view-econometrics-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-econometrics-2014.01.01-1.tar.bz2", 
     "name": "r-view-econometrics", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-econometrics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-aer", 
@@ -154722,14 +154689,14 @@
       "r-urca", 
       "r-zoo"
     ], 
-    "fn": "r-view-econometrics-core-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-econometrics-core-2014.01.01-1.tar.bz2", 
     "name": "r-view-econometrics-core", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-environmetrics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -154944,14 +154911,14 @@
       "r-wq", 
       "r-zoo"
     ], 
-    "fn": "r-view-environmetrics-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-environmetrics-2013.12.12-1.tar.bz2", 
     "name": "r-view-environmetrics", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-environmetrics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -154974,14 +154941,14 @@
       "r-mvpart", 
       "r-vegan"
     ], 
-    "fn": "r-view-environmetrics-core-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-environmetrics-core-2013.12.12-1.tar.bz2", 
     "name": "r-view-environmetrics-core", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-experimentaldesign": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-agricolae", 
@@ -155080,14 +155047,14 @@
       "r-tgp", 
       "r-vdgraph"
     ], 
-    "fn": "r-view-experimentaldesign-2013.03.20-0.tar.bz2", 
+    "fn": "r-view-experimentaldesign-2013.03.20-1.tar.bz2", 
     "name": "r-view-experimentaldesign", 
     "reverse_depends": [], 
     "version": "2013.03.20"
   }, 
   "r-view-experimentaldesign-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-agricolae", 
@@ -155110,14 +155077,14 @@
       "r-frf2", 
       "r-rsm"
     ], 
-    "fn": "r-view-experimentaldesign-core-2013.03.20-0.tar.bz2", 
+    "fn": "r-view-experimentaldesign-core-2013.03.20-1.tar.bz2", 
     "name": "r-view-experimentaldesign-core", 
     "reverse_depends": [], 
     "version": "2013.03.20"
   }, 
   "r-view-finance": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-actuar", 
@@ -155358,14 +155325,14 @@
       "r-zelig", 
       "r-zoo"
     ], 
-    "fn": "r-view-finance-2013.12.20-0.tar.bz2", 
+    "fn": "r-view-finance-2013.12.20-1.tar.bz2", 
     "name": "r-view-finance", 
     "reverse_depends": [], 
     "version": "2013.12.20"
   }, 
   "r-view-finance-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-farma", 
@@ -155422,14 +155389,14 @@
       "r-xts", 
       "r-zoo"
     ], 
-    "fn": "r-view-finance-core-2013.12.20-0.tar.bz2", 
+    "fn": "r-view-finance-core-2013.12.20-1.tar.bz2", 
     "name": "r-view-finance-core", 
     "reverse_depends": [], 
     "version": "2013.12.20"
   }, 
   "r-view-genetics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adegenet", 
@@ -155506,14 +155473,14 @@
       "r-untb", 
       "r-wgaim"
     ], 
-    "fn": "r-view-genetics-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-genetics-2013.12.10-1.tar.bz2", 
     "name": "r-view-genetics", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-genetics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-gap", 
@@ -155528,14 +155495,14 @@
       "r-genetics", 
       "r-haplo.stats"
     ], 
-    "fn": "r-view-genetics-core-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-genetics-core-2013.12.10-1.tar.bz2", 
     "name": "r-view-genetics-core", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-gr": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-abn", 
@@ -155610,14 +155577,14 @@
       "r-rjags", 
       "r-sin"
     ], 
-    "fn": "r-view-gr-2013.07.26-0.tar.bz2", 
+    "fn": "r-view-gr-2013.07.26-1.tar.bz2", 
     "name": "r-view-gr", 
     "reverse_depends": [], 
     "version": "2013.07.26"
   }, 
   "r-view-gr-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-grbase"
@@ -155628,14 +155595,14 @@
     "depends": [
       "r-grbase"
     ], 
-    "fn": "r-view-gr-core-2013.07.26-0.tar.bz2", 
+    "fn": "r-view-gr-core-2013.07.26-1.tar.bz2", 
     "name": "r-view-gr-core", 
     "reverse_depends": [], 
     "version": "2013.07.26"
   }, 
   "r-view-graphics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -155726,14 +155693,14 @@
       "r-vioplot", 
       "r-xgobi"
     ], 
-    "fn": "r-view-graphics-2013.01.29-0.tar.bz2", 
+    "fn": "r-view-graphics-2013.01.29-1.tar.bz2", 
     "name": "r-view-graphics", 
     "reverse_depends": [], 
     "version": "2013.01.29"
   }, 
   "r-view-graphics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ggplot2", 
@@ -155754,14 +155721,14 @@
       "r-rgl", 
       "r-vcd"
     ], 
-    "fn": "r-view-graphics-core-2013.01.29-0.tar.bz2", 
+    "fn": "r-view-graphics-core-2013.01.29-1.tar.bz2", 
     "name": "r-view-graphics-core", 
     "reverse_depends": [], 
     "version": "2013.01.29"
   }, 
   "r-view-highperformancecomputing": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-batch", 
@@ -155932,14 +155899,14 @@
       "r-widelm", 
       "r-xgrid"
     ], 
-    "fn": "r-view-highperformancecomputing-2013.12.18-0.tar.bz2", 
+    "fn": "r-view-highperformancecomputing-2013.12.18-1.tar.bz2", 
     "name": "r-view-highperformancecomputing", 
     "reverse_depends": [], 
     "version": "2013.12.18"
   }, 
   "r-view-highperformancecomputing-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-rmpi", 
@@ -155952,14 +155919,14 @@
       "r-rmpi", 
       "r-snow"
     ], 
-    "fn": "r-view-highperformancecomputing-core-2013.12.18-0.tar.bz2", 
+    "fn": "r-view-highperformancecomputing-core-2013.12.18-1.tar.bz2", 
     "name": "r-view-highperformancecomputing-core", 
     "reverse_depends": [], 
     "version": "2013.12.18"
   }, 
   "r-view-machinelearning": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ahaz", 
@@ -156112,14 +156079,14 @@
       "r-twix", 
       "r-varselrf"
     ], 
-    "fn": "r-view-machinelearning-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-machinelearning-2013.12.12-1.tar.bz2", 
     "name": "r-view-machinelearning", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-machinelearning-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-e1071", 
@@ -156142,14 +156109,14 @@
       "r-randomforest", 
       "r-rpart"
     ], 
-    "fn": "r-view-machinelearning-core-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-machinelearning-core-2013.12.12-1.tar.bz2", 
     "name": "r-view-machinelearning-core", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-medicalimaging": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adimpro", 
@@ -156206,14 +156173,14 @@
       "r-tractor.base", 
       "r-waveslim"
     ], 
-    "fn": "r-view-medicalimaging-2013.08.12-0.tar.bz2", 
+    "fn": "r-view-medicalimaging-2013.08.12-1.tar.bz2", 
     "name": "r-view-medicalimaging", 
     "reverse_depends": [], 
     "version": "2013.08.12"
   }, 
   "r-view-medicalimaging-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adimpro", 
@@ -156260,14 +156227,14 @@
       "r-rniftyreg", 
       "r-tractor.base"
     ], 
-    "fn": "r-view-medicalimaging-core-2013.08.12-0.tar.bz2", 
+    "fn": "r-view-medicalimaging-core-2013.08.12-1.tar.bz2", 
     "name": "r-view-medicalimaging-core", 
     "reverse_depends": [], 
     "version": "2013.08.12"
   }, 
   "r-view-metaanalysis": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-bamdit", 
@@ -156364,14 +156331,14 @@
       "r-seqmeta", 
       "r-skatmeta"
     ], 
-    "fn": "r-view-metaanalysis-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-metaanalysis-2014.01.01-1.tar.bz2", 
     "name": "r-view-metaanalysis", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-metaanalysis-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-meta", 
@@ -156384,14 +156351,14 @@
       "r-meta", 
       "r-metafor"
     ], 
-    "fn": "r-view-metaanalysis-core-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-metaanalysis-core-2014.01.01-1.tar.bz2", 
     "name": "r-view-metaanalysis-core", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-multivariate": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-abind", 
@@ -156654,14 +156621,14 @@
       "r-xgobi", 
       "r-yaletoolkit"
     ], 
-    "fn": "r-view-multivariate-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-multivariate-2013.12.12-1.tar.bz2", 
     "name": "r-view-multivariate", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-multivariate-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -156678,14 +156645,14 @@
       "r-mass", 
       "r-vegan"
     ], 
-    "fn": "r-view-multivariate-core-2013.12.12-0.tar.bz2", 
+    "fn": "r-view-multivariate-core-2013.12.12-1.tar.bz2", 
     "name": "r-view-multivariate-core", 
     "reverse_depends": [], 
     "version": "2013.12.12"
   }, 
   "r-view-naturallanguageprocessing": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-corpora", 
@@ -156750,14 +156717,14 @@
       "r-wordnet", 
       "r-zipfr"
     ], 
-    "fn": "r-view-naturallanguageprocessing-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-naturallanguageprocessing-2014.01.01-1.tar.bz2", 
     "name": "r-view-naturallanguageprocessing", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-naturallanguageprocessing-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-tm"
@@ -156768,14 +156735,14 @@
     "depends": [
       "r-tm"
     ], 
-    "fn": "r-view-naturallanguageprocessing-core-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-naturallanguageprocessing-core-2014.01.01-1.tar.bz2", 
     "name": "r-view-naturallanguageprocessing-core", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-numericalmathematics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-akima", 
@@ -156886,14 +156853,14 @@
       "r-stinepack", 
       "r-svd"
     ], 
-    "fn": "r-view-numericalmathematics-2013.11.02-0.tar.bz2", 
+    "fn": "r-view-numericalmathematics-2013.11.02-1.tar.bz2", 
     "name": "r-view-numericalmathematics", 
     "reverse_depends": [], 
     "version": "2013.11.02"
   }, 
   "r-view-numericalmathematics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-gsl", 
@@ -156910,14 +156877,14 @@
       "r-numderiv", 
       "r-polynom"
     ], 
-    "fn": "r-view-numericalmathematics-core-2013.11.02-0.tar.bz2", 
+    "fn": "r-view-numericalmathematics-core-2013.11.02-1.tar.bz2", 
     "name": "r-view-numericalmathematics-core", 
     "reverse_depends": [], 
     "version": "2013.11.02"
   }, 
   "r-view-officialstatistics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-amelia", 
@@ -157042,14 +157009,14 @@
       "r-x12gui", 
       "r-yaimpute"
     ], 
-    "fn": "r-view-officialstatistics-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-officialstatistics-2013.12.10-1.tar.bz2", 
     "name": "r-view-officialstatistics", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-officialstatistics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-survey"
@@ -157060,14 +157027,14 @@
     "depends": [
       "r-survey"
     ], 
-    "fn": "r-view-officialstatistics-core-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-officialstatistics-core-2013.12.10-1.tar.bz2", 
     "name": "r-view-officialstatistics-core", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-optimization": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adagio", 
@@ -157202,14 +157169,14 @@
       "r-tsp", 
       "r-ucminf"
     ], 
-    "fn": "r-view-optimization-2013.02.14-0.tar.bz2", 
+    "fn": "r-view-optimization-2013.02.14-1.tar.bz2", 
     "name": "r-view-optimization", 
     "reverse_depends": [], 
     "version": "2013.02.14"
   }, 
   "r-view-optimization-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-lpsolve", 
@@ -157236,14 +157203,14 @@
       "r-rsymphony", 
       "r-tsp"
     ], 
-    "fn": "r-view-optimization-core-2013.02.14-0.tar.bz2", 
+    "fn": "r-view-optimization-core-2013.02.14-1.tar.bz2", 
     "name": "r-view-optimization-core", 
     "reverse_depends": [], 
     "version": "2013.02.14"
   }, 
   "r-view-pharmacokinetics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-desolve", 
@@ -157272,14 +157239,14 @@
       "r-pkpdmodels", 
       "r-pktools"
     ], 
-    "fn": "r-view-pharmacokinetics-2013.05.21-0.tar.bz2", 
+    "fn": "r-view-pharmacokinetics-2013.05.21-1.tar.bz2", 
     "name": "r-view-pharmacokinetics", 
     "reverse_depends": [], 
     "version": "2013.05.21"
   }, 
   "r-view-pharmacokinetics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-lattice", 
@@ -157298,14 +157265,14 @@
       "r-pkfit", 
       "r-pktools"
     ], 
-    "fn": "r-view-pharmacokinetics-core-2013.05.21-0.tar.bz2", 
+    "fn": "r-view-pharmacokinetics-core-2013.05.21-1.tar.bz2", 
     "name": "r-view-pharmacokinetics-core", 
     "reverse_depends": [], 
     "version": "2013.05.21"
   }, 
   "r-view-phylogenetics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adephylo", 
@@ -157392,14 +157359,14 @@
       "r-treesim", 
       "r-vegan"
     ], 
-    "fn": "r-view-phylogenetics-2013.12.11-0.tar.bz2", 
+    "fn": "r-view-phylogenetics-2013.12.11-1.tar.bz2", 
     "name": "r-view-phylogenetics", 
     "reverse_depends": [], 
     "version": "2013.12.11"
   }, 
   "r-view-phylogenetics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ape"
@@ -157410,14 +157377,14 @@
     "depends": [
       "r-ape"
     ], 
-    "fn": "r-view-phylogenetics-core-2013.12.11-0.tar.bz2", 
+    "fn": "r-view-phylogenetics-core-2013.12.11-1.tar.bz2", 
     "name": "r-view-phylogenetics-core", 
     "reverse_depends": [], 
     "version": "2013.12.11"
   }, 
   "r-view-psychometrics": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -157654,14 +157621,14 @@
       "r-vgam", 
       "r-xgobi"
     ], 
-    "fn": "r-view-psychometrics-2013.12.01-0.tar.bz2", 
+    "fn": "r-view-psychometrics-2013.12.01-1.tar.bz2", 
     "name": "r-view-psychometrics", 
     "reverse_depends": [], 
     "version": "2013.12.01"
   }, 
   "r-view-psychometrics-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -157712,14 +157679,14 @@
       "r-tam", 
       "r-vegan"
     ], 
-    "fn": "r-view-psychometrics-core-2013.12.01-0.tar.bz2", 
+    "fn": "r-view-psychometrics-core-2013.12.01-1.tar.bz2", 
     "name": "r-view-psychometrics-core", 
     "reverse_depends": [], 
     "version": "2013.12.01"
   }, 
   "r-view-reproducibleresearch": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-animation", 
@@ -157794,14 +157761,14 @@
       "r-teachingsampling", 
       "r-xtable"
     ], 
-    "fn": "r-view-reproducibleresearch-2013.04.18-0.tar.bz2", 
+    "fn": "r-view-reproducibleresearch-2013.04.18-1.tar.bz2", 
     "name": "r-view-reproducibleresearch", 
     "reverse_depends": [], 
     "version": "2013.04.18"
   }, 
   "r-view-reproducibleresearch-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-hmisc", 
@@ -157820,14 +157787,14 @@
       "r-rms", 
       "r-xtable"
     ], 
-    "fn": "r-view-reproducibleresearch-core-2013.04.18-0.tar.bz2", 
+    "fn": "r-view-reproducibleresearch-core-2013.04.18-1.tar.bz2", 
     "name": "r-view-reproducibleresearch-core", 
     "reverse_depends": [], 
     "version": "2013.04.18"
   }, 
   "r-view-robust": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-covrobust", 
@@ -157894,14 +157861,14 @@
       "r-sandwich", 
       "r-wle"
     ], 
-    "fn": "r-view-robust-2013.08.06-0.tar.bz2", 
+    "fn": "r-view-robust-2013.08.06-1.tar.bz2", 
     "name": "r-view-robust", 
     "reverse_depends": [], 
     "version": "2013.08.06"
   }, 
   "r-view-robust-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-mass", 
@@ -157918,14 +157885,14 @@
       "r-robustbase", 
       "r-rrcov"
     ], 
-    "fn": "r-view-robust-core-2013.08.06-0.tar.bz2", 
+    "fn": "r-view-robust-core-2013.08.06-1.tar.bz2", 
     "name": "r-view-robust-core", 
     "reverse_depends": [], 
     "version": "2013.08.06"
   }, 
   "r-view-socialsciences": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-acepack", 
@@ -158092,14 +158059,14 @@
       "r-vcd", 
       "r-zelig"
     ], 
-    "fn": "r-view-socialsciences-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-socialsciences-2013.12.10-1.tar.bz2", 
     "name": "r-view-socialsciences", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-socialsciences-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-alr3", 
@@ -158148,14 +158115,14 @@
       "r-systemfit", 
       "r-zelig"
     ], 
-    "fn": "r-view-socialsciences-core-2013.12.10-0.tar.bz2", 
+    "fn": "r-view-socialsciences-core-2013.12.10-1.tar.bz2", 
     "name": "r-view-socialsciences-core", 
     "reverse_depends": [], 
     "version": "2013.12.10"
   }, 
   "r-view-spatial": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-ade4", 
@@ -158416,14 +158383,14 @@
       "r-vec2dtransf", 
       "r-vegan"
     ], 
-    "fn": "r-view-spatial-2013.12.16-0.tar.bz2", 
+    "fn": "r-view-spatial-2013.12.16-1.tar.bz2", 
     "name": "r-view-spatial", 
     "reverse_depends": [], 
     "version": "2013.12.16"
   }, 
   "r-view-spatial-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-classint", 
@@ -158464,14 +158431,14 @@
       "r-spdep", 
       "r-splancs"
     ], 
-    "fn": "r-view-spatial-core-2013.12.16-0.tar.bz2", 
+    "fn": "r-view-spatial-core-2013.12.16-1.tar.bz2", 
     "name": "r-view-spatial-core", 
     "reverse_depends": [], 
     "version": "2013.12.16"
   }, 
   "r-view-spatiotemporal": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adehabitatlt", 
@@ -158578,14 +158545,14 @@
       "r-tripestimation", 
       "r-xts"
     ], 
-    "fn": "r-view-spatiotemporal-2013.11.29-0.tar.bz2", 
+    "fn": "r-view-spatiotemporal-2013.11.29-1.tar.bz2", 
     "name": "r-view-spatiotemporal", 
     "reverse_depends": [], 
     "version": "2013.11.29"
   }, 
   "r-view-spatiotemporal-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-adehabitatlt", 
@@ -158614,14 +158581,14 @@
       "r-trip", 
       "r-xts"
     ], 
-    "fn": "r-view-spatiotemporal-core-2013.11.29-0.tar.bz2", 
+    "fn": "r-view-spatiotemporal-core-2013.11.29-1.tar.bz2", 
     "name": "r-view-spatiotemporal-core", 
     "reverse_depends": [], 
     "version": "2013.11.29"
   }, 
   "r-view-survival": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-aer", 
@@ -158974,14 +158941,14 @@
       "r-unicox", 
       "r-vgam"
     ], 
-    "fn": "r-view-survival-2013.12.21-0.tar.bz2", 
+    "fn": "r-view-survival-2013.12.21-1.tar.bz2", 
     "name": "r-view-survival", 
     "reverse_depends": [], 
     "version": "2013.12.21"
   }, 
   "r-view-survival-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-cmprsk", 
@@ -159002,14 +158969,14 @@
       "r-survival", 
       "r-timereg"
     ], 
-    "fn": "r-view-survival-core-2013.12.21-0.tar.bz2", 
+    "fn": "r-view-survival-core-2013.12.21-1.tar.bz2", 
     "name": "r-view-survival-core", 
     "reverse_depends": [], 
     "version": "2013.12.21"
   }, 
   "r-view-timeseries": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-aer", 
@@ -159294,14 +159261,14 @@
       "r-xts", 
       "r-zoo"
     ], 
-    "fn": "r-view-timeseries-2013.12.22-0.tar.bz2", 
+    "fn": "r-view-timeseries-2013.12.22-1.tar.bz2", 
     "name": "r-view-timeseries", 
     "reverse_depends": [], 
     "version": "2013.12.22"
   }, 
   "r-view-timeseries-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-forecast", 
@@ -159316,14 +159283,14 @@
       "r-tseries", 
       "r-zoo"
     ], 
-    "fn": "r-view-timeseries-core-2013.12.22-0.tar.bz2", 
+    "fn": "r-view-timeseries-core-2013.12.22-1.tar.bz2", 
     "name": "r-view-timeseries-core", 
     "reverse_depends": [], 
     "version": "2013.12.22"
   }, 
   "r-view-webtechnologies": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-alm", 
@@ -159512,14 +159479,14 @@
       "r-yhatr", 
       "r-zendeskr"
     ], 
-    "fn": "r-view-webtechnologies-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-webtechnologies-2014.01.01-1.tar.bz2", 
     "name": "r-view-webtechnologies", 
     "reverse_depends": [], 
     "version": "2014.01.01"
   }, 
   "r-view-webtechnologies-core": {
-    "build": "0", 
-    "build_number": 0, 
+    "build": "1", 
+    "build_number": 1, 
     "cran": {
       "depends": [
         "r-httr", 
@@ -159540,7 +159507,7 @@
       "r-shiny", 
       "r-xml"
     ], 
-    "fn": "r-view-webtechnologies-core-2014.01.01-0.tar.bz2", 
+    "fn": "r-view-webtechnologies-core-2014.01.01-1.tar.bz2", 
     "name": "r-view-webtechnologies-core", 
     "reverse_depends": [], 
     "version": "2014.01.01"
@@ -159624,7 +159591,6 @@
       "Depends": "R (>= 2.13), tcltk, tkrplot,VIM (>= 4.0.0),survey,gWidgetsRGtk2", 
       "Imports": "foreign,RGtk2,Cairo, Hmisc", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "Rcpp", 
       "NeedsCompilation": "no", 
       "Package": "VIMGUI", 
       "Site": "cran", 
@@ -160505,6 +160471,35 @@
     ], 
     "version": "1.2.2"
   }, 
+  "r-wats": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "R (>= 3.0.0), stats", 
+      "Imports": "boot, colorspace, ggplot2, grid, lubridate, plyr, RColorBrewer, scales, testit, zoo", 
+      "License": "GPL (>= 2)", 
+      "NeedsCompilation": "no", 
+      "Package": "Wats", 
+      "Site": "cran", 
+      "Suggests": "BayesSingleSub, devtools, knitr, testthat", 
+      "Version": "0.2-9"
+    }, 
+    "depends": [
+      "r", 
+      "r-colorspace", 
+      "r-ggplot2", 
+      "r-lubridate", 
+      "r-plyr", 
+      "r-rcolorbrewer", 
+      "r-scales", 
+      "r-testit", 
+      "r-zoo"
+    ], 
+    "fn": "r-wats-0.2.9-0.tar.bz2", 
+    "name": "r-wats", 
+    "reverse_depends": [], 
+    "version": "0.2.9"
+  }, 
   "r-waveband": {
     "build": "0", 
     "build_number": 0, 
@@ -160633,10 +160628,10 @@
       "r-spatialvx", 
       "r-wavecd", 
       "r-wavetiling", 
+      "r-adacgh2", 
       "r-view-timeseries", 
       "r-nsm3", 
       "r-view-medicalimaging", 
-      "r-adacgh2", 
       "r-rhrv", 
       "r-view-finance", 
       "r-w2cwm2c"
@@ -161521,26 +161516,27 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.5.1), splus2R (>= 1.1-0), ifultools (>= 1.1-1), graphics, stats, MASS", 
+      "Depends": "R (>= 3.0.2), splus2R (>= 1.2-0), ifultools (>= 2.0-0), MASS, graphics, stats", 
       "License": "GPL-2", 
       "NeedsCompilation": "no", 
       "Package": "wmtsa", 
       "Site": "cran", 
-      "Version": "1.1-1"
+      "Version": "2.0-0"
     }, 
     "depends": [
       "r", 
       "r-splus2r", 
       "r-ifultools"
     ], 
-    "fn": "r-wmtsa-1.1.1-0.tar.bz2", 
+    "fn": "r-wmtsa-2.0.0-0.tar.bz2", 
     "name": "r-wmtsa", 
     "reverse_depends": [
       "r-tsclust", 
       "r-view-timeseries", 
+      "r-fractal", 
       "r-dvfbm"
     ], 
-    "version": "1.1.1"
+    "version": "2.0.0"
   }, 
   "r-wnominate": {
     "build": "0", 
@@ -161881,15 +161877,15 @@
       "NeedsCompilation": "yes", 
       "Package": "wtcrsk", 
       "Site": "cran", 
-      "Version": "1.0"
+      "Version": "1.1"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-wtcrsk-1.0-0.tar.bz2", 
+    "fn": "r-wtcrsk-1.1-0.tar.bz2", 
     "name": "r-wtcrsk", 
     "reverse_depends": [], 
-    "version": "1.0"
+    "version": "1.1"
   }, 
   "r-wwgbook": {
     "build": "0", 
@@ -161920,32 +161916,33 @@
       "NeedsCompilation": "no", 
       "Package": "x12", 
       "Site": "cran", 
-      "Version": "1.2-0"
+      "Suggests": "parallel", 
+      "Version": "1.3.0"
     }, 
     "depends": [
       "r", 
       "r-stringr"
     ], 
-    "fn": "r-x12-1.2.0-0.tar.bz2", 
+    "fn": "r-x12-1.3.0-0.tar.bz2", 
     "name": "r-x12", 
     "reverse_depends": [
       "r-x12gui", 
       "r-view-officialstatistics", 
       "r-view-timeseries"
     ], 
-    "version": "1.2.0"
+    "version": "1.3.0"
   }, 
   "r-x12gui": {
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.14.0),stats,utils,grDevices,datasets,x12 (>= 1.1-0)", 
+      "Depends": "R (>= 2.14.0),stats,utils,grDevices,datasets,x12 (>= 1.3.0)", 
       "Imports": "methods,Hmisc,RGtk2, cairoDevice, grid, lattice,stringr", 
       "License": "GPL (>= 2)", 
       "NeedsCompilation": "no", 
       "Package": "x12GUI", 
       "Site": "cran", 
-      "Version": "0.9-3"
+      "Version": "0.10.0"
     }, 
     "depends": [
       "r", 
@@ -161955,13 +161952,34 @@
       "r-cairodevice", 
       "r-stringr"
     ], 
-    "fn": "r-x12gui-0.9.3-0.tar.bz2", 
+    "fn": "r-x12gui-0.10.0-0.tar.bz2", 
     "name": "r-x12gui", 
     "reverse_depends": [
       "r-view-officialstatistics", 
       "r-view-timeseries"
     ], 
-    "version": "0.9.3"
+    "version": "0.10.0"
+  }, 
+  "r-xbrl": {
+    "build": "0", 
+    "build_number": 0, 
+    "cran": {
+      "Depends": "Rcpp (>= 0.10.4)", 
+      "License": "GPL (>= 2)", 
+      "LinkingTo": "Rcpp", 
+      "NeedsCompilation": "yes", 
+      "Package": "XBRL", 
+      "Site": "cran", 
+      "Version": "0.99.10"
+    }, 
+    "depends": [
+      "r", 
+      "r-rcpp"
+    ], 
+    "fn": "r-xbrl-0.99.10-0.tar.bz2", 
+    "name": "r-xbrl", 
+    "reverse_depends": [], 
+    "version": "0.99.10"
   }, 
   "r-xcms": {
     "build": "1", 
@@ -162241,26 +162259,27 @@
     "build": "0", 
     "build_number": 0, 
     "cran": {
-      "Depends": "R (>= 2.10.0), rJava, utils, methods", 
+      "Depends": "R (>= 2.10.0)", 
+      "Imports": "methods, rJava, utils", 
       "License": "GPL-3", 
       "NeedsCompilation": "no", 
       "Package": "XLConnect", 
       "Site": "cran", 
       "Suggests": "RUnit, lattice, ggplot2 (>= 0.9.3), fImport, forecast, zoo, scales", 
-      "Version": "0.2-5"
+      "Version": "0.2-7"
     }, 
     "depends": [
       "r", 
       "r-rjava"
     ], 
-    "fn": "r-xlconnect-0.2.5-0.tar.bz2", 
+    "fn": "r-xlconnect-0.2.7-0.tar.bz2", 
     "name": "r-xlconnect", 
     "reverse_depends": [
       "r-decctools", 
       "r-table1xls", 
       "r-googlepublicdata"
     ], 
-    "version": "0.2.5"
+    "version": "0.2.7"
   }, 
   "r-xlsx": {
     "build": "1", 
@@ -162282,6 +162301,7 @@
     "name": "r-xlsx", 
     "reverse_depends": [
       "r-odmconverter", 
+      "r-cosmosr", 
       "r-openrepgrid", 
       "r-enar"
     ], 
@@ -162382,6 +162402,7 @@
       "r-rkml", 
       "r-sorvi", 
       "r-rjpstatdb", 
+      "r-solr", 
       "r-tm.plugin.factiva", 
       "r-odmconverter", 
       "r-keggprofile", 
@@ -162391,7 +162412,6 @@
       "r-treebase", 
       "r-osmar", 
       "r-rforcecom", 
-      "r-rtdameritrade", 
       "r-rexcelxml", 
       "r-tm.plugin.webmining", 
       "r-wmcapacity", 
@@ -162401,7 +162421,6 @@
       "r-semplot", 
       "r-getnenshujp", 
       "r-datamart", 
-      "r-imgur", 
       "r-mucflights", 
       "r-ryacas", 
       "r-rgoogledocs", 
@@ -162451,6 +162470,7 @@
       "r-rmassbank", 
       "r-acs", 
       "r-gnumeric", 
+      "r-imgur", 
       "r-sxslt", 
       "r-geneanswers", 
       "r-hive", 
@@ -162481,7 +162501,6 @@
       "r-readmeteo", 
       "r-arrayqualitymetrics", 
       "r-govdat", 
-      "r-isubpathwayminer", 
       "r-sos4r", 
       "r-mturkr", 
       "r-pmml", 
@@ -162798,6 +162817,7 @@
       "r-ampliqueso", 
       "r-survsnp", 
       "r-twang", 
+      "r-pkgmaker", 
       "r-mama", 
       "r-ema", 
       "r-genarise", 
@@ -162821,7 +162841,6 @@
       "r-multilevelpsa", 
       "r-selemix", 
       "r-r453plus1toolbox", 
-      "r-pkgmaker", 
       "r-affylmgui", 
       "r-a4reporting", 
       "r-isogene", 
@@ -162845,7 +162864,8 @@
       "r-surveillance", 
       "r-gsmart", 
       "r-pktools", 
-      "r-factoclass"
+      "r-factoclass", 
+      "r-pige"
     ], 
     "version": "1.7.1"
   }, 
@@ -162917,7 +162937,6 @@
     "cran": {
       "Depends": "zoo (>= 1.7-10)", 
       "License": "GPL (>= 2)", 
-      "LinkingTo": "zoo", 
       "NeedsCompilation": "yes", 
       "Package": "xts", 
       "Site": "cran", 
@@ -162936,7 +162955,6 @@
       "r-dmwr", 
       "r-quantmod", 
       "r-ttr", 
-      "r-rtdameritrade", 
       "r-aqr", 
       "r-cotrend", 
       "r-hydrotsm", 
@@ -163073,20 +163091,20 @@
     "version": "4.1"
   }, 
   "r-yaml": {
-    "build": "1", 
-    "build_number": 1, 
+    "build": "0", 
+    "build_number": 0, 
     "cran": {
       "License": "BSD_3_clause + file LICENSE", 
       "NeedsCompilation": "yes", 
       "Package": "yaml", 
       "Site": "cran", 
       "Suggests": "testthat", 
-      "Version": "2.1.8"
+      "Version": "2.1.10"
     }, 
     "depends": [
       "r"
     ], 
-    "fn": "r-yaml-2.1.8-1.tar.bz2", 
+    "fn": "r-yaml-2.1.10-0.tar.bz2", 
     "name": "r-yaml", 
     "reverse_depends": [
       "r-rapport", 
@@ -163098,7 +163116,7 @@
       "r-triform", 
       "r-gcmapweb"
     ], 
-    "version": "2.1.8"
+    "version": "2.1.10"
   }, 
   "r-yaqcaffy": {
     "build": "1", 
@@ -163931,7 +163949,6 @@
       "r-termstrc", 
       "r-survmisc", 
       "r-sandwich", 
-      "r-rtdameritrade", 
       "r-rcmdrplugin.temis", 
       "r-plm", 
       "r-mlogit", 
@@ -163975,7 +163992,7 @@
       "r-conor", 
       "r-meboot", 
       "r-geotopbricks", 
-      "r-gazetools", 
+      "r-wats", 
       "r-rts", 
       "r-fxregime", 
       "r-party", 

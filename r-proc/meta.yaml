@@ -1,21 +1,23 @@
 package:
   name: r-proc
-  version: 1.5.4
+  version: 1.6.0.1
 
 source:
-  fn: pROC_1.5.4.tar.gz
-  url: http://cran.r-project.org/src/contrib/pROC_1.5.4.tar.gz
+  fn: pROC_1.6.0.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/pROC_1.6.0.1.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
     - r
     - r-plyr
+    - r-rcpp
   run:
     - r
     - r-plyr
+    - r-rcpp
 
 about:
   license: GPL (>= 3)

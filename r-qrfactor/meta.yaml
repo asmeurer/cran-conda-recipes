@@ -1,10 +1,10 @@
 package:
   name: r-qrfactor
-  version: 1.3
+  version: 1.4
 
 source:
-  fn: qrfactor_1.3.tar.gz
-  url: http://cran.r-project.org/src/contrib/qrfactor_1.3.tar.gz
+  fn: qrfactor_1.4.tar.gz
+  url: http://cran.r-project.org/src/contrib/qrfactor_1.4.tar.gz
 
 build:
   number: 0

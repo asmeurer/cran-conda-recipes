@@ -1,10 +1,10 @@
 package:
   name: r-timereg
-  version: 1.8.2
+  version: 1.8.3
 
 source:
-  fn: timereg_1.8.2.tar.gz
-  url: http://cran.r-project.org/src/contrib/timereg_1.8.2.tar.gz
+  fn: timereg_1.8.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/timereg_1.8.3.tar.gz
 
 build:
   number: 0

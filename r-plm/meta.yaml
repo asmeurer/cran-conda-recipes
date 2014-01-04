@@ -1,10 +1,10 @@
 package:
   name: r-plm
-  version: 1.3.1
+  version: 1.4.0
 
 source:
-  fn: plm_1.3-1.tar.gz
-  url: http://cran.r-project.org/src/contrib/plm_1.3-1.tar.gz
+  fn: plm_1.4-0.tar.gz
+  url: http://cran.r-project.org/src/contrib/plm_1.4-0.tar.gz
 
 build:
   number: 0
@@ -12,16 +12,16 @@ build:
 requirements:
   build:
     - r
-    - r-bdsmatrix
     - r-formula
-    - r-sandwich
+    - r-bdsmatrix
     - r-zoo
+    - r-sandwich
   run:
     - r
-    - r-bdsmatrix
     - r-formula
-    - r-sandwich
+    - r-bdsmatrix
     - r-zoo
+    - r-sandwich
 
 about:
   license: GPL (>= 2)

@@ -1,0 +1,27 @@
+package:
+  name: r-pige
+  version: 0.9
+
+source:
+  fn: PIGE_0.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/PIGE_0.9.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - r
+    - r-snowfall
+    - r-artp
+    - r-xtable
+  run:
+    - r
+    - r-snowfall
+    - r-artp
+    - r-xtable
+
+about:
+  license: GPL (>= 2.0)
+
+# vim:set ts=8 sw=2 sts=2 tw=78 et:

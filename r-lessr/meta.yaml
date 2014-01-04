@@ -1,10 +1,10 @@
 package:
   name: r-lessr
-  version: 2.9.7
+  version: 3.0
 
 source:
-  fn: lessR_2.9.7.tar.gz
-  url: http://cran.r-project.org/src/contrib/lessR_2.9.7.tar.gz
+  fn: lessR_3.0.tar.gz
+  url: http://cran.r-project.org/src/contrib/lessR_3.0.tar.gz
 
 build:
   number: 0

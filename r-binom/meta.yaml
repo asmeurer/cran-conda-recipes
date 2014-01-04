@@ -1,13 +1,13 @@
 package:
   name: r-binom
-  version: 1.0.5
+  version: 1.1.1
 
 source:
-  fn: binom_1.0-5.tar.gz
-  url: http://cran.r-project.org/src/contrib/binom_1.0-5.tar.gz
+  fn: binom_1.1-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/binom_1.1-1.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

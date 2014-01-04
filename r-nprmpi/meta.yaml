@@ -1,13 +1,13 @@
 package:
   name: r-nprmpi
-  version: 0.50.1
+  version: 0.50.1.1
 
 source:
-  fn: npRmpi_0.50-1.tar.gz
-  url: http://cran.r-project.org/src/contrib/npRmpi_0.50-1.tar.gz
+  fn: npRmpi_0.50-1.1.tar.gz
+  url: http://cran.r-project.org/src/contrib/npRmpi_0.50-1.1.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

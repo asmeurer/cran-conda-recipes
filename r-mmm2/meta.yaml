@@ -1,10 +1,10 @@
 package:
   name: r-mmm2
-  version: 1.1
+  version: 1.2
 
 source:
-  fn: mmm2_1.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/mmm2_1.1.tar.gz
+  fn: mmm2_1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/mmm2_1.2.tar.gz
 
 build:
   number: 0

@@ -1,10 +1,10 @@
 package:
   name: r-sharper
-  version: 0.1310
+  version: 0.1401
 
 source:
-  fn: SharpeR_0.1310.tar.gz
-  url: http://cran.r-project.org/src/contrib/SharpeR_0.1310.tar.gz
+  fn: SharpeR_0.1401.tar.gz
+  url: http://cran.r-project.org/src/contrib/SharpeR_0.1401.tar.gz
 
 build:
   number: 0
@@ -12,9 +12,11 @@ build:
 requirements:
   build:
     - r
+    - r-matrixcalc
     - r-xtable
   run:
     - r
+    - r-matrixcalc
     - r-xtable
 
 about:

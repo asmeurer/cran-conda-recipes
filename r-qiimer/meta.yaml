@@ -1,13 +1,13 @@
 package:
   name: r-qiimer
-  version: 0.9.1
+  version: 0.9.2
 
 source:
-  fn: qiimer_0.9.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/qiimer_0.9.1.tar.gz
+  fn: qiimer_0.9.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/qiimer_0.9.2.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

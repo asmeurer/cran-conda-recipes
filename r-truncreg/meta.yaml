@@ -1,10 +1,10 @@
 package:
   name: r-truncreg
-  version: 0.1.1
+  version: 0.2.1
 
 source:
-  fn: truncreg_0.1-1.tar.gz
-  url: http://cran.r-project.org/src/contrib/truncreg_0.1-1.tar.gz
+  fn: truncreg_0.2-1.tar.gz
+  url: http://cran.r-project.org/src/contrib/truncreg_0.2-1.tar.gz
 
 build:
   number: 0

@@ -1,10 +1,10 @@
 package:
   name: r-rbitcoin
-  version: 0.6
+  version: 0.8
 
 source:
-  fn: Rbitcoin_0.6.tar.gz
-  url: http://cran.r-project.org/src/contrib/Rbitcoin_0.6.tar.gz
+  fn: Rbitcoin_0.8.tar.gz
+  url: http://cran.r-project.org/src/contrib/Rbitcoin_0.8.tar.gz
 
 build:
   number: 0

@@ -1,10 +1,10 @@
 package:
   name: r-influence.sem
-  version: 1.1
+  version: 1.2
 
 source:
-  fn: influence.SEM_1.1.tar.gz
-  url: http://cran.r-project.org/src/contrib/influence.SEM_1.1.tar.gz
+  fn: influence.SEM_1.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/influence.SEM_1.2.tar.gz
 
 build:
   number: 0

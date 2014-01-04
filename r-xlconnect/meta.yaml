@@ -1,10 +1,10 @@
 package:
   name: r-xlconnect
-  version: 0.2.5
+  version: 0.2.7
 
 source:
-  fn: XLConnect_0.2-5.tar.gz
-  url: http://cran.r-project.org/src/contrib/XLConnect_0.2-5.tar.gz
+  fn: XLConnect_0.2-7.tar.gz
+  url: http://cran.r-project.org/src/contrib/XLConnect_0.2-7.tar.gz
 
 build:
   number: 0

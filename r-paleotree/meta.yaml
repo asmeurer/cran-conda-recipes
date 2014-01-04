@@ -1,10 +1,10 @@
 package:
   name: r-paleotree
-  version: 1.8.2
+  version: 1.9
 
 source:
-  fn: paleotree_1.8.2.tar.gz
-  url: http://cran.r-project.org/src/contrib/paleotree_1.8.2.tar.gz
+  fn: paleotree_1.9.tar.gz
+  url: http://cran.r-project.org/src/contrib/paleotree_1.9.tar.gz
 
 build:
   number: 0

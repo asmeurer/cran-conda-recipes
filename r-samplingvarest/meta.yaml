@@ -1,10 +1,10 @@
 package:
   name: r-samplingvarest
-  version: 0.9.7
+  version: 0.9.8
 
 source:
-  fn: samplingVarEst_0.9-7.tar.gz
-  url: http://cran.r-project.org/src/contrib/samplingVarEst_0.9-7.tar.gz
+  fn: samplingVarEst_0.9-8.tar.gz
+  url: http://cran.r-project.org/src/contrib/samplingVarEst_0.9-8.tar.gz
 
 build:
   number: 0

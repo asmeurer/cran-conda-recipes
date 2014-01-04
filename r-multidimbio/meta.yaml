@@ -1,26 +1,30 @@
 package:
   name: r-multidimbio
-  version: 0.2.4
+  version: 0.3.2
 
 source:
-  fn: multiDimBio_0.2.4.tar.gz
-  url: http://cran.r-project.org/src/contrib/multiDimBio_0.2.4.tar.gz
+  fn: multiDimBio_0.3.2.tar.gz
+  url: http://cran.r-project.org/src/contrib/multiDimBio_0.3.2.tar.gz
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
     - r
     - r-ggplot2
+    - r-lme4
     - r-pcamethods
     - r-misc3d
+    - r-foreach
     - r-rcolorbrewer
   run:
     - r
     - r-ggplot2
+    - r-lme4
     - r-pcamethods
     - r-misc3d
+    - r-foreach
     - r-rcolorbrewer
 
 about:

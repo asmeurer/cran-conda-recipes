@@ -1,10 +1,10 @@
 package:
   name: r-fdamixed
-  version: 0.2
+  version: 0.3
 
 source:
-  fn: fdaMixed_0.2.tar.gz
-  url: http://cran.r-project.org/src/contrib/fdaMixed_0.2.tar.gz
+  fn: fdaMixed_0.3.tar.gz
+  url: http://cran.r-project.org/src/contrib/fdaMixed_0.3.tar.gz
 
 build:
   number: 0
@@ -12,13 +12,9 @@ build:
 requirements:
   build:
     - r
-    - r-rcpp
-    - r-rcpparmadillo
     - r-formula
   run:
     - r
-    - r-rcpp
-    - r-rcpparmadillo
     - r-formula
 
 about:
