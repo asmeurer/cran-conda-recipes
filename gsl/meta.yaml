@@ -7,7 +7,7 @@ source:
   url: http://ftp.club.cc.cmu.edu/pub/gnu/gsl/gsl-1.16.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

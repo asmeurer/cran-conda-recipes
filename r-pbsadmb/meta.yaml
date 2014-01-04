@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/PBSadmb_0.66.87.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

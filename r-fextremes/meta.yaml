@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/fExtremes_3010.81.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

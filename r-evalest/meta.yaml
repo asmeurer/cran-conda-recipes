@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/EvalEst_2012.4-1.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

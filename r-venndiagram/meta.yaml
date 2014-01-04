@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/VennDiagram_1.6.5.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

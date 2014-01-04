@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/reports_0.1.2.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

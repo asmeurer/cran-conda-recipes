@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/deseasonalize_1.35.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

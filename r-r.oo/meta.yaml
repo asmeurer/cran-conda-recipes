@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/R.oo_1.15.8.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -7,7 +7,7 @@ source:
   url: http://cran.r-project.org/src/contrib/afex_0.7-90.tar.gz
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
